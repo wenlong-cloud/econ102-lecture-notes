@@ -26,10 +26,6 @@ git clone https://github.com/wenlong-cloud/econ102-lecture-notes.git
 
 不用装 Python，不用装 Node，不用起服务器，不用联网。下载下来以后，整个文件夹可以拷到 U 盘、发给同学、放在任何一台电脑上——只要 `docs` 和它里面的 `assets` 待在一起（页面用相对路径找图）。
 
-### 为什么不能在 GitHub 上直接点开看
-
-GitHub 只会把 `.html` 当源码显示给你看，不会渲染成网页。想「在线阅读」得开 GitHub Pages，但那样等于把 886 张课程幻灯片挂成一个公开网站——不干这个，所以这里只提供下载，下载到本地跑。功能一点不少。
-
 ## 里面有什么
 
 ```
