@@ -10,28 +10,25 @@
 
 ## 怎么拿到手
 
-### 方式一：下载压缩包（最省事，不用装任何东西）
-
-1. 打开右边的 **Releases**，点最新那个，下载 `ECON102-lecture-notes.zip`（约 34 MB）
-   直链：<https://github.com/wenlong-cloud/econ102-lecture-notes/releases/latest>
-2. 解压，得到一个 `ECON102-讲义` 文件夹
-3. 双击里面的 **`打开讲义.bat`**，浏览器就开了；打不开就手动双击 `course\index.html`
-
-不用装 Python，不用装 Node，不用起服务器，不用联网。整个文件夹可以拷到 U 盘、发给同学、放在任何一台电脑上——只要 `course` 和 `assets` 两个文件夹待在一起（页面用相对路径找图）。
-
-### 方式二：git clone（想改讲稿的人用这个）
+### 方式一：git clone（会敲命令的用这个）
 
 ```
 git clone https://github.com/wenlong-cloud/econ102-lecture-notes.git
 ```
 
-然后双击 `docs/index.html`。
+进了仓库目录，双击 `docs/index.html` 就行。
 
-这个版本是扁平的（`index.html` 和 `assets/` 同一层），图片压到了 1200px WebP，一共 38 MB。它和压缩包里的内容一样，只是目录结构不同。
+### 方式二：直接下载仓库（不用装 git）
+
+仓库页右上角绿色的 **`Code`** → **`Download ZIP`** → 解压 → 双击解压出来那个文件夹里的 `docs\index.html`。
+
+下载的是整个仓库的快照，约 38 MB，绝大部分是 `docs/assets` 里那 886 张幻灯片图。里面真正能双击运行的入口只有 `docs/index.html` 一个，`src/` 和 `work/` 是讲稿源文件和生成脚本，不用管。
+
+不用装 Python，不用装 Node，不用起服务器，不用联网。下载下来以后，整个文件夹可以拷到 U 盘、发给同学、放在任何一台电脑上——只要 `docs` 和它里面的 `assets` 待在一起（页面用相对路径找图）。
 
 ### 为什么不能在 GitHub 上直接点开看
 
-GitHub 只会把 `.html` 当源码显示给你看，不会渲染成网页。想「在线阅读」得开 GitHub Pages，但那样等于把 886 张课程幻灯片挂成公开网站——我不想这么干，所以这个仓库只提供下载。下载下来在本地跑，功能一点不少。
+GitHub 只会把 `.html` 当源码显示给你看，不会渲染成网页。想「在线阅读」得开 GitHub Pages，但那样等于把 886 张课程幻灯片挂成一个公开网站——不干这个，所以这里只提供下载，下载到本地跑。功能一点不少。
 
 ## 里面有什么
 
@@ -50,7 +47,7 @@ src/            讲稿源文件（Markdown，一页一块）
 work/           生成脚本
   build_site.py    把 Markdown + 术语 + 图片拼成整站
   make_docs.py     生成 docs/
-  pack.py          打离线压缩包（就是 Release 里那个 zip）
+  pack.py          打离线压缩包（自用，产物不进仓库）
   check_notes.py   检查讲稿有没有漏页、某页写得太短
 preview/        README 里的截图
 ```
@@ -83,27 +80,24 @@ preview/        README 里的截图
 2. 充一点钱（10 块够问上千次），左侧「API keys」→ 创建，复制 `sk-` 开头那串
 3. 粘进对话框，点「保存并开始」
 
-Key 只存在你浏览器的 localStorage 里，不会进这个仓库，也不会跟着压缩包传出去。代价是 Chromium 系浏览器里所有 `file://` 页面共用同一份 localStorage，所以别人发来的本地网页理论上也能读到它——自己电脑上无所谓，公共电脑上别填。
+Key 只存在你浏览器的 localStorage 里，不会进这个仓库，也不会跟着代码传出去。代价是 Chromium 系浏览器里所有 `file://` 页面共用同一份 localStorage，所以别人发来的本地网页理论上也能读到它——自己电脑上无所谓，公共电脑上别填。
 
 ## 改了讲稿怎么重建
 
 ```powershell
 python work/build_site.py     # 重建 course/（全质量版，用 1600px 原图）
 python work/make_docs.py      # 重建 docs/（仓库里这份，1200px WebP）
-python work/pack.py           # 重新打 Release 用的 zip
 ```
 
 `build_site.py` 需要两样东西：`work/<讲次>.json`（每页文字，仓库里有）和 `assets/<讲次>/slide-NNN.png`（幻灯片原图，仓库里没有）。后者是从课程文件导出的，课程文件本身有版权也有几百 MB，所以没放进来。只改讲稿文字的话，用现成的 `docs/` 就够——它已经带着图了。
 
-## 为什么 zip 放在 Release，不直接传进仓库
+`work/pack.py` 能把整套东西打成离线压缩包发给别人，纯粹自用，产物在 `dist/`，不进仓库。
 
-三个原因，都挺实在：
+## 为什么仓库里没有 zip
 
-1. **git 会记住每一个版本。** 一个 34 MB 的 zip 提交进去，将来每改一次重新上传，仓库就再多 34 MB，历史永远带着这些旧包。Release 的附件不进版本历史，删了就是删了。
-2. **下载体验不一样。** Release 有一个固定直链（`/releases/latest`），点一下就下；而仓库里的 zip 得先点进文件、再点 Download，手机上尤其别扭。
-3. **别人 clone 的时候不用拖着 34 MB 二进制。** 仓库里已经有 `docs/assets` 那 886 张图（38 MB），再塞一个装同样内容的 zip 就是重复。
+一个 34 MB 的压缩包提交进去，往后每改一次重新传一遍，git 会把每个版本都存着，仓库这辈子都在拖着几十个旧包，clone 越来越慢。仓库里本来就已经有 `docs/assets` 那 886 张图了，再塞一个装同样内容的 zip 就是重复。
 
-顺带一句：GitHub 仓库本身的「Download ZIP」按钮不好用在这——它会把 `work/`、`src/`、`.git` 相关的东西全打包，解压出来是一堆源码，不是能双击运行的东西。Release 里那个包只有该有的东西。
+有人可能想问：那把 zip 放到 Release 附件里呢？也行，但那样外人下载要先进仓库页面点两下，而 clone 或 `Download ZIP` 本来就能拿到完整可运行的东西——多一个发布渠道只会让人猜「我到底该下哪个」。所以这里就一条路：克隆或者下载仓库，双击 `docs/index.html`。
 
 ## 版权
 
