@@ -82,23 +82,6 @@ preview/        README 里的截图
 
 Key 只存在你浏览器的 localStorage 里，不会进这个仓库，也不会跟着代码传出去。代价是 Chromium 系浏览器里所有 `file://` 页面共用同一份 localStorage，所以别人发来的本地网页理论上也能读到它——自己电脑上无所谓，公共电脑上别填。
 
-## 改了讲稿怎么重建
-
-```powershell
-python work/build_site.py     # 重建 course/（全质量版，用 1600px 原图）
-python work/make_docs.py      # 重建 docs/（仓库里这份，1200px WebP）
-```
-
-`build_site.py` 需要两样东西：`work/<讲次>.json`（每页文字，仓库里有）和 `assets/<讲次>/slide-NNN.png`（幻灯片原图，仓库里没有）。后者是从课程文件导出的，课程文件本身有版权也有几百 MB，所以没放进来。只改讲稿文字的话，用现成的 `docs/` 就够——它已经带着图了。
-
-`work/pack.py` 能把整套东西打成离线压缩包发给别人，纯粹自用，产物在 `dist/`，不进仓库。
-
-## 为什么仓库里没有 zip
-
-一个 34 MB 的压缩包提交进去，往后每改一次重新传一遍，git 会把每个版本都存着，仓库这辈子都在拖着几十个旧包，clone 越来越慢。仓库里本来就已经有 `docs/assets` 那 886 张图了，再塞一个装同样内容的 zip 就是重复。
-
-有人可能想问：那把 zip 放到 Release 附件里呢？也行，但那样外人下载要先进仓库页面点两下，而 clone 或 `Download ZIP` 本来就能拿到完整可运行的东西——多一个发布渠道只会让人猜「我到底该下哪个」。所以这里就一条路：克隆或者下载仓库，双击 `docs/index.html`。
-
 ## 版权
 
 幻灯片是课程作者（浙江大学 Mohan Zhou）和教材作者（Acemoglu–Laibson–List《Economics》、Landsburg《Price Theory》、Varian《Intermediate Microeconomics》）的东西，不是我的。放图片纯粹是为了「看着原图读讲稿」这个学习场景；**中文讲稿、术语解释、站点代码是我写的**。
