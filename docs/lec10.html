@@ -1,0 +1,1383 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>博弈论：策略互动与均衡 · 微观经济学讲义</title>
+<link rel="stylesheet" href="style.css"></head>
+<body class="lec">
+<header class="topbar">
+  <div class="brand"><a href="index.html">微观经济学 · 逐页精讲</a></div>
+  <nav class="nav"><a class="navbtn" href="index.html">大纲</a><a class="navbtn" href="glossary.html#lec10">术语表 · 30</a><a class="navbtn" href="lec09.html">← L9 税收与管制</a><a class="navbtn" href="lec12.html">L12 信息技术 →</a><button class="ask-open navask" type="button" data-ask>问老师</button></nav>
+</header>
+
+<div class="layout">
+  <aside class="side">
+    <div class="side-inner">
+      <h2>L10 博弈论</h2>
+      <p class="side-sub">博弈论：策略互动与均衡</p>
+      <input id="filter" type="search" placeholder="筛选本讲页码 / 关键词">
+      <div class="ask">
+        <button class="ask-open" type="button" data-ask>问老师 · 这一页哪里不懂？</button>
+        <p class="ask-hint">用 DeepSeek 直接回答，会带上你正在看的这一讲和这一页。</p>
+      </div>
+      <div class="toc"><a href="#s1" data-n="1"><b>1</b>Simultaneous-Move Games</a><a href="#s2" data-n="2"><b>2</b>Example</a><a href="#s3" data-n="3"><b>3</b>1. If neither of you confesses to havi</a><a href="#s4" data-n="4"><b>4</b>Key elements of any game:</a><a href="#s5" data-n="5"><b>5</b>Key elements of any game</a><a href="#s6" data-n="6"><b>6</b>Key elements of any game</a><a href="#s7" data-n="7"><b>7</b>The scenario is a classic one known as</a><a href="#s8" data-n="8"><b>8</b>We also assume that other potentially </a><a href="#s9" data-n="9"><b>9</b>Best Responses and the Prisoners’ Dile</a><a href="#s10" data-n="10"><b>10</b>先假设 Josie 选 Hold Out</a><a href="#s11" data-n="11"><b>11</b>再假设 Josie 选 Confess</a><a href="#s12" data-n="12"><b>12</b>Conclusion: no matter what you think J</a><a href="#s13" data-n="13"><b>13</b>Dominant Strategies and Dominant Strat</a><a href="#s14" data-n="14"><b>14</b>Dominant Strategies and Dominant Strat</a><a href="#s15" data-n="15"><b>15</b>Dominant Strategy Equilibrium</a><a href="#s16" data-n="16"><b>16</b>The “dilemma”</a><a href="#s17" data-n="17"><b>17</b>The “dilemma”</a><a href="#s18" data-n="18"><b>18</b>The Payoff Matrix of a Game</a><a href="#s19" data-n="19"><b>19</b>Games without Dominant Strategies</a><a href="#s20" data-n="20"><b>20</b>A summary of the three key elements</a><a href="#s21" data-n="21"><b>21</b>收益矩阵</a><a href="#s22" data-n="22"><b>22</b>What should you do? What is your best </a><a href="#s23" data-n="23"><b>23</b>Best response</a><a href="#s24" data-n="24"><b>24</b>Do you have a dominant strategy in thi</a><a href="#s25" data-n="25"><b>25</b>A key concept in game theory: you don’</a><a href="#s26" data-n="26"><b>26</b>In such cases, where should we expect </a><a href="#s27" data-n="27"><b>27</b>Nash Equilibrium</a><a href="#s28" data-n="28"><b>28</b>Equilibrium concept we used in markets</a><a href="#s29" data-n="29"><b>29</b>Nash Equilibrium</a><a href="#s30" data-n="30"><b>30</b>Nash equilibrium</a><a href="#s31" data-n="31"><b>31</b>Nash</a><a href="#s32" data-n="32"><b>32</b>Nash</a><a href="#s33" data-n="33"><b>33</b>回到冲浪店的矩阵</a><a href="#s34" data-n="34"><b>34</b>Nash equilibria</a><a href="#s35" data-n="35"><b>35</b>Applications of Nash Equilibria</a><a href="#s36" data-n="36"><b>36</b>Tragedies of commons with two firms</a><a href="#s37" data-n="37"><b>37</b>矩阵</a><a href="#s38" data-n="38"><b>38</b>As in the prisoners’ dilemma game, the</a><a href="#s39" data-n="39"><b>39</b>This simple game structure contains so</a><a href="#s40" data-n="40"><b>40</b>Zero-Sum Games</a><a href="#s41" data-n="41"><b>41</b>The goalie will try to anticipate your</a><a href="#s42" data-n="42"><b>42</b>In this example, the payoff matrix rep</a><a href="#s43" data-n="43"><b>43</b>A summary of the three key elements in</a><a href="#s44" data-n="44"><b>44</b>Zero-sum games are quite common in the</a><a href="#s45" data-n="45"><b>45</b>No Nash equilibrium exists, because no</a><a href="#s46" data-n="46"><b>46</b>In fact, choosing randomly has a clear</a><a href="#s47" data-n="47"><b>47</b>Reasoning this way, we can see that an</a><a href="#s48" data-n="48"><b>48</b>How Do People Actually Play Such Games</a><a href="#s49" data-n="49"><b>49</b>Do people really play Nash equilibria </a><a href="#s50" data-n="50"><b>50</b>The first reason is that we often do n</a><a href="#s51" data-n="51"><b>51</b>A second reason: game theory is only a</a><a href="#s52" data-n="52"><b>52</b>In many situations, one player may be </a><a href="#s53" data-n="53"><b>53</b>Game Theory in Penalty Kicks</a><a href="#s54" data-n="54"><b>54</b>Three economists decided to analyze al</a><a href="#s55" data-n="55"><b>55</b>They classified kickers’ and goalies’ </a><a href="#s56" data-n="56"><b>56</b>Amazingly, this is just what the econo</a><a href="#s57" data-n="57"><b>57</b>Extensive-Form Games</a><a href="#s58" data-n="58"><b>58</b>The games that we have discussed so fa</a><a href="#s59" data-n="59"><b>59</b>这一页是空白过渡页</a><a href="#s60" data-n="60"><b>60</b>In extensive-form games, the strategie</a><a href="#s61" data-n="61"><b>61</b>A game tree</a><a href="#s62" data-n="62"><b>62</b>Backward Induction</a><a href="#s63" data-n="63"><b>63</b>First-Mover Advantage, commitment</a><a href="#s64" data-n="64"><b>64</b>We say that the sequential game featur</a><a href="#s65" data-n="65"><b>65</b>Suppose Gina threaten you with punishm</a><a href="#s66" data-n="66"><b>66</b>A game tree</a><a href="#s67" data-n="67"><b>67</b>A game tree</a><a href="#s68" data-n="68"><b>68</b>Is there any way that Gina can turn th</a><a href="#s69" data-n="69"><b>69</b>Several modes of behavior may be under</a><a href="#s70" data-n="70"><b>70</b>If you can commit to punishing bullies</a><a href="#s71" data-n="71"><b>71</b>Game Applications</a><a href="#s72" data-n="72"><b>72</b>Best Response Curves and Nash Equilibr</a><a href="#s73" data-n="73"><b>73</b>Best Response Curves</a><a href="#s74" data-n="74"><b>74</b>Mixed Strategies</a><a href="#s75" data-n="75"><b>75</b>把四种组合的概率与收益列成表</a><a href="#s76" data-n="76"><b>76</b>Mixed Strategies</a><a href="#s77" data-n="77"><b>77</b>Mixed Strategies</a><a href="#s78" data-n="78"><b>78</b>Mixed Strategies</a><a href="#s79" data-n="79"><b>79</b>Games of Coordination</a><a href="#s80" data-n="80"><b>80</b>Example: Battle of the Sexes</a><a href="#s81" data-n="81"><b>81</b>What are the Nash equilibria of this g</a><a href="#s82" data-n="82"><b>82</b>Battle of the Sexes</a><a href="#s83" data-n="83"><b>83</b>Hard to predict which equilibrium will</a><a href="#s84" data-n="84"><b>84</b>Example 2: prisoner’s dilemma</a><a href="#s85" data-n="85"><b>85</b>Example 3: Assurance Games</a><a href="#s86" data-n="86"><b>86</b>The trouble is, neither party knows wh</a><a href="#s87" data-n="87"><b>87</b>Example 4: Chicken</a><a href="#s88" data-n="88"><b>88</b>Example 4: Chicken</a><a href="#s89" data-n="89"><b>89</b>So how can one of the players enforce </a><a href="#s90" data-n="90"><b>90</b>《史记·项羽本纪》</a><a href="#s91" data-n="91"><b>91</b>Games of Coordination</a><a href="#s92" data-n="92"><b>92</b>Games of Competition</a><a href="#s93" data-n="93"><b>93</b>Penalty Kick Game</a><a href="#s94" data-n="94"><b>94</b>Penalty Kick Game</a><a href="#s95" data-n="95"><b>95</b>（图示页）</a><a href="#s96" data-n="96"><b>96</b>Penalty Kick Game</a><a href="#s97" data-n="97"><b>97</b>Games of Coexistence</a><a href="#s98" data-n="98"><b>98</b>Hawk-dove game</a><a href="#s99" data-n="99"><b>99</b>Assume the fraction playing hawk is p.</a><a href="#s100" data-n="100"><b>100</b>If H&gt;D, the fraction of hawk types in </a><a href="#s101" data-n="101"><b>101</b>Games of Coexistence</a><a href="#s102" data-n="102"><b>102</b>Hawk-Dove Game</a><a href="#s103" data-n="103"><b>103</b>Games of Commitment</a><a href="#s104" data-n="104"><b>104</b>Games of Commitment</a><a href="#s105" data-n="105"><b>105</b>青蛙和蝎子</a><a href="#s106" data-n="106"><b>106</b>The Frog and the Scorpion</a><a href="#s107" data-n="107"><b>107</b>Stinging has a higher payoff to the sc</a><a href="#s108" data-n="108"><b>108</b>Games of Commitment</a><a href="#s109" data-n="109"><b>109</b>Games of Commitment</a><a href="#s110" data-n="110"><b>110</b>Games of Commitment</a><a href="#s111" data-n="111"><b>111</b>Games of Commitment</a><a href="#s112" data-n="112"><b>112</b>《史记·王翦列传》</a><a href="#s113" data-n="113"><b>113</b>Games of Commitment</a><a href="#s114" data-n="114"><b>114</b>When Strength Is Weakness</a><a href="#s115" data-n="115"><b>115</b>这一页是空白过渡页</a><a href="#s116" data-n="116"><b>116</b>When strength is weakness</a><a href="#s117" data-n="117"><b>117</b>When Strength Is Weakness</a><a href="#s118" data-n="118"><b>118</b>Saving and Social Security</a><a href="#s119" data-n="119"><b>119</b>Games of Commitment</a><a href="#s120" data-n="120"><b>120</b>Games of Commitment</a><a href="#s121" data-n="121"><b>121</b>Hold Up 敲竹杠</a><a href="#s122" data-n="122"><b>122</b>树</a><a href="#s123" data-n="123"><b>123</b>Hold Up</a><a href="#s124" data-n="124"><b>124</b>Bargaining game</a><a href="#s125" data-n="125"><b>125</b>Bargaining</a><a href="#s126" data-n="126"><b>126</b>Bargaining</a><a href="#s127" data-n="127"><b>127</b>Bargaining</a><a href="#s128" data-n="128"><b>128</b>Bargaining</a></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="lec-hero">
+      <div class="crumb">第 10 讲 · 博弈论</div>
+      <h1>博弈论：策略互动与均衡</h1>
+      <p class="lead">囚徒困境与占优策略、纳什均衡、零和博弈、混合策略、序贯博弈与逆向归纳、承诺与可信威胁、讨价还价。</p>
+      <div class="meta">共 <b>128</b> 页课件 · 已精讲 <b>128</b> 页（100%）</div>
+      <div class="topics"><h3>本讲要点</h3><ul><li>囚徒困境</li><li>占优策略</li><li>纳什均衡</li><li>零和博弈</li><li>混合策略</li><li>扩展式与逆向归纳</li><li>承诺</li><li>讨价还价</li></ul></div>
+      
+    </div>
+    <section class="slide" id="s1" data-n="1">
+  <div class="slide-head"><span class="pno">P1</span><span class="ptitle">Simultaneous-Move Games</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-001.webp" alt="第1页"><figcaption>课件第 1 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>标题页：<strong><a class="term" href="glossary.html#t-simultaneous-move-game" data-t="simultaneous-move-game">同时行动博弈</a></strong>（Simultaneous-Move Games）。这一讲共 128 页，是全课最长的一讲，值得先给一张地图。</p>
+<ul><li>前半段（P1–P56）：两人<strong>同时</strong>出手——<a class="term" href="glossary.html#t-prisoners-dilemma" data-t="prisoners-dilemma">囚徒困境</a>、<a class="term" href="glossary.html#t-dominant-strategy" data-t="dominant-strategy">占优策略</a>、纳什均衡、零和与混合策略。</li><li>后半段（P57–P128）：有先有后——博弈树、逆向归纳、承诺、议价。</li></ul>
+<p>一句话概括这门学问：<strong>我的最优取决于你怎么做，你的最优也取决于我怎么做</strong>。只要出现这种相互依赖，就轮到博弈论上场。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Simultaneous-Move Games</pre></details>
+</section><section class="slide" id="s2" data-n="2">
+  <div class="slide-head"><span class="pno">P2</span><span class="ptitle">Example</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-002.webp" alt="第2页"><figcaption>课件第 2 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>用一个犯罪故事开场。</p>
+<p>你刚持枪抢了银行，和同伙 <strong>Josie</strong> 在接应车上被抓。被捕之前，两人把枪扔进了下水道——所以警察手上没有物证。于是他们把你们分开，关进两间审讯室。</p>
+<p>注意剧本里最关键的三个字：<strong>分开审</strong>。如果能串供，这个故事在第一页就结束了——只要两人咬死不说，抢劫罪最多 2 年。分开，才让「各说各话」变成一门学问。</p>
+<p>老师补充：这是囚徒困境的标准包装，后面一直用 she 指代 Josie。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Example
+---
+Imagine yourself in the shoes of a person who has just committed armed robbery of a bank. 
+You and your partner in crime, Josie, are caught in the get-away vehicle,
+But before apprehension you both toss your guns into a drain. 
+The police take both of you into the local police station and place you in separate interrogation rooms.</pre></details>
+</section><section class="slide" id="s3" data-n="3">
+  <div class="slide-head"><span class="pno">P3</span><span class="ptitle">1. If neither of you confesses to having a gun during the crime, you are both lo</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-003.webp" alt="第3页"><figcaption>课件第 3 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>两位警探对你说的话，和对 Josie 说的话<strong>完全一样</strong>，一共三个选项：</p>
+<ol><li>两人都不认（<a class="term" href="glossary.html#t-holdout" data-t="holdout">hold out</a>）：持枪这一条不成立，按抢劫判，<strong>各 2 年</strong>。</li><li>只有一人认罪：认的人<strong>当场释放</strong>，另一人重判 <strong>10 年</strong>。</li><li>两人都认：检察官愿意协商，<strong>各 5 年</strong>。</li></ol>
+<p>问题：你该怎么办？</p>
+<p>先注意一件事——这三个句子其实已经把<strong>你的全部收益</strong>写完了。剩下的唯一未知，是 Josie 会选哪个。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>1. If neither of you confesses to having a gun during the crime, you are both looking at jail time of 2 years for the robbery.
+2. If one confesses to having a gun, the confessor goes free and the other serves substantial jail time—10 years.
+3. If both of you confess to having a gun, then jail terms will be negotiated down to 5 years.
+ What should you do?
+---
+When the detectives enter your room, they outline three options for you and they told Josie the same thing</pre></details>
+</section><section class="slide" id="s4" data-n="4">
+  <div class="slide-head"><span class="pno">P4</span><span class="ptitle">Key elements of any game:</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-004.webp" alt="第4页"><figcaption>课件第 4 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>任何博弈都只有三个要素，缺一不可：</p>
+<ul><li><strong>参与者</strong>（players）：谁在下这盘棋；</li><li><strong>策略</strong>（strategies）：每个人可以做什么；</li><li><strong>收益</strong>（payoffs）：每一种组合下，每个人各得到什么。</li></ul>
+<p>建模时漏掉一个策略，结论可能整个翻转；收益写错方向（比如把坐牢年数当成正效用），则会得出「大家都想多坐几年」的荒谬结论。</p>
+<p>后面每一个案例，我们都按这三行来拆。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Key elements of any game:
+---
+1. The players
+2. The strategies
+3. The payoffs</pre></details>
+</section><section class="slide" id="s5" data-n="5">
+  <div class="slide-head"><span class="pno">P5</span><span class="ptitle">Key elements of any game</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-005.webp" alt="第5页"><figcaption>课件第 5 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把三要素落到本案：</p>
+<ul><li><strong>Players</strong>：You and Josie，两个人。</li><li><strong>Strategies</strong>：<strong>Confess</strong>（认罪）或 <strong>Hold Out</strong>（不认）。</li><li><strong>Payoffs</strong>：下一页那张 2×2 的表。</li></ul>
+<p>两人各两个策略，一共 2×2 = 4 种组合。整讲的分析都发生在这四个格子里——这就是「同时博弈」的全部舞台，小得可以画在一张幻灯片上，却足够撑起半个经济学。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Key elements of any game</pre></details>
+</section><section class="slide" id="s6" data-n="6">
+  <div class="slide-head"><span class="pno">P6</span><span class="ptitle">Key elements of any game</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-006.webp" alt="第6页"><figcaption>课件第 6 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong><a class="term" href="glossary.html#t-payoff-matrix" data-t="payoff-matrix">收益矩阵</a></strong>（payoff matrix）的定义：把每个参与者在各种行动组合下的收益排成一张表。</p>
+<ul><li>本例里「坐牢年数越多，收益越低」，所以数字是<strong>负向</strong>的：0 年最好，10 年最差。</li><li>博弈论当然可以装进忠诚、义气、愧疚这类收益，但这里<strong>故意剔除</strong>，只留纯粹的自利。</li><li>读法：行玩家选行、列玩家选列，格子里的两个数字依次是（行玩家收益, 列玩家收益）。</li></ul>
+<p>一句话：矩阵是博弈的「会计报表」，先把账记清楚，再谈策略。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Key elements of any game
+---
+A payoff matrix represents the payoffs for each action players can take in a game. 
+More years in jail represent lower payoffs.
+Game theory can easily include things like loyalty and kindness payoffs, but here we remove those considerations.</pre></details>
+</section><section class="slide" id="s7" data-n="7">
+  <div class="slide-head"><span class="pno">P7</span><span class="ptitle">The scenario is a classic one known as the “prisoners’ dilemma.” A simultaneous-</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-007.webp" alt="第7页"><figcaption>课件第 7 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这个情形有个名字：<strong>囚徒困境</strong>（prisoners' dilemma）。</p>
+<p>它同时是一个<strong>同时行动博弈</strong>（simultaneous-move game）：两人在同一时刻选，谁也不知道对方选了什么。</p>
+<p>但有一个很强的假设：<strong>双方都知道整张收益矩阵</strong>——你知道 Josie 每种选择下的结果，她也知道你的。</p>
+<p>老师补充：不知道对方收益的博弈叫「不完全信息」，那是另一门课的内容；本讲所有博弈都是「大家都看得见账本」。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The scenario is a classic one known as the “prisoners’ dilemma.” 
+A simultaneous-move game: players select their actions at the same time. 
+both you and Josie have to pick your action simultaneously
+without knowing the other person’s choice. 
+But it is assumed that you each do know the entire payoff matrix—that is, you each know the payoffs for both players.</pre></details>
+</section><section class="slide" id="s8" data-n="8">
+  <div class="slide-head"><span class="pno">P8</span><span class="ptitle">We also assume that other potentially important features, such as retribution af</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-008.webp" alt="第8页"><figcaption>课件第 8 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>再补一条假设：出狱后的报复、江湖上的名声，这些因素<strong>不影响</strong>本博弈的收益。</p>
+<p>这不是说现实中不存在，而是我们先把它们关掉，看清最纯粹的激励结构。等工具练熟了，P69 再把「声誉」放回模型里。</p>
+<p>现在可以问那个博弈论专门用来回答的问题：<strong>你该怎么办？</strong></p>
+<p>注意提问方式——不是「你会怎么做」，而是「<strong>应该</strong>怎么做」。博弈论给的是理性建议，不是心理描述。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>We also assume that other potentially important features, such as retribution after jail time is served, do not influence the payoffs of this game. 
+We are now in a position to ask the question game theory equips us to answer: what should you do?</pre></details>
+</section><section class="slide" id="s9" data-n="9">
+  <div class="slide-head"><span class="pno">P9</span><span class="ptitle">Best Responses and the Prisoners’ Dilemma</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-009.webp" alt="第9页"><figcaption>课件第 9 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>回答的方法只有一步：<strong>站在对方的位置上想</strong>。</p>
+<ol><li>先列出对方所有可能的行动；</li><li>对每一个行动，问「这种情况下我最好的选择是什么」。</li></ol>
+<p>这个「针对对方某个具体策略的最优选择」，叫<strong><a class="term" href="glossary.html#t-best-response" data-t="best-response">最优反应</a></strong>（best response）。</p>
+<p>注意它是<strong>条件句</strong>而不是结论：先说「如果她……」，才说「那么我……」。丢了前半句，后半句就没有意义。下一页我们就一条一条地算。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Best Responses and the Prisoners’ Dilemma
+---
+A first step in figuring out how to play any game is to put yourself in the shoes of the other player. 
+That is, to think about what every possible action of the other player might be 
+Then, what your best choice will be for each of them.</pre></details>
+</section><section class="slide" id="s10" data-n="10">
+  <div class="slide-head"><span class="pno">P10</span><span class="ptitle">先假设 Josie 选 Hold Out</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-010.webp" alt="第10页"><figcaption>课件第 10 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>先假设 Josie 选 <strong>Hold Out</strong>（不认），只看矩阵的<strong>这一列</strong>：</p>
+<table class="tbl"><thead><tr><th>你 \ Josie</th><th>Hold Out</th></tr></thead><tbody><tr><td>Confess</td><td>你被释放，Josie 10 年</td></tr><tr><td>Hold Out</td><td>各 2 年</td></tr></tbody></table>
+<p>你面对的两个数字：<strong>0 年</strong> 和 <strong>2 年</strong>。0 &lt; 2，所以<strong>认罪更优</strong>。</p>
+<p>这就是「在 Josie 不认的前提下，你的最优反应是认罪」。</p></div>
+</section><section class="slide" id="s11" data-n="11">
+  <div class="slide-head"><span class="pno">P11</span><span class="ptitle">再假设 Josie 选 Confess</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-011.webp" alt="第11页"><figcaption>课件第 11 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>再假设 Josie 选 <strong>Confess</strong>，只看另一列：</p>
+<table class="tbl"><thead><tr><th>你 \ Josie</th><th>Confess</th></tr></thead><tbody><tr><td>Confess</td><td>各 5 年</td></tr><tr><td>Hold Out</td><td>你 10 年，Josie 释放</td></tr></tbody></table>
+<p>你的两个数字变成 <strong>5 年</strong> 和 <strong>10 年</strong>，<strong>认罪仍然更优</strong>。</p>
+<p>两列指向同一个答案——这件事比答案本身更重要。它意味着你不需要预测 Josie，也不需要相信她理性，照样知道该怎么做。下一页给它命名。</p></div>
+</section><section class="slide" id="s12" data-n="12">
+  <div class="slide-head"><span class="pno">P12</span><span class="ptitle">Conclusion: no matter what you think Josie will do, you should always confess. T</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-012.webp" alt="第12页"><figcaption>课件第 12 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>结论：</p>
+<blockquote>无论你认为 Josie 会怎么做，你都应该认罪。</blockquote>
+<ul><li>她不认 → 你认罪可以当场走出去；</li><li>她认了 → 你认罪只判 5 年，硬撑要 10 年。</li></ul>
+<p>在一个充满不确定的博弈里，居然存在一个「不用猜」的选择——这是极强的性质。经济学给它起了个名字，叫占优。</p>
+<p>注意这个结论的<strong>强度</strong>：它不要求你了解 Josie 的性格，不要求她理性，也不要求你猜对——只要她有自己的选择，认罪就不亏。信息要求这么低的预测，在经济学里非常少见，所以占优策略才显得珍贵。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Conclusion: no matter what you think Josie will do, you should always confess. 
+This means that when you are placed in such a game, you should always choose to confess, regardless of what you think your partner will do.</pre></details>
+</section><section class="slide" id="s13" data-n="13">
+  <div class="slide-head"><span class="pno">P13</span><span class="ptitle">Dominant Strategies and Dominant Strategy Equilibrium</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-013.webp" alt="第13页"><figcaption>课件第 13 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>定义：如果某个策略是玩家对<strong>其他玩家每一个可能策略</strong>的最优反应，就说这个玩家有<strong>占优策略</strong>（dominant strategy）。</p>
+<p>在囚徒困境里，认罪就是占优策略：它对「对方认」和「对方不认」两种情形<strong>都</strong>最优。</p>
+<p>两个常见误解要拆掉：</p>
+<ul><li>占优不是「我的收益比对方高」，而是「我自己的这个选择，在每种情形下都比我的其他选择好」；</li><li>占优不是「收益最大」，是「无论如何都不后悔」。</li></ul></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Dominant Strategies and Dominant Strategy Equilibrium
+---
+Definition: When a player has the same best response to every possible strategy of the other player(s), then we say that the player has a dominant strategy. 
+In the prisoner’s dilemma, confessing is a dominant strategy, because it is your best response to any strategy choice of your partner.</pre></details>
+</section><section class="slide" id="s14" data-n="14">
+  <div class="slide-head"><span class="pno">P14</span><span class="ptitle">Dominant Strategies and Dominant Strategy Equilibrium</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-014.webp" alt="第14页"><figcaption>课件第 14 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>对 Josie 做完全相同的练习，你会发现她的占优策略<strong>也是认罪</strong>——矩阵是对称的，她的每一列/行都对应你的每一行/列。</p>
+<p>当<strong>双方都有占优策略</strong>时，<a class="term" href="glossary.html#t-equilibrium" data-t="equilibrium">均衡</a>概念就变得极其简单：不需要猜、不需要协调、不需要沟通，各自选自己的占优策略就完事了。</p>
+<p>下一页给这个组合一个正式名字，然后我们看它为什么是个「困境」。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Dominant Strategies and Dominant Strategy Equilibrium
+---
+After doing the same exercise for Josie, you realize that Josie has a dominant strategy of confessing, too. 
+When a dominant strategy exists for both players, the notion of equilibrium for the game is straightforward.</pre></details>
+</section><section class="slide" id="s15" data-n="15">
+  <div class="slide-head"><span class="pno">P15</span><span class="ptitle">Dominant Strategy Equilibrium</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-015.webp" alt="第15页"><figcaption>课件第 15 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>定义：如果每个玩家选的都是自己的占优策略，这个策略组合就叫<strong><a class="term" href="glossary.html#t-dominant-strategy-equilibrium" data-t="dominant-strategy-equilibrium">占优策略均衡</a></strong>（dominant strategy equilibrium）。</p>
+<p>本例的占优策略均衡是（<strong>Confess, Confess</strong>）：两人各判 <strong>5 年</strong>。</p>
+<p>老师补充：这是所有均衡概念里最「硬」的一个——它甚至不要求你相信对方是理性的，因为不管你信不信，你的答案都一样。也正因如此，它是比较少见的奢侈品。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Dominant Strategy Equilibrium
+---
+Definition: A strategy combination for the players is a dominant strategy equilibrium if the relevant strategy for each player is a dominant strategy. 
+In the game above, there is a dominant strategy equilibrium: both players should confess because confessing is a dominant strategy for each player</pre></details>
+</section><section class="slide" id="s16" data-n="16">
+  <div class="slide-head"><span class="pno">P16</span><span class="ptitle">The “dilemma”</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-016.webp" alt="第16页"><figcaption>课件第 16 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>困境</strong>在哪里？</p>
+<p>这个均衡的结果，对双方都<strong>不是最好</strong>的。两人都 Hold Out 各判 2 年，都认罪各判 5 年；2 &lt; 5，双方都宁愿（Hold Out, Hold Out）。</p>
+<p>可占优策略均衡偏偏把两人推到（Confess, Confess）。</p>
+<p>这就是 dilemma 的确切含义：<strong>每个人都在做对自己最有利的事，合起来却得到对所有人都不利的结果</strong>。个体理性，集体不理性——这不是愚蠢，是结构。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The “dilemma”
+---
+Interestingly, this equilibrium leads to an outcome that is NOT best for both players. 
+Even though both you and Josie would be better off if you both held out, the dominant strategy equilibrium is for both of you to confess! 
+This situation is the heart of the paradox that we have been studying so far—the prisoners’ dilemma.</pre></details>
+</section><section class="slide" id="s17" data-n="17">
+  <div class="slide-head"><span class="pno">P17</span><span class="ptitle">The “dilemma”</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-017.webp" alt="第17页"><figcaption>课件第 17 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把两组数字并排放：</p>
+<ul><li>均衡（Confess, Confess）：各 <strong>5 年</strong>；</li><li>合作（Hold Out, Hold Out）：各 <strong>2 年</strong>。</li></ul>
+<p>两人都偏好后者，却都选了前者。原因不是短视，而是<strong>每个人单独偏离都对自己有利</strong>：给定对方不认，你认罪就能从 2 年降到 0 年。</p>
+<p>结论一句话：<strong>没有可执行的协议时，合作撑不住</strong>。这也解释了为什么现实中的卡特尔、<a class="term" href="glossary.html#t-price-ceiling-2" data-t="price-ceiling-2">限价</a>协议、军控条约，都必须靠外部 enforcement。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The “dilemma”
+---
+By confessing, you and Josie will each spend 5 years in prison.
+However, if you were both to hold out, you would each spend 2 years in prison. 
+Both of you prefer the outcome (Hold Out, Hold Out).
+Nevertheless, both of you choose confess</pre></details>
+</section><section class="slide" id="s18" data-n="18">
+  <div class="slide-head"><span class="pno">P18</span><span class="ptitle">The Payoff Matrix of a Game</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-018.webp" alt="第18页"><figcaption>课件第 18 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页是一张通用矩阵，教你<strong>怎么读表</strong>：</p>
+<table class="tbl"><thead><tr><th>A \ B</th><th>Left</th><th>Right</th></tr></thead><tbody><tr><td>Top</td><td>1, 2</td><td>0, 1</td></tr><tr><td>Bottom</td><td>2, 1</td><td>1, 0</td></tr></tbody></table>
+<p>固定一列，比较行玩家自己的两个数字；再固定一行，比较列玩家的两个数字。</p>
+<p>在<strong>这张</strong>表里，B 的 Left 是占优策略（2 &gt; 1、1 &gt; 0），A 对此的最优反应是 Bottom（2 &gt; 1），所以均衡是（Bottom, Left）。</p>
+<p>老师补充：读表的顺序永远是「先看别人，再看自己」，别一上来就盯着自己的收益发呆。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Payoff Matrix of a Game</pre></details>
+</section><section class="slide" id="s19" data-n="19">
+  <div class="slide-head"><span class="pno">P19</span><span class="ptitle">Games without Dominant Strategies</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-019.webp" alt="第19页"><figcaption>课件第 19 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>换一个<strong>没有占优策略</strong>的例子。</p>
+<p>你和朋友 <strong>Gina</strong> 都是冲浪爱好者，合伙在街上开了家冲浪店 <strong>Hang Ten</strong>。主要竞争对手是街那头的 <strong>La Jolla</strong>。</p>
+<p>你们要决定的一件事：<strong>要不要做广告</strong>。</p>
+<p>注意这个结构：你的收益取决于对方做不做广告。这正是<a class="term" href="glossary.html#t-nash-equilibrium" data-t="nash-equilibrium">纳什均衡</a>要处理的情形——从此开始，「猜对方」重新变得重要。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Games without Dominant Strategies
+---
+Example
+You and your friend Gina, both like surfers, open up a surf shop, Hang Ten. 
+Your main competition is a surf shop down the street, La Jolla.
+One key decision that you must make is whether to advertise.</pre></details>
+</section><section class="slide" id="s20" data-n="20">
+  <div class="slide-head"><span class="pno">P20</span><span class="ptitle">A summary of the three key elements</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-020.webp" alt="第20页"><figcaption>课件第 20 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>三要素，先搭框架再看数字：</p>
+<ul><li><strong>Players</strong>：Hang Ten 与 La Jolla；</li><li><strong>Strategies</strong>：Advertise（做广告）/ Don't Advertise（不做）；</li><li><strong>Payoffs</strong>：下一页那张表。</li></ul>
+<p>老师补充：做题时把这三行写出来，比直接在矩阵里找数字可靠得多，尤其是当矩阵有三四个玩家的时候。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>A summary of the three key elements
+---
+Players: Hang Ten and the La Jolla
+Strategies: To advertise or not to advertise
+Payoffs: next slide</pre></details>
+</section><section class="slide" id="s21" data-n="21">
+  <div class="slide-head"><span class="pno">P21</span><span class="ptitle">收益矩阵</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-021.webp" alt="第21页"><figcaption>课件第 21 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>收益矩阵（单位：美元）：</p>
+<table class="tbl"><thead><tr><th>Hang Ten \ La Jolla</th><th>Advertise</th><th>Don't</th></tr></thead><tbody><tr><td>Advertise</td><td>400, 400</td><td>700, 300</td></tr><tr><td>Don't</td><td>300, 700</td><td>800, 800</td></tr></tbody></table>
+<p>读法：左上「都做广告」各赚 <strong>400</strong>；右下「都不做」各赚 <strong>800</strong>；右上你 700、对手 300，左下反过来。</p>
+<p>第一印象很重要：都不做广告对双方都最好（800 &gt; 400）。但能不能停在那里？先别下结论，下一页开始算。</p></div>
+</section><section class="slide" id="s22" data-n="22">
+  <div class="slide-head"><span class="pno">P22</span><span class="ptitle">What should you do? What is your best response?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-022.webp" alt="第22页"><figcaption>课件第 22 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>问题：你该怎么做？你的<strong>最优反应</strong>是什么？</p>
+<p>方法还是那一步：先假设对方的选择，再看自己那两个数字。</p>
+<p>这一页刻意不给答案，因为答案<strong>会随对方的选择而变</strong>——这恰恰是它跟囚徒困境的区别。在囚徒困境里，答案不依赖对方；在这里，答案依赖。</p>
+<p>顺便提醒一个常见错误：很多人一看到矩阵就去找「总数最大」的那一格（这里是 800 + 800），然后宣布那是答案。<strong>总数最大不是均衡</strong>——均衡问的是「谁还想动」，不是「谁的数字加起来大」。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>What should you do? 
+What is your best response?</pre></details>
+</section><section class="slide" id="s23" data-n="23">
+  <div class="slide-head"><span class="pno">P23</span><span class="ptitle">Best response</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-023.webp" alt="第23页"><figcaption>课件第 23 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>分两种情形算：</p>
+<ul><li>La Jolla <strong>做</strong>广告 → 你做广告得 400，不做只得 300 → <strong>做广告</strong>（400 &gt; 300）。</li><li>La Jolla <strong>不做</strong>广告 → 你做广告得 700，不做得 800 → <strong>不做广告</strong>（800 &gt; 700）。</li></ul>
+<p>两列给出<strong>不同</strong>答案。也就是说，你的最优反应是对方策略的函数，而不是一个固定动作。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Best response
+---
+If La Jolla does advertise, your best response is to advertise when you expect that La Jolla Surf Shop will advertise, because $400 &gt; $300.
+If La  Surf does not place advertisements, your best is to not advertise yourself.</pre></details>
+</section><section class="slide" id="s24" data-n="24">
+  <div class="slide-head"><span class="pno">P24</span><span class="ptitle">Do you have a dominant strategy in this game? No; this is because your optimal s</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-024.webp" alt="第24页"><figcaption>课件第 24 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>于是你没有占优策略。</p>
+<p>同理，La Jolla 也没有：</p>
+<ul><li>你做广告时，它做广告得 400 &gt; 不做 300；</li><li>你不做时，它不做得 800 &gt; 做 700。</li></ul>
+<p>结论：<strong>双方都没有占优策略</strong>。你没法用「不管对方怎样我都这么干」来决策，必须去猜对方——而对方也在猜你。这就需要一个新概念。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Do you have a dominant strategy in this game? 
+No; this is because your optimal strategy depends on what La Jolla Surf Shop chooses. 
+Does La Jolla have a dominant strategy? 
+By similar reasoning, it also does not have a dominant strategy. 
+Thus, there is no dominant strategy for your surf shop or for La Jolla Surf Shop. 
+In this case, you remain unsure as to what to do, because your optimal choice depends on the choice of La Jolla.</pre></details>
+</section><section class="slide" id="s25" data-n="25">
+  <div class="slide-head"><span class="pno">P25</span><span class="ptitle">A key concept in game theory: you don’t always have a simple best response (a do</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-025.webp" alt="第25页"><figcaption>课件第 25 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这页给一句关键提醒：</p>
+<blockquote>博弈论里，你并不是总有一个「放之四海而皆准」的最优反应。</blockquote>
+<p><strong>占优策略是奢侈品</strong>，多数真实博弈都没有。但没有占优策略不等于没法分析，只是要换工具——从「无条件最优」换成「互为条件最优」。</p>
+<p>两者的记忆法：占优策略问「<strong>不管</strong>你怎么做，我都这么做」；纳什均衡问「<strong>给定</strong>你这么做，我这么做，而你也恰好一样」。前者无条件，后者相互印证。</p>
+<p>下一页开始换。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>A key concept in game theory: you don’t always have a simple best response (a dominant strategy) that works against all strategies of others</pre></details>
+</section><section class="slide" id="s26" data-n="26">
+  <div class="slide-head"><span class="pno">P26</span><span class="ptitle">In such cases, where should we expect to end up in the payoff matrix—does your s</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-026.webp" alt="第26页"><figcaption>课件第 26 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>既然不能靠占优策略，我们换个问法：<strong>这个矩阵里，我们会停在哪一格？</strong></p>
+<ul><li>你做广告吗？La Jolla 做吗？</li><li>会不会两家都做？</li><li>这个博弈的<strong>均衡</strong>是什么？</li></ul>
+<p>四个问句其实问的是同一件事：哪一格具有「<strong>谁都不想单独离开</strong>」的性质。找到它，就找到了预测。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>In such cases, where should we expect to end up in the payoff matrix—does your shop advertise? 
+Does La Jolla Surf Shop advertise? 
+Do both of you advertise? 
+What is the equilibrium of this game?</pre></details>
+</section><section class="slide" id="s27" data-n="27">
+  <div class="slide-head"><span class="pno">P27</span><span class="ptitle">Nash Equilibrium</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-027.webp" alt="第27页"><figcaption>课件第 27 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>标题页：<strong>纳什均衡</strong>（Nash Equilibrium）。</p>
+<p>以 <strong>John Nash</strong> 命名——电影《美丽心灵》的原型，1994 年诺贝尔经济学奖得主，博弈论最核心的概念提出者。</p>
+<p>这是本讲的主干，也是整个现代经济学的通用语言：从寡头定价、拍卖设计，到制度比较、演化生物学，用的都是这个概念。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Nash Equilibrium</pre></details>
+</section><section class="slide" id="s28" data-n="28">
+  <div class="slide-head"><span class="pno">P28</span><span class="ptitle">Equilibrium concept we used in markets: all individuals are simultaneously optim</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-028.webp" alt="第28页"><figcaption>课件第 28 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>先把它跟已经学过的<strong><a class="term" href="glossary.html#t-market" data-t="market">市场</a>均衡</strong>接上。</p>
+<p><a class="term" href="glossary.html#t-perfect-competition" data-t="perfect-competition">竞争市场</a>里的均衡是：给定价格和收入，<strong>所有人同时<a class="term" href="glossary.html#t-optimization" data-t="optimization">最优化</a></strong>。</p>
+<p>换个说法：<strong>没有任何人能够单方面改变自己的策略而变得更好</strong>。</p>
+<p>这句话很好理解——如果存在这样一个更优策略，他早就选了；他没选，说明当前这个选择已经是最优。所以「无人愿意单方面偏离」是一个自洽的状态。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Equilibrium concept we used in markets: all individuals are simultaneously optimizing, given the prices that they face in the market and their income levels. 
+To put this differently, no individual can (unilaterally) change his strategy and be better off (or improve his payoff). 
+This is intuitive: if a player did have a strategy that made him better off, then he would choose that strategy instead of the one he chose.</pre></details>
+</section><section class="slide" id="s29" data-n="29">
+  <div class="slide-head"><span class="pno">P29</span><span class="ptitle">Nash Equilibrium</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-029.webp" alt="第29页"><figcaption>课件第 29 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>Nash 的定义，请背下来：</p>
+<blockquote>一个策略组合是<strong>纳什均衡</strong>，如果每个人的策略都是对其他人策略的<strong>最优反应</strong>——即双方互为最优反应（mutual best responses）。</blockquote>
+<p>注意「互为」两个字：不是「我最优」就行，要<strong>双方同时</strong>都最优。任何一方有更好的选择，这个组合就不算均衡。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Nash Equilibrium
+---
+John Nash:
+In equilibrium, no player in a game can change strategy and improve his or her payoff. 
+
+Definition: a combination of strategies is a Nash equilibrium if each player chooses a strategy that is a best response to the strategies of others—that is, players are choosing strategies that are mutual best responses.</pre></details>
+</section><section class="slide" id="s30" data-n="30">
+  <div class="slide-head"><span class="pno">P30</span><span class="ptitle">Nash equilibrium</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-030.webp" alt="第30页"><figcaption>课件第 30 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>换句话再说一遍：<strong>没有人能改变自己的选择而变得更好</strong>。</p>
+<p>推论：囚徒困境里的占优策略均衡<strong>一定是</strong>纳什均衡。因为占优策略对<strong>所有</strong>情形都最优，当然包括对方实际选的那一个。</p>
+<p>反过来不成立：纳什均衡<strong>不要求</strong>占优。纳什均衡是更宽的一只筐，占优策略均衡只是筐里最硬的那块石头。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Nash equilibrium
+---
+NO one can change her choice and be better off. 
+According to the definition, the dominant strategy equilibrium that we found in the prisoner’s dilemma game is a Nash equilibrium.</pre></details>
+</section><section class="slide" id="s31" data-n="31">
+  <div class="slide-head"><span class="pno">P31</span><span class="ptitle">Nash</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-031.webp" alt="第31页"><figcaption>课件第 31 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这个均衡概念依赖两个很强的假设：</p>
+<ol><li>所有玩家都<strong>理解</strong>这个博弈，以及每种策略对应的收益；</li><li>所有玩家都知道<strong>别人也理解</strong>这个博弈。</li></ol>
+<p>第二条常被忽略，但它才是要害：它要求「我知道你知道我知道……」这条无穷链条成立。链条一断，纳什均衡就不再是对行为的可靠预测。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Nash
+---
+This notion of equilibrium depends on two critical factors
+ all players understand the game and the payoffs associated with each strategy, and
+ that all players understand that other players understand the game.</pre></details>
+</section><section class="slide" id="s32" data-n="32">
+  <div class="slide-head"><span class="pno">P32</span><span class="ptitle">Nash</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-032.webp" alt="第32页"><figcaption>课件第 32 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>在纳什均衡里，我们预期每个人对别人的意图形成<strong>正确的预期</strong>。</p>
+<p>但实验证据提醒我们：<strong>经验</strong>常常是必要的。第一次玩某个博弈的人，很少直接落在均衡上；玩过几轮、看过别人的反应之后，行为才逐渐收敛到理论预测。</p>
+<p>老师补充：所以均衡是<strong>长期</strong>预测，不是「人一坐下就这么想」的描述。这个区别在考试里常被拿来出判断题。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Nash
+---
+In the context of a Nash equilibrium, we expect that an individual forms correct expectations about the intentions of other players in the game. 
+Experimental evidence on game theory shows that experience with a game may be necessary before we can safely assume that people act in the way that we think they are going to act.</pre></details>
+</section><section class="slide" id="s33" data-n="33">
+  <div class="slide-head"><span class="pno">P33</span><span class="ptitle">回到冲浪店的矩阵</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-033.webp" alt="第33页"><figcaption>课件第 33 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>回到冲浪店的矩阵（图）。用<strong>箭头法</strong>找均衡：在每一格里，看双方各自想不想单方面改。</p>
+<ul><li>（Advertise, Advertise）：你想改吗？不想（改成就 300 &lt; 400）；对手也不想改。→ <strong>均衡</strong>。</li><li>（Don't, Don't）：你想改吗？不想（改成 700 &lt; 800）；对手也不想改。→ <strong>均衡</strong>。</li><li>另外两格（一做一不做）：吃亏的那一方一定想改，所以不是均衡。</li></ul></div>
+</section><section class="slide" id="s34" data-n="34">
+  <div class="slide-head"><span class="pno">P34</span><span class="ptitle">Nash equilibria</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-034.webp" alt="第34页"><figcaption>课件第 34 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>于是有两个纳什均衡：</p>
+<ol><li>都做广告：（<strong>400, 400</strong>）</li><li>都不做广告：（<strong>800, 800</strong>）</li></ol>
+<p><strong>多重均衡是常态，不是例外</strong>。光靠矩阵本身，理论无法告诉你哪一个会发生，需要矩阵之外的信息——历史、惯例、沟通、监管。</p>
+<p>老师补充：这也说明「协调」本身是有价值的经济活动，广告轰炸有时只是为了抢那个 400 的均衡位置。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Nash equilibria
+---
+1. Your shop: advertise; La Jolla Surf Shop: advertise
+2. Your shop: don’t advertise; La Jolla Surf Shop: don’t advertise
+
+Note:
+It is a common occurrence in game theory to have more than one Nash equilibrium
+In these cases, other factors may determine which of the two equilibria are played.</pre></details>
+</section><section class="slide" id="s35" data-n="35">
+  <div class="slide-head"><span class="pno">P35</span><span class="ptitle">Applications of Nash Equilibria</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-035.webp" alt="第35页"><figcaption>课件第 35 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页：<strong>纳什均衡的应用</strong>。</p>
+<p>接下来两个场景：一个是<strong><a class="term" href="glossary.html#t-tragedy-of-the-commons" data-t="tragedy-of-the-commons">公地悲剧</a></strong>（污染），双方都输；一个是<strong><a class="term" href="glossary.html#t-zero-sum-game" data-t="zero-sum-game">零和博弈</a></strong>（点球），一方赢必有一方输。两种极端，正好把博弈论的应用面撑开。</p>
+<p>注意看它们怎么共用同一套工具：三要素、最优反应、箭头法、均衡。</p>
+<p>到这里工具箱其实已经齐了：三要素 → 收益矩阵 → 最优反应 → 占优策略（如果有）→ 纳什均衡（一定找得到）。接下来只是换场景，不再加新工具——这也是检验自己有没有真懂的办法：新案例进来，你能不能自己把矩阵写出来。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Applications of Nash Equilibria</pre></details>
+</section><section class="slide" id="s36" data-n="36">
+  <div class="slide-head"><span class="pno">P36</span><span class="ptitle">Tragedies of commons with two firms</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-036.webp" alt="第36页"><figcaption>课件第 36 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>两家企业的污染博弈，三要素：</p>
+<ul><li><strong>Players</strong>：Firm 1 与 Firm 2；</li><li><strong>Strategies</strong>：Pollute（排污）/ Don't Pollute（治理）；</li><li><strong>Payoffs</strong>：下一页。</li></ul>
+<p>注意这里的收益是<strong>企业利润</strong>，污染造成的<a class="term" href="glossary.html#t-social-cost" data-t="social-cost">社会成本</a><strong>不进企业的账</strong>。这不是模型的疏忽，恰恰是问题的根源：成本落在别人头上时，决策就会系统性偏离社会最优。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Tragedies of commons with two firms
+---
+Players: Firm 1 and Firm 2
+Strategies: To pollute or not to pollute
+Payoffs: See next slide</pre></details>
+</section><section class="slide" id="s37" data-n="37">
+  <div class="slide-head"><span class="pno">P37</span><span class="ptitle">矩阵</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-037.webp" alt="第37页"><figcaption>课件第 37 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>矩阵（单位：美元）：</p>
+<table class="tbl"><thead><tr><th>Firm 1 \ Firm 2</th><th>Pollute</th><th>Don't Pollute</th></tr></thead><tbody><tr><td>Pollute</td><td>50,000, 50,000</td><td>90,000, 5,000</td></tr><tr><td>Don't Pollute</td><td>5,000, 90,000</td><td>70,000, 70,000</td></tr></tbody></table>
+<p>读法：都治理各赚 <strong>70,000</strong>（四格中双方总和最高）；一家治理一家排污，排污者赚 <strong>90,000</strong>、治理者只赚 <strong>5,000</strong>。</p>
+<p>检查占优：无论 Firm 2 怎么选，排污都多赚 <strong>20,000</strong>（50,000 &gt; 5,000；90,000 &gt; 70,000）。所以排污是双方的占优策略。</p></div>
+</section><section class="slide" id="s38" data-n="38">
+  <div class="slide-head"><span class="pno">P38</span><span class="ptitle">As in the prisoners’ dilemma game, the dominant strategy equilibrium leads to an</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-038.webp" alt="第38页"><figcaption>课件第 38 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>于是<strong>占优策略均衡</strong>是双方都排污，各赚 <strong>50,000</strong>。</p>
+<p>而双方都治理能各赚 <strong>70,000</strong>。和囚徒困境一模一样：个体理性导致集体更差。</p>
+<p>这里还多出一个受害者——<strong>社会</strong>。多出来的污染没有人赔，也没有人有权阻止，这就是<strong>公地悲剧</strong>（tragedy of the commons）。</p>
+<p>一句话：每个人的账本上都对，加起来的账本全错。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>As in the prisoners’ dilemma game, the dominant strategy equilibrium leads to an outcome that is quite bad for both players together: to pollute—even though each player is choosing what is unilaterally best for himself or herself. 
+Nevertheless, in the dominant strategy equilibrium, both firms choose to pollute, and both they and society (which suffers from greater pollution) are worse off, creating a tragedy of the commons result.</pre></details>
+</section><section class="slide" id="s39" data-n="39">
+  <div class="slide-head"><span class="pno">P39</span><span class="ptitle">This simple game structure contains some of the important elements of a crucial </span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-039.webp" alt="第39页"><figcaption>课件第 39 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这页把模型接回现实。企业排污、乱扔垃圾、过度捕捞、碳排放，结构都是这张 2×2 表。</p>
+<p>结论很直接：<strong>纳什均衡恰好解释了为什么水是脏的、空气是脏的</strong>——不是因为坏人当道，而是因为激励结构如此。</p>
+<p>于是<strong>政府干预</strong>有了理论依据：征排污税、发配额、界定<a class="term" href="glossary.html#t-property-rights" data-t="property-rights">产权</a>，本质都是<strong>改写收益矩阵</strong>，把均衡从（Pollute, Pollute）挪到（Don't, Don't）。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>This simple game structure contains some of the important elements of a crucial situation facing many corporations and individuals today: the pressing issue of not dirtying our planet. 
+And the Nash equilibrium of this game highlights exactly why we end up with dirty water and air, and why government intervention might be necessary.</pre></details>
+</section><section class="slide" id="s40" data-n="40">
+  <div class="slide-head"><span class="pno">P40</span><span class="ptitle">Zero-Sum Games</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-040.webp" alt="第40页"><figcaption>课件第 40 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>进入<strong>零和博弈</strong>（zero-sum games）。场景：足球点球。</p>
+<p>你是球队指定的罚球手，每次走上罚球点都要做一个决定：往球门<strong>左边</strong>踢，还是<strong>右边</strong>踢。</p>
+<p>注意这里没有「更好的那一边」——只有「对方想不到的那一边」。这是零和博弈的共同特征：你多得一分，必然是他少得一分。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Zero-Sum Games
+---
+Soccer:
+Suppose that you are the designated penalty kicker for your soccer team. 
+Every time you walk up to the ball, you have an important decision to make: aim for the left of the net or for the right of the net 
+What should you do in such situations?</pre></details>
+</section><section class="slide" id="s41" data-n="41">
+  <div class="slide-head"><span class="pno">P41</span><span class="ptitle">The goalie will try to anticipate your behavior and will dive to the left or to </span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-041.webp" alt="第41页"><figcaption>课件第 41 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>门将会试图预判你的方向，向左扑或向右扑。</p>
+<ul><li>他扑对边：有很大机会把球挡出；</li><li>他扑错边：你几乎必进。</li></ul>
+<p>于是双方都活在「被猜到就完蛋」的状态里。这一页只是描述，还没有数字——下一页把输赢写成矩阵。</p>
+<p>这类博弈有个共同结构：<strong>双方都希望对方猜错</strong>。凡是这样的场景——点球、网球发球、石头剪刀布、军事突袭——<a class="term" href="glossary.html#t-pure-strategy" data-t="pure-strategy">纯策略</a>都会被对手学走，最后只能靠随机化活下来。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The goalie will try to anticipate your behavior and will dive to the left or to the right. 
+If he dives to the side where you kick the ball, then he has a pretty good chance of stopping it from going into the net, and if he dives to the opposite side, you are very likely to score.</pre></details>
+</section><section class="slide" id="s42" data-n="42">
+  <div class="slide-head"><span class="pno">P42</span><span class="ptitle">In this example, the payoff matrix represents a zero-sum game: one player’s loss</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-042.webp" alt="第42页"><figcaption>课件第 42 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>矩阵（行 = 射手，列 = 门将）：</p>
+<table class="tbl"><thead><tr><th>Kicker \ Goalie</th><th>Left</th><th>Right</th></tr></thead><tbody><tr><td>Left</td><td>−1, +1</td><td>+1, −1</td></tr><tr><td>Right</td><td>+1, −1</td><td>−1, +1</td></tr></tbody></table>
+<p>这是<strong>零和博弈</strong>：一人的所得恰是另一人的所失，每格两个数字<strong>相加为 0</strong>。</p>
+<p>图上四个箭头：每一格都只有<strong>一个人</strong>想改（扑错的那个），所以没有一格能让双方都满意——均衡不存在。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>In this example, the payoff matrix represents a zero-sum game: one player’s loss is another’s gain</pre></details>
+</section><section class="slide" id="s43" data-n="43">
+  <div class="slide-head"><span class="pno">P43</span><span class="ptitle">A summary of the three key elements in this game are as follows:</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-043.webp" alt="第43页"><figcaption>课件第 43 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>三要素总结：</p>
+<ul><li><strong>Players</strong>：You（射手）与 Goalie（门将）；</li><li><strong>Strategies</strong>：Left / Right；</li><li><strong>Payoffs</strong>：上一页的表。</li></ul>
+<p>注意：策略空间极小（各两个），可均衡偏偏不存在纯策略解。这提醒我们——<strong>策略少不等于问题简单</strong>，反而因为「太好猜」而更需要随机化。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>A summary of the three key elements in this game are as follows:
+---
+Players: You and the goalie
+Strategies: Right or left
+Payoffs: the above table</pre></details>
+</section><section class="slide" id="s44" data-n="44">
+  <div class="slide-head"><span class="pno">P44</span><span class="ptitle">Zero-sum games are quite common in the real world. Whenever we sit down to play </span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-044.webp" alt="第44页"><figcaption>课件第 44 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>零和博弈在现实中很常见：</p>
+<ul><li>打扑克：你赢的正是别人输的；</li><li>两家公司抢同一批消费者：一家的份额就是另一家的损失；</li><li><strong>再分配</strong>：一个人的所得常常是另一个人的所失。</li></ul>
+<p>老师补充：识别零和很重要。如果一件事真是零和，「双赢」的说法就是错的，能谈的只有<strong>分配</strong>——这也解释了为什么某些谈判怎么谈都谈不出增量。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Zero-sum games are quite common in the real world.
+Whenever we sit down to play poker, our gains are another player’s losses. 
+Whenever two companies compete to sell to the same consumers, one company’s gain is the other one’s loss.
+Redistribution is also often zero-sum: one person’s gain is often another’s loss.</pre></details>
+</section><section class="slide" id="s45" data-n="45">
+  <div class="slide-head"><span class="pno">P45</span><span class="ptitle">No Nash equilibrium exists, because no cell in the matrix has two arrows pointin</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-045.webp" alt="第45页"><figcaption>课件第 45 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>为什么没有纳什均衡？用箭头法看：<strong>没有任何一格是两个箭头都指向内的</strong>。</p>
+<p>每一格总有一方想单方面改：扑错边的想换边；扑对边的那位也拦不住对方换边。</p>
+<p>于是「纯策略纳什均衡」这个工具在这里<strong>给不出预测</strong>。不是理论错了，是工具不够——我们需要升级工具箱，下一页开始。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>No Nash equilibrium exists, because no cell in the matrix has two arrows pointing in. 
+Therefore, the notion of Nash equilibrium that we have developed so far doesn’t make any predictions about the behavior in the penalty kick game.</pre></details>
+</section><section class="slide" id="s46" data-n="46">
+  <div class="slide-head"><span class="pno">P46</span><span class="ptitle">In fact, choosing randomly has a clear advantage in this game relative to a pure</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-046.webp" alt="第46页"><figcaption>课件第 46 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>先看<strong>纯策略</strong>（pure strategy）为什么不行：纯策略就是「遇到这个情形，我永远选同一个动作」。</p>
+<p>假设你永远踢右边。门将迟早会发现，然后<strong>永远扑右边</strong>，你的成功率大跌。</p>
+<p>任何<strong>可预测</strong>的行为都会被对手利用。这条规律对门将同样成立，所以双方都被逼着离开纯策略。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>In fact, choosing randomly has a clear advantage in this game relative to a pure strategy, which involves always choosing a single action for a situation. 
+Consider one scenario of a pure strategy for yourself: always kick right. 
+If you always kick right, in time goalies will notice and best respond by always diving right.</pre></details>
+</section><section class="slide" id="s47" data-n="47">
+  <div class="slide-head"><span class="pno">P47</span><span class="ptitle">Reasoning this way, we can see that any kind of predictable behavior by the kick</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-047.webp" alt="第47页"><figcaption>课件第 47 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>结论：如果你是可预测的，你就输了；所以理性做法是<strong>尽量不可预测</strong>。</p>
+<p>工具叫<strong><a class="term" href="glossary.html#t-mixed-strategy" data-t="mixed-strategy">混合策略</a></strong>（mixed strategy）：按照预先设定的概率，在不同行动之间随机选择。</p>
+<p>关键词是「<strong>预先设定</strong>」——不是临场拍脑袋，而是事先定好一个概率，然后照此执行。这样连你自己都不知道这次会踢哪边，对手更不可能知道。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Reasoning this way, we can see that any kind of predictable behavior by the kicker can be taken advantage of by the goalie, and vice versa. 
+
+If you are the kicker, you should therefore be as unpredictable as possible. 
+Put differently, you should randomize by playing a mixed strategy, which involves choosing between different actions randomly (according to some preassigned probabilities).</pre></details>
+</section><section class="slide" id="s48" data-n="48">
+  <div class="slide-head"><span class="pno">P48</span><span class="ptitle">How Do People Actually Play Such Games?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-048.webp" alt="第48页"><figcaption>课件第 48 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页：<strong>人们实际上怎么玩这类博弈？</strong></p>
+<p>前面所有内容都是「应该怎么玩」，从这页起转向「<strong>实际</strong>怎么玩」。这是博弈论从纯理论走向实证检验的转折点，也是本讲最有趣的一段。</p>
+<p>为什么要专门讨论这个？因为一门只在纸上自洽的理论，和一门能预测球场、市场、谈判桌上行为的理论，价值完全不同。接下来的问题是：<strong>理论能不能被数据打脸？</strong></p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>How Do People Actually Play Such Games?</pre></details>
+</section><section class="slide" id="s49" data-n="49">
+  <div class="slide-head"><span class="pno">P49</span><span class="ptitle">Do people really play Nash equilibria in practice? What about dominant strategie</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-049.webp" alt="第49页"><figcaption>课件第 49 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>问题：现实中的人真的会玩纳什均衡吗？<strong>占优策略</strong>常见吗？</p>
+<p>直觉上答案该是干脆的「是」或「否」。但课件说：这些问题<strong>很难回答</strong>，在实验室里难，在真实世界里也难，原因有两个。</p>
+<p>难在什么地方？难在你必须先知道<strong>收益</strong>，才有资格判断一个行为是否「最优」；而收益恰恰是最难观测的东西。这跟消费者理论里的<a class="term" href="glossary.html#t-revealed-preference" data-t="revealed-preference">显示偏好</a>是同一个困难，只是更严重——那里你至少能看到价格。</p>
+<p>下一页、再下一页分别讲这两个原因。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Do people really play Nash equilibria in practice? 
+What about dominant strategies—are those frequently played? 
+One might think that the answer to these questions should be a simple yes or no. 
+But these questions are difficult to answer—in both the lab and in the real world—for two main reasons.</pre></details>
+</section><section class="slide" id="s50" data-n="50">
+  <div class="slide-head"><span class="pno">P50</span><span class="ptitle">The first reason is that we often do not know the exact payoffs of individuals p</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-050.webp" alt="第50页"><figcaption>课件第 50 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>原因一：我们<strong>不知道真实的收益</strong>。</p>
+<p>前面矩阵里的数字是我们自己挑的，并且<strong>假设</strong>它们正确。真实世界里，收益由金钱回报、态度、情绪、面子共同决定，很多根本无法观测，更无法量化。</p>
+<p>老师补充：这就是博弈论版本的认识论困难——你观察到的是<strong>行动</strong>，不是<strong>收益</strong>；而同一个行动可以由完全不同的收益结构生成。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The first reason is that we often do not know the exact payoffs of individuals playing the game. 
+In constructing the matrix games in the previous sections, we chose the payoffs and assumed that they were correct. 
+In real-world situations, the payoffs are determined by the attitudes and feelings of individuals as well as by their monetary returns.</pre></details>
+</section><section class="slide" id="s51" data-n="51">
+  <div class="slide-head"><span class="pno">P51</span><span class="ptitle">A second reason: game theory is only a theory Models/theories are not literal de</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-051.webp" alt="第51页"><figcaption>课件第 51 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>原因二：<strong>博弈论只是一个理论</strong>。</p>
+<p>模型不是对世界的字面描述，而是有用的<strong>抽象</strong>。抽象必然丢掉细节，丢掉的可能恰好是决定行为的那一点。</p>
+<p>所以当预测失败时，先别急着说「人不理性」，要先问：是不是模型把某个重要收益（<a class="term" href="glossary.html#t-equity" data-t="equity">公平</a>、面子、报复的快感）漏掉了？</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>A second reason: game theory is only a theory
+Models/theories are not literal descriptions of how the world works—they are merely useful abstractions. 
+As such, game theory abstracts from several details.</pre></details>
+</section><section class="slide" id="s52" data-n="52">
+  <div class="slide-head"><span class="pno">P52</span><span class="ptitle">In many situations, one player may be more cunning, wiser, or more experienced t</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-052.webp" alt="第52页"><figcaption>课件第 52 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>还有两个具体的偏离来源：</p>
+<ul><li><strong>能力差异</strong>：两个棋手对弈，更老练、更聪明的那个大概率赢——而博弈论假设双方「同样会算」。</li><li><strong>重复</strong>：矩阵博弈重复多次后，结果通常<strong>更接近</strong>纳什均衡——学习和惩罚都需要时间。</li></ul>
+<p>带着这些保留意见，我们去看一个能真正检验理论的案例：点球。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>In many situations, one player may be more cunning, wiser, or more experienced than another.
+For example, of two chess players, the more experienced, more clever player is likely to win. 
+In many matrix games (with two or several players), repetition of the game usually ensures that results come closer to the Nash equilibrium. 
+With these caveats in mind, we turn to an example to illustrate how game theory’s predictions fare in real-world situations.</pre></details>
+</section><section class="slide" id="s53" data-n="53">
+  <div class="slide-head"><span class="pno">P53</span><span class="ptitle">Game Theory in Penalty Kicks</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-053.webp" alt="第53页"><figcaption>课件第 53 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>回到点球。理论预测很明确：双方都应该用<strong>混合策略</strong>，每次随机选左或右。</p>
+<p>问题于是变成实证问题：<strong>真实比赛里是这样吗？</strong></p>
+<p>如果球员有习惯、有「强侧」偏好，数据里就该看到系统性偏向；如果数据几乎是随机的，理论就赢了。这是一个可以被数据判死的命题。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Game Theory in Penalty Kicks
+---
+Consider again the situation faced by penalty kickers and goalies. 
+As you have already learned, the best move for both sides is to employ a mixed strategy—randomly choose left or right for each kick. 
+But is that what actually happens in soccer games?</pre></details>
+</section><section class="slide" id="s54" data-n="54">
+  <div class="slide-head"><span class="pno">P54</span><span class="ptitle">Three economists decided to analyze all the penalty kicks taken during a 3-year </span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-054.webp" alt="第54页"><figcaption>课件第 54 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>三位经济学家真的去做了这件事。</p>
+<p>他们整理了<strong>法国和意大利</strong>足球联赛<strong>三年</strong>内的所有点球，一共 <strong>459 个</strong>。</p>
+<p>样本量足够大，可以统计每个射手、每个门将的方向分布，看它是否接近「按固定概率随机抽取」。</p>
+<p>为什么选点球做检验？因为它几乎是理想实验室：规则固定、收益清楚（进球与没进）、双方同时决策、样本还多。而且职业球员有极强的动机隐藏自己的习惯——<strong>钱在逼他们随机化</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Three economists decided to analyze all the penalty kicks taken during a 3-year period in the French and Italian soccer leagues in order to test game theory. 
+By examining 459 penalty kicks, they were able to test whether the players actually did play mixed strategy Nash equilibria.</pre></details>
+</section><section class="slide" id="s55" data-n="55">
+  <div class="slide-head"><span class="pno">P55</span><span class="ptitle">They classified kickers’ and goalies’ choices into one of three strategies: Left</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-055.webp" alt="第55页"><figcaption>课件第 55 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>他们把选择分成三类：<strong>Left、Right、Center</strong>（左、右、中路）。</p>
+<p>比前面左右二选一稍微复杂一点，但混合策略均衡的逻辑<strong>完全一样</strong>：双方都要在可选方向之间随机化，使对手无法通过偏向某一边来获利。</p>
+<p>为什么要把中路单列？因为踢中路和扑中路的成功率、风险都不同：中路一旦被扑到几乎必失，可门将又很少站着不动。三类选择让随机化有了更丰富的空间，也让检验更严格。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>They classified kickers’ and goalies’ choices into one of three strategies: Left, Right, and Center. 
+This is just a bit more complicated than our Left/Right example earlier in the chapter, but the logic of the game’s mixed-strategy Nash equilibrium is the same: penalty kickers and goalies should randomize across the choices.</pre></details>
+</section><section class="slide" id="s56" data-n="56">
+  <div class="slide-head"><span class="pno">P56</span><span class="ptitle">Amazingly, this is just what the economists found in the data. The kickers and g</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-056.webp" alt="第56页"><figcaption>课件第 56 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>结果：数据里射手和门将的方向选择<strong>几乎完美地随机</strong>。理论预测得非常好。</p>
+<p>相关研究在职业<strong>网球</strong>的发球方向上，也发现了同样的随机化模式。</p>
+<p>老师补充：这是博弈论最漂亮的经验证据之一——它说明均衡不必来自「人像计算机一样算」，<strong>竞争压力本身就能把行为逼到均衡</strong>，不理性的个体也能产生理性的总体。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Amazingly, this is just what the economists found in the data. 
+The kickers and goalies both seemed to be randomizing their direction choices almost perfectly. 
+Game theory predicted the behavior of these players very well.
+A related study found a similar pattern of randomization in serve choices in professional tennis matches</pre></details>
+</section><section class="slide" id="s57" data-n="57">
+  <div class="slide-head"><span class="pno">P57</span><span class="ptitle">Extensive-Form Games</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-057.webp" alt="第57页"><figcaption>课件第 57 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页：<strong><a class="term" href="glossary.html#t-extensive-form-game" data-t="extensive-form-game">扩展式博弈</a></strong>（extensive-form games）。</p>
+<p>前面所有博弈都是同时出手。从现在起，我们允许一个人<strong>先动</strong>，另一个<strong>看见之后</strong>再动。</p>
+<p>就这一个改动，会让结论大变：先手可能占优，威胁可能不可信，承诺开始值钱。</p>
+<p>为什么顺序这么重要？因为一旦有了先后，后手就能<strong>观察</strong>；一旦能观察，先手就必须考虑「我这么做之后他会怎么反应」。把这一步「预判对方的反应」形式化，就是下一页要干的事。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Extensive-Form Games</pre></details>
+</section><section class="slide" id="s58" data-n="58">
+  <div class="slide-head"><span class="pno">P58</span><span class="ptitle">The games that we have discussed so far all revolve around two players choosing </span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-058.webp" alt="第58页"><figcaption>课件第 58 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>定义：到目前为止，博弈都是两人<strong>同时</strong>选行动，谁也不知道对方选了什么。</p>
+<p>现在改成：一个玩家先走，另一个玩家<strong>在看到</strong>第一个人的选择之后才行动。</p>
+<p>这种「明确规定了行动顺序」的博弈，叫<strong>扩展式博弈</strong>，用<strong><a class="term" href="glossary.html#t-game-tree" data-t="game-tree">博弈树</a></strong>（game tree）来表示。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The games that we have discussed so far all revolve around two players choosing an action simultaneously.
+Suppose that, instead, one player goes first and the other chooses an action only after seeing how the first player chose. 
+This type of situation, which specifies the order of play, is represented by an extensive-form game.</pre></details>
+</section><section class="slide" id="s59" data-n="59">
+  <div class="slide-head"><span class="pno">P59</span><span class="ptitle">这一页是空白过渡页</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-059.webp" alt="第59页"><figcaption>课件第 59 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页是空白过渡页（没有文字也没有图），作用是在「同时」与「序贯」之间按一个暂停键。</p>
+<p>趁这个空档记住下面读树的三条规矩，下一页直接用：</p>
+<ol><li><strong>节点</strong>是「轮到谁做决定」；</li><li><strong>枝</strong>是他的可选动作；</li><li><strong>末端</strong>的数字是（先手收益, 后手收益），顺序不能颠倒。</li></ol></div>
+</section><section class="slide" id="s60" data-n="60">
+  <div class="slide-head"><span class="pno">P60</span><span class="ptitle">In extensive-form games, the strategies are a little bit richer than in simultan</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-060.webp" alt="第60页"><figcaption>课件第 60 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>扩展式博弈里，<strong>策略</strong>比同时博弈丰富得多。</p>
+<p>同时博弈里，一个策略就是一个动作（认罪/不认罪）。序贯博弈里，一个策略是一份<strong>完整的行动计划</strong>：在<strong>每一个</strong>可能轮到我做决定的节点上，我分别做什么——哪怕那个节点根本不会走到。</p>
+<p>老师补充：这就是为什么序贯博弈的「策略数量」会爆炸，也是为什么我们更愿意画树、用<a class="term" href="glossary.html#t-backward-induction" data-t="backward-induction">逆向归纳</a>，而不是列矩阵。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>In extensive-form games, the strategies are a little bit richer than in simultaneous games</pre></details>
+</section><section class="slide" id="s61" data-n="61">
+  <div class="slide-head"><span class="pno">P61</span><span class="ptitle">A game tree</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-061.webp" alt="第61页"><figcaption>课件第 61 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>博弈树（work-or-surf）：你先决定 Work 还是 Surf；Gina 观察到之后，再决定 Work 还是 Surf。</p>
+<p>四个末端，数字是（你, Gina）：</p>
+<table class="tbl"><thead><tr><th>你的选择</th><th>Gina 的选择</th><th>收益</th></tr></thead><tbody><tr><td>Work</td><td>Work</td><td>400, 400</td></tr><tr><td>Work</td><td>Surf</td><td>300, 500</td></tr><tr><td>Surf</td><td>Work</td><td>500, 300</td></tr><tr><td>Surf</td><td>Surf</td><td>200, 200</td></tr></tbody></table>
+<p>注意收益结构是<strong>对称</strong>的：两人偏好一样，只是先后不同。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>A game tree</pre></details>
+</section><section class="slide" id="s62" data-n="62">
+  <div class="slide-head"><span class="pno">P62</span><span class="ptitle">Backward Induction</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-062.webp" alt="第62页"><figcaption>课件第 62 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>解法叫<strong>逆向归纳</strong>（backward induction）：从<strong>最后一个</strong>做决定的人开始解，解出他的选择，代回去；再看倒数第二个，如此一路往前推。</p>
+<p>直觉很朴素：先算清「如果真走到这里，他会怎么做」，再决定要不要走到这里。</p>
+<p>这也是「序贯理性」的技术含义——每一步都要求当事人<strong>在那一步</strong>是最优的，而不是整体最优。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Backward Induction
+---
+The easiest way of approaching any extensive-form game is to use backward induction. 
+Backward induction is the procedure of solving an extensive-form game by first considering the last mover’s decision. 
+Given the last mover’s decision, we then consider the second-to- last mover, and so on.</pre></details>
+</section><section class="slide" id="s63" data-n="63">
+  <div class="slide-head"><span class="pno">P63</span><span class="ptitle">First-Mover Advantage, commitment</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-063.webp" alt="第63页"><figcaption>课件第 63 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>解这棵树：</p>
+<ul><li>你若选 <strong>Work</strong>，Gina 会选 Surf（500 &gt; 400），你得 <strong>300</strong>；</li><li>你若选 <strong>Surf</strong>，Gina 会选 Work（300 &gt; 200），你得 <strong>500</strong>。</li></ul>
+<p>所以你的最优选择是 Surf，Gina 随后选 Work，均衡结果是（<strong>500, 300</strong>）。</p>
+<p>注意：两人的收益结构完全一样，结果却<strong>系统性偏向先手</strong>。这不是巧合，下一页给它命名。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>First-Mover Advantage, commitment
+---
+The equilibrium described above is much more favorable to you than to Gina: you receive $500, whereas she receives $300. 
+This outcome occurs even though the payoffs to the different actions are the same for you and Gina.</pre></details>
+</section><section class="slide" id="s64" data-n="64">
+  <div class="slide-head"><span class="pno">P64</span><span class="ptitle">We say that the sequential game features a first-mover advantage if the first mo</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-064.webp" alt="第64页"><figcaption>课件第 64 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>定义：如果先动的人比后动的人赚得多，这个序贯博弈就存在<strong><a class="term" href="glossary.html#t-first-mover-advantage" data-t="first-mover-advantage">先手优势</a></strong>（first-mover advantage）。</p>
+<p>先手优势最重要的来源之一，是<strong>承诺的价值</strong>（value of commitment）：先动等于把自己钉在一个位置上，后手只能适应你的位置。</p>
+<p>老师补充：现实里「先发制人」的投资、抢先注册专利、率先降价，都是这个逻辑。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>We say that the sequential game features a first-mover advantage if the first mover earns more benefits than the second mover earns. 
+One particularly relevant form of first-mover advantage is the value of commitment.</pre></details>
+</section><section class="slide" id="s65" data-n="65">
+  <div class="slide-head"><span class="pno">P65</span><span class="ptitle">Suppose Gina threaten you with punishment, using the following strategy: “If you</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-065.webp" alt="第65页"><figcaption>课件第 65 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>Gina 想翻盘，于是发出威胁：</p>
+<blockquote>「你要是去冲浪，我也去冲浪！」</blockquote>
+<p>如果你信了，你会这样算：选 Surf 时 Gina 也 Surf，你只得 200，不如选 Work 拿 400——于是你乖乖去工作。威胁成功。</p>
+<p>但真正的问题是：<strong>你该信吗？</strong></p>
+<p>注意这个威胁的结构：它要求 Gina 在<strong>对自己不利</strong>的情况下执行一个动作。这种威胁能不能成立，从来不取决于她说得多坚决，只取决于她到时候的收益——所以先别动感情，去算数字。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Suppose Gina threaten you with punishment, using the following strategy: “If you surf, I will go surfing, too!”
+If you believed in her，what would happen?</pre></details>
+</section><section class="slide" id="s66" data-n="66">
+  <div class="slide-head"><span class="pno">P66</span><span class="ptitle">A game tree</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-066.webp" alt="第66页"><figcaption>课件第 66 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（图）树本身没变，只是把 Gina 那个节点标了出来：在「你已经选了 Surf」之后，她面对 Work（300）和 Surf（200）两个选项。</p>
+<p>问题的答案就藏在这两个数字里。下一页算。</p>
+<p>读序贯博弈有个笨办法，但非常可靠：把每一个「如果真走到这里」的子树单独拎出来，当作一个小博弈来解，解完把结果代回上一层。这棵树只有一棵这样的子树，所以一眼就能看完。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>A game tree</pre></details>
+</section><section class="slide" id="s67" data-n="67">
+  <div class="slide-head"><span class="pno">P67</span><span class="ptitle">A game tree</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-067.webp" alt="第67页"><figcaption>课件第 67 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>给定你已经 Surf，Gina 选 Work 得 <strong>300</strong>，选 Surf 得 <strong>200</strong>——她的威胁<strong>对自己不利</strong>，所以不会执行。</p>
+<p>这种「说了也不会做」的威胁，叫<strong><a class="term" href="glossary.html#t-noncredible-threat" data-t="noncredible-threat">不可信威胁</a></strong>（non-credible threat）。逆向归纳会自动把它剔除：它根本不进入你的计算。</p>
+<p>一句话：<strong>威胁是否可信，不看语气，看激励</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>A game tree
+---
+But are you going to believe in her? 
+In other words, is her threat credible?</pre></details>
+</section><section class="slide" id="s68" data-n="68">
+  <div class="slide-head"><span class="pno">P68</span><span class="ptitle">Is there any way that Gina can turn the tables on you by taking away the first-m</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-068.webp" alt="第68页"><figcaption>课件第 68 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>Gina 有办法真翻盘：做一个<strong><a class="term" href="glossary.html#t-credible-commitment" data-t="credible-commitment">可信承诺</a></strong>（credible commitment）。</p>
+<p>定义：一个<strong>无法反悔</strong>的行动，即使它本身是有代价的。</p>
+<p>两个条件缺一不可：<strong>不可逆</strong>（irreversible）+ <strong>可观察</strong>（observable）。比如她提前把冲浪板卖掉、或先跟老板签好当天的排班——「Surf」就真的从她的选项里消失了。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Is there any way that Gina can turn the tables on you by taking away the first-mover advantage? 
+In fact, there is. 
+The trick is for her to make a credible commitment. 
+A commitment is an action that one cannot turn back on later, even if it is costly.</pre></details>
+</section><section class="slide" id="s69" data-n="69">
+  <div class="slide-head"><span class="pno">P69</span><span class="ptitle">Several modes of behavior may be understood in light of this example. Suppose, f</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-069.webp" alt="第69页"><figcaption>课件第 69 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这套逻辑能解释一类看起来不理性的行为：有人刻意（甚至下意识地）经营「<strong>记仇、报复</strong>」的<strong>声誉</strong>——谁敢惹我，我一定还手，哪怕还手对我也有成本。</p>
+<p>单看一次报复，是亏的；但声誉一旦建立，它改变的是<strong>别人对你的预期</strong>，从而改变别人敢不敢惹你。</p>
+<p>老师补充：这就是「<strong>理性地不理性</strong>」——用一次非理性的行动，买一个长期有利的名声。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Several modes of behavior may be understood in light of this example. 
+Suppose, for example, that you can consciously or subconsciously (truthfully, or perhaps just for show) establish a reputation as somebody who bears a grudge and who would seek revenge against misdeeds, even though this behavior is potentially costly for you.</pre></details>
+</section><section class="slide" id="s70" data-n="70">
+  <div class="slide-head"><span class="pno">P70</span><span class="ptitle">If you can commit to punishing bullies, you likely won’t be bullied. This reason</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-070.webp" alt="第70页"><figcaption>课件第 70 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>结论：如果你能<strong>承诺</strong>惩罚欺负你的人，你大概率不会被欺负。</p>
+<p>所以「复仇」和「报复的名声」在经济学意义上可以是<strong>理性的</strong>：它是一笔为威慑而预付的成本。</p>
+<p>反面也一样清楚——「老好人」在某些博弈里最吃亏，因为他没有任何<strong>可置信</strong>的报复手段，别人知道欺负他不需要付代价。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>If you can commit to punishing bullies, you likely won’t be bullied. 
+This reasoning also suggests that perhaps vengeance or a reputation for revenge-seeking behavior might be supported by game theory
+In other words, these behaviors are rational in an economic sense.</pre></details>
+</section><section class="slide" id="s71" data-n="71">
+  <div class="slide-head"><span class="pno">P71</span><span class="ptitle">Game Applications</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-071.webp" alt="第71页"><figcaption>课件第 71 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页：<strong>博弈的应用</strong>（Game Applications）。</p>
+<p>接下来把同一套工具反复用在不同场景上，按四类推进：</p>
+<ul><li><strong>合作</strong>（coordination、assurance、chicken）；</li><li><strong>竞争</strong>（零和与混合策略）；</li><li><strong>共存</strong>（<a class="term" href="glossary.html#t-hawk-dove-game" data-t="hawk-dove-game">鹰鸽博弈</a>、<a class="term" href="glossary.html#t-evolutionarily-stable-strategy" data-t="evolutionarily-stable-strategy">ESS</a>）；</li><li><strong>承诺</strong>（青蛙与蝎子、绑匪、王翦、猪、社会保障、hold-up、议价）。</li></ul>
+<p>工具不变，场景在变——这正是博弈论被称为「通用语言」的原因。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Game Applications</pre></details>
+</section><section class="slide" id="s72" data-n="72">
+  <div class="slide-head"><span class="pno">P72</span><span class="ptitle">Best Response Curves and Nash Equilibrium</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-072.webp" alt="第72页"><figcaption>课件第 72 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>标题页：<strong>最优反应曲线与纳什均衡</strong>。</p>
+<p>前面用<strong>箭头法</strong>在格子里找均衡；从现在起改用<strong>曲线</strong>：把「最优反应」画成图，两条曲线的交点就是纳什均衡。</p>
+<p>为什么值得换？因为箭头法只能处理有限个格子，而曲线法能处理连续变量，也是后面所有应用的标准画法。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Best Response Curves and Nash Equilibrium</pre></details>
+</section><section class="slide" id="s73" data-n="73">
+  <div class="slide-head"><span class="pno">P73</span><span class="ptitle">Best Response Curves</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-073.webp" alt="第73页"><figcaption>课件第 73 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>如果对对手的每一个选择，玩家都有<strong>唯一</strong>的最优反应，那么最优反应就可以写成一个<strong>函数</strong>（best response function），画出来是一条曲线。</p>
+<p>后面你会发现：这条曲线常常是<strong>阶梯状</strong>的，而不是平滑的。原因很简单——最优反应往往「要么选这个、要么选那个」，中间只有一个「无所谓」的跳跃点。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Best Response Curves
+---
+If there is a unique best response for each choice, then the best response curves can be represented as best response functions.</pre></details>
+</section><section class="slide" id="s74" data-n="74">
+  <div class="slide-head"><span class="pno">P74</span><span class="ptitle">Mixed Strategies</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-074.webp" alt="第74页"><figcaption>课件第 74 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>进入混合策略的代数。设定：</p>
+<ul><li>行玩家（Row）以概率 <strong>r</strong> 选 Top，以 1−r 选 Bottom；</li><li>列玩家（Column）以概率 <strong>c</strong> 选 Left，以 1−c 选 Right。</li></ul>
+<p>当 r、c 只取 0 或 1 时，就是<strong>纯策略</strong>；取中间值就是<strong>混合策略</strong>。所以混合策略不是新东西，是纯策略的推广——这一点在考试里常被问。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Mixed Strategies
+---
+Row chooses probability r of playing top and column chooses probability c of playing left.</pre></details>
+</section><section class="slide" id="s75" data-n="75">
+  <div class="slide-head"><span class="pno">P75</span><span class="ptitle">把四种组合的概率与收益列成表</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-075.webp" alt="第75页"><figcaption>课件第 75 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把四种组合的概率与收益列成表，这是<strong>通用算法模板</strong>：</p>
+<table class="tbl"><thead><tr><th>组合</th><th>概率</th><th>Row 的收益</th></tr></thead><tbody><tr><td>Top, Left</td><td>rc</td><td>2</td></tr><tr><td>Bottom, Left</td><td>(1−r)c</td><td>0</td></tr><tr><td>Top, Right</td><td>r(1−c)</td><td>0</td></tr><tr><td>Bottom, Right</td><td>(1−r)(1−c)</td><td>1</td></tr></tbody></table>
+<p><a class="term" href="glossary.html#t-expected-payoff" data-t="expected-payoff">期望收益</a> = 概率 × 收益，逐项相加。注意「独立抽取」的假设：两人各自随机，所以联合概率是乘积。</p></div>
+</section><section class="slide" id="s76" data-n="76">
+  <div class="slide-head"><span class="pno">P76</span><span class="ptitle">Mixed Strategies</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-076.webp" alt="第76页"><figcaption>课件第 76 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>算出来：</p>
+<p>Row's payoff = 2rc + (1−r)(1−c) = 2rc + 1 − r − c + rc</p>
+<p>对 r 求增量：Δpayoff = 2cΔr − Δr + cΔr = <strong>(3c − 1)Δr</strong></p>
+<p>同理 Column's payoff = cr + 2(1−c)(1−r)，Δpayoff = <strong>(3r − 2)Δc</strong></p>
+<p>关键洞察：Row 的<a class="term" href="glossary.html#t-marginal-revenue" data-t="marginal-revenue">边际收益</a><strong>只取决于 c</strong>，不取决于 r。自己的概率不影响自己的边际激励，只影响对方的。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Mixed Strategies
+---
+The expected payoff to row:    
+     Row’s payoff = 2rc + (1 − r)(1 − c) = 2rc + 1 − r − c + rc
+     Δpayoff to row = 2c Δr − Δr + c Δr = (3c − 1)Δr.
+
+Similarly, the payoff to column:
+     Column’s payoff = cr + 2(1 − c)(1 − r)
+     Δpayoff to column = r Δc + 2r Δc − 2Δc = (3r − 2)Δc.</pre></details>
+</section><section class="slide" id="s77" data-n="77">
+  <div class="slide-head"><span class="pno">P77</span><span class="ptitle">Mixed Strategies</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-077.webp" alt="第77页"><figcaption>课件第 77 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>整理成截距式：</p>
+<ul><li>Row's payoff = <strong>(3c − 1)r + 1 − c</strong></li><li>Column's payoff = <strong>(3r − 2)c + 2 − 2r</strong></li></ul>
+<p>于是最优反应一目了然：</p>
+<ul><li>c &lt; 1/3 → (3c−1) &lt; 0 → r 越小越好 → <strong>r = 0</strong>；</li><li>c = 1/3 → r 取任何值都一样 → <strong>任意 r</strong>；</li><li>c &gt; 1/3 → <strong>r = 1</strong>。</li></ul></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Mixed Strategies
+---
+Row’s payoff = (3c−1)r+1−c             Δpayoff to row = (3c − 1)Δr.
+Column’s payoff = (3r−2)c+2-2r       Δpayoff to column = (3r − 2)Δc.
+---
+We can use this information to plot the best response curves. 
+Start with row. If column choses c = 0, row will want to make r as small as possible, so r = 0 is the best response to c = 0. 
+This choice will continue to be the best response up until c = 1/3, at which point any value of r between 0 and 1 is a best response.
+ For all c &gt; 1/3, the best response row can make is r = 1.</pre></details>
+</section><section class="slide" id="s78" data-n="78">
+  <div class="slide-head"><span class="pno">P78</span><span class="ptitle">Mixed Strategies</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-078.webp" alt="第78页"><figcaption>课件第 78 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把两条最优反应曲线画出来（横轴 r、纵轴 c），它们交于三点：</p>
+<ul><li><strong>(0, 0)</strong>：纯策略（Bottom, Right）；</li><li><strong>(2/3, 1/3)</strong>：混合策略；</li><li><strong>(1, 1)</strong>：纯策略（Top, Left）。</li></ul>
+<p>三个都是纳什均衡——<strong>两个纯、一个混</strong>。曲线都是阶梯形的：最优反应要么 0 要么 1，中间只有一处「怎么选都一样」的跳跃。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Mixed Strategies
+---
+It is easy to see that they cross in three places: (0, 0), (2/3, 1/3), and (1, 1), which correspond to the three Nash equilibria of this game. 
+
+Two of these strategies are pure strategies, and one is a mixed strategy.
+---
+Row’s payoff = (3c−1)r+1−c             Δpayoff to row = (3c − 1)Δr.
+Column’s payoff = (3r−2)c+2-2r       Δpayoff to column = (3r − 2)Δc.</pre></details>
+</section><section class="slide" id="s79" data-n="79">
+  <div class="slide-head"><span class="pno">P79</span><span class="ptitle">Games of Coordination</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-079.webp" alt="第79页"><figcaption>课件第 79 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>转入<strong><a class="term" href="glossary.html#t-coordination-game" data-t="coordination-game">协调博弈</a></strong>（coordination games）：双方收益最高的时候，是<strong>策略能对上</strong>的时候。</p>
+<p>问题在于：没有任何机制保证你们能自动对上。你选左、他选右，两人一起受损。</p>
+<p>所以这类博弈的核心议题不是「怎么算」，而是「<strong>怎么建立协调机制</strong>」——沟通、惯例、合同、先动者的示范。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Games of Coordination
+---
+Coordination games:  games where the payoffs to the players are highest when they can coordinate their strategies.
+There is no way to ensure that players can coordinate automatically, however
+The problem then is to develop mechanisms that enable this coordination.</pre></details>
+</section><section class="slide" id="s80" data-n="80">
+  <div class="slide-head"><span class="pno">P80</span><span class="ptitle">Example: Battle of the Sexes</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-080.webp" alt="第80页"><figcaption>课件第 80 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>例子：<strong>Battle of the Sexes</strong>（<a class="term" href="glossary.html#t-battle-of-the-sexes" data-t="battle-of-the-sexes">性别之战</a>）。</p>
+<p>男孩和女孩想一起看电影，但事先没约好。男孩偏爱<strong>动作片</strong>，女孩偏爱<strong>文艺片</strong>，两人<strong>无法沟通</strong>，只能猜对方会去哪。</p>
+<p>注意冲突的性质：不是「想不想在一起」（两人都想），而是「在一起看哪一部」。<strong>共同利益</strong>与<strong>利益分歧</strong>同时存在，这是协调博弈的典型结构。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Example: Battle of the Sexes
+---
+A boy and a girl want to meet at a movie for a date, but haven’t had a chance to arrange which one. 
+The boy prefers action movies, while the girl prefers art films.
+They have no way to coordinate their meeting
+Have to guess which movie the other will want to attend.</pre></details>
+</section><section class="slide" id="s81" data-n="81">
+  <div class="slide-head"><span class="pno">P81</span><span class="ptitle">What are the Nash equilibria of this game?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-081.webp" alt="第81页"><figcaption>课件第 81 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>矩阵：</p>
+<table class="tbl"><thead><tr><th>Boy \ Girl</th><th>Action</th><th>Art</th></tr></thead><tbody><tr><td>Action</td><td>2, 1</td><td>0, 0</td></tr><tr><td>Art</td><td>0, 0</td><td>1, 2</td></tr></tbody></table>
+<p>读法：只有「<strong>碰上</strong>」才有正收益。都看动作片，男孩得 2、女孩得 1；都看文艺片反过来。</p>
+<p>问题：纳什均衡有哪些？先用箭头法自己走一遍，再看下一页。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>What are the Nash equilibria of this game?
+---
+Example: Battle of the Sexes</pre></details>
+</section><section class="slide" id="s82" data-n="82">
+  <div class="slide-head"><span class="pno">P82</span><span class="ptitle">Battle of the Sexes</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-082.webp" alt="第82页"><figcaption>课件第 82 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>三个均衡：</p>
+<ul><li>都看动作片：（<strong>2, 1</strong>）；</li><li>都看文艺片：（<strong>1, 2</strong>）；</li><li>混合：各以 <strong>2/3</strong> 的概率选<strong>自己偏好</strong>的那一部——男孩 2/3 概率选 Action，女孩 2/3 概率选 Art。</li></ul>
+<p>前两个是纯策略，第三个是混合策略。注意混合均衡下两人的期望收益都<strong>低于</strong>任一纯均衡——所以「随机」在这里是无奈，不是最优。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Battle of the Sexes
+---
+Three equilibria: both choose action, both choose art, or each chooses his or her preferred choice with probability 2/3.</pre></details>
+</section><section class="slide" id="s83" data-n="83">
+  <div class="slide-head"><span class="pno">P83</span><span class="ptitle">Hard to predict which equilibrium will occur Generally, we would look to conside</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-083.webp" alt="第83页"><figcaption>课件第 83 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>多重均衡下，理论说不清哪一个会发生，于是我们<strong>向博弈之外找线索</strong>。</p>
+<p>例如：文艺片的影院离其中一人更近，那么「都看文艺片」就成了自然的选择。</p>
+<p>当玩家有理由相信某个均衡比其他更「自然」时，这个均衡叫<strong><a class="term" href="glossary.html#t-focal-point" data-t="focal-point">焦点</a></strong>（focal point）。老师补充：这是谢林（Schelling）的概念，靠的是<strong>共同经验</strong>而不是数学——两个陌生人在纽约走散，往往会在中央车站的大钟下碰头。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Hard to predict which equilibrium will occur
+Generally, we would look to considerations outside the formal description of the game to resolve the problem. 
+For example, suppose that the art film was a closer destination for one of the two players. Then both players might reasonably suppose that would be the equilibrium choice.
+When players have good reasons to believe that one of the equilibria is more “natural” than the others, it is called a focal point of the game.
+---
+Battle of the Sexes</pre></details>
+</section><section class="slide" id="s84" data-n="84">
+  <div class="slide-head"><span class="pno">P84</span><span class="ptitle">Example 2: prisoner’s dilemma</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-084.webp" alt="第84页"><figcaption>课件第 84 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>有意思的是：<strong>囚徒困境也能看成协调博弈</strong>——双方都想协调到（Hold Out, Hold Out），只是做不到。</p>
+<p>两条出路：</p>
+<ul><li><strong>扩大博弈</strong>：无限重复的囚徒困境可以用「<strong>tit for tat</strong>（以眼还眼）」策略维持合作——这是更高级课程的内容；</li><li><strong>引入合同</strong>：让承诺变得可执行，把「说好的」变成「必须的」。</li></ul>
+<p>老师补充：这两条正是现实中解决囚徒困境的主要手段——<strong>长期关系</strong>与<strong>第三方执法</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Example 2: prisoner’s dilemma
+---
+Prisoner’s Dilemma is also a coordination game
+One way out of the prisoner’s dilemma is to enlarge the game by adding new choices. 
+Example (在更高级的课程中会讲授）:  An infinitely repeated prisoner’s dilemma game could achieve the cooperative outcome via strategies like tit for tat （”以眼还眼以牙还牙”）
+Another way to “solve” the prisoner’s dilemma is to add the possibility of contracting.</pre></details>
+</section><section class="slide" id="s85" data-n="85">
+  <div class="slide-head"><span class="pno">P85</span><span class="ptitle">Example 3: Assurance Games</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-085.webp" alt="第85页"><figcaption>课件第 85 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>例子三：<strong><a class="term" href="glossary.html#t-assurance-game" data-t="assurance-game">保证博弈</a></strong>（assurance games）。</p>
+<p>1950 年代的美苏<strong>军备竞赛</strong>：每个国家都可以造核弹，也可以不造。</p>
+<table class="tbl"><thead><tr><th>U.S. \ U.S.S.R.</th><th>Refrain</th><th>Build</th></tr></thead><tbody><tr><td>Refrain</td><td>4, 4</td><td>1, 3</td></tr><tr><td>Build</td><td>3, 1</td><td>2, 2</td></tr></tbody></table>
+<p>双方都最想要（Refrain, Refrain）——各得 4。但都怕对方造弹而自己吃亏（1 &lt; 3），于是可能双双军备（2, 2）。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Example 3: Assurance Games
+---
+U.S.-U.S.S.R. arms race of the 1950s 
+Each country could build nuclear missiles or refrain from building them.</pre></details>
+</section><section class="slide" id="s86" data-n="86">
+  <div class="slide-head"><span class="pno">P86</span><span class="ptitle">The trouble is, neither party knows which choice the other will make. Before com</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-086.webp" alt="第86页"><figcaption>课件第 86 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>困难在于：<strong>谁也不知道对方会怎么选</strong>。</p>
+<p>在承诺「不造」之前，每一方都想要对方先给一个<strong>保证</strong>（assurance）——这就是这个博弈名字的由来。</p>
+<p>一种办法是<strong>先动</strong>：主动开放本国接受核查，把「我不造」变成<strong>可观察的事实</strong>。</p>
+<p>注意它和囚徒困境的区别：这里双方都宁愿一起不造、而不是一起造；问题只是<strong>信任</strong>，不是激励方向。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The trouble is, neither party knows which choice the other will make. 
+Before committing to refrain, each party wants some assurance that the other will refrain.
+One way to achieve this assurance is for one of the players to move first, for example, by opening itself to inspection</pre></details>
+</section><section class="slide" id="s87" data-n="87">
+  <div class="slide-head"><span class="pno">P87</span><span class="ptitle">Example 4: Chicken</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-087.webp" alt="第87页"><figcaption>课件第 87 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>例子四：<strong><a class="term" href="glossary.html#t-chicken-game" data-t="chicken-game">斗鸡博弈</a></strong>（chicken）。</p>
+<p>两个少年从街道两头对开，谁先打方向盘谁<strong>丢面子</strong>；都不让就撞车。</p>
+<table class="tbl"><thead><tr><th>Row \ Column</th><th>Swerve</th><th>Straight</th></tr></thead><tbody><tr><td>Swerve</td><td>0, 0</td><td>−1, 1</td></tr><tr><td>Straight</td><td>1, −1</td><td>−2, −2</td></tr></tbody></table>
+<p>撞车（<strong>−2, −2</strong>）对双方都最糟。注意：这里「做<strong>不同</strong>的事」才是好结果。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Example 4: Chicken
+---
+Two teenagers start at opposite ends of the street and drive in a straight line toward each other. 
+The first to swerve loses face; if neither swerves, they both crash into each other.</pre></details>
+</section><section class="slide" id="s88" data-n="88">
+  <div class="slide-head"><span class="pno">P88</span><span class="ptitle">Example 4: Chicken</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-088.webp" alt="第88页"><figcaption>课件第 88 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>两个纯策略纳什均衡：（Straight, Swerve）与（Swerve, Straight）。</p>
+<p>列玩家偏好前者（他得 1），行玩家偏好后者（他得 1）；但<strong>任何一个均衡都好过撞车</strong>。</p>
+<p>与保证博弈对比一下：那里「做<strong>同样</strong>的事」更好；这里「做不同的事」才更好。所以斗鸡里先让一步的人吃亏，而保证博弈里先跑的人占便宜。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Example 4: Chicken
+---
+Two pure strategy Nash equilibria
+Column prefers the first equilibrium and row the second, but each equilibrium is better than a crash.</pre></details>
+</section><section class="slide" id="s89" data-n="89">
+  <div class="slide-head"><span class="pno">P89</span><span class="ptitle">So how can one of the players enforce his preferred equilibrium? One important s</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-089.webp" alt="第89页"><figcaption>课件第 89 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>于是问题变成：怎么把均衡<strong>推到自己偏好的那一个</strong>？答案是<strong>承诺</strong>。</p>
+<p>设想行玩家出发前<strong>大张旗鼓地</strong>把方向盘锁死。列玩家看见了，知道行玩家<strong>只能直行</strong>，于是选择避让。</p>
+<p>关键在两个条件：这个动作必须<strong>可见</strong>（对方看得到）且<strong>不可逆</strong>（自己解不开）。偷偷锁上没用，能随时解开也没用——那是空话，不是承诺。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>So how can one of the players enforce his preferred equilibrium?
+One important strategy is commitment.
+Suppose that row ostentatiously fastened a steering wheel lock on his car before starting out. Column, recognizing that row now has no choice but to go straight, would choose to swerve.</pre></details>
+</section><section class="slide" id="s90" data-n="90">
+  <div class="slide-head"><span class="pno">P90</span><span class="ptitle">《史记·项羽本纪》</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-090.webp" alt="第90页"><figcaption>课件第 90 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>《史记·项羽本纪》给了同一个逻辑的古典版本：</p>
+<blockquote>项羽乃悉引兵渡河，皆沉船，破釜甑，烧庐舍，持三日粮，以示士卒必死，无一还心。</blockquote>
+<p>破釜沉舟就是<strong>烧掉自己的退路</strong>：把「撤退」从策略集里删掉，士兵于是只能死战。</p>
+<p>这是承诺的极端形式——代价极大，但正因如此<strong>可信</strong>。对手看见你没有退路，就只能按你的条件来。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>《史记·项羽本纪》
+---
+项羽乃悉引兵渡河，皆沉船，破釜甑，烧庐舍，持三日粮，以示士卒必死，无一还心。于是至则围王离，与秦军遇，九战，绝其甬道，大破之，杀苏角，虏王离。涉间不降楚，自烧杀。当是时，楚兵冠诸侯。诸侯军救巨鹿下者十余壁，莫敢纵兵。及楚击秦，诸将皆从壁上观。楚战士无不一以当十，楚兵呼声动天，诸侯军无不人人惴恐。于是已破秦军，项羽召见诸侯将，入辕门，无不膝行而前，莫敢仰视。</pre></details>
+</section><section class="slide" id="s91" data-n="91">
+  <div class="slide-head"><span class="pno">P91</span><span class="ptitle">Games of Coordination</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-091.webp" alt="第91页"><figcaption>课件第 91 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页把协调类博弈收成一张总表：</p>
+<table class="tbl"><thead><tr><th>博弈</th><th>协调方式</th></tr></thead><tbody><tr><td>保证博弈</td><td>在双方都喜欢的均衡上合作</td></tr><tr><td>性别之战</td><td>在某一方喜欢的均衡上合作</td></tr><tr><td>斗鸡</td><td>选择向自己偏好的结果</td></tr><tr><td>囚徒困境</td><td>玩均衡策略之外的东西</td></tr></tbody></table>
+<p>共同手段：<strong>序贯行动</strong>（先动 + 承诺）、<strong>重复</strong>、<strong>合同</strong>。三者本质相同——都是往博弈里加一条「不能反悔」的约束。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Games of Coordination
+---
+How to Coordinate
+---
+Assurance Games
+(cooperate at an equilibrium that you both like)
+---
+Battle of the Sexes
+(cooperate at an equilibrium one of you likes)
+---
+Chicken
+(make a choice leading to your preferred outcome)
+---
+Prisoner’s Dilemma
+(play something other than the equilibrium strategy)
+---
+Sequential moves
+(one player’s moving first,
+ and committing herself to a particular choice.)
+---
+Repetition/ contracting</pre></details>
+</section><section class="slide" id="s92" data-n="92">
+  <div class="slide-head"><span class="pno">P92</span><span class="ptitle">Games of Competition</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-092.webp" alt="第92页"><figcaption>课件第 92 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>转入<strong>竞争博弈</strong>：合作的反面，零和博弈最纯粹。</p>
+<p>再看点球：Row 踢点球，可以踢左或踢右；Column 守门，可以扑左或扑右。</p>
+<p>这一页只是重新设定场景，把符号从「你/门将」换成「Row/Column」，方便后面写代数。下一页给出贴近真实的具体成功率。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Games of Competition
+---
+The opposite pole from cooperation is competition. 
+Zero-sum games
+Let us illustrate a zero-sum game by looking at soccer.
+Row is kicking a penalty shot and column is defending. Row can kick to the left or kick to the right; column can favor one side and defend to the left or defend to the right in order to deflect the kick.</pre></details>
+</section><section class="slide" id="s93" data-n="93">
+  <div class="slide-head"><span class="pno">P93</span><span class="ptitle">Penalty Kick Game</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-093.webp" alt="第93页"><figcaption>课件第 93 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>具体成功率（数字是百分数）：</p>
+<table class="tbl"><thead><tr><th>Row \ Column</th><th>Defend left</th><th>Defend right</th></tr></thead><tbody><tr><td>Kick left</td><td>50, −50</td><td>80, −80</td></tr><tr><td>Kick right</td><td>90, −90</td><td>20, −20</td></tr></tbody></table>
+<p>读法：踢左遇扑左只有 <strong>50%</strong>，遇扑右 <strong>80%</strong>；踢右遇扑左 <strong>90%</strong>，遇扑右只有 <strong>20%</strong>。</p>
+<p>注意：Row <strong>没有占优策略</strong>——踢左在对方扑右时更好，踢右在对方扑左时更好。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Penalty Kick Game
+---
+Row will score 80 percent of the time if he kicks to the left and column jumps to the right; but only 50 percent of the time if column jumps to the left. 
+If row kicks to the right, he succeeds 90 percent of the time if column jumps to the left but 20 percent of the time if column jumps to the right.</pre></details>
+</section><section class="slide" id="s94" data-n="94">
+  <div class="slide-head"><span class="pno">P94</span><span class="ptitle">Penalty Kick Game</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-094.webp" alt="第94页"><figcaption>课件第 94 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>显然，Column 若知道方向就占尽优势。Row 于是要让 Column <strong>一直猜</strong>：有时踢强侧，有时踢弱侧。</p>
+<p>这就是<strong>混合策略</strong>。设 Row 踢左的概率为 <strong>p</strong>（踢右为 1−p），Column 扑左的概率为 <strong>q</strong>（扑右为 1−q）。</p>
+<p>接下来两页用两种办法求 p 和 q：一是画最优反应曲线，二是<a class="term" href="glossary.html#t-make-opponent-indifferent" data-t="make-opponent-indifferent">让对手无差异</a>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Penalty Kick Game
+---
+Obviously, if column knows which way row will kick she will have a tremendous advantage. 
+Row, recognizing this, will therefore try to keep column guessing. 
+In particular, he will kick sometimes to his strong side and sometimes to his weak side. That is, he will pursue a mixed strategy.
+Assume that row kicks left with probability p.</pre></details>
+</section><section class="slide" id="s95" data-n="95">
+  <div class="slide-head"><span class="pno">P95</span><span class="ptitle">（图示页）</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-095.webp" alt="第95页"><figcaption>课件第 95 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（图）横轴 p、纵轴 q，两条最优反应曲线交于一点，坐标 <strong>(0.7, 0.6)</strong>：</p>
+<ul><li>Column 的最优反应是 <strong>p = 0.7</strong> 处的一条竖线——p 一旦超过它，Column 就改扑另一边；</li><li>Row 的最优反应是 <strong>q = 0.6</strong> 处的一条横线；</li><li>交点就是唯一的混合策略纳什均衡。</li></ul></div>
+</section><section class="slide" id="s96" data-n="96">
+  <div class="slide-head"><span class="pno">P96</span><span class="ptitle">Penalty Kick Game</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-096.webp" alt="第96页"><figcaption>课件第 96 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>另一种解法，更有用：<strong>让对手无差异</strong>。</p>
+<ul><li>找 p 使 Column 扑左与扑右的期望收益相等 → 得 <strong>p = 0.7</strong>。此时 Column 扑哪边都一样，Row 就榨不出更多。</li><li>找 q 使 Row 踢左与踢右的期望收益相等 → 得 <strong>q = 0.6</strong>。此时 Row 踢哪边都一样，Column 也榨不出更多。</li></ul>
+<p><strong>让对手无所谓，就是让自己最安全</strong>——这是混合策略均衡的核心直觉。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Penalty Kick Game
+---
+Another strategy to solve this game:
+Key observation:
+When row chooses 0.7, column is indifferent between jumping left and jumping right, or, for that matter jumping left with any probability q. 
+Similar for the other side</pre></details>
+</section><section class="slide" id="s97" data-n="97">
+  <div class="slide-head"><span class="pno">P97</span><span class="ptitle">Games of Coexistence</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-097.webp" alt="第97页"><figcaption>课件第 97 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>转入<strong>共存博弈</strong>（games of coexistence）：<strong>鹰鸽博弈</strong>（hawk-dove game）。</p>
+<p>同一物种内部有两种行为类型。两条野狗遇到一块食物，选择<strong>打</strong>（hawkish，鹰派）还是<strong>分</strong>（dovish，鸽派）。</p>
+<p>收益高的类型繁殖更快，把自己的倾向传给后代。注意：这里的主角不是「会算的玩家」，而是<strong>演化</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Games of Coexistence
+---
+Hawk-dove game
+A single species that exhibits two kinds of behavior. 
+When two wild dogs come across a piece of food, they have to decide whether to fight or to share. 
+Fighting is called the hawkish strategy. Sharing is called a dovish strategy.
+The type that has the higher payoff reproduces more rapidly, passing its tendency to play hawk or dove on to its offspring.</pre></details>
+</section><section class="slide" id="s98" data-n="98">
+  <div class="slide-head"><span class="pno">P98</span><span class="ptitle">Hawk-dove game</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-098.webp" alt="第98页"><figcaption>课件第 98 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>矩阵：</p>
+<table class="tbl"><thead><tr><th>Row \ Column</th><th>Hawk</th><th>Dove</th></tr></thead><tbody><tr><td>Hawk</td><td>−2, −2</td><td>4, 0</td></tr><tr><td>Dove</td><td>0, 4</td><td>2, 2</td></tr></tbody></table>
+<p>读法：鹰遇鹰两败俱伤（<strong>−2</strong>）；鹰遇鸽独吞（<strong>4</strong>）；鸽遇鹰让出（<strong>0</strong>）；鸽遇鸽平分（<strong>2</strong>）。</p>
+<p>均衡里必然<strong>两种类型混合存在</strong>——全鹰会互相打残，全鸽会被鹰占便宜。问题只是：混合比例是多少？</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Hawk-dove game
+---
+There will have to be some mixture of hawk types and dove types in equilibrium. 
+What sort of mixture should we expect?</pre></details>
+</section><section class="slide" id="s99" data-n="99">
+  <div class="slide-head"><span class="pno">P99</span><span class="ptitle">Assume the fraction playing hawk is p. Then a hawk will meet another hawk with p</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-099.webp" alt="第99页"><figcaption>课件第 99 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>设群体中鹰的比例为 <strong>p</strong>，则鹰遇鹰的概率是 p，遇鸽的概率是 1−p。</p>
+<ul><li>鹰的期望收益：<strong>H = −2p + 4(1 − p)</strong></li><li>鸽的期望收益：<strong>D = 2(1 − p)</strong>（遇鹰得 0，遇鸽得 2）</li></ul>
+<p>比较这两个数，就知道哪种类型繁殖得更快——也就是 p 会往哪边动。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Assume the fraction playing hawk is p. Then a hawk will meet another hawk with probability p and a dove with 1 − p.
+The expected payoff to the hawk type:
+                             H = −2p + 4(1 − p).
+The expected payoff to the dove type:
+                             D = 2(1 − p).</pre></details>
+</section><section class="slide" id="s100" data-n="100">
+  <div class="slide-head"><span class="pno">P100</span><span class="ptitle">If H&gt;D, the fraction of hawk types in the population increase, and if H&lt;D, the n</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-100.webp" alt="第100页"><figcaption>课件第 100 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>若 H &gt; D，鹰的比例上升；若 H &lt; D，鸽的比例上升。</p>
+<p>种群均衡的唯一条件是两种类型的收益<strong>相等</strong>：</p>
+<p>−2p + 4(1 − p) = 2(1 − p)</p>
+<p>展开左边：4 − 6p = 2 − 2p，移项得 2 = 4p，所以 <strong>p = 1/2</strong>。</p>
+<p>也就是一半鹰、一半鸽——这就是共存的比例。注意它不依赖总资源多少，只依赖四种相遇收益的相对大小；改变「鹰遇鹰」的损失（比如打斗更血腥），比例就会跟着变。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>If H&gt;D,  the fraction of hawk types in the population increase, and if H&lt;D, the number of dove types increase.
+The only way the population can be in equilibrium is if the payoffs to each type are the same:
+H = −2p + 4(1 − p) = 2(1 − p) = D,
+or
+p = 1/2.</pre></details>
+</section><section class="slide" id="s101" data-n="101">
+  <div class="slide-head"><span class="pno">P101</span><span class="ptitle">Games of Coexistence</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-101.webp" alt="第101页"><figcaption>课件第 101 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（图）横轴 p（鹰的比例），纵轴是收益，两条线在 <strong>p = 1/2</strong> 处相交。</p>
+<p>读图的要点：交点<strong>左侧</strong>鹰占优（H &gt; D），鹰会变多；交点<strong>右侧</strong>鸽占优，鸽会变多。所以比例被自动推回 1/2。</p>
+<p>注意这种「自己纠偏」的性质——它比单纯的「没人想改」更强。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Games of Coexistence
+---
+Hawk-dove game</pre></details>
+</section><section class="slide" id="s102" data-n="102">
+  <div class="slide-head"><span class="pno">P102</span><span class="ptitle">Hawk-Dove Game</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-102.webp" alt="第102页"><figcaption>课件第 102 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>p = 1/2 不仅是均衡，而且在演化力量下<strong>稳定</strong>：偏离会被推回来。</p>
+<p>这类策略叫<strong>演化稳定策略</strong>（evolutionarily stable strategy，<strong>ESS</strong>）。</p>
+<p>老师补充：ESS 是纳什均衡的演化版——它不要求玩家会算，只要求繁殖率会筛。凡是「能被一小群突变者入侵」的策略，都活不下来。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Hawk-Dove Game
+---
+p = 1/2 is not only an equilibrium but it is also stable under evolutionary forces. 
+Considerations of this sort lead to a concept known as an evolutionarily stable strategy or an ESS.</pre></details>
+</section><section class="slide" id="s103" data-n="103">
+  <div class="slide-head"><span class="pno">P103</span><span class="ptitle">Games of Commitment</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-103.webp" alt="第103页"><figcaption>课件第 103 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>进入<strong>承诺博弈</strong>。在序贯（扩展式）博弈里，最重要的策略问题就是<strong>承诺</strong>。</p>
+<p>课件把条件说得很死：这个承诺必须<strong>不可逆</strong>（irreversible），且<strong>能被对方观察到</strong>（observable）。</p>
+<p>缺一个，承诺就只是空话——不可观察，对方不知道；可逆，对方知道你会反悔。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Games of Commitment
+---
+We now turn to sequential moves, or extensive-form game. 
+An important strategic issue that arises in such games is commitment. 
+Note that this committed choice must be both irreversible and observable by the other player.</pre></details>
+</section><section class="slide" id="s104" data-n="104">
+  <div class="slide-head"><span class="pno">P104</span><span class="ptitle">Games of Commitment</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-104.webp" alt="第104页"><figcaption>课件第 104 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>例子：<strong>青蛙与蝎子</strong>。</p>
+<p>蝎子请青蛙背它过河。青蛙犹豫，因为怕被蛰。蝎子保证不会——理由很硬：蛰了青蛙，它自己也沉下去淹死。</p>
+<p>于是青蛙答应。渡到河中央，蝎子还是蛰了它。青蛙问为什么，蝎子答：「<strong>这是我的本性</strong>。」</p>
+<p>注意：这里的收益里明确包含了「顺从本性的满足」，这是整个模型的关键。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Games of Commitment
+---
+The Frog and the Scorpion
+The frog and the scorpion. They were standing on the bank of the river, trying to figure out a way across.
+If the frog chooses to carry the scorpion, the scorpion will choose to sting him and both will die, but the scorpion will get satisfaction from fulfilling his natural instincts.</pre></details>
+</section><section class="slide" id="s105" data-n="105">
+  <div class="slide-head"><span class="pno">P105</span><span class="ptitle">青蛙和蝎子</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-105.webp" alt="第105页"><figcaption>课件第 105 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>课件给的中文版：</p>
+<blockquote>一只蝎子想过河，请求青蛙背它。青蛙说：「我怎么能信你？你会蛰我。」蝎子说：「我为什么要蛰你？你死了，我也要淹死。」青蛙信了。到了河中间，蝎子蛰了它。青蛙临死前问：「你为什么这么做？」蝎子说：「对不起，我忍不住，这是我的本性。」</blockquote>
+<p>寓意：<strong>对方的承诺若与其收益不符，就不该信</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>青蛙和蝎子
+---
+一只蝎子请求一只青蛙背它过河。青蛙犹豫了，因为它担心蝎子会蛰它。蝎子向青蛙保证它不会这样做，因为蛰它是没有道理的，因为那样它们都会溺死。
+    青蛙被说服了，于是同意帮助。然而，在渡河途中，蝎子果然蛰了青蛙。眼看它们都将溺亡，青蛙问蝎子为什么要这么做。蝎子回答说：“这是我的本性。”</pre></details>
+</section><section class="slide" id="s106" data-n="106">
+  <div class="slide-head"><span class="pno">P106</span><span class="ptitle">The Frog and the Scorpion</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-106.webp" alt="第106页"><figcaption>课件第 106 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>树（收益顺序：蛙, 蝎）：</p>
+<table class="tbl"><thead><tr><th>青蛙</th><th>蝎子</th><th>收益</th></tr></thead><tbody><tr><td>Carry</td><td>Sting</td><td>−10, 5</td></tr><tr><td>Carry</td><td>Refrain</td><td>5, 3</td></tr><tr><td>Refuse</td><td>—</td><td>0, 0</td></tr></tbody></table>
+<p>逆向归纳：蝎子蛰得 <strong>5</strong> &gt; 不蛰 <strong>3</strong>，所以一定蛰；青蛙预见到背的收益是 <strong>−10</strong>，不如拒绝得 <strong>0</strong>。</p>
+<p>所以理性青蛙的选择是<strong>拒绝</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Frog and the Scorpion</pre></details>
+</section><section class="slide" id="s107" data-n="107">
+  <div class="slide-head"><span class="pno">P107</span><span class="ptitle">Stinging has a higher payoff to the scorpion because “it is his nature” to sting</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-107.webp" alt="第107页"><figcaption>课件第 107 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>悲剧在于：青蛙没搞懂蝎子的<strong>收益</strong>。它用「你也会死」去论证，可蝎子的收益函数里，「顺从本性」值 5，抵得过一起死。</p>
+<p>教训：<strong>分析博弈要先看对方的收益，而不是对方的道理</strong>。</p>
+<p>老师补充：这也是「听其言不如观其利」的博弈论版本——一个人的承诺能不能信，取决于他守约与违约的相对收益。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Stinging has a higher payoff to the scorpion because “it is his nature” to sting. 
+Hence the frog should rationally choose to refuse to carry the scorpion.
+Unfortunately, the frog didn’t understand the scorpion’s payoffs.
+Alas, this mistake was fatal for the frog.</pre></details>
+</section><section class="slide" id="s108" data-n="108">
+  <div class="slide-head"><span class="pno">P108</span><span class="ptitle">Games of Commitment</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-108.webp" alt="第108页"><figcaption>课件第 108 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>聪明的青蛙会想办法让蝎子<strong>承诺</strong>不蛰：</p>
+<ul><li>把它的尾刺绑起来（消除选项）；</li><li>雇一只「杀手青蛙」报复它家人（提高违约成本）；</li><li>或者干脆雇一条船，不需要蝎子的合作（消除依赖）。</li></ul>
+<p>手段不同，本质一样：<strong>改变蝎子的收益</strong>——让蛰更贵，或让不蛰更值钱。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Games of Commitment
+---
+The Frog and the Scorpion
+A smart frog would figure out some way to make the scorpion commit to not stinging. 
+He could, for example, tie his tail. Or he could hire a hit frog, who would retaliate against the scorpion’s family.
+Whatever the strategy, the critical thing for the frog to do is to change the payoffs to the scorpion by making stinging more costly or refraining more rewarding.</pre></details>
+</section><section class="slide" id="s109" data-n="109">
+  <div class="slide-head"><span class="pno">P109</span><span class="ptitle">Games of Commitment</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-109.webp" alt="第109页"><figcaption>课件第 109 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>例子：<strong>仁慈的绑匪</strong>（kindly kidnapper）。</p>
+<p>绑匪绑了人质，却发现拿不到赎金。该放人吗？人质当然保证不揭发——但他<strong>会守约</strong>吗？</p>
+<p>关键在于假设：绑匪杀人会有<strong>心理成本</strong>，所以他不是冷血到底的那种人。这个假设决定了后面所有的数。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Games of Commitment
+---
+The Kindly Kidnapper
+Suppose some kidnappers abduct a hostage and then discover that they can’t get paid. Should they release the hostage? The hostage, of course, promises not to reveal the identity of the kidnappers. But will he keep this promise?
+We assume the kidnapper would feel bad about killing the hostage.</pre></details>
+</section><section class="slide" id="s110" data-n="110">
+  <div class="slide-head"><span class="pno">P110</span><span class="ptitle">Games of Commitment</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-110.webp" alt="第110页"><figcaption>课件第 110 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>树（绑匪, 人质）：</p>
+<table class="tbl"><thead><tr><th>绑匪</th><th>人质</th><th>收益</th></tr></thead><tbody><tr><td>Kill</td><td>—</td><td>−3, −10</td></tr><tr><td>Release</td><td>Identify（指认）</td><td>−5, 5</td></tr><tr><td>Release</td><td>Refrain（不指认）</td><td>5, 3</td></tr></tbody></table>
+<p>逆向归纳：人质选择<strong>指认</strong>（5 &gt; 3）；绑匪预见到这一点，于是选择 <strong>Kill</strong>（−3 &gt; −5）。</p>
+<p>注意：绑匪并不是坏，他是被<strong>预期</strong>逼的。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Games of Commitment
+---
+The Kindly Kidnapper</pre></details>
+</section><section class="slide" id="s111" data-n="111">
+  <div class="slide-head"><span class="pno">P111</span><span class="ptitle">Games of Commitment</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-111.webp" alt="第111页"><figcaption>课件第 111 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>现在<strong>承诺问题转到人质身上</strong>：他怎么让绑匪相信他不会指认？</p>
+<p>办法还是<strong>改变收益</strong>。例如让绑匪拍下自己不堪的照片并留在手上——一旦指认，照片就会被公开，人质要承担巨大成本。</p>
+<p>这种策略叫<strong>交换人质</strong>（exchange of hostages）：双方各握一张能伤害对方的牌，于是谁都不敢先动。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Games of Commitment
+---
+The Kindly Kidnapper
+Now it is the hostage who has the commitment problem: how can he convince the kidnappers that he won’t renege on his promise and reveal their identity?
+The hostage needs to figure out a way to change the payoffs of the game. He might have the kidnappers photograph him in some embarrassing act and leave them with the photos.
+This sort of strategy is known as an “exchange of hostages.”. The embarrassing photo would impose costs on the hostage if it were released.</pre></details>
+</section><section class="slide" id="s112" data-n="112">
+  <div class="slide-head"><span class="pno">P112</span><span class="ptitle">《史记·王翦列传》</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-112.webp" alt="第112页"><figcaption>课件第 112 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>《史记·王翦列传》是同一个逻辑：</p>
+<blockquote>王翦行，请美田宅园池甚众。……「我不多请田宅为子孙业以自坚，顾令秦王坐而疑我邪？」</blockquote>
+<p>王翦率<strong>全国之兵</strong>出征，最怕秦王疑他造反。于是他反复索要田产——显得贪财而无大志，以此自证「我不会反」。</p>
+<p>老师补充：这叫「<strong>自污以取信</strong>」——用可见的、不可逆的贪财，换取主上的信任。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>《史记·王翦列传》
+---
+王翦行，请美田宅园池甚众。始皇曰：‘将军行矣，何忧贫乎？’王翦曰：“为大王将，有功终不得封侯，故及大王之向臣，臣亦及时以请园池为子孙业耳。”
+
+部下不解，王翦解释： 
+    “夫秦王怚而不信人。今空秦国甲士而专委于我，我不多请田宅为子孙业以自坚，顾令秦王坐而疑我邪？”</pre></details>
+</section><section class="slide" id="s113" data-n="113">
+  <div class="slide-head"><span class="pno">P113</span><span class="ptitle">Games of Commitment</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-113.webp" alt="第113页"><figcaption>课件第 113 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>另一个实验：把两只猪放进长栏。一只<strong>强势</strong>（体型大、跑得快），一只<strong>弱势</strong>。</p>
+<p>长栏一端有杠杆，按下后食物出现在<strong>另一端</strong>的食槽。去按杠杆要花力气、要跑一段路；留在食槽边则可以先吃。</p>
+<p>这个设计很讲究：食物在<strong>远端</strong>，按杠杆的人必须跑一趟，而守着食槽的人不用跑。于是「跑得快」这件好事，反而变成了「你去跑」的理由。</p>
+<p>问题：谁去按杠杆，谁留下来吃？</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Games of Commitment
+---
+Some psychologists put two pigs, one dominant, one subordinate, in a long pen. 
+At one end of the pen was a lever that would release a portion of food to a trough located at the other end of the pen. 
+Which pig would push the lever and which would eat the food?</pre></details>
+</section><section class="slide" id="s114" data-n="114">
+  <div class="slide-head"><span class="pno">P114</span><span class="ptitle">When Strength Is Weakness</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-114.webp" alt="第114页"><figcaption>课件第 114 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>标题页：<strong>当优势变成劣势</strong>（When Strength Is Weakness）。</p>
+<p>先猜一下结果：强势猪跑得快、吃得凶，应该通吃吧？</p>
+<p>先把「优势」说清楚：它跑得快、抢得凶，所以跑到食槽边能抢到更多。可这两项本事在「该谁去按杠杆」这个问题上，恰恰让它成为<strong>最等不起</strong>的那一个。</p>
+<p>下一页的表会给你反直觉的答案——这是本讲最值得记住的结论之一。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>When Strength Is Weakness</pre></details>
+</section><section class="slide" id="s115" data-n="115">
+  <div class="slide-head"><span class="pno">P115</span><span class="ptitle">这一页是空白过渡页</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-115.webp" alt="第115页"><figcaption>课件第 115 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页是空白过渡页，只有标题和留白，作用是让你先押一个答案，再带着预期去看结果——先有预期，才有「反直觉」的冲击力。</p>
+<p>押完再往下看：强势猪的「强」，恰恰使它成为那个<strong>必须</strong>去按杠杆的人——因为它<a class="term" href="glossary.html#t-opportunity-cost" data-t="opportunity-cost">机会成本</a>最高，它等不起。经济学里这类现象有个统一的名字：<strong>优势的诅咒</strong>。</p></div>
+</section><section class="slide" id="s116" data-n="116">
+  <div class="slide-head"><span class="pno">P116</span><span class="ptitle">When strength is weakness</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-116.webp" alt="第116页"><figcaption>课件第 116 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>实验结果出人意料：<strong>强势猪去按杠杆</strong>，弱势猪守在食槽边。</p>
+<p>强势猪按完冲过来，只抢到一点残渣；弱势猪吃掉了大部分。</p>
+<p>原因很冷酷：弱势猪去按杠杆，回来什么都抢不到；强势猪<strong>不去</strong>按，损失更大（它本来能多吃）。于是强者被迫干苦活，弱者坐享其成。</p>
+<p>一句话：<strong>实力越强，越没有「等」的资格</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>When strength is weakness
+---
+Somewhat surprisingly the outcome of the experiment was that the dominant pig pressed the lever, while the subordinate pig waited for the food. 
+The subordinate pig then ate most of the food, while the dominant pig rushed as fast as it could to the trough end of the pen, ending up with only a few scraps.</pre></details>
+</section><section class="slide" id="s117" data-n="117">
+  <div class="slide-head"><span class="pno">P117</span><span class="ptitle">When Strength Is Weakness</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-117.webp" alt="第117页"><figcaption>课件第 117 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>矩阵（行 = 弱势猪，列 = 强势猪）：</p>
+<table class="tbl"><thead><tr><th>Subordinate \ Dominant</th><th>Don't press</th><th>Press</th></tr></thead><tbody><tr><td>Don't press</td><td>0, 0</td><td>4, 1</td></tr><tr><td>Press</td><td>0, 5</td><td>2, 3</td></tr></tbody></table>
+<p>强势猪的 <strong>Press 是占优策略</strong>（5 &gt; 0、3 &gt; 1）；给定它按，弱势猪的最优是 <strong>Don't press</strong>（4 &gt; 2）。</p>
+<p>均衡（Don't press, Press）：弱势猪得 <strong>4</strong>，强势猪只得 <strong>1</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>When Strength Is Weakness</pre></details>
+</section><section class="slide" id="s118" data-n="118">
+  <div class="slide-head"><span class="pno">P118</span><span class="ptitle">Saving and Social Security</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-118.webp" alt="第118页"><figcaption>课件第 118 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>承诺问题不只在动物界，也不只在犯罪故事里，它同样是<strong>经济政策</strong>的核心。</p>
+<p>下一页用「储蓄与社会保障」说明一件事：一代人的选择会改变下一代人的<strong>激励</strong>，从而<strong>反过来</strong>改变自己的选择。这种「预期改变行为、行为又印证预期」的循环，正是博弈论最擅长的东西。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Saving and Social Security
+---
+Commitment problems aren’t limited to the animal world. They also show up in economic policy.</pre></details>
+</section><section class="slide" id="s119" data-n="119">
+  <div class="slide-head"><span class="pno">P119</span><span class="ptitle">Games of Commitment</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-119.webp" alt="第119页"><figcaption>课件第 119 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>设定：老一代选 <strong>Save</strong>（储蓄）或 <strong>Squander</strong>（挥霍）；年轻一代选 <strong>Support</strong>（赡养老人）或 <strong>Refrain</strong>（不赡养，自己存钱养老）。</p>
+<table class="tbl"><thead><tr><th>Older \ Younger</th><th>Support</th><th>Refrain</th></tr></thead><tbody><tr><td>Save</td><td>2, −1</td><td>1, 0</td></tr><tr><td>Squander</td><td>3, −1</td><td>−2, −2</td></tr></tbody></table>
+<p>注意：老一代最想要的是（Squander, Support）= <strong>3</strong>——自己花光，还指望孩子养。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Games of Commitment
+---
+Saving for retirement is an important example
+Two strategies for the older generation: save or squander. 
+The younger gen: support their elders or save for their own retirement.</pre></details>
+</section><section class="slide" id="s120" data-n="120">
+  <div class="slide-head"><span class="pno">P120</span><span class="ptitle">Games of Commitment</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-120.webp" alt="第120页"><figcaption>课件第 120 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>改成扩展式：老一代<strong>先</strong>动，年轻一代看到后再选。</p>
+<table class="tbl"><thead><tr><th>老</th><th>年轻</th><th>收益（老, 少）</th></tr></thead><tbody><tr><td>Squander</td><td>Support</td><td>3, −1</td></tr><tr><td>Squander</td><td>Refrain</td><td>−2, −2</td></tr><tr><td>Save</td><td>Support</td><td>2, −1</td></tr><tr><td>Save</td><td>Refrain</td><td>1, 0</td></tr></tbody></table>
+<p>逆向归纳：老若挥霍，年轻人只能赡养（−1 &gt; −2）；老若储蓄，年轻人选择不赡养（0 &gt; −1）。于是老挥霍、年轻人赡养，<strong><a class="term" href="glossary.html#t-subgame-perfect-equilibrium" data-t="subgame-perfect-equilibrium">子博弈完美均衡</a></strong>（subgame perfect equilibrium）是（Support, Squander）。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Games of Commitment
+---
+Savings and Social Security
+ Consider the time structure of the game:</pre></details>
+</section><section class="slide" id="s121" data-n="121">
+  <div class="slide-head"><span class="pno">P121</span><span class="ptitle">Hold Up 敲竹杠</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-121.webp" alt="第121页"><figcaption>课件第 121 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>Hold-up（<a class="term" href="glossary.html#t-hold-up" data-t="hold-up">敲竹杠</a>）</strong>。</p>
+<p>你雇承包商建仓库。快完工时，你觉得颜色不好看，要求重刷——这本来只是一笔小钱。</p>
+<p>承包商开价 <strong>1500</strong>。你算了一下：换人至少要这么久、这么贵，而且你确实想要新颜色，于是你付了。</p>
+<p>（重刷的<strong>实际成本只有 200</strong>。）那 1300 的差价，就是从你的「<strong>没有退路</strong>」里榨出来的。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Hold Up 敲竹杠
+---
+You hire a contractor to build a warehouse. 
+After the construction is almost done, you realize that the color is bad and ask the contractor to change the paint, which involves a trivial expense. The contractor charges you 1500.
+You recognize that it will cost you at least that much to delay completion until you can find a painter, and you really do want the new color, so, you pay the cost. (actual cost of painting is only 200……)</pre></details>
+</section><section class="slide" id="s122" data-n="122">
+  <div class="slide-head"><span class="pno">P122</span><span class="ptitle">树</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-122.webp" alt="第122页"><figcaption>课件第 122 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>树（承包商, 客户）：</p>
+<table class="tbl"><thead><tr><th>承包商</th><th>客户</th><th>收益</th></tr></thead><tbody><tr><td>Charge actual cost（按实收费）</td><td>—</td><td>0, 1300</td></tr><tr><td>Extort（敲竹杠）</td><td>Give in（认栽）</td><td>1300, 0</td></tr><tr><td>Extort</td><td>Find a painter（换人）</td><td>0, −100</td></tr></tbody></table>
+<p>逆向归纳：客户认栽（0 &gt; −100），承包商于是敲竹杠（1300 &gt; 0）。</p>
+<p>注意：客户不是傻，他是在<strong>已经被套住</strong>之后做最优选择。</p></div>
+</section><section class="slide" id="s123" data-n="123">
+  <div class="slide-head"><span class="pno">P123</span><span class="ptitle">Hold Up</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-123.webp" alt="第123页"><figcaption>课件第 123 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>企业怎么解决 hold-up？三条路：</p>
+<ul><li><strong>合同</strong>：事先把价格、变更条款写清楚——最基本也最常用的答案；</li><li><strong>承诺</strong>：让自己<strong>失去</strong>事后加价的能力（固定总价合同、押金、第三方托管）；</li><li><strong>声誉</strong>：长期合作中，敲一次竹杠就丢掉以后所有的生意。</li></ul>
+<p>老师补充：<strong>资产专用性</strong>越强（越难换供应商），被 hold-up 的风险越大——这是<a class="term" href="glossary.html#t-transaction-cost" data-t="transaction-cost">交易成本</a>经济学的核心命题。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Hold Up
+---
+How do firms solve the hold-up problem?
+The basic answer is contracts. 
+Another way to solve the problem is through commitment.
+Another important factor is reputation.</pre></details>
+</section><section class="slide" id="s124" data-n="124">
+  <div class="slide-head"><span class="pno">P124</span><span class="ptitle">Bargaining game</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-124.webp" alt="第124页"><figcaption>课件第 124 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong><a class="term" href="glossary.html#t-rubinstein-bargaining" data-t="rubinstein-bargaining">Rubinstein</a> 议价模型</strong>：Alice 和 Bob 分 1 美元，最多谈 <strong>3 天</strong>。</p>
+<ul><li>第 1 天：Alice 出价；</li><li>第 2 天：Bob 接受或还价；</li><li>第 3 天：Alice 出最后一口价；</li><li>三天谈不拢，两人都得 0。</li></ul>
+<p>这是「<a class="term" href="glossary.html#t-ultimatum-game" data-t="ultimatum-game">最后通牒</a>」的重复版：每多谈一天，那 1 美元都缩水一点——所以<strong>时间是成本</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Bargaining game
+---
+Rubinstein bargaining model
+Alice and Bob, have $1 to divide between them. 
+They agree to spend at most three days negotiating over the division.
+The first day, Alice will make an offer.
+      The next day, Bob either accepts or comes back with a counteroffer.
+      The third day, Alice gets to make one final offer. 
+      If they cannot reach an agreement in three days, both players get zero.</pre></details>
+</section><section class="slide" id="s125" data-n="125">
+  <div class="slide-head"><span class="pno">P125</span><span class="ptitle">Bargaining</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-125.webp" alt="第125页"><figcaption>课件第 125 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>假设两人<strong>耐心不同</strong>：Alice 的收益每天按 <strong>α</strong> 折现，Bob 按 <strong>β</strong> 折现（0 &lt; α, β &lt; 1）。</p>
+<p>另一个假设：无差异时，接受对方更偏好的那个方案。</p>
+<p>从最后一天倒推：第 3 天 Alice 可以「要么接受要么拉倒」，她会给 Bob 他能接受的<strong>最小</strong>金额——按假设是 <strong>0</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Bargaining
+---
+Assume Alice and Bob differ in their degree of impatience: Alice discounts payoffs in the future at a rate of α per day, and Bob discounts payoffs at a rate of β per day.
+We also assume that if a player is indifferent between two offers, he will accept the one that is most preferred by his opponent. 
+We start our analysis at the end of the game, right before the last day.
+       At this point Alice can make a take-it-or-leave-it offer to Bob. 
+       Clearly, the optimal thing for Alice to do at this point is to offer Bob the
+       smallest possible amount that he would accept, which, by assumption, is zero</pre></details>
+</section><section class="slide" id="s126" data-n="126">
+  <div class="slide-head"><span class="pno">P126</span><span class="ptitle">Bargaining</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-126.webp" alt="第126页"><figcaption>课件第 126 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>继续倒推：</p>
+<ul><li>若走到第 3 天，Alice 得 1、Bob 得 0。Bob 知道 Alice 明天能保底拿 1（今天值 α），所以他今天给 Alice <strong>α</strong> 就能成交：Alice 得 α，Bob 得 <strong>1 − α</strong>。</li><li>回到第 1 天：Alice 给 Bob <strong>β(1 − α)</strong>，Bob 刚好接受。</li></ul>
+<p>每一步都只用一条原则：<strong>给对方「他明天能拿到的今天价值」，自己留下差额</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Bargaining
+---
+If the game lasts three days, Alice will get $1 and Bob would get zero (i.e., an arbitrarily small amount).
+Go back to the previous move, Bob should realize that Alice can guarantee herself $1 on the next move by simply rejecting his offer. 
+A dollar next period is worth α to Alice this period, Bob certainly prefers 1−α now to zero next period, so he should rationally offer α to Alice, which Alice will then accept. 
+So if the game ends on the second move, Alice gets α and Bob gets 1 − α.
+Move to the first day. At this point Alice similarly offers β(1 − α) to Bob. Bob finds this (just) acceptable and the game ends.</pre></details>
+</section><section class="slide" id="s127" data-n="127">
+  <div class="slide-head"><span class="pno">P127</span><span class="ptitle">Bargaining</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-127.webp" alt="第127页"><figcaption>课件第 127 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>最终结果，博弈在第 1 天就结束：</p>
+<blockquote>Alice 得 <strong>1 − β(1 − α)</strong>，Bob 得 <strong>β(1 − α)</strong>。</blockquote>
+<p>含义：谁更<strong>没耐心</strong>（折现因子越低、越急着成交），谁拿得越少——<strong>耐心本身就是议价力</strong>。</p>
+<p>把期限推到无限（T→∞），极限就是标准的 Rubinstein 解。老师补充：这也是「拖得起的人赢」的正式版本。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Bargaining
+---
+The final outcome is that the game ends on the first move with Alice 
+receiving 1 − β(1 − α) and Bob receiving β(1 − α).
+
+It is natural to let the horizon go to infinity and ask what happens in the infinite game.</pre></details>
+</section><section class="slide" id="s128" data-n="128">
+  <div class="slide-head"><span class="pno">P128</span><span class="ptitle">Bargaining</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec10/slide-128.webp" alt="第128页"><figcaption>课件第 128 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>最后通牒博弈</strong>（ultimatum game）：经济学家在实验室里检验这类模型，结果<strong>对不上</strong>。</p>
+<p>真实的人会拒绝「太小」的报价——宁可两人都拿 0，也不接受一个不公平的分配。</p>
+<p>两条解释：一是过小的报价<strong>违反社会规范</strong>，会被惩罚；二是接受者从「惩罚那个贪心的人」这个动作<strong>本身</strong>获得效用。</p>
+<p>老师补充：这说明收益里除了钱，还有公平。回到 P6 那句话——博弈论完全可以装进「善意」的收益，只是我们常常先把它关掉，好把模型看清。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Bargaining
+---
+The Ultimatum Game
+Economists test the Rubinstein bargaining model in the laboratory. Unfortunately, it doesn’t work out like that.
+There are many proposed explanations for this. One view is that too small an offer violates social norms of behavior.
+Another, not inconsistent view, is that receivers get some utility payoff from hurting the offerers, in retaliation for the small offer.</pre></details>
+</section>
+    <footer class="end">
+      <p>本讲结束。<a href="lec12.html">继续：L12 信息技术 →</a></p>
+    </footer>
+  </main>
+</div>
+
+<aside id="ask-panel" class="ask-panel" aria-hidden="true">
+  <div class="ask-head">
+    <b>问老师</b>
+    <span class="ask-tag">DeepSeek</span>
+    <button id="ask-close" type="button" title="关闭">×</button>
+  </div>
+  <div class="ask-setup" id="ask-setup">
+    <p>第一次用要先填一个 DeepSeek API Key，它只存在你本机的浏览器里，直接发往 <code>api.deepseek.com</code>，不经过任何中间服务器。</p>
+    <label>API Key<input id="ask-key" type="password" placeholder="sk-..." autocomplete="off"></label>
+    <label>模型<select id="ask-model">
+      <option value="deepseek-chat">deepseek-chat（快，够用）</option>
+      <option value="deepseek-reasoner">deepseek-reasoner（慢，会推理）</option>
+    </select></label>
+    <button id="ask-save" type="button">保存并开始</button>
+    <p class="ask-note">没有 Key？去 <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">platform.deepseek.com</a> 建一个。</p>
+  </div>
+  <div class="ask-log" id="ask-log"></div>
+  <div class="ask-foot">
+    <label class="ask-ctx"><input type="checkbox" id="ask-ctx" checked> 带上当前页内容</label>
+    <div class="ask-input">
+      <textarea id="ask-text" rows="2" placeholder="比如：为什么 MR 会比价格低？"></textarea>
+      <button id="ask-send" type="button">发</button>
+    </div>
+  </div>
+</aside>
+<div id="lightbox" class="lightbox"><img id="lbimg" alt=""></div>
+<script src="glossary-data.js"></script>
+<script src="app.js"></script>
+</body></html>

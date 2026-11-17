@@ -1,0 +1,520 @@
+{
+ "file": "Lecture 9 Tax and Reg.pptx",
+ "count": 85,
+ "size": [
+  9144000,
+  6858000
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "text": "Government Tax \u000b&\u000bTax Incidence",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 2,
+   "text": "Who bears the burden of taxes\n---\n“Our new Constitution is now established, and has an appearance that promises permanency; but in this world nothing can be said to be certain, except death and taxes.”\n       — Benjamin Franklin, in a letter to Jean-Baptiste Le Roy, 1789",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 3,
+   "text": "Who bears the burden of taxes\n---\nQuestion: who pays the tax?\nSeem to be a stupid question? Whoever is taxed bears the burden.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 4,
+   "text": "Tax Incidence\n---\nThis answer might be too naive\nWe are going to see that the tax burden can be shared between a buyer and a seller even if it seems to fall on just one of them. \nWe will use a term tax incidence to denote this situation\nTax incidence:  how the burden of the tax is distributed across various agents in the economy.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 5,
+   "text": "An example\n---\nSuppose the government of Hangzhou wants to raise money to build a few additional toilets near Xihu, because the number of toilets there is quite limited for quite a few years.\nKnowing that the restaurants near Xihu are doing well, government decides to levy a tax of 2RMB on every dish of Xihu Vinegar Fish (西湖醋鱼)\nEvery time a restaurant sells a dish of fish it must send 2 RMB to the city tax department.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 6,
+   "text": "An example\n---\nQuestion: \nHow is this going to affect price and quantity of Vinegar fish sold in Hangzhou?\nHow is this going to affect sellers and buyers in the market?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 7,
+   "text": "An example",
+   "pics": 10,
+   "notes": ""
+  },
+  {
+   "n": 8,
+   "text": "Now, there is a gap of 2 RMB between what the consumer pays and what the supplier receives\nSecond, not all of this 2RMB falls on the restaurants: \nConsumers are paying 1RMB more per plate\nSellers are receiving 1RMB less per plate\n---\nAn example",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 9,
+   "text": "Suppose now the sellers begin to complain as they are unhappy with paying the 2 RMB tax. \nHere is their argument, which seem clever enough: “Because most of our buyers are tourists, let’s tax these buyers 2 Yuan for every dish that they purchase. This way, the tourists will pay for their new toilets.”\n---\nAn example",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 10,
+   "text": "Question: \nWhat would happen if the government follow the sellers’ suggestions and levied the tax on consumers instead?\n---\nAn example",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 11,
+   "text": "",
+   "pics": 2,
+   "notes": ""
+  },
+  {
+   "n": 12,
+   "text": "Why doesn’t it change? \nIt’s because in the first case, when restaurants are taxed, menu prices rose from 6.50 to 7.50. \nThus, consumers paid 7.50 per plate and producers’ net revenue was 5.50 (7.50 - 2 tax) per plate. \nIn the second case, when consumers are directly taxed, the equilibrium menu price decreases to 5.50 because of the consequences of the tax. \nThus, again, producers receive 5.50 per plate in net revenues, but, because of the tax, consumers pay a total of 7.50 for every dish of fish they consume.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 13,
+   "text": "A general lesson\n“In competitive markets, tax incidence and equilibrium prices and quantities are independent of whether the tax is imposed on consumers or producers.”",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 14,
+   "text": "The Effects of Demand and Supply Elasticities\n---\nIn general, the tax incidents will not be identical for sellers and buyers, as the  elasticity of market demand will not be identical to the elasticity of market supply.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 15,
+   "text": "The Effects of Supply Elasticities",
+   "pics": 2,
+   "notes": ""
+  },
+  {
+   "n": 16,
+   "text": "The Effects of Demand Elasticities",
+   "pics": 2,
+   "notes": ""
+  },
+  {
+   "n": 17,
+   "text": "General lesson:\nThe tax burden falls less heavily on the side of the market that is more elastic—that is, more responsive to price changes.\n---\nThe Effects of Demand and Supply Elasticities",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 18,
+   "text": "What is the intuition?\n\nWhen buyers are more price-elastic, they have more alternatives: when the price rises, switch to another good. \nIf buyers are price inelastic, they have few good alternatives. \nThus, they must “swallow” the higher price and continue to purchase the taxed good despite the higher price. \nSame logic applies to the producer side.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 19,
+   "text": "Another impact of elasticities on the tax burden: \nAs supply or demand becomes more price-elastic, the deadweight loss of taxation increases.\n---\nElasticities and deadweight loss",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 20,
+   "text": "Q2\n---\nQ1\n---\nDWL and the Size of the Tax\n---\nP\n---\nQ\n---\nD\n---\nS\n---\n2T\n---\nT\n---\ninitial DWL\n---\nnew DWL\n---\nDoubling the tax causes the DWL more than doubles",
+   "pics": 0,
+   "notes": "The new DWL is four times the initial DWL, even though the tax is just twice as large."
+  },
+  {
+   "n": 21,
+   "text": "Q3\n---\nDWL and the Size of the Tax\n---\nP\n---\nQ\n---\nD\n---\nS\n---\nQ1\n---\n3T\n---\nT\n---\nTripling the tax causes the DWL to more than triple.\n---\ninitial DWL\n---\nnew DWL",
+   "pics": 0,
+   "notes": "The new DWL is nine times the initial DWL, even though the tax is only three times as large."
+  },
+  {
+   "n": 22,
+   "text": "22\n---\nDWL and the Size of the Tax\n---\nDWL\n---\nTax size\n---\nImplication\nWhen tax rates are low, raising them doesn’t cause much harm, and lowering them doesn’t bring much benefit. \nWhen tax rates are high, raising them is very harmful, and cutting them is very beneficial.",
+   "pics": 0,
+   "notes": "The “implication” in the green box is not in the textbook, so it is not supported in the study guide or test bank.  You may wish to delete it from this slide.  \n\nIf you keep it, note that the “harm” of raising taxes and the “benefit” of lowering them refer to the impact on total surplus."
+  },
+  {
+   "n": 23,
+   "text": "Q2\n---\nRevenue and the Size of the Tax\n---\nP\n---\nQ\n---\nD\n---\nS\n---\nQ1\n---\nPB\n---\nPS\n---\nPB\n---\nPS\n---\n2T\n---\nT\n---\nWhen the \u000btax is small, increasing it causes tax revenue to rise.\n---\n0",
+   "pics": 0,
+   "notes": "When the tax is small (namely, equal to T), the shaded yellow rectangle represents tax revenue.\n\nWhen the tax equals 2T, the pink shaded box represents revenue.  \n\nThe pink shaded box is larger than the yellow box."
+  },
+  {
+   "n": 24,
+   "text": "Q3\n---\nRevenue and the Size of the Tax\n---\nP\n---\nQ\n---\nD\n---\nS\n---\nQ2\n---\nPB\n---\nPS\n---\nPB\n---\nPS\n---\n3T\n---\n2T\n---\nWhen the \u000btax is larger, increasing it causes tax revenue to fall.\n---\n0",
+   "pics": 0,
+   "notes": "Raising the tax further – to 3T – causes revenue to fall.  Revenue is now represented by the bluish-purple shaded box, which is smaller than the pink box."
+  },
+  {
+   "n": 25,
+   "text": "Laffer curve: \nthe relationship between \u000bthe size of the tax and tax revenue.\n---\nRevenue and the Size of the Tax\n---\nTax size\n---\nTax revenue\n---\n0",
+   "pics": 0,
+   "notes": "The Laffer curves shown here and in the book are symmetric, and their peak occurs in the middle.  You might mention to students that this need not and probably is not the case.  However, we just don’t know where the peak is – it could be at a tax rate of 20% or a tax rate of 200% - and it surely varies across goods.  \n\nThe textbook has some excellent discussion of the Laffer curve, President Reagan, and supply-side economics.  Encourage your students to check it out."
+  },
+  {
+   "n": 26,
+   "text": "Regulation",
+   "pics": 0,
+   "notes": "You now understand the behavior of buyers. To understand the complete picture of a mar-\nket, we also need to study sellers. The interaction of buyers and sellers in a marketplace\ndetermines the market price."
+  },
+  {
+   "n": 27,
+   "text": "Regulation: actions by the government directed at influencing market outcomes, such as the quantity traded of a good or service, its price, or its quality or safety. \nantitrust activities that prevent some firms from exercising excessive monopoly power\nactivities that are useful for enforcing laws and property rights\nresolving disputes to improve the market allocation of resources.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 28,
+   "text": "We have learned that one fundamental theme unites the multiple solutions to externalities, whether public or private: internalizing the externality. \nWhen individuals or companies take into account the full costs and benefits of their actions because of some public or private incentive, economists say that they are internalizing the externality. \nWhen the external effects of their actions are internalized, the general result is that the market equilibrium moves toward higher social well-being.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 29,
+   "text": "In many instances, however, the government often directly regulates the activity that creates negative externalities. \nFor example, governments typically prevent firms from dumping hazardous waste into rivers rather than simply taxing them.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 30,
+   "text": "厂老板道出为何企业全关停雾霾仍破千真相",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 31,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 32,
+   "text": "Direct Regulation\n---\nA common form of government intervention in markets is direct regulation (or command-and-control). \nDirect regulation (or command-and-control regulation) refers to direct actions by the government to control the amount of a certain activity.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 33,
+   "text": "Direct Regulation\n---\nAffect just about every walk of life\nExamples:\nsafety of foods and drugs\nmiles per gallon our automobiles achieve\nwhen we can drop out of school.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 34,
+   "text": "Direct Regulation\n---\nIn many cases, such regulations serve important purposes. \nFor example, consider a prominent regulator of the quality of goods: the Food and Drug Administration (FDA). \nThe FDA represents one of the most complex bureaucracies in the United States, employing 9,000 people and operating on a budget of approximately $2 billion per year.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 35,
+   "text": "Direct Regulation\n---\nIt is not a perfect organization: often blamed for being slow to allow new drugs to reach the market. \nNevertheless, the FDA does play an important role. \nIt makes sure that drugs that are marketed do have the functions that they are supposed to have. \nThe FDA is also charged with preventing fly-by-night companies from selling snake oil, so to speak, to unsuspecting consumers.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 36,
+   "text": "This type of regulation aims at ensuring that complex products meet certain quality and disclosure requirements\nWhat if they these markets are left to the market itself? \nCostly for each consumer to obtain such information. \nIf each consumer had to individually verify that a drug was safe to take, it would lead to a massive duplication of effort.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 37,
+   "text": "Though regulation plays an indispensable role in modern society, it has costs and limitations. \nConsider a quick thought experiment on quantity regulations. \nQuantity regulations, which include fishing quotas, zoning restrictions, antismoking laws can be found throughout any market economy.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 38,
+   "text": "Assume that the government determines that there is a shortage of physicists. \nThe government says the following: “because of the positive externalities that physicists bestow on society, we should have 5,000 more of them. ”\nIt proceeds to use quantity regulation to choose 5,000 people to become physicists, without any market mechanism to guide those choices. \nQuestion: would this approach yield an efficient result?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 39,
+   "text": "Likely not!\nUnlike market forces that guide resources to their best use, this type of command system would probably fail miserably\na gifted artist or a talented businessman might be forced into a career solving complicated mathematical equations for which he or she has no particular talent. \nThink about what would happen if 黄晓明 or Angelababy，or Jack Ma, were forced into the department of physics of Zhejiang University to study physics…",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 40,
+   "text": "If there is an appropriately chosen subsidy to becoming a physicist\nthen it won’t be random people who choose to enter physics\nbut those who had the talent to become a physicist and yet were previously indifferent between, say, a career as a  stock trader and one as a physicist, thus attracting the right people into this profession.",
+   "pics": 0,
+   "notes": "As we learned before, a Pigouvian subsidy is a viable alternative, because it uses market forces to encourage people at the margin to internalize the externality."
+  },
+  {
+   "n": 41,
+   "text": "Price Controls: Price Ceilings and Price Floors    \nAs we discussed before, sometimes the government intervenes in a market directly by setting a maximum or minimum price for which goods and services sell. \nSuch intervention to regulate prices is called price controls. \ntwo types of price controls—price ceilings and price floors.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 42,
+   "text": "Price Ceilings\n---\nA price ceiling is a cap on the price of a market good or service. \nOne important example is rent control: the maximum amount that landlords can charge renters or the maximum amount by which they can increase rent. \nRent controls are often introduced partly as a redistributive tool—because renters are typically poorer than landlords and end up spending a large portion of their incomes on rent.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 43,
+   "text": "In the United States, rent controls began during World War I and remain in many cities today, including New York City, San Francisco, Los Angeles, and Washington, D.C. \nHowever, economic analysis shows that rent control does create important inefficiencies\nsome of these may help potential renters and others may not.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 44,
+   "text": "",
+   "pics": 1,
+   "notes": "Suppose government places a price control on apartments in the form of a price ceiling. without rent control, the equilibrium is a rent of $1,200 per month and 4,000 apartments. Now consider a rent control imposing a price ceiling of $750. What would happen?"
+  },
+  {
+   "n": 45,
+   "text": "",
+   "pics": 2,
+   "notes": ""
+  },
+  {
+   "n": 46,
+   "text": "If rent control is so clearly welfare-reducing, why do we have it in practice? \nOne reason is that it does not reduce everybody’s welfare. \nconsumer surplus might be higher under the rent control \nIn addition, rent control can serve a distributive purpose: \nif the renters are poor, the policy has effectively redistributed money from the generally richer landlords to their typically poorer tenants.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 47,
+   "text": "However, some renters are hurt: fewer of them are now able to find an apartment. \nMoreover, rent control may discourage landlords from maintaining apartments, since even a poorly maintained apartment will find takers in the market with a shortage of apartments.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 48,
+   "text": "",
+   "pics": 2,
+   "notes": ""
+  },
+  {
+   "n": 49,
+   "text": "Government Failures",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 50,
+   "text": "Government Failures\n---\nWe have now seen several ways in which governments may intervene in the economic system. \nThough many of these interventions have well-defined objectives and some of them are essential for the proper functioning of markets, we have seen that they also create a range of inefficiencies",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 51,
+   "text": "Government Failures\n---\nSome people believe that the role of the government in the economy should be minimized \nThey emphasize not only these costs but also a broader set of inefficiencies associated with government interventions, sometimes called government failures",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 52,
+   "text": "The Direct Costs of Bureaucracies\n---\nEvery government program needs bureaucrats and bureaucracies to monitor its implementation. \nBureaucrats have to be paid. \nThey are also taken out of the productive sectors of the economy. \nThat is, instead of working at a manufacturing plant or as a manager at Taobao.com, the bureaucrats are engaged in regulation or tax collection.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 53,
+   "text": "The Direct Costs of Bureaucracies\n---\nThis observation does not suggest that bureaucrats are unproductive at what they do—they implement regulation.\nHowever, in the absence of regulation, these workers would have been productive in other jobs\nand this lost in production represents the opportunity cost of government work.\nIn this way, the allocation of time and talent of individuals to bureaucracy is an important cost of government.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 54,
+   "text": "The Direct Costs of Bureaucracies\n---\nWhat is worse is that this cost is increased by the fact that bureaucracies sometimes don’t function efficiently. \nThough the various government agencies employ many well-intentioned and efficient individuals, there are long lines, arbitrary decisions, and always a few not-so-helpful employees. \nThese are the kinds of inefficiencies we have come to expect from big bureaucracies.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 55,
+   "text": "Corruption\n---\nEqually as important is the corruption that large governments engender. \nCorruption refers to the misuse of public funds or the distortion of the allocation of resources for personal gain.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 56,
+   "text": "Corruption\n---\nConsider one example—the billions of dollars that go annually to African governments as foreign aid. \nIn the past 60 years, more than $1 trillion has been transferred from developed countries to Africa, and foreign aid to all countries in 2014 exceeded $130 billion.\nMuch of it comes from governments of developed nations and a significant portion from charities.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 57,
+   "text": "Corruption\n---\nMoney that reaches its intended destination may be as little as from 5 percent to 15 percent\nSome eaten up by the inefficiencies of the bureaucracies that operate the foreign aid machine\nMore is appropriated by corrupt politicians and bureaucrats. \nFor example, a recent study found that only 13 percent of education grants reached Schools in Uganda. \nThis type of corruption is extreme but not unusual.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 58,
+   "text": "Guess what are these buildings?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 59,
+   "text": "Answer\n---\n8.5个美国白宫：望江县政府办公楼\n安徽省安庆市望江县：全国贫困县\n“白宫”占地109亩，建筑面积5100平方米，132个房间\n2012",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 60,
+   "text": "杨达才，男，汉族，1957年10月生，陕西镇坪人，1982年1月参加工作，1975年11月加入中国共产党，大学文化（延安大学政教系哲学专业），原任陕西省安全生产监督管理局局长、党组书记。\n2012年8月26日，杨达才在延安交通事故现场，因面含微笑被人拍照上网，引发争议并被网友指出杨达才有多块名表。\n2013年8月30日，西安中级人民法院在3号法庭公开开庭审理被告人杨达才受贿、巨额财产来源不明一案。同年9月5日获刑14年。",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 61,
+   "text": "Corruption\n---\nYou might be thinking that corruption is not an issue in developed countries\nThe evidence suggests otherwise. \nExample: in 2008, fifteen sitting members of US Congress were under criminal investigation, mostly for inappropriately using public funds or gifts from businesses that constituted conflicts of interest.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 62,
+   "text": "Underground Economy\n---\nMost people who have a job pay taxes\nHowever, you have likely seen cases that somebody hire babysitters or house cleaners that are not registered. \nOr you may have heard the phrase “黑车司机”\nThe underground economy, sometimes also referred to as the black market, includes activities, such as those above, where income taxes are not paid, as well as illegal activities, such as drug dealing and prostitution.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 63,
+   "text": "Underground Economy\n---\nIn modern economies, black markets cover an array of activities and are generally found in areas where the benefits of such activities are the highest\nThe black markets exist either because of high tax rates or because the activity is illegal \nTherefore the good is not provided in the formal market.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 64,
+   "text": "Example: \nAfter the United States outlawed alcohol in 1919, smugglers arranged deliveries to illegal shops and private bars. \nThe result was an era of big organized crime and an estimated $500 million in lost tax revenues annually.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 65,
+   "text": "Such an example illustrates some of the problems that an underground economy generates: \n1. When it involves goods and services that have been legally banned, the underground economy is likely to appear that undermines the ban. \n2. When underground transactions occur in markets for legal goods and services in order to avoid taxes or regulations, they put legitimate businesses at a disadvantage.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 66,
+   "text": "Such an example illustrates some of the problems that an underground economy generates: \n3. To compensate for the lost revenue, governments must levy higher taxes. \n4. Criminals spend vast resources trying to evade the law, and authorities spend resources to catch criminals, which are not effective uses of society’s resources.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 67,
+   "text": "Equity Versus Efficiency",
+   "pics": 0,
+   "notes": "You now understand the behavior of buyers. To understand the complete picture of a mar-\nket, we also need to study sellers. The interaction of buyers and sellers in a marketplace\ndetermines the market price."
+  },
+  {
+   "n": 68,
+   "text": "equity-efficiency trade-off.\n---\nTill now, we have seen two faces of government. \nOne provides valuable services ranging from public goods to efficiency-enhancing regulations and redistribution. \nThe other introduces deadweight losses via taxation or worse, unnecessary regulations and even corruption. \nHow do we balance out those two different facets of government intervention in the economy?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 69,
+   "text": "equity-efficiency trade-off.\n---\nThe answer to this question revolves around the issue of equity-efficiency trade-off. \nThe equity-efficiency trade-off refers to the balance between ensuring an equitable allocation of resources (equity) and increasing social surplus or total output (efficiency). \nMost would agree that equity and efficiency are the two most important goals for government policy.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 70,
+   "text": "",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 71,
+   "text": "equity-efficiency trade-off.\n---\nWhere do you want to be along this curve? \nThe answer to this question depends on your (normative) value judgments—for instance, is equity more important to you than efficiency? \nYou may prefer to live in a very efficient society, even if this comes at the cost of considerable social inequality\nIn contrast, some of your classmates might be willing to put up with greater inefficiencies and lower social surplus in order to achieve greater equality",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 72,
+   "text": "When is economic useful in this problem",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 73,
+   "text": "All developed nations seek to achieve some degree of equality in their society. \nThe welfare state refers to the set of insurance, regulation, and transfer programs utilized to create a safety net, reduce poverty, and redistribute income from the rich to the poor. \nIn the United States, for example, the welfare state comprises several programs, such as Medicaid and food stamps, which are targeted to the poor. \nThe welfare state is even more expansive in Europe.\nDespite the deadweight loss associated with such systems, many European nations choose to promote some degree of equality in income.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 74,
+   "text": "Consumer Sovereignty and Paternalism",
+   "pics": 0,
+   "notes": "You now understand the behavior of buyers. To understand the complete picture of a mar-\nket, we also need to study sellers. The interaction of buyers and sellers in a marketplace\ndetermines the market price."
+  },
+  {
+   "n": 75,
+   "text": "Beyond promoting equality, some economists have argued that government intervention is necessary because individuals may suffer from decision errors or may find it difficult to evaluate certain choices. \nFor example,  in China, a lot of old people, who do not have enough finance knowledge, put their retirement savings into the stock market and ended up nothing\nShould the government try to prevent them from making such mistakes?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 76,
+   "text": "One answer to whether the government should engage in these types of actions relates to the concept of consumer sovereignty. \nConsumer sovereignty is the view that choices made by a consumer reflect his or her true preferences, and outsiders, including the government, should not interfere with these choices. \nSome economists argue that we should evaluate all resource allocations according to the preferences of consumers at the time they make a decision. \nIf those preferences are wrong or turn out to be wrong after the fact, so be it.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 77,
+   "text": "At the other end of the spectrum is paternalism.\nPaternalism is the view that consumers do not always know what is best for them, and the government should encourage or induce them to change their actions. \nThis approach gives the government an active hand in designing choices to help individuals make the right decisions—decisions they might not have made by themselves.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 78,
+   "text": "Example:\nThe Social Security system in the United States, which forces individuals to save for old age, was born out of paternalism. \nLaws that ban substance abuse are also motivated in part by paternalism. \nIn contrast, in a world with no externalities, consumer sovereignty would allow individuals to consume as many drugs as desired, even if the drugs were addictive and potentially harmful.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 79,
+   "text": "In fact, the big difference between paternalism and consumer sovereignty is a normative one. \nHow much do we value consumer sovereignty in and of itself? \nAnd how much do we want to allow the government to interfere in individual decision making? \nIt’s a murky area. \nNevertheless, economists find their voices on both sides of the debate.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 80,
+   "text": "The Debate\n---\nThose economists toward the paternalistic end of the spectrum would probably say that some mistakes simply result from the fact that individuals are not used to making decisions of a certain type. \nFor example, most people, when first confronted with investing in the stock market, may not understand the implications of their decisions.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 81,
+   "text": "The Debate\n---\nAdvocates for government intervention believe that the government can help—by providing information. \nIn their view, this is not a violation of consumer sovereignty\nin fact, it corresponds to a strengthening of it, because better information drives better decisions.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 82,
+   "text": "Some economists go somewhat further and suggest that the government should also play the role of “nudging” individuals in the right direction. \nIf the government is convinced that individuals are not saving enough for retirement or are making investment choices that are too risky, then it can design savings schemes to encourage people to save more or to invest in less risky assets.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 83,
+   "text": "The pure consumer sovereignty view would be that the government’s business is not to “nudge” people into choices they can make on their own. \nEconomists favoring this view would suggest that any kind of paternalism requires that some group of people (the government, the elite, intellectuals) knows what’s good for consumers.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 84,
+   "text": "Although this may sometimes be true, it generally raises several philosophical and practical problems. \nHow can the government make extremely complicated decisions for us? \nHow can we trust the government to really have our interests in mind? \nHow can we distinguish between differences in opinions and preferences and those cases in which people really are making mistakes?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 85,
+   "text": "Beyond these questions, it is important to note that every government intervention is costly and paid for by tax revenues. \nThus, every activity relinquished to the government increases the deadweight loss that society faces. \nIn the end, after this lecture, you should start to judge  how acceptable you find government intervention in individual choices, and this is a normative question.",
+   "pics": 0,
+   "notes": ""
+  }
+ ]
+}

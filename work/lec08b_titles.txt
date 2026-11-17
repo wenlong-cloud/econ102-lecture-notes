@@ -1,0 +1,64 @@
+1 | More on the Coase Theorem
+2 | 1 --- Coase’s surprising answer: it doesn’t matter! Coase Theorem: in the absence of transaction cos
+3 | 2 --- Obviously, efficient for me to own it But we don’t need the law to give me the car If I start 
+4 | 3 --- Regardless of who owns the car at first, we get to the efficient outcome Efficiency doesn’t ca
+5 | 4 --- Property rights have to be well-defined… We need to be clear on who has what rights, so we kno
+6 | 5 --- Equilibrium in competitive markets given prices, consumers maximize utility given prices, firm
+7 | The role of transaction costs --- Although it’s important to understand the logic of the Coase theor
+8 | The role of transaction costs --- In the past few years, several cities in China have banned smoking
+9 | The role of transaction costs --- The Coase theorem suggests otherwise Even in the absence of a smok
+10 | The role of transaction costs --- But are such bribes feasible? Obvious NOT, as there are transactio
+11 | The role of transaction costs --- But that’s not the only form a bribe can take. Each restaurant has
+12 | The role of transaction costs --- The owner bans smoking if the benefits of the ban exceed its costs
+13 | The role of transaction costs --- In general, when owners set prices, “bribes” easily take place in 
+14 | The role of transaction costs --- The situation would be quite different in, say, a public library o
+15 | 14 --- When are stronger property rights “worth it”?
+16 | 15 --- “A primary function of property rights is that of guiding incentives to achieve a greater int
+17 | 16 --- Private ownership of land among Native Americans Before fur trade… externality was small, so 
+18 | 17 --- A close relationship between the development of private rights in land among native Americans
+19 | 18 --- Before the fur trade became established, hunting was carried on primarily for purposes of foo
+20 | 19 --- The advent of the fur trade had two immediate consequences. First, the value of furs to the I
+21 | 20 --- The date is 10,000 or 11,000 B.C. and you are a member of a primitive tribe that farms its la
+22 | 21 --- It has occurred to several of you that the problem would disappear, if you converted the comm
+23 | 22 --- There is a problem with this solution… Private property does not enforce itself. Someone has 
+24 | 23 --- Agricultural land continues to be treated as a commons for another thousand years, until some
+25 | Public Goods and Common Resources --- PUBLIC GOODS AND COMMON RESOURCES --- 24
+26 | Useful to compare and contrast public goods and private goods in more detail. Two dimensions. 1. Exc
+27 | 2. Rivalry 竞争性、非竞争性 Rivalry in consumption: cannot be consumed by more than one person at a time. No
+28 | PUBLIC GOODS AND COMMON RESOURCES --- 27 --- Important Characteristics of Goods --- Examples of excl
+29 | Sometimes we can also have what we called “Club goods”: highly excludable but non-rival in consumpti
+30 | Sometime we can have “Common Resources”: non-excludable but rival in consumption. Example: Open-acce
+31 | What we have studied so far are ordinary private goods: both highly excludable and highly rival in c
+32 | 31 --- Public Goods, 即公共产品（也叫公共品）是指可供多个个体同时消费而不会降低任何个体消费价值的产品或服务。 公共产品的这一关键特征,即多个个体可以消费同一种产品而不会降低其价值
+33 | Public goods: non-rival in consumption, and non-excludable. Consider protecting the earth from clima
+34 | Public goods：non-rival in consumption and are non-excludable. This is in sharp contrast to the cable
+35 | A road is which of the four kinds of goods? Hint: The answer depends on whether the road is congeste
+36 | Rival in consumption? Only if congested. Excludable? Only if a toll road. Possibilities: Uncongested
+37 | PUBLIC GOODS AND COMMON RESOURCES --- 36 --- Public goods and common resources --- For both public g
+38 | PUBLIC GOODS AND COMMON RESOURCES --- 37 --- Public Goods --- Public goods are difficult for private
+39 | PUBLIC GOODS AND COMMON RESOURCES --- 38 --- Public Goods --- If the benefit of a public good exceed
+40 | PUBLIC GOODS AND COMMON RESOURCES --- 39 --- Some Important Public Goods --- National defense Knowle
+41 | Government Provision of Public Goods --- Standard cost-benefit logic applies to the case of providin
+42 | Market demand for private goods
+43 | Market demand for public goods
+44 | 
+45 | 价格机制不再有效 --- 对于公共品: 市场价格不再是一种有效的机制, 因为公共产品的存量永远不会被 "消费殆尽"。 例子：考虑公共品“水质” 水质的均衡价格不可能等于MC： 因为在这种情况下,消费者
+46 | PUBLIC GOODS AND COMMON RESOURCES --- 45
+47 | Private Provision of Public Goods --- Although governments are important providers of public goods, 
+48 | Many avenues exist for such provision, but the most important is through private donations of time a
+49 | So what is the scope of private donations of money? Since 1971, individual contributions to charitab
+50 | Private Provision of Public Goods
+51 | Considering the voluntary nature of giving, you may think this form of public good provision might b
+52 | An example can help us understand the danger of leaving public good provision entirely in the hands 
+53 | Question: Which types of species do you think their donors are most likely to help? The answer, inte
+54 | PUBLIC GOODS AND COMMON RESOURCES --- 53
+55 | PUBLIC GOODS AND COMMON RESOURCES --- 54 --- Common Resources --- Like public goods, common resource
+56 | PUBLIC GOODS AND COMMON RESOURCES --- 55 --- The Tragedy of the Commons 公地的悲剧 --- 一个寓言可以说明为什么公共资源会被过
+57 | PUBLIC GOODS AND COMMON RESOURCES --- 56 --- The Tragedy of the Commons --- 这种悲剧是由于负的外部性造成的 允许自己的羊群在
+58 | PUBLIC GOODS AND COMMON RESOURCES --- 57 --- Policy Options to Prevent Overconsumption of Common Res
+59 | PUBLIC GOODS AND COMMON RESOURCES --- 58 --- Some Important Common Resources --- Clean air and water
+60 | PUBLIC GOODS AND COMMON RESOURCES --- 59 --- CASE STUDY --- Some firms use spam ads or spam text mes
+61 | PUBLIC GOODS AND COMMON RESOURCES --- 60 --- CONCLUSION --- Public goods tend to be under-provided, 
+62 | A good is excludable if someone can be prevented from using it. A good is rival in consumption if on
+63 | Public goods, such as national defense and fundamental knowledge, are neither excludable nor rival i
+64 | Common resources are rival in consumption but not excludable. Examples include common grazing land, 

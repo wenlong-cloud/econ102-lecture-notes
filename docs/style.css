@@ -1,0 +1,280 @@
+/* 微观经济学 · 逐页精讲 */
+:root{
+  --paper:#fbf9f4; --ink:#20242c; --muted:#6b7280; --line:#e6e1d6;
+  --accent:#8b3a2f; --accent2:#1f5f8b; --card:#ffffff; --hl:#fdf3d8;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--paper); color:var(--ink);
+  font-family:"Source Han Serif SC","Noto Serif SC","Songti SC",Georgia,"Microsoft YaHei",serif;
+  font-size:17px; line-height:1.85;
+}
+a{color:var(--accent2);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* ---------- top bar ---------- */
+.topbar{
+  position:sticky; top:0; z-index:40; display:flex; align-items:center; gap:16px;
+  padding:10px 22px; background:rgba(251,249,244,.94);
+  border-bottom:1px solid var(--line); backdrop-filter:blur(8px);
+}
+.brand{font-weight:700; letter-spacing:.04em}
+.brand a{color:var(--ink)}
+.nav{margin-left:auto; display:flex; gap:8px; flex-wrap:wrap}
+.navbtn{
+  border:1px solid var(--line); background:var(--card); padding:5px 12px; border-radius:999px;
+  font-size:14px; color:var(--ink);
+}
+.navbtn:hover{background:var(--hl);text-decoration:none}
+
+/* ---------- layout ---------- */
+.layout{display:grid; grid-template-columns:300px minmax(0,1fr); gap:30px;
+  max-width:1500px; margin:0 auto; padding:0 22px}
+.side{position:relative}
+.side-inner{position:sticky; top:64px; max-height:calc(100vh - 80px); overflow:auto;
+  padding:18px 4px 40px 0; border-right:1px solid var(--line)}
+.side h2{margin:0 0 2px; font-size:19px; color:var(--accent)}
+.side-sub{margin:0 0 12px; font-size:13px; color:var(--muted); line-height:1.5}
+#filter{width:100%; padding:8px 10px; border:1px solid var(--line); border-radius:8px;
+  background:var(--card); font-size:14px; margin-bottom:12px; font-family:inherit}
+.toc{display:flex; flex-direction:column}
+.toc a{display:flex; gap:8px; align-items:baseline; padding:3px 6px; border-radius:6px;
+  font-size:13.5px; color:#3b4048; line-height:1.5}
+.toc a b{color:var(--muted); font-weight:600; min-width:26px; font-size:12px}
+.toc a:hover{background:#f1ece0;text-decoration:none}
+.toc a.active{background:var(--hl); color:var(--accent); font-weight:700}
+.toc a.active b{color:var(--accent)}
+
+.main{min-width:0; padding:26px 0 90px}
+
+/* ---------- lecture hero ---------- */
+.lec-hero{border-bottom:2px solid var(--line); padding-bottom:22px; margin-bottom:10px}
+.crumb{font-size:13px; letter-spacing:.12em; color:var(--accent); text-transform:uppercase}
+.lec-hero h1{font-size:34px; line-height:1.3; margin:8px 0 10px}
+.lead{color:#3f4650; font-size:17px}
+.meta{font-size:13.5px; color:var(--muted)}
+.topics{margin-top:14px; background:#f4f0e6; border:1px solid var(--line); border-radius:10px; padding:10px 18px}
+.topics h3{margin:4px 0 6px; font-size:15px; color:var(--accent)}
+.topics ul{margin:0; padding-left:20px; font-size:15px}
+
+/* ---------- slide ---------- */
+.slide{background:var(--card); border:1px solid var(--line); border-radius:14px;
+  padding:18px 22px 20px; margin:26px 0; box-shadow:0 1px 2px rgba(40,30,10,.04);
+  scroll-margin-top:70px}
+.slide-head{display:flex; gap:10px; align-items:baseline; border-bottom:1px dashed var(--line);
+  padding-bottom:8px; margin-bottom:14px}
+.pno{background:var(--accent); color:#fff; font-size:12.5px; font-weight:700;
+  padding:2px 9px; border-radius:6px; letter-spacing:.05em; font-family:ui-monospace,monospace}
+.ptitle{font-weight:700; font-size:16px; color:#33383f}
+.shot{margin:0 0 14px; text-align:center}
+.shot img{display:block; width:100%; height:auto; aspect-ratio:4/3; object-fit:contain;
+  border:1px solid #e3ddd0; border-radius:8px; background:#fff; cursor:zoom-in}
+.shot figcaption{font-size:12px; color:#9aa1ab; margin-top:5px}
+.missing{color:#a33; font-size:14px}
+.teach{font-size:17px}
+.teach p{margin:.7em 0}
+.teach ul,.teach ol{margin:.6em 0; padding-left:1.5em}
+.teach li{margin:.25em 0}
+.teach strong{color:var(--accent)}
+.teach code{background:#f3efe4; padding:1px 5px; border-radius:4px; font-size:.92em;
+  font-family:ui-monospace,Consolas,monospace}
+.teach blockquote{margin:.9em 0; padding:8px 14px; border-left:3px solid var(--accent2);
+  background:#f4f7fa; color:#2f3b45; font-size:15.5px; border-radius:0 8px 8px 0}
+.raw{margin-top:8px; font-size:14px}
+.raw summary{cursor:pointer; color:var(--muted); font-size:13px}
+.raw pre{white-space:pre-wrap; background:#f7f5ee; border:1px solid var(--line);
+  border-radius:8px; padding:10px 12px; font-size:13px; line-height:1.6;
+  font-family:ui-monospace,Consolas,monospace; color:#39404a}
+.todo{color:#b07a2a; font-size:14px}
+.end{border-top:1px solid var(--line); padding-top:16px; color:var(--muted); font-size:15px}
+
+/* ---------- lightbox ---------- */
+.lightbox{position:fixed; inset:0; background:rgba(20,18,14,.9); display:none;
+  align-items:center; justify-content:center; z-index:100; padding:20px; cursor:zoom-out}
+.lightbox.on{display:flex}
+.lightbox img{max-width:98vw; max-height:96vh; border-radius:6px; background:#fff}
+
+/* ---------- home ---------- */
+.hero{padding:56px 22px 26px; max-width:1500px; margin:0 auto; text-align:center}
+.hero h1{font-size:42px; margin:0 0 10px; letter-spacing:.02em}
+.hero .sub{color:var(--muted); font-size:16px}
+.home-main{max-width:1500px; margin:0 auto; padding:10px 22px 90px}
+.home-main h2{font-size:24px; border-left:5px solid var(--accent); padding-left:12px; margin:34px 0 18px}
+.cards{display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:18px}
+.card{background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px;
+  display:flex; flex-direction:column; color:var(--ink); box-shadow:0 1px 2px rgba(40,30,10,.04)}
+.card:hover{border-color:#d8c9a8; text-decoration:none; transform:translateY(-2px);
+  transition:transform .12s ease}
+.card-top{display:flex; justify-content:space-between; font-size:12.5px; color:var(--muted)}
+.tag{color:var(--accent); font-weight:700; letter-spacing:.08em}
+.card-top .pages{white-space:nowrap; margin-left:8px; font-variant-numeric:tabular-nums}
+.card h3{margin:6px 0 8px; font-size:19px; line-height:1.4}
+.card p{margin:0 0 10px; font-size:14.5px; color:#4b525c}
+.mini{margin:0 0 12px; padding-left:18px; font-size:13.5px; color:#5a616b}
+.card-foot{margin-top:auto; font-size:13.5px; color:var(--accent2)}
+
+/* keep anchored slides clear of the sticky top bar */
+.slide, .outline h2, #lectures{scroll-margin-top:78px}
+
+/* tables inside lectures and the outline */
+.tbl{width:100%; border-collapse:collapse; margin:16px 0; font-size:14px; background:#fff;
+  border:1px solid #e3dccb; border-radius:8px; overflow:hidden}
+.tbl th,.tbl td{border-bottom:1px solid #ece5d5; padding:8px 11px; text-align:left; vertical-align:top}
+.tbl thead th{background:#f4efe2; font-weight:700; color:#3f3a31; font-size:13.5px;
+  letter-spacing:.02em; border-bottom:1px solid #ddd2ba}
+.tbl tbody tr:last-child td{border-bottom:none}
+.tbl tbody tr:nth-child(even){background:#fbf8f1}
+.teach .tbl{font-size:14px}
+
+/* outline page */
+.outline h2{margin:34px 0 10px; font-size:23px; padding-bottom:6px; border-bottom:2px solid var(--hl)}
+.outline h3{margin:22px 0 8px; font-size:18px; color:var(--accent)}
+.outline ul,.outline ol{margin:10px 0 14px; padding-left:24px}
+.outline li{margin:4px 0; line-height:1.75}
+.outline>p:first-child{font-size:16.5px; color:#3d4450}
+
+/* note attached to a truncated lecture */
+.after{margin:18px 0 0; padding:12px 16px; background:#f6f1e3; border-left:4px solid #d9c48c;
+  border-radius:6px; font-size:14px; color:#4b4234}
+
+@media (max-width:1000px){
+  .layout{grid-template-columns:1fr}
+  .side-inner{position:static; max-height:none; border-right:none; border-bottom:1px solid var(--line)}
+  .toc{max-height:220px; overflow:auto}
+  .lec-hero h1{font-size:27px}
+  .hero h1{font-size:30px}
+}
+@media print{
+  .topbar,.side,.lightbox,.ask-panel,.tpop,.ask{display:none!important}
+  .layout{display:block; max-width:none; padding:0}
+  .slide{break-inside:avoid; box-shadow:none; border-color:#ccc}
+  .raw{display:none}
+}
+
+/* ---------- 术语链接与弹层 ---------- */
+.term{
+  color:inherit; border-bottom:1px solid rgba(139,58,47,.45);
+  background:linear-gradient(transparent 62%, rgba(253,243,216,.95) 62%);
+  padding:0 1px; cursor:help;
+}
+.term:hover{text-decoration:none; border-bottom-color:var(--accent); background:#fdf3d8}
+.tpop{
+  position:fixed; z-index:120; width:min(360px, calc(100vw - 24px));
+  background:var(--card); border:1px solid #ddd2ba; border-radius:12px;
+  box-shadow:0 12px 34px rgba(40,30,12,.18); font-size:14.5px; line-height:1.65;
+}
+.tpop-in{padding:14px 16px 12px}
+.tpop-h{display:flex; align-items:baseline; gap:8px; margin-bottom:6px}
+.tpop-h b{font-size:17px; color:var(--accent)}
+.tpop-h span{font-size:12.5px; color:var(--muted); font-style:italic}
+.tpop-x{margin-left:auto; border:none; background:none; font-size:19px; line-height:1;
+  color:#a39b8b; cursor:pointer; padding:0 2px}
+.tpop-x:hover{color:var(--accent)}
+.tpop p{margin:6px 0}
+.tpop-s{font-size:15px}
+.tpop-d{color:#4b525c; font-size:14px}
+.tpop-e{background:#f7f4ea; border-radius:8px; padding:7px 10px; font-size:14px}
+.tpop-e b{color:var(--accent2); margin-right:6px; font-size:12.5px}
+.tpop-f{display:flex; flex-wrap:wrap; gap:6px; align-items:center; margin-top:8px}
+.tpop-more{margin-left:auto; font-size:13px}
+.gl{
+  display:inline-block; font-size:11.5px; padding:1px 7px; border-radius:999px;
+  background:#eef3f8; color:var(--accent2); border:1px solid #dbe6f0;
+}
+.gl:hover{background:#dfeaf5; text-decoration:none}
+
+/* ---------- 侧栏问老师入口 ---------- */
+.ask{margin:14px 0 10px; padding-top:14px; border-top:1px solid var(--line)}
+.ask button{
+  width:100%; padding:9px 12px; border-radius:10px; border:1px solid #d8c9a8;
+  background:linear-gradient(#fffdf7,#f8f1de); color:var(--accent);
+  font-family:inherit; font-size:14.5px; font-weight:700; cursor:pointer;
+}
+.ask button:hover{background:var(--hl)}
+.ask-hint{margin:6px 2px 0; font-size:12px; color:var(--muted); line-height:1.5}
+.nav .navask{
+  font-family:inherit; font-size:13.5px; font-weight:700; cursor:pointer;
+  border:1px solid #d8c9a8; border-radius:999px; background:linear-gradient(#fffdf7,#f8f1de);
+  color:var(--accent); padding:7px 15px; margin-left:4px;
+}
+.nav .navask:hover{background:var(--hl)}
+
+.ask-home{max-width:560px; margin:36px auto 0}
+.ask-home .ask{border-top:none; padding-top:0; text-align:center}
+.ask-home .ask button{font-size:15px; padding:11px 16px}
+
+/* ---------- AI 面板 ---------- */
+.ask-panel{
+  position:fixed; top:0; right:0; bottom:0; width:min(420px,100vw); z-index:130;
+  background:var(--card); border-left:1px solid #ddd2ba; display:flex; flex-direction:column;
+  transform:translateX(102%); transition:transform .22s ease; box-shadow:-8px 0 30px rgba(40,30,12,.12);
+}
+.ask-panel.on{transform:none}
+.ask-head{display:flex; align-items:center; gap:10px; padding:12px 14px; border-bottom:1px solid var(--line)}
+.ask-head b{font-size:16px}
+.ask-tag{font-size:11px; color:var(--accent2); background:#eef3f8; border:1px solid #dbe6f0;
+  padding:1px 7px; border-radius:999px}
+#ask-close{margin-left:auto; border:none; background:none; font-size:22px; line-height:1;
+  color:#a39b8b; cursor:pointer}
+#ask-close:hover{color:var(--accent)}
+.ask-setup{padding:14px; border-bottom:1px solid var(--line); background:#fbf8f0; font-size:13.5px}
+.ask-setup p{margin:0 0 10px; color:#4b4234; line-height:1.6}
+.ask-setup code{background:#f0ebdc; padding:1px 4px; border-radius:4px; font-size:12px}
+.ask-setup label{display:block; margin-bottom:10px; font-size:12.5px; color:var(--muted)}
+.ask-setup input,.ask-setup select{display:block; width:100%; margin-top:4px; padding:7px 9px;
+  border:1px solid var(--line); border-radius:8px; font-family:inherit; font-size:13.5px; background:#fff}
+#ask-save{width:100%; padding:8px; border-radius:8px; border:1px solid #d8c9a8;
+  background:#fffdf7; color:var(--accent); font-family:inherit; font-weight:700; cursor:pointer}
+#ask-save:hover{background:var(--hl)}
+.ask-note{margin:8px 0 0; font-size:12px}
+.ask-log{flex:1; overflow:auto; padding:14px; display:flex; flex-direction:column; gap:10px}
+.msg{max-width:92%; padding:9px 12px; border-radius:12px; font-size:14.5px; line-height:1.7}
+.msg.me{align-self:flex-end; background:#eef3f8; border:1px solid #dbe6f0}
+.msg.bot{align-self:flex-start; background:#f7f4ea; border:1px solid #e8e0cc}
+.msg.sys{align-self:center; background:none; color:var(--muted); font-size:12.5px; text-align:center}
+.msg.err{align-self:stretch; background:#fdf0ee; border:1px solid #f0cdc6; color:#8b3a2f}
+.msg b{color:var(--accent)}
+.msg code{background:#efe9da; padding:1px 4px; border-radius:4px; font-size:.9em}
+.ask-foot{border-top:1px solid var(--line); padding:10px 12px 12px}
+.ask-ctx{display:block; font-size:12px; color:var(--muted); margin-bottom:6px}
+.ask-input{display:flex; gap:8px; align-items:flex-end}
+#ask-text{flex:1; resize:none; padding:8px 10px; border:1px solid var(--line); border-radius:10px;
+  font-family:inherit; font-size:14px; line-height:1.5; background:#fffdf8}
+#ask-send{padding:9px 16px; border-radius:10px; border:1px solid #d8c9a8; background:#fffdf7;
+  color:var(--accent); font-family:inherit; font-weight:700; cursor:pointer}
+#ask-send:hover{background:var(--hl)}
+#ask-send:disabled{opacity:.55; cursor:default}
+body.asking{overflow:hidden}
+
+/* ---------- 术语表页 ---------- */
+.hero.small{padding:36px 22px 10px}
+.hero.small h1{font-size:34px}
+.gbar{position:sticky; top:56px; z-index:20; background:var(--paper); padding:10px 0 8px;
+  border-bottom:1px solid var(--line); margin-bottom:14px}
+#gsearch{width:100%; padding:11px 14px; border:1px solid var(--line); border-radius:10px;
+  font-family:inherit; font-size:15px; background:#fff}
+.chips{display:flex; flex-wrap:wrap; gap:7px; margin-top:9px}
+.chip{border:1px solid var(--line); background:#fff; border-radius:999px; padding:3px 11px;
+  font-family:inherit; font-size:12.5px; color:#4b525c; cursor:pointer}
+.chip:hover{background:var(--hl)}
+.chip.on{background:var(--accent); border-color:var(--accent); color:#fff}
+.gcount{font-size:12.5px; color:var(--muted); margin:0 0 10px}
+.glist{display:grid; grid-template-columns:repeat(auto-fill,minmax(330px,1fr)); gap:14px}
+.gentry{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px;
+  scroll-margin-top:120px}
+.gentry:target{border-color:var(--accent); box-shadow:0 0 0 3px var(--hl)}
+.gentry h3{margin:0 0 6px; font-size:18px; display:flex; flex-wrap:wrap; gap:8px; align-items:baseline}
+.g-zh{color:var(--accent)}
+.g-en{font-size:13px; color:var(--muted); font-style:italic; font-weight:400}
+.g-short{margin:0 0 6px; font-size:15px}
+.g-detail{margin:0 0 6px; font-size:13.5px; color:#4b525c}
+.g-ex{margin:0 0 8px; font-size:14px; background:#f7f4ea; border-radius:8px; padding:7px 10px}
+.g-ex b{color:var(--accent2); margin-right:6px; font-size:12.5px}
+.g-foot{display:flex; flex-wrap:wrap; gap:6px}
+.gempty{color:var(--muted); text-align:center; padding:30px 0}
+
+@media (max-width:1000px){
+  .gbar{top:52px}
+  .glist{grid-template-columns:1fr}
+}

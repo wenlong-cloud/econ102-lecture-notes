@@ -1,0 +1,417 @@
+=== P1 (54 chars) ===
+Microeconomics Lecture 3: Consumers and Incentives
+=== P2 (184 chars) ===
+Consumer’s problem
+---
+More on consumer behavior
+What is the micro-foundation behind the demand curve? 
+Need to model buyers’ behavior
+Useful tool to analyze a large range of questions
+=== P3 (283 chars) ===
+Consumer’s problem
+---
+Essential ingredients of the buyer’s problem (constrained optimization):
+What you like (what is the objective function)
+Prices of goods and services (part of the constraint)
+3.    How much money you get to spend on things you want (also part of the constraint)
+=== P4 (55 chars) ===
+Preferences,utility functions, and indifference curves
+=== P5 (351 chars) ===
+What you like: taste, or preferences
+---
+Would you rather live on campus together with your classmates, or live in a rented house outside campus?
+Would you rather get married with someone you love or with someone who is beautiful or someone who has a great personality? Or stay unmarried you whole life?
+Who do you like better? Jay Chou or Cai Xukun?
+=== P6 (241 chars) ===
+Preference and Taste
+---
+Different people give different answers. 
+In economics, we make no attempt to explain why people prefer the things they do. 
+Instead, we take those preferences as given and try to figure out how they govern behavior.
+=== P7 (417 chars) ===
+Preference and Taste
+---
+Which do you prefer: eggs or root beer? 
+Actually, that’s a bad question—for several reasons. 
+First, your answer might depend on the quantities involved. 
+Second, the answer might depend on how many eggs and how much root beer you’ve already got. 
+Is this a question about which of the two you’d least want to forgo forever, or a question about which you’d like to receive for your birthday?
+=== P8 (22 chars) ===
+The preference of Beth
+=== P9 (184 chars) ===
+The preference of Beth
+---
+What about basket A with basket D? 
+We start by asking Beth to point out a few of the baskets that she happens to like exactly as much as she likes basket A.
+=== P10 (41 chars) ===
+We get what we call “indifference curve”.
+=== P11 (47 chars) ===
+Using Indifference Curves
+---
+Comparing P and Q
+=== P12 (25 chars) ===
+Using indifference curves
+=== P13 (0 chars) ===
+
+=== P14 (197 chars) ===
+Properties of Indifference Curves
+---
+Indifference curves slope downward. 
+Indifference curves don’t cross. 
+Indifference curves fill the first quadrant of the plane.
+Indifference curves are convex
+=== P15 (37 chars) ===
+Marginal value: the slope of the I.C.
+=== P16 (32 chars) ===
+The shape of indifference curves
+=== P17 (181 chars) ===
+The Composite-Good Convention
+---
+In order to draw indifference curve diagrams, we must assume that there are only two goods in the world. 
+Seems restricting, yet in fact it is not.
+=== P18 (390 chars) ===
+The Composite-Good Convention
+---
+In many applications we will want to concentrate our attention on a single good—say, eggs.
+In that case we divide the world into two classes of goods, namely, “eggs” and “things that are not eggs,” otherwise known as “all other goods.” 
+This allows us to draw indifference curves between eggs (on the horizontal axis) and all other goods (on the vertical).
+=== P19 (365 chars) ===
+The Composite-Good Convention
+---
+There remains the problem of units. 
+What is a single unit of all other goods?
+The simplest solution to this problem is to measure all other goods in terms of their dollar value.
+When we lump together all things that are not eggs and measure it in a single unit like dollars, we say that we are using the composite-good convention.
+=== P20 (317 chars) ===
+The Composite-Good Convention
+---
+In the presence of the composite-good convention, the slope of an indifference curve is the marginal value of an egg in terms of other goods, with the other goods measured in dollars. 
+Thus, it is the minimum number of dollars for which the consumer would be willing to trade an egg.
+=== P21 (21 chars) ===
+The budget constraint
+=== P22 (255 chars) ===
+How Much Money You Have to Spend
+---
+The budget set is the set of all possible bundles of goods and services that a consumer can purchase with her income. 
+Economists usually describe the budget set in the context of another concept—the budget constraint.
+=== P23 (188 chars) ===
+budget constraint
+---
+First, we’ll assume that consumers do not save or borrow. 
+Second, we plot the budget constraint as a smooth line, even though our examples will be using whole units.
+=== P24 (43 chars) ===
+The budget constraint
+---
+Budget constraint
+=== P25 (12 chars) ===
+Price change
+=== P26 (13 chars) ===
+Income change
+=== P27 (0 chars) ===
+
+=== P28 (19 chars) ===
+Putting it together
+=== P29 (19 chars) ===
+Optimal consumption
+=== P30 (104 chars) ===
+Optimal consumption
+---
+Graphical analysis
+Lagrangian method (mathematics)
+Marginal argument (economics)
+=== P31 (97 chars) ===
+A corner solution
+---
+Corner solution (not tangent)
+---
+even after you spend all your money on Y?
+=== P32 (30 chars) ===
+Non-convex indifference curves
+=== P33 (47 chars) ===
+Applications of the consumer decision framework
+=== P34 (28 chars) ===
+Application #1Price Indices
+=== P35 (236 chars) ===
+Price Indices
+---
+To measure how people are affected by price changes, government statistical department around the world often report price indices
+Chinese statistics department publishes what is known as the CPI (consumer price index)
+=== P36 (392 chars) ===
+Price Indices
+---
+Roughly, statistics department do this by tracking the cost of a given basket (a fixed bundle of goods and services) over time. 
+If the basket gets more expensive, they say that the cost of living has gone up (which  may imply that people are worse off)
+If the basket gets cheaper, they say that the cost of living has gone down (which may imply that people are better off).
+=== P37 (369 chars) ===
+Price Indices
+---
+Example: 
+Harold consumes goods X and Y. 
+Their initial prices are 3 and 4, respectively
+With an income of 20, he (optimally) chooses to buy 4 units of X and 2 of Y.
+Now the price of X rises to 4 while the price of Y falls to 2
+Suppose his income remains at 20 dollars. ?  Has his living standard change? If yes, is he better or worse off than before?
+=== P38 (289 chars) ===
+Price Indices
+---
+Suppose we choose the following basket as a benchmark and hold the basket fixed: 4 units of X and 2 units of Y.
+The original cost of the basket: 20
+The new cost of the same basket: still 20
+So the price index does not change
+Question: does Harold feel the same as before?
+=== P39 (0 chars) ===
+
+=== P40 (0 chars) ===
+
+=== P41 (148 chars) ===
+Price Indices
+---
+The problem:
+With this approach, you are using a fixed basket, but the answer you get depends on which basket you choose to track.
+=== P42 (483 chars) ===
+Laspeyres v.s. Paasche price index
+---
+The cost-of-living measurement that you get by tracking the original is called a Laspeyres price index , it tends to make things look worse than they are. 
+The cost-of-living measurement that you get by tracking the new basket (in this case P) is called a Paasche price index , it tends to make things look better than they are. 
+Unfortunately, there is no perfect way to measure changes in the cost of living. Sometimes people use Fisher index
+=== P43 (36 chars) ===
+Application #2Differences in taste?
+=== P44 (348 chars) ===
+Difference in taste?
+---
+Economists don’t like to attribute differences in patterns of human behavior across countries, cultures, groups people to taste differences across countries, cultures, etc. 
+They normally think of the difference in behavior as a result of people facing different constraints. 
+So are there wide-ranged differences in taste?
+=== P45 (19 chars) ===
+Difference in taste
+=== P46 (61 chars) ===
+Now Betty chooses a new B instead, which Albert cannot afford
+=== P47 (246 chars) ===
+Difference in taste
+---
+Do Albert and Betty have identical tastes? 
+We certainly have no way to rule out that possibility. 
+If these indifference curves are extended indefinitely in either direction, they might eventually cross—or they might not.
+=== P48 (205 chars) ===
+Difference in taste
+---
+What about the real world? 
+We can replace Albert and Betty with “the average German” and “the average Italian”
+We can use realistic numbers for the prices of tomatoes and potatoes.
+=== P49 (244 chars) ===
+Difference in taste
+---
+Then we can repeat the exercise with Germans and Greeks, or Greeks and Italians, or Poles and Hungarians, and with more than just two goods. 
+If we ever get a picture like the first one, we’ve spotted a taste difference.
+=== P50 (377 chars) ===
+Difference in taste
+---
+Harvard Professor Hendrik Houthakker (亨德里克·豪特哈克）carried out this exercise for European countries and found no evidence of any taste differences. 
+When Houthakker drew his graphs, none looked like the first one
+Instead, every one of his pictures look like the second one
+This leaves open the possibility that tastes could be either the same or different.
+=== P51 (61 chars) ===
+Application 3The Least Bad Tax(or which tax do you prefer?)
+=== P52 (319 chars) ===
+The Least Bad Tax
+---
+Which would you rather pay: 
+a percentage wage tax : the government takes a certain percent of your earnings, or 
+a head tax : the government takes a certain number of dollars every day, regardless of how much you earn
+Suppose that the money collected from you are the same under two types of tax.
+=== P53 (264 chars) ===
+Numerical example
+---
+Suppose you earn 20 an hour. 
+The government can impose a 50% wage tax
+In this case, you will (optimally choose to) work 10 hours a day, earn 200, and pay 100 in taxes. 
+Or the government can impose a 100 daily head tax. 
+Which do you prefer?
+=== P54 (30 chars) ===
+Budget line: leisure and money
+=== P55 (511 chars) ===
+How to formulate this into a consumer choice problem?
+---
+Begin by drawing your budget line between leisure (measured in hours) and wages (measured in dollars). 
+If you don’t work at all, you’ll have 24 hours a day leisure and zero wages, represented by the point (24, 0) 
+If you work 24 hours a day, you’ll have zero leisure and $480 in wages, represented by point (0, 480). 
+The line connecting these points is your budget line
+By choosing the number of hours you work, you can achieve any point on this line.
+=== P56 (0 chars) ===
+
+=== P57 (306 chars) ===
+Head tax
+---
+Now consider a head tax
+The amount collected is still 100
+Suppose you still worked for 10 hours 
+(notice that this might NOT be optimal for you now, because price changed but you do not reoptimize. In other word, still working for 10 Hours is a lower bound for your welfare under the head tax)
+=== P58 (0 chars) ===
+
+=== P59 (186 chars) ===
+Intuition
+---
+You might be surprised to learn that one tax can be preferable to another, even when they both collect the same amount of revenue. 
+What’s the intuition behind this result?
+=== P60 (254 chars) ===
+Intuition: marginal analysis
+---
+Suppose first that you’re subject to the wage tax, so that your after-tax income is 10 per hour. 
+Then, you choose point P 
+At this point, the marginal value of your leisure is exactly equal to your 10-per-hour wage rate.
+=== P61 (302 chars) ===
+Intuition: marginal analysis
+---
+Now if the wage tax is suddenly abandoned and replaced by a head tax, you have the opportunity to earn 20 for an additional hour of work. 
+Because the marginal value of your leisure is only $10 per hour, you’ll welcome this opportunity and consider yourself better off.
+=== P62 (368 chars) ===
+Intuition (2)
+---
+An extreme example to build intuition:
+Which do you prefer, a 0% head tax or a 5,000,000% sales tax on shoes? 
+In both case, government collect zero tax revenue, because you’ll surely choose to go barefoot if a pair of shoes cost 1,000,000RMB.
+Nevertheless, it’s better to pay the zero-dollar head tax and buy a pair of shoes under the zero head tax.
+=== P63 (67 chars) ===
+Application 4Deriving the demand curve from the indifference curve
+=== P64 (36 chars) ===
+From consumer choice to demand curve
+=== P65 (45 chars) ===
+Important concepts related to consumer demand
+=== P66 (16 chars) ===
+Consumer surplus
+=== P67 (0 chars) ===
+
+=== P68 (223 chars) ===
+Demand elasticity
+---
+We have already learned the law of demand last time. 
+Suppose we want more precise answers as to exactly how responsive quantity demanded is to a change in price. 
+Widely used by economics: elasticity.
+=== P69 (239 chars) ===
+Elasticity
+---
+Elasticity measures the sensitivity of one economic variable to a change in another. 
+It tells us how much one variable changes when another changes. 
+More precisely, elasticity is a ratio of percentage changes in variables.
+=== P70 (309 chars) ===
+Elasticity
+---
+Note that elasticity is NOT the same as the slope of a line. 
+By measuring changes in percentage terms, elasticity goes a step deeper than the slope relationship. 
+Elasticity is an important concept because it takes into account not only the direction of change but also the size of the change.
+=== P71 (244 chars) ===
+Elasticity
+---
+Elasticities come in many forms, but in this chapter we focus on the most important ones associated with demand curves. 
+1. The price elasticity of demand
+2. The cross-price elasticity of demand
+3. The income elasticity of demand
+=== P72 (82 chars) ===
+The price elasticity of demand
+---
+Two features of this computation are important.
+=== P73 (348 chars) ===
+The price elasticity of demand
+---
+First, because of the Law of Demand, the price elasticity of demand will generally be negative. 
+The negative sign is inconvenient, so we often drop the minus sign when reporting (so we are using the absolute value)
+Note that higher price elasticities mean that consumers are more responsive to a change in price.
+=== P74 (206 chars) ===
+The price elasticity of demand
+---
+Second, whether the price elasticity of demand greater than or less than 1
+Greater than one: call it elastic
+Less than one: call it inelastic
+Equal to one: unit elasticity
+=== P75 (358 chars) ===
+The price elasticity of demand
+---
+Extreme case: perfectly elastic and perfectly inelastic
+Elasticity is infinite: demand is highly responsive to price changes: the smallest increase in price causes consumers to stop consuming the good altogether. 
+Demand can also be perfectly inelastic, which means that quantity demanded is completely unaffected by price.
+=== P76 (20 chars) ===
+Graphic illustration
+=== P77 (353 chars) ===
+Deepseek and Nvidia
+---
+AI companies need Nvidia chips to train their LLM. 
+To train one model, chip requirement is n
+Nvidia’s price per chip is V (suppose this does not change)
+Suppose LLM companies are under fierce competition: near-zero profits, price for one model is  p=nV
+The market demand for models: q=q(p)
+Nvidia’s revenue: R=(nV)*q(p)=nV*q(nV)
+=== P78 (318 chars) ===
+Deepseek and Nvidia
+---
+Let   m=nV. 
+Nvidia’s revenue: R=(nV)*q(p)=nV*q(nV)= m*q(m)
+Now, Deepseek find a way to train LLM with a lower n 
+Open-source: n all the round the world decrease: 
+m decreases
+Whether Nvidia will experience a decrease or increase in revenue depend on the elasticity of demand on the LLM market!
+=== P79 (255 chars) ===
+Jevons' Paradox?
+---
+Jevons‘ Paradox:  
+As technological improvements increase the efficiency of resource, the overall demand for that resource can actually increase rather than decrease.
+From basic microeconomics the Jevon’s Paradox is no paradox at all.
+=== P80 (35 chars) ===
+Moving Up and Down the Demand Curve
+=== P81 (226 chars) ===
+Determinants of demand elasticities
+---
+1. Closeness of substitutes. 
+Say the actress Yang Zi was chosen as the leading actress in a new movie. 
+However, she suddenly asks a much higher remuneration
+How would the producer act?
+=== P82 (104 chars) ===
+Who is Who?
+---
+傻傻分不清,看撞脸明星造型，你能分出她们吗？
+
+在娱乐圈总有那么几个名字让你熟悉，却分不清她们到底是哪张脸。不但外貌相似就连名字也很像！下面就看看以下哪位明星让你傻傻分不清吧！
+=== P83 (11 chars) ===
+Who is Who?
+=== P84 (11 chars) ===
+Who is Who?
+=== P85 (8 chars) ===
+撞脸网红大乱斗…
+=== P86 (53 chars) ===
+Low price elasticity of demand: only one of its kind
+=== P87 (374 chars) ===
+Determinants of demand elasticities
+---
+2. Budget share spent on the good. 
+The budget share relates to how important the good
+   is in your consumption bundle. 
+If It is just not important to your overall budget, perhaps you will not be sensitive to price changes, even large ones.
+ As you spend more of your budget on a good, the price elasticity of demand should increase
+=== P88 (235 chars) ===
+Determinants of demand elasticities
+---
+3. Available time to adjust. 
+When the price of oil jumps to a high level, would everyone immediately stop driving? 
+Of course not.
+What happens when the price stay high for a longer time period?
+=== P89 (26 chars) ===
+The Cross-Price Elasticity
+=== P90 (231 chars) ===
+Complements v.s. Substitutes
+---
+If a cross-price elasticity is negative, then we say the two goods are complements. 
+The fall in the price of one leads to a right shift in the demand curve for another. 
+Example: Macbook and iPhone
+=== P91 (150 chars) ===
+Complements v.s. Substitutes
+---
+If a cross-price elasticity is positive, then we say the two goods are substitutes. 
+Example: iPhone and Huawei Phone
+=== P92 (31 chars) ===
+The Income Elasticity of Demand
+=== P93 (0 chars) ===
+
+=== P94 (192 chars) ===
+Normal vs inferior goods
+---
+Normal goods: when income rises, consumers buy more of that good. Income elas.>0
+Inferior goods: when income rises, consumers buy less of that good. Income elas.<0

@@ -1,0 +1,492 @@
+[
+  {
+    "id": "ordinal-utility",
+    "zh": "序数效用",
+    "en": "ordinal utility",
+    "short": "效用只能比大小，不能加减。说某个篮子值 100 分，这个 100 本身没有信息。",
+    "detail": "所以分析用无差异曲线而不用效用数值；跨人的效用也不能直接比较。",
+    "example": "Beth 说不出 4 个鸡蛋配 7 瓶汽水值多少分，但能排出它比 3 个鸡蛋配 5 瓶好。",
+    "lec": ["lec03"],
+    "alias": ["序数效用论"]
+  },
+  {
+    "id": "nonsatiation",
+    "zh": "非饱和",
+    "en": "nonsatiation",
+    "short": "两样都多一点，你一定更高兴。这条假设像废话，可后面全靠它撑着。",
+    "detail": "没有它，无差异曲线不必向下倾斜，最优点也不必花光收入。",
+    "example": "3 个鸡蛋配 5 瓶汽水的 A，对上 4 个鸡蛋配 7 瓶汽水的 B，Beth 必选 B。",
+    "lec": ["lec03"],
+    "alias": ["more is better", "单调性"]
+  },
+  {
+    "id": "indifference-curve",
+    "zh": "无差异曲线",
+    "en": "indifference curve",
+    "short": "把给你同样满足程度的篮子连成一条线，线上每一点你都无所谓选哪个。",
+    "detail": "一条线只代表一个满足水平；要表示高低就得画一族，像等高线。",
+    "example": "过 P 那条线把平面切成三块：东北侧都比 P 好，西南侧都比 P 差。",
+    "lec": ["lec03"],
+    "alias": ["IC"]
+  },
+  {
+    "id": "marginal-rate-of-substitution",
+    "zh": "边际替代率",
+    "en": "marginal rate of substitution",
+    "short": "为了多拿一单位鸡蛋、又不改变满足程度，你最多肯放掉多少瓶汽水。",
+    "detail": "它是无差异曲线斜率的绝对值，最优时等于价格比 Px/Py。",
+    "example": "Harold 的预算线斜率是 0.75，最优那点上他的 MRS 也只能是 0.75。",
+    "lec": ["lec03"],
+    "alias": ["MRS"]
+  },
+  {
+    "id": "marginal-value",
+    "zh": "边际价值",
+    "en": "marginal value",
+    "short": "沿着无差异曲线，多要一个鸡蛋你肯拿多少美元去换，也是你肯卖的最低价。",
+    "detail": "它就是无差异曲线的斜率；纵轴换成美元后，这个斜率就是你的保留价格。",
+    "example": "复合商品那根轴按美元计，斜率 2 就是说：低于 2 美元你不卖这个鸡蛋。",
+    "lec": ["lec03"],
+    "alias": ["reservation price", "保留价格"]
+  },
+  {
+    "id": "convex-preferences",
+    "zh": "凸偏好",
+    "en": "convex preferences",
+    "short": "无差异曲线朝原点弯。你愿意拿一点这个、一点那个，而不是全押在一边。",
+    "detail": "凸性等价于边际价值递减，也才保证相切点就是最优点而不是最差点。",
+    "example": "鸡蛋少的时候曲线很陡，鸡蛋多到一个都不想要时就变平，这就是凸。",
+    "lec": ["lec03"],
+    "alias": ["凸性", "convexity"]
+  },
+  {
+    "id": "budget-constraint",
+    "zh": "预算约束",
+    "en": "budget constraint",
+    "short": "刚好把钱花光的那些篮子连成的线。线左下方整个三角形才是你买得起的。",
+    "detail": "英文 budget set 指整个集合，budget constraint 只指这条边界，中文常混。",
+    "example": "全买 y 得 15 个、全买 x 得 20 个，两截距连起来，斜率就是 -Px/Py。",
+    "lec": ["lec03"],
+    "alias": ["预算线", "budget line"]
+  },
+  {
+    "id": "composite-good",
+    "zh": "复合商品",
+    "en": "composite good",
+    "short": "把「除了鸡蛋以外的一切」打成一包放纵轴上，两维的图这才画得下。",
+    "detail": "这一包按美元计价，一单位就是一块钱，纵轴读作支出而不是件数。",
+    "example": "横轴鸡蛋、纵轴「其他所有商品」，几万种商品就这样挤进一张两维图。",
+    "lec": ["lec03"],
+    "alias": ["复合商品约定", "the composite-good convention"]
+  },
+  {
+    "id": "tangency-condition",
+    "zh": "相切条件",
+    "en": "tangency condition",
+    "short": "无差异曲线和预算线碰一下就分开的那一点，是你能摸到的最好篮子。",
+    "detail": "它只是最优的必要条件；偏好不凸时，切点反而是最差的可行点。",
+    "example": "斜率相等写成 MRS = Px/Py；Harold 那组数字里两边都是 0.75。",
+    "lec": ["lec03"],
+    "alias": ["相切"]
+  },
+  {
+    "id": "corner-solution",
+    "zh": "角点解",
+    "en": "corner solution",
+    "short": "最优点跑到坐标轴上：一种商品一件都不买，钱全砸在另一种商品上。",
+    "detail": "判据是 MUy/Py > MUx/Px 在 x = 0 处仍成立，第一个 x 都不值得买。",
+    "example": "滴酒不沾的人面对酒和饭，酒的最优消费量就是 0，钱全花在饭上。",
+    "lec": ["lec03"],
+    "alias": ["角点"]
+  },
+  {
+    "id": "lagrangian",
+    "zh": "拉格朗日法",
+    "en": "Lagrangian",
+    "short": "把约束乘一个 λ 塞进目标函数，再对每个变量求导、令其为零。",
+    "detail": "λ 是收入的边际效用：多一块钱能多给你多少效用。",
+    "example": "L = U(x,y) + λ(I - Px·x - Py·y)，两式相除就回到 MUx/MUy = Px/Py。",
+    "lec": ["lec03"],
+    "alias": ["拉格朗日乘子法", "Lagrange multiplier"]
+  },
+  {
+    "id": "laspeyres-index",
+    "zh": "拉氏指数",
+    "en": "Laspeyres index",
+    "short": "用基期那个固定篮子算今天要花多少钱，再看它比基期贵了多少钱。",
+    "detail": "它假定你照旧买，漏掉你拿便宜货替代贵货，所以倾向高估生活成本上升。",
+    "example": "Harold 固定 (4,2)：旧价 20、新价也 20，指数说没变，其实他变好了。",
+    "lec": ["lec03"],
+    "alias": ["Laspeyres", "拉氏价格指数"]
+  },
+  {
+    "id": "paasche-index",
+    "zh": "帕氏指数",
+    "en": "Paasche index",
+    "short": "用当期那个篮子回头算基期要花多少钱，权重跟着现在的消费结构走。",
+    "detail": "当期篮子在新价格下买得起、旧价格下买不起，所以倾向低估成本上升。",
+    "example": "拿 Harold 新价格下的最优篮子 P 当基准，算出成本「下降」，方向对、幅度夸大。",
+    "lec": ["lec03"],
+    "alias": ["Paasche", "帕氏价格指数"]
+  },
+  {
+    "id": "substitution-bias",
+    "zh": "替代偏误",
+    "en": "substitution bias",
+    "short": "指数把你少买贵东西、多买便宜东西这件事漏了，算出来的成本就偏高。",
+    "detail": "所有固定权重指数的通病；费雪指数取拉氏与帕氏的几何平均来折中。",
+    "example": "猪肉涨两成你改吃鸡肉，福利其实改善了，拉氏指数却记成你变差了。",
+    "lec": ["lec03"],
+    "alias": ["替代偏差"]
+  },
+  {
+    "id": "revealed-preference",
+    "zh": "显示性偏好",
+    "en": "revealed preference",
+    "short": "不问你喜欢什么，只看你买了什么。买得起却没买，就是一次投票。",
+    "detail": "问卷会撒谎，掏钱不会；这也是检验两国口味是否相同的那把尺子。",
+    "example": "Betty 的 (4,10) 在 Albert 的价格下只要 46，他买得起却没选，证据就有了。",
+    "lec": ["lec03"],
+    "alias": ["显示偏好"]
+  },
+  {
+    "id": "lump-sum-tax",
+    "zh": "一次总付税",
+    "en": "lump-sum tax",
+    "short": "不管挣多少都交同一个数，边际税率是零，比如每天 100 块的人头税。",
+    "detail": "它只让你变穷，不动任何边际价格，所以不扭曲选择，是「最不坏的税」。",
+    "example": "工资税后工作 10 小时拿 100；换人头税，同样 10 小时还是 100，但你能干得更好。",
+    "lec": ["lec03"],
+    "alias": ["人头税", "head tax"]
+  },
+  {
+    "id": "excess-burden",
+    "zh": "超额负担",
+    "en": "excess burden",
+    "short": "税除了拿走你的钱，还改了你面对的价格，逼你换一种活法，这块损失是白扔的。",
+    "detail": "一次总付税没有这一块；所得税、增值税都有，因为都动了边际价格。",
+    "example": "工资税把时薪从 20 压到 10，你少干活；换人头税，多干一小时净赚 10，你就多干。",
+    "lec": ["lec03"],
+    "alias": ["超额税收负担"]
+  },
+  {
+    "id": "price-consumption-curve",
+    "zh": "价格消费曲线",
+    "en": "price-consumption curve",
+    "short": "只有一种商品在变价，最优点会一路挪，把那些切点连起来就是它。",
+    "detail": "它画在「商品数量」平面上；翻译到「价格—数量」平面就是需求曲线。",
+    "example": "鸡蛋 6、3、2 美元，最优点从 C 到 B 到 A，鸡蛋量 2、3、5 个。",
+    "lec": ["lec03"],
+    "alias": ["PCC"]
+  },
+  {
+    "id": "consumer-surplus",
+    "zh": "消费者剩余",
+    "en": "consumer surplus",
+    "short": "你肯出的最高价减去实际付的价，一件件加起来，就是需求曲线下那块面积。",
+    "detail": "只算买方的好处；判断政策好坏得连生产者剩余一起看。",
+    "example": "需求曲线截距 125、市价 75、买 40，剩余 = ½×40×50 = 1000。",
+    "lec": ["lec03"],
+    "alias": ["CS"]
+  },
+  {
+    "id": "elasticity",
+    "zh": "弹性",
+    "en": "elasticity",
+    "short": "一个量对另一个量变化的敏感度，用百分比之比来量，所以它没有单位。",
+    "detail": "弹性不等于斜率：斜率有单位，把「打」换成「个」就变，弹性不变。",
+    "example": "地铁票涨 1 元客流掉 0.5%，出租车涨 1 元乘客少 8%，差的就是弹性。",
+    "lec": ["lec03"],
+    "alias": []
+  },
+  {
+    "id": "price-elasticity-of-demand",
+    "zh": "需求价格弹性",
+    "en": "price elasticity of demand",
+    "short": "价格涨 1%，需求量掉几个百分点。掉得比 1% 多，就叫富有弹性。",
+    "detail": "惯例取绝对值来比大小；分母用基期值，变动大就换中点公式。",
+    "example": "价格 10 涨到 11、需求 100 掉到 90，弹性 -1；反过来算是 -1.1。",
+    "lec": ["lec03"],
+    "alias": ["价格弹性", "own-price elasticity"]
+  },
+  {
+    "id": "unit-elastic",
+    "zh": "单位弹性",
+    "en": "unit elastic",
+    "short": "弹性正好等于 1：数量涨跌的百分比和价格一样，总收入卡在原地不动。",
+    "detail": "1 是分界线：大于 1 时降价增收，小于 1 时涨价增收。",
+    "example": "住房的收入弹性正好 1.00，收入涨一成，住房支出也涨一成，占比不变。",
+    "lec": ["lec03"],
+    "alias": ["单位价格弹性"]
+  },
+  {
+    "id": "cross-price-elasticity",
+    "zh": "交叉价格弹性",
+    "en": "cross-price elasticity",
+    "short": "y 涨价 1%，x 的需求量动几个百分点。分子和分母是两种不同的商品。",
+    "detail": "正号是替代品，负号是互补品；绝对值量的是绑得多紧，不是斜率。",
+    "example": "iPhone 涨价华为销量涨，交叉弹性为正；MacBook 涨价 iPhone 卖得少，为负。",
+    "lec": ["lec03"],
+    "alias": ["交叉弹性"]
+  },
+  {
+    "id": "income-elasticity",
+    "zh": "收入弹性",
+    "en": "income elasticity",
+    "short": "收入涨 1%，这种商品多买几个百分点。它决定经济增长时消费结构怎么变。",
+    "detail": "大于 1 是奢侈品，0 到 1 是必需品，小于 0 就是劣等品。",
+    "example": "出国度假 2.10，汽油 0.48，住房正好 1.00，大米 -0.44。",
+    "lec": ["lec03"],
+    "alias": ["需求的收入弹性"]
+  },
+  {
+    "id": "inferior-good",
+    "zh": "劣等品",
+    "en": "inferior good",
+    "short": "收入上去你反而买得更少的东西，它的收入弹性小于零，大米就是。",
+    "detail": "「劣等」是统计说法，不是质量差；吃饱的家庭少买米、多吃肉。",
+    "example": "大米 -0.44、公共交通 -0.75：工资涨了，这两样反而买得更少。",
+    "lec": ["lec03"],
+    "alias": ["低档品"]
+  },
+  {
+    "id": "movement-along-demand-curve",
+    "zh": "沿需求曲线移动",
+    "en": "movement along the demand curve",
+    "short": "只有它自己的价格变了，你在同一条线上挪个位置，这叫需求量变化。",
+    "detail": "收入、偏好、替代品价格变了是整条线搬家，那叫需求变化，不能拿来算弹性。",
+    "example": "鸡蛋从 6 美元降到 2 美元，最优点从 2 个挪到 5 个，这是沿曲线走。",
+    "lec": ["lec03"],
+    "alias": ["需求量变动"]
+  },
+  {
+    "id": "perfectly-competitive-market",
+    "zh": "完全竞争市场",
+    "en": "perfectly competitive market",
+    "short": "三条同时成立：谁都动不了价格、产品一模一样、想进就进想走就走。",
+    "detail": "第三条管长期利润，少了它，超额利润会一直留在行业里。",
+    "example": "淘宝开店卖布、街边小饭馆开了又关，进入成本几乎为零，接近这三条。",
+    "lec": ["lec04"],
+    "alias": ["竞争市场"]
+  },
+  {
+    "id": "price-taker",
+    "zh": "价格接受者",
+    "en": "price-taker",
+    "short": "市场价定在那儿，你只能照着卖。多要一分没人买，少要一分白送钱。",
+    "detail": "它面对的需求曲线是水平线，所以边际收益就等于市场价格。",
+    "example": "市场价 1.13 美元，The Cheeseman 卖 1,225 箱也是 1.13，一分加不上去。",
+    "lec": ["lec04"],
+    "alias": ["价格接受者厂商"]
+  },
+  {
+    "id": "free-entry",
+    "zh": "自由进入",
+    "en": "free entry",
+    "short": "没有执照、特许、专利或巨额初始投资挡着，谁都能进来做这门生意。",
+    "detail": "它是「长期经济利润为零」唯一的支柱；自由退出是它的对称条件。",
+    "example": "卖布谁都能进，出租车牌照不能，后者靠门槛把价格一直托在高位。",
+    "lec": ["lec04"],
+    "alias": ["自由进出"]
+  },
+  {
+    "id": "production-function",
+    "zh": "生产函数",
+    "en": "production function",
+    "short": "给定投入能做出多少产出，一张配方表。里面没有美元，只有技术。",
+    "detail": "它给的是技术上的最大产量，不是某家厂实际做出来的产量。",
+    "example": "厂房固定只加人：1 个工人 100 箱，4 个工人 444 箱，13 个 1,225 箱。",
+    "lec": ["lec04"],
+    "alias": []
+  },
+  {
+    "id": "marginal-product",
+    "zh": "边际产量",
+    "en": "marginal product",
+    "short": "多雇一个工人，能多做出多少箱。算法是这一行产量减上一行产量。",
+    "detail": "它先升后降，降到负数时理性厂商绝不雇这个人，工资为零也不雇。",
+    "example": "第 4 个工人多做 123 箱是顶点；第 39 个工人让总产量从 1,934 掉到 1,834。",
+    "lec": ["lec04"],
+    "alias": ["MP"]
+  },
+  {
+    "id": "law-of-diminishing-returns",
+    "zh": "边际报酬递减规律",
+    "en": "law of diminishing returns",
+    "short": "人一直加下去，早晚会有那么一个工人，他带来的增量比前一个少。",
+    "detail": "降的是边际产量，不是总产量；前面那段递增是允许存在的。",
+    "example": "第 4 个工人 +123 箱，第 13 个只剩 +64，第 17 个 +48。",
+    "lec": ["lec04"],
+    "alias": ["边际产量递减", "law of diminishing marginal returns"]
+  },
+  {
+    "id": "short-run",
+    "zh": "短期",
+    "en": "short run",
+    "short": "至少有一种投入还来不及调整的那段时间，厂房锁死，只能加减工人。",
+    "detail": "按能不能调整全部投入来分，不是按三个月还是三年。",
+    "example": "作坊只能改工人数，哪怕过了五年，只要厂房还锁着，它就仍在短期。",
+    "lec": ["lec04"],
+    "alias": []
+  },
+  {
+    "id": "fixed-cost",
+    "zh": "固定成本",
+    "en": "fixed cost",
+    "short": "产量归零也照付的那部分，比如厂房 200 美元。它和可变成本的区别就在这。",
+    "detail": "短期躲不掉，停业也照付；长期连厂房都能卖，它就不再固定了。",
+    "example": "TC = 72L + 200：200 不随产量动，72L 跟着工人数动。",
+    "lec": ["lec04"],
+    "alias": ["FC"]
+  },
+  {
+    "id": "variable-cost",
+    "zh": "可变成本",
+    "en": "variable cost",
+    "short": "多做一件就多花一份的那部分，在这个例子里就是工资：一个工人 72 美元。",
+    "detail": "停不停业只看它：收入盖得住可变成本就继续干，盖不住就关门。",
+    "example": "1,225 箱时 VC = 936、FC = 200，AVC 0.76 比 ATC 0.93 低一截。",
+    "lec": ["lec04"],
+    "alias": ["VC"]
+  },
+  {
+    "id": "marginal-cost",
+    "zh": "边际成本",
+    "en": "marginal cost",
+    "short": "多做一箱多花多少钱。只有劳动可变时，它等于工资除以边际产量。",
+    "detail": "边际产量最大的地方边际成本最小，两条曲线是同一件事的两面。",
+    "example": "72/123 = 0.59 美元，是 MC 的最低点；72/64 = 1.13 是第 13 个工人。",
+    "lec": ["lec04"],
+    "alias": ["MC"]
+  },
+  {
+    "id": "average-total-cost",
+    "zh": "平均总成本",
+    "en": "average total cost",
+    "short": "总成本除以产量，每箱摊到多少。它等于平均可变成本加平均固定成本。",
+    "detail": "它的最低点 0.90 是长期均衡的价格，也是该不该退出的门槛。",
+    "example": "Q=1,225 时 ATC = 1,136/1,225 = 0.93；AVC 0.76 加 AFC 0.16 对得上。",
+    "lec": ["lec04"],
+    "alias": ["ATC"]
+  },
+  {
+    "id": "marginal-revenue",
+    "zh": "边际收益",
+    "en": "marginal revenue",
+    "short": "多卖一箱多收多少钱。完全竞争里它正好等于市价，一分不多一分不少。",
+    "detail": "所以竞争厂商面对的需求曲线是条水平线：MR = 价格。",
+    "example": "市价 1.13，多卖一箱就多 1.13，MR 线是一条高度 1.13 的平线。",
+    "lec": ["lec04"],
+    "alias": ["MR"]
+  },
+  {
+    "id": "profit-maximization",
+    "zh": "利润最大化条件",
+    "en": "profit maximization",
+    "short": "一直生产到多做一件的收益等于多做一件的成本，也就是 MR = MC。",
+    "detail": "竞争市场里退化成 P = MC；这条规则顺手把厂商的供给曲线也定出来了。",
+    "example": "Q≈950 时 MC 0.78 < MR 1.13，该扩产；Q≈1,500 时 MC 1.60 > MR，该减产。",
+    "lec": ["lec04"],
+    "alias": ["MR = MC", "利润最大化"]
+  },
+  {
+    "id": "shutdown",
+    "zh": "停业",
+    "en": "shutdown",
+    "short": "短期内干脆什么都不生产。厂房还在、合同还在，只是机器停转、工人放假。",
+    "detail": "判据是 P < min AVC：低于 0.65 时卖一箱亏一箱，连工资都收不回。",
+    "example": "价格跌到 0.60，MR = MC 的交点在 500 箱，但该做的是一箱都不产。",
+    "lec": ["lec04"],
+    "alias": ["停产", "shut down"]
+  },
+  {
+    "id": "exit",
+    "zh": "退出",
+    "en": "exit",
+    "short": "长期离开这个行业，把厂房卖掉走人。它和短期的停业完全是两件事。",
+    "detail": "判据是 P < min ATC：0.70 时短期该开工，长期该退出。",
+    "example": "0.70 高于 min AVC 0.65、低于 min ATC 0.90：先撑着，厂房到期就卖。",
+    "lec": ["lec04"],
+    "alias": ["退出行业"]
+  },
+  {
+    "id": "sunk-cost",
+    "zh": "沉没成本",
+    "en": "sunk cost",
+    "short": "已经花掉、怎么都收不回来的钱。它不该进今天和明天的生产决策。",
+    "detail": "200 美元厂房费停不停业都一样没了，所以只比收入盖不盖得住可变成本。",
+    "example": "价格 0.80 低于 ATC 0.93 还在生产：每箱剩 0.15 去补那 200。",
+    "lec": ["lec04"],
+    "alias": []
+  },
+  {
+    "id": "producer-surplus",
+    "zh": "生产者剩余",
+    "en": "producer surplus",
+    "short": "市场价减去每单位的边际成本，一件件加起来，图上在价格线以下、MC 以上。",
+    "detail": "它不是利润：PS 没扣固定成本，利润 = PS - FC，所以 PS 为正也可能亏。",
+    "example": "P = 2.0 时那块粉色是曲边三角形，不是矩形，因为每箱成本不一样。",
+    "lec": ["lec04"],
+    "alias": ["PS"]
+  },
+  {
+    "id": "short-run-supply-curve",
+    "zh": "短期供给曲线",
+    "en": "short-run supply curve",
+    "short": "MC 曲线上高于 min AVC 的那一段。价格再低，厂商干脆不供货。",
+    "detail": "它在 min AVC 处断开：0.65 以下供给量是 0，不是沿 MC 继续往左下走。",
+    "example": "min AVC 是 0.65，红色那段就从 0.65 起沿 MC 一路往右上延伸。",
+    "lec": ["lec04"],
+    "alias": ["厂商供给曲线"]
+  },
+  {
+    "id": "price-elasticity-of-supply",
+    "zh": "供给价格弹性",
+    "en": "price elasticity of supply",
+    "short": "价格涨 1%，供给量多几个百分点。它一般是正的，比较时只看大小不看符号。",
+    "detail": "时间越长弹性越大；过原点的直线供给，弹性恒等于 1。",
+    "example": "价格 5 涨到 6、供给 100 涨到 120，都是 20%，弹性等于 1。",
+    "lec": ["lec04"],
+    "alias": ["供给弹性"]
+  },
+  {
+    "id": "long-run-average-cost",
+    "zh": "长期平均成本",
+    "en": "long-run average cost",
+    "short": "每个产量都挑最合适的厂房规模，再把最低点连成的一条宽 U 形线。",
+    "detail": "它是各条短期 ATC 的包络线，永不高于短期，且只相切不相交。",
+    "example": "小、中、大三套厂房最低点落在 700、1,000、1,900 箱，绿线把它们包起来。",
+    "lec": ["lec04"],
+    "alias": ["长期 ATC", "LRATC"]
+  },
+  {
+    "id": "economies-of-scale",
+    "zh": "规模经济",
+    "en": "economies of scale",
+    "short": "产量越大，每箱摊到的成本越低，长期 ATC 往下弯的那一段。",
+    "detail": "管理团队和设备是一大块投入，产量小摊不薄；它也是自然垄断的来源。",
+    "example": "大厂买原料更便宜、贷款利息更低，长期 ATC 一路下降，行业最后只剩一家。",
+    "lec": ["lec04"],
+    "alias": []
+  },
+  {
+    "id": "economic-profit",
+    "zh": "经济利润",
+    "en": "economic profit",
+    "short": "收入减掉显性成本，再减掉隐性成本。它问的是你有没有被别处比下去。",
+    "detail": "长期均衡里它为零，意思是「去别的行业也赚不到更多」，不是白干。",
+    "example": "账面赚 248 美元，可老板的时间去做快餐仓储更值钱，经济利润就可能是负的。",
+    "lec": ["lec04"],
+    "alias": []
+  },
+  {
+    "id": "implicit-cost",
+    "zh": "隐性成本",
+    "en": "implicit cost",
+    "short": "不写在账单上、但确实放弃掉的东西：老板自己的时间、自有厂房的租金。",
+    "detail": "漏掉它就会把会计利润当经济利润，得出「这生意该继续做」的错结论。",
+    "example": "厂房租给别人能收租、老板去开快餐仓储能多赚，这两笔都得算进成本。",
+    "lec": ["lec04"],
+    "alias": ["隐含成本"]
+  }
+]

@@ -1,0 +1,430 @@
+{
+ "file": "Lecture 4 without movie clips.pptx",
+ "count": 70,
+ "size": [
+  9144000,
+  6858000
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "text": "Lecture 4\u000bProducers",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 2,
+   "text": "Sellers in a Perfectly Competitive Market\n---\nWe begin our study of how firms make decisions by assuming that they do so in perfectly competitive markets. \n• No buyer or seller is big enough to influence the market price.\n• Sellers in the market produce identical goods.\n• There is free entry and exit in the market.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 3,
+   "text": "The third assumption\n---\nFirms can enter and exit industries as they want\nThis assumption has important consequences for the market as a whole. \nOne example of a market where sellers can enter and exit freely is selling on Taobao. \nAt any time, anyone can enter Taobao and sell cloth at virtually no cost of entry. \nSellers can almost enter or exit freely in many other familiar markets, for example, small restaurants.",
+   "pics": 0,
+   "notes": "Class question: can you name a few market in which free entry is not possible?"
+  },
+  {
+   "n": 4,
+   "text": "The seller’s problem",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 5,
+   "text": "The Seller’s Problem\n---\nThe overarching goal of the seller is to maximize net benefits, or profits.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 6,
+   "text": "My father’s problem\n---\nMy father used to run a small restaurant\nHe hired a young chef, and the chef’s girlfriend as the assistant\nHe buys ingredients such as wheat flour, meat, cabbages, every day \nThe chef then creates a cuisines with these things. \nThen my father sells them to hungry buyers.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 7,
+   "text": "My father’s problem\n---\nFirst, my father must know how the inputs combine to make the outputs (what are the inputs and output): \nSecond, my father must know how much is the cost (what constitutes the cost? )\nFinally, my father must know how much he can sell",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 8,
+   "text": "The seller’s problem\n---\nThree elements of the seller’s problem are:\n1. Making the goods (production function)\n2. The cost of doing business (cost curve)\n3. The rewards of doing business (revenue)",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 9,
+   "text": "Making the Goods: How Inputs Are Turned into Outputs\n---\nEvery firm faces the decision of how to combine inputs to create outputs.\nProduction is the process by which the transformation of inputs to outputs occurs.\n The relationship between the quantity of inputs used and the quantity of outputs produced is called the production function.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 10,
+   "text": "Production\n---\nConsider an export processing company that specializes in contract manufacturing. \nThe company operates on a “processing trade” model, meaning they receive raw materials and components from upstream suppliers and then process them into finished products：shoes.\nThe company does not own the raw materials; they only provide the labor and processing services.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 11,
+   "text": "Inputs\n---\nThe firm relies on two main inputs: \nlabor to turn raw materials into shoes\nphysical capital (equipment, machines and structures).",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 12,
+   "text": "Labor v.s. capital\n---\nDifference between capital and labor: While hiring and firing workers can be done in a short period of time, changing physical capital takes much longer.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 13,
+   "text": "Long run v.s. short run\n---\nShort run: a time period when only some of a firm’s inputs can be varied—in the example, labor. \nLong run: a time period wherein a firm can change any input. \nphysical capital is a fixed factor of production—an input that cannot change in the short run—and that labor is a variable factor of production—an input that can change in the short run.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 14,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 15,
+   "text": "Production function: stylized",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 16,
+   "text": "Specialization\n---\n1. The marginal product increases with the addition of the first few workers. \nTwo laborers working together can produce more than the sum of their production in isolation. \nThis might happen because the first two workers specialize in a particular portion of the cheespacking task that they are good at completing.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 17,
+   "text": "Law of Diminishing Returns\n---\n2. The marginal product eventually decreases with successive additions of workers.\nWe call this the Law of Diminishing Returns. \nThis law states that at a certain point of successive increases in inputs, marginal product begins to decrease.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 18,
+   "text": "Law of Diminishing Returns\n---\nThis law might apply for a number of reasons. \nFor example, with a fixed amount of physical capital, successive increases in labor eventually lead to lower output per worker because there is idle time: workers cannot use the machines as often as they would like.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 19,
+   "text": "Adding too many workers can be counterproductive\n---\n3. Adding too many workers can decrease overall production. \nThis might happen because congestion causes workers to get in the way of one another.\nIf this happens, management should send this worker home, dispatch him to a different task, or even have him wash the owner’s dog, because he is lowering production of cheese boxes.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 20,
+   "text": "The Cost of Doing Business: the Cost Curves\n---\nThe cost of production：\nwhat the firm must pay for its inputs\n\nTwo parts:",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 21,
+   "text": "Components of costs\n---\nA variable cost (VC) is the cost of variable factors of production, which change along with a firm’s output.\nA fixed cost (FC) is the cost of fixed factors of production, which a firm must pay even if it produces zero output.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 22,
+   "text": "Average cost\n---\nAverage total cost (ATC) is the total cost divided by the total output.\nAverage variable cost (AVC) is the total variable cost divided by the total output. \nAverage fixed cost (AFC) is the total fixed cost divided by the total output.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 23,
+   "text": "Marginal cost\n---\nMarginal cost (MC) is the change in total cost associated with producing one  additional unit of output.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 24,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 25,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 26,
+   "text": "An observation\n---\nMC curve intersects the ATC and AVC curves at their respective minimums.\nWhy?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 27,
+   "text": "The Rewards : Revenue Curves\n---\nIn perfectly competitive markets, sellers can sell all they want at the market price. \nThus, they are price-takers.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 28,
+   "text": "Marginal revenue\n---\nMarginal revenue (MR) is the change in total revenue associated with producing one more unit of output. \nIn a perfectly competitive market, MR is equal to the market price. \nWe think of that price as representing the demand curve the Cheeseman faces, which is the flat blue line. \nTherefore, the MR curve is equivalent to the demand curve facing sellers.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 29,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 30,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 31,
+   "text": "Putting It All Together\n---\nHow can we compute the level of profits?",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 32,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 33,
+   "text": "MR = MC rule allows us to link the market price to the MC curve \nThen we can determine in the short run how a competitive firm changes its output when the market price changes. \nThat is the firm’s supply curve\n---\nFrom the Seller’s Problem to the Supply Curve",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 34,
+   "text": "Deriving the Supply Curve",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 35,
+   "text": "Price elasticity of supply",
+   "pics": 0,
+   "notes": "When considering how responsive the firm is to price changes, we can use elasticity measures"
+  },
+  {
+   "n": 36,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 37,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 38,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 39,
+   "text": "Factors affecting supply elasticity\n---\nWhether the firm has excess inventories\nHow long the firm has to respond to price changes is important—the longer the time to respond is, the more elastic the supply will be. \nIf workers are readily available, then supply will be more elastic because the firm can respond to price increases by quickly hiring workers.",
+   "pics": 0,
+   "notes": "Much like demand elasticities, the size of supply elasticities is determined by several factors."
+  },
+  {
+   "n": 40,
+   "text": "Shutdown\n---\nWith an understanding of how quantity supplied responds to price changes, we can consider extreme market situations, such as when the firm should shut down, or suspend, operations. \nA shutdown is a short-run decision to not produce anything during a specific time period.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 41,
+   "text": "What about point S?\n---\nAt S, we have MR=MC\nShould the firm continue operation at this point?",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 42,
+   "text": "What about point C?\n---\nSunk costs are costs that, once committed, can never be recovered and should not affect current and future production decisions.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 43,
+   "text": "The short-run supply curve\n---\nThe short-run supply curve: the portion of its MC curve that lies above AVC. \nIf the market price puts the firm at a point on its MC curve that lies below the minimum of the AVC curve, then the firm should shut down. \nOtherwise, it should produce.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 44,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 45,
+   "text": "Producer Surplus\n---\nSimilar to the concept of consumer surplus, economists also have a means of measuring surplus for sellers. \nThis is called producer surplus. \nComputed by taking the difference between the market price and the MC curve.\nThus, graphically, producer surplus is the area above the MC curve and below the equilibrium price line.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 46,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 47,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 48,
+   "text": "From the Short Run to the Long Run\n---\nFirms often think about more than just each day’s production. \nFor example, many businesses issue quarterly or annual reports that discuss the firm’s long-term outlook. \nWe now move from the daily supply decision to the long run, where The Cheeseman can combine any quantity of labor and physical capital to maximize profits.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 49,
+   "text": "From the Short Run to the Long Run\n---\nThe long run is defined as a period of time in which all factors of production are variable. \nIn the long run, there are no fixed factors of production, because even machines and buildings can be retrofitted, purchased, expanded, or sold. \nBecause of this fact, there are important differences between a firm’s short- and long-run supply curves.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 50,
+   "text": "From the Short Run to the Long Run\n---\nAgain consider The Cheeseman.\nIn the short run, if the firm wants to change production, it can only do so by hiring or laying off workers.  \nIn the long run, however, the firm searches for the optimal combination of workers and building size (that is, physical capital). \nThat is, in the long run, The Cheeseman is able to combine workers and physical capital to achieve the minimal ATC for each output level. \nThis difference causes the short-run cost curves to be above the long-run cost curve.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 51,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 52,
+   "text": "From the Short Run to the Long Run\n---\nIn this example the long-run ATC curve has a pronounced U-shape.\nOn the downward portion of the U, ATC decreases as output increases. \nWhen this happens, we say that there is economies of scale.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 53,
+   "text": "Economies of scale\n---\nConstant returns to scale exist when ATC does not change as the quantity produced changes.\nDiseconomies of scale occur when ATC rises as the quantity produced increases.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 54,
+   "text": "Long-Run Supply Curve\n---\nConsider point A. \nShould The Cheeseman produce at this price? \nThere is really no choice for Cheeseman but to exit the industry, because it cannot profitably exist at the equilibrium price.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 55,
+   "text": "Long-run decision rule\n---\nExit is a long-run decision to leave the market.\n\nThe long-run decision rule:\nExit if price is less than ATC or, likewise, if total revenue is less than total cost.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 56,
+   "text": "From the Firm to the Market:\u000bLong-Run Competitive Equilibrium\n---\nMuch like the short- and long-run analyses for the individual firm, at the industry level there are critical distinctions between the short run and the long run.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 57,
+   "text": "From the Firm to the Market:\u000bLong-Run Competitive Equilibrium\n---\nThe primary difference\nEven though the number of firms in the industry is fixed in the short run, in the long run, firms can enter or exit the industry in response to changes in profitability. \nThis is again because in the long run, they have the ability to change both labor and physical capital.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 58,
+   "text": "Free entry\n---\nThere is free entry into an industry when entry is unfettered by any special legal or technical barriers.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 59,
+   "text": "free entry\n---\nFirst, think about what entry of new firms does to the market supply curve. \nBecause the market supply curve is the summation of individual firms’ supply curves, adding new firms causes the industry to provide higher quantity at any given price. \nIn other words, entry shifts the market supply curve to the right.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 60,
+   "text": "Entry shifts the market supply curve to the right",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 61,
+   "text": "The effect of free entry\n---\nThis shift will cause the market price to fall. Why? \nWe know that the market price in a perfectly competitive industry is determined by the intersection of the market demand and market supply curves\nA shift to the right of the market supply curve lowers the market price\nFirms in the competitive market are price-takers.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 62,
+   "text": "Firm Entry",
+   "pics": 0,
+   "notes": "Considering a new firm, Steve’s Wholesale (which is\nidentical to The Cheeseman), we see that there are\npotential profits to earn by entering the industry. We\ncan see this by noting that the area of the shaded box\nrepresenting economic profits is greater than zero when\nthe market price is $1.13."
+  },
+  {
+   "n": 63,
+   "text": "",
+   "pics": 0,
+   "notes": "Panel (a) shows that with firm entry, the market supply curve shifts to the right,\nmoving equilibrium from point A to point B. This decreases the market price.\nPanel (b) shows the effect of this change in price on The Cheeseman, which will\nproduce at point E."
+  },
+  {
+   "n": 64,
+   "text": "",
+   "pics": 0,
+   "notes": "Panel (a) shows that if market demand shifts to the left, price will decrease from point A to B. At this new price, firms\nwill exit, which will cause the market supply curve to shift to the left, moving the market equilibrium to point C and\nputting The Cheeseman at point E in panel (b)."
+  },
+  {
+   "n": 65,
+   "text": "Firm Exit\n---\nThere is free exit from an industry when exit is unfettered by any special legal or technical barriers.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 66,
+   "text": "The long-run supply curve\n---\nIs a horizontal line……\nWhy? \nPrices always return to the minimum ATC, but the minimum ATC is a constant\nPrices remains constant in the long run",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 67,
+   "text": "S1 in figure b is no longer the long run market supply curve. \nIt is only the supply of the incumbent firms, i.e., firms that are already in the market\nThe new market supply equals to the point in S2 where S2 intersect with D2",
+   "pics": 0,
+   "notes": "Starting from left to right, this figure summarizes the dynamics of entry and exit\nthat lead to the long-run supply curve being flat. Panels (a) and (b) show a single\nmovement in demand and supply, respectively, and panel (c) summarizes these\ndynamics and introduces the long-run supply curve."
+  },
+  {
+   "n": 68,
+   "text": "Economic Profit Versus Accounting Profit\n---\nIf you’re thinking from an entrepreneur’s perspective, maybe the zero-profit implication of firm entry and exit makes you despair. \nAfter all, why even try to start a business if the end result will be profitless?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 69,
+   "text": "Economic Profit Versus Accounting Profit\n---\nWhy you shouldn’t think this way: \nEconomic profits are not the same as accounting profits.\nAs a business owner, when economic profits are zero, it simply means that you cannot earn more money if you take your talents to a different industry—you are being paid at least your opportunity cost of time.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 70,
+   "text": "Assume that The Cheeseman could increase its profits considerably if it decided to shift from the cheese-packing industry to the fast-food storage business. \nIn such a case, accounting profits of cheese packing might indeed be positive, whereas economic profits are negative. \nThis is because the implicit costs of cheese packing—the opportunity cost of management time and plant—must be considered. \nMuch like the cost of labor, this implicit cost is subtracted from revenues to produce the economist’s conception of profits\n---\nEconomic Profit Versus Accounting Profit",
+   "pics": 0,
+   "notes": ""
+  }
+ ]
+}

@@ -1,0 +1,400 @@
+{
+ "file": "Lecture 12 Information Technology.pptx",
+ "count": 65,
+ "size": [
+  9144000,
+  6858000
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "text": "Information Technology",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 2,
+   "text": "Introduction\n---\nOne of the most radical changes in the economy in the last two decades has been the emergence of the information economy.\nJust as the Industrial Revolution transformed the way goods were produced, distributed, and consumed, the Information Revolution is transforming the way information is produced, distributed, and consumed.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 3,
+   "text": "Introduction\n---\nWe will investigate a few economic models relevant to the information revolution. \neconomics of networks\nswitching costs\nrights management for information goods.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 4,
+   "text": "Systems Competition\n---\nInformation technology is generally used in systems.\nHardware is useless without software: a DVD player is useless without DVD disks, an operating system is worthless without applications, and a web browser is useless without web servers. \nAll of these are examples of complements: goods where the value of one component is significantly enhanced by the presence of another component.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 5,
+   "text": "Systems Competition\n---\nIn our discussion of consumer theory, we described left shoes and right shoes as complements. \nBut unlike shoes, the more software that is available for hardware, the more valuable it becomes.\nCompetition among the providers of these components often have to worry just as much about their “complementors” as their competitors.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 6,
+   "text": "The Problem of Complements\n---\nLet us consider the case of a SOC and an Operating System (OS).\nA SOC  is an integrated circuit that is the “brain” of a mobile devise. (Snapdragon 865 v.s. Apple A14) \nAn OS is the software that allows users and applications to access the functions of the SOC. (Android v.s. IOS.) \nThe SOC and the OS are complements, just as left shoes and right shoes are complements.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 7,
+   "text": "The Problem of Complements",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 8,
+   "text": "The Problem of Complements",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 9,
+   "text": "The Problem of Complements",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 10,
+   "text": "The Problem of Complements",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 11,
+   "text": "The Problem of Complements",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 12,
+   "text": "The Problem of Complements",
+   "pics": 0,
+   "notes": "Intuition: When firm 1 contemplates a price decrease for the CPU, it will increase demand for CPUs and OSs. But it only takes into account the impact on its own profit from cutting price, ignoring the profits that will accrue to the other firm. This leads it to cut prices less than it would if it were interested in maximizing joint profit. The same analysis applies to firm 2, leading to prices that are “too high” from the viewpoint of both profit-maximization and consumer surplus."
+  },
+  {
+   "n": 13,
+   "text": "The Problem of Complements\n---\nWhat the result says is that independent price setting will lead to prices that are too high from the viewpoint of joint profitability\nBut there are lots of intermediate cases between totally independent and fully integrated.\nFor example, one of the firms can negotiate prices for components and then sell an integrated bundle.\nAnother model for dealing with the systems pricing problem is to use revenue sharing.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 14,
+   "text": "Examples\n---\nExample: What Apple used to do: negotiate a deal\nBuy CPUs from Intel, build them into computers, and then bundle the operating system and computers together for sale to the end customers.\nWhat does Apple do now?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 15,
+   "text": "Examples\n---\nExample: revenue sharing. \nBoeing builds airplane bodies and GE builds airplane engines. \nIf GE and Boeing each set their prices independently, they could decide to set their prices too high. \nWhat they do instead is to negotiate a deal in which GE will receive a fraction of the revenue from the sale of the assembled aircraft. \nThen GE is happy to have Boeing negotiate to get as high a price as possible for the package, confident that it will receive its specified share.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 16,
+   "text": "The Problem of Complements\n---\nThere are other mechanisms that work in different industries.\nE.g. DVD industry\nConsumer electronics firms didn’t want to produce players unless they were assured that there would be plenty of content available\nAnd content providers didn’t want to produce content unless they were sure that would be lots of DVD players out there.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 17,
+   "text": "The Problem of Complements\n---\nBoth the consumer electronics firms and the content producers would have to worry about the pricing of complements problem. \nIf there were only a few providers of players and only a few providers of content, then they would each want to price their products “too high\nThis will reduce the total profit available in the industry and making consumers worse off.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 18,
+   "text": "The Problem of Complements\n---\nExample:\nSony and Philips, who held the basic patents on the DVD technology, helped solve this problem by licensing the technology widely at attractive prices.\nThey also realized that there had to be a lot of competition to keep the prices down and kick start the industry.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 19,
+   "text": "The Problem of Complements",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 20,
+   "text": "The Problem of Complements\n---\nThe challenge facing firm 1 is then: how can I get firm 2 to cut its price?\nOne way is to try to make competition for firm 2 more intense. \nVarious strategies are possible here, depending on the nature of the industry. \nIn technology-intensive industries, standardization becomes an important tool. \nAn OS producer, for example, would want to encourage standardized hardware.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 21,
+   "text": "Lock-In\n---\nSince IT components often work together as systems, switching any one component often involves switching others as well. \nThis means that the switching costs associated with one component in IT industries may be quite substantial.\nWhen switching costs are very high, users may find themselves experiencing lock-in, a situation where the cost of changing to a different system is so high that switching is virtually not possible",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 22,
+   "text": "Lock-In\n---\nAssume that the cost of providing a customer with Internet access is c per month.\nAlso assume a perfectly competitive market with many identical firms.\nIn the absence of any switching costs, the price of Internet service would simply be p = c.\nSuppose that there is a cost s of switching Internet service provider (ISP) and that ISPs can offer a discount of size d for the first month to attract new customers.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 23,
+   "text": "Lock-In\n---\nAt the start of a given month, a consumer contemplates switching to a new ISP. \nIf he does so, he only has to pay the discounted price, p − d, but he also has to endure the switching costs s. \nAfter the first month, we assume that both providers continue to charge the same price p forever.\nThe consumer will switch if the present value of the payments to the new provider plus the switching cost is less than the present value of the payments to the original ISP.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 24,
+   "text": "Lock-In",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 25,
+   "text": "Lock-In",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 26,
+   "text": "Lock-In",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 27,
+   "text": "Lock-In",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 28,
+   "text": "Lock-In",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 29,
+   "text": "Network Externalities\n---\nNetwork externalities are a special kind of externalities in which one person’s utility for a good depends on the number of other people who consume this good.\nEg: People want fax machines so they can communicate with each other. If no one else has a fax machine, it certainly isn’t worthwhile for you to buy one.\nAnother more indirect effect for network externalities arises with complementary goods.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 30,
+   "text": "Markets with Network Externalities\n---\nSuppose that there are 1000 people in a market for some good and we index the people by v = 1,..., 1000. \nThink of v as measuring the reservation price for the good by person v.\nThe price of the good is p; \nthe number of people who think that the good is worth at least p is 1000 − p.\nThis structure generates a standard, downward-sloping demand curve.\n---\n[TABLE]\nPerson index (v) | 1 | 2 | 3 | … … | 999 | 1000\nReservation price(=v) | 1 | 2 | 3 | … … | 999 | 1000",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 31,
+   "text": "Markets with Network Externalities\n---\nSuppose that the good we are examining exhibits network externalities, like a fax machine or a telephone. \nThe value of the good to person v is vn \nn is the number of people who consume the good—the number of people who are connected to the network.\nWhat does the demand function look like for this model?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 32,
+   "text": "Markets with Network Externalities",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 33,
+   "text": "Markets with Network Externalities",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 34,
+   "text": "Markets with Network Externalities\n---\nIf the number of people who connect is low, then the willingness to pay of the marginal individual is low, because there aren’t many other people out there that he can communicate with.\n---\nIf there are a large number of people connected, then the willingness to pay of the marginal individual is low, because everyone else who valued it more highly has already connected.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 35,
+   "text": "Markets with Network Externalities",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 36,
+   "text": "Markets with Network Externalities\n---\nThe middle equilibrium with a positive but small number of consumers is one where people don’t think the network will be very big, so they aren’t willing to pay that much to connect to it—and therefore the network isn’t very big.\n---\nFinally, the last equilibrium has a large number of people. Here the price is small because the marginal person who purchases the good doesn’t value it very highly, even though the market is very large.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 37,
+   "text": "Which of the three equilibria will we see occur?\n---\nWe can add a dynamic adjustment process to help us decide which equilibrium is more likely to occur.\nAssume that when people are willing to pay more than the cost of the good, the size of the market expands and, when they are willing to pay less, the market contracts.\nGeometrically this is saying that when the demand curve is above the supply curve, the quantity goes up and, when it is beneath the supply curve, the quantity goes down.\n---\nMarket Dynamics",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 38,
+   "text": "Market Dynamics",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 39,
+   "text": "Market Dynamics\n---\nIt is now evident that the low-level equilibrium, where no one connects, and the high-level equilibrium, where many people connect, are stable\nThe middle equilibrium is unstable.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 40,
+   "text": "Market Dynamics\n---\nWe are now left with two possible stable equilibria; how can we tell which is likely to occur? \nOne idea is to think about how costs might change over time: cost of the good starts out high and then decreases over time due to technological progress.\nAt a high unit cost there is only one stable equilibrium—where demand equals zero. When the cost decreases sufficiently, there are two stable equilibria.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 41,
+   "text": "Market Dynamics\n---\nNow add some noise to the system. \nThink of perturbing the number of people connected to the network around the equilibrium point of n∗ = 0. \nThese perturbations could be random, or they could be part of business strategies such as initial discounts or other promotions.\nAs the cost gets smaller and smaller, it becomes increasingly likely that one of these perturbations will kick the system up past the unstable equilibrium.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 42,
+   "text": "Market Dynamics\n---\nThe cost decreases, and at some point we reach a critical mass that kicks us up past the low-level equilibrium and the system then zooms up to the high-level equilibrium.",
+   "pics": 2,
+   "notes": ""
+  },
+  {
+   "n": 43,
+   "text": "Market Dynamics\n---\nA real-life example of this kind of adjustment is the market for fax machines.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 44,
+   "text": "Implications of Network Externalities\n---\nThe model described above, simple though it is, still yields a number of insights. \nFor example, the critical mass issue is very important: if one user’s demand depends on how many other users there are, it is very important to try to stimulate growth early in the life cycle of a product.\nNowadays it is quite common to see producers offering very cheap access to a piece of software or a communications service in order to “create a market” where none existed before.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 45,
+   "text": "Implications of Network Externalities\n---\nAnother important implication of network externalities is the role played by governmental policy.\nThe Internet is a prime example. \nSome old examples: The Yellow Pages, Radio Ads",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 46,
+   "text": "Two-sided Markets\n---\nA two-sided market is a special kind of network effect. \nThink about the case of a new technology, like Blu-ray DVDs. I don’t really care what sort of DVD player other people have, so there is no direct network effect. \nBut there is a kind of indirect network effect: the more Blu-ray players that are sold, the more disks that will become available, and the more disks there are available, the more attractive it will be to buy a Blu-ray player.\nExamples: A new credit card; \n   Adobe’s PDF platform",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 47,
+   "text": "Two-sided Markets",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 48,
+   "text": "Two-sided Markets",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 49,
+   "text": "Two-sided Markets",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 50,
+   "text": "Two-sided Markets\n---\nThere is a low-level equilibrium where little is sold of either good and a high-level equilibrium where there are substantial sales of both goods.\nThe challenge facing a supplier is how to get to the high-level equilibrium. \nOne strategy, mentioned above, is to subsidize the production of one of the goods. Selling one good below cost can make sense if it leads to a larger market and more profits for other goods you sell.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 51,
+   "text": "Rights Management\n---\nThere is much interest these days in new business models for intellectual property (IP).\nIP transactions take a variety of forms: \nbooks are sold outright and also borrowed from libraries. \nVideos can either be sold or rented. \nSome software is licensed for particular uses; other software is sold outright. Shareware is a form of software in which payment is voluntary.\nChoosing the terms and conditions under which a piece of intellectual property is offered is a critical business decision.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 52,
+   "text": "Rights Management",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 53,
+   "text": "Rights Management\n---\nNow the seller of the good contemplates liberalizing terms and conditions:  (e.g. extending a trial period of free use from 1 week to 1 month)\nTwo effects on the demand curve.\nFirst, it increases the value of the product to each of the potential users, shifting the demand curve up.\nBut it also may easily result in less of the item being sold, since some users will find the longer trial period enough to meet their needs.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 54,
+   "text": "Rights Management",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 55,
+   "text": "Rights Management",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 56,
+   "text": "Rights Management\n---\nWe can conclude that Y∗ = y∗.\nThis simple analysis allows us to make several conclusions:\nThe amount of the good consumed, Y∗, is independent of the terms and conditions. \nThe amount of the good produced is y∗/b, which is less than y∗.\nThe profits could go up or down depending on whether a/b is greater or less than 1. Profits go up if the increase in value to the consumers who buy the product compensates for the reduced number of buyers.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 57,
+   "text": "Sharing Intellectual Property\n---\nIntellectual property is often shared. \ne.g. Video stores help people to “share” videos—and charge a price for doing so.\nLet us try to construct a model of this sort of sharing phenomenon.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 58,
+   "text": "Sharing Intellectual Property",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 59,
+   "text": "Sharing Intellectual Property",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 60,
+   "text": "Sharing Intellectual Property\n---\nWe need to specify how the consumers sort themselves into the “clubs” that share the videos.\nThe simplest assumption is that the consumers with high values associate with each other, and the consumers with low-values associate with each other.\nThat is, one club consists of consumers with the k highest values, another club consists of the consumers with the next k highest values, and so on.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 61,
+   "text": "Sharing Intellectual Property",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 62,
+   "text": "Sharing Intellectual Property",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 63,
+   "text": "Sharing Intellectual Property",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 64,
+   "text": "Sharing Intellectual Property",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 65,
+   "text": "Sharing Intellectual Property",
+   "pics": 0,
+   "notes": ""
+  }
+ ]
+}

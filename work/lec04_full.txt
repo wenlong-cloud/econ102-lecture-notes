@@ -1,0 +1,321 @@
+=== P1 (19 chars) ===
+Lecture 4Producers
+=== P2 (316 chars) ===
+Sellers in a Perfectly Competitive Market
+---
+We begin our study of how firms make decisions by assuming that they do so in perfectly competitive markets. 
+• No buyer or seller is big enough to influence the market price.
+• Sellers in the market produce identical goods.
+• There is free entry and exit in the market.
+=== P3 (419 chars) ===
+The third assumption
+---
+Firms can enter and exit industries as they want
+This assumption has important consequences for the market as a whole. 
+One example of a market where sellers can enter and exit freely is selling on Taobao. 
+At any time, anyone can enter Taobao and sell cloth at virtually no cost of entry. 
+Sellers can almost enter or exit freely in many other familiar markets, for example, small restaurants.
+=== P4 (20 chars) ===
+The seller’s problem
+=== P5 (100 chars) ===
+The Seller’s Problem
+---
+The overarching goal of the seller is to maximize net benefits, or profits.
+=== P6 (295 chars) ===
+My father’s problem
+---
+My father used to run a small restaurant
+He hired a young chef, and the chef’s girlfriend as the assistant
+He buys ingredients such as wheat flour, meat, cabbages, every day 
+The chef then creates a cuisines with these things. 
+Then my father sells them to hungry buyers.
+=== P7 (257 chars) ===
+My father’s problem
+---
+First, my father must know how the inputs combine to make the outputs (what are the inputs and output): 
+Second, my father must know how much is the cost (what constitutes the cost? )
+Finally, my father must know how much he can sell
+=== P8 (196 chars) ===
+The seller’s problem
+---
+Three elements of the seller’s problem are:
+1. Making the goods (production function)
+2. The cost of doing business (cost curve)
+3. The rewards of doing business (revenue)
+=== P9 (339 chars) ===
+Making the Goods: How Inputs Are Turned into Outputs
+---
+Every firm faces the decision of how to combine inputs to create outputs.
+Production is the process by which the transformation of inputs to outputs occurs.
+ The relationship between the quantity of inputs used and the quantity of outputs produced is called the production function.
+=== P10 (372 chars) ===
+Production
+---
+Consider an export processing company that specializes in contract manufacturing. 
+The company operates on a “processing trade” model, meaning they receive raw materials and components from upstream suppliers and then process them into finished products：shoes.
+The company does not own the raw materials; they only provide the labor and processing services.
+=== P11 (141 chars) ===
+Inputs
+---
+The firm relies on two main inputs: 
+labor to turn raw materials into shoes
+physical capital (equipment, machines and structures).
+=== P12 (176 chars) ===
+Labor v.s. capital
+---
+Difference between capital and labor: While hiring and firing workers can be done in a short period of time, changing physical capital takes much longer.
+=== P13 (373 chars) ===
+Long run v.s. short run
+---
+Short run: a time period when only some of a firm’s inputs can be varied—in the example, labor. 
+Long run: a time period wherein a firm can change any input. 
+physical capital is a fixed factor of production—an input that cannot change in the short run—and that labor is a variable factor of production—an input that can change in the short run.
+=== P14 (0 chars) ===
+
+=== P15 (29 chars) ===
+Production function: stylized
+=== P16 (334 chars) ===
+Specialization
+---
+1. The marginal product increases with the addition of the first few workers. 
+Two laborers working together can produce more than the sum of their production in isolation. 
+This might happen because the first two workers specialize in a particular portion of the cheespacking task that they are good at completing.
+=== P17 (271 chars) ===
+Law of Diminishing Returns
+---
+2. The marginal product eventually decreases with successive additions of workers.
+We call this the Law of Diminishing Returns. 
+This law states that at a certain point of successive increases in inputs, marginal product begins to decrease.
+=== P18 (293 chars) ===
+Law of Diminishing Returns
+---
+This law might apply for a number of reasons. 
+For example, with a fixed amount of physical capital, successive increases in labor eventually lead to lower output per worker because there is idle time: workers cannot use the machines as often as they would like.
+=== P19 (381 chars) ===
+Adding too many workers can be counterproductive
+---
+3. Adding too many workers can decrease overall production. 
+This might happen because congestion causes workers to get in the way of one another.
+If this happens, management should send this worker home, dispatch him to a different task, or even have him wash the owner’s dog, because he is lowering production of cheese boxes.
+=== P20 (121 chars) ===
+The Cost of Doing Business: the Cost Curves
+---
+The cost of production：
+what the firm must pay for its inputs
+
+Two parts:
+=== P21 (249 chars) ===
+Components of costs
+---
+A variable cost (VC) is the cost of variable factors of production, which change along with a firm’s output.
+A fixed cost (FC) is the cost of fixed factors of production, which a firm must pay even if it produces zero output.
+=== P22 (251 chars) ===
+Average cost
+---
+Average total cost (ATC) is the total cost divided by the total output.
+Average variable cost (AVC) is the total variable cost divided by the total output. 
+Average fixed cost (AFC) is the total fixed cost divided by the total output.
+=== P23 (122 chars) ===
+Marginal cost
+---
+Marginal cost (MC) is the change in total cost associated with producing one  additional unit of output.
+=== P24 (0 chars) ===
+
+=== P25 (0 chars) ===
+
+=== P26 (96 chars) ===
+An observation
+---
+MC curve intersects the ATC and AVC curves at their respective minimums.
+Why?
+=== P27 (148 chars) ===
+The Rewards : Revenue Curves
+---
+In perfectly competitive markets, sellers can sell all they want at the market price. 
+Thus, they are price-takers.
+=== P28 (375 chars) ===
+Marginal revenue
+---
+Marginal revenue (MR) is the change in total revenue associated with producing one more unit of output. 
+In a perfectly competitive market, MR is equal to the market price. 
+We think of that price as representing the demand curve the Cheeseman faces, which is the flat blue line. 
+Therefore, the MR curve is equivalent to the demand curve facing sellers.
+=== P29 (0 chars) ===
+
+=== P30 (0 chars) ===
+
+=== P31 (68 chars) ===
+Putting It All Together
+---
+How can we compute the level of profits?
+=== P32 (0 chars) ===
+
+=== P33 (259 chars) ===
+MR = MC rule allows us to link the market price to the MC curve 
+Then we can determine in the short run how a competitive firm changes its output when the market price changes. 
+That is the firm’s supply curve
+---
+From the Seller’s Problem to the Supply Curve
+=== P34 (25 chars) ===
+Deriving the Supply Curve
+=== P35 (26 chars) ===
+Price elasticity of supply
+=== P36 (0 chars) ===
+
+=== P37 (0 chars) ===
+
+=== P38 (0 chars) ===
+
+=== P39 (357 chars) ===
+Factors affecting supply elasticity
+---
+Whether the firm has excess inventories
+How long the firm has to respond to price changes is important—the longer the time to respond is, the more elastic the supply will be. 
+If workers are readily available, then supply will be more elastic because the firm can respond to price increases by quickly hiring workers.
+=== P40 (284 chars) ===
+Shutdown
+---
+With an understanding of how quantity supplied responds to price changes, we can consider extreme market situations, such as when the firm should shut down, or suspend, operations. 
+A shutdown is a short-run decision to not produce anything during a specific time period.
+=== P41 (93 chars) ===
+What about point S?
+---
+At S, we have MR=MC
+Should the firm continue operation at this point?
+=== P42 (152 chars) ===
+What about point C?
+---
+Sunk costs are costs that, once committed, can never be recovered and should not affect current and future production decisions.
+=== P43 (278 chars) ===
+The short-run supply curve
+---
+The short-run supply curve: the portion of its MC curve that lies above AVC. 
+If the market price puts the firm at a point on its MC curve that lies below the minimum of the AVC curve, then the firm should shut down. 
+Otherwise, it should produce.
+=== P44 (0 chars) ===
+
+=== P45 (344 chars) ===
+Producer Surplus
+---
+Similar to the concept of consumer surplus, economists also have a means of measuring surplus for sellers. 
+This is called producer surplus. 
+Computed by taking the difference between the market price and the MC curve.
+Thus, graphically, producer surplus is the area above the MC curve and below the equilibrium price line.
+=== P46 (0 chars) ===
+
+=== P47 (0 chars) ===
+
+=== P48 (364 chars) ===
+From the Short Run to the Long Run
+---
+Firms often think about more than just each day’s production. 
+For example, many businesses issue quarterly or annual reports that discuss the firm’s long-term outlook. 
+We now move from the daily supply decision to the long run, where The Cheeseman can combine any quantity of labor and physical capital to maximize profits.
+=== P49 (384 chars) ===
+From the Short Run to the Long Run
+---
+The long run is defined as a period of time in which all factors of production are variable. 
+In the long run, there are no fixed factors of production, because even machines and buildings can be retrofitted, purchased, expanded, or sold. 
+Because of this fact, there are important differences between a firm’s short- and long-run supply curves.
+=== P50 (535 chars) ===
+From the Short Run to the Long Run
+---
+Again consider The Cheeseman.
+In the short run, if the firm wants to change production, it can only do so by hiring or laying off workers.  
+In the long run, however, the firm searches for the optimal combination of workers and building size (that is, physical capital). 
+That is, in the long run, The Cheeseman is able to combine workers and physical capital to achieve the minimal ATC for each output level. 
+This difference causes the short-run cost curves to be above the long-run cost curve.
+=== P51 (0 chars) ===
+
+=== P52 (233 chars) ===
+From the Short Run to the Long Run
+---
+In this example the long-run ATC curve has a pronounced U-shape.
+On the downward portion of the U, ATC decreases as output increases. 
+When this happens, we say that there is economies of scale.
+=== P53 (192 chars) ===
+Economies of scale
+---
+Constant returns to scale exist when ATC does not change as the quantity produced changes.
+Diseconomies of scale occur when ATC rises as the quantity produced increases.
+=== P54 (216 chars) ===
+Long-Run Supply Curve
+---
+Consider point A. 
+Should The Cheeseman produce at this price? 
+There is really no choice for Cheeseman but to exit the industry, because it cannot profitably exist at the equilibrium price.
+=== P55 (191 chars) ===
+Long-run decision rule
+---
+Exit is a long-run decision to leave the market.
+
+The long-run decision rule:
+Exit if price is less than ATC or, likewise, if total revenue is less than total cost.
+=== P56 (227 chars) ===
+From the Firm to the Market:Long-Run Competitive Equilibrium
+---
+Much like the short- and long-run analyses for the individual firm, at the industry level there are critical distinctions between the short run and the long run.
+=== P57 (363 chars) ===
+From the Firm to the Market:Long-Run Competitive Equilibrium
+---
+The primary difference
+Even though the number of firms in the industry is fixed in the short run, in the long run, firms can enter or exit the industry in response to changes in profitability. 
+This is again because in the long run, they have the ability to change both labor and physical capital.
+=== P58 (120 chars) ===
+Free entry
+---
+There is free entry into an industry when entry is unfettered by any special legal or technical barriers.
+=== P59 (328 chars) ===
+free entry
+---
+First, think about what entry of new firms does to the market supply curve. 
+Because the market supply curve is the summation of individual firms’ supply curves, adding new firms causes the industry to provide higher quantity at any given price. 
+In other words, entry shifts the market supply curve to the right.
+=== P60 (49 chars) ===
+Entry shifts the market supply curve to the right
+=== P61 (350 chars) ===
+The effect of free entry
+---
+This shift will cause the market price to fall. Why? 
+We know that the market price in a perfectly competitive industry is determined by the intersection of the market demand and market supply curves
+A shift to the right of the market supply curve lowers the market price
+Firms in the competitive market are price-takers.
+=== P62 (10 chars) ===
+Firm Entry
+=== P63 (0 chars) ===
+
+=== P64 (0 chars) ===
+
+=== P65 (117 chars) ===
+Firm Exit
+---
+There is free exit from an industry when exit is unfettered by any special legal or technical barriers.
+=== P66 (173 chars) ===
+The long-run supply curve
+---
+Is a horizontal line……
+Why? 
+Prices always return to the minimum ATC, but the minimum ATC is a constant
+Prices remains constant in the long run
+=== P67 (226 chars) ===
+S1 in figure b is no longer the long run market supply curve. 
+It is only the supply of the incumbent firms, i.e., firms that are already in the market
+The new market supply equals to the point in S2 where S2 intersect with D2
+=== P68 (258 chars) ===
+Economic Profit Versus Accounting Profit
+---
+If you’re thinking from an entrepreneur’s perspective, maybe the zero-profit implication of firm entry and exit makes you despair. 
+After all, why even try to start a business if the end result will be profitless?
+=== P69 (345 chars) ===
+Economic Profit Versus Accounting Profit
+---
+Why you shouldn’t think this way: 
+Economic profits are not the same as accounting profits.
+As a business owner, when economic profits are zero, it simply means that you cannot earn more money if you take your talents to a different industry—you are being paid at least your opportunity cost of time.
+=== P70 (570 chars) ===
+Assume that The Cheeseman could increase its profits considerably if it decided to shift from the cheese-packing industry to the fast-food storage business. 
+In such a case, accounting profits of cheese packing might indeed be positive, whereas economic profits are negative. 
+This is because the implicit costs of cheese packing—the opportunity cost of management time and plant—must be considered. 
+Much like the cost of labor, this implicit cost is subtracted from revenues to produce the economist’s conception of profits
+---
+Economic Profit Versus Accounting Profit

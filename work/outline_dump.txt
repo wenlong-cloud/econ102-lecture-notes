@@ -1,0 +1,719 @@
+##### Lecture 1 supplement_opportunity cost.json 5
+1 | Opportunity cost: example --- You have already purchased (non-refundable and unsellable) ticket
+2 | You learn that your friend is serving flank steak at her party, all-you-can eat and at no charg
+3 | b. Suppose instead that you notice that the non-refundable concert ticket (that you already pur
+4 | Equilibrium --- Suppose you are ready to check out and see two lines: Line A has 3 people, whil
+5 | Answer: This situation is not in equilibrium. Assuming both lines move at the same speed, it wo
+##### Lecture 1.json 67
+1 | Microeconomics Principles Lecture 1: Introduction
+2 | Warm up --- Is WeChat free?
+3 | If we ask this guy the same question… the answer would be a YES
+4 | But you should ask yourself the following question: --- What do you give up when you use WeChat
+5 | This lecture --- In this lecture, we introduce the economic way of thinking about the world. We
+6 | The Scope of Economics --- Economics involves far more than making or saving money. If you are 
+7 | The Scope of Economics --- At a broad level, economics study all types of human behavior. Eg A 
+8 | Here are some examples…
+9 | 
+10 | Choice—not money—is the unifying feature of everything economists study. Immediately leads to t
+11 | Two concepts --- To give you a more precise definition of choice, we first need to introduce tw
+12 | An economic agent is an individual or a group that makes choices. --- Economic agents
+13 | Economic agents --- A consumer, who chooses to buy an iphone, or Huawei, or Xiaomi. An instruct
+14 | Economic agents --- Not all economic agents are individuals. Sometimes economists simplify thei
+15 | Economic agents --- Example Apple, the company, prices the iPhone to maximize its profits (inst
+16 | Scarce resources --- Scarce resources : things we want to have, but the amount that we want (if
+17 | Scarce resources --- That’s why we normally do not talk about scarcity of air Even if air if fr
+18 | Scarce resources --- The big question: In the world we live in with limited supply or resources
+19 | Definition of Economics --- Economics is the study of how agents choose to allocate scarce reso
+20 | Definition of Economics --- Two important point in this definition 1. individual choice 2. More
+21 | Your choices affects others --- Example: Suppose you choose to buy a car. This choice not only 
+22 | But why study choices? --- Understanding people’s choices is practically useful for two reasons
+23 | Aside: Positive v.s Normative Statement --- Positive statements describe what things actually a
+24 | Positive Economics --- Positive Economics Describes What People Actually Do Positive statements
+25 | Positive Economics --- Example: consider the following statement: “In 2019, 6300 freshmen come 
+26 | Positive Economics --- Another example One of my former teacher, who is one of the leading expe
+27 | Positive Economics --- Another example Suppose a law is passed that dictates cloth producers in
+28 | Normative Economics --- Normative Economics Recommends What People Ought to Do Example: continu
+29 | Normative Economics --- Normative economics is almost always dependent on subjective judgments,
+30 | Normative Economics --- Suppose I am helping my mom, who is 60 years old, to decide how much ri
+31 | Normative Economics --- Two investment choice A and B A is more risky and the return is much mo
+32 | Important --- Here I, the economist, plays the role of engineer: finding the investment portfol
+33 | Normative Analysis and Public Policy --- But things get much more complicated when we are tryin
+34 | Example 1 Building a large waste treatment plant may benefit residence in a city But people who
+35 | Example 3 The government imposed a cap （an upper bound） on housing prices Example 4 The governm
+36 | What economists can do --- Economics can provide answers to the positive questions, at least in
+37 | Normative Analysis and Public Policy --- When a government policy creates winners and losers, e
+38 | Normative Analysis and Public Policy --- Ethical judgments are usually unavoidable when economi
+39 | Normative Analysis and Public Policy --- Is it ethical to shut down factories in Hebei province
+40 | Three pillars of economic analysis --- Optimization Equilibrium Empiricism
+41 | Optimization --- (Constrained) optimization: choose the best feasible option, given whatever (l
+42 | Optimization --- Many different forms of constraints: Financial budget Time constraint Your men
+43 | Optimization --- Here, information means the set of information that are available when you mak
+44 | Information and optimization --- Example Cai Xukun got a girlfriend in the first year of colleg
+45 | Information and optimization --- The fact that the relationship fails does not necessarily mean
+46 | Every person is unique --- Finally, it is important to note that what we optimize varies from p
+47 | Trade-offs and Budget Constraints --- Trade-offs: some benefits must be given up in order to ga
+48 | Trade-offs and Budget Constraints --- Economists use budget constraints to describe trade-offs.
+49 | Example: time constraint
+50 | Opportunity Cost --- What you give up can be called “cost” Attending my class has cost, you cou
+51 | Opportunity Cost --- Evaluating trade-offs can be difficult, because so many options are under 
+52 | Example --- A big fan of TF Boys won a lottery and was given the opportunity to hug one of the 
+53 | Note --- In calculating opportunity costs, it is important not to double-count. The fan can hug
+54 | Assigning a Monetary Value to an Opportunity Cost --- It is difficult to estimate the real mone
+55 | Assigning a Monetary Value to an Opportunity Cost --- Suppose you can find a part-time job outs
+56 | Cost-Benefit Analysis --- Cost-benefit analysis is a calculation that identifies the best alter
+57 | Cost-Benefit Analysis --- When you pick the option with the greatest net benefits, you are opti
+58 | The Second Principle of Economics: Equilibrium --- Not only you can optimize Other people are n
+59 | Equilibrium --- Economists think of the world as a large number of economic agents who are inte
+60 | An important clarification: --- When we say that nobody would benefit personally by changing hi
+61 | checkout lines at the supermarket
+62 | The Free-Rider Problem --- Let’s use the concept of equilibrium to analyze an economic problem 
+63 | The Free-Rider Problem --- Imagine that one roommate starts spending time cleaning up. If he sp
+64 | The Free-Rider Problem --- Consequently, dormitories with lots of roommates are often a mess. T
+65 | The Free-Rider Problem --- The same thing happens when you get robbed on the street, or an old 
+66 | Empiricism --- Economists test their ideas with data. We refer to such evidence-based analysis 
+67 | Empiricism --- Also important and interesting is what is called causal inference. Causality ver
+##### Lecture 10 Game updated 20250506.json 128
+1 | Simultaneous-Move Games
+2 | Example --- Imagine yourself in the shoes of a person who has just committed armed robbery of a
+3 | 1. If neither of you confesses to having a gun during the crime, you are both looking at jail t
+4 | Key elements of any game: --- 1. The players 2. The strategies 3. The payoffs
+5 | Key elements of any game
+6 | Key elements of any game --- A payoff matrix represents the payoffs for each action players can
+7 | The scenario is a classic one known as the “prisoners’ dilemma.” A simultaneous-move game: play
+8 | We also assume that other potentially important features, such as retribution after jail time i
+9 | Best Responses and the Prisoners’ Dilemma --- A first step in figuring out how to play any game
+10 | 
+11 | 
+12 | Conclusion: no matter what you think Josie will do, you should always confess. This means that 
+13 | Dominant Strategies and Dominant Strategy Equilibrium --- Definition: When a player has the sam
+14 | Dominant Strategies and Dominant Strategy Equilibrium --- After doing the same exercise for Jos
+15 | Dominant Strategy Equilibrium --- Definition: A strategy combination for the players is a domin
+16 | The “dilemma” --- Interestingly, this equilibrium leads to an outcome that is NOT best for both
+17 | The “dilemma” --- By confessing, you and Josie will each spend 5 years in prison. However, if y
+18 | The Payoff Matrix of a Game
+19 | Games without Dominant Strategies --- Example You and your friend Gina, both like surfers, open
+20 | A summary of the three key elements --- Players: Hang Ten and the La Jolla Strategies: To adver
+21 | 
+22 | What should you do? What is your best response?
+23 | Best response --- If La Jolla does advertise, your best response is to advertise when you expec
+24 | Do you have a dominant strategy in this game? No; this is because your optimal strategy depends
+25 | A key concept in game theory: you don’t always have a simple best response (a dominant strategy
+26 | In such cases, where should we expect to end up in the payoff matrix—does your shop advertise? 
+27 | Nash Equilibrium
+28 | Equilibrium concept we used in markets: all individuals are simultaneously optimizing, given th
+29 | Nash Equilibrium --- John Nash: In equilibrium, no player in a game can change strategy and imp
+30 | Nash equilibrium --- NO one can change her choice and be better off. According to the definitio
+31 | Nash --- This notion of equilibrium depends on two critical factors all players understand the 
+32 | Nash --- In the context of a Nash equilibrium, we expect that an individual forms correct expec
+33 | 
+34 | Nash equilibria --- 1. Your shop: advertise; La Jolla Surf Shop: advertise 2. Your shop: don’t 
+35 | Applications of Nash Equilibria
+36 | Tragedies of commons with two firms --- Players: Firm 1 and Firm 2 Strategies: To pollute or no
+37 | 
+38 | As in the prisoners’ dilemma game, the dominant strategy equilibrium leads to an outcome that i
+39 | This simple game structure contains some of the important elements of a crucial situation facin
+40 | Zero-Sum Games --- Soccer: Suppose that you are the designated penalty kicker for your soccer t
+41 | The goalie will try to anticipate your behavior and will dive to the left or to the right. If h
+42 | In this example, the payoff matrix represents a zero-sum game: one player’s loss is another’s g
+43 | A summary of the three key elements in this game are as follows: --- Players: You and the goali
+44 | Zero-sum games are quite common in the real world. Whenever we sit down to play poker, our gain
+45 | No Nash equilibrium exists, because no cell in the matrix has two arrows pointing in. Therefore
+46 | In fact, choosing randomly has a clear advantage in this game relative to a pure strategy, whic
+47 | Reasoning this way, we can see that any kind of predictable behavior by the kicker can be taken
+48 | How Do People Actually Play Such Games?
+49 | Do people really play Nash equilibria in practice? What about dominant strategies—are those fre
+50 | The first reason is that we often do not know the exact payoffs of individuals playing the game
+51 | A second reason: game theory is only a theory Models/theories are not literal descriptions of h
+52 | In many situations, one player may be more cunning, wiser, or more experienced than another. Fo
+53 | Game Theory in Penalty Kicks --- Consider again the situation faced by penalty kickers and goal
+54 | Three economists decided to analyze all the penalty kicks taken during a 3-year period in the F
+55 | They classified kickers’ and goalies’ choices into one of three strategies: Left, Right, and Ce
+56 | Amazingly, this is just what the economists found in the data. The kickers and goalies both see
+57 | Extensive-Form Games
+58 | The games that we have discussed so far all revolve around two players choosing an action simul
+59 | 
+60 | In extensive-form games, the strategies are a little bit richer than in simultaneous games
+61 | A game tree
+62 | Backward Induction --- The easiest way of approaching any extensive-form game is to use backwar
+63 | First-Mover Advantage, commitment --- The equilibrium described above is much more favorable to
+64 | We say that the sequential game features a first-mover advantage if the first mover earns more 
+65 | Suppose Gina threaten you with punishment, using the following strategy: “If you surf, I will g
+66 | A game tree
+67 | A game tree --- But are you going to believe in her? In other words, is her threat credible?
+68 | Is there any way that Gina can turn the tables on you by taking away the first-mover advantage?
+69 | Several modes of behavior may be understood in light of this example. Suppose, for example, tha
+70 | If you can commit to punishing bullies, you likely won’t be bullied. This reasoning also sugges
+71 | Game Applications
+72 | Best Response Curves and Nash Equilibrium
+73 | Best Response Curves --- If there is a unique best response for each choice, then the best resp
+74 | Mixed Strategies --- Row chooses probability r of playing top and column chooses probability c 
+75 | 
+76 | Mixed Strategies --- The expected payoff to row: Row’s payoff = 2rc + (1 − r)(1 − c) = 2rc + 1 
+77 | Mixed Strategies --- Row’s payoff = (3c−1)r+1−c Δpayoff to row = (3c − 1)Δr. Column’s payoff = 
+78 | Mixed Strategies --- It is easy to see that they cross in three places: (0, 0), (2/3, 1/3), and
+79 | Games of Coordination --- Coordination games: games where the payoffs to the players are highes
+80 | Example: Battle of the Sexes --- A boy and a girl want to meet at a movie for a date, but haven
+81 | What are the Nash equilibria of this game? --- Example: Battle of the Sexes
+82 | Battle of the Sexes --- Three equilibria: both choose action, both choose art, or each chooses 
+83 | Hard to predict which equilibrium will occur Generally, we would look to considerations outside
+84 | Example 2: prisoner’s dilemma --- Prisoner’s Dilemma is also a coordination game One way out of
+85 | Example 3: Assurance Games --- U.S.-U.S.S.R. arms race of the 1950s Each country could build nu
+86 | The trouble is, neither party knows which choice the other will make. Before committing to refr
+87 | Example 4: Chicken --- Two teenagers start at opposite ends of the street and drive in a straig
+88 | Example 4: Chicken --- Two pure strategy Nash equilibria Column prefers the first equilibrium a
+89 | So how can one of the players enforce his preferred equilibrium? One important strategy is comm
+90 | 《史记·项羽本纪》 --- 项羽乃悉引兵渡河，皆沉船，破釜甑，烧庐舍，持三日粮，以示士卒必死，无一还心。于是至则围王离，与秦军遇，九战，绝其甬道，大破之，杀苏角，虏王离。涉间不降楚，自烧杀。
+91 | Games of Coordination --- How to Coordinate --- Assurance Games (cooperate at an equilibrium th
+92 | Games of Competition --- The opposite pole from cooperation is competition. Zero-sum games Let 
+93 | Penalty Kick Game --- Row will score 80 percent of the time if he kicks to the left and column 
+94 | Penalty Kick Game --- Obviously, if column knows which way row will kick she will have a tremen
+95 | 
+96 | Penalty Kick Game --- Another strategy to solve this game: Key observation: When row chooses 0.
+97 | Games of Coexistence --- Hawk-dove game A single species that exhibits two kinds of behavior. W
+98 | Hawk-dove game --- There will have to be some mixture of hawk types and dove types in equilibri
+99 | Assume the fraction playing hawk is p. Then a hawk will meet another hawk with probability p an
+100 | If H>D, the fraction of hawk types in the population increase, and if H<D, the number of dove t
+101 | Games of Coexistence --- Hawk-dove game
+102 | Hawk-Dove Game --- p = 1/2 is not only an equilibrium but it is also stable under evolutionary 
+103 | Games of Commitment --- We now turn to sequential moves, or extensive-form game. An important s
+104 | Games of Commitment --- The Frog and the Scorpion The frog and the scorpion. They were standing
+105 | 青蛙和蝎子 --- 一只蝎子请求一只青蛙背它过河。青蛙犹豫了，因为它担心蝎子会蛰它。蝎子向青蛙保证它不会这样做，因为蛰它是没有道理的，因为那样它们都会溺死。 青蛙被说服了，于是同意帮助。然而
+106 | The Frog and the Scorpion
+107 | Stinging has a higher payoff to the scorpion because “it is his nature” to sting. Hence the fro
+108 | Games of Commitment --- The Frog and the Scorpion A smart frog would figure out some way to mak
+109 | Games of Commitment --- The Kindly Kidnapper Suppose some kidnappers abduct a hostage and then 
+110 | Games of Commitment --- The Kindly Kidnapper
+111 | Games of Commitment --- The Kindly Kidnapper Now it is the hostage who has the commitment probl
+112 | 《史记·王翦列传》 --- 王翦行，请美田宅园池甚众。始皇曰：‘将军行矣，何忧贫乎？’王翦曰：“为大王将，有功终不得封侯，故及大王之向臣，臣亦及时以请园池为子孙业耳。” 部下不解，王翦解释：
+113 | Games of Commitment --- Some psychologists put two pigs, one dominant, one subordinate, in a lo
+114 | When Strength Is Weakness
+115 | 
+116 | When strength is weakness --- Somewhat surprisingly the outcome of the experiment was that the 
+117 | When Strength Is Weakness
+118 | Saving and Social Security --- Commitment problems aren’t limited to the animal world. They als
+119 | Games of Commitment --- Saving for retirement is an important example Two strategies for the ol
+120 | Games of Commitment --- Savings and Social Security Consider the time structure of the game:
+121 | Hold Up 敲竹杠 --- You hire a contractor to build a warehouse. After the construction is almost do
+122 | 
+123 | Hold Up --- How do firms solve the hold-up problem? The basic answer is contracts. Another way 
+124 | Bargaining game --- Rubinstein bargaining model Alice and Bob, have $1 to divide between them. 
+125 | Bargaining --- Assume Alice and Bob differ in their degree of impatience: Alice discounts payof
+126 | Bargaining --- If the game lasts three days, Alice will get $1 and Bob would get zero (i.e., an
+127 | Bargaining --- The final outcome is that the game ends on the first move with Alice receiving 1
+128 | Bargaining --- The Ultimatum Game Economists test the Rubinstein bargaining model in the labora
+##### Lecture 12 Information Technology.json 65
+1 | Information Technology
+2 | Introduction --- One of the most radical changes in the economy in the last two decades has bee
+3 | Introduction --- We will investigate a few economic models relevant to the information revoluti
+4 | Systems Competition --- Information technology is generally used in systems. Hardware is useles
+5 | Systems Competition --- In our discussion of consumer theory, we described left shoes and right
+6 | The Problem of Complements --- Let us consider the case of a SOC and an Operating System (OS). 
+7 | The Problem of Complements
+8 | The Problem of Complements
+9 | The Problem of Complements
+10 | The Problem of Complements
+11 | The Problem of Complements
+12 | The Problem of Complements
+13 | The Problem of Complements --- What the result says is that independent price setting will lead
+14 | Examples --- Example: What Apple used to do: negotiate a deal Buy CPUs from Intel, build them i
+15 | Examples --- Example: revenue sharing. Boeing builds airplane bodies and GE builds airplane eng
+16 | The Problem of Complements --- There are other mechanisms that work in different industries. E.
+17 | The Problem of Complements --- Both the consumer electronics firms and the content producers wo
+18 | The Problem of Complements --- Example: Sony and Philips, who held the basic patents on the DVD
+19 | The Problem of Complements
+20 | The Problem of Complements --- The challenge facing firm 1 is then: how can I get firm 2 to cut
+21 | Lock-In --- Since IT components often work together as systems, switching any one component oft
+22 | Lock-In --- Assume that the cost of providing a customer with Internet access is c per month. A
+23 | Lock-In --- At the start of a given month, a consumer contemplates switching to a new ISP. If h
+24 | Lock-In
+25 | Lock-In
+26 | Lock-In
+27 | Lock-In
+28 | Lock-In
+29 | Network Externalities --- Network externalities are a special kind of externalities in which on
+30 | Markets with Network Externalities --- Suppose that there are 1000 people in a market for some 
+31 | Markets with Network Externalities --- Suppose that the good we are examining exhibits network 
+32 | Markets with Network Externalities
+33 | Markets with Network Externalities
+34 | Markets with Network Externalities --- If the number of people who connect is low, then the wil
+35 | Markets with Network Externalities
+36 | Markets with Network Externalities --- The middle equilibrium with a positive but small number 
+37 | Which of the three equilibria will we see occur? --- We can add a dynamic adjustment process to
+38 | Market Dynamics
+39 | Market Dynamics --- It is now evident that the low-level equilibrium, where no one connects, an
+40 | Market Dynamics --- We are now left with two possible stable equilibria; how can we tell which 
+41 | Market Dynamics --- Now add some noise to the system. Think of perturbing the number of people 
+42 | Market Dynamics --- The cost decreases, and at some point we reach a critical mass that kicks u
+43 | Market Dynamics --- A real-life example of this kind of adjustment is the market for fax machin
+44 | Implications of Network Externalities --- The model described above, simple though it is, still
+45 | Implications of Network Externalities --- Another important implication of network externalitie
+46 | Two-sided Markets --- A two-sided market is a special kind of network effect. Think about the c
+47 | Two-sided Markets
+48 | Two-sided Markets
+49 | Two-sided Markets
+50 | Two-sided Markets --- There is a low-level equilibrium where little is sold of either good and 
+51 | Rights Management --- There is much interest these days in new business models for intellectual
+52 | Rights Management
+53 | Rights Management --- Now the seller of the good contemplates liberalizing terms and conditions
+54 | Rights Management
+55 | Rights Management
+56 | Rights Management --- We can conclude that Y∗ = y∗. This simple analysis allows us to make seve
+57 | Sharing Intellectual Property --- Intellectual property is often shared. e.g. Video stores help
+58 | Sharing Intellectual Property
+59 | Sharing Intellectual Property
+60 | Sharing Intellectual Property --- We need to specify how the consumers sort themselves into the
+61 | Sharing Intellectual Property
+62 | Sharing Intellectual Property
+63 | Sharing Intellectual Property
+64 | Sharing Intellectual Property
+65 | Sharing Intellectual Property
+##### Lecture 2.json 86
+1 | Microeconomics Lecture 2 --- Mohan Zhou School of Economics Zhejiang University
+2 | Optimization techniques --- Last time, we described that economics is the study of choice. We a
+3 | Optimization techniques --- We can think optimization in two different ways: The two different 
+4 | 
+5 | 
+6 | Calculating opportunity cost --- First step: sum the cost of rent and the cost of commuting tim
+7 | Calculating opportunity cost --- Assumptions: The opportunity cost of commuting time is 10$/hou
+8 | 
+9 | We call the best feasible choice the optimum, which you can see labeled on the total cost curve
+10 | Summary --- Optimization using total value has three steps: 1. Translate all costs and benefits
+11 | Effect of a change in opportunity cost --- Now, suppose the opportunity cost of one hour’s trav
+12 | 
+13 | 
+14 | Optimization using marginal analysis --- Optimization using marginal analysis breaks an optimiz
+15 | Optimization using marginal analysis --- Instead of thinking about each of the apartments in is
+16 | Marginal analysis
+17 | 
+18 | Optimization at the Margin --- The objective of the optimizer is to make himself as well off as
+19 | An example with functional forms
+20 | Example
+21 | Demand, supply and competitive equilibrium
+22 | The market for gas --- Every year over 1 billion drivers pull into gas stations around the worl
+23 | Nobody tells the companies that run the gas stations how many drivers to expect, and nobody tel
+24 | The market --- A market is a group of economic agents who are trading a good or service + the r
+25 | Some markets may have specific physical locations
+26 | Different forms of market --- Others may be dispersed. For example, the market for gasoline is 
+27 | 
+28 | Different forms of market --- Some market doesn’t even have a physical form. For example, Taoba
+29 | We focus the discussion on markets in which all exchanges occur voluntarily at flexible prices 
+30 | Competitive Markets --- Think of a city filled with hundreds of gas stations, each of which has
+31 | Market price --- If all sellers and all buyers face the same price, that price is referred to a
+32 | Perfectly competitive market --- Sellers all sell an identical good or service Any individual b
+33 | Why study perfect competition? --- Very few markets are perfectly competitive. But economists t
+34 | Why study perfect competition? --- We are trying to answer 3 fundamental questions: 1. How do b
+35 | How Do Buyers Behave?
+36 | Price-takers --- Assumption: buyers are price-takers (价格接收者） they treat the market price as a t
+37 | Price and quantity --- We want to study the relationship between the price of a good and the am
+38 | Demand curve --- The demand curve plots the relationship between prices and quantity demanded, 
+39 | 
+40 | Demand curve --- The demand curve has an important property that we will see many times. The pr
+41 | The Law of Demand --- The Law of Demand: the quantity demanded rises when the price falls (hold
+42 | Willingness to Pay (important) --- Any individual consumer’s demand curve can also be used to c
+43 | 
+44 | Diminishing marginal benefit --- Diminishing marginal benefit: As you consume more of a good, y
+45 | Aggregated Demand Curves --- Other gasoline users will also increase their consumption of gasol
+46 | Exhibit 4.2 Aggregation of Demand Schedules and Demand Curves --- Copyright © 2018, 2015 Pearso
+47 | Market demand curve --- The market demand curve is the sum of the individual demand curves of a
+48 | But economists rarely study the market demand for gasoline. Economists who study energy markets
+49 | Market Demand Curve for Oil --- Copyright © 2018, 2015 Pearson Education, Inc. All Rights Reser
+50 | The “all else” --- When we introduced the demand curve, we explained that it describes the rela
+51 | Factors shifting the demand curve --- The demand curve shifts when these five major factors cha
+52 | An important distinction --- The demand curve shifts only when the quantity demanded changes at
+53 | Shifts of the Demand Curve vs. Movement Along the Demand Curve --- Copyright © 2018, 2015 Pears
+54 | Seller behavior and the supply curve
+55 | Quantity supplied --- The concepts are similar for sellers At a given price, the amount of the 
+56 | Example: ExxonMobil --- Think about a company ExxonMobil When the price of oil goes up, ExxonMo
+57 | Example: ExxonMobil --- Some oil is in deep-water locations where the ocean depth is 2 miles an
+58 | The supply curve and law of supply --- The supply curve plots the quantity supplied at differen
+59 | Willingness to accept --- Willingness to accept is the lowest price that a seller is willing to
+60 | Market supply curve --- The market supply curve is the sum of the individual supply curves of a
+61 | 
+62 | 
+63 | Factors shifting supply --- The supply curve shifts when these variables change: • Prices of in
+64 | Supply and Demand in Equilibrium
+65 | Putting it together --- We haven’t explained how to put the two sides of the market together. H
+66 | Putting it together --- We will use the market demand curve and the market supply curve to answ
+67 | 
+68 | Equilibrium --- Why do we say this is an equilibrium, or this situation is in equilibrium? Note
+69 | 
+70 | 
+71 | 
+72 | Curve Shifting in Competitive Equilibrium
+73 | Putting it to work --- The demand-supply-equilibrium framework by itself is not very interestin
+74 | Putting it to work --- We’d like to know how a shock to the world oil market will affect the eq
+75 | A Leftward Shift of the Supply Curve --- Copyright © 2018, 2015 Pearson Education, Inc. All Rig
+76 | Putting it to work --- Example 2: What would happen if a technological breakthrough shifted the
+77 | Technological Breakthroughs --- From 2011 to 2016 the supply-curve shift actually occurred Part
+78 | Exhibit 4.14 A Rightward Shift of the Supply Curve --- Copyright © 2018, 2015 Pearson Education
+79 | Shift in taste --- For example what would happen if rising environmental concerns and new energ
+80 | A Leftward Shift of the Demand Curve --- Copyright © 2018, 2015 Pearson Education, Inc. All Rig
+81 | The Demand Curve Shifts Left and the Supply Curve Shifts Right --- Copyright © 2018, 2015 Pears
+82 | Price control --- What would happen if the government tried to dictate the price?
+83 | Price control --- Our analysis has concluded that competitive markets will end up at the compet
+84 | Price control --- However, some markets have prices that are set by laws, regulations, or socia
+85 | Price control --- During the U.S. oil crisis of 1973–1974 (第一次石油危机）, the U.S. government effect
+86 | 
+##### Lecture 3.json 94
+1 | Microeconomics Lecture 3: Consumers and Incentives
+2 | Consumer’s problem --- More on consumer behavior What is the micro-foundation behind the demand
+3 | Consumer’s problem --- Essential ingredients of the buyer’s problem (constrained optimization):
+4 | Preferences, utility functions, and indifference curves
+5 | What you like: taste, or preferences --- Would you rather live on campus together with your cla
+6 | Preference and Taste --- Different people give different answers. In economics, we make no atte
+7 | Preference and Taste --- Which do you prefer: eggs or root beer? Actually, that’s a bad questio
+8 | The preference of Beth
+9 | The preference of Beth --- What about basket A with basket D? We start by asking Beth to point 
+10 | We get what we call “indifference curve”.
+11 | Using Indifference Curves --- Comparing P and Q
+12 | Using indifference curves
+13 | 
+14 | Properties of Indifference Curves --- Indifference curves slope downward. Indifference curves d
+15 | Marginal value: the slope of the I.C.
+16 | The shape of indifference curves
+17 | The Composite-Good Convention --- In order to draw indifference curve diagrams, we must assume 
+18 | The Composite-Good Convention --- In many applications we will want to concentrate our attentio
+19 | The Composite-Good Convention --- There remains the problem of units. What is a single unit of 
+20 | The Composite-Good Convention --- In the presence of the composite-good convention, the slope o
+21 | The budget constraint
+22 | How Much Money You Have to Spend --- The budget set is the set of all possible bundles of goods
+23 | budget constraint --- First, we’ll assume that consumers do not save or borrow. Second, we plot
+24 | The budget constraint --- Budget constraint
+25 | Price change
+26 | Income change
+27 | 
+28 | Putting it together
+29 | Optimal consumption
+30 | Optimal consumption --- Graphical analysis Lagrangian method (mathematics) Marginal argument (e
+31 | A corner solution --- Corner solution (not tangent) --- even after you spend all your money on 
+32 | Non-convex indifference curves
+33 | Applications of the consumer decision framework
+34 | Application #1 Price Indices
+35 | Price Indices --- To measure how people are affected by price changes, government statistical d
+36 | Price Indices --- Roughly, statistics department do this by tracking the cost of a given basket
+37 | Price Indices --- Example: Harold consumes goods X and Y. Their initial prices are 3 and 4, res
+38 | Price Indices --- Suppose we choose the following basket as a benchmark and hold the basket fix
+39 | 
+40 | 
+41 | Price Indices --- The problem: With this approach, you are using a fixed basket, but the answer
+42 | Laspeyres v.s. Paasche price index --- The cost-of-living measurement that you get by tracking 
+43 | Application #2 Differences in taste?
+44 | Difference in taste? --- Economists don’t like to attribute differences in patterns of human be
+45 | Difference in taste
+46 | Now Betty chooses a new B instead, which Albert cannot afford
+47 | Difference in taste --- Do Albert and Betty have identical tastes? We certainly have no way to 
+48 | Difference in taste --- What about the real world? We can replace Albert and Betty with “the av
+49 | Difference in taste --- Then we can repeat the exercise with Germans and Greeks, or Greeks and 
+50 | Difference in taste --- Harvard Professor Hendrik Houthakker (亨德里克·豪特哈克）carried out this exerci
+51 | Application 3 The Least Bad Tax (or which tax do you prefer?)
+52 | The Least Bad Tax --- Which would you rather pay: a percentage wage tax : the government takes 
+53 | Numerical example --- Suppose you earn 20 an hour. The government can impose a 50% wage tax In 
+54 | Budget line: leisure and money
+55 | How to formulate this into a consumer choice problem? --- Begin by drawing your budget line bet
+56 | 
+57 | Head tax --- Now consider a head tax The amount collected is still 100 Suppose you still worked
+58 | 
+59 | Intuition --- You might be surprised to learn that one tax can be preferable to another, even w
+60 | Intuition: marginal analysis --- Suppose first that you’re subject to the wage tax, so that you
+61 | Intuition: marginal analysis --- Now if the wage tax is suddenly abandoned and replaced by a he
+62 | Intuition (2) --- An extreme example to build intuition: Which do you prefer, a 0% head tax or 
+63 | Application 4 Deriving the demand curve from the indifference curve
+64 | From consumer choice to demand curve
+65 | Important concepts related to consumer demand
+66 | Consumer surplus
+67 | 
+68 | Demand elasticity --- We have already learned the law of demand last time. Suppose we want more
+69 | Elasticity --- Elasticity measures the sensitivity of one economic variable to a change in anot
+70 | Elasticity --- Note that elasticity is NOT the same as the slope of a line. By measuring change
+71 | Elasticity --- Elasticities come in many forms, but in this chapter we focus on the most import
+72 | The price elasticity of demand --- Two features of this computation are important.
+73 | The price elasticity of demand --- First, because of the Law of Demand, the price elasticity of
+74 | The price elasticity of demand --- Second, whether the price elasticity of demand greater than 
+75 | The price elasticity of demand --- Extreme case: perfectly elastic and perfectly inelastic Elas
+76 | Graphic illustration
+77 | Deepseek and Nvidia --- AI companies need Nvidia chips to train their LLM. To train one model, 
+78 | Deepseek and Nvidia --- Let m=nV. Nvidia’s revenue: R=(nV)*q(p)=nV*q(nV)= m*q(m) Now, Deepseek 
+79 | Jevons' Paradox? --- Jevons‘ Paradox: As technological improvements increase the efficiency of 
+80 | Moving Up and Down the Demand Curve
+81 | Determinants of demand elasticities --- 1. Closeness of substitutes. Say the actress Yang Zi wa
+82 | Who is Who? --- 傻傻分不清,看撞脸明星造型，你能分出她们吗？ 在娱乐圈总有那么几个名字让你熟悉，却分不清她们到底是哪张脸。不但外貌相似就连名字也很像！下面就看看以下哪位明星让
+83 | Who is Who?
+84 | Who is Who?
+85 | 撞脸网红大乱斗…
+86 | Low price elasticity of demand: only one of its kind
+87 | Determinants of demand elasticities --- 2. Budget share spent on the good. The budget share rel
+88 | Determinants of demand elasticities --- 3. Available time to adjust. When the price of oil jump
+89 | The Cross-Price Elasticity
+90 | Complements v.s. Substitutes --- If a cross-price elasticity is negative, then we say the two g
+91 | Complements v.s. Substitutes --- If a cross-price elasticity is positive, then we say the two g
+92 | The Income Elasticity of Demand
+93 | 
+94 | Normal vs inferior goods --- Normal goods: when income rises, consumers buy more of that good. 
+##### Lecture 4 without movie clips.json 70
+1 | Lecture 4 Producers
+2 | Sellers in a Perfectly Competitive Market --- We begin our study of how firms make decisions by
+3 | The third assumption --- Firms can enter and exit industries as they want This assumption has i
+4 | The seller’s problem
+5 | The Seller’s Problem --- The overarching goal of the seller is to maximize net benefits, or pro
+6 | My father’s problem --- My father used to run a small restaurant He hired a young chef, and the
+7 | My father’s problem --- First, my father must know how the inputs combine to make the outputs (
+8 | The seller’s problem --- Three elements of the seller’s problem are: 1. Making the goods (produ
+9 | Making the Goods: How Inputs Are Turned into Outputs --- Every firm faces the decision of how t
+10 | Production --- Consider an export processing company that specializes in contract manufacturing
+11 | Inputs --- The firm relies on two main inputs: labor to turn raw materials into shoes physical 
+12 | Labor v.s. capital --- Difference between capital and labor: While hiring and firing workers ca
+13 | Long run v.s. short run --- Short run: a time period when only some of a firm’s inputs can be v
+14 | 
+15 | Production function: stylized
+16 | Specialization --- 1. The marginal product increases with the addition of the first few workers
+17 | Law of Diminishing Returns --- 2. The marginal product eventually decreases with successive add
+18 | Law of Diminishing Returns --- This law might apply for a number of reasons. For example, with 
+19 | Adding too many workers can be counterproductive --- 3. Adding too many workers can decrease ov
+20 | The Cost of Doing Business: the Cost Curves --- The cost of production： what the firm must pay 
+21 | Components of costs --- A variable cost (VC) is the cost of variable factors of production, whi
+22 | Average cost --- Average total cost (ATC) is the total cost divided by the total output. Averag
+23 | Marginal cost --- Marginal cost (MC) is the change in total cost associated with producing one 
+24 | 
+25 | 
+26 | An observation --- MC curve intersects the ATC and AVC curves at their respective minimums. Why
+27 | The Rewards : Revenue Curves --- In perfectly competitive markets, sellers can sell all they wa
+28 | Marginal revenue --- Marginal revenue (MR) is the change in total revenue associated with produ
+29 | 
+30 | 
+31 | Putting It All Together --- How can we compute the level of profits?
+32 | 
+33 | MR = MC rule allows us to link the market price to the MC curve Then we can determine in the sh
+34 | Deriving the Supply Curve
+35 | Price elasticity of supply
+36 | 
+37 | 
+38 | 
+39 | Factors affecting supply elasticity --- Whether the firm has excess inventories How long the fi
+40 | Shutdown --- With an understanding of how quantity supplied responds to price changes, we can c
+41 | What about point S? --- At S, we have MR=MC Should the firm continue operation at this point?
+42 | What about point C? --- Sunk costs are costs that, once committed, can never be recovered and s
+43 | The short-run supply curve --- The short-run supply curve: the portion of its MC curve that lie
+44 | 
+45 | Producer Surplus --- Similar to the concept of consumer surplus, economists also have a means o
+46 | 
+47 | 
+48 | From the Short Run to the Long Run --- Firms often think about more than just each day’s produc
+49 | From the Short Run to the Long Run --- The long run is defined as a period of time in which all
+50 | From the Short Run to the Long Run --- Again consider The Cheeseman. In the short run, if the f
+51 | 
+52 | From the Short Run to the Long Run --- In this example the long-run ATC curve has a pronounced 
+53 | Economies of scale --- Constant returns to scale exist when ATC does not change as the quantity
+54 | Long-Run Supply Curve --- Consider point A. Should The Cheeseman produce at this price? There i
+55 | Long-run decision rule --- Exit is a long-run decision to leave the market. The long-run decisi
+56 | From the Firm to the Market: Long-Run Competitive Equilibrium --- Much like the short- and long
+57 | From the Firm to the Market: Long-Run Competitive Equilibrium --- The primary difference Even t
+58 | Free entry --- There is free entry into an industry when entry is unfettered by any special leg
+59 | free entry --- First, think about what entry of new firms does to the market supply curve. Beca
+60 | Entry shifts the market supply curve to the right
+61 | The effect of free entry --- This shift will cause the market price to fall. Why? We know that 
+62 | Firm Entry
+63 | 
+64 | 
+65 | Firm Exit --- There is free exit from an industry when exit is unfettered by any special legal 
+66 | The long-run supply curve --- Is a horizontal line…… Why? Prices always return to the minimum A
+67 | S1 in figure b is no longer the long run market supply curve. It is only the supply of the incu
+68 | Economic Profit Versus Accounting Profit --- If you’re thinking from an entrepreneur’s perspect
+69 | Economic Profit Versus Accounting Profit --- Why you shouldn’t think this way: Economic profits
+70 | Assume that The Cheeseman could increase its profits considerably if it decided to shift from t
+##### Lecture 5.json 73
+1 | Lecture 5 Competitive equilibrium and the invisible hand
+2 | Introduction --- In the previous two chapters we provided descriptions of the decision problems
+3 | Introduction --- At first glance it does seem as if there is a mess in many markets bidding war
+4 | Introduction --- Adam Smith, the father of economics, viewed the chaos quite differently. He co
+5 | Introduction --- This view is put forth most elegantly in his book The Wealth of Nations (1776)
+6 | The “invisible hand” is a forceful idea in economics it suggests that when all of the assumptio
+7 | An illustration
+8 | Perfect Competition and Efficiency --- Let’s assume that our market is composed of only seven b
+9 | A reservation value/price --- A reservation value or reservation price is the price at which a 
+10 | 
+11 | 
+12 | 
+13 | 
+14 | 
+15 | Social Surplus --- An important outcome: social surplus is maximized. Recall: social surplus is
+16 | Social Surplus --- For social surplus to be maximized, the highest-value buyers are making a pu
+17 | Social Surplus --- Notice that nobody interfere with the process of trade between all these buy
+18 | Suppose somebody put a quantity restriction: restricting the number of trades to two That is, t
+19 | What would happen if, instead, we enforced trade of five iPhones? That is, we have the five hig
+20 | Pareto Efficiency --- This example demonstrates that the competitive market equilibrium is effi
+21 | Pareto Efficiency --- But in many situations, we are also interested in who gets what—the alloc
+22 | Pareto Efficiency --- Definition: an outcome is Pareto efficient if no individual can be made b
+23 | From the Individual to the Firm
+24 | Consider a firm that owns two plants: Each plant produces microchips to sell in a perfectly com
+25 | 
+26 | Originally, the firm has allowed each plant to operate independently, with both plant managers 
+27 | 
+28 | 
+29 | Suppose now comes a new CEO At the annual shareholders’ meeting, both plant managers report imp
+30 | The new CEO thus announces that “it is time to move to the twenty-first century; we must immedi
+31 | 
+32 | Under the CEO’s plan, the new plant produced the last microchip at a marginal cost of $30 This 
+33 | The same logic can be used until the marginal costs are equalized across plants At this point, 
+34 | 
+35 | If you are the CEO, you would note that these optimal production numbers are exactly the levels
+36 | Importantly, in so doing, the plant managers also maximize the total profits of the two plants 
+37 | Allocation of Resources Across Industries
+38 | We just learned that the invisible hand optimally allocates scarce resources and arranges produ
+39 | Consider a different perfectly competitive market: the delivery of paper products for publishin
+40 | At a price of $25 per ton, there are economic profits. But with profits, what happens?
+41 | 
+42 | Positive economic profits attracts entrants. Other delivery companies want to enter because the
+43 | This is because at any price higher than $12 per ton, other delivery firms would still like to 
+44 | What happened? Resources flow to that industry because of the profits available. This behavior 
+45 | What happens if the equilibrium price lies below the ATC curve? Suppose that there is a related
+46 | 
+47 | Where will these truckers go? One possibility: they begin to deliver paper products for publish
+48 | 
+49 | When does exit from hauling corn stop? Much as in the case of entry, truckers exit until the pr
+50 | Competitive markets provide strong incentives for profit-seeking entrepreneurs to shift their r
+51 | Such shifting of resources leads to a very important outcome: In a perfectly competitive market
+52 | In this way, the market price is acting as an incentive for sellers to promote the greatest goo
+53 | Deadweight Loss --- Economists call the decrease in social surplus that results from a market d
+54 | Restricting the price to P1
+55 | Deadweight Loss --- By keeping the price artificially low, the government helps consumers but h
+56 | The Command Economy --- To understand the difficulty of what the invisible hand accomplishes, i
+57 | 
+58 | 
+59 | 
+60 | The Central Planner --- Why is it difficult for command economies to operate effectively and ex
+61 | How can you make sure that the cloth producers in Wenzhou had the necessary textile, buckets an
+62 | 
+63 | Two difficulties --- 1. Coordination problem 2. Incentive problem
+64 | Coordination problem: Central planner does not fully understand consumer wants and needs and th
+65 | Friedrich Hayek’s --- “The marvel is that in a case like that of a scarcity of one raw material
+66 | Equity and Efficiency
+67 | It is important to recognize that the standard of maximizing social surplus is just one way to 
+68 | For example, many citizens might believe that every person should have proper access to food, h
+69 | Equity is concerned with how the pie is allocated to the various economic agents. To some, equi
+70 | Should we help the homeless man on the corner, or assist an unemployed worker? What about starv
+71 | Just because the competitive market equilibrium maximizes social surplus, and is efficient, doe
+72 | Several important questions arise concerning equity and efficiency. These are questions in the 
+73 | Of course, such redistribution of wealth is important to modern societies We will find that thi
+##### Lecture 8 supplement.json 36
+1 | Public Goods
+2 | Most of you have watched CCTV-1. CCTV-1 is free. In the old days, even you do not have a cable,
+3 | These two properties no one can prevent others from consumption and one person’s consumption do
+4 | To understand the nature of a public good, it is useful to compare and contrast public goods an
+5 | To summarize, we can say that private goods are excludable and rival in consumption and public 
+6 | 
+7 | 1. Ordinary private goods, shown in the upper-left corner of Exhibit 9.10, are both highly excl
+8 | 2. In the lower-left corner of the exhibit, we find another category of goods—those that are hi
+9 | 3. The upper-right corner shows a category of goods called common pool resource goods, which ar
+10 | 4. A much different class of goods appears in the lower-right corner of the exhibit—public good
+11 | Public goods present particular problems for markets to provide because consumers do not see th
+12 | This example represents a key problem with efficiently providing public goods: we want them, bu
+13 | Government Provision of Public Goods --- What makes public goods different from private goods i
+14 | Conceptually we can calculate the optimal level of public good provision once we know the marke
+15 | 
+16 | Exhibit 9.11 provides a summary example of a two-person market. Panel (a) contains your demand 
+17 | Construction of the market demand curve for public goods follows similar logic. However, the na
+18 | Let’s put this intuition into action. Assume that we are again talking about you and Jim, but n
+19 | As you can see, because you value the first space mission at $80, and Jim also values it at $80
+20 | To compute exactly how much of the public good the government should provide, the supply (margi
+21 | 
+22 | Private Provision of Public Goods --- Over breakfast, you might listen to National Public Radio
+23 | Although governments importantly provide public goods, they are not the sole providers. Many pu
+24 | 
+25 | So what is the scope of private donations of money? Exhibit 9.14 shows the tremendous growth in
+26 | But there is more to the world than just the United States. How does giving in the United State
+27 | You might be thinking that, considering the voluntary nature of giving, this form of public goo
+28 | An example can help us understand the danger of leaving public good provision entirely in the h
+29 | 
+30 | 
+31 | Common Pool Resource Goods
+32 | Another important class of goods that are related to public goods are common pool resource good
+33 | The externality involved with a common pool resource arises because of the combination of open 
+34 | Other examples abound in the world around us: too much water is extracted from aquifers, too ma
+35 | Solutions to the tragedy of the commons are similar to those discussed earlier in the chapter f
+36 | When feasible, outright privatization of the resource—turning its control over to a single owne
+##### Lecture 9 Tax and Reg.json 85
+1 | Government Tax & Tax Incidence
+2 | Who bears the burden of taxes --- “Our new Constitution is now established, and has an appearan
+3 | Who bears the burden of taxes --- Question: who pays the tax? Seem to be a stupid question? Who
+4 | Tax Incidence --- This answer might be too naive We are going to see that the tax burden can be
+5 | An example --- Suppose the government of Hangzhou wants to raise money to build a few additiona
+6 | An example --- Question: How is this going to affect price and quantity of Vinegar fish sold in
+7 | An example
+8 | Now, there is a gap of 2 RMB between what the consumer pays and what the supplier receives Seco
+9 | Suppose now the sellers begin to complain as they are unhappy with paying the 2 RMB tax. Here i
+10 | Question: What would happen if the government follow the sellers’ suggestions and levied the ta
+11 | 
+12 | Why doesn’t it change? It’s because in the first case, when restaurants are taxed, menu prices 
+13 | A general lesson “In competitive markets, tax incidence and equilibrium prices and quantities a
+14 | The Effects of Demand and Supply Elasticities --- In general, the tax incidents will not be ide
+15 | The Effects of Supply Elasticities
+16 | The Effects of Demand Elasticities
+17 | General lesson: The tax burden falls less heavily on the side of the market that is more elasti
+18 | What is the intuition? When buyers are more price-elastic, they have more alternatives: when th
+19 | Another impact of elasticities on the tax burden: As supply or demand becomes more price-elasti
+20 | Q2 --- Q1 --- DWL and the Size of the Tax --- P --- Q --- D --- S --- 2T --- T --- initial DWL 
+21 | Q3 --- DWL and the Size of the Tax --- P --- Q --- D --- S --- Q1 --- 3T --- T --- Tripling the
+22 | 22 --- DWL and the Size of the Tax --- DWL --- Tax size --- Implication When tax rates are low,
+23 | Q2 --- Revenue and the Size of the Tax --- P --- Q --- D --- S --- Q1 --- PB --- PS --- PB --- 
+24 | Q3 --- Revenue and the Size of the Tax --- P --- Q --- D --- S --- Q2 --- PB --- PS --- PB --- 
+25 | Laffer curve: the relationship between the size of the tax and tax revenue. --- Revenue and the
+26 | Regulation
+27 | Regulation: actions by the government directed at influencing market outcomes, such as the quan
+28 | We have learned that one fundamental theme unites the multiple solutions to externalities, whet
+29 | In many instances, however, the government often directly regulates the activity that creates n
+30 | 厂老板道出为何企业全关停雾霾仍破千真相
+31 | 
+32 | Direct Regulation --- A common form of government intervention in markets is direct regulation 
+33 | Direct Regulation --- Affect just about every walk of life Examples: safety of foods and drugs 
+34 | Direct Regulation --- In many cases, such regulations serve important purposes. For example, co
+35 | Direct Regulation --- It is not a perfect organization: often blamed for being slow to allow ne
+36 | This type of regulation aims at ensuring that complex products meet certain quality and disclos
+37 | Though regulation plays an indispensable role in modern society, it has costs and limitations. 
+38 | Assume that the government determines that there is a shortage of physicists. The government sa
+39 | Likely not! Unlike market forces that guide resources to their best use, this type of command s
+40 | If there is an appropriately chosen subsidy to becoming a physicist then it won’t be random peo
+41 | Price Controls: Price Ceilings and Price Floors As we discussed before, sometimes the governmen
+42 | Price Ceilings --- A price ceiling is a cap on the price of a market good or service. One impor
+43 | In the United States, rent controls began during World War I and remain in many cities today, i
+44 | 
+45 | 
+46 | If rent control is so clearly welfare-reducing, why do we have it in practice? One reason is th
+47 | However, some renters are hurt: fewer of them are now able to find an apartment. Moreover, rent
+48 | 
+49 | Government Failures
+50 | Government Failures --- We have now seen several ways in which governments may intervene in the
+51 | Government Failures --- Some people believe that the role of the government in the economy shou
+52 | The Direct Costs of Bureaucracies --- Every government program needs bureaucrats and bureaucrac
+53 | The Direct Costs of Bureaucracies --- This observation does not suggest that bureaucrats are un
+54 | The Direct Costs of Bureaucracies --- What is worse is that this cost is increased by the fact 
+55 | Corruption --- Equally as important is the corruption that large governments engender. Corrupti
+56 | Corruption --- Consider one example—the billions of dollars that go annually to African governm
+57 | Corruption --- Money that reaches its intended destination may be as little as from 5 percent t
+58 | Guess what are these buildings?
+59 | Answer --- 8.5个美国白宫：望江县政府办公楼 安徽省安庆市望江县：全国贫困县 “白宫”占地109亩，建筑面积5100平方米，132个房间 2012
+60 | 杨达才，男，汉族，1957年10月生，陕西镇坪人，1982年1月参加工作，1975年11月加入中国共产党，大学文化（延安大学政教系哲学专业），原任陕西省安全生产监督管理局局长、党组书记。 2
+61 | Corruption --- You might be thinking that corruption is not an issue in developed countries The
+62 | Underground Economy --- Most people who have a job pay taxes However, you have likely seen case
+63 | Underground Economy --- In modern economies, black markets cover an array of activities and are
+64 | Example: After the United States outlawed alcohol in 1919, smugglers arranged deliveries to ill
+65 | Such an example illustrates some of the problems that an underground economy generates: 1. When
+66 | Such an example illustrates some of the problems that an underground economy generates: 3. To c
+67 | Equity Versus Efficiency
+68 | equity-efficiency trade-off. --- Till now, we have seen two faces of government. One provides v
+69 | equity-efficiency trade-off. --- The answer to this question revolves around the issue of equit
+70 | 
+71 | equity-efficiency trade-off. --- Where do you want to be along this curve? The answer to this q
+72 | When is economic useful in this problem
+73 | All developed nations seek to achieve some degree of equality in their society. The welfare sta
+74 | Consumer Sovereignty and Paternalism
+75 | Beyond promoting equality, some economists have argued that government intervention is necessar
+76 | One answer to whether the government should engage in these types of actions relates to the con
+77 | At the other end of the spectrum is paternalism. Paternalism is the view that consumers do not 
+78 | Example: The Social Security system in the United States, which forces individuals to save for 
+79 | In fact, the big difference between paternalism and consumer sovereignty is a normative one. Ho
+80 | The Debate --- Those economists toward the paternalistic end of the spectrum would probably say
+81 | The Debate --- Advocates for government intervention believe that the government can help—by pr
+82 | Some economists go somewhat further and suggest that the government should also play the role o
+83 | The pure consumer sovereignty view would be that the government’s business is not to “nudge” pe
+84 | Although this may sometimes be true, it generally raises several philosophical and practical pr
+85 | Beyond these questions, it is important to note that every government intervention is costly an

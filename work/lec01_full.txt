@@ -1,0 +1,402 @@
+=== P1 (50 chars) ===
+Microeconomics PrinciplesLecture 1: Introduction
+=== P2 (27 chars) ===
+Warm up
+---
+Is WeChat free?
+=== P3 (63 chars) ===
+If we ask this guy the same question…the answer would be a YES
+=== P4 (234 chars) ===
+But you should ask yourself the following question:
+---
+What do you give up when you use WeChat?
+
+WeChat may not take your money, but it takes time. 
+What can you do with the time? 
+How does that translate into money (or other stuff)?
+=== P5 (325 chars) ===
+This lecture
+---
+In this lecture, we introduce the economic way of thinking about the world. 
+We economists study the choices that people make, from big decisions like choosing a career to daily decisions like chatting and browsing with WeChat. 
+To understand those choices, we often focus on the costs and benefits involved.
+=== P6 (253 chars) ===
+The Scope of Economics
+---
+Economics involves far more than making or saving money.
+If you are taking this course because you want to make a big fortune, then you made a big mistake
+That’s what personal finance course or investment course will teach you
+=== P7 (511 chars) ===
+The Scope of Economics
+---
+At a broad level, economics study all types of human behavior. 
+Eg
+A person’s decision to whether to go to a university or not
+a person’s decision to enter ZJU or another university 
+whether to have a girlfriend/boyfriend during your stay in college 
+and if the answer is yes, whom?
+what speed that you ride a moto bike on campus, and whether you should wear a helmet; what about when you are on the road? 
+whether you are going to pursue a master’s or Ph.D. after graduation from ZJU
+=== P8 (23 chars) ===
+Here are some examples…
+=== P9 (0 chars) ===
+
+=== P10 (184 chars) ===
+Choice—not money—is the unifying feature of everything economists study.
+
+Immediately leads to two questions
+1. Who is making the choices
+2. What limits or defines the scope of choices
+=== P11 (153 chars) ===
+Two concepts
+---
+To give you a more precise definition of choice, we first need to introduce two important concepts:
+economic agents
+resource allocation.
+=== P12 (85 chars) ===
+An economic agent is an individual or a group that makes choices.
+---
+Economic agents
+=== P13 (405 chars) ===
+Economic agents
+---
+A consumer, who chooses to buy an iphone, or Huawei, or Xiaomi. 
+An instructor, who chooses to teach microeconomics with a lot of mathematics equations or not 
+A student, who chooses to attend my class or not
+A businessman, who chooses to keep his factories in Wenzhou, or move the machines to Vietnam. 
+A president of the United States, who choose to fight a trade war on China or not
+=== P14 (155 chars) ===
+Economic agents
+---
+Not all economic agents are individuals. 
+Sometimes economists simplify their analysis by treating a group of people as economic agents
+=== P15 (189 chars) ===
+Economic agents
+---
+Example
+Apple, the company, prices the iPhone to maximize its profits (instead of Cook, the individual)
+The Chinese government choose whether and how to fight Trump back
+=== P16 (204 chars) ===
+Scarce resources
+---
+Scarce resources : things we want to have, but the amount that we want (if it is free) exceeds the amount that is available
+
+Why does scarcity exist?
+Unlimited wants
+Limited resources
+=== P17 (208 chars) ===
+Scarce resources
+---
+That’s why we normally do not talk about scarcity of air
+Even if air if free, the wants on air do not exceed the air available on earth
+But what about clean air? Is that a scare resource?
+=== P18 (239 chars) ===
+Scarce resources
+---
+The big question:
+In the world we live in with limited supply or resources but unlimited wants, how does the society decide who gets what? 
+In other words, how does society allocate the scarce resources in the economy?
+=== P19 (138 chars) ===
+Definition of Economics
+---
+Economics is the study of how agents choose to allocate scarce resources and how those choices affect society.
+=== P20 (289 chars) ===
+Definition of Economics
+---
+Two important point in this definition
+1. individual choice
+2. Moreover, how these choices affects other people in the society
+You may notice that there is a loop: you choice/action affects other people’s choice, other people’s choice then affects your choice….
+=== P21 (433 chars) ===
+Your choices affects others
+---
+Example: Suppose you choose to buy a car. This choice not only affects yourself but other people
+Generate sales tax, which the government can use to fund a university
+Generate congestion on the road
+If you drives recklessly, or drive when you are drunk, then the car may generate risks to other drivers.
+Economists study the original choice and its multiple consequences for other people in the world.
+=== P22 (279 chars) ===
+But why study choices?
+---
+Understanding people’s choices is practically useful for two reasons.
+1. Describes or explain what people actually do (positive economics)
+2. Recommends what people, including society, ought to do, or what is the right thing to do (normative economics)
+=== P23 (272 chars) ===
+Aside: Positive v.s Normative Statement
+---
+Positive statements describe what things actually are
+Normative statements describe what things ought to be
+Understanding the difference of the two is extremely useful, not only when studying economics, but also in everyday life
+=== P24 (158 chars) ===
+Positive Economics
+---
+Positive Economics Describes What People Actually Do
+Positive statements can be true or false
+But can be confirmed or tested with data.
+=== P25 (284 chars) ===
+Positive Economics
+---
+Example: consider the following statement: 
+“In 2019, 6300 freshmen come to Zhejiang University. Among them, male: female= 60.1% : 39.9%”.
+These statistics can be wrong, but they are trying to describe what it is
+Anyone can check whether they are right or wrong
+=== P26 (272 chars) ===
+Positive Economics
+---
+Another example
+One of my former teacher, who is one of the leading experts of international trade in China, predicted that the China-US trade war will stop before June, 2019
+This is also an example of positive statement
+Now we find that he is wrong
+=== P27 (408 chars) ===
+Positive Economics
+---
+Another example
+Suppose a law is passed that dictates cloth producers in Zhejiang to meet certain quality standard. 
+Questions:
+1. How will it affect the incomes of cloth producers
+2. What effect will it have on the number of businessman who decide to become cloth producers?
+3. How is that going to affect cloth producers in other provinces? 
+3. How is that going to affect consumers?
+=== P28 (207 chars) ===
+Normative Economics
+---
+Normative Economics Recommends What People Ought to Do
+Example: continue with our cloth producer example
+The following is a normative question: 
+Is this law, on balance, a good thing?
+=== P29 (247 chars) ===
+Normative Economics
+---
+Normative economics is almost always dependent on subjective judgments, which means that normative analysis depends at least in part on personal feelings, tastes, or opinions.
+So whose subjective judgments do we try to use?
+=== P30 (381 chars) ===
+Normative Economics
+---
+Suppose I am helping my mom, who is 60 years old, to decide how much risk to take in her investments. 
+I might ask my mom about her own preferences regarding investment risk. 
+Suppose my mom said that she would not have any good sleep at night, if her retirement savings were invested in the Shanghai stock market, which does fall sharply from time to time.
+=== P31 (316 chars) ===
+Normative Economics
+---
+Two investment choice A and B
+A is more risky and the return is much more volatile than B, but A has a higher expected return
+Suppose after I have informed my mom about these facts,  she still chooses B
+Then it might be the right thing for me to help my mom to find something like B to invest
+=== P32 (227 chars) ===
+Important
+---
+Here I, the economist, plays the role of engineer: finding the investment portfolio that will deliver the level of risk-return that my mom wants
+And that’s the key—what the person I advised wants, not what I want!
+=== P33 (325 chars) ===
+Normative Analysis and Public Policy
+---
+But things get much more complicated when we are trying to advise a group of people!
+Public policy: a set of uniform rules to all people involved
+But people involved may have different views or conflict of interest
+So most of the times, public policies could create winners and losers
+=== P34 (297 chars) ===
+Example 1
+Building a large waste treatment plant may benefit residence in a city
+But people who live near the location would strongly oppose the plan
+Example 2
+Suppose the government is considering abandoning the Hukou (户口) system
+Who would welcome and who would oppose this policy recommendation?
+=== P35 (130 chars) ===
+Example 3
+The government imposed a cap （an upper bound） on housing prices
+
+Example 4
+The government bans online celebrities (流量明星）
+=== P36 (357 chars) ===
+What economists can do
+---
+Economics can provide answers to the positive questions, at least in principle
+However, economics by itself can never answer a normative question; 
+In the case for example 2, your answer to the normative question must depend on how you feel about the relative merits of helping immigrants versus protecting local people’s interest
+=== P37 (171 chars) ===
+Normative Analysis and Public Policy
+---
+When a government policy creates winners and losers, economists need to make some ethical judgments to conduct normative analysis.
+=== P38 (341 chars) ===
+Normative Analysis and Public Policy
+---
+Ethical judgments are usually unavoidable when economists think about government policies, because there are not many policies that make everyone better off. 
+
+Deciding whether the costs experienced by the losers are justified by the benefits experienced by the winners is partly an ethical judgment.
+=== P39 (352 chars) ===
+Normative Analysis and Public Policy
+---
+Is it ethical to shut down factories in Hebei province or Shandong province, so Beijing residents can enjoy clean air? 
+Is it ethical to forbid second-hand housing transactions so housing price could stabilize?
+These public policy questions—which all ask what society should do—are normative economic questions.
+=== P40 (74 chars) ===
+Three pillars of economic analysis
+---
+Optimization
+Equilibrium
+Empiricism
+=== P41 (177 chars) ===
+Optimization
+---
+(Constrained) optimization: choose the best feasible option, given whatever (limited) information, knowledge, experience, and training the economic agents have.
+=== P42 (130 chars) ===
+Optimization
+---
+Many different forms of constraints:
+Financial budget
+Time constraint
+Your mental capacity
+Education you received
+=== P43 (222 chars) ===
+Optimization
+---
+Here, information means the set of information that are available when you make the choice. 
+Optimization means you rely on the information you currently have, NOT that you can perfectly foresee the future
+=== P44 (286 chars) ===
+Information and optimization
+---
+Example
+Cai Xukun got a girlfriend in the first year of college
+A year later, he found that she is the not right person and break up with her
+
+Question: Some of Cai Xukun’s friends think that Xukun is not optimizing in the first place. Are they correct?
+=== P45 (333 chars) ===
+Information and optimization
+---
+The fact that the relationship fails does not necessarily mean that Xukun is not optimizing in year 1
+More likely, this is because the information he discovered in year 2 were not available back in year 1. 
+Instead, at both year 1 and year 2 he is making optimization, given his information available
+=== P46 (325 chars) ===
+Every person is unique
+---
+Finally, it is important to note that what we optimize varies from person to person and group to group.
+Most firms try to maximize profits, but most people are not trying to maximize their personal income.
+It is important to remember that people have different objective functions in everyday life.
+=== P47 (105 chars) ===
+Trade-offs and Budget Constraints
+---
+Trade-offs: some benefits must be given up in order to gain others.
+=== P48 (274 chars) ===
+Trade-offs and Budget Constraints
+---
+Economists use budget constraints to describe trade-offs. 
+A budget constraint is the set of things that a person can choose to do (or buy) without breaking her budget.
+Budget can be about anything: money, time, your energy, attention……
+=== P49 (24 chars) ===
+Example: time constraint
+=== P50 (341 chars) ===
+Opportunity Cost
+---
+What you give up can be called “cost”
+Attending my class has cost, you could use the time you spend to do a lot of other things
+Sleep
+Playing video games in your dormitory
+Attending other classes that are less challenging 
+发呆
+All these mean that you have to give up a lot of opportunities
+A cost is a forgone opportunity
+=== P51 (237 chars) ===
+Opportunity Cost
+---
+Evaluating trade-offs can be difficult, because so many options are under consideration.
+Economists tend to focus on the best alternative activity. 
+We refer to this best alternative activity as the opportunity cost.
+=== P52 (288 chars) ===
+Example
+---
+A big fan of TF Boys won a lottery and was given the opportunity to hug one of the three boys, but only one. 
+She likes Jackson Yi the most, and prefers Wang Junkai to Wang Yuan
+Of course, she optimized by choosing to hug Jackson Yi
+What is the opportunity cost of doing this?
+=== P53 (386 chars) ===
+Note
+---
+In calculating opportunity costs, it is important not to double-count. 
+The fan can hug Junkai or Wang Yuan if she choose not to hug Jackson Yi, but she can not hug both. 
+The time spent in class could have been used to go to the movies or to study for an exam, but not both.
+Therefore, it would not be correct to count both the forgone movie and the forgone studying as costs.
+=== P54 (183 chars) ===
+Assigning a Monetary Value to an Opportunity Cost
+---
+It is difficult to estimate the real monetary value of the cost in real world circumstances
+but helpful to have a rough estimate.
+=== P55 (391 chars) ===
+Assigning a Monetary Value to an Opportunity Cost
+---
+Suppose you can find a part-time job outside campus, the wage is 200RMB per hour
+What is the monetary value of opportunity cost, of one hour’s internet surfing?
+Depends on whether doing the part-time job is the best alternative
+If not, then the OC is at least 200RMB
+If yes, then the OC is 200RMB
+What have we neglected in this analysis?
+=== P56 (309 chars) ===
+Cost-Benefit Analysis
+---
+Cost-benefit analysis is a calculation that identifies the best alternative, by summing benefits and subtracting costs, with both benefits and costs denominated in a common unit of measurement, like dollars.
+To an economist, cost-benefit analysis and optimization are the same thing.
+=== P57 (252 chars) ===
+Cost-Benefit Analysis
+---
+When you pick the option with the greatest net benefits, you are optimizing. 
+So cost-benefit analysis is useful for normative economic analysis. 
+It enables an economist to determine what an individual or a society should do.
+=== P58 (238 chars) ===
+The Second Principle of Economics:Equilibrium
+---
+Not only you can optimize
+Other people are not stupid (even Donald Trump is not stupid)
+Other people are also optimizing 
+And other people’s behavior will influence what you decide to do.
+=== P59 (288 chars) ===
+Equilibrium
+---
+Economists think of the world as a large number of economic agents who are interacting and influencing each other at optimization.
+Equilibrium is the special situation in which everyone is optimizing, so nobody would benefit personally by changing his or her own behavior.
+=== P60 (513 chars) ===
+An important clarification:
+---
+When we say that nobody would benefit personally by changing his or her own behavior, we mean that nobody believes he or she would benefit from such a change. 
+In equilibrium, all economic agents are making their best feasible choices, taking into account all of the information they have, including their beliefs about the behavior of others. 
+We could rewrite the definition by saying that in equilibrium, nobody perceives that they will benefit from changing their own behavior.
+=== P61 (33 chars) ===
+checkout lines at the supermarket
+=== P62 (421 chars) ===
+The Free-Rider Problem
+---
+Let’s use the concept of equilibrium to analyze an economic problem that may interest you: roommates.
+Assume that 5 roommates live in dormitory. 
+Each roommate can spend some time contributing to the general well-being of all the roommates by throwing away trash. 
+Or each roommate can spend all his or her time on activities that only benefit him or herself—for instance, playing a video game.
+=== P63 (577 chars) ===
+The Free-Rider Problem
+---
+Imagine that one roommate starts spending time cleaning up. 
+If he spends 30 minutes doing the cleaning, all the other roommates benefit without having to lift a finger but that would be too much work for himself.
+However, if he spends only 5 or 10 minutes then the situation will not change much even for himself.
+Although the other roommates appreciate it, they have no incentive to help him
+It would be beneficial to each of the roommates if everyone did a little cleaning. 
+But each of the five roommates has an incentive to leave that to others.
+=== P64 (260 chars) ===
+The Free-Rider Problem
+---
+Consequently, dormitories with lots of roommates are often a mess. 
+The equilibrium prediction is that when people live in larger rooming groups, they will have messier apartments than if the same people each had their own apartment.
+=== P65 (349 chars) ===
+The Free-Rider Problem
+---
+The same thing happens when you get robbed on the street, or an old lady falls down the street and nobody helps
+With a lot of people in the street, people are less likely to help because they are expecting other people to help
+If you understand this, you are less likely to blame people for there indifference, or coldness
+=== P66 (321 chars) ===
+Empiricism
+---
+Economists test their ideas with data. 
+We refer to such evidence-based analysis as empirical analysis or empiricism. 
+We use optimization and equilibrium to predict human behavior
+But are these predictions correct? Need to confront with the data. 
+Could be inconsistent, then revise and improve the theory
+=== P67 (110 chars) ===
+Empiricism
+---
+Also important and interesting is what is called causal inference.
+Causality versus correlation

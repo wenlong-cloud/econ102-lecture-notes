@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>信息技术经济学：系统竞争、锁定与双边市场 · 微观经济学讲义</title>
+<link rel="stylesheet" href="style.css"></head>
+<body class="lec">
+<header class="topbar">
+  <div class="brand"><a href="index.html">微观经济学 · 逐页精讲</a></div>
+  <nav class="nav"><a class="navbtn" href="index.html">大纲</a><a class="navbtn" href="glossary.html#lec12">术语表 · 18</a><a class="navbtn" href="lec10.html">← L10 博弈论</a><button class="ask-open navask" type="button" data-ask>问老师</button></nav>
+</header>
+
+<div class="layout">
+  <aside class="side">
+    <div class="side-inner">
+      <h2>L12 信息技术</h2>
+      <p class="side-sub">信息技术经济学：系统竞争、锁定与双边市场</p>
+      <input id="filter" type="search" placeholder="筛选本讲页码 / 关键词">
+      <div class="ask">
+        <button class="ask-open" type="button" data-ask>问老师 · 这一页哪里不懂？</button>
+        <p class="ask-hint">用 DeepSeek 直接回答，会带上你正在看的这一讲和这一页。</p>
+      </div>
+      <div class="toc"><a href="#s1" data-n="1"><b>1</b>Information Technology</a><a href="#s2" data-n="2"><b>2</b>Introduction</a><a href="#s3" data-n="3"><b>3</b>Introduction</a><a href="#s4" data-n="4"><b>4</b>Systems Competition</a><a href="#s5" data-n="5"><b>5</b>Systems Competition</a><a href="#s6" data-n="6"><b>6</b>The Problem of Complements</a><a href="#s7" data-n="7"><b>7</b>The Problem of Complements</a><a href="#s8" data-n="8"><b>8</b>The Problem of Complements</a><a href="#s9" data-n="9"><b>9</b>The Problem of Complements</a><a href="#s10" data-n="10"><b>10</b>The Problem of Complements</a><a href="#s11" data-n="11"><b>11</b>The Problem of Complements</a><a href="#s12" data-n="12"><b>12</b>The Problem of Complements</a><a href="#s13" data-n="13"><b>13</b>The Problem of Complements</a><a href="#s14" data-n="14"><b>14</b>Examples</a><a href="#s15" data-n="15"><b>15</b>Examples</a><a href="#s16" data-n="16"><b>16</b>The Problem of Complements</a><a href="#s17" data-n="17"><b>17</b>The Problem of Complements</a><a href="#s18" data-n="18"><b>18</b>The Problem of Complements</a><a href="#s19" data-n="19"><b>19</b>The Problem of Complements</a><a href="#s20" data-n="20"><b>20</b>The Problem of Complements</a><a href="#s21" data-n="21"><b>21</b>Lock-In</a><a href="#s22" data-n="22"><b>22</b>Lock-In</a><a href="#s23" data-n="23"><b>23</b>Lock-In</a><a href="#s24" data-n="24"><b>24</b>Lock-In</a><a href="#s25" data-n="25"><b>25</b>Lock-In</a><a href="#s26" data-n="26"><b>26</b>Lock-In</a><a href="#s27" data-n="27"><b>27</b>Lock-In</a><a href="#s28" data-n="28"><b>28</b>Lock-In</a><a href="#s29" data-n="29"><b>29</b>Network Externalities</a><a href="#s30" data-n="30"><b>30</b>Markets with Network Externalities</a><a href="#s31" data-n="31"><b>31</b>Markets with Network Externalities</a><a href="#s32" data-n="32"><b>32</b>Markets with Network Externalities</a><a href="#s33" data-n="33"><b>33</b>Markets with Network Externalities</a><a href="#s34" data-n="34"><b>34</b>Markets with Network Externalities</a><a href="#s35" data-n="35"><b>35</b>Markets with Network Externalities</a><a href="#s36" data-n="36"><b>36</b>Markets with Network Externalities</a><a href="#s37" data-n="37"><b>37</b>Which of the three equilibria will we </a><a href="#s38" data-n="38"><b>38</b>Market Dynamics</a><a href="#s39" data-n="39"><b>39</b>Market Dynamics</a><a href="#s40" data-n="40"><b>40</b>Market Dynamics</a><a href="#s41" data-n="41"><b>41</b>Market Dynamics</a><a href="#s42" data-n="42"><b>42</b>Market Dynamics</a><a href="#s43" data-n="43"><b>43</b>Market Dynamics</a><a href="#s44" data-n="44"><b>44</b>Implications of Network Externalities</a><a href="#s45" data-n="45"><b>45</b>Implications of Network Externalities</a><a href="#s46" data-n="46"><b>46</b>Two-sided Markets</a><a href="#s47" data-n="47"><b>47</b>Two-sided Markets</a><a href="#s48" data-n="48"><b>48</b>Two-sided Markets</a><a href="#s49" data-n="49"><b>49</b>Two-sided Markets</a><a href="#s50" data-n="50"><b>50</b>Two-sided Markets</a><a href="#s51" data-n="51"><b>51</b>Rights Management</a><a href="#s52" data-n="52"><b>52</b>Rights Management</a><a href="#s53" data-n="53"><b>53</b>Rights Management</a><a href="#s54" data-n="54"><b>54</b>Rights Management</a><a href="#s55" data-n="55"><b>55</b>Rights Management</a><a href="#s56" data-n="56"><b>56</b>Rights Management</a><a href="#s57" data-n="57"><b>57</b>Sharing Intellectual Property</a><a href="#s58" data-n="58"><b>58</b>Sharing Intellectual Property</a><a href="#s59" data-n="59"><b>59</b>Sharing Intellectual Property</a><a href="#s60" data-n="60"><b>60</b>Sharing Intellectual Property</a><a href="#s61" data-n="61"><b>61</b>Sharing Intellectual Property</a><a href="#s62" data-n="62"><b>62</b>Sharing Intellectual Property</a><a href="#s63" data-n="63"><b>63</b>Sharing Intellectual Property</a><a href="#s64" data-n="64"><b>64</b>Sharing Intellectual Property</a><a href="#s65" data-n="65"><b>65</b>Sharing Intellectual Property</a></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="lec-hero">
+      <div class="crumb">第 12 讲 · 信息经济</div>
+      <h1>信息技术经济学：系统竞争、锁定与双边市场</h1>
+      <p class="lead">信息产品的成本结构（高固定成本、近零边际成本）、互补品与系统竞争、锁定与转换成本、网络外部性、双边市场与平台定价，以及版权与知识共享的权衡。</p>
+      <div class="meta">共 <b>65</b> 页课件 · 已精讲 <b>65</b> 页（100%）</div>
+      <div class="topics"><h3>本讲要点</h3><ul><li>高固定成本/低边际成本</li><li>互补品与系统</li><li>锁定与转换成本</li><li>网络外部性</li><li>双边市场</li><li>版权保护 vs 共享</li></ul></div>
+      
+    </div>
+    <section class="slide" id="s1" data-n="1">
+  <div class="slide-head"><span class="pno">P1</span><span class="ptitle">Information Technology</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-001.webp" alt="第1页"><figcaption>课件第 1 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>最后一讲：<strong>信息技术的经济学</strong>（Information Technology）。</p>
+<p>这一讲不像前面几讲那样围绕「一个<a class="term" href="glossary.html#t-market" data-t="market">市场</a>」展开，而是围绕<strong>信息产品的四个特殊结构</strong>展开：</p>
+<ul><li>它是<strong>系统</strong>（硬件 + 软件 + 内容），所以有<strong><a class="term" href="glossary.html#t-complements" data-t="complements">互补品</a>定价</strong>问题；</li><li>它有<strong><a class="term" href="glossary.html#t-switching-cost" data-t="switching-cost">转换成本</a></strong>，所以会<strong>锁定</strong>用户；</li><li>它有<strong>网络外部性</strong>，所以可能出现<strong>多个均衡</strong>；</li><li>它的<strong>产权边界可以被设计</strong>（卖、租、授权、共享），所以有<strong>权利管理</strong>。</li></ul></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Information Technology</pre></details>
+</section><section class="slide" id="s2" data-n="2">
+  <div class="slide-head"><span class="pno">P2</span><span class="ptitle">Introduction</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-002.webp" alt="第2页"><figcaption>课件第 2 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>开场给出历史定位：</p>
+<blockquote>过去二十年经济中最剧烈的变化之一，是<strong>信息经济</strong>的出现。</blockquote>
+<p>类比很关键：<strong>工业革命</strong>改变了商品「如何生产、分销、消费」；<strong>信息革命</strong>正在改变信息「如何生产、分销、消费」。</p>
+<p>这句话定下了本讲的调子：我们不是来学「互联网公司」的，是来学<strong>当产品的<a class="term" href="glossary.html#t-marginal-cost" data-t="marginal-cost">边际成本</a>趋近于零、且价值依赖别人是否也在用时，市场会怎么运作</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Introduction
+---
+One of the most radical changes in the economy in the last two decades has been the emergence of the information economy.
+Just as the Industrial Revolution transformed the way goods were produced, distributed, and consumed, the Information Revolution is transforming the way information is produced, distributed, and consumed.</pre></details>
+</section><section class="slide" id="s3" data-n="3">
+  <div class="slide-head"><span class="pno">P3</span><span class="ptitle">Introduction</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-003.webp" alt="第3页"><figcaption>课件第 3 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>本讲只研究三个模型（路线图）：</p>
+<ol><li><strong>网络的经济学</strong>（economics of networks）——互补品、<a class="term" href="glossary.html#t-lock-in" data-t="lock-in">锁定</a>、<a class="term" href="glossary.html#t-network-externality" data-t="network-externality">网络外部性</a>、<a class="term" href="glossary.html#t-two-sided-market" data-t="two-sided-market">双边市场</a>。</li><li><strong>转换成本</strong>（switching costs）——为什么用户被「锁住」。</li><li><strong>信息产品的权利管理</strong>（rights management）——卖、租、试用、共享怎么选。</li></ol>
+<p>三个模型对应三种「市场失灵的形式」，也对应三种商业策略。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Introduction
+---
+We will investigate a few economic models relevant to the information revolution. 
+economics of networks
+switching costs
+rights management for information goods.</pre></details>
+</section><section class="slide" id="s4" data-n="4">
+  <div class="slide-head"><span class="pno">P4</span><span class="ptitle">Systems Competition</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-004.webp" alt="第4页"><figcaption>课件第 4 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong><a class="term" href="glossary.html#t-systems-competition" data-t="systems-competition">系统竞争</a></strong>（Systems Competition）。</p>
+<p>第一个观察：信息技术产品<strong>总是以「系统」的形式被使用</strong>。</p>
+<ul><li>硬件离开软件就没用：DVD 播放机离开碟片毫无价值，操作系统离开应用程序毫无价值，浏览器离开网站毫无价值。</li></ul>
+<p>这些就是<strong>互补品</strong>（complements）：<strong>一种组件的价值，因为另一种组件的存在而显著提高</strong>。</p>
+<p>注意这个定义比第 3 讲的「左鞋右鞋」更进一步——它强调的是<strong>价值的相互增强</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Systems Competition
+---
+Information technology is generally used in systems.
+Hardware is useless without software: a DVD player is useless without DVD disks, an operating system is worthless without applications, and a web browser is useless without web servers. 
+All of these are examples of complements: goods where the value of one component is significantly enhanced by the presence of another component.</pre></details>
+</section><section class="slide" id="s5" data-n="5">
+  <div class="slide-head"><span class="pno">P5</span><span class="ptitle">Systems Competition</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-005.webp" alt="第5页"><figcaption>课件第 5 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>与第 3 讲的互补品做个对照：</p>
+<ul><li>左鞋和右鞋是互补品，但<strong>多买一只左鞋不会让右鞋更有价值</strong>（固定比例，1:1）。</li><li>而<strong>软件越多，硬件越有价值</strong>；应用越多，操作系统越有价值。</li></ul>
+<p>所以 IT 的互补品有<strong>正反馈</strong>：一边变多，另一边更值钱。</p>
+<p>由此得到一个反直觉的结论：</p>
+<blockquote>这些组件的供应商，<strong>既要操心竞争对手，也要操心自己的「<a class="term" href="glossary.html#t-complementors" data-t="complementors">互补者</a>」</strong>（complementors）。</blockquote>
+<p>因为互补者的定价会直接影响你的销量。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Systems Competition
+---
+In our discussion of consumer theory, we described left shoes and right shoes as complements. 
+But unlike shoes, the more software that is available for hardware, the more valuable it becomes.
+Competition among the providers of these components often have to worry just as much about their “complementors” as their competitors.</pre></details>
+</section><section class="slide" id="s6" data-n="6">
+  <div class="slide-head"><span class="pno">P6</span><span class="ptitle">The Problem of Complements</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-006.webp" alt="第6页"><figcaption>课件第 6 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把系统具体化：<strong>S<a class="term" href="glossary.html#t-opportunity-cost" data-t="opportunity-cost">OC</a> + 操作系统（OS）</strong>。</p>
+<ul><li><strong>SOC</strong>（System on a Chip）：集成电路，是移动设备的「大脑」。课件举例：<strong>骁龙 865</strong>（Snapdragon 865）vs <strong>苹果 A14</strong>。</li><li><strong>OS</strong>：让用户和应用能够使用 SOC 功能的软件。课件举例：<strong>Android</strong> vs <strong>iOS</strong>。</li></ul>
+<p>二者是互补品——就像左鞋与右鞋：<strong>只买一个没用</strong>。</p>
+<p>下面五页（7–12）是这个模型的一次完整推导，请跟着算，它只用到第 4 讲的 <a class="term" href="glossary.html#t-profit-maximization" data-t="profit-maximization">MR = MC</a>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Problem of Complements
+---
+Let us consider the case of a SOC and an Operating System (OS).
+A SOC  is an integrated circuit that is the “brain” of a mobile devise. (Snapdragon 865 v.s. Apple A14) 
+An OS is the software that allows users and applications to access the functions of the SOC. (Android v.s. IOS.) 
+The SOC and the OS are complements, just as left shoes and right shoes are complements.</pre></details>
+</section><section class="slide" id="s7" data-n="7">
+  <div class="slide-head"><span class="pno">P7</span><span class="ptitle">The Problem of Complements</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-007.webp" alt="第7页"><figcaption>课件第 7 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>模型设定（这一页是整套推导的地基）：</p>
+<ul><li><strong>关键特征</strong>：任一种产品的需求，都取决于<strong>两种产品的价格</strong>。</li><li>设 SOC 的价格为 <strong>p₁</strong>，OS 的价格为 <strong>p₂</strong>，则终端用户面对的成本取决于 <strong>p₁ + p₂</strong>。</li><li>因此 SOC 的需求取决于<strong>整个系统的价格</strong>，写成 <strong>D(p₁ + p₂)</strong>。</li><li>设 SOC 的边际成本为 <strong>c₁</strong>，<a class="term" href="glossary.html#t-fixed-cost" data-t="fixed-cost">固定成本</a>为 <strong>F</strong>（OS 侧对称地有 c₂、成本）。</li></ul>
+<p>一句话：<strong>消费者买的不是组件，是「系统」</strong>；他只关心总价。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Problem of Complements</pre></details>
+</section><section class="slide" id="s8" data-n="8">
+  <div class="slide-head"><span class="pno">P8</span><span class="ptitle">The Problem of Complements</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-008.webp" alt="第8页"><figcaption>课件第 8 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>第一步：两个厂商各自独立定价。</strong></p>
+<p>厂商 1（SOC）的利润：</p>
+<blockquote>π₁ = p₁·D(p₁ + p₂) − c₁·D(p₁ + p₂) − F = (p₁ − c₁)·D(p₁ + p₂) − F</blockquote>
+<p>厂商 2（OS）的利润：把下标换成 2 即可。</p>
+<p>注意两家各自只看<strong>自己的价格</strong>，但销量由<strong>总价</strong>决定——这就是冲突的来源。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Problem of Complements</pre></details>
+</section><section class="slide" id="s9" data-n="9">
+  <div class="slide-head"><span class="pno">P9</span><span class="ptitle">The Problem of Complements</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-009.webp" alt="第9页"><figcaption>课件第 9 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>第二步：各自求一阶条件</strong>（对自家价格求导，令其为零）。</p>
+<p>厂商 1：<code>D + (p₁ − c₁)·D′ = 0</code> 厂商 2：<code>D + (p₂ − c₂)·D′ = 0</code></p>
+<p>这里的 D′ &lt; 0（需求向下倾斜）。</p>
+<p>用文字读这两个式子：每家都只考虑「我涨价会让我少卖多少」，<strong>完全不考虑我涨价会让对方也少卖</strong>。这就是<a class="term" href="glossary.html#t-externality" data-t="externality">外部性</a>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Problem of Complements</pre></details>
+</section><section class="slide" id="s10" data-n="10">
+  <div class="slide-head"><span class="pno">P10</span><span class="ptitle">The Problem of Complements</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-010.webp" alt="第10页"><figcaption>课件第 10 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>第三步：把两个一阶条件相加</strong>，记总价 P = p₁ + p₂、总边际成本 c = c₁ + c₂：</p>
+<blockquote>2D + (P − c)·D′ = 0</blockquote>
+<p>而<strong>联合利润</strong>（把两家看成一家的总利润）对 P 求导是：</p>
+<blockquote>D + (P − c)·D′</blockquote>
+<p>两者相差一个 D。因为 D &gt; 0，所以：<strong>在各自最优的点上，联合利润还可以通过「降价」来提高</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Problem of Complements</pre></details>
+</section><section class="slide" id="s11" data-n="11">
+  <div class="slide-head"><span class="pno">P11</span><span class="ptitle">The Problem of Complements</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-011.webp" alt="第11页"><figcaption>课件第 11 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>第四步：如果两家合并（或由一家做系统定价）会怎样？</strong></p>
+<p>一体化厂商的利润：π = (P − c₁ − c₂)·D(P) − F，一阶条件：</p>
+<blockquote>D + (P − c)·D′ = 0</blockquote>
+<p>对比第 10 页的 <code>2D + (P − c)·D′ = 0</code>：<strong>独立定价时，<a class="term" href="glossary.html#t-equilibrium" data-t="equilibrium">均衡</a>总价 P 高于一体化时的最优总价</strong>。</p>
+<p>直觉：每家涨价时只承担「自己少卖」的损失，却把「对方也少卖」的损失甩给了对方——于是<strong>每家都涨得太多</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Problem of Complements</pre></details>
+</section><section class="slide" id="s12" data-n="12">
+  <div class="slide-head"><span class="pno">P12</span><span class="ptitle">The Problem of Complements</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-012.webp" alt="第12页"><figcaption>课件第 12 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这就是<strong><a class="term" href="glossary.html#t-double-marginalization" data-t="double-marginalization">双重边际化</a></strong>（double marginalization）：同一条产业链上，上游加一次价、下游再加一次价，<strong>总加价超过<a class="term" href="glossary.html#t-monopoly" data-t="monopoly">垄断</a>加价</strong>。</p>
+<p>后果是三方受损：</p>
+<ul><li>总销量更低；</li><li><strong>行业总利润更低</strong>（两家加起来还不如合并）；</li><li>消费者更糟（价格更高）。</li></ul>
+<p>这个结论可以背成一句：<strong>互补品的独立定价 = 互相收对方的税</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Problem of Complements</pre></details>
+</section><section class="slide" id="s13" data-n="13">
+  <div class="slide-head"><span class="pno">P13</span><span class="ptitle">The Problem of Complements</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-013.webp" alt="第13页"><figcaption>课件第 13 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>课件把结论说得非常直白：</p>
+<blockquote>独立定价会导致<strong>从共同利润的角度看「太高」的价格</strong>。</blockquote>
+<p>但现实不是二选一（完全独立 vs 完全一体化），中间有大量形态：</p>
+<ul><li>一家厂商<strong>替双方谈价</strong>，然后卖<strong>整合后的捆绑包</strong>（integrated bundle）；</li><li><strong><a class="term" href="glossary.html#t-revenue-sharing" data-t="revenue-sharing">收益分成</a></strong>（revenue sharing）。</li></ul>
+<p>下一页开始就是这两条的实例。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Problem of Complements
+---
+What the result says is that independent price setting will lead to prices that are too high from the viewpoint of joint profitability
+But there are lots of intermediate cases between totally independent and fully integrated.
+For example, one of the firms can negotiate prices for components and then sell an integrated bundle.
+Another model for dealing with the systems pricing problem is to use revenue sharing.</pre></details>
+</section><section class="slide" id="s14" data-n="14">
+  <div class="slide-head"><span class="pno">P14</span><span class="ptitle">Examples</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-014.webp" alt="第14页"><figcaption>课件第 14 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>例子一：Apple 的老做法——谈一笔交易</strong>。</p>
+<p>Apple 当年：向 <strong>Intel 买 CPU</strong>，装进自己的电脑，再把<strong>操作系统与电脑打包</strong>卖给终端消费者。</p>
+<p>这在模型里就是「<strong>一家替双方谈价 + 捆绑</strong>」：Apple 同时决定了系统两半的价格，于是消除了双重边际化——因为它<strong><a class="term" href="glossary.html#t-internalization" data-t="internalization">内部化</a></strong>了互补品之间的外部性。</p>
+<p>课件追问一句：<strong>Apple 现在在做什么？</strong>（自研芯片 → 把 SOC 也纳入体内，把「互补者」变成「自己」）</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Examples
+---
+Example: What Apple used to do: negotiate a deal
+Buy CPUs from Intel, build them into computers, and then bundle the operating system and computers together for sale to the end customers.
+What does Apple do now?</pre></details>
+</section><section class="slide" id="s15" data-n="15">
+  <div class="slide-head"><span class="pno">P15</span><span class="ptitle">Examples</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-015.webp" alt="第15页"><figcaption>课件第 15 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>例子二：收益分成（revenue sharing）——波音与 GE</strong>。</p>
+<ul><li><strong>Boeing</strong> 造机身，<strong>GE</strong> 造发动机。</li><li>如果两家<strong>各自独立定价</strong>，按上一节的逻辑，价格会定得<strong>太高</strong>。</li><li>他们的做法：谈判约定，GE 从<strong>整机销售额</strong>中分得一个<strong>固定比例</strong>。</li></ul>
+<p>为什么这解决了问题？因为 GE 现在<strong>只关心整机能卖多贵</strong>——它与 Boeing 的目标一致了，<strong>乐意让 Boeing 去谈尽可能高的整机价</strong>，因为它的份额随之提高。</p>
+<p>一句话：<strong>收益分成 = 把「两个价格决策」变成「一个价格决策 + 一个分成比例」</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Examples
+---
+Example: revenue sharing. 
+Boeing builds airplane bodies and GE builds airplane engines. 
+If GE and Boeing each set their prices independently, they could decide to set their prices too high. 
+What they do instead is to negotiate a deal in which GE will receive a fraction of the revenue from the sale of the assembled aircraft. 
+Then GE is happy to have Boeing negotiate to get as high a price as possible for the package, confident that it will receive its specified share.</pre></details>
+</section><section class="slide" id="s16" data-n="16">
+  <div class="slide-head"><span class="pno">P16</span><span class="ptitle">The Problem of Complements</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-016.webp" alt="第16页"><figcaption>课件第 16 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>例子三：DVD 行业的两难</strong>。</p>
+<ul><li>消费电子厂商<strong>不愿生产播放机</strong>，除非确定「有大量内容可看」；</li><li>内容供应商<strong>不愿生产内容</strong>，除非确定「市面上有大量播放机」。</li></ul>
+<p>这是互补品的<strong>鸡生蛋</strong>问题：任何一方单独行动都没有价值。</p>
+<p>注意这里的结构：它不只是「定价太高」，而是<strong>根本没人愿意先投资</strong>——互补品的<a class="term" href="glossary.html#t-coordination-problem" data-t="coordination-problem">协调问题</a>比定价问题更严重。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Problem of Complements
+---
+There are other mechanisms that work in different industries.
+E.g. DVD industry
+Consumer electronics firms didn’t want to produce players unless they were assured that there would be plenty of content available
+And content providers didn’t want to produce content unless they were sure that would be lots of DVD players out there.</pre></details>
+</section><section class="slide" id="s17" data-n="17">
+  <div class="slide-head"><span class="pno">P17</span><span class="ptitle">The Problem of Complements</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-017.webp" alt="第17页"><figcaption>课件第 17 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>如果只有<strong>少数几家</strong>播放机厂商、少数几家内容商，那么按第 8–12 页的推导：</p>
+<blockquote>每一方都会把价格定得「太高」，<strong>压低整个行业的总利润，并让消费者更糟</strong>。</blockquote>
+<p>原因还是双重边际化：播放机和碟片是<strong>同一笔消费的两个部分</strong>，但被两次加价。</p>
+<p>这也解释了为什么这类行业特别需要<strong>协调机制</strong>——下一个例子就是。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Problem of Complements
+---
+Both the consumer electronics firms and the content producers would have to worry about the pricing of complements problem. 
+If there were only a few providers of players and only a few providers of content, then they would each want to price their products “too high
+This will reduce the total profit available in the industry and making consumers worse off.</pre></details>
+</section><section class="slide" id="s18" data-n="18">
+  <div class="slide-head"><span class="pno">P18</span><span class="ptitle">The Problem of Complements</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-018.webp" alt="第18页"><figcaption>课件第 18 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>Sony 与 Philips 的解法</strong>：他们持有 DVD 技术的基础专利，于是<strong>以有吸引力的价格广泛授权</strong>这项技术。</p>
+<p>他们的判断很清醒：</p>
+<ul><li>必须让<strong>大量厂商进入</strong>、彼此竞争，才能把<strong>播放机价格压下来</strong>；</li><li>播放机便宜了，碟片需求才起得来，整个行业才能被「<strong>点燃</strong>」（kick start）。</li></ul>
+<p>这是第 7 页模型的直接应用：<strong>降低互补品的价格，等于提高自己产品的需求</strong>。有时候，主动让互补品市场变得竞争激烈，是对自己最有利的策略。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Problem of Complements
+---
+Example:
+Sony and Philips, who held the basic patents on the DVD technology, helped solve this problem by licensing the technology widely at attractive prices.
+They also realized that there had to be a lot of competition to keep the prices down and kick start the industry.</pre></details>
+</section><section class="slide" id="s19" data-n="19">
+  <div class="slide-head"><span class="pno">P19</span><span class="ptitle">The Problem of Complements</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-019.webp" alt="第19页"><figcaption>课件第 19 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（图形页：互补品定价与授权策略的效果。）</p>
+<p>这一页用图形把前面的推理画出来：横轴是系统总产量，纵轴是价格/成本，对比「独立定价的总价」与「一体化（或授权后竞争）的总价」，并标出两者之间的<strong>双重边际化缺口</strong>。</p>
+<p>读图只需记住一件事：<strong>两个价格叠加的位置，永远在「一个价格」的右边（更高处）</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Problem of Complements</pre></details>
+</section><section class="slide" id="s20" data-n="20">
+  <div class="slide-head"><span class="pno">P20</span><span class="ptitle">The Problem of Complements</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-020.webp" alt="第20页"><figcaption>课件第 20 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>于是产生一个策略问题（这页是全讲最「商人」的一页）：</p>
+<blockquote>厂商 1 的挑战是：<strong>我怎么让厂商 2 降价？</strong></blockquote>
+<p>课件给的答案：<strong>想办法让厂商 2 面对更激烈的竞争</strong>。</p>
+<p>手段因行业而异；在技术密集型行业，<strong><a class="term" href="glossary.html#t-standardization" data-t="standardization">标准化</a></strong>是关键工具——例如操作系统厂商会希望<strong>硬件标准化</strong>（多家硬件厂商用同一标准互相杀价，OS 就能卖得更多）。</p>
+<p>一句话：<strong>让你的互补者变成红海，你的需求就变大了</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Problem of Complements
+---
+The challenge facing firm 1 is then: how can I get firm 2 to cut its price?
+One way is to try to make competition for firm 2 more intense. 
+Various strategies are possible here, depending on the nature of the industry. 
+In technology-intensive industries, standardization becomes an important tool. 
+An OS producer, for example, would want to encourage standardized hardware.</pre></details>
+</section><section class="slide" id="s21" data-n="21">
+  <div class="slide-head"><span class="pno">P21</span><span class="ptitle">Lock-In</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-021.webp" alt="第21页"><figcaption>课件第 21 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>转向第二个主题：<strong>锁定</strong>（Lock-In）。</p>
+<p>起点是一个系统性的观察：IT 组件<strong>成套工作</strong>，所以换掉任何一个组件，往往要<strong>连带换掉其他组件</strong>。</p>
+<p>于是「一个组件的转换成本」在 IT 行业可能<strong>非常高</strong>。</p>
+<p>定义：</p>
+<blockquote><strong>锁定</strong>（lock-in）是指——换到另一个系统的成本<strong>高到几乎无法转换</strong>的情形。</blockquote>
+<p>注意锁定不是「不想换」，而是「<strong>换不起</strong>」。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Lock-In
+---
+Since IT components often work together as systems, switching any one component often involves switching others as well. 
+This means that the switching costs associated with one component in IT industries may be quite substantial.
+When switching costs are very high, users may find themselves experiencing lock-in, a situation where the cost of changing to a different system is so high that switching is virtually not possible</pre></details>
+</section><section class="slide" id="s22" data-n="22">
+  <div class="slide-head"><span class="pno">P22</span><span class="ptitle">Lock-In</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-022.webp" alt="第22页"><figcaption>课件第 22 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>建立一个 ISP（互联网服务商）模型来算清楚这件事。</p>
+<p>假设：</p>
+<ul><li>为一位客户提供上网服务的成本是<strong>每月 c</strong>；</li><li>市场是<strong>完全竞争</strong>的，有许多相同的厂商；</li><li>没有转换成本时，价格就是 <strong>p = c</strong>（第 5 讲的结论：完全竞争下价格 = 边际成本）。</li></ul>
+<p>现在引入两个新参数：</p>
+<ul><li><strong>s</strong>：换 ISP 的转换成本（重新配置、改邮箱、学习成本……）；</li><li><strong>d</strong>：ISP 为吸引新客户提供的<strong>首月折扣</strong>。</li></ul></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Lock-In
+---
+Assume that the cost of providing a customer with Internet access is c per month.
+Also assume a perfectly competitive market with many identical firms.
+In the absence of any switching costs, the price of Internet service would simply be p = c.
+Suppose that there is a cost s of switching Internet service provider (ISP) and that ISPs can offer a discount of size d for the first month to attract new customers.</pre></details>
+</section><section class="slide" id="s23" data-n="23">
+  <div class="slide-head"><span class="pno">P23</span><span class="ptitle">Lock-In</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-023.webp" alt="第23页"><figcaption>课件第 23 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>某个月初，消费者考虑要不要换 ISP：</p>
+<ul><li>换：只需付<strong>折扣价 p − d</strong>，但要承受转换成本 <strong>s</strong>；</li><li>不换：继续付 <strong>p</strong>。</li><li>假设从第二个月起，两家都<strong>永远收同样的价格 p</strong>。</li></ul>
+<p>决策规则（现值比较）：</p>
+<blockquote>只有当「付给新厂商的支付现值 <strong>加上</strong> 转换成本」<strong>小于</strong>「付给原厂商的支付现值」时，消费者才会换。</blockquote>
+<p>下一页开始把这个不等式算开。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Lock-In
+---
+At the start of a given month, a consumer contemplates switching to a new ISP. 
+If he does so, he only has to pay the discounted price, p − d, but he also has to endure the switching costs s. 
+After the first month, we assume that both providers continue to charge the same price p forever.
+The consumer will switch if the present value of the payments to the new provider plus the switching cost is less than the present value of the payments to the original ISP.</pre></details>
+</section><section class="slide" id="s24" data-n="24">
+  <div class="slide-head"><span class="pno">P24</span><span class="ptitle">Lock-In</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-024.webp" alt="第24页"><figcaption>课件第 24 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>推导第一步：写出两边的现值。</strong></p>
+<ul><li>留在原厂商：每月付 p，永续 → 现值 = <code>p/(1 − 1/(1+i))</code>，其中 i 是月利率（也可写成 p + p/i）。</li><li>换到新厂商：首月付 <code>p − d</code>，之后每月付 p → 现值 = <code>(p − d) + s + p/i</code>。</li></ul>
+<p>注意 <code>s</code> 是一次性的，只出现在切换那一边。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Lock-In</pre></details>
+</section><section class="slide" id="s25" data-n="25">
+  <div class="slide-head"><span class="pno">P25</span><span class="ptitle">Lock-In</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-025.webp" alt="第25页"><figcaption>课件第 25 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>推导第二步：比较两个现值。</strong></p>
+<p>留在原处：<code>p + p/i</code> 切换：<code>(p − d) + s + p/i</code></p>
+<p>两边都有 <code>p/i</code>，<strong>相消</strong>。于是切换的条件简化为：</p>
+<blockquote><code>p − d + s &lt; p</code> ⟺ <strong><code>d &gt; s</code></strong></blockquote>
+<p>结论非常干净：<strong>只有当首月折扣大于转换成本时，消费者才会换</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Lock-In</pre></details>
+</section><section class="slide" id="s26" data-n="26">
+  <div class="slide-head"><span class="pno">P26</span><span class="ptitle">Lock-In</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-026.webp" alt="第26页"><figcaption>课件第 26 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>推导第三步：在位者的反击。</strong></p>
+<p>如果新进入者用 d 来挖客户，原厂商完全可以对<strong>自己的新客户</strong>（也就是从别人那里挖来的人）也给折扣。</p>
+<p>于是出现<strong>折扣竞赛</strong>：双方都必须给到 <code>d = s</code> 左右，才守得住/挖得动客户。</p>
+<p>关键洞察：<strong>转换成本 s 变成了「获客成本」的下限</strong>——它没有消失，只是从消费者身上转移成了厂商的补贴支出。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Lock-In</pre></details>
+</section><section class="slide" id="s27" data-n="27">
+  <div class="slide-head"><span class="pno">P27</span><span class="ptitle">Lock-In</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-027.webp" alt="第27页"><figcaption>课件第 27 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>推导第四步：谁是赢家？</strong></p>
+<ul><li>对<strong>在位者</strong>：s 是一道护城河，只要 d 不够大，客户就挖不走；它的存量客户是<strong>租金来源</strong>。</li><li>对<strong>新进入者</strong>：它必须<strong>一次性支付 s</strong> 才能获得一个客户，所以它只有在「未来能从该客户身上赚回 s」时才愿意进入。</li><li>对<strong>消费者</strong>：<a class="term" href="glossary.html#t-short-run" data-t="short-run">短期</a>拿到折扣，长期被锁定；<strong><a class="term" href="glossary.html#t-social-surplus" data-t="social-surplus">总剩余</a>未必提高</strong>。</li></ul>
+<p>这就是为什么现实中「首月 1 元」「免费换号」这类促销，本质是在<strong>买客户</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Lock-In</pre></details>
+</section><section class="slide" id="s28" data-n="28">
+  <div class="slide-head"><span class="pno">P28</span><span class="ptitle">Lock-In</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-028.webp" alt="第28页"><figcaption>课件第 28 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页把锁定模型收口：</p>
+<blockquote><strong>锁定 = 转换成本 &gt; 可获得的折扣</strong>。</blockquote>
+<p>政策含义也很清楚：</p>
+<ul><li><strong>降低转换成本</strong>（号码可携带、数据可导出、标准接口）会<strong>直接削弱在位者的市场势力</strong>；</li><li>反过来，厂商有强烈动机<strong>人为提高转换成本</strong>（专有格式、绑定账号、迁移收费）。</li></ul>
+<p>记住这条判据：<strong>看一个行业的竞争程度，先看用户换供应商要付多少代价</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Lock-In</pre></details>
+</section><section class="slide" id="s29" data-n="29">
+  <div class="slide-head"><span class="pno">P29</span><span class="ptitle">Network Externalities</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-029.webp" alt="第29页"><figcaption>课件第 29 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>第三个主题：<strong>网络外部性</strong>（Network Externalities）。</p>
+<p>定义：</p>
+<blockquote>网络外部性是外部性的一种特殊形式——<strong>一个人对某商品的效用，取决于有多少其他人也在消费这件商品</strong>。</blockquote>
+<p>课件的例子：<strong>传真机</strong>。如果别人都没有传真机，你买一台毫无意义。</p>
+<p>还有一类<strong>间接</strong>的网络外部性：通过<strong>互补品</strong>起作用——用的人多 → 互补品供给多 → 产品更有价值（这正是后面「双边市场」的伏笔）。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Network Externalities
+---
+Network externalities are a special kind of externalities in which one person’s utility for a good depends on the number of other people who consume this good.
+Eg: People want fax machines so they can communicate with each other. If no one else has a fax machine, it certainly isn’t worthwhile for you to buy one.
+Another more indirect effect for network externalities arises with complementary goods.</pre></details>
+</section><section class="slide" id="s30" data-n="30">
+  <div class="slide-head"><span class="pno">P30</span><span class="ptitle">Markets with Network Externalities</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-030.webp" alt="第30页"><figcaption>课件第 30 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>先建一个<strong>没有</strong>网络外部性的基准模型。</p>
+<ul><li>市场上有 <strong>1000</strong> 人，用 <strong>v = 1, …, 1000</strong> 编号；</li><li>把 <strong>v 解释为第 v 个人对这件商品的<a class="term" href="glossary.html#t-willingness-to-accept" data-t="willingness-to-accept">保留价格</a></strong>（<a class="term" href="glossary.html#t-marginal-value" data-t="marginal-value">reservation price</a>）；</li><li>价格为 <strong>p</strong> 时，认为「这东西至少值 p」的人数是 <strong>1000 − p</strong>。</li></ul>
+<p>于是得到一条标准的、向下倾斜的<a class="term" href="glossary.html#t-demand-curve" data-t="demand-curve">需求曲线</a>。</p>
+<p>课件用一张表把「人编号」与「保留价格」一一对应：1→1，2→2，3→3，……，1000→1000。这是<strong>均匀分布</strong>的离散版本。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Markets with Network Externalities
+---
+Suppose that there are 1000 people in a market for some good and we index the people by v = 1,..., 1000. 
+Think of v as measuring the reservation price for the good by person v.
+The price of the good is p; 
+the number of people who think that the good is worth at least p is 1000 − p.
+This structure generates a standard, downward-sloping demand curve.
+---
+[TABLE]
+Person index (v) | 1 | 2 | 3 | … … | 999 | 1000
+Reservation price(=v) | 1 | 2 | 3 | … … | 999 | 1000</pre></details>
+</section><section class="slide" id="s31" data-n="31">
+  <div class="slide-head"><span class="pno">P31</span><span class="ptitle">Markets with Network Externalities</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-031.webp" alt="第31页"><figcaption>课件第 31 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>现在让商品具有<strong>网络外部性</strong>（传真机、电话）。</p>
+<p>关键改动：第 v 个人的价值不再是 v，而是</p>
+<blockquote><strong>v·n</strong></blockquote>
+<p>其中 <strong>n 是消费这件商品的人数</strong>——也就是<strong>接入网络的人数</strong>。</p>
+<p>问题：这样一改，需求函数长什么样？</p>
+<p>答案会让你意外——它<strong>不再是向下倾斜的一条线</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Markets with Network Externalities
+---
+Suppose that the good we are examining exhibits network externalities, like a fax machine or a telephone. 
+The value of the good to person v is vn 
+n is the number of people who consume the good—the number of people who are connected to the network.
+What does the demand function look like for this model?</pre></details>
+</section><section class="slide" id="s32" data-n="32">
+  <div class="slide-head"><span class="pno">P32</span><span class="ptitle">Markets with Network Externalities</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-032.webp" alt="第32页"><figcaption>课件第 32 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>推导第一步：写下两个方程。</strong></p>
+<ol><li><strong><a class="term" href="glossary.html#t-willingness-to-pay" data-t="willingness-to-pay">支付意愿</a>方程</strong>：边际消费者的价值等于价格 → <code>p = v̂·n</code>，其中 v̂ 是「刚好愿意买」的那个人的编号。</li><li><strong>人数方程</strong>：编号高于 v̂ 的人都会买 → <code>n = 1000 − v̂</code>。</li></ol>
+<p>两个方程、两个未知数（v̂ 与 n），消掉 v̂ 就得到均衡关系。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Markets with Network Externalities</pre></details>
+</section><section class="slide" id="s33" data-n="33">
+  <div class="slide-head"><span class="pno">P33</span><span class="ptitle">Markets with Network Externalities</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-033.webp" alt="第33页"><figcaption>课件第 33 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>推导第二步：消去 v̂。</strong></p>
+<p>由 (2) 得 <code>v̂ = 1000 − n</code>，代入 (1)：</p>
+<blockquote><strong>p = n(1000 − n)</strong></blockquote>
+<p>课件对这一页的定位很精妙：这不是普通的供给或需求，而是「<strong>价格与用户数量之间的关系</strong>」——它<strong>像</strong>一条需求曲线。</p>
+<p>读法：如果有 n 个人购买，那么<strong>边际个人的支付意愿</strong>就是这条曲线的<strong>高度</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Markets with Network Externalities</pre></details>
+</section><section class="slide" id="s34" data-n="34">
+  <div class="slide-head"><span class="pno">P34</span><span class="ptitle">Markets with Network Externalities</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-034.webp" alt="第34页"><figcaption>课件第 34 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>为什么这条曲线是<strong>倒 U 形</strong>（先升后降）？课件给了两句话，必须理解：</p>
+<ul><li><strong>n 很小时</strong>：网络很小，边际个人<strong>能和谁通信的人太少</strong>，所以支付意愿<strong>很低</strong>。</li><li><strong>n 很大时</strong>：支付意愿也<strong>很低</strong>——因为<strong>价值最高的人早就已经接入了</strong>，剩下的是价值较低的人。</li></ul>
+<p>中间那段才是支付意愿最高的区域：网络已经够大，而边际上还有高价值用户在。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Markets with Network Externalities
+---
+If the number of people who connect is low, then the willingness to pay of the marginal individual is low, because there aren’t many other people out there that he can communicate with.
+---
+If there are a large number of people connected, then the willingness to pay of the marginal individual is low, because everyone else who valued it more highly has already connected.</pre></details>
+</section><section class="slide" id="s35" data-n="35">
+  <div class="slide-head"><span class="pno">P35</span><span class="ptitle">Markets with Network Externalities</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-035.webp" alt="第35页"><figcaption>课件第 35 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（图形页：把 <code>p = n(1000 − n)</code> 画出来。）</p>
+<p>图的形状：一条<strong>开口向下的抛物线</strong>，从原点 (0,0) 出发上升，在 n = 500 处达到最高点 p = 250000，再下降，回到 (0, 1000)。</p>
+<p>再叠加一条<strong>水平的成本线 p = c</strong>（供给）。抛物线与水平线<strong>交于三点</strong>——这就是<strong>三个均衡</strong>。这是本讲最重要的图。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Markets with Network Externalities</pre></details>
+</section><section class="slide" id="s36" data-n="36">
+  <div class="slide-head"><span class="pno">P36</span><span class="ptitle">Markets with Network Externalities</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-036.webp" alt="第36页"><figcaption>课件第 36 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>三个均衡各自的含义：</p>
+<ul><li><strong><a class="term" href="glossary.html#t-low-level-equilibrium" data-t="low-level-equilibrium">低均衡</a>（n = 0）</strong>：没人接入。理由自洽——因为预期没人用，所以没人愿意付钱。</li><li><strong>中间均衡（n 为正但很小）</strong>：人们<strong>不认为网络会大</strong>，所以不愿多付，于是网络真的不大。</li><li><strong>高均衡（n 很大）</strong>：价格很低，因为<strong>边际购买者价值不高</strong>，尽管市场规模很大。</li></ul>
+<p>注意这三个均衡<strong>都能自我实现</strong>——预期决定现实。这是与前面所有市场最不一样的地方。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Markets with Network Externalities
+---
+The middle equilibrium with a positive but small number of consumers is one where people don’t think the network will be very big, so they aren’t willing to pay that much to connect to it—and therefore the network isn’t very big.
+---
+Finally, the last equilibrium has a large number of people. Here the price is small because the marginal person who purchases the good doesn’t value it very highly, even though the market is very large.</pre></details>
+</section><section class="slide" id="s37" data-n="37">
+  <div class="slide-head"><span class="pno">P37</span><span class="ptitle">Which of the three equilibria will we see occur?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-037.webp" alt="第37页"><figcaption>课件第 37 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>问题：<strong>实际会出现哪一个？</strong></p>
+<p>课件的办法：加入<strong>动态调整过程</strong>。</p>
+<p>规则：当人们<strong>愿意支付的钱高于商品成本</strong>时，市场规模<strong>扩张</strong>；当愿意支付的钱<strong>低于</strong>成本时，市场<strong>收缩</strong>。</p>
+<p>几何上：<strong>需求曲线在<a class="term" href="glossary.html#t-supply-curve" data-t="supply-curve">供给曲线</a>上方 → 数量上升；在下方 → 数量下降</strong>。</p>
+<p>这是标准的「价格信号引导数量调整」逻辑，只是这次画在 (n, p) 平面上。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Which of the three equilibria will we see occur?
+---
+We can add a dynamic adjustment process to help us decide which equilibrium is more likely to occur.
+Assume that when people are willing to pay more than the cost of the good, the size of the market expands and, when they are willing to pay less, the market contracts.
+Geometrically this is saying that when the demand curve is above the supply curve, the quantity goes up and, when it is beneath the supply curve, the quantity goes down.
+---
+Market Dynamics</pre></details>
+</section><section class="slide" id="s38" data-n="38">
+  <div class="slide-head"><span class="pno">P38</span><span class="ptitle">Market Dynamics</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-038.webp" alt="第38页"><figcaption>课件第 38 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（图形页：动态调整的方向箭头。）</p>
+<p>图上在三个交点附近标出箭头：</p>
+<ul><li>n = 0 处：需求曲线在成本线<strong>下方</strong>，任何正的 n 都会<strong>缩回 0</strong>——箭头指向左边。</li><li>中间交点：左侧向下、右侧向上——箭头<strong>背离</strong>该点。</li><li>高交点：左侧向上、右侧向下——箭头<strong>指向</strong>该点。</li></ul>
+<p>一句话：<strong>看箭头指向谁，谁就是稳定的</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Market Dynamics</pre></details>
+</section><section class="slide" id="s39" data-n="39">
+  <div class="slide-head"><span class="pno">P39</span><span class="ptitle">Market Dynamics</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-039.webp" alt="第39页"><figcaption>课件第 39 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>结论（本讲的核心结论之一）：</p>
+<blockquote><strong>低水平均衡（没人接入）与高水平均衡（很多人接入）是稳定的；中间那个均衡是不稳定的。</strong></blockquote>
+<p>为什么中间不稳定？因为它是「预期」与「现实」的<strong><a class="term" href="glossary.html#t-critical-mass" data-t="critical-mass">临界点</a></strong>：稍微多一点人接入，预期就会自我强化，系统冲向高均衡；稍微少一点，就退回零。</p>
+<p>所以它更像一道<strong>门槛</strong>，而不是一个可以停留的地方。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Market Dynamics
+---
+It is now evident that the low-level equilibrium, where no one connects, and the high-level equilibrium, where many people connect, are stable
+The middle equilibrium is unstable.</pre></details>
+</section><section class="slide" id="s40" data-n="40">
+  <div class="slide-head"><span class="pno">P40</span><span class="ptitle">Market Dynamics</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-040.webp" alt="第40页"><figcaption>课件第 40 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>于是只剩两个稳定均衡，怎么判断现实会落在哪个？</p>
+<p>课件的第一个思路：<strong>看成本如何随时间变化</strong>。</p>
+<ul><li>商品成本一开始<strong>很高</strong>，随技术进步逐渐<strong>下降</strong>。</li><li><strong>成本很高时</strong>：水平成本线在抛物线最高点之上 → 只有<strong>一个</strong>稳定均衡，即 <strong>n = 0</strong>（没人用得起）。</li><li><strong>成本降到足够低时</strong>：水平线与抛物线交于三点 → <strong>两个</strong>稳定均衡出现了。</li></ul>
+<p>这解释了很多新技术的命运：<strong>不是没人要，是等成本降下来</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Market Dynamics
+---
+We are now left with two possible stable equilibria; how can we tell which is likely to occur? 
+One idea is to think about how costs might change over time: cost of the good starts out high and then decreases over time due to technological progress.
+At a high unit cost there is only one stable equilibrium—where demand equals zero. When the cost decreases sufficiently, there are two stable equilibria.</pre></details>
+</section><section class="slide" id="s41" data-n="41">
+  <div class="slide-head"><span class="pno">P41</span><span class="ptitle">Market Dynamics</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-041.webp" alt="第41页"><figcaption>课件第 41 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>第二个思路：<strong>加噪声</strong>（noise）。</p>
+<p>想象在 n* = 0 附近对「接入人数」做微小扰动：</p>
+<ul><li>扰动可以是<strong>随机的</strong>（偶然有人试用了）；</li><li>也可以是<strong>厂商策略</strong>的一部分（<strong>初始折扣、促销、免费试用</strong>）。</li></ul>
+<p>随着成本越来越低，<strong>一次扰动把系统推过不稳定均衡的概率越来越大</strong>——因为门槛（中间交点）越来越低。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Market Dynamics
+---
+Now add some noise to the system. 
+Think of perturbing the number of people connected to the network around the equilibrium point of n∗ = 0. 
+These perturbations could be random, or they could be part of business strategies such as initial discounts or other promotions.
+As the cost gets smaller and smaller, it becomes increasingly likely that one of these perturbations will kick the system up past the unstable equilibrium.</pre></details>
+</section><section class="slide" id="s42" data-n="42">
+  <div class="slide-head"><span class="pno">P42</span><span class="ptitle">Market Dynamics</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-042.webp" alt="第42页"><figcaption>课件第 42 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>第三个概念：<strong>临界规模</strong>（critical mass）。</p>
+<blockquote>成本不断下降，到某个点，一次扰动就能把系统<strong>推过低水平均衡</strong>；此后系统会<strong>自己冲到高水平均衡</strong>。</blockquote>
+<p>这个「刚好能推过去」的规模就是<strong>临界规模</strong>。</p>
+<p>它的政策与商业含义极强：<strong>临界规模之前的一切投入，都是为了让系统跨过那道门槛</strong>；跨过之后，增长是自发的。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Market Dynamics
+---
+The cost decreases, and at some point we reach a critical mass that kicks us up past the low-level equilibrium and the system then zooms up to the high-level equilibrium.</pre></details>
+</section><section class="slide" id="s43" data-n="43">
+  <div class="slide-head"><span class="pno">P43</span><span class="ptitle">Market Dynamics</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-043.webp" alt="第43页"><figcaption>课件第 43 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>课件的现实例子：<strong>传真机市场</strong>。</p>
+<p>早期的传真机极贵、极少数人用，买它几乎没有意义（n 太小）；随着价格下降、企业与机构先行采用，接入人数跨过临界规模，传真机迅速普及，最后成为办公标配。</p>
+<p>这个例子把 40–42 页的三步（成本下降 → 扰动 → 临界规模 → 自我强化）完整走了一遍。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Market Dynamics
+---
+A real-life example of this kind of adjustment is the market for fax machines.</pre></details>
+</section><section class="slide" id="s44" data-n="44">
+  <div class="slide-head"><span class="pno">P44</span><span class="ptitle">Implications of Network Externalities</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-044.webp" alt="第44页"><figcaption>课件第 44 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>网络外部性的含义之一：早期增长极其重要。</strong></p>
+<p>课件的话：如果一个用户的需求取决于<strong>有多少其他用户</strong>，那么在产品的<strong>生命周期早期</strong>刺激增长就<strong>非常关键</strong>。</p>
+<p>现实中的对应做法（课件点名）：<strong>以极低的价格提供软件或通信服务，去「创造」一个原本不存在的市场</strong>。</p>
+<p>用第 42 页的语言说：<strong>低价不是在让利，是在买临界规模</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Implications of Network Externalities
+---
+The model described above, simple though it is, still yields a number of insights. 
+For example, the critical mass issue is very important: if one user’s demand depends on how many other users there are, it is very important to try to stimulate growth early in the life cycle of a product.
+Nowadays it is quite common to see producers offering very cheap access to a piece of software or a communications service in order to “create a market” where none existed before.</pre></details>
+</section><section class="slide" id="s45" data-n="45">
+  <div class="slide-head"><span class="pno">P45</span><span class="ptitle">Implications of Network Externalities</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-045.webp" alt="第45页"><figcaption>课件第 45 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>含义之二：政府政策的作用。</strong></p>
+<p>课件举的例子：</p>
+<ul><li><strong>互联网</strong>本身——最初由政府和大学网络发展而来，是典型的「公共投资点火、私人部门接手」。</li><li>更老的例子：<strong>黄页</strong>（Yellow Pages）、<strong>电台广告</strong>——它们都是「把两边连起来」的中介。</li></ul>
+<p>这一页的深意：网络外部性意味着<strong>市场可能卡在低均衡</strong>，而跳出低均衡可能需要<strong>集体行动</strong>（标准、基础设施、公共采购）。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Implications of Network Externalities
+---
+Another important implication of network externalities is the role played by governmental policy.
+The Internet is a prime example. 
+Some old examples: The Yellow Pages, Radio Ads</pre></details>
+</section><section class="slide" id="s46" data-n="46">
+  <div class="slide-head"><span class="pno">P46</span><span class="ptitle">Two-sided Markets</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-046.webp" alt="第46页"><figcaption>课件第 46 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>双边市场</strong>（Two-sided Markets）。</p>
+<p>定义：双边市场是网络效应的<strong>一种特殊形式</strong>——<strong>间接</strong>网络效应。</p>
+<p>课件的例子：<strong>蓝光 DVD</strong>。</p>
+<ul><li>我并不在乎别人用哪种播放机 → <strong>没有直接</strong>网络效应。</li><li>但存在<strong>间接</strong>效应：播放机卖得越多 → 碟片越多 → 买播放机越有吸引力。</li></ul>
+<p>其他例子：<strong>新的信用卡</strong>（持卡人 ↔ 商户）、<strong>Adobe 的 <a class="term" href="glossary.html#t-prisoners-dilemma" data-t="prisoners-dilemma">PD</a>F 平台</strong>（读者 ↔ 作者）。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Two-sided Markets
+---
+A two-sided market is a special kind of network effect. 
+Think about the case of a new technology, like Blu-ray DVDs. I don’t really care what sort of DVD player other people have, so there is no direct network effect. 
+But there is a kind of indirect network effect: the more Blu-ray players that are sold, the more disks that will become available, and the more disks there are available, the more attractive it will be to buy a Blu-ray player.
+Examples: A new credit card; 
+   Adobe’s PDF platform</pre></details>
+</section><section class="slide" id="s47" data-n="47">
+  <div class="slide-head"><span class="pno">P47</span><span class="ptitle">Two-sided Markets</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-047.webp" alt="第47页"><figcaption>课件第 47 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（图形页：双边市场的两侧需求。）</p>
+<p>这一页把两边画成两条相互依赖的曲线：<strong>A 侧的用户量</strong>决定 <strong>B 侧的支付意愿</strong>，反之亦然。</p>
+<p>读图要点：两条曲线不是「同一条需求曲线的两段」，而是<strong>两个市场的需求，通过对方的存在互相抬升</strong>。这就是「间接」二字的几何含义。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Two-sided Markets</pre></details>
+</section><section class="slide" id="s48" data-n="48">
+  <div class="slide-head"><span class="pno">P48</span><span class="ptitle">Two-sided Markets</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-048.webp" alt="第48页"><figcaption>课件第 48 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（图形页：双边市场的均衡。）</p>
+<p>在 (数量, 价格) 平面上，两边的需求曲线与各自的成本线相交，得到的均衡<strong>互相以对方的数量为参数</strong>。</p>
+<p>因此这类市场往往也有<strong>两个均衡</strong>：一边人少 → 另一边也人少；一边人多 → 另一边也多。下一页会明确说出这一点。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Two-sided Markets</pre></details>
+</section><section class="slide" id="s49" data-n="49">
+  <div class="slide-head"><span class="pno">P49</span><span class="ptitle">Two-sided Markets</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-049.webp" alt="第49页"><figcaption>课件第 49 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（图形页：双边市场的低均衡与高均衡。）</p>
+<p>延续上一页：图上标出<strong>低水平</strong>与<strong>高水平</strong>两个交点，中间隔着一段不稳定的区域。</p>
+<p>这正是第 35 页「三个均衡」结构在双边市场的重演——只是这次的自我强化来自<strong>另一侧</strong>，而不是同一侧的用户数。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Two-sided Markets</pre></details>
+</section><section class="slide" id="s50" data-n="50">
+  <div class="slide-head"><span class="pno">P50</span><span class="ptitle">Two-sided Markets</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-050.webp" alt="第50页"><figcaption>课件第 50 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把两页的话说全：</p>
+<blockquote>存在<strong>低水平均衡</strong>（两种商品都卖得很少）与<strong>高水平均衡</strong>（两种商品都卖得很多）。</blockquote>
+<p>供应商的挑战是：<strong>怎么走到高均衡去？</strong></p>
+<p>课件给的策略：<strong>补贴其中一侧的生产</strong>。以低于成本的价格卖一种商品，只要能带来<strong>更大的市场</strong>和<strong>另一种商品更多的利润</strong>，就是理性的。</p>
+<p>这就是为什么：游戏机靠主机亏钱卖、靠软件赚钱；信用卡对持卡人免年费、向商户收费。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Two-sided Markets
+---
+There is a low-level equilibrium where little is sold of either good and a high-level equilibrium where there are substantial sales of both goods.
+The challenge facing a supplier is how to get to the high-level equilibrium. 
+One strategy, mentioned above, is to subsidize the production of one of the goods. Selling one good below cost can make sense if it leads to a larger market and more profits for other goods you sell.</pre></details>
+</section><section class="slide" id="s51" data-n="51">
+  <div class="slide-head"><span class="pno">P51</span><span class="ptitle">Rights Management</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-051.webp" alt="第51页"><figcaption>课件第 51 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>最后一块：<strong><a class="term" href="glossary.html#t-rights-management" data-t="rights-management">权利管理</a></strong>（Rights Management）。</p>
+<p>对知识<a class="term" href="glossary.html#t-property-rights" data-t="property-rights">产权</a>的<strong>新商业模式</strong>兴趣很大，因为 IP 的交易形式<strong>极其多样</strong>：</p>
+<ul><li>书：<strong>卖断</strong>，也可以从<strong>图书馆借</strong>；</li><li>视频：<strong>买</strong>（买断碟片）或<strong>租</strong>；</li><li>软件：有的按<strong>特定用途授权</strong>，有的<strong>卖断</strong>；</li><li><strong><a class="term" href="glossary.html#t-shareware" data-t="shareware">共享软件</a></strong>（shareware）：付款是<strong>自愿</strong>的。</li></ul>
+<p>结论：<strong>选择「以什么条款和条件提供 IP」，本身就是一个关键商业决策</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Rights Management
+---
+There is much interest these days in new business models for intellectual property (IP).
+IP transactions take a variety of forms: 
+books are sold outright and also borrowed from libraries. 
+Videos can either be sold or rented. 
+Some software is licensed for particular uses; other software is sold outright. Shareware is a form of software in which payment is voluntary.
+Choosing the terms and conditions under which a piece of intellectual property is offered is a critical business decision.</pre></details>
+</section><section class="slide" id="s52" data-n="52">
+  <div class="slide-head"><span class="pno">P52</span><span class="ptitle">Rights Management</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-052.webp" alt="第52页"><figcaption>课件第 52 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（图形页：权利管理的模型设定。）</p>
+<p>这一页搭起模型的框架：横轴是「被消费的数量 y」，纵轴是价格/支付意愿；消费者的<strong>支付意愿</strong>取决于<strong>条款允许他用多少</strong>。</p>
+<p>说白了，<strong>你不是在卖「一份拷贝」，你是在卖「一段使用权限」</strong>——权限越宽，同一份拷贝对消费者越值钱。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Rights Management</pre></details>
+</section><section class="slide" id="s53" data-n="53">
+  <div class="slide-head"><span class="pno">P53</span><span class="ptitle">Rights Management</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-053.webp" alt="第53页"><figcaption>课件第 53 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>现在考虑卖方<strong>放宽条款</strong>（例如把免费试用期从 1 周延长到 1 个月）。</p>
+<p>课件说这会有<strong>两个效应</strong>，且方向相反：</p>
+<ol><li><strong>需求曲线上移</strong>：产品对<strong>每一位</strong>潜在用户的价值提高了。</li><li><strong>销量可能下降</strong>：有些用户发现<strong>更长的试用期就够用了</strong>，于是<strong>不再购买</strong>。</li></ol>
+<p>这就是 IP 定价的核心张力：<strong>让产品更有用</strong>与<strong>让人更愿意付钱</strong>，可能互相矛盾。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Rights Management
+---
+Now the seller of the good contemplates liberalizing terms and conditions:  (e.g. extending a trial period of free use from 1 week to 1 month)
+Two effects on the demand curve.
+First, it increases the value of the product to each of the potential users, shifting the demand curve up.
+But it also may easily result in less of the item being sold, since some users will find the longer trial period enough to meet their needs.</pre></details>
+</section><section class="slide" id="s54" data-n="54">
+  <div class="slide-head"><span class="pno">P54</span><span class="ptitle">Rights Management</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-054.webp" alt="第54页"><figcaption>课件第 54 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>推导第一步：需求上移。</strong></p>
+<p>把「放宽条款」记为价值提高 <strong>a 倍</strong>（a &gt; 1）：每位消费者的支付意愿变成原来的 a 倍。</p>
+<p>几何上：整条需求曲线<strong>向上平移/外扩</strong>。</p>
+<p>注意：这一步<strong>只考虑「更好用」的好处</strong>，还没算「更少人买」的坏处。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Rights Management</pre></details>
+</section><section class="slide" id="s55" data-n="55">
+  <div class="slide-head"><span class="pno">P55</span><span class="ptitle">Rights Management</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-055.webp" alt="第55页"><figcaption>课件第 55 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>推导第二步：购买人数下降。</strong></p>
+<p>把「少买的人」记为购买量变成原来的 <strong>1/b</strong>（b &gt; 1）：因为一部分需求被「宽松的条款」本身满足了。</p>
+<p>几何上：实际<strong>卖出的份数</strong>减少。</p>
+<p>到这一步，两个效应同时出现：<strong>每份卖得更贵</strong>（a），但<strong>卖得更少</strong>（b）。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Rights Management</pre></details>
+</section><section class="slide" id="s56" data-n="56">
+  <div class="slide-head"><span class="pno">P56</span><span class="ptitle">Rights Management</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-056.webp" alt="第56页"><figcaption>课件第 56 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>推导第三步：合成结论。</strong></p>
+<p>课件给的结果是：</p>
+<blockquote><strong>Y\<em> = y\</strong></em>（被消费的总量不变），但<strong>生产的数量是 y\<em>/b &lt; y\</strong></em>。</blockquote>
+<p>推论三条：</p>
+<ol><li><strong>消费量 Y\* 与条款无关</strong>——用户总要用那么多，条款只改变「谁付钱」。</li><li><strong>产量下降</strong>：一份拷贝服务更多人（b 个人共享），所以厂商要印/发的更少。</li><li><strong>利润可能升也可能降</strong>：取决于 <strong>a/b 是否大于 1</strong>。只有当「价值提升」足以补偿「买家减少」时，利润才上升。</li></ol>
+<p>一句话：<strong>放宽条款的收益是 a，代价是 b，看比值</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Rights Management
+---
+We can conclude that Y∗ = y∗.
+This simple analysis allows us to make several conclusions:
+The amount of the good consumed, Y∗, is independent of the terms and conditions. 
+The amount of the good produced is y∗/b, which is less than y∗.
+The profits could go up or down depending on whether a/b is greater or less than 1. Profits go up if the increase in value to the consumers who buy the product compensates for the reduced number of buyers.</pre></details>
+</section><section class="slide" id="s57" data-n="57">
+  <div class="slide-head"><span class="pno">P57</span><span class="ptitle">Sharing Intellectual Property</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-057.webp" alt="第57页"><figcaption>课件第 57 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>知识产权的共享</strong>（Sharing Intellectual Property）。</p>
+<p>观察：IP 经常被<strong>共享</strong>。</p>
+<p>课件的例子：<strong>录像店</strong>（video stores）帮人们「共享」录像带——并对这个服务<strong>收费</strong>。</p>
+<p>所以「共享」不一定是盗版，它可以是一门生意：<strong>把「一份拷贝多人使用」这件事组织起来并收费</strong>。下面几页就是这个生意的模型。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Sharing Intellectual Property
+---
+Intellectual property is often shared. 
+e.g. Video stores help people to “share” videos—and charge a price for doing so.
+Let us try to construct a model of this sort of sharing phenomenon.</pre></details>
+</section><section class="slide" id="s58" data-n="58">
+  <div class="slide-head"><span class="pno">P58</span><span class="ptitle">Sharing Intellectual Property</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-058.webp" alt="第58页"><figcaption>课件第 58 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（图形页：共享模型的需求设定。）</p>
+<p>把消费者按支付意愿 <strong>v</strong> 从高到低排列，横轴是人数，纵轴是 v。</p>
+<p>没有共享时：每个消费者要买一份。有共享时：<strong>k 个人可以合用一份</strong>。这一页先把「按价值排序」的需求阶梯画出来。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Sharing Intellectual Property</pre></details>
+</section><section class="slide" id="s59" data-n="59">
+  <div class="slide-head"><span class="pno">P59</span><span class="ptitle">Sharing Intellectual Property</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-059.webp" alt="第59页"><figcaption>课件第 59 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（图形页：共享下的分组。）</p>
+<p>同一批消费者被切成若干<strong>俱乐部</strong>（clubs），每个俱乐部 k 人共用一份拷贝。</p>
+<p>关键变化：需求不再是「每人一份」，而是「<strong>每 k 人一份</strong>」——厂商面对的有效需求<strong>被压缩</strong>了，但每个俱乐部的<strong>支付意愿</strong>是 k 个人的合计。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Sharing Intellectual Property</pre></details>
+</section><section class="slide" id="s60" data-n="60">
+  <div class="slide-head"><span class="pno">P60</span><span class="ptitle">Sharing Intellectual Property</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-060.webp" alt="第60页"><figcaption>课件第 60 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>课件明确给出<strong>消费者如何分组</strong>的假设（最简单的一种）：</p>
+<blockquote><strong>高价值的消费者彼此结伴，低价值的消费者彼此结伴。</strong></blockquote>
+<p>即：第一个俱乐部由<strong>价值最高的 k 人</strong>组成，第二个由<strong>次高的 k 人</strong>组成，依此类推。</p>
+<p>这个假设的好处：俱乐部内部的人价值相近，<strong>合买的谈判成本低</strong>，也便于计算。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Sharing Intellectual Property
+---
+We need to specify how the consumers sort themselves into the “clubs” that share the videos.
+The simplest assumption is that the consumers with high values associate with each other, and the consumers with low-values associate with each other.
+That is, one club consists of consumers with the k highest values, another club consists of the consumers with the next k highest values, and so on.</pre></details>
+</section><section class="slide" id="s61" data-n="61">
+  <div class="slide-head"><span class="pno">P61</span><span class="ptitle">Sharing Intellectual Property</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-061.webp" alt="第61页"><figcaption>课件第 61 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（推导页：俱乐部需求。）</p>
+<p>给定分组，第 j 个俱乐部愿意支付的价格，等于<strong>其成员支付意愿之和</strong>——因为一份拷贝要满足 k 个人的需求。</p>
+<p>于是厂商面对的需求曲线，从「个体需求」变成了「<strong>俱乐部需求</strong>」：数量轴被压缩 k 倍，价格轴被放大（至多 k 倍）。</p>
+<p>这一步是理解共享经济学的关键：<strong>共享改变了「谁在为哪一单位付钱」</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Sharing Intellectual Property</pre></details>
+</section><section class="slide" id="s62" data-n="62">
+  <div class="slide-head"><span class="pno">P62</span><span class="ptitle">Sharing Intellectual Property</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-062.webp" alt="第62页"><figcaption>课件第 62 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（推导页：厂商的定价与产量。）</p>
+<p>厂商选择「卖给多少个俱乐部」以及「每个俱乐部收多少钱」，使 <strong>MR = MC</strong>。</p>
+<p>因为一份拷贝的成本是<strong>一次性</strong>的（边际成本近零），而收入来自<strong>每个俱乐部</strong>，所以：<strong>共享让厂商用更少的产量服务同样多的消费者</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Sharing Intellectual Property</pre></details>
+</section><section class="slide" id="s63" data-n="63">
+  <div class="slide-head"><span class="pno">P63</span><span class="ptitle">Sharing Intellectual Property</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-063.webp" alt="第63页"><figcaption>课件第 63 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（推导页：与不共享的情形比较。）</p>
+<p>把 k = 1（不共享）与 k &gt; 1（共享）两种情形并列：</p>
+<ul><li>共享时，<strong>产量下降</strong>（更少的拷贝）；</li><li>每份拷贝的<strong>价格上升</strong>（因为要覆盖 k 个人的价值）；</li><li>总消费量<strong>未必下降</strong>——消费者还是能看到内容。</li></ul>
+<p>这正是第 56 页那条结论的另一种表述：<strong>共享改变的是「生产多少」，不一定改变「消费多少」</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Sharing Intellectual Property</pre></details>
+</section><section class="slide" id="s64" data-n="64">
+  <div class="slide-head"><span class="pno">P64</span><span class="ptitle">Sharing Intellectual Property</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-064.webp" alt="第64页"><figcaption>课件第 64 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>（推导页：结论。）</p>
+<p>由此得到共享对厂商的影响是<strong>双向</strong>的：</p>
+<ul><li>若需求对价格<strong>不敏感</strong>（高价值俱乐部愿意高价），共享<strong>提高</strong>利润；</li><li>若共享让大量中低价值用户「搭车」，共享<strong>降低</strong>利润。</li></ul>
+<p>所以现实中的对策不是「一律禁止共享」，而是<strong>设计条款</strong>（第 51–56 页）：租、授权、限时、限设备——本质都是在<strong>选择 b 的大小</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Sharing Intellectual Property</pre></details>
+</section><section class="slide" id="s65" data-n="65">
+  <div class="slide-head"><span class="pno">P65</span><span class="ptitle">Sharing Intellectual Property</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec12/slide-065.webp" alt="第65页"><figcaption>课件第 65 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>本讲的最后一页，把四个模型串成一条线：</p>
+<ol><li><strong>系统竞争</strong>：互补品独立定价 → <strong>双重边际化</strong>；解法是捆绑、分成、标准化、让互补者竞争。</li><li><strong>锁定</strong>：转换成本 s &gt; 折扣 d → 用户被锁；政策含义是降低 s。</li><li><strong>网络外部性</strong>：需求变成 <code>p = n(1000 − n)</code> → <strong>三个均衡</strong>，两个稳定；胜负取决于<strong>临界规模</strong>。</li><li><strong>权利管理</strong>：条款是变量，<strong>a/b</strong> 决定放宽条款是否赚钱；共享改变的是产量而非消费量。</li></ol>
+<p>一句话收束全讲：<strong>信息产品的<a class="term" href="glossary.html#t-market-failure" data-t="market-failure">市场失灵</a>，不来自「东西太少」，而来自「协调太难」</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Sharing Intellectual Property</pre></details>
+</section>
+    <footer class="end">
+      <p>本讲结束。<a href="index.html">返回大纲</a></p>
+    </footer>
+  </main>
+</div>
+
+<aside id="ask-panel" class="ask-panel" aria-hidden="true">
+  <div class="ask-head">
+    <b>问老师</b>
+    <span class="ask-tag">DeepSeek</span>
+    <button id="ask-close" type="button" title="关闭">×</button>
+  </div>
+  <div class="ask-setup" id="ask-setup">
+    <p>第一次用要先填一个 DeepSeek API Key，它只存在你本机的浏览器里，直接发往 <code>api.deepseek.com</code>，不经过任何中间服务器。</p>
+    <label>API Key<input id="ask-key" type="password" placeholder="sk-..." autocomplete="off"></label>
+    <label>模型<select id="ask-model">
+      <option value="deepseek-chat">deepseek-chat（快，够用）</option>
+      <option value="deepseek-reasoner">deepseek-reasoner（慢，会推理）</option>
+    </select></label>
+    <button id="ask-save" type="button">保存并开始</button>
+    <p class="ask-note">没有 Key？去 <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">platform.deepseek.com</a> 建一个。</p>
+  </div>
+  <div class="ask-log" id="ask-log"></div>
+  <div class="ask-foot">
+    <label class="ask-ctx"><input type="checkbox" id="ask-ctx" checked> 带上当前页内容</label>
+    <div class="ask-input">
+      <textarea id="ask-text" rows="2" placeholder="比如：为什么 MR 会比价格低？"></textarea>
+      <button id="ask-send" type="button">发</button>
+    </div>
+  </div>
+</aside>
+<div id="lightbox" class="lightbox"><img id="lbimg" alt=""></div>
+<script src="glossary-data.js"></script>
+<script src="app.js"></script>
+</body></html>

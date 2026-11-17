@@ -1,0 +1,442 @@
+[
+  {
+    "id": "economic-way-of-thinking",
+    "zh": "经济学的思维方式",
+    "en": "the economic way of thinking",
+    "short": "看任何事先问两件事：谁在选、他放弃了什么。不是看钱，是看成本与收益。",
+    "detail": "成本可以是时间、健康、心情，收益可以是分数、安心。只盯着钱，大部分取舍会被看漏。",
+    "example": "微信不收你一分钱，但你每天刷掉的两小时本来能去兼职——按 200 元时薪算，这笔账就出来了。",
+    "lec": ["lec01"],
+    "alias": []
+  },
+  {
+    "id": "economic-agents",
+    "zh": "经济主体",
+    "en": "economic agents",
+    "short": "做出选择的个人或群体。一个人、一家公司、一个政府，只要在约束下挑选项，都算。",
+    "detail": "定义里没写「人」。把一群人当成一个主体是简化，代价是群体内部的冲突被抹掉了。",
+    "example": "苹果给 iPhone 定价，追的是公司利润而不是库克个人偏好；中国政府决定怎么反制贸易战，也是一个主体的选择。",
+    "lec": ["lec01"],
+    "alias": ["agent", "经济行为主体"]
+  },
+  {
+    "id": "resource-allocation",
+    "zh": "资源配置",
+    "en": "resource allocation",
+    "short": "一个社会决定「谁得到什么」的方式。价格只是其中一种，排队、抽签、配给、按关系分也算。",
+    "detail": "要紧的不是有没有分配，而是用哪种机制分——不同机制的效率差得很远，第 5 讲专门比。",
+    "example": "北京的蓝天要靠关停河北、山东的工厂来换，这就是在「工厂开工」和「空气」之间配置资源。",
+    "lec": ["lec01"],
+    "alias": ["allocation"]
+  },
+  {
+    "id": "scarce-resources",
+    "zh": "稀缺资源",
+    "en": "scarce resources",
+    "short": "价格为零时，想要的人比能拿到的人多，这样东西就稀缺。跟它贵不贵没关系。",
+    "detail": "稀缺取决于你把商品定义得多细：空气不稀缺，干净的空气在雾霾天就是稀缺资源。",
+    "example": "平时没人说空气稀缺；可雾霾天想免费吸到干净空气的人远多于供给，它立刻变成稀缺资源。",
+    "lec": ["lec01"],
+    "alias": ["scarcity", "稀缺"]
+  },
+  {
+    "id": "opportunity-cost",
+    "zh": "机会成本",
+    "en": "opportunity cost",
+    "short": "为了做这件事而放弃的、最有价值的那个替代方案。不是把所有放弃的东西加起来。",
+    "detail": "只算「次优」那一个，而且只算一次。睡觉、打游戏、轻松课全加起来，就是重复计算。",
+    "example": "抽中抱一下 TF Boys，你最想要易烊千玺、第二想要王俊凯，那抱易烊千玺的机会成本就是王俊凯。",
+    "lec": ["lec01", "lec01s"],
+    "alias": ["OC", "次优选择", "next best alternative"]
+  },
+  {
+    "id": "trade-offs",
+    "zh": "权衡取舍",
+    "en": "trade-offs",
+    "short": "想要多一点 A，就必然要少一点 B。它不是「选择困难」，是客观上不可能全要。",
+    "detail": "权衡取舍就是约束的另一种说法。整门微观经济学，都在研究人怎么在它里面挑。",
+    "example": "浙大给你 24 小时，今晚多刷两小时题就少睡两小时，没有第三种可能。",
+    "lec": ["lec01"],
+    "alias": ["tradeoff", "trade-off", "取舍"]
+  },
+  {
+    "id": "budget-constraint",
+    "zh": "预算约束",
+    "en": "budget constraint",
+    "short": "你负担得起的所有选项凑成的那个集合。预算不一定是钱，也可以是时间、精力、注意力。",
+    "detail": "Exhibit 1.2 把 5 小时拆成上网和兼职两列，多一小时上网就必然少一小时兼职。",
+    "example": "5 小时空闲：上网 2 小时加兼职 3 小时可行，上网 4 小时加兼职 3 小时就不可行。",
+    "lec": ["lec01"],
+    "alias": ["budget constraint", "预算线"]
+  },
+  {
+    "id": "cost-benefit-analysis",
+    "zh": "成本—收益分析",
+    "en": "cost-benefit analysis",
+    "short": "把一件事的全部成本和全部收益摆到一起比大小。经济学家眼里，它就等于最优化。",
+    "detail": "判据是净收益最大，不是收益率最高，也不是成本最低——后两个指标都会骗人。",
+    "example": "Far 的房租 1,030 加通勤 150，总成本 1,180 最低，所以选它，不是房租最低的 Very Far。",
+    "lec": ["lec01"],
+    "alias": ["CBA", "成本收益分析"]
+  },
+  {
+    "id": "optimization",
+    "zh": "最优化",
+    "en": "optimization",
+    "short": "在你能做的选项里挑最好的那个。不要求你预见未来，只要求你用当时手上已有的信息。",
+    "detail": "事后发现选错，不等于当时没最优化。评价决策质量，只能拿决策当时的信息当尺子。",
+    "example": "蔡徐坤的粉丝脱粉：当初的信息支持喜欢，后来的信息支持离开，两次都是给定信息下的最优。",
+    "lec": ["lec01"],
+    "alias": ["optimize", "最优化选择"]
+  },
+  {
+    "id": "equilibrium",
+    "zh": "均衡",
+    "en": "equilibrium",
+    "short": "一种状态：给定别人不变，没有任何一方能靠单方面改自己的做法变得更好。",
+    "detail": "它基于信念，不基于事实。大家相信换队没用，哪怕真有更快的队，状态也不会动。",
+    "example": "超市几条队一样长时，你换到哪条都不会更快，于是没人再换。这叫均衡，不叫最短。",
+    "lec": ["lec01", "lec01s"],
+    "alias": ["equilibrium state"]
+  },
+  {
+    "id": "free-riding",
+    "zh": "搭便车",
+    "en": "free riding",
+    "short": "别人出力、你跟着享好处，于是每个人都等别人干，最后谁都不干。",
+    "detail": "根子不是懒，是收益和成本不匹配：你担 100% 的成本，只拿到 1/5 的好处。",
+    "example": "5 个室友的公共区域：你花 30 分钟打扫，干净归全宿舍，你只拿到五分之一，于是就等别人。",
+    "lec": ["lec01"],
+    "alias": ["free ride", "free-riding", "搭便车效应"]
+  },
+  {
+    "id": "positive-economics",
+    "zh": "实证经济学",
+    "en": "positive economics",
+    "short": "描述人们实际怎么做、政策实际会带来什么后果。它说的话可以被数据打脸。",
+    "detail": "能被数据检验是它的身份证。预测错了不改变它是实证命题，只说明理论该修了。",
+    "example": "浙大 2019 年录取 6300 名新生、男生占 60.1%，这是实证；「贸易战 6 月前结束」也是，后来错了。",
+    "lec": ["lec01"],
+    "alias": ["实证陈述", "positive statement"]
+  },
+  {
+    "id": "normative-economics",
+    "zh": "规范经济学",
+    "en": "normative economics",
+    "short": "建议应该做什么、什么才算「好」。它几乎总要靠主观判断，数据帮不上最后的忙。",
+    "detail": "经济学家在这里像工程师：你给目标，他找方案，而不是替你定目标。",
+    "example": "母亲说养老金投股市晚上睡不着，那对她正确的方案就是接近 B 的稳产品，哪怕 A 的期望收益更高。",
+    "lec": ["lec01"],
+    "alias": ["规范陈述", "normative statement"]
+  },
+  {
+    "id": "empiricism",
+    "zh": "实证主义",
+    "en": "empiricism",
+    "short": "用数据检验理论。理论先给出一个能被推翻的预测，再拿数据看它站不站得住。",
+    "detail": "预测不成立就改理论，不是改数据。这条纪律让经济学变成科学而不是文学。",
+    "example": "「人越多的宿舍越脏」可以被检验：去量各宿舍的卫生评分，看它随人数怎么变。",
+    "lec": ["lec01"],
+    "alias": ["经验主义", "evidence-based"]
+  },
+  {
+    "id": "causal-inference",
+    "zh": "因果推断",
+    "en": "causal inference",
+    "short": "把「两件事一起变」拆成「一件事导致另一件事」，中间要排掉同时推动两者的第三个因素。",
+    "detail": "人多的宿舍更脏，可能是因为大宿舍分给了低年级。人数和年级混在一起，就分不出因果。",
+    "example": "要证明「人数」真的让宿舍变脏，得控制住年级，或者找一个只改人数、不动别的的外生变化。",
+    "lec": ["lec01"],
+    "alias": ["correlation is not causation", "相关不等于因果"]
+  },
+  {
+    "id": "sunk-cost",
+    "zh": "沉没成本",
+    "en": "sunk cost",
+    "short": "已经花掉、怎么都拿不回来的钱或时间。它对「接下来怎么办」不该有任何影响。",
+    "detail": "票价 10 美元还是 100 美元，都已经付了。能变的只有去和不去各自带来的未来得失。",
+    "example": "音乐会的票不可退，你以为花了 100 美元、其实只花了 10 美元，这个更正值不值得改你的决定。",
+    "lec": ["lec01s"],
+    "alias": ["sunk cost is sunk", "沉没成本谬误"]
+  },
+  {
+    "id": "explicit-cost",
+    "zh": "显性成本",
+    "en": "explicit cost",
+    "short": "账面上真金白银付出去的那部分成本。它只是总成本的一半，另一半常被漏掉。",
+    "detail": "音乐会那张票是显性的，去音乐会放弃的免费侧腹牛排是机会成本。只算前者必然算错。",
+    "example": "租房例子里房租 1,180 是显性成本，通勤 5 小时折成的 50 美元是隐性的，漏了就会选错房。",
+    "lec": ["lec01s", "lec02"],
+    "alias": ["explicit costs", "直接成本", "会计成本"]
+  },
+  {
+    "id": "marginal-person",
+    "zh": "边际上的人",
+    "en": "the person at the margin",
+    "short": "站在「再做一点」和「不再做」之间那个人。他不动的选择，透露了别人看不见的信息。",
+    "detail": "他的行为卡在临界点上，所以你不用挨个问每个人怎么想，看他换不换就能反推。",
+    "example": "A 队 3 人、B 队 5 人，人人都能换却没人换，那 A 队一定走得更慢，两条队预期等待时间已相等。",
+    "lec": ["lec01s"],
+    "alias": ["marginal person", "边际决策者"]
+  },
+  {
+    "id": "ceteris-paribus",
+    "zh": "其他条件不变",
+    "en": "ceteris paribus",
+    "short": "讨论一条曲线时，先把价格以外的因素全按住不动。曲线是在这个前提下画出来的。",
+    "detail": "需求定律讲的是沿同一条曲线移动。其他条件一变，整条曲线搬家，那是另一回事。",
+    "example": "汽油 6 美元时买 50 加仑、1 美元时买 300 加仑，这条需求曲线的前提就是收入偏好都没变。",
+    "lec": ["lec02"],
+    "alias": ["holding all else equal", "all else equal", "其他条件相同"]
+  },
+  {
+    "id": "behavioral-assumption",
+    "zh": "行为假设",
+    "en": "behavioral assumption",
+    "short": "把「人会挑最好的」当成一个用来做预测的工作假设，而不是对人性的道德评价。",
+    "detail": "检验模型看预测力，不看它是否写实。不需要相信人每时每刻都在精算。",
+    "example": "通勤时间涨价到 15 美元/小时，最优住房就从 Far 挪到 Close，人确实朝预测的方向动了。",
+    "lec": ["lec02"],
+    "alias": ["behavioral assumptions"]
+  },
+  {
+    "id": "total-value",
+    "zh": "总量法",
+    "en": "optimization using total value",
+    "short": "把每个选项的收益和成本都折成同一个单位，算出总净收益，挑最大的那个。",
+    "detail": "最常见的失分不是算错，是漏项：忘了把通勤折成钱，或者单位没统一就相加。",
+    "example": "四个公寓逐个算：1,230、1,190、1,180、1,200，最低的 Far 就是答案。",
+    "lec": ["lec02"],
+    "alias": ["total value", "总量分析"]
+  },
+  {
+    "id": "marginal-analysis",
+    "zh": "边际分析",
+    "en": "marginal analysis",
+    "short": "不比绝对水平，只比「再走一步」的得失。这一步划算就继续走，不划算就停下。",
+    "detail": "边际量是总量曲线的斜率。斜率由负转正的那个点，就是最低点。",
+    "example": "往外搬三档，成本变化是 −40、−10、+20。前两步省钱，第三步开始亏，所以停在 Far。",
+    "lec": ["lec02"],
+    "alias": ["marginal analysis", "边际分析法"]
+  },
+  {
+    "id": "marginal-cost",
+    "zh": "边际成本",
+    "en": "marginal cost",
+    "short": "多做一个单位要多花的钱。它可以是负数，那时候多做一点反而更省钱。",
+    "detail": "租房例子里它是 −40、−10、+20 这样的差额，不是 1,180 那样的总量。",
+    "example": "Very Close 搬到 Close，房租省 90、通勤多花 50，边际成本 −40，所以该搬。",
+    "lec": ["lec02"],
+    "alias": ["MC", "边际成本曲线"]
+  },
+  {
+    "id": "marginal-benefit",
+    "zh": "边际收益",
+    "en": "marginal benefit",
+    "short": "多消费一个单位带来的好处，也就是你为那一单位最多愿意付的钱。",
+    "detail": "放到图上，它就是需求曲线的高度：数量 100 加仑处高 5 美元，说明第 100 加仑值 5 美元。",
+    "example": "第 50 加仑值 6 美元、第 150 加仑值 4 美元，一路往下，这条高度序列就是边际收益。",
+    "lec": ["lec02"],
+    "alias": ["MB", "marginal benefit curve"]
+  },
+  {
+    "id": "diminishing-marginal-benefit",
+    "zh": "边际收益递减",
+    "en": "diminishing marginal benefit",
+    "short": "东西越吃越多，每多一单位带来的好处越少，你愿意为它掏的钱也越低。",
+    "detail": "需求曲线向下倾斜的真正原因，不是「便宜就多买」这句同义反复。",
+    "example": "第一杯水解渴值 10 块，第二杯值 5 块，到第五杯已经喝不下，值 0。",
+    "lec": ["lec02"],
+    "alias": ["diminishing returns", "边际递减"]
+  },
+  {
+    "id": "principle-of-optimization-at-the-margin",
+    "zh": "边际最优化原理",
+    "en": "principle of optimization at the margin",
+    "short": "最优点有个特征：朝它挪你变好，离开它你变差。挪不动的地方就是最优。",
+    "detail": "它不依赖具体函数形式。连续情形下写成边际收益等于边际成本，再往下就是求导等于零。",
+    "example": "租房时从 Far 再往外挪一档成本涨 20，往回挪也涨，Far 就是那个挪不动的点。",
+    "lec": ["lec02"],
+    "alias": ["optimization at the margin", "边际最优化"]
+  },
+  {
+    "id": "market",
+    "zh": "市场",
+    "en": "market",
+    "short": "一群交易同一种东西的经济主体，加上他们交易的规则和安排。不一定有个地方。",
+    "detail": "规则那一半常被忽略：现金交易和期货合约是两个市场，定价、违约、披露都不同。",
+    "example": "义乌小商品市场有摊位，淘宝只有服务器，相亲 App 连货都没有，按这个标准都算市场。",
+    "lec": ["lec02"],
+    "alias": ["markets"]
+  },
+  {
+    "id": "perfect-competition",
+    "zh": "完全竞争市场",
+    "en": "perfectly competitive market",
+    "short": "两条同时成立：大家卖的东西一模一样，且任何单个买者卖者都影响不了价格。",
+    "detail": "商品一旦有差异（品牌、位置、服务），卖者就有定价权，模型得换成垄断竞争。",
+    "example": "开宝马的和开奇瑞的加一加仑汽油付同一个价；某家贵 1 美元，生意立刻跑光。",
+    "lec": ["lec02"],
+    "alias": ["perfectly competitive market", "竞争市场", "competitive market"]
+  },
+  {
+    "id": "price-taker",
+    "zh": "价格接受者",
+    "en": "price-taker",
+    "short": "把市场价当成「要买就买、不买就走」的报价，自己不讲价也不定价。",
+    "detail": "单个买者的量相对整个市场微不足道，别处又都是同样的价，你没有谈判筹码。",
+    "example": "加油站通常不讲价：你想每加仑少付 1 美元，没人卖给你；老板想多要 1 美元，生意就没了。",
+    "lec": ["lec02"],
+    "alias": ["price taker", "price-takers", "价格接受方"]
+  },
+  {
+    "id": "demand-curve",
+    "zh": "需求曲线",
+    "en": "demand curve",
+    "short": "其他条件不变时，价格和需求量之间的关系画出来的一条线，通常向下倾斜。",
+    "detail": "曲线的高度还有一层含义：它是边际一单位的支付意愿，不只是坐标点。",
+    "example": "汽油：6 美元买 50 加仑，1 美元买 300 加仑，六点连成直线，每降 1 美元多买 50 加仑。",
+    "lec": ["lec02"],
+    "alias": ["demand curves"]
+  },
+  {
+    "id": "quantity-demanded",
+    "zh": "需求量",
+    "en": "quantity demanded",
+    "short": "在某个给定价格下，买方愿意买的量。离开价格单独谈它，没有意义。",
+    "detail": "它是意愿，不是成交。买不到是另一回事，那种情况叫超额需求。",
+    "example": "Exhibit 4.2 里价格 5 美元时 Sue 要 100 加仑、Carlos 要 200 加仑，总需求量 300。",
+    "lec": ["lec02"],
+    "alias": ["quantity demand"]
+  },
+  {
+    "id": "law-of-demand",
+    "zh": "需求定律",
+    "en": "law of demand",
+    "short": "其他条件不变时，价格降下来，想买的人就多买。几乎所有商品都这样，很少见到反例。",
+    "detail": "它讲的是沿同一条曲线移动。理论上罕见的例外叫吉芬商品。",
+    "example": "油价从 6 美元降到 1 美元，这个人的年需求从 50 加仑涨到 300 加仑。",
+    "lec": ["lec02"],
+    "alias": ["需求规律"]
+  },
+  {
+    "id": "willingness-to-pay",
+    "zh": "支付意愿",
+    "en": "willingness to pay",
+    "short": "你为再多一单位最多愿意掏多少钱。放到图上，它就是需求曲线的高度。",
+    "detail": "第 100 加仑值 5 美元：价格正好 5 美元时不赚不亏，低于 5 美元你就赚到了。",
+    "example": "数量 100 加仑处曲线高 5 美元，这就是那个人给第 100 加仑标的价。",
+    "lec": ["lec02"],
+    "alias": ["WTP", "willingness-to-pay"]
+  },
+  {
+    "id": "demand-shift",
+    "zh": "需求曲线的移动",
+    "en": "shift of the demand curve",
+    "short": "价格没变，但给定价格下人们想买的量变了，于是整条曲线搬到左边或者右边。",
+    "detail": "自身价格变，沿曲线走；偏好、收入、相关品价格、人数、预期变，整条线搬家。",
+    "example": "油价上涨导致加油变少，是沿曲线往上走，不是需求左移。这是判卷最常见的错。",
+    "lec": ["lec02"],
+    "alias": ["shift in demand", "需求移动"]
+  },
+  {
+    "id": "aggregation",
+    "zh": "加总",
+    "en": "aggregation",
+    "short": "把所有人的曲线横向加起来：同一个价格上，把每个人的数量相加。",
+    "detail": "为什么横着加？因为价格是大家共同面对的，只有数量可以相加。",
+    "example": "Exhibit 4.2：5 美元时 Sue 的 100 加仑加 Carlos 的 200 加仑，总需求 300 加仑。",
+    "lec": ["lec02"],
+    "alias": ["aggregate", "横向相加"]
+  },
+  {
+    "id": "quantity-supplied",
+    "zh": "供给量",
+    "en": "quantity supplied",
+    "short": "在某个给定价格下，卖方愿意卖出的量。它是计划量，不是最后实际卖掉的量。",
+    "detail": "想卖 100 万桶、只卖掉 80 万桶，供给量仍是 100 万，多出的 20 万桶变成库存。",
+    "example": "70 美元时全世界愿意供 38 十亿桶，但只买得掉 29 十亿桶，差 9 十亿桶成了库存。",
+    "lec": ["lec02"],
+    "alias": ["quantity supply"]
+  },
+  {
+    "id": "supply-curve",
+    "zh": "供给曲线",
+    "en": "supply curve",
+    "short": "其他条件不变时，价格和供给量的关系画出来的一条线，通常向上倾斜。",
+    "detail": "上翘的原因：不同油田成本不同，价格得涨到够高，高成本那批产能才被叫醒。",
+    "example": "深海 2 英里、油层再往下 8 英里的井，油价不过 60 美元/桶就不开钻。",
+    "lec": ["lec02"],
+    "alias": ["supply curves"]
+  },
+  {
+    "id": "law-of-supply",
+    "zh": "供给定律",
+    "en": "law of supply",
+    "short": "其他条件不变时，价格升，供给量也升。它和需求定律正好朝相反方向走。",
+    "detail": "价格越高，被叫醒的高成本产能越多，所以曲线一路往上翘。",
+    "example": "10 美元时 Chevron、ExxonMobil 都不供，25 美元合计 1.0 十亿桶，75 美元 2.1。",
+    "lec": ["lec02"],
+    "alias": ["供给规律"]
+  },
+  {
+    "id": "willingness-to-accept",
+    "zh": "卖方保留价格",
+    "en": "willingness to accept",
+    "short": "卖方肯卖的最低价格，低于这个数他就不卖。它在图上就是供给曲线的高度。",
+    "detail": "它等于生产最后一单位的边际成本，所以供给曲线的高度就是成本线。",
+    "example": "油价到 60 美元/桶，深海那些高成本油田才肯开工，60 就是它们的保留价格。",
+    "lec": ["lec02"],
+    "alias": ["WTA", "willingness-to-accept", "保留价格"]
+  },
+  {
+    "id": "competitive-equilibrium",
+    "zh": "竞争均衡",
+    "en": "competitive equilibrium",
+    "short": "供给曲线和需求曲线的交点：价格和数量同时定下来，谁都没动力再动。",
+    "detail": "两条线一条向下一条向上，所以只有一个交点。这个状态没有内在的变动力量。",
+    "example": "石油市场交在 50 美元/桶、35 十亿桶/年，这个点同时落在两条曲线上。",
+    "lec": ["lec02"],
+    "alias": ["竞争性均衡", "market equilibrium"]
+  },
+  {
+    "id": "market-clearing-price",
+    "zh": "市场出清价格",
+    "en": "market clearing price",
+    "short": "均衡点上的那个价格。在这个价上，每个被供给出来的单位都能找到买者。",
+    "detail": "别和「市场价格」混：出清价格是让供需相等的价，市场价可能被政策钉在别处。",
+    "example": "模型里石油在 50 美元/桶出清；1973 年美国政府把汽油价按住，这个出清价就没能实现。",
+    "lec": ["lec02"],
+    "alias": ["均衡价格", "clearing price"]
+  },
+  {
+    "id": "excess-supply",
+    "zh": "超额供给",
+    "en": "excess supply",
+    "short": "价格高于均衡时，卖方想卖的量比买方想买的量多出来的那一截，全堆成了库存。",
+    "detail": "它不会自己消失：库存堆起来，卖家互相压价，价格一路跌回均衡。",
+    "example": "价格停在 70 美元时供给 38、需求 29，多出 9 十亿桶卖不掉，储油罐很快就满。",
+    "lec": ["lec02"],
+    "alias": ["供给过剩", "oversupply"]
+  },
+  {
+    "id": "excess-demand",
+    "zh": "超额需求",
+    "en": "excess demand",
+    "short": "价格低于均衡时，买方想买的量比卖方愿意卖的量多出来的那一截。",
+    "detail": "买家互相竞价把价格抬回去。价格不许动时，缺口只能靠排队、黑市、降质来分。",
+    "example": "价格压在 30 美元时需求 44、供给 30，14 十亿桶买不到，于是大家加价去抢。",
+    "lec": ["lec02"],
+    "alias": ["短缺", "shortage", "需求过剩"]
+  },
+  {
+    "id": "price-ceiling",
+    "zh": "价格上限",
+    "en": "price ceiling",
+    "short": "政府规定的最高价，不许卖得比它更贵。定在均衡价之下就会制造短缺。",
+    "detail": "价格被钉住，竞争没消失，只是从价格竞争变成排队、黑市、降低质量。",
+    "example": "1973 年美国政府压住汽油价，Hess 加油站外汽车排成长队，短缺换了个样子出现。",
+    "lec": ["lec02"],
+    "alias": ["price cap", "最高限价"]
+  }
+]

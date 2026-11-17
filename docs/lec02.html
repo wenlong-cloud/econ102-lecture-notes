@@ -1,0 +1,939 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>最优化方法，与需求、供给和竞争均衡 · 微观经济学讲义</title>
+<link rel="stylesheet" href="style.css"></head>
+<body class="lec">
+<header class="topbar">
+  <div class="brand"><a href="index.html">微观经济学 · 逐页精讲</a></div>
+  <nav class="nav"><a class="navbtn" href="index.html">大纲</a><a class="navbtn" href="glossary.html#lec02">术语表 · 27</a><a class="navbtn" href="lec01s.html">← L1 补充</a><a class="navbtn" href="lec03.html">L3 消费者 →</a><button class="ask-open navask" type="button" data-ask>问老师</button></nav>
+</header>
+
+<div class="layout">
+  <aside class="side">
+    <div class="side-inner">
+      <h2>L2 最优化与供求</h2>
+      <p class="side-sub">最优化方法，与需求、供给和竞争均衡</p>
+      <input id="filter" type="search" placeholder="筛选本讲页码 / 关键词">
+      <div class="ask">
+        <button class="ask-open" type="button" data-ask>问老师 · 这一页哪里不懂？</button>
+        <p class="ask-hint">用 DeepSeek 直接回答，会带上你正在看的这一讲和这一页。</p>
+      </div>
+      <div class="toc"><a href="#s1" data-n="1"><b>1</b>Microeconomics Lecture 2</a><a href="#s2" data-n="2"><b>2</b>Optimization techniques</a><a href="#s3" data-n="3"><b>3</b>Optimization techniques</a><a href="#s4" data-n="4"><b>4</b>例子登场</a><a href="#s5" data-n="5"><b>5</b>先把数据摆出来</a><a href="#s6" data-n="6"><b>6</b>Calculating opportunity cost</a><a href="#s7" data-n="7"><b>7</b>Calculating opportunity cost</a><a href="#s8" data-n="8"><b>8</b>按 10 美元/小时折算</a><a href="#s9" data-n="9"><b>9</b>We call the best feasible choice the o</a><a href="#s10" data-n="10"><b>10</b>Summary</a><a href="#s11" data-n="11"><b>11</b>Effect of a change in opportunity cost</a><a href="#s12" data-n="12"><b>12</b>按 15 美元/小时重算</a><a href="#s13" data-n="13"><b>13</b>两条总成本曲线画在同一张图上</a><a href="#s14" data-n="14"><b>14</b>Optimization using marginal analysis</a><a href="#s15" data-n="15"><b>15</b>Optimization using marginal analysis</a><a href="#s16" data-n="16"><b>16</b>Marginal analysis</a><a href="#s17" data-n="17"><b>17</b>图上把每一步的得失标了出来</a><a href="#s18" data-n="18"><b>18</b>Optimization at the Margin</a><a href="#s19" data-n="19"><b>19</b>An example with functional forms</a><a href="#s20" data-n="20"><b>20</b>Example</a><a href="#s21" data-n="21"><b>21</b>Demand, supply and competitive equilib</a><a href="#s22" data-n="22"><b>22</b>The market for gas</a><a href="#s23" data-n="23"><b>23</b>Nobody tells the companies that run th</a><a href="#s24" data-n="24"><b>24</b>The market</a><a href="#s25" data-n="25"><b>25</b>Some markets may have specific physica</a><a href="#s26" data-n="26"><b>26</b>Different forms of market</a><a href="#s27" data-n="27"><b>27</b>这一页是一张杭州地图</a><a href="#s28" data-n="28"><b>28</b>Different forms of market</a><a href="#s29" data-n="29"><b>29</b>We focus the discussion on markets in </a><a href="#s30" data-n="30"><b>30</b>Competitive Markets</a><a href="#s31" data-n="31"><b>31</b>Market price</a><a href="#s32" data-n="32"><b>32</b>Perfectly competitive market</a><a href="#s33" data-n="33"><b>33</b>Why study perfect competition?</a><a href="#s34" data-n="34"><b>34</b>Why study perfect competition?</a><a href="#s35" data-n="35"><b>35</b>How Do Buyers Behave?</a><a href="#s36" data-n="36"><b>36</b>Price-takers</a><a href="#s37" data-n="37"><b>37</b>Price and quantity</a><a href="#s38" data-n="38"><b>38</b>Demand curve</a><a href="#s39" data-n="39"><b>39</b>这一页把需求表</a><a href="#s40" data-n="40"><b>40</b>Demand curve</a><a href="#s41" data-n="41"><b>41</b>The Law of Demand</a><a href="#s42" data-n="42"><b>42</b>Willingness to Pay (important)</a><a href="#s43" data-n="43"><b>43</b>再回到那条需求曲线</a><a href="#s44" data-n="44"><b>44</b>Diminishing marginal benefit</a><a href="#s45" data-n="45"><b>45</b>Aggregated Demand Curves</a><a href="#s46" data-n="46"><b>46</b>Exhibit 4.2 Aggregation of Demand Sche</a><a href="#s47" data-n="47"><b>47</b>Market demand curve</a><a href="#s48" data-n="48"><b>48</b>But economists rarely study the market</a><a href="#s49" data-n="49"><b>49</b>Market Demand Curve for Oil</a><a href="#s50" data-n="50"><b>50</b>The “all else”</a><a href="#s51" data-n="51"><b>51</b>Factors shifting the demand curve</a><a href="#s52" data-n="52"><b>52</b>An important distinction</a><a href="#s53" data-n="53"><b>53</b>Shifts of the Demand Curve vs. Movemen</a><a href="#s54" data-n="54"><b>54</b>Seller behavior and the supply curve</a><a href="#s55" data-n="55"><b>55</b>Quantity supplied</a><a href="#s56" data-n="56"><b>56</b>Example: ExxonMobil</a><a href="#s57" data-n="57"><b>57</b>Example: ExxonMobil</a><a href="#s58" data-n="58"><b>58</b>The supply curve and law of supply</a><a href="#s59" data-n="59"><b>59</b>Willingness to accept</a><a href="#s60" data-n="60"><b>60</b>Market supply curve</a><a href="#s61" data-n="61"><b>61</b>两个卖者的供给表相加</a><a href="#s62" data-n="62"><b>62</b>把加总推到整个市场</a><a href="#s63" data-n="63"><b>63</b>Factors shifting supply</a><a href="#s64" data-n="64"><b>64</b>Supply and Demand in Equilibrium</a><a href="#s65" data-n="65"><b>65</b>Putting it together</a><a href="#s66" data-n="66"><b>66</b>Putting it together</a><a href="#s67" data-n="67"><b>67</b>图上的结果</a><a href="#s68" data-n="68"><b>68</b>Equilibrium</a><a href="#s69" data-n="69"><b>69</b>现在检验均衡的稳定性</a><a href="#s70" data-n="70"><b>70</b>为什么价格一定会降？备注补充了机制</a><a href="#s71" data-n="71"><b>71</b>相反的情形</a><a href="#s72" data-n="72"><b>72</b>Curve Shifting in Competitive Equilibr</a><a href="#s73" data-n="73"><b>73</b>Putting it to work</a><a href="#s74" data-n="74"><b>74</b>Putting it to work</a><a href="#s75" data-n="75"><b>75</b>A Leftward Shift of the Supply Curve</a><a href="#s76" data-n="76"><b>76</b>Putting it to work</a><a href="#s77" data-n="77"><b>77</b>Technological Breakthroughs</a><a href="#s78" data-n="78"><b>78</b>Exhibit 4.14 A Rightward Shift of the </a><a href="#s79" data-n="79"><b>79</b>Shift in taste</a><a href="#s80" data-n="80"><b>80</b>A Leftward Shift of the Demand Curve</a><a href="#s81" data-n="81"><b>81</b>The Demand Curve Shifts Left and the S</a><a href="#s82" data-n="82"><b>82</b>Price control</a><a href="#s83" data-n="83"><b>83</b>Price control</a><a href="#s84" data-n="84"><b>84</b>Price control</a><a href="#s85" data-n="85"><b>85</b>Price control</a><a href="#s86" data-n="86"><b>86</b>最后一页是一张照片</a></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="lec-hero">
+      <div class="crumb">第 2 讲 · 方法与均衡</div>
+      <h1>最优化方法，与需求、供给和竞争均衡</h1>
+      <p class="lead">把“最优化”写成可计算的数学问题（目标函数、约束、一阶条件、边际分析），再用它推导需求曲线、供给曲线，最后合成竞争市场的均衡。</p>
+      <div class="meta">共 <b>86</b> 页课件 · 已精讲 <b>86</b> 页（100%）</div>
+      <div class="topics"><h3>本讲要点</h3><ul><li>目标函数与约束</li><li>边际分析</li><li>一阶条件</li><li>需求曲线</li><li>供给曲线</li><li>比较静态</li><li>竞争均衡</li></ul></div>
+      
+    </div>
+    <section class="slide" id="s1" data-n="1">
+  <div class="slide-head"><span class="pno">P1</span><span class="ptitle">Microeconomics Lecture 2</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-001.webp" alt="第1页"><figcaption>课件第 1 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>第二讲的开场页，标题只写了「微观经济学 第二讲」，署名 Mohan Zhou，浙江大学经济学院。</p>
+<p>上一讲我们确定了这门课的主题是<strong>选择</strong>；这一讲要干两件具体的事：</p>
+<ol><li>把「人们会做最优选择」这句口号，变成<strong>可以算的技术</strong>（<a class="term" href="glossary.html#t-total-value" data-t="total-value">总量法</a>与<a class="term" href="glossary.html#t-marginal-analysis" data-t="marginal-analysis">边际分析法</a>）。</li><li>把这套个人选择的逻辑搬到<a class="term" href="glossary.html#t-market" data-t="market">市场</a>上，推出<strong>需求曲线</strong>、<strong>供给曲线</strong>和<strong>竞争均衡</strong>。</li></ol>
+<p>这两件事看着不相关，其实是同一个假设用了两次：消费者在约束下最优化，得到需求曲线；厂商在成本约束下最优化，得到供给曲线；两条曲线一交，就是本讲后半段的全部内容。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>MicroeconomicsLecture 2
+---
+Mohan Zhou
+School of Economics 
+Zhejiang University</pre></details>
+</section><section class="slide" id="s2" data-n="2">
+  <div class="slide-head"><span class="pno">P2</span><span class="ptitle">Optimization techniques</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-002.webp" alt="第2页"><figcaption>课件第 2 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>先回顾上一讲的结论，作为本讲的起点。</p>
+<ul><li>经济学研究<strong>选择</strong>。</li><li>人们做选择时会<strong><a class="term" href="glossary.html#t-optimization" data-t="optimization">最优化</a></strong>（optimization）：在可行的选项里挑最好的那个。</li><li>我们把「人会最优化」当作一个<strong><a class="term" href="glossary.html#t-behavioral-assumption" data-t="behavioral-assumption">行为假设</a></strong>（behavioral assumption），用它来<strong>预测</strong>人的行为。</li></ul>
+<p>注意第三点的措辞：这是一个用来预测的假设，不是对人性的道德判断。我们不需要相信每个人每时每刻都在精算，只需要相信——当约束和收益变化时，人的行为会朝最优化所预测的方向变。检验模型的标准是预测力，不是心理真实性。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Optimization techniques
+---
+Last time, we described that economics is the study of choice.
+We also talked about an important principle: people do optimization when the make choices.  
+Whatever choices people face, economists believe that they will try to choose optimally.
+We use this behavioral assumption (people optimize) as a tool to predicting the behavior of people.</pre></details>
+</section><section class="slide" id="s3" data-n="3">
+  <div class="slide-head"><span class="pno">P3</span><span class="ptitle">Optimization techniques</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-003.webp" alt="第3页"><figcaption>课件第 3 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>最优化有两条技术路线，<strong>答案必然相同</strong>：</p>
+<ol><li><strong>总量法</strong>（total value）：把每个可行选项的总价值算出来，挑总价值最大的那个。</li><li><strong>边际分析法</strong>（marginal analysis）：不比较绝对水平，只比较选项之间的<strong>差异</strong>，通过分析差异找到最好的选项。</li></ol>
+<p>演讲者备注补了一句很实用的建议：既然两条路通向同一个答案，做题时就挑你觉得顺手的。总量法直观但计算量大（选项多时要一个个算），边际分析法快但需要理解「增量」这个概念。这一讲先用同一个租房例子把两条路都走一遍。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Optimization techniques
+---
+We can think optimization in two different ways:
+The two different techniques would, of course, yield identical answers.
+1. calculates the total value of each feasible option and then picks the option with the greatest total value. 
+2. marginal analysis, which we explain later in the chapter—focuses on differences among the feasible options and finds the best option by analyzing these differences.</pre></details>
+</section><section class="slide" id="s4" data-n="4">
+  <div class="slide-head"><span class="pno">P4</span><span class="ptitle">例子登场</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-004.webp" alt="第4页"><figcaption>课件第 4 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>例子登场：一个在市中心上班的人，要在四个公寓里选一个。</p>
+<p>地图上标出了位置：市中心（Your work: city center）是那个灰色大头针，四个候选公寓沿一条出城的路排开，由近到远分别叫 <strong>Very Close</strong>、<strong>Close</strong>、<strong>Far</strong>、<strong>Very Far</strong>。右下角比例尺 0–10 英里，最远那个离市中心在 10 英里量级。</p>
+<p>这个例子的设计意图很清楚：越远的房子越便宜，但通勤时间越长。两类成本朝相反方向变化，所以存在一个「不远不近」的最优点——这正是所有最优化问题的标准结构。</p></div>
+</section><section class="slide" id="s5" data-n="5">
+  <div class="slide-head"><span class="pno">P5</span><span class="ptitle">先把数据摆出来</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-005.webp" alt="第5页"><figcaption>课件第 5 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>先把数据摆出来。三列信息：公寓、每月通勤时间、每月房租。</p>
+<table class="tbl"><thead><tr><th>公寓</th><th>通勤时间（小时/月）</th><th>房租（美元/月）</th></tr></thead><tbody><tr><td>Very Close</td><td>5</td><td>1,180</td></tr><tr><td>Close</td><td>10</td><td>1,090</td></tr><tr><td>Far</td><td>15</td><td>1,030</td></tr><tr><td>Very Far</td><td>20</td><td>1,000</td></tr></tbody></table>
+<p>读表先看两个方向：往外搬一档，通勤时间<strong>每次加 5 小时</strong>，而房租<strong>分别只降 90、60、30 美元</strong>。</p>
+<p>这里有个关键假设（备注里明确交代了）：四个公寓的<strong>收益相同</strong>——面积、采光、景观都一样，所以我们只比成本。收益相同时，「净收益最大」等价于「成本最小」，问题就被简化成一个纯粹的成本比较。</p></div>
+</section><section class="slide" id="s6" data-n="6">
+  <div class="slide-head"><span class="pno">P6</span><span class="ptitle">Calculating opportunity cost</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-006.webp" alt="第6页"><figcaption>课件第 6 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>第一步不是<a class="term" href="glossary.html#t-aggregation" data-t="aggregation">加总</a>，而是<strong>统一单位</strong>。</p>
+<p>房租的单位是美元/月，通勤时间的单位是小时/月，两种东西不能直接相加。必须先把时间折算成钱，用的是<strong><a class="term" href="glossary.html#t-opportunity-cost" data-t="opportunity-cost">机会成本</a></strong>（opportunity cost）：这一小时如果不用于通勤，能拿去干什么、值多少钱。</p>
+<p>于是每个公寓的总成本 = <strong><a class="term" href="glossary.html#t-explicit-cost" data-t="explicit-cost">直接成本</a></strong>（rent，看得见的房租）+ <strong>间接成本</strong>（commute time 折算成的钱）。这一步是本讲最容易出错的地方：多数人只把房租当成本，把每天两小时通勤当成「免费」。经济学的第一个动作，就是给这部分定价。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Calculating opportunity cost
+---
+First step:  
+sum the cost of rent and the cost of commuting time to calculate the total cost of each apartment. 
+The total cost includes the direct cost of rent and the indirect cost of commute time. 
+But before doing that, we need to assign a common unit of measurement to both costs: dollar, for example
+Then we need to use the concept of opportunity cost</pre></details>
+</section><section class="slide" id="s7" data-n="7">
+  <div class="slide-head"><span class="pno">P7</span><span class="ptitle">Calculating opportunity cost</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-007.webp" alt="第7页"><figcaption>课件第 7 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>为了让时间能折成钱，需要一个假设：<strong>通勤时间的机会成本是 10 美元/小时</strong>。</p>
+<p>这个数字不是从天上掉下来的，它大致对应这个人的税后工资率——如果他一小时能挣 10 美元，那花一小时通勤就放弃了 10 美元。</p>
+<p>课件特意写了一句「我们稍后会回到这个假设」。这是提示：假设是可以变的，而变了之后结论会不会变，正是经济学要检验的东西。下一页先按 10 美元算完，后面再用 15 美元重算一遍做对比。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Calculating opportunity cost
+---
+Assumptions:
+The opportunity cost of commuting time is 10$/hour.
+We will revisit this assumption later</pre></details>
+</section><section class="slide" id="s8" data-n="8">
+  <div class="slide-head"><span class="pno">P8</span><span class="ptitle">按 10 美元/小时折算</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-008.webp" alt="第8页"><figcaption>课件第 8 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>按 10 美元/小时折算，表格从三列变成五列：</p>
+<table class="tbl"><thead><tr><th>公寓</th><th>通勤时间</th><th>通勤成本</th><th>房租</th><th>总成本</th></tr></thead><tbody><tr><td>Very Close</td><td>5 小时</td><td>50</td><td>1,180</td><td><strong>1,230</strong></td></tr><tr><td>Close</td><td>10 小时</td><td>100</td><td>1,090</td><td><strong>1,190</strong></td></tr><tr><td>Far</td><td>15 小时</td><td>150</td><td>1,030</td><td><strong>1,180</strong></td></tr><tr><td>Very Far</td><td>20 小时</td><td>200</td><td>1,000</td><td><strong>1,200</strong></td></tr></tbody></table>
+<p>读法：通勤成本这一列每次加 50（每小时 10 美元 × 5 小时），房租那一列每次减 90、60、30。两者相抵，总成本先降后升，最低点是 <strong>Far 的 1,180</strong>。</p>
+<p>注意比较边际：往外搬的前两档，省下的房租（90、60）大于多花的通勤成本（50），划算；第三档只省 30 却要多花 50，不划算。这个「边际上划不划算」的直觉，就是后面边际分析的全部内容。</p></div>
+</section><section class="slide" id="s9" data-n="9">
+  <div class="slide-head"><span class="pno">P9</span><span class="ptitle">We call the best feasible choice the optimum, which you can see labeled on the t</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-009.webp" alt="第9页"><figcaption>课件第 9 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把上表的最后一列画成图，就是<strong>总成本曲线</strong>。</p>
+<p>横轴是四个公寓（按离市中心的远近排序），纵轴是每月总成本（美元）。四个点连成一条<strong>先下降后上升的折线</strong>：1,230 → 1,190 → 1,180 → 1,200。</p>
+<p>最低点被标了出来，叫 <strong>optimum</strong>（最优）。定义是：在所有<strong>可行</strong>（feasible）的选择里最好的那一个。注意「可行」两个字——你当然想住免费的海景房，但它不在选项里，不在可行集里的东西不参与比较。</p>
+<p>这条 U 形曲线是最优化问题的标准图形语言：后面讲<a class="term" href="glossary.html#t-marginal-cost" data-t="marginal-cost">边际成本</a>、讲厂商产量决策，画的都是同一个形状。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>We call the best feasible choice the optimum, which you can see labeled on the total cost curve below.</pre></details>
+</section><section class="slide" id="s10" data-n="10">
+  <div class="slide-head"><span class="pno">P10</span><span class="ptitle">Summary</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-010.webp" alt="第10页"><figcaption>课件第 10 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把刚才做的事抽象成三步，这就是<strong>总量法</strong>（optimization using total value）的标准流程：</p>
+<ol><li>把所有成本和收益换算成<strong>共同的单位</strong>（美元、人民币都行，关键是统一）。</li><li>算出每个备选方案的<strong>总净收益</strong>（total net benefit）= 总收益 − 总成本。</li><li>选总净收益<strong>最高</strong>的那个方案。</li></ol>
+<p>第三步也可以说成「选总成本最低」，前提是各方案收益相同（本例正是如此）。</p>
+<p>考试里最常见的失分点不是算错，而是漏掉某一项成本（比如忘了把通勤时间折成钱），或者单位没统一就相加。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Summary
+---
+Optimization using total value has three steps:
+1. Translate all costs and benefits into common units, like dollars or RMB. 
+2. Calculate the total net benefit of each alternative.
+3. Pick the alternative with the highest net benefit.</pre></details>
+</section><section class="slide" id="s11" data-n="11">
+  <div class="slide-head"><span class="pno">P11</span><span class="ptitle">Effect of a change in opportunity cost</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-011.webp" alt="第11页"><figcaption>课件第 11 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>现在做一次<strong>敏感性检验</strong>：如果这个人的时间更值钱，一小时的机会成本是 <strong>15 美元</strong>而不是 10 美元，最优选择会变吗？</p>
+<p>直觉上应该会：时间变贵，就应该住得离公司近一点。但「应该」不算结论，得算出来看。下一页把整张表重算一遍。</p>
+<p>这也是经济学论文里常见的做法——不是给一个答案，而是问「答案对假设有多敏感」。一个结论如果在合理范围的假设变动下都成立，它才值得相信。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Effect of  a change in opportunity cost
+---
+Now, suppose the opportunity cost of one hour’s travel is instead 15 dollars</pre></details>
+</section><section class="slide" id="s12" data-n="12">
+  <div class="slide-head"><span class="pno">P12</span><span class="ptitle">按 15 美元/小时重算</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-012.webp" alt="第12页"><figcaption>课件第 12 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>按 15 美元/小时重算：</p>
+<table class="tbl"><thead><tr><th>公寓</th><th>通勤时间</th><th>通勤成本</th><th>房租</th><th>总成本</th></tr></thead><tbody><tr><td>Very Close</td><td>5 小时</td><td>75</td><td>1,180</td><td>1,255</td></tr><tr><td>Close</td><td>10 小时</td><td>150</td><td>1,090</td><td><strong>1,240</strong></td></tr><tr><td>Far</td><td>15 小时</td><td>225</td><td>1,030</td><td>1,255</td></tr><tr><td>Very Far</td><td>20 小时</td><td>300</td><td>1,000</td><td>1,300</td></tr></tbody></table>
+<p>通勤成本这一列每次加 75，而房租每次只省 90、60、30。</p>
+<p>结果：<strong>最优从 Far 变成了 Close</strong>（1,240）。比较边际就能看出为什么——从 Very Close 搬到 Close，省 90 美元房租、多花 75 美元通勤费，还划算；再往外搬一档省 60、多花 75，开始亏了。</p>
+<p>还有一个细节值得注意：Very Close 和 Far 的总成本都是 <strong>1,255</strong>，并列第二。这说明最优点两侧的两条路可以「一样好」，但 Close 仍然严格优于它们。做题时如果只看「谁更便宜」而不逐行算，很容易把并列误当成最优。</p></div>
+</section><section class="slide" id="s13" data-n="13">
+  <div class="slide-head"><span class="pno">P13</span><span class="ptitle">两条总成本曲线画在同一张图上</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-013.webp" alt="第13页"><figcaption>课件第 13 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>两条总成本曲线画在同一张图上，对比非常直观。</p>
+<ul><li>深紫色是 10 美元/小时的曲线，最低点在 <strong>Far</strong>（1,180）。</li><li>橙色是 15 美元/小时的曲线，整体<strong>上移</strong>，最低点左移到 <strong>Close</strong>（1,240）。</li></ul>
+<p>两件事同时发生：时间变贵让每个选项都更贵（曲线抬高），也让「远」这个特征更昂贵（曲线左段变陡），于是最优点向市中心移动。</p>
+<p>这就是「比较静态」的雏形：外生参数（时间价格）变化 → 整条目标函数变化 → 最优选择变化。后面讲<a class="term" href="glossary.html#t-demand-curve" data-t="demand-curve">需求曲线</a>移动时，用的是同一套语言。</p></div>
+</section><section class="slide" id="s14" data-n="14">
+  <div class="slide-head"><span class="pno">P14</span><span class="ptitle">Optimization using marginal analysis</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-014.webp" alt="第14页"><figcaption>课件第 14 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>换第二条技术路线：<strong>边际分析法</strong>（optimization using marginal analysis）。</p>
+<p>它的做法是：不孤立地看每个选项的绝对水平，而是看<strong>从一个选项移动到下一个选项时，成本和收益改变了多少</strong>，通过分析这些<strong>差异</strong>来定位最优。</p>
+<p>为什么要换一种方法？因为现实中的选项常常是连续的一大片（比如「每天生产多少件」），没法一个个列出来算总量。边际分析把「选哪个」变成「往哪个方向再走一步」，这个思路可以处理连续变量，也是后面所有「<a class="term" href="glossary.html#t-profit-maximization" data-t="profit-maximization">MR = MC</a>」「<a class="term" href="glossary.html#t-marginal-revenue" data-t="marginal-revenue">MB</a> = MC」的源头。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Optimization using marginal analysis
+---
+Optimization using marginal analysis 
+breaks an optimization problem down by thinking about how costs and benefits change as you hypothetically move from one alternative to another.</pre></details>
+</section><section class="slide" id="s15" data-n="15">
+  <div class="slide-head"><span class="pno">P15</span><span class="ptitle">Optimization using marginal analysis</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-015.webp" alt="第15页"><figcaption>课件第 15 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把边际分析用在同一个租房例子上。</p>
+<p>不要孤立地评价四个公寓，而是比较<strong>相邻的两个</strong>：从 Very Close 搬到 Close，从 Close 搬到 Far，从 Far 搬到 Very Far——也就是沿着远离市中心的方向一站一站地「移动」。</p>
+<p>每一站只问一个问题：<strong>这一步的得失是多少？</strong> 房租省了多少，通勤费多了多少，净的变化是正还是负。</p>
+<p>如果这一步净收益为正，就继续往远处搬；一旦为负，就停下。停下的位置就是最优。这个方法只需要看差值，不需要把四行都算成总量。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Optimization using marginal analysis
+---
+Instead of thinking about each of the apartments in isolation, let’s now compare these apartments. 
+Specifically, let’s focus on what changes as we hypothetically “move” from one apartment to the next, stepping farther away from the city center.
+What is the difference between each pair of apartments?</pre></details>
+</section><section class="slide" id="s16" data-n="16">
+  <div class="slide-head"><span class="pno">P16</span><span class="ptitle">Marginal analysis</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-016.webp" alt="第16页"><figcaption>课件第 16 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页，只写了两个词：<strong>Marginal analysis</strong>（边际分析）。</p>
+<p>下一页把「每一步的得失」画到图上，你会看到它其实就是总成本曲线的<strong>斜率</strong>：曲线下降时斜率是负的（这一步划算），曲线上升时斜率是正的（这一步不划算），斜率由负转正的那个点，就是最低点。</p>
+<p>这句记住：<strong>边际量是总量曲线的斜率</strong>。这一句能省掉后面很多死记硬背。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Marginal analysis</pre></details>
+</section><section class="slide" id="s17" data-n="17">
+  <div class="slide-head"><span class="pno">P17</span><span class="ptitle">图上把每一步的得失标了出来</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-017.webp" alt="第17页"><figcaption>课件第 17 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>图上把每一步的得失标了出来，红字就是<strong>边际成本</strong>（marginal cost）：</p>
+<ul><li>Very Close → Close：成本变化 <strong>−40</strong>（省了 40 美元）。</li><li>Close → Far：成本变化 <strong>−10</strong>（又省 10 美元）。</li><li>Far → Very Far：成本变化 <strong>+20</strong>（多花 20 美元）。</li></ul>
+<p>读法：只要边际成本是负的，往外搬就划算，继续搬；到 Far 之后边际成本转正，再搬就亏。所以最优点停在 <strong>Far</strong>，也就是边际成本由负转正的<strong>拐点</strong>处。</p>
+<p>注意 −40、−10、+20 是<strong>差额</strong>，不是总量。边际分析看的永远是差额。本例的边际成本在递增（从 −40 到 −10 到 +20），所以曲线是凸的、有唯一最低点。</p></div>
+</section><section class="slide" id="s18" data-n="18">
+  <div class="slide-head"><span class="pno">P18</span><span class="ptitle">Optimization at the Margin</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-018.webp" alt="第18页"><figcaption>课件第 18 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong><a class="term" href="glossary.html#t-principle-of-optimization-at-the-margin" data-t="principle-of-optimization-at-the-margin">边际最优化原理</a></strong>（Principle of Optimization at the Margin）：</p>
+<blockquote>一个最优的可行选择具有这样的性质：<strong>移向它</strong>使你变得更好，<strong>移离它</strong>使你变得更差。</blockquote>
+<p>换个说法：最优点是「无法再改进」的位置。如果还能通过移动变得更好，那就不是最优；如果移动后会变差，说明已经在顶上。</p>
+<p>这个定义的好处是不依赖具体函数形式，也不要求选项是离散的。它是后面所有一阶条件的文字版：在连续情形下，「移向它更好、移离它更差」就写成「边际收益 = 边际成本」，再往下就是求导令其为零。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Optimization at the Margin
+---
+The objective of the optimizer is to make himself as well off as possible
+By definition, optimum means you can not get any better. 
+Principle of Optimization at the Margin: an optimal feasible alternative has the property that moving to it makes you better off and moving away from it makes you worse off.</pre></details>
+</section><section class="slide" id="s19" data-n="19">
+  <div class="slide-head"><span class="pno">P19</span><span class="ptitle">An example with functional forms</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-019.webp" alt="第19页"><figcaption>课件第 19 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>进入<strong>函数形式</strong>（functional forms）的例子，为后面用微积分做准备。</p>
+<p>假设一个人受教育的年数是 t，工资由受教育年限决定：</p>
+<ul><li>收益：<code>W(t) = a · t</code>——多读一年，工资增加 a，线性增长。</li><li>成本：<code>C(t) = b · t² / φ</code>——成本随年限<strong>平方</strong>增长。</li></ul>
+<p>为什么成本是平方？因为读书的成本有两块：学费、书本这些直接支出，以及<strong>放弃的工资</strong>（机会成本）。年限越长，放弃的工资越高，所以总成本上升得越来越快。平方项就是「越读越贵」的数学表达。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>An example with functional forms</pre></details>
+</section><section class="slide" id="s20" data-n="20">
+  <div class="slide-head"><span class="pno">P20</span><span class="ptitle">Example</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-020.webp" alt="第20页"><figcaption>课件第 20 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>同一组函数，逐个参数解释含义：</p>
+<ul><li><code>a</code>：<strong>教育回报率</strong>（return to schooling），多读一年能多挣多少。</li><li><code>b</code>：所有人都一样的<strong>成本系数</strong>（学费、书本等共同成本）。</li><li><code>φ</code>（phi）：<strong>能力</strong>的度量。能力越高，φ 越大，同样年限的成本越低。</li></ul>
+<p>求解：净收益 <code>W(t) − C(t) = a·t − b·t²/φ</code>。边际收益 <code>MB = a</code>，边际成本 <code>MC = 2b·t/φ</code>。令 <code>MB = MC</code>：</p>
+<p><code>a = 2b·t/φ</code>，解得 <code>t* = a·φ / (2b)</code></p>
+<p>结论：能力 φ 越强、回报 a 越高，最优受教育年限越长。这个式子把「为什么有人读到博士、有人高中毕业就工作」讲成了一个最优化结果。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Example</pre></details>
+</section><section class="slide" id="s21" data-n="21">
+  <div class="slide-head"><span class="pno">P21</span><span class="ptitle">Demand, supply and competitive equilibrium</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-021.webp" alt="第21页"><figcaption>课件第 21 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>转入本讲第二块：<strong>需求、供给与<a class="term" href="glossary.html#t-competitive-equilibrium" data-t="competitive-equilibrium">竞争均衡</a></strong>（Demand, supply and competitive equilibrium）。</p>
+<p>上一部分的主角是<strong>一个人</strong>：给定选项和价格，他怎么选最优。这一部分的主角是<strong>很多人</strong>：每个人的最优选择加总起来，会在市场上形成什么价格、成交多少数量。</p>
+<p>衔接点在这里：消费者在给定价格下选最优购买量，这个「最优购买量」就是<a class="term" href="glossary.html#t-quantity-demanded" data-t="quantity-demanded">需求量</a>；所有消费者的需求量按价格加起来，就是需求曲线。所以需求曲线不是假设出来的，是从第一部分的最优化推出来的。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Demand, supply and competitive equilibrium</pre></details>
+</section><section class="slide" id="s22" data-n="22">
+  <div class="slide-head"><span class="pno">P22</span><span class="ptitle">The market for gas</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-022.webp" alt="第22页"><figcaption>课件第 22 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>先看一个我们每天都在依赖、却很少去想的市场：<strong>汽油市场</strong>。</p>
+<ul><li>全世界每年有<strong>超过 10 亿</strong>司机开进加油站。</li><li>他们几乎从来没有遇到「卖完了」（sold out）。</li><li>大多数时候，加满油、开回路上，<strong>不超过 10 分钟</strong>。</li></ul>
+<p>这三个事实放在一起，是一个了不起的成就。你不需要预约、不需要排队登记、不需要认识站长，油就在那儿。</p>
+<p>这一页的作用是制造疑问：这么顺滑的供给，是谁安排的？</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The market for gas
+---
+Every year over 1 billion drivers pull into gas stations around the world. 
+These drivers almost never find that gas stations are “sold out.” 
+Most of the time, it takes less than 10 minutes to fill the tank and pull back on the road.</pre></details>
+</section><section class="slide" id="s23" data-n="23">
+  <div class="slide-head"><span class="pno">P23</span><span class="ptitle">Nobody tells the companies that run the gas stations how many drivers to expect,</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-023.webp" alt="第23页"><figcaption>课件第 23 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>答案有点反直觉：<strong>没有人安排</strong>。</p>
+<ul><li>没有人告诉加油站老板今天会有多少司机来。</li><li>没有人告诉司机该去哪个站加油。</li><li>甚至没有人有能力做出接近准确的预测。</li></ul>
+<p>但结果是：几乎总有足够的汽油给每一个想加油的司机；司机付他愿意付的钱拿到油；石油公司赚到足够的钱发工资、给股东分红。</p>
+<p>备注里老师说了一句：<strong>这个体系的效率令人惊叹</strong>。这一讲剩下的内容，就是解释这台「没人指挥却运转良好」的机器靠什么运转——靠<strong>价格</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Nobody tells the companies that run the gas stations how many drivers to expect, and nobody tells the drivers where to fill their tanks.
+Actually, nobody has the ability to make any nearly accurate predictions about these things
+But somehow, there is almost always enough gas for every driver who wants to fill the tank. 
+Drivers get the gas they are willing to pay for, and gasoline companies make enough money to pay their employees and send dividends to their shareholders.</pre></details>
+</section><section class="slide" id="s24" data-n="24">
+  <div class="slide-head"><span class="pno">P24</span><span class="ptitle">The market</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-024.webp" alt="第24页"><figcaption>课件第 24 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>市场</strong>（market）的定义，两部分：</p>
+<ul><li>一群交易某种商品或服务的<strong><a class="term" href="glossary.html#t-economic-agents" data-t="economic-agents">经济主体</a></strong>（economic agents）；</li><li>加上他们交易的<strong>规则与安排</strong>（rules and arrangements for trading）。</li></ul>
+<p>第二部分常被忽略。同样是买卖汽油，路边现金交易和期货合约交易，规则完全不同，市场也就不同。价格如何形成、违约怎么办、信息如何披露，都属于「规则与安排」。</p>
+<p>所以市场不一定是一个地方，而是一套「人 + 规则」的组合。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The market
+---
+A market is 
+a group of economic agents who are trading a good or service 
++
+ the rules and arrangements for trading.</pre></details>
+</section><section class="slide" id="s25" data-n="25">
+  <div class="slide-head"><span class="pno">P25</span><span class="ptitle">Some markets may have specific physical locations</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-025.webp" alt="第25页"><figcaption>课件第 25 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页：<strong>有些市场有具体的物理位置</strong>。</p>
+<p>比如农贸市场、海鲜批发市场、义乌小商品市场——买卖双方在同一个空间里碰面，价格靠喊、靠看货、靠当场议价。</p>
+<p>这类市场最符合普通人对「市场」的想象，但它只是市场的一种形态。接下来两页要说明：形态不重要，重要的是交易和价格形成机制。</p>
+<p>顺带想一层：物理位置之所以重要，是因为它降低了<strong>搜寻成本</strong>和<strong>运输成本</strong>。买卖双方能在同一个地方看货、比价、当场成交，价格就更容易趋于一致。这解释了为什么「集市」是最古老的市场形式。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Some markets may have specific physical locations</pre></details>
+</section><section class="slide" id="s26" data-n="26">
+  <div class="slide-head"><span class="pno">P26</span><span class="ptitle">Different forms of market</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-026.webp" alt="第26页"><figcaption>课件第 26 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>另一类市场是<strong>分散的</strong>（dispersed）。</p>
+<p>汽油市场就是典型：它没有一个大堂，而是「你所在城市的每个街角都有一个加油站」。买家不需要去某个地方，卖家把网点铺到买家身边。</p>
+<p>形态变了，竞争的性质也变了：分散的加油站之间仍然在竞争，但因为买家有出行成本，地理位置的差异会影响竞争程度——这一点后面讲<a class="term" href="glossary.html#t-monopoly" data-t="monopoly">垄断</a>竞争时会再回来。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Different forms of market
+---
+Others may be dispersed. 
+For example, the market for gasoline is dispersed—located on every corner you find a gas station.</pre></details>
+</section><section class="slide" id="s27" data-n="27">
+  <div class="slide-head"><span class="pno">P27</span><span class="ptitle">这一页是一张杭州地图</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-027.webp" alt="第27页"><figcaption>课件第 27 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页是一张<strong>杭州地图</strong>，上面标了 10 个加油站的位置（红色编号点位），分布在西湖、拱墅、下城、江干、萧山、余杭各处，沿主要道路（G25、G60、S2、S14 等）散布。</p>
+<p>它要说明的就是上一页那句话：汽油市场是<strong>分散</strong>的，你不需要「去市场」，市场就在你上班的路上。</p>
+<p>顺便注意：点位密度在城区高、郊区低。这也是市场结构的一部分——城区加油站彼此距离近、竞争激烈；郊区孤立的站点议价能力更强。</p></div>
+</section><section class="slide" id="s28" data-n="28">
+  <div class="slide-head"><span class="pno">P28</span><span class="ptitle">Different forms of market</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-028.webp" alt="第28页"><figcaption>课件第 28 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>还有一类市场<strong>连物理形态都没有</strong>。</p>
+<ul><li><strong>淘宝</strong>：只要有电脑和网络，它就在那儿。没有柜台、没有仓库门面，交易在服务器上完成。</li><li><strong>相亲网站/App</strong>：在经济学家的眼里，这也是市场——一边是「供给方」（想找对象的人），一边是「需求方」，中间是撮合规则和价格（会员费）。</li></ul>
+<p>判断标准不是「有没有场地」，而是「有没有一群人在交换某种东西，并按某种规则定价」。按这个标准，市场无处不在。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Different forms of market
+---
+Some market doesn’t even have a physical form. 
+For example, Taobao operates wherever there’s a computer and an Internet connection. 
+To an economist, dating sites/apps are markets, too.</pre></details>
+</section><section class="slide" id="s29" data-n="29">
+  <div class="slide-head"><span class="pno">P29</span><span class="ptitle">We focus the discussion on markets in which all exchanges occur voluntarily at f</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-029.webp" alt="第29页"><figcaption>课件第 29 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>本讲聚焦的市场类型，有两个限定：</p>
+<ol><li>所有交换都是<strong>自愿的</strong>（voluntary）；</li><li>价格是<strong>灵活的</strong>（flexible），由<a class="term" href="glossary.html#t-market-power" data-t="market-power">市场力量</a>决定——与政府定价相对。</li></ol>
+<p>在这样的市场里，价格起到一个<strong>筛选装置</strong>（selection device）的作用：它让<strong>能低成本生产的卖者</strong>和<strong>对商品评价高的买者</strong>做成交易。</p>
+<p>这句话是整讲的价值观：价格不只是数字，它是一个信息与激励系统。低成本的卖者能接受低价所以活下来，高估值的买者愿意出高价所以拿到货。价格把商品「分配」给了最看重它的人。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>We focus the discussion on markets in which all exchanges occur voluntarily at flexible prices determined by market forces 
+This is in contrast to prices fixed by the government. 
+We are going to explains how markets use prices to allocate goods and services.
+Prices act as a selection device that encourages trade between the sellers who can produce goods at low cost and the buyers who place a high value on the goods.</pre></details>
+</section><section class="slide" id="s30" data-n="30">
+  <div class="slide-head"><span class="pno">P30</span><span class="ptitle">Competitive Markets</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-030.webp" alt="第30页"><figcaption>课件第 30 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>什么叫<strong><a class="term" href="glossary.html#t-perfect-competition" data-t="perfect-competition">竞争市场</a></strong>？想象一座城市里有几百家加油站，每家老板各自独立。</p>
+<ul><li>你家路口那家如果比别家<strong>每加仑贵 1 美元</strong>，大部分生意会跑掉。</li><li>反过来，如果你想<strong>每加仑少付 1 美元</strong>，没人会卖给你——加油站通常不讲价。</li><li>开宝马的人和开奇瑞的人，加一加仑普通无铅汽油付<strong>同一个价格</strong>。</li></ul>
+<p>三条现象指向同一件事：单个买者或卖者都<strong>没有定价权</strong>，价格是「给定的」。这就是竞争市场的核心特征，下一页给它正式定义。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Competitive Markets
+---
+Think of a city filled with hundreds of gas stations, each of which has an independent owner. 
+The gas station on your block would lose most of its business if the owner started charging $1 more per gallon than all the other stations. 
+Likewise, no one is ever going to sell you any gas if you insisted on paying $1 less per gallon than the posted price; 
+Gas station usually don’t cut deals.  Drivers of BMW and 奇瑞 pay the same price for a gallon of regular unleaded.</pre></details>
+</section><section class="slide" id="s31" data-n="31">
+  <div class="slide-head"><span class="pno">P31</span><span class="ptitle">Market price</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-031.webp" alt="第31页"><figcaption>课件第 31 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>市场价格</strong>（market price）：如果所有卖者和所有买者面对的是<strong>同一个价格</strong>，这个价格就叫市场价格。</p>
+<p>注意定义的方式：不是「政府规定的价」，也不是「某家店标的价」，而是「大家共同面对的那个价」。</p>
+<p>这个概念之所以重要，是因为它让分析变简单：既然所有人面对同一个 P，我们就可以把 P 当作参数，问「在这个 P 下，买方想买多少、卖方想卖多少」。整个供给需求模型就建立在这个简化上。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Market price
+---
+If all sellers and all buyers face the same price, that price is referred to as the market price.</pre></details>
+</section><section class="slide" id="s32" data-n="32">
+  <div class="slide-head"><span class="pno">P32</span><span class="ptitle">Perfectly competitive market</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-032.webp" alt="第32页"><figcaption>课件第 32 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>完全竞争市场</strong>（perfectly competitive market）的两个条件：</p>
+<ol><li>所有卖者出售<strong>完全相同</strong>的商品或服务（同质品）；</li><li>任何单个买者或卖者都<strong>没有能力影响市场价格</strong>。</li></ol>
+<p>第二点的含义是：双方都只能<strong>接受</strong>价格，不能讨价还价争取更好的价格。这样的买方和卖方，我们叫 <strong><a class="term" href="glossary.html#t-price-taker" data-t="price-taker">price-takers</a></strong>（价格接受者）。</p>
+<p>两个条件要一起看：商品同质是前提，因为一旦有差异（品牌、位置、服务），卖者就有了一定定价权，模型就得换。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Perfectly competitive market
+---
+Sellers all sell an identical good or service
+Any individual buyer or any individual seller isn’t powerful enough on his or her own to affect the market price. 
+This is to say that, buyers and sellers in a perfectly competitive market can only accept the market price and can’t bargain to get a better price. 
+We call such buyers and sellers price-takers.</pre></details>
+</section><section class="slide" id="s33" data-n="33">
+  <div class="slide-head"><span class="pno">P33</span><span class="ptitle">Why study perfect competition?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-033.webp" alt="第33页"><figcaption>课件第 33 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>一个诚实的问题：<strong>现实中几乎没有完全竞争市场，为什么还要学它？</strong></p>
+<p>课件的回答是：虽然很少有市场<strong>完全</strong>满足条件，但<strong>很多市场接近</strong>它。</p>
+<p>备注里给了更具体的判断标准：大量加油站街对面就有竞争对手，这使它们无法把价格抬高于市场价；乡间公路上孤立的加油站是例外而不是常态。反过来，像<strong>微软</strong>在软件市场那样能单方面控制价格的大参与者，要留到后面的章节（垄断、寡头）再讲。</p>
+<p>方法论上的教训：模型的价值不在假设是否写实，而在它能否在<strong>近似成立</strong>的范围内给出好预测。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Why study perfect competition?
+---
+Very few markets are perfectly competitive. 
+But economists try to understand such markets anyway. 
+Why would economists study a thing that rarely exists in the world? 
+The answer is that although few, if any, markets are perfectly competitive, many markets come close.</pre></details>
+</section><section class="slide" id="s34" data-n="34">
+  <div class="slide-head"><span class="pno">P34</span><span class="ptitle">Why study perfect competition?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-034.webp" alt="第34页"><figcaption>课件第 34 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>研究竞争市场，要回答<strong>三个基本问题</strong>：</p>
+<ol><li>买方如何行为？（需求侧）</li><li>卖方如何行为？（供给侧）</li><li>两种行为如何<strong>共同</strong>决定市场价格和成交数量？</li></ol>
+<p>这三个问题是本讲后半段的路标：P35–P53 答第一问，P54–P63 答第二问，P64 以后答第三问。</p>
+<p>注意第三问的措辞——不是「买方决定价格」也不是「卖方决定价格」，而是「共同决定」。这是局部<a class="term" href="glossary.html#t-equilibrium" data-t="equilibrium">均衡</a>分析的标准提法。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Why study perfect competition?
+---
+We are trying to answer 3 fundamental questions:
+1. How do buyers behave?
+2. How do sellers behave?
+3. How does the behavior of buyers and sellers jointly determine the market price and the quantity of goods transacted?</pre></details>
+</section><section class="slide" id="s35" data-n="35">
+  <div class="slide-head"><span class="pno">P35</span><span class="ptitle">How Do Buyers Behave?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-035.webp" alt="第35页"><figcaption>课件第 35 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页：<strong>买方如何行为？</strong>（How Do Buyers Behave?）</p>
+<p>接下来几页给买方行为一个最小的假设集：他们是价格接受者；在给定价格下有一个愿意购买的数量；这个数量与价格的关系画出来就是需求曲线；曲线的高度有明确的经济含义（<a class="term" href="glossary.html#t-willingness-to-pay" data-t="willingness-to-pay">支付意愿</a>）。</p>
+<p>四个步骤，一步一个概念，不要跳。</p>
+<p>为什么先讲买方？因为你对买方有直接经验——你自己就是买者，你知道价格涨了自己会少买一点。卖方行为离日常经验远一些，所以放到后面。学这一节时，可以不断问自己：这条曲线跟我自己的购物经验对得上吗？</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>How Do Buyers Behave?</pre></details>
+</section><section class="slide" id="s36" data-n="36">
+  <div class="slide-head"><span class="pno">P36</span><span class="ptitle">Price-takers</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-036.webp" alt="第36页"><figcaption>课件第 36 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>买方的核心假设：<strong>买方是价格接受者</strong>（price-takers，价格接受者）。</p>
+<p>具体含义：他们把市场价格当作一个 <strong>take-it-or-leave-it</strong>（「要买就买，不买就走」）的报价，不会试图讨价还价把价格压下来。</p>
+<p>为什么可以这样假设？因为在竞争市场里，单个买者的购买量相对于整个市场微不足道，而且别处也是同样的价格——你没有谈判的筹码。</p>
+<p>这个假设让买方的问题变得极其简单：价格是给定的，只需要决定「买多少」。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Price-takers
+---
+Assumption: 
+buyers are price-takers (价格接收者）
+they treat the market price as a take-it-or-leave-it （“要买就买，不买就走”） offer and don’t try to haggle to lower the price.</pre></details>
+</section><section class="slide" id="s37" data-n="37">
+  <div class="slide-head"><span class="pno">P37</span><span class="ptitle">Price and quantity</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-037.webp" alt="第37页"><figcaption>课件第 37 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>要研究的关系是：<strong>商品的价格</strong>与<strong>买方愿意购买的数量</strong>之间是什么关系。</p>
+<p><strong>需求量</strong>（quantity demanded）的定义：在<strong>给定价格</strong>下，买方<strong>愿意购买</strong>的商品或服务数量。</p>
+<p>两个词要圈出来：「给定价格」——需求量总是相对于某个价格说的，脱离价格谈需求量没有意义；「愿意购买」——是意愿，不是实际成交量（买不到是另一回事，那是后面<a class="term" href="glossary.html#t-excess-demand" data-t="excess-demand">短缺</a>的情形）。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Price and quantity
+---
+We want to study the relationship between the price of a good and the amount of the good that buyers are willing to purchase. 
+At a given price, the amount of the good or service that buyers are willing to purchase is called the quantity demanded.</pre></details>
+</section><section class="slide" id="s38" data-n="38">
+  <div class="slide-head"><span class="pno">P38</span><span class="ptitle">Demand curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-038.webp" alt="第38页"><figcaption>课件第 38 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>需求曲线</strong>（demand curve）：在<strong><a class="term" href="glossary.html#t-ceteris-paribus" data-t="ceteris-paribus">其他条件不变</a></strong>（holding all else equal）的前提下，把价格与需求量之间的关系画出来的曲线。</p>
+<p>习惯上：纵轴是价格，横轴是需求量。所以曲线上的每一个点，都是「某个价格 + 该价格下愿意购买的数量」这样一对数字。</p>
+<p>「其他条件不变」这个短语（拉丁文 ceteris paribus）是本讲后面反复出现的伏笔：一旦其他条件变了，整条曲线就会移动。这正是 P50 之后要处理的问题。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Demand curve
+---
+The demand curve plots the relationship between prices and quantity demanded, holding all else equal.</pre></details>
+</section><section class="slide" id="s39" data-n="39">
+  <div class="slide-head"><span class="pno">P39</span><span class="ptitle">这一页把需求表</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-039.webp" alt="第39页"><figcaption>课件第 39 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页把<strong>需求表</strong>（demand schedule）和<strong>需求曲线</strong>画在一起，用的是汽油的例子（个人，单位：加仑/年）：</p>
+<table class="tbl"><thead><tr><th>价格（美元/加仑）</th><th>需求量（加仑/年）</th></tr></thead><tbody><tr><td>6</td><td>50</td></tr><tr><td>5</td><td>100</td></tr><tr><td>4</td><td>150</td></tr><tr><td>3</td><td>200</td></tr><tr><td>2</td><td>250</td></tr><tr><td>1</td><td>300</td></tr></tbody></table>
+<p>图上六个点连成一条<strong>向下倾斜的直线</strong>：价格每降 1 美元，需求量增加 50 加仑。</p>
+<p>读图的方法：给定一个价格，竖直向下找到曲线上的点，再水平读到横轴，就是需求量。表格和曲线是同一份信息的两种写法。</p></div>
+</section><section class="slide" id="s40" data-n="40">
+  <div class="slide-head"><span class="pno">P40</span><span class="ptitle">Demand curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-040.webp" alt="第40页"><figcaption>课件第 40 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>需求曲线有一个「我们会反复见到」的性质：价格与需求量<strong>负相关</strong>（negatively related）。</p>
+<p>负相关的意思是：它们朝<strong>相反</strong>方向变动——一个上升，另一个下降；一个下降，另一个上升。</p>
+<p>在图上就是曲线<strong>向下倾斜</strong>（downward sloping）。上一页那条直线，斜率是负的：价格从 6 降到 1，需求量从 50 升到 300。</p>
+<p>这个性质不是巧合，也不是假设，它有微观基础（下一页开始讲）。先记住图形上的表现，再理解背后的原因。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Demand curve
+---
+The demand curve has an important property that we will see many times. 
+The price of gasoline and the quantity demanded are negatively related, which means that they move in opposite directions. 
+In other words, when one goes up, the other goes down, and vice versa.</pre></details>
+</section><section class="slide" id="s41" data-n="41">
+  <div class="slide-head"><span class="pno">P41</span><span class="ptitle">The Law of Demand</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-041.webp" alt="第41页"><figcaption>课件第 41 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong><a class="term" href="glossary.html#t-law-of-demand" data-t="law-of-demand">需求定律</a></strong>（Law of Demand）：在<strong>其他条件不变</strong>的前提下，价格下降时需求量上升。</p>
+<p>课件加了一句经验判断：<strong>几乎所有商品</strong>的需求曲线都表现出这种负向关系。</p>
+<p>为什么值得当成「定律」？因为它极其稳健——从汽油、大米到电影票、手术，几乎找不到系统性违反它的例子（理论上的例外是后面会提到的「吉芬商品」，现实中极罕见）。</p>
+<p>再次注意「其他条件不变」：需求定律说的是<strong>沿同一条曲线</strong>的移动，不是曲线的移动。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Law of Demand
+---
+The Law of Demand: the quantity demanded rises when the price falls (holding all else equal).
+Almost all goods have demand curves that exhibit this fundamental negative relationship</pre></details>
+</section><section class="slide" id="s42" data-n="42">
+  <div class="slide-head"><span class="pno">P42</span><span class="ptitle">Willingness to Pay (important)</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-042.webp" alt="第42页"><figcaption>课件第 42 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>支付意愿</strong>（willingness to pay, WTP）——这页标了 important，是本讲最重要的概念之一。</p>
+<ul><li>一个个人的需求曲线，可以用来算出她为<strong>再多一加仑</strong>汽油愿意（且有能力）付多少钱。</li><li>多出来的这一加仑叫<strong>边际一加仑</strong>（marginal gallon）。</li><li>在任意给定数量上，需求曲线的<strong>高度</strong>就是她为那一单位愿意支付的钱。</li><li>说白了，曲线的高度就是她给<strong>最后一加仑</strong>标的价格（以美元计）。</li></ul>
+<p>关键在「高度」两个字：需求曲线不只是「价格—数量」的对应关系，它的<strong>纵坐标本身</strong>就是边际单位的价值。后面算<a class="term" href="glossary.html#t-consumer-surplus" data-t="consumer-surplus">消费者剩余</a>、判断「该不该生产」，用的都是这个高度。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Willingness to Pay (important)
+---
+Any individual consumer’s demand curve can also be used to calculate how much he/she is willing (and able) to pay for an additional gallon of gasoline. 
+One extra gallon of gasoline is called a “marginal gallon.” 
+The height of her demand curve at any given quantity is the amount she is willing to pay for that marginal unit of the good. 
+In other words, the height of her demand curve is the value in dollars that the individual places on that last gallon of gasoline.</pre></details>
+</section><section class="slide" id="s43" data-n="43">
+  <div class="slide-head"><span class="pno">P43</span><span class="ptitle">再回到那条需求曲线</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-043.webp" alt="第43页"><figcaption>课件第 43 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>再回到那条需求曲线，这次不看它经过哪些点，而看<strong>某一点的高度</strong>。</p>
+<p>在数量 100 加仑处，曲线的高度是 <strong>5 美元</strong>。这句话的经济含义是：第 100 加仑汽油，对这个消费者值 5 美元——如果价格正好是 5 美元，她买第 100 加仑时「不赚不亏」；如果价格低于 5 美元，她买这一加仑就赚到了（愿意付的比实际付的多）。</p>
+<p>把每个数量上的高度都读一遍，就得到一条<strong>边际收益</strong>（marginal benefit）曲线：第 50 加仑值 6 美元，第 150 加仑值 4 美元……高度随数量递减。</p></div>
+</section><section class="slide" id="s44" data-n="44">
+  <div class="slide-head"><span class="pno">P44</span><span class="ptitle">Diminishing marginal benefit</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-044.webp" alt="第44页"><figcaption>课件第 44 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong><a class="term" href="glossary.html#t-diminishing-marginal-benefit" data-t="diminishing-marginal-benefit">边际收益递减</a></strong>（diminishing marginal benefit）：随着你消费得更多，你对<strong>额外一单位</strong>的支付意愿会下降。</p>
+<p>例子：第一杯水解渴，值 10 块；第二杯还行，值 5 块；第五杯已经喝不下，值 0。</p>
+<p>这条规律解释了需求曲线为什么向下倾斜：不是「价格低所以买得多」这么一句同义反复，而是<strong>买得越多，每多买一单位带来的好处越少</strong>，所以只有价格下降，你才愿意继续买。</p>
+<p>需求曲线的向下倾斜 = 边际收益递减在图形上的样子。这句话把 P40 和 P44 接了起来。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Diminishing marginal benefit
+---
+Diminishing marginal benefit:
+As you consume more of a good, your willingness to pay for an additional unit declines.</pre></details>
+</section><section class="slide" id="s45" data-n="45">
+  <div class="slide-head"><span class="pno">P45</span><span class="ptitle">Aggregated Demand Curves</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-045.webp" alt="第45页"><figcaption>课件第 45 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>单个消费者的曲线，怎么变成全世界的曲线？</p>
+<ul><li>油价下跌时，<strong>其他</strong>用油的人也会增加消费。</li><li>要研究全世界的能源市场，需要的是<strong>世界需求曲线</strong>，它等于所有个人需求曲线的<strong>和</strong>。</li><li>经济学家把这个相加的过程叫<strong>加总</strong>（aggregation）。</li></ul>
+<p>加总的方式是<strong>横向相加</strong>：在<strong>同一个价格</strong>上，把所有人的需求量加起来。为什么是横着加而不是竖着加？因为「在某个价格下，全市场想买多少」才是市场需求的含义——价格是共同的，数量才相加。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Aggregated Demand Curves
+---
+Other gasoline users will also increase their consumption of gasoline as its price falls
+To study the behavior of the worldwide energy market, we need to study the worldwide demand curve for gasoline, which is equivalent to the sum of all individual demand curves. 
+Economists call this adding-up process the aggregation of the individual demand curves.</pre></details>
+</section><section class="slide" id="s46" data-n="46">
+  <div class="slide-head"><span class="pno">P46</span><span class="ptitle">Exhibit 4.2 Aggregation of Demand Schedules and Demand Curves</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-046.webp" alt="第46页"><figcaption>课件第 46 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>Exhibit 4.2</strong> 把加总过程完整地展示出来。</p>
+<table class="tbl"><thead><tr><th>价格</th><th>Sue 的需求量</th><th>Carlos 的需求量</th><th>总需求量</th></tr></thead><tbody><tr><td>5</td><td>100</td><td>200</td><td>300</td></tr><tr><td>4</td><td>200</td><td>400</td><td>600</td></tr><tr><td>3</td><td>300</td><td>600</td><td>900</td></tr><tr><td>2</td><td>400</td><td>800</td><td>1,200</td></tr><tr><td>1</td><td>500</td><td>1,000</td><td>1,500</td></tr></tbody></table>
+<p>三张表：左边 Sue、中间 Carlos、右边 Total。下面三张图：Sue 的需求曲线、Carlos 的需求曲线，以及最右边那条<strong>总需求曲线</strong>。</p>
+<p>读图要点：总需求曲线更<strong>平</strong>（同样幅度的价格变化引起更大的数量变化），因为它是两条曲线横向叠加。任一价格上，Total 的横坐标 = Sue 的横坐标 + Carlos 的横坐标。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Exhibit 4.2 Aggregation of Demand Schedules and Demand Curves
+---
+Copyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved</pre></details>
+</section><section class="slide" id="s47" data-n="47">
+  <div class="slide-head"><span class="pno">P47</span><span class="ptitle">Market demand curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-047.webp" alt="第47页"><figcaption>课件第 47 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>给<strong>市场需求曲线</strong>（market demand curve）下一个正式定义：它是<strong>所有潜在买者</strong>个人需求曲线的和。</p>
+<p>它描述的是<strong>总需求量</strong>与市场价格之间的关系，同样在「其他条件不变」的前提下。</p>
+<p>两个词要注意：「所有<strong>潜在</strong>买者」——包括现在没买、但价格合适就会买的人；「总需求量」——是市场上所有人需求量的加总，不是某个人的。</p>
+<p>这个定义后面会被反复使用：讲<a class="term" href="glossary.html#t-elasticity" data-t="elasticity">弹性</a>、讲消费者剩余、讲政策评估，起点都是这条曲线。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Market demand curve
+---
+The market demand curve is the sum of the individual demand curves of all potential buyers. 
+It plots the relationship between the total quantity demanded and the market price, holding all else equal.</pre></details>
+</section><section class="slide" id="s48" data-n="48">
+  <div class="slide-head"><span class="pno">P48</span><span class="ptitle">But economists rarely study the market demand for gasoline. Economists who study</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-048.webp" alt="第48页"><figcaption>课件第 48 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>但经济学家<strong>很少</strong>单独研究汽油的市场需求。为什么？</p>
+<p>因为汽油市场与原油的其他产品市场<strong>紧密相连</strong>：航空煤油（jet fuel）、柴油（diesel）、车用汽油都是原油炼出来的。炼厂可以在不同产品之间调整产出比例，所以它们的价格是联动的。</p>
+<p>因此，研究汽油市场时，经济学家会一直<strong>加总到整个石油市场</strong>（the total market for oil）。</p>
+<p>这是一个方法论提醒：市场的边界怎么划，取决于研究的问题。要分析油价冲击，就得用「石油」这个更宽的市场。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>But economists rarely study the market demand for gasoline. 
+Economists who study energy markets recognize that the gasoline market is very closely tied to all the other markets for products produced from crude oil. 
+Jet fuel, diesel fuel, and automobile gasoline are all produced from oil. 
+Accordingly, when economists study the market for gasoline, they aggregate to the total market for oil.</pre></details>
+</section><section class="slide" id="s49" data-n="49">
+  <div class="slide-head"><span class="pno">P49</span><span class="ptitle">Market Demand Curve for Oil</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-049.webp" alt="第49页"><figcaption>课件第 49 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页就是<strong>石油市场的需求曲线</strong>。</p>
+<p>纵轴：每桶价格（美元/桶），0 到 100；横轴：数量（十亿桶/年），0 到 100。</p>
+<p>曲线<strong>向下倾斜且凸向原点</strong>：高价时需求量很小（$90 以上只有 20 多亿桶），低价时需求量大（$10 左右接近 100 亿桶）。图上标了一个点：<strong>$50 对应 35 十亿桶/年</strong>。</p>
+<p>记住这个点（$50，35）。P62 的<a class="term" href="glossary.html#t-supply-curve" data-t="supply-curve">供给曲线</a>也经过它，P67 的均衡点就是它——整讲的数字线索都系在这一对坐标上。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Market Demand Curve for Oil
+---
+Copyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved</pre></details>
+</section><section class="slide" id="s50" data-n="50">
+  <div class="slide-head"><span class="pno">P50</span><span class="ptitle">The “all else”</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-050.webp" alt="第50页"><figcaption>课件第 50 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>前面每次说需求曲线，都带着一句「其他条件不变」。现在该认真处理这个 <strong>"all else"</strong> 到底是什么了。</p>
+<p>被固定住的东西包括：消费者的收入、偏好、替代品和<a class="term" href="glossary.html#t-complements" data-t="complements">互补品</a>的价格、人口数量、对未来的预期……只要其中任何一个变了，「给定价格下的需求量」就变了，整条曲线就要<strong>移动</strong>。</p>
+<p>这是本讲最容易混的地方，也是考试必考的地方：<strong>沿着曲线移动</strong>和<strong>整条曲线移动</strong>是两件完全不同的事。下一页给出移动的清单。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The “all else”
+---
+When we introduced the demand curve, we explained that it describes the relationship between price and quantity demanded, holding all else equal.
+ It’s now time to more carefully consider the “all else” that is being held fixed.</pre></details>
+</section><section class="slide" id="s51" data-n="51">
+  <div class="slide-head"><span class="pno">P51</span><span class="ptitle">Factors shifting the demand curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-051.webp" alt="第51页"><figcaption>课件第 51 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>使需求曲线<strong>移动</strong>的五个主要因素（shift factors）：</p>
+<ul><li><strong>偏好</strong>（tastes and preferences）</li><li><strong>收入与财富</strong>（income and wealth）</li><li><strong>相关商品的可得性与价格</strong>（availability and prices of related goods）</li><li><strong>买者的数量与规模</strong>（number and scale of buyers）</li><li><strong>买者对未来的预期</strong>（buyers' beliefs about the future）</li></ul>
+<p>记忆口诀：偏好、收入、相关品、人数、预期。</p>
+<p>每一个都要能举出方向性例子：收入上升，正常商品的需求右移；替代品（茶 vs 咖啡）价格上升，本品需求右移；互补品（汽油 vs 汽车）价格上升，本品需求左移。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Factors shifting the demand curve
+---
+The demand curve shifts when these five major factors change:
+• Tastes and preferences
+• Income and wealth
+• Availability and prices of related goods
+• Number and scale of buyers
+• Buyers’ beliefs about the future</pre></details>
+</section><section class="slide" id="s52" data-n="52">
+  <div class="slide-head"><span class="pno">P52</span><span class="ptitle">An important distinction</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-052.webp" alt="第52页"><figcaption>课件第 52 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>一个<strong>重要的区分</strong>（an important distinction）：</p>
+<blockquote>只有当<strong>在给定价格下</strong>需求量发生变化时，需求曲线才移动。</blockquote>
+<p>反过来：如果商品的<strong>自身价格</strong>变了，而需求曲线<strong>没有</strong>移动，那么价格变化产生的是<strong><a class="term" href="glossary.html#t-movement-along-demand-curve" data-t="movement-along-demand-curve">沿需求曲线移动</a></strong>（movement along the demand curve）。</p>
+<p>一句话记法：<strong>自身价格 → 沿曲线走；其他因素 → 整条线搬家</strong>。</p>
+<p>判卷时最常见的错误就在这里：把「油价上涨导致加油量减少」画成需求曲线左移。错，那是沿曲线向上移动。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>An important distinction
+---
+The demand curve shifts only when the quantity demanded changes at a given price.
+If a good’s own price changes and its demand curve hasn’t shifted, the own price change produces a movement along the demand curve.</pre></details>
+</section><section class="slide" id="s53" data-n="53">
+  <div class="slide-head"><span class="pno">P53</span><span class="ptitle">Shifts of the Demand Curve vs. Movement Along the Demand Curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-053.webp" alt="第53页"><figcaption>课件第 53 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>两幅图把这个区分钉死。</p>
+<ul><li><strong>(a) 左移与右移</strong>：价格不动（market price 那条水平虚线不变），但整条需求曲线搬到左边或右边。左移 = 同一价格下买得少（需求减少）；右移 = 同一价格下买得多（需求增加）。</li><li><strong>(b) 沿曲线移动</strong>：曲线只有一条，价格从 market price 变到 new market price，点沿着同一条曲线滑动，箭头贴着曲线走。</li></ul>
+<p>看图时先问一句：<strong>价格变了吗？别的因素变了吗？</strong> 两个问题的答案，决定你看的是 (a) 还是 (b)。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Shifts of the Demand Curve vs. Movement Along the Demand Curve
+---
+Copyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved</pre></details>
+</section><section class="slide" id="s54" data-n="54">
+  <div class="slide-head"><span class="pno">P54</span><span class="ptitle">Seller behavior and the supply curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-054.webp" alt="第54页"><figcaption>课件第 54 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页：<strong>卖方行为与供给曲线</strong>（Seller behavior and the supply curve）。</p>
+<p>备注说得很清楚：到这里你已经理解了买方的行为；要看清一个市场的全貌，还必须研究卖方；正是买卖双方的<strong>相互作用</strong>决定了市场价格。</p>
+<p>接下来几页的结构与需求侧完全对称：<a class="term" href="glossary.html#t-quantity-supplied" data-t="quantity-supplied">供给量</a> → 供给曲线 → <a class="term" href="glossary.html#t-law-of-supply" data-t="law-of-supply">供给定律</a> → <a class="term" href="glossary.html#t-willingness-to-accept" data-t="willingness-to-accept">卖方保留价格</a> → 市场供给 → 加总 → 移动因素。学的时候可以两两对照着记。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Seller behavior and thesupply curve</pre></details>
+</section><section class="slide" id="s55" data-n="55">
+  <div class="slide-head"><span class="pno">P55</span><span class="ptitle">Quantity supplied</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-055.webp" alt="第55页"><figcaption>课件第 55 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>卖方这边的概念与买方<strong>完全对称</strong>。</p>
+<p><strong>供给量</strong>（quantity supplied）：在<strong>给定价格</strong>下，卖方<strong>愿意供给</strong>的商品或服务数量。</p>
+<p>对照记忆：</p>
+<ul><li>需求量 = 给定价格下买方<strong>愿意买</strong>多少；</li><li>供给量 = 给定价格下卖方<strong>愿意卖</strong>多少。</li></ul>
+<p>两个定义都带「给定价格」，都讲「愿意」。所以下面要问的问题也一样：这个「愿意」的数量，随价格怎么变？</p>
+<p>再补一句容易忽略的：供给量是<strong>计划量</strong>，不是实际卖出去的量。卖方想卖 100 万桶，市场只买走 80 万桶，供给量仍然是 100 万桶——多出来的 20 万桶变成库存，正是后面「<a class="term" href="glossary.html#t-excess-supply" data-t="excess-supply">超额供给</a>」那一页要讲的东西。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Quantity supplied
+---
+The concepts are similar for sellers
+At a given price, the amount of the good or service that sellers are willing to supply is called the quantity supplied.</pre></details>
+</section><section class="slide" id="s56" data-n="56">
+  <div class="slide-head"><span class="pno">P56</span><span class="ptitle">Example: ExxonMobil</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-056.webp" alt="第56页"><figcaption>课件第 56 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>用 <strong>ExxonMobil</strong>（埃克森美孚）做例子。</p>
+<p>现象：<strong>油价上涨时，ExxonMobil 更愿意供给那些开采成本较高的石油</strong>。</p>
+<p>为什么？因为一个油田能不能赚钱，取决于「卖价」和「开采成本」的比较。高价时，原本不划算的难采油田变得划算，公司就会去开采；低价时，这些油田会被闲置。</p>
+<p>这句话里藏着供给曲线向上倾斜的全部原因：<strong>不同单位的生产成本不同</strong>，价格必须涨到足够高，才值得把高成本的那部分产量拿出来。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Example: ExxonMobil
+---
+Think about a company ExxonMobil  
+When the price of oil goes up, ExxonMobil increases its willingness to supply oil that is relatively expensive for the company to discover and extract.</pre></details>
+</section><section class="slide" id="s57" data-n="57">
+  <div class="slide-head"><span class="pno">P57</span><span class="ptitle">Example: ExxonMobil</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-057.webp" alt="第57页"><figcaption>课件第 57 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>具体到什么程度？课件给了一个让人印象深刻的例子。</p>
+<ul><li>有些石油在<strong>深海</strong>：海水深 <strong>2 英里</strong>，油层还在海底之下<strong>8 英里</strong>。</li><li>打这种井要用专用船，船长<strong>两个足球场</strong>，配备<strong>数百名工人</strong>和机器人化的无人潜艇。</li><li>因为费用极其巨大，这种井只有在油价<strong>超过 60 美元/桶</strong>时才会开钻。</li></ul>
+<p>这就把「边际成本」变成了看得见的东西：60 美元不是随便定的数字，它是那一层油田的<strong>成本线</strong>。油价在 60 以下，这部分供给就是零；一旦越过 60，它才进入市场。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Example: ExxonMobil
+---
+Some oil is in deep-water locations where the ocean depth is 2 miles and the oil is another 8 miles below the seafloor.
+Such wells are drilled by specialized ships two football fields long, which are staffed by hundreds of workers and equipped with robotic, unmanned submarines. 
+Because of the enormous expense, such wells are only drilled when the price of oil is over $60 per barrel.</pre></details>
+</section><section class="slide" id="s58" data-n="58">
+  <div class="slide-head"><span class="pno">P58</span><span class="ptitle">The supply curve and law of supply</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-058.webp" alt="第58页"><figcaption>课件第 58 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>供给曲线</strong>（supply curve）：把不同价格下的供给量画出来的曲线。</p>
+<p><strong>供给定律</strong>（Law of Supply）：在几乎所有情况下，价格上升时供给量上升（其他条件不变）。</p>
+<p>与需求定律正好相反：需求曲线向下倾斜，供给曲线<strong>向上倾斜</strong>。</p>
+<p>原因上一页已经给了：生产成本不同的产能排成一条队，价格从低到高，被「叫醒」的产能越来越多。所以价格越高，愿意供给的数量越大。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The supply curve and law of supply
+---
+The supply curve plots the quantity supplied at different prices. 
+Law of Supply: In almost all cases, the quantity supplied rises when the price rises (holding all else equal).</pre></details>
+</section><section class="slide" id="s59" data-n="59">
+  <div class="slide-head"><span class="pno">P59</span><span class="ptitle">Willingness to accept</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-059.webp" alt="第59页"><figcaption>课件第 59 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>卖方保留价格</strong>（willingness to accept, WTA）：卖方愿意接受的最低价格，低于这个价他就不卖。</p>
+<p>三个等价的说法，都要记住：</p>
+<ul><li>在某个给定供给量上，<strong>供给曲线的高度</strong>就是 WTA。</li><li>WTA 就是<strong>边际生产成本</strong>（marginal cost of production）。</li><li>所以供给曲线的高度 = 生产最后一单位的成本。</li></ul>
+<p>与买方的 WTP 对照：需求曲线高度 = 买方对最后一单位的<strong>估值</strong>；供给曲线高度 = 卖方生产最后一单位的<strong>成本</strong>。两个高度一夹，就是「这笔交易是否值得做」的判断标准。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Willingness to accept
+---
+Willingness to accept is the lowest price that a seller is willing to get paid to sell an extra unit of a good.
+At a particular quantity supplied, willingness to accept is the height of the supply curve. 
+Willingness to accept is the same as the marginal cost of production.</pre></details>
+</section><section class="slide" id="s60" data-n="60">
+  <div class="slide-head"><span class="pno">P60</span><span class="ptitle">Market supply curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-060.webp" alt="第60页"><figcaption>课件第 60 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>市场供给曲线</strong>（market supply curve）：所有潜在卖者个人供给曲线的<strong>和</strong>。</p>
+<p>它描述<strong>总供给量</strong>与市场价格的关系，其他条件不变。</p>
+<p>和市场需求一样，加总的方式是<strong>横向相加</strong>：在同一个价格上，把所有卖者的供给量加起来。</p>
+<p>于是市场供给曲线比任何单个卖者的曲线都更<strong>平</strong>——价格稍微变动，参与的卖者多了，数量反应就更大。下一页用表和图把这个过程做一遍。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Market supply curve
+---
+The market supply curve is the sum of the individual supply curves of all the potential sellers. 
+It plots the relationship between the total quantity supplied and the market price, holding all else equal.</pre></details>
+</section><section class="slide" id="s61" data-n="61">
+  <div class="slide-head"><span class="pno">P61</span><span class="ptitle">两个卖者的供给表相加</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-061.webp" alt="第61页"><figcaption>课件第 61 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>两个卖者的供给表相加：</p>
+<table class="tbl"><thead><tr><th>价格（美元/桶）</th><th>Chevron</th><th>ExxonMobil</th><th>总供给</th></tr></thead><tbody><tr><td>10</td><td>0.0</td><td>0.0</td><td>0.0</td></tr><tr><td>25</td><td>0.4</td><td>0.6</td><td>1.0</td></tr><tr><td>50</td><td>0.7</td><td>1.0</td><td>1.7</td></tr><tr><td>75</td><td>0.9</td><td>1.2</td><td>2.1</td></tr></tbody></table>
+<p>（单位：十亿桶/年）</p>
+<p>读表：$10 时两家都不供（低于成本）；$25 时合计 1.0；$75 时合计 2.1。</p>
+<p>注意 $10 那一行的两个 0.0 不是数据缺失，而是<strong>真的不供</strong>：这个价格低于两家开采的最低边际成本，采一桶亏一桶，理性的选择是产量为零。所以三条供给曲线在低价段都贴着纵轴，价格升过某个门槛之后才开始离开原点、出现正的供给量。</p>
+<p>下面三张图：Chevron 的曲线、ExxonMobil 的曲线、以及总供给曲线。总曲线在每一价格上横坐标等于两者之和，因此更平缓；三条线都从接近零的低价水平起步、向上弯曲（边际成本递增）。</p></div>
+</section><section class="slide" id="s62" data-n="62">
+  <div class="slide-head"><span class="pno">P62</span><span class="ptitle">把加总推到整个市场</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-062.webp" alt="第62页"><figcaption>课件第 62 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把加总推到整个市场，就得到<strong>石油市场的供给曲线</strong>。</p>
+<p>纵轴：美元/桶（0–125）；横轴：十亿桶/年（0–50）。</p>
+<p>曲线从很低的价位（约 5 美元）起步，缓慢上升，到 30 以后开始变陡，在 <strong>$50 处对应 35 十亿桶/年</strong>。</p>
+<p>请把这个点和 P49 需求曲线上的点对照：<strong>同一个（$50，35）</strong>。这不是巧合，下一页就要让两条线相交。供给曲线的向上弯曲，来自 P57 讲的那个道理：越贵的产能，越要等价格足够高才被启用。</p></div>
+</section><section class="slide" id="s63" data-n="63">
+  <div class="slide-head"><span class="pno">P63</span><span class="ptitle">Factors shifting supply</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-063.webp" alt="第63页"><figcaption>课件第 63 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>使供给曲线<strong>移动</strong>的因素（shift factors）：</p>
+<ul><li>生产该商品所用<strong>投入品的价格</strong></li><li>生产该商品的<strong>技术</strong></li><li><strong>卖者的数量与规模</strong></li><li><strong>卖者对未来的预期</strong></li></ul>
+<p>注意与需求侧对照：需求有五个（多了「偏好」和「收入」，少了「技术」），供给有四个。技术进步 → 成本下降 → 供给右移；投入品（工资、电价、原油）涨价 → 成本上升 → 供给左移。</p>
+<p>记忆方法：供给侧只关心两件事——「能不能便宜地生产出来」和「有多少人在生产」。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Factors shifting supply
+---
+The supply curve shifts when these variables change:
+• Prices of inputs used to produce the good
+• Technology used to produce the good
+• Number and scale of sellers
+• Sellers’ beliefs about the future</pre></details>
+</section><section class="slide" id="s64" data-n="64">
+  <div class="slide-head"><span class="pno">P64</span><span class="ptitle">Supply and Demand in Equilibrium</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-064.webp" alt="第64页"><figcaption>课件第 64 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页：<strong>供给与需求在均衡中</strong>（Supply and Demand in Equilibrium）。</p>
+<p>到这里，买方和卖方各自的行为都讲完了：给定价格，买方想买多少（需求曲线），卖方想卖多少（供给曲线）。</p>
+<p>但两条曲线还是分开的。接下来要把它们放进同一张图，回答那个最实际的问题：<strong>价格到底会是多少？</strong></p>
+<p>这一部分的路线：先讲交点与价格如何收敛到交点（P65–P71），再用四个例子练习曲线移动（P72–P81），最后看政府干预价格会发生什么（P82–P86）。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Supply and Demand in Equilibrium</pre></details>
+</section><section class="slide" id="s65" data-n="65">
+  <div class="slide-head"><span class="pno">P65</span><span class="ptitle">Putting it together</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-065.webp" alt="第65页"><figcaption>课件第 65 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>先把问题明确列出来：</p>
+<ul><li>我们还没有解释如何把市场的<strong>两侧</strong>放在一起。</li><li>买方和卖方如何<strong>相互作用</strong>？</li><li>什么决定了他们成交的<strong>市场价格</strong>？</li><li>什么决定了买方买走、卖方卖出的<strong>数量</strong>？</li></ul>
+<p>四个问题，其实就是两个未知数：P 和 Q。供给需求框架的全部内容，就是用两条曲线解出这两个未知数。</p>
+<p>这里要提醒一个思维习惯上的错误：价格和数量是<strong>同时</strong>被决定的，不能先定价格、再「由此推出」数量，也不能先定数量、再问「该卖多少钱」。它们只是同一条交点坐标的两个分量。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Putting it together
+---
+We haven’t explained how to put the two sides of the market together. 
+How do buyers and sellers interact? 
+What determines the market price at which they trade? 
+What determines the quantity of goods bought by buyers and sold by sellers?</pre></details>
+</section><section class="slide" id="s66" data-n="66">
+  <div class="slide-head"><span class="pno">P66</span><span class="ptitle">Putting it together</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-066.webp" alt="第66页"><figcaption>课件第 66 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>方法：把<strong>市场需求曲线</strong>和<strong>市场供给曲线</strong>放进同一张图。</p>
+<p>继续使用<strong>完全竞争市场</strong>的假设，后面简称为「<strong>竞争市场</strong>」（competitive market）。</p>
+<p>为什么这里要强调这个假设？因为均衡的推导要用到「双方都是价格接受者」：只有接受价格的人，才会在价格高于均衡时竞相降价、低于均衡时竞相加价，把价格推回交点。没有这个假设，「均衡」只是一个几何交点，没有行为基础。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Putting it together
+---
+We will use the market demand curve and the market supply curve to answer these questions. 
+We’ll continue to study a perfectly competitive market, which we’ll refer to as a “competitive market.”</pre></details>
+</section><section class="slide" id="s67" data-n="67">
+  <div class="slide-head"><span class="pno">P67</span><span class="ptitle">图上的结果</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-067.webp" alt="第67页"><figcaption>课件第 67 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>图上的结果：</p>
+<ul><li>蓝色<strong>需求曲线</strong>向下倾斜，红色<strong>供给曲线</strong>向上倾斜；</li><li>两线<strong>交于一点</strong>：价格 <strong>$50/桶</strong>，数量 <strong>35 十亿桶/年</strong>；</li><li>因为一条向下、一条向上，两条线<strong>只有一个交点</strong>。</li></ul>
+<p>术语：</p>
+<ul><li>交点叫<strong>竞争均衡</strong>（competitive equilibrium）；</li><li>交点对应的价格叫<strong><a class="term" href="glossary.html#t-market-clearing-price" data-t="market-clearing-price">均衡价格</a></strong>，也叫<strong>市场出清价格</strong>（market clearing price）——在这个价格上，每一个被供给出来的单位都能找到买者，市场「出清」；</li><li>对应的数量叫<strong>均衡数量</strong>。</li></ul></div>
+</section><section class="slide" id="s68" data-n="68">
+  <div class="slide-head"><span class="pno">P68</span><span class="ptitle">Equilibrium</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-068.webp" alt="第68页"><figcaption>课件第 68 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>为什么叫「<strong>均衡</strong>」（equilibrium）？因为这个状态<strong>没有内在的变动力量</strong>：谁都没有动机单方面改变自己的行为。</p>
+<p>这里有一个<strong>重要假设</strong>必须点明：买方和卖方都是<strong>价格接受者</strong>。正因为他们是价格接受者，价格一旦偏离均衡，才会有人按「少买一点 / 少卖一点」的方式作出反应，从而产生把价格推回去的力量。</p>
+<p>如果厂商有定价权（垄断），情况就不同了——那时「均衡」的含义要重新定义，这是后面章节的内容。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Equilibrium
+---
+Why do we say this is an equilibrium, or this situation is in equilibrium?
+Note: Actually there is an important assumption here: that buyers and sellers are price takers.</pre></details>
+</section><section class="slide" id="s69" data-n="69">
+  <div class="slide-head"><span class="pno">P69</span><span class="ptitle">现在检验均衡的稳定性</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-069.webp" alt="第69页"><figcaption>课件第 69 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>现在检验均衡的稳定性：假设价格暂时停在 <strong>$70</strong>（高于均衡的 $50）。</p>
+<p>读图：</p>
+<ul><li>在 $70，供给量 = <strong>38</strong> 十亿桶；</li><li>需求量 = <strong>29</strong> 十亿桶；</li><li>差额 = <strong>9 十亿桶</strong>卖不出去。</li></ul>
+<p>这个差额叫<strong>超额供给</strong>（excess supply），图上用大括号标出。</p>
+<p>后果：每年有 9 十亿桶油卖不掉，全球库存开始堆积。库存压力会推动价格<strong>下降</strong>。</p>
+<p>现实里价格为什么会暂时停在 $70？战争、禁运，或者产油国联合限产（卡特尔定价），都可能把价格顶到均衡之上——本讲后面利比亚那个例子就是一例。</p></div>
+</section><section class="slide" id="s70" data-n="70">
+  <div class="slide-head"><span class="pno">P70</span><span class="ptitle">为什么价格一定会降？备注补充了机制</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-070.webp" alt="第70页"><figcaption>课件第 70 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>为什么价格一定会降？备注补充了机制。</p>
+<ul><li>现有的储油罐规模有限，而且建罐很贵——卖家没法一直把卖不掉的油存着。</li><li>于是卖家开始<strong>互相压价</strong>（undercutting each other's prices），只为把不断增加的库存清掉。</li><li>价格下跌，一直跌到回到 <strong>$50</strong> 的均衡价格为止。</li></ul>
+<p>这个调整过程通常<strong>不会持续很久</strong>，因为库存成本很高，压价的压力很急。</p>
+<p>注意这里的因果链：超额供给 → 库存上升 → 卖家竞相降价 → 价格下降 → 供给量减少、需求量增加 → 缺口缩小。</p></div>
+</section><section class="slide" id="s71" data-n="71">
+  <div class="slide-head"><span class="pno">P71</span><span class="ptitle">相反的情形</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-071.webp" alt="第71页"><figcaption>课件第 71 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>相反的情形：价格暂时停在 <strong>$30</strong>（低于均衡）。</p>
+<ul><li>供给量 = <strong>30</strong> 十亿桶；</li><li>需求量 = <strong>44</strong> 十亿桶；</li><li>差额 = <strong>14 十亿桶</strong>买不到。</li></ul>
+<p>这个差额叫<strong>超额需求</strong>（excess demand），图上用大括号标出。</p>
+<p>后果：想买而买不到的买家会<strong>互相竞价</strong>（offering to pay higher prices）去抢那有限的数量，价格被推高，一直到 <strong>$50</strong> 为止。</p>
+<p>所以：<strong>超额供给 → 降价；超额需求 → 涨价</strong>。两条调整方向都指向交点，这就是「均衡」的稳定性。</p></div>
+</section><section class="slide" id="s72" data-n="72">
+  <div class="slide-head"><span class="pno">P72</span><span class="ptitle">Curve Shifting in Competitive Equilibrium</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-072.webp" alt="第72页"><figcaption>课件第 72 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页：<strong>竞争均衡中的曲线移动</strong>（Curve Shifting in Competitive Equilibrium）。</p>
+<p>前半段我们把框架搭好了：两条曲线、一个交点、一套把价格推回交点的机制。</p>
+<p>但框架本身只是工具。接下来要用它分析真实世界的冲击：供给移动、<a class="term" href="glossary.html#t-demand-shift" data-t="demand-shift">需求移动</a>、两条线同时移动，以及——价格被管制时会发生什么。</p>
+<p>顺序是：先看一条曲线动，再看两条一起动，最后看政府不许价格动。每做一次，都要回答同样两个问题——价格往哪走、数量往哪走。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Curve Shifting in Competitive Equilibrium</pre></details>
+</section><section class="slide" id="s73" data-n="73">
+  <div class="slide-head"><span class="pno">P73</span><span class="ptitle">Putting it to work</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-073.webp" alt="第73页"><figcaption>课件第 73 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>老师先泼了一盆冷水：<strong>供给—需求—均衡这个框架本身并不怎么有趣</strong>。</p>
+<p>它只是一张图、两条线、一个交点。任何一个学过的人都能画出来。</p>
+<p>真正有意思的是：我们可以用这个框架去分析现实中发生的<strong>各种情况</strong>——战争、技术突破、偏好变化、政策干预——并给出「价格会怎么变、数量会怎么变」的预测。</p>
+<p>接下来四个例子，就是四次「用框架」的练习。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Putting it to work
+---
+The demand-supply-equilibrium framework by itself is not very interesting.
+What is more interesting is that we can use this framework to analyze different kinds of situations that happens in the real world.</pre></details>
+</section><section class="slide" id="s74" data-n="74">
+  <div class="slide-head"><span class="pno">P74</span><span class="ptitle">Putting it to work</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-074.webp" alt="第74页"><figcaption>课件第 74 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>例 1：世界石油市场受到冲击。</strong></p>
+<p>问题：如果一个主要石油出口国<strong>突然停止生产</strong>，均衡价格和均衡数量会怎么变？</p>
+<p>课件给的现实版本：<strong>2011 年的利比亚</strong>。内战导致利比亚石油产量骤降、出口中断。</p>
+<p>分析思路（先想再画）：这是<strong>供给侧</strong>的冲击——在任何给定价格下，市场上可供给的石油变少了，所以<strong>供给曲线左移</strong>。需求曲线不动。下一页画图。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Putting it to work
+---
+We’d like to know how a shock to the world oil market will affect the equilibrium quantity and the equilibrium price of oil.
+Example: 
+What would happen if a major oil exporter suddenly stopped production, as Libya did in 2011?</pre></details>
+</section><section class="slide" id="s75" data-n="75">
+  <div class="slide-head"><span class="pno">P75</span><span class="ptitle">A Leftward Shift of the Supply Curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-075.webp" alt="第75页"><figcaption>课件第 75 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>图上的三步，课件用箭头标得很清楚：</p>
+<ol><li><strong>首先</strong>，供给曲线<strong>左移</strong>（old supply curve → new supply curve）；</li><li><strong>然后</strong>，新的均衡要<strong>沿着需求曲线</strong>移动才能达到（蓝色小箭头沿需求曲线向上）；</li><li>结果：<strong>价格上升</strong>（左侧向上箭头），<strong>数量下降</strong>（下方向左箭头）。</li></ol>
+<p>新的均衡点是「新供给曲线」与「原需求曲线」的交点，位于旧均衡点的<strong>左上方</strong>。</p>
+<p>结论：供给冲击 → 价格涨、数量跌。这解释了为什么产油国出事时油价会跳涨。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>A Leftward Shift of the Supply Curve
+---
+Copyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved</pre></details>
+</section><section class="slide" id="s76" data-n="76">
+  <div class="slide-head"><span class="pno">P76</span><span class="ptitle">Putting it to work</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-076.webp" alt="第76页"><figcaption>课件第 76 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>例 2：技术突破。</strong></p>
+<p>问题：如果技术突破使<strong>供给曲线右移</strong>，会发生什么？</p>
+<p>这是例 1 的镜像：冲击同样来自供给侧，但方向相反——在任何给定价格下，生产者能供给的数量更多了。</p>
+<p>先自己想答案再翻页：供给右移，沿需求曲线向下移动，<strong>价格下降、数量上升</strong>。技术进步的受益者里，消费者拿到的是更低的价格，生产者拿到的是更大的销量。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Putting it to work
+---
+Example 2:
+What would happen if a technological breakthrough shifted the supply curve to the right?</pre></details>
+</section><section class="slide" id="s77" data-n="77">
+  <div class="slide-head"><span class="pno">P77</span><span class="ptitle">Technological Breakthroughs</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-077.webp" alt="第77页"><figcaption>课件第 77 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这个「假设情形」在 <strong>2011–2016 年真的发生了</strong>。</p>
+<ul><li>部分原因是<strong>水力压裂</strong>（fracking）开采技术的繁荣。</li><li>压裂技术让美国的石油产量在 2011 到 2016 年间增加了 <strong>70%</strong>。</li><li>这场繁荣使<strong>全球石油供给曲线右移</strong>，在把油价从 2011 年的 <strong>100 美元/桶</strong>压到 2016 年的 <strong>50 美元/桶</strong>上起了重要作用。</li></ul>
+<p>这个例子的价值在于：它不是「假设」推演，而是模型的预测与真实数据对上了。这是检验理论的方式。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Technological Breakthroughs
+---
+From 2011 to 2016 the supply-curve shift actually occurred
+Partly due to a boom in fracking-based oil extraction. 
+Fracking enabled the United States to increase oil production by 70 percent from 2011 to 2016 
+The fracking boom contributed to a rightward shift in the worldwide supply curve for oil, which played an important role in driving oil prices down from $100 per barrel in 2011 to $50 in 2016.</pre></details>
+</section><section class="slide" id="s78" data-n="78">
+  <div class="slide-head"><span class="pno">P78</span><span class="ptitle">Exhibit 4.14 A Rightward Shift of the Supply Curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-078.webp" alt="第78页"><figcaption>课件第 78 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>Exhibit 4.14</strong> 把例 2 画成图。</p>
+<ul><li>供给曲线从「old supply curve」<strong>右移</strong>到「new supply curve」（橙色箭头向右）。</li><li>需求曲线不动。</li><li>新均衡沿需求曲线<strong>向下</strong>移动（蓝色小箭头）。</li><li>结果：<strong>价格下降</strong>（左侧向下箭头），<strong>数量增加</strong>（下方向右箭头）。</li></ul>
+<p>与 P75 对照记忆：<strong>供给左移 = 价涨量跌；供给右移 = 价跌量增</strong>。价格与数量的方向永远相反，因为需求曲线向下倾斜。</p>
+<p>读图顺序建议固定下来：先标出旧交点，再把整条供给曲线往右推，最后让新交点落在原来的需求曲线上。不要一上来就猜价格，先让图说话。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Exhibit 4.14 A Rightward Shift of the Supply Curve
+---
+Copyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved</pre></details>
+</section><section class="slide" id="s79" data-n="79">
+  <div class="slide-head"><span class="pno">P79</span><span class="ptitle">Shift in taste</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-079.webp" alt="第79页"><figcaption>课件第 79 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>例 3：偏好变化</strong>（shift in taste）。</p>
+<p>问题：如果环保意识上升、加上新的节能技术，使消费者在<strong>任何给定价格</strong>下都用更少的油，会发生什么？</p>
+<p>关键词是「在任何给定价格下」——这正是曲线移动的定义。所以这是<strong>需求侧</strong>的冲击：<strong>需求曲线左移</strong>。</p>
+<p>注意区分：如果是油价本身上涨导致用油减少，那是沿曲线移动；这里说的是人们的<strong>偏好和技术</strong>变了，与价格无关。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Shift in taste
+---
+For example
+what would happen if rising environmental concerns and new energy-saving technologies led consumers to use less oil at any given price?</pre></details>
+</section><section class="slide" id="s80" data-n="80">
+  <div class="slide-head"><span class="pno">P80</span><span class="ptitle">A Leftward Shift of the Demand Curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-080.webp" alt="第80页"><figcaption>课件第 80 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>图上的推演：</p>
+<ul><li>需求曲线从「old demand curve」<strong>左移</strong>到「new demand curve」；</li><li>供给曲线不动；</li><li>新均衡沿供给曲线<strong>向下</strong>移动；</li><li>结果：<strong>价格下降</strong>、<strong>数量下降</strong>——两个都降。</li></ul>
+<p>这是需求左移的标准结论：<strong>价跌量减</strong>。</p>
+<p>与 P75（供给左移，价涨量跌）对比：同样是「数量下降」，但价格方向相反。这就是为什么分析冲击时，必须先判断冲击在哪一侧。</p>
+<p>另外一个容易混的地方：需求左移之后，成交的<strong>供给量</strong>也少了。但那是沿供给曲线移动的结果，供给曲线本身没有动。移动（shift）与沿曲线移动（movement along）的区别，在这里第二次派上用场。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>A Leftward Shift of the Demand Curve
+---
+Copyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved</pre></details>
+</section><section class="slide" id="s81" data-n="81">
+  <div class="slide-head"><span class="pno">P81</span><span class="ptitle">The Demand Curve Shifts Left and the Supply Curve Shifts Right</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-081.webp" alt="第81页"><figcaption>课件第 81 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>现实中，两条曲线<strong>常常同时移动</strong>。</p>
+<p>课件给的例子：压裂革命让石油<strong>供给右移</strong>的同时，环保意识和节能技术让石油<strong>需求左移</strong>。</p>
+<p>图上三种情形 (a)(b)(c) 画的都是「需求左移 + 供给右移」：</p>
+<ul><li><strong>价格</strong>：三种情形都<strong>下降</strong>（两条移动都指向低价，方向一致，结论确定）。</li><li><strong>数量</strong>：不确定。(a) 数量减少（需求左移幅度大）；(b) 数量不变（两股力量正好抵消）；(c) 数量增加（供给右移幅度大）。</li></ul>
+<p>这就是「双移动」的一般规律：<strong>方向一致的效果可以确定，方向相反的效果不确定</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Demand Curve Shifts Left and the Supply Curve Shifts Right
+---
+Copyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved</pre></details>
+</section><section class="slide" id="s82" data-n="82">
+  <div class="slide-head"><span class="pno">P82</span><span class="ptitle">Price control</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-082.webp" alt="第82页"><figcaption>课件第 82 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong><a class="term" href="glossary.html#t-price-ceiling-2" data-t="price-ceiling-2">价格管制</a></strong>（price control）——老师抛出问题：</p>
+<blockquote>如果政府试图<strong>直接规定价格</strong>，会发生什么？</blockquote>
+<p>前面所有的分析都建立在一个隐含前提上：价格可以自由调整。一旦这个前提被拿掉，供给和需求曲线还在，但「交点」不再自动实现。</p>
+<p>这是本讲最后一个、也是最现实的话题：模型告诉我们价格该在哪儿，现实却常常不让它去那儿。</p>
+<p>价格管制主要有两类：<strong><a class="term" href="glossary.html#t-price-ceiling" data-t="price-ceiling">价格上限</a></strong>（price ceiling，不许卖得比它更贵，如 1973 年的汽油限价）和<strong><a class="term" href="glossary.html#t-price-floor" data-t="price-floor">价格下限</a></strong>（price floor，不许卖得比它更便宜，如最低工资）。这一讲重点讲上限。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Price control
+---
+What would happen if the government tried to dictate the price?</pre></details>
+</section><section class="slide" id="s83" data-n="83">
+  <div class="slide-head"><span class="pno">P83</span><span class="ptitle">Price control</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-083.webp" alt="第83页"><figcaption>课件第 83 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>先把前面的结论复述清楚：</p>
+<ul><li>竞争市场最终会停在<strong>竞争均衡</strong>——供给曲线与需求曲线<strong>相交</strong>的那一点；</li><li>但这<strong>只有在价格被允许对市场压力作出反应</strong>时才会发生。</li></ul>
+<p>「允许价格反应」不是废话，它是均衡机制的工作条件。价格不能动，超额供给或超额需求就无法通过价格调整消失，只能通过<strong>其他方式</strong>（排队、配给、<a class="term" href="glossary.html#t-underground-economy" data-t="underground-economy">黑市</a>）来消化。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Price control
+---
+Our analysis has concluded that competitive markets will end up at the competitive equilibrium—the point where the supply and the demand curves cross. 
+But this can happen only if prices are allowed to respond to market pressures.</pre></details>
+</section><section class="slide" id="s84" data-n="84">
+  <div class="slide-head"><span class="pno">P84</span><span class="ptitle">Price control</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-084.webp" alt="第84页"><figcaption>课件第 84 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>但现实是：有些市场的价格<strong>不是</strong>由供求决定的，而是由<strong>法律、法规或社会规范</strong>设定的。</p>
+<ul><li>法律：<a class="term" href="glossary.html#t-rent-control" data-t="rent-control">房租管制</a>、最低工资、油价上限。</li><li>法规：公用事业定价、药品最高零售价。</li><li>社会规范：某些场合「不能涨价」的默契（比如灾后不涨矿泉水价）。</li></ul>
+<p>经济学家的态度是：<strong>所有市场都值得研究</strong>，包括那些不被允许达到竞争均衡的市场。因为一旦价格被钉住，模型仍然能预测<strong>会出现什么别的现象</strong>——这正是它的用处。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Price control
+---
+However, some markets have prices that are set by laws, regulations, or social norms.
+Economists are interested in the way that all markets work, even markets that are not allowed to reach a competitive equilibrium.</pre></details>
+</section><section class="slide" id="s85" data-n="85">
+  <div class="slide-head"><span class="pno">P85</span><span class="ptitle">Price control</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-085.webp" alt="第85页"><figcaption>课件第 85 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>具体案例：<strong>1973–1974 年美国石油危机</strong>（第一次石油危机）。</p>
+<ul><li>美国政府实质上<strong>压住了汽油价格</strong>（capped the price of gasoline）；</li><li>结果：<strong>需求量超过供给量</strong>（quantity demanded exceeds quantity supplied）；</li><li>这种「价格被规定在均衡价格之下」的政策，叫<strong>价格上限</strong>（price ceiling）。</li></ul>
+<p>机制很清楚：价格被压在均衡之下 → 供给量减少、需求量增加 → 出现<strong>短缺</strong>（shortage）。而短缺不会让市场消失，只会换一种配给方式。</p>
+<p>背景值得补一句：1973 年第四次中东战争期间，阿拉伯产油国对西方禁运，供给曲线左移，油价本来就该涨；价格上限恰好把「涨价」这条调节通道堵死了，于是缺口只能以非价格的方式暴露出来。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Price control
+---
+During the U.S. oil crisis of 1973–1974 (第一次石油危机）, the U.S. government effectively capped the price of gasoline, causing quantity demanded to exceed quantity supplied. 
+This is referred to as a price ceiling.</pre></details>
+</section><section class="slide" id="s86" data-n="86">
+  <div class="slide-head"><span class="pno">P86</span><span class="ptitle">最后一页是一张照片</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec02/slide-086.webp" alt="第86页"><figcaption>课件第 86 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>最后一页是一张照片：<strong>1973 年底</strong>，一家 Hess 加油站外，汽车排成长队等着加油。图注写着：美国政府实质上给汽油价格设了上限，制造出<strong>超额需求</strong>的局面。</p>
+<p>这张照片就是 P85 的实证：价格不能涨，短缺就以<strong>排队</strong>的形式出现。</p>
+<p>补充一句考点：价格上限之下，短缺通常伴随三种非价格配给——<strong>排队</strong>（浪费时间）、<strong>黑市</strong>（高于上限的私下交易）、<strong>质量下降</strong>（卖家没有动力维持品质）。价格被压住了，竞争并没有消失，只是从价格竞争变成了别的竞争。</p></div>
+</section>
+    <footer class="end">
+      <p>本讲结束。<a href="lec03.html">继续：L3 消费者 →</a></p>
+    </footer>
+  </main>
+</div>
+
+<aside id="ask-panel" class="ask-panel" aria-hidden="true">
+  <div class="ask-head">
+    <b>问老师</b>
+    <span class="ask-tag">DeepSeek</span>
+    <button id="ask-close" type="button" title="关闭">×</button>
+  </div>
+  <div class="ask-setup" id="ask-setup">
+    <p>第一次用要先填一个 DeepSeek API Key，它只存在你本机的浏览器里，直接发往 <code>api.deepseek.com</code>，不经过任何中间服务器。</p>
+    <label>API Key<input id="ask-key" type="password" placeholder="sk-..." autocomplete="off"></label>
+    <label>模型<select id="ask-model">
+      <option value="deepseek-chat">deepseek-chat（快，够用）</option>
+      <option value="deepseek-reasoner">deepseek-reasoner（慢，会推理）</option>
+    </select></label>
+    <button id="ask-save" type="button">保存并开始</button>
+    <p class="ask-note">没有 Key？去 <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">platform.deepseek.com</a> 建一个。</p>
+  </div>
+  <div class="ask-log" id="ask-log"></div>
+  <div class="ask-foot">
+    <label class="ask-ctx"><input type="checkbox" id="ask-ctx" checked> 带上当前页内容</label>
+    <div class="ask-input">
+      <textarea id="ask-text" rows="2" placeholder="比如：为什么 MR 会比价格低？"></textarea>
+      <button id="ask-send" type="button">发</button>
+    </div>
+  </div>
+</aside>
+<div id="lightbox" class="lightbox"><img id="lbimg" alt=""></div>
+<script src="glossary-data.js"></script>
+<script src="app.js"></script>
+</body></html>

@@ -1,0 +1,385 @@
+=== P1 (80 chars) ===
+MicroeconomicsLecture 2
+---
+Mohan Zhou
+School of Economics 
+Zhejiang University
+=== P2 (372 chars) ===
+Optimization techniques
+---
+Last time, we described that economics is the study of choice.
+We also talked about an important principle: people do optimization when the make choices.  
+Whatever choices people face, economists believe that they will try to choose optimally.
+We use this behavioral assumption (people optimize) as a tool to predicting the behavior of people.
+=== P3 (428 chars) ===
+Optimization techniques
+---
+We can think optimization in two different ways:
+The two different techniques would, of course, yield identical answers.
+1. calculates the total value of each feasible option and then picks the option with the greatest total value. 
+2. marginal analysis, which we explain later in the chapter—focuses on differences among the feasible options and finds the best option by analyzing these differences.
+=== P4 (0 chars) ===
+
+=== P5 (0 chars) ===
+
+=== P6 (391 chars) ===
+Calculating opportunity cost
+---
+First step:  
+sum the cost of rent and the cost of commuting time to calculate the total cost of each apartment. 
+The total cost includes the direct cost of rent and the indirect cost of commute time. 
+But before doing that, we need to assign a common unit of measurement to both costs: dollar, for example
+Then we need to use the concept of opportunity cost
+=== P7 (135 chars) ===
+Calculating opportunity cost
+---
+Assumptions:
+The opportunity cost of commuting time is 10$/hour.
+We will revisit this assumption later
+=== P8 (0 chars) ===
+
+=== P9 (102 chars) ===
+We call the best feasible choice the optimum, which you can see labeled on the total cost curve below.
+=== P10 (246 chars) ===
+Summary
+---
+Optimization using total value has three steps:
+1. Translate all costs and benefits into common units, like dollars or RMB. 
+2. Calculate the total net benefit of each alternative.
+3. Pick the alternative with the highest net benefit.
+=== P11 (120 chars) ===
+Effect of  a change in opportunity cost
+---
+Now, suppose the opportunity cost of one hour’s travel is instead 15 dollars
+=== P12 (0 chars) ===
+
+=== P13 (0 chars) ===
+
+=== P14 (222 chars) ===
+Optimization using marginal analysis
+---
+Optimization using marginal analysis 
+breaks an optimization problem down by thinking about how costs and benefits change as you hypothetically move from one alternative to another.
+=== P15 (342 chars) ===
+Optimization using marginal analysis
+---
+Instead of thinking about each of the apartments in isolation, let’s now compare these apartments. 
+Specifically, let’s focus on what changes as we hypothetically “move” from one apartment to the next, stepping farther away from the city center.
+What is the difference between each pair of apartments?
+=== P16 (17 chars) ===
+Marginal analysis
+=== P17 (0 chars) ===
+
+=== P18 (336 chars) ===
+Optimization at the Margin
+---
+The objective of the optimizer is to make himself as well off as possible
+By definition, optimum means you can not get any better. 
+Principle of Optimization at the Margin: an optimal feasible alternative has the property that moving to it makes you better off and moving away from it makes you worse off.
+=== P19 (32 chars) ===
+An example with functional forms
+=== P20 (7 chars) ===
+Example
+=== P21 (42 chars) ===
+Demand, supply and competitive equilibrium
+=== P22 (257 chars) ===
+The market for gas
+---
+Every year over 1 billion drivers pull into gas stations around the world. 
+These drivers almost never find that gas stations are “sold out.” 
+Most of the time, it takes less than 10 minutes to fill the tank and pull back on the road.
+=== P23 (476 chars) ===
+Nobody tells the companies that run the gas stations how many drivers to expect, and nobody tells the drivers where to fill their tanks.
+Actually, nobody has the ability to make any nearly accurate predictions about these things
+But somehow, there is almost always enough gas for every driver who wants to fill the tank. 
+Drivers get the gas they are willing to pay for, and gasoline companies make enough money to pay their employees and send dividends to their shareholders.
+=== P24 (132 chars) ===
+The market
+---
+A market is 
+a group of economic agents who are trading a good or service 
++
+ the rules and arrangements for trading.
+=== P25 (49 chars) ===
+Some markets may have specific physical locations
+=== P26 (153 chars) ===
+Different forms of market
+---
+Others may be dispersed. 
+For example, the market for gasoline is dispersed—located on every corner you find a gas station.
+=== P27 (0 chars) ===
+
+=== P28 (216 chars) ===
+Different forms of market
+---
+Some market doesn’t even have a physical form. 
+For example, Taobao operates wherever there’s a computer and an Internet connection. 
+To an economist, dating sites/apps are markets, too.
+=== P29 (420 chars) ===
+We focus the discussion on markets in which all exchanges occur voluntarily at flexible prices determined by market forces 
+This is in contrast to prices fixed by the government. 
+We are going to explains how markets use prices to allocate goods and services.
+Prices act as a selection device that encourages trade between the sellers who can produce goods at low cost and the buyers who place a high value on the goods.
+=== P30 (492 chars) ===
+Competitive Markets
+---
+Think of a city filled with hundreds of gas stations, each of which has an independent owner. 
+The gas station on your block would lose most of its business if the owner started charging $1 more per gallon than all the other stations. 
+Likewise, no one is ever going to sell you any gas if you insisted on paying $1 less per gallon than the posted price; 
+Gas station usually don’t cut deals.  Drivers of BMW and 奇瑞 pay the same price for a gallon of regular unleaded.
+=== P31 (114 chars) ===
+Market price
+---
+If all sellers and all buyers face the same price, that price is referred to as the market price.
+=== P32 (388 chars) ===
+Perfectly competitive market
+---
+Sellers all sell an identical good or service
+Any individual buyer or any individual seller isn’t powerful enough on his or her own to affect the market price. 
+This is to say that, buyers and sellers in a perfectly competitive market can only accept the market price and can’t bargain to get a better price. 
+We call such buyers and sellers price-takers.
+=== P33 (304 chars) ===
+Why study perfect competition?
+---
+Very few markets are perfectly competitive. 
+But economists try to understand such markets anyway. 
+Why would economists study a thing that rarely exists in the world? 
+The answer is that although few, if any, markets are perfectly competitive, many markets come close.
+=== P34 (254 chars) ===
+Why study perfect competition?
+---
+We are trying to answer 3 fundamental questions:
+1. How do buyers behave?
+2. How do sellers behave?
+3. How does the behavior of buyers and sellers jointly determine the market price and the quantity of goods transacted?
+=== P35 (21 chars) ===
+How Do Buyers Behave?
+=== P36 (178 chars) ===
+Price-takers
+---
+Assumption: 
+buyers are price-takers (价格接收者）
+they treat the market price as a take-it-or-leave-it （“要买就买，不买就走”） offer and don’t try to haggle to lower the price.
+=== P37 (270 chars) ===
+Price and quantity
+---
+We want to study the relationship between the price of a good and the amount of the good that buyers are willing to purchase. 
+At a given price, the amount of the good or service that buyers are willing to purchase is called the quantity demanded.
+=== P38 (118 chars) ===
+Demand curve
+---
+The demand curve plots the relationship between prices and quantity demanded, holding all else equal.
+=== P39 (0 chars) ===
+
+=== P40 (284 chars) ===
+Demand curve
+---
+The demand curve has an important property that we will see many times. 
+The price of gasoline and the quantity demanded are negatively related, which means that they move in opposite directions. 
+In other words, when one goes up, the other goes down, and vice versa.
+=== P41 (203 chars) ===
+The Law of Demand
+---
+The Law of Demand: the quantity demanded rises when the price falls (holding all else equal).
+Almost all goods have demand curves that exhibit this fundamental negative relationship
+=== P42 (505 chars) ===
+Willingness to Pay (important)
+---
+Any individual consumer’s demand curve can also be used to calculate how much he/she is willing (and able) to pay for an additional gallon of gasoline. 
+One extra gallon of gasoline is called a “marginal gallon.” 
+The height of her demand curve at any given quantity is the amount she is willing to pay for that marginal unit of the good. 
+In other words, the height of her demand curve is the value in dollars that the individual places on that last gallon of gasoline.
+=== P43 (0 chars) ===
+
+=== P44 (150 chars) ===
+Diminishing marginal benefit
+---
+Diminishing marginal benefit:
+As you consume more of a good, your willingness to pay for an additional unit declines.
+=== P45 (382 chars) ===
+Aggregated Demand Curves
+---
+Other gasoline users will also increase their consumption of gasoline as its price falls
+To study the behavior of the worldwide energy market, we need to study the worldwide demand curve for gasoline, which is equivalent to the sum of all individual demand curves. 
+Economists call this adding-up process the aggregation of the individual demand curves.
+=== P46 (132 chars) ===
+Exhibit 4.2 Aggregation of Demand Schedules and Demand Curves
+---
+Copyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved
+=== P47 (224 chars) ===
+Market demand curve
+---
+The market demand curve is the sum of the individual demand curves of all potential buyers. 
+It plots the relationship between the total quantity demanded and the market price, holding all else equal.
+=== P48 (395 chars) ===
+But economists rarely study the market demand for gasoline. 
+Economists who study energy markets recognize that the gasoline market is very closely tied to all the other markets for products produced from crude oil. 
+Jet fuel, diesel fuel, and automobile gasoline are all produced from oil. 
+Accordingly, when economists study the market for gasoline, they aggregate to the total market for oil.
+=== P49 (98 chars) ===
+Market Demand Curve for Oil
+---
+Copyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved
+=== P50 (247 chars) ===
+The “all else”
+---
+When we introduced the demand curve, we explained that it describes the relationship between price and quantity demanded, holding all else equal.
+ It’s now time to more carefully consider the “all else” that is being held fixed.
+=== P51 (251 chars) ===
+Factors shifting the demand curve
+---
+The demand curve shifts when these five major factors change:
+• Tastes and preferences
+• Income and wealth
+• Availability and prices of related goods
+• Number and scale of buyers
+• Buyers’ beliefs about the future
+=== P52 (242 chars) ===
+An important distinction
+---
+The demand curve shifts only when the quantity demanded changes at a given price.
+If a good’s own price changes and its demand curve hasn’t shifted, the own price change produces a movement along the demand curve.
+=== P53 (133 chars) ===
+Shifts of the Demand Curve vs. Movement Along the Demand Curve
+---
+Copyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved
+=== P54 (36 chars) ===
+Seller behavior and thesupply curve
+=== P55 (178 chars) ===
+Quantity supplied
+---
+The concepts are similar for sellers
+At a given price, the amount of the good or service that sellers are willing to supply is called the quantity supplied.
+=== P56 (210 chars) ===
+Example: ExxonMobil
+---
+Think about a company ExxonMobil  
+When the price of oil goes up, ExxonMobil increases its willingness to supply oil that is relatively expensive for the company to discover and extract.
+=== P57 (410 chars) ===
+Example: ExxonMobil
+---
+Some oil is in deep-water locations where the ocean depth is 2 miles and the oil is another 8 miles below the seafloor.
+Such wells are drilled by specialized ships two football fields long, which are staffed by hundreds of workers and equipped with robotic, unmanned submarines. 
+Because of the enormous expense, such wells are only drilled when the price of oil is over $60 per barrel.
+=== P58 (216 chars) ===
+The supply curve and law of supply
+---
+The supply curve plots the quantity supplied at different prices. 
+Law of Supply: In almost all cases, the quantity supplied rises when the price rises (holding all else equal).
+=== P59 (300 chars) ===
+Willingness to accept
+---
+Willingness to accept is the lowest price that a seller is willing to get paid to sell an extra unit of a good.
+At a particular quantity supplied, willingness to accept is the height of the supply curve. 
+Willingness to accept is the same as the marginal cost of production.
+=== P60 (229 chars) ===
+Market supply curve
+---
+The market supply curve is the sum of the individual supply curves of all the potential sellers. 
+It plots the relationship between the total quantity supplied and the market price, holding all else equal.
+=== P61 (0 chars) ===
+
+=== P62 (0 chars) ===
+
+=== P63 (228 chars) ===
+Factors shifting supply
+---
+The supply curve shifts when these variables change:
+• Prices of inputs used to produce the good
+• Technology used to produce the good
+• Number and scale of sellers
+• Sellers’ beliefs about the future
+=== P64 (32 chars) ===
+Supply and Demand in Equilibrium
+=== P65 (262 chars) ===
+Putting it together
+---
+We haven’t explained how to put the two sides of the market together. 
+How do buyers and sellers interact? 
+What determines the market price at which they trade? 
+What determines the quantity of goods bought by buyers and sold by sellers?
+=== P66 (219 chars) ===
+Putting it together
+---
+We will use the market demand curve and the market supply curve to answer these questions. 
+We’ll continue to study a perfectly competitive market, which we’ll refer to as a “competitive market.”
+=== P67 (0 chars) ===
+
+=== P68 (186 chars) ===
+Equilibrium
+---
+Why do we say this is an equilibrium, or this situation is in equilibrium?
+Note: Actually there is an important assumption here: that buyers and sellers are price takers.
+=== P69 (0 chars) ===
+
+=== P70 (0 chars) ===
+
+=== P71 (0 chars) ===
+
+=== P72 (41 chars) ===
+Curve Shifting in Competitive Equilibrium
+=== P73 (229 chars) ===
+Putting it to work
+---
+The demand-supply-equilibrium framework by itself is not very interesting.
+What is more interesting is that we can use this framework to analyze different kinds of situations that happens in the real world.
+=== P74 (250 chars) ===
+Putting it to work
+---
+We’d like to know how a shock to the world oil market will affect the equilibrium quantity and the equilibrium price of oil.
+Example: 
+What would happen if a major oil exporter suddenly stopped production, as Libya did in 2011?
+=== P75 (107 chars) ===
+A Leftward Shift of the Supply Curve
+---
+Copyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved
+=== P76 (122 chars) ===
+Putting it to work
+---
+Example 2:
+What would happen if a technological breakthrough shifted the supply curve to the right?
+=== P77 (434 chars) ===
+Technological Breakthroughs
+---
+From 2011 to 2016 the supply-curve shift actually occurred
+Partly due to a boom in fracking-based oil extraction. 
+Fracking enabled the United States to increase oil production by 70 percent from 2011 to 2016 
+The fracking boom contributed to a rightward shift in the worldwide supply curve for oil, which played an important role in driving oil prices down from $100 per barrel in 2011 to $50 in 2016.
+=== P78 (121 chars) ===
+Exhibit 4.14 A Rightward Shift of the Supply Curve
+---
+Copyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved
+=== P79 (166 chars) ===
+Shift in taste
+---
+For example
+what would happen if rising environmental concerns and new energy-saving technologies led consumers to use less oil at any given price?
+=== P80 (107 chars) ===
+A Leftward Shift of the Demand Curve
+---
+Copyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved
+=== P81 (133 chars) ===
+The Demand Curve Shifts Left and the Supply Curve Shifts Right
+---
+Copyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved
+=== P82 (81 chars) ===
+Price control
+---
+What would happen if the government tried to dictate the price?
+=== P83 (248 chars) ===
+Price control
+---
+Our analysis has concluded that competitive markets will end up at the competitive equilibrium—the point where the supply and the demand curves cross. 
+But this can happen only if prices are allowed to respond to market pressures.
+=== P84 (233 chars) ===
+Price control
+---
+However, some markets have prices that are set by laws, regulations, or social norms.
+Economists are interested in the way that all markets work, even markets that are not allowed to reach a competitive equilibrium.
+=== P85 (226 chars) ===
+Price control
+---
+During the U.S. oil crisis of 1973–1974 (第一次石油危机）, the U.S. government effectively capped the price of gasoline, causing quantity demanded to exceed quantity supplied. 
+This is referred to as a price ceiling.
+=== P86 (0 chars) ===
+

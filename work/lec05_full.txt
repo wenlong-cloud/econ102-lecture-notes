@@ -1,0 +1,276 @@
+=== P1 (56 chars) ===
+Lecture 5Competitive equilibrium and the invisible hand
+=== P2 (410 chars) ===
+Introduction
+---
+In the previous two chapters we provided descriptions of the decision problems facing the main actors in any market: buyers and sellers. 
+We found that when each of them follows certain rules of behavior, each will maximize his or her own well-being
+But when we put all of these self-interested people together, without anyone who guide their behaviors, what will happen? Would there be chaos?
+=== P3 (333 chars) ===
+Introduction
+---
+At first glance it does seem as if there is a mess in many markets
+bidding wars on eBay, 
+stockbrokers frantically waving their arms as they try to buy or sell, 
+buyers and sellers haggling over prices at flea markets. 
+All of this chaos, it seems, is driven by market participants simply looking out for themselves.
+=== P4 (191 chars) ===
+Introduction
+---
+Adam Smith, the father of economics, viewed the chaos quite differently. 
+He conjectured that self-interest was a necessary ingredient for an economy to function efficiently.
+=== P5 (357 chars) ===
+Introduction
+---
+This view is put forth most elegantly in his book The Wealth of Nations (1776):
+It is not from the benevolence of the butcher, the brewer, or the baker, that we expect our dinner, but from their regard to their own interest.
+我们之所以能期待吃到晚餐，并不是因为屠夫、酿酒师或面包师的仁慈，而是因为他们对自身利益的关注。
+This insight has become known as the power of the “invisible hand.”
+=== P6 (316 chars) ===
+The “invisible hand” is a forceful idea in economics 
+it suggests that when all of the assumptions of a perfectly competitive market are in place, the pursuit of individual self-interest promotes the well-being of society as a whole, almost as if the individual is led by an invisible hand to do so.
+---
+Introduction
+=== P7 (15 chars) ===
+An illustration
+=== P8 (292 chars) ===
+Perfect Competition and Efficiency
+---
+Let’s assume that our market is composed of only seven buyers and seven sellers who are price-takers. 
+Each wants to buy or sell a used iPhone 6 in good condition. 
+Because the iPhones are all in similar condition, we can assume that they are identical.
+=== P9 (159 chars) ===
+A reservation value/price
+---
+A reservation value or reservation price is the price at which a person is indifferent between making the trade and not doing so.
+=== P10 (0 chars) ===
+
+=== P11 (0 chars) ===
+
+=== P12 (0 chars) ===
+
+=== P13 (0 chars) ===
+
+=== P14 (0 chars) ===
+
+=== P15 (226 chars) ===
+Social Surplus
+---
+An important outcome: social surplus is maximized. 
+Recall: social surplus is the sum of consumer surplus and producer surplus
+As a result, social surplus represents the total value from trade in the market.
+=== P16 (142 chars) ===
+Social Surplus
+---
+For social surplus to be maximized, the highest-value buyers are making a purchase and the lowest-cost sellers are selling.
+=== P17 (276 chars) ===
+Social Surplus
+---
+Notice that nobody interfere with the process of trade between all these buyers and sellers, yet social surplus is maximized automatically
+Nobody arrange their trade. Nobody dictates who should sell or who should not
+What would happen if somebody interfere?
+=== P18 (164 chars) ===
+Suppose somebody put a quantity restriction: restricting the number of trades to two
+
+That is, the two highest value consumers buy from the two lowest-cost sellers.
+=== P19 (160 chars) ===
+What would happen if, instead, we enforced trade of five iPhones? 
+
+That is, we have the five highest-value buyers purchasing from the five lowest-cost sellers.
+=== P20 (310 chars) ===
+Pareto Efficiency
+---
+This example demonstrates that the competitive market equilibrium is efficient in the sense that all mutually advantageous trades take place: no more, no less. 
+In this way, there are no unexploited gains to trade. 
+Accordingly, the competitive market equilibrium maximizes social surplus
+=== P21 (272 chars) ===
+Pareto Efficiency
+---
+But in many situations, we are also interested in who gets what—the allocation of surplus. 
+One natural place to start with: in the competitive market equilibrium, can we make any individual better off without hurting someone else? 
+The answer is no.
+=== P22 (254 chars) ===
+Pareto Efficiency
+---
+Definition:  an outcome is Pareto efficient if no individual can be made better off without making someone else worse off. 
+As it turns out, besides maximizing social surplus, competitive market equilibrium is also Pareto efficient.
+=== P23 (31 chars) ===
+From the Individual to the Firm
+=== P24 (323 chars) ===
+Consider a firm that owns two plants:
+Each plant produces microchips to sell in a perfectly competitive market. 
+The two plants are quite different, one being built in the late 1970s and the other in 2010. 
+The older plant therefore has less advanced production technologies and higher production costs than the newer plant
+=== P25 (0 chars) ===
+
+=== P26 (257 chars) ===
+Originally, the firm has allowed each plant to operate independently, with both plant managers maximizes their own plant’s profits. 
+If the price of microchips is $10, what quantity of microchips should each of the plant managers choose to maximize profits?
+=== P27 (0 chars) ===
+
+=== P28 (0 chars) ===
+
+=== P29 (328 chars) ===
+Suppose now comes a new CEO
+At the annual shareholders’ meeting, both plant managers report important statistics to the new CEO, including production and cost figures. 
+The CEO is devastated by these figures, exclaiming: “given the differences in technologies and costs, I am astounded that the older plant is producing at all!”
+=== P30 (369 chars) ===
+The new CEO thus announces that
+ “it is time to move to the twenty-first century; we must immediately move all production to the new plant.”
+“The new plant will produce the entire 70,000 microchips itself because of its better technologies; in this way, we will demonstrate to the world how our firm is moving progressively forward to make our shareholders better off.”
+=== P31 (0 chars) ===
+
+=== P32 (406 chars) ===
+Under the CEO’s plan, the new plant produced the last microchip at a marginal cost of $30
+This marginal cost is much greater than the $10 that it would have cost the older plant to make its first microchip, 
+In this way, if production of that one unit could have been shifted from the new plant to the older plant, overall costs would have been lowered by $20 = $30 - $10, enhancing overall profits by $20!
+=== P33 (225 chars) ===
+The same logic can be used until the marginal costs are equalized across plants
+At this point, the overall production costs across the two plants will be minimized, because they cannot profitably shift production any further.
+=== P34 (0 chars) ===
+
+=== P35 (161 chars) ===
+If you are the CEO, you would note that these optimal production numbers are exactly the levels reached by the plants a year earlier:
+MCOLD = MCNEW = Price = $10
+=== P36 (538 chars) ===
+Importantly, in so doing, the plant managers also maximize the total profits of the two plants combined. 
+In this sense, it is remarkable that market forces dictate that production across the two plants is allocated in a manner that is optimal for the social good: producing goods using the least amount of scarce resources. 
+This is exactly what the CEO aimed to do, but failed. 
+Yet when the competitive market is allowed to operate efficiently, we do not need a central planner (or a CEO) dictating goals for the betterment of society.
+=== P37 (41 chars) ===
+Allocation of Resources Across Industries
+=== P38 (289 chars) ===
+We just learned that the invisible hand optimally allocates scarce resources and arranges production patterns in an industry. 
+But the economy is much more complicated than two plants in a small town. 
+How can we determine whether any specific industry is producing too much or too little?
+=== P39 (177 chars) ===
+Consider a different perfectly competitive market: the delivery of paper products for publishing houses
+with identical sellers making positive economic profits in the short run.
+=== P40 (88 chars) ===
+At a price of $25 per ton, there are economic profits. 
+
+But with profits, what happens?
+=== P41 (0 chars) ===
+
+=== P42 (283 chars) ===
+Positive economic profits attracts entrants. 
+Other delivery companies want to enter because they would like to earn economic profits too. 
+When does entry stop? 
+When marginal cost curve intersects the average total cost curve. 
+In this example, the equilibrium price is $12 per ton
+=== P43 (294 chars) ===
+This is because at any price higher than $12 per ton, other delivery firms would still like to enter 
+Once the price reaches the minimum of the ATC curve, we are in equilibrium because P = MC = ATC, which means that there is zero economic profit and therefore no reason for more firms to enter.
+=== P44 (335 chars) ===
+What happened?
+Resources flow to that industry because of the profits available. 
+This behavior causes resources to flow from less productive uses to more productive uses. 
+That is, businesses seek to improve their profits, and in so doing, they move resources into the production of goods and services that society values the highest.
+=== P45 (407 chars) ===
+What happens if the equilibrium price lies below the ATC curve? 
+Suppose that there is a related delivery business: the trucking market, where truckers haul corn from farmers’ fields to grain mills for $10 per ton of corn. 
+This market is currently in a situation where price is less than average total cost
+This means that truckers should exit because they are earning negative economic profits, or losses.
+=== P46 (0 chars) ===
+
+=== P47 (216 chars) ===
+Where will these truckers go? 
+One possibility: they begin to deliver paper products for publishing houses. 
+Of course, this is not necessary, as there are other jobs for truckers, but it is one distinct possibility.
+=== P48 (0 chars) ===
+
+=== P49 (303 chars) ===
+When does exit from hauling corn stop? 
+Much as in the case of entry, truckers exit until the price rises to the minimum of the ATC curve
+Again, once the market price reaches the minimum of the ATC, we are at the point of equilibrium because 
+P = MC = ATC
+   so there is no reason for further firm exit.
+=== P50 (260 chars) ===
+Competitive markets provide strong incentives for profit-seeking entrepreneurs to shift their resources from unprofitable industries to profitable ones. 
+This shifting of resources continues until exactly the right amount of production occurs in each industry.
+=== P51 (384 chars) ===
+Such shifting of resources leads to a very important outcome:
+In a perfectly competitive market equilibrium, production occurs at the point of minimum ATC
+Because resources leave those industries in which price cannot cover their costs of production and enter those industries where price can cover their costs of production, the total value of production is maximized in equilibrium.
+=== P52 (233 chars) ===
+In this way, the market price is acting as an incentive for sellers to promote the greatest good for society
+move scarce resources to their highest possible use—even though sellers are solely attempting to maximize their own profits.
+=== P53 (123 chars) ===
+Deadweight Loss
+---
+Economists call the decrease in social surplus that results from a market distortion a deadweight loss.
+=== P54 (27 chars) ===
+Restricting the price to P1
+=== P55 (233 chars) ===
+Deadweight Loss
+---
+By keeping the price artificially low, the government 
+helps consumers 
+but hurts producers 
+overall, there is lost in surplus
+Whether you are comfortable with this trade-off is a question for normative economics.
+=== P56 (334 chars) ===
+The Command Economy
+---
+To understand the difficulty of what the invisible hand accomplishes, it is instructive to consider cases where countries have attempted to place strong controls on the economy, in effect trying to do the job of the invisible hand. 
+One example of the dramatic differences that can result is the case of Korea.
+=== P57 (0 chars) ===
+
+=== P58 (0 chars) ===
+
+=== P59 (0 chars) ===
+
+=== P60 (218 chars) ===
+The Central Planner
+---
+Why is it difficult for command economies to operate effectively and experience significant, sustained GDP growth? 
+Imagine yourself in the position of  a social planner, what do you need to do?
+=== P61 (398 chars) ===
+How can you make sure that the cloth producers in Wenzhou had the necessary textile, buckets and all the other relevant machines to produce the cloth? 
+How many cars should Geely produce? How many cars should BYD produce? 
+How many sellers should 马云 allow to open online shops in Taobao every day? 
+Should the screens made by 京东方 be used in the production in Lenovo PCs or be used in Huawei phones?
+=== P62 (0 chars) ===
+
+=== P63 (65 chars) ===
+Two difficulties
+---
+1. Coordination problem
+2. Incentive problem
+=== P64 (238 chars) ===
+Coordination problem: Central planner does not fully understand consumer wants and needs and the production capabilities of every sector of the economy
+
+Incentive problem: it is difficult to incentivize workers if prices are not utilized.
+=== P65 (392 chars) ===
+Friedrich Hayek’s
+---
+“The marvel is that in a case like that of a scarcity of one raw material, without an order being issued, without more than perhaps a handful of people knowing the cause, tens of thousands of people whose identity could not be ascertained by months of investigation are made to use the material or its products more sparingly; that is, they move in the right direction.”
+=== P66 (21 chars) ===
+Equity and Efficiency
+=== P67 (182 chars) ===
+It is important to recognize that the standard of maximizing social surplus is just one way to measure the progress of an economy. 
+Another consideration is how the pie is allocated.
+=== P68 (213 chars) ===
+For example, many citizens might believe that every person should have proper access to food, housing, and basic healthcare. 
+Pushing this notion even further, a social planner might also be concerned with equity.
+=== P69 (151 chars) ===
+Equity is concerned with how the pie is allocated to the various economic agents. 
+
+To some, equity means an even distribution of goods across society.
+=== P70 (362 chars) ===
+Should we help the homeless man on the corner, or assist an unemployed worker? 
+What about starving children in Africa? 
+They have virtually no income, implying that they are excluded from almost every market, because their willingness to pay is not high enough to buy many goods. 
+In fact, they cannot afford even the most basic necessities at the market price.
+=== P71 (162 chars) ===
+Just because the competitive market equilibrium maximizes social surplus, and is efficient, does not mean that the resulting distribution is morally satisfactory.
+=== P72 (537 chars) ===
+Several important questions arise concerning equity and efficiency. 
+These are questions in the domain of normative economics, and they are often debated by policymakers and economists. 
+In a perfectly competitive equilibrium, we know that Pareto efficiency holds. 
+This means that it is not possible to make a starving African child better off without making someone else worse off. 
+Thus, it is possible that in order to increase the well-being of a starving child, it will be necessary to take a few hundred dollars from other people.
+=== P73 (325 chars) ===
+Of course, such redistribution of wealth is important to modern societies
+We will find that this kind of intervention presents an important trade-off between efficiency and equity, and that as a society we continually have choices over efficiency and equity. 
+This is one major purpose of taxation, which we will learn later.

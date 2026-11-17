@@ -1,0 +1,26 @@
+# 原始课件：版权不属于我，体积也大（单个 pptx 就有 400 MB），不进仓库
+/*.pdf
+/*.pptx
+/*.ppt
+/*.docx
+
+# 生成物：可以用 work/ 里的脚本重建，没必要进版本库
+/course/
+/dist/
+/分享包/
+/assets/
+/notes/
+/work/shots/
+
+# work 里的临时文件与工具
+/work/*.whl
+/work/*.png
+/work/*.webp
+/work/*.jpg
+/work/__pycache__/
+
+# 系统垃圾
+Thumbs.db
+desktop.ini
+*.lnk
+.DS_Store

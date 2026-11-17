@@ -1,0 +1,811 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>生产者：生产函数、成本与利润最大化 · 微观经济学讲义</title>
+<link rel="stylesheet" href="style.css"></head>
+<body class="lec">
+<header class="topbar">
+  <div class="brand"><a href="index.html">微观经济学 · 逐页精讲</a></div>
+  <nav class="nav"><a class="navbtn" href="index.html">大纲</a><a class="navbtn" href="glossary.html#lec04">术语表 · 23</a><a class="navbtn" href="lec03.html">← L3 消费者</a><a class="navbtn" href="lec05.html">L5 看不见的手 →</a><button class="ask-open navask" type="button" data-ask>问老师</button></nav>
+</header>
+
+<div class="layout">
+  <aside class="side">
+    <div class="side-inner">
+      <h2>L4 生产者</h2>
+      <p class="side-sub">生产者：生产函数、成本与利润最大化</p>
+      <input id="filter" type="search" placeholder="筛选本讲页码 / 关键词">
+      <div class="ask">
+        <button class="ask-open" type="button" data-ask>问老师 · 这一页哪里不懂？</button>
+        <p class="ask-hint">用 DeepSeek 直接回答，会带上你正在看的这一讲和这一页。</p>
+      </div>
+      <div class="toc"><a href="#s1" data-n="1"><b>1</b>Lecture 4 Producers</a><a href="#s2" data-n="2"><b>2</b>Sellers in a Perfectly Competitive Mar</a><a href="#s3" data-n="3"><b>3</b>The third assumption</a><a href="#s4" data-n="4"><b>4</b>The seller’s problem</a><a href="#s5" data-n="5"><b>5</b>The Seller’s Problem</a><a href="#s6" data-n="6"><b>6</b>My father’s problem</a><a href="#s7" data-n="7"><b>7</b>My father’s problem</a><a href="#s8" data-n="8"><b>8</b>The seller’s problem</a><a href="#s9" data-n="9"><b>9</b>Making the Goods: How Inputs Are Turne</a><a href="#s10" data-n="10"><b>10</b>Production</a><a href="#s11" data-n="11"><b>11</b>Inputs</a><a href="#s12" data-n="12"><b>12</b>Labor v.s. capital</a><a href="#s13" data-n="13"><b>13</b>Long run v.s. short run</a><a href="#s14" data-n="14"><b>14</b>这一页是生产函数的数值表</a><a href="#s15" data-n="15"><b>15</b>Production function: stylized</a><a href="#s16" data-n="16"><b>16</b>Specialization</a><a href="#s17" data-n="17"><b>17</b>Law of Diminishing Returns</a><a href="#s18" data-n="18"><b>18</b>Law of Diminishing Returns</a><a href="#s19" data-n="19"><b>19</b>Adding too many workers can be counter</a><a href="#s20" data-n="20"><b>20</b>The Cost of Doing Business: the Cost C</a><a href="#s21" data-n="21"><b>21</b>Components of costs</a><a href="#s22" data-n="22"><b>22</b>Average cost</a><a href="#s23" data-n="23"><b>23</b>Marginal cost</a><a href="#s24" data-n="24"><b>24</b>这一页把成本和产量并到一张表里</a><a href="#s25" data-n="25"><b>25</b>把表画成图</a><a href="#s26" data-n="26"><b>26</b>An observation</a><a href="#s27" data-n="27"><b>27</b>The Rewards : Revenue Curves</a><a href="#s28" data-n="28"><b>28</b>Marginal revenue</a><a href="#s29" data-n="29"><b>29</b>这一页左右并置两张图</a><a href="#s30" data-n="30"><b>30</b>为什么交在 1,225 而不是别处？这一页用边际推理把答案走</a><a href="#s31" data-n="31"><b>31</b>Putting It All Together</a><a href="#s32" data-n="32"><b>32</b>这一页就是那个矩形</a><a href="#s33" data-n="33"><b>33</b>MR = MC rule allows us to link the mar</a><a href="#s34" data-n="34"><b>34</b>Deriving the Supply Curve</a><a href="#s35" data-n="35"><b>35</b>Price elasticity of supply</a><a href="#s36" data-n="36"><b>36</b>(a) 完全弹性供给</a><a href="#s37" data-n="37"><b>37</b>(b) 单位弹性供给</a><a href="#s38" data-n="38"><b>38</b>(c) 完全无弹性供给</a><a href="#s39" data-n="39"><b>39</b>Factors affecting supply elasticity</a><a href="#s40" data-n="40"><b>40</b>Shutdown</a><a href="#s41" data-n="41"><b>41</b>What about point S?</a><a href="#s42" data-n="42"><b>42</b>What about point C?</a><a href="#s43" data-n="43"><b>43</b>The short-run supply curve</a><a href="#s44" data-n="44"><b>44</b>图上把答案画出来了</a><a href="#s45" data-n="45"><b>45</b>Producer Surplus</a><a href="#s46" data-n="46"><b>46</b>图上</a><a href="#s47" data-n="47"><b>47</b>价格从 $100 涨到 $120</a><a href="#s48" data-n="48"><b>48</b>From the Short Run to the Long Run</a><a href="#s49" data-n="49"><b>49</b>From the Short Run to the Long Run</a><a href="#s50" data-n="50"><b>50</b>From the Short Run to the Long Run</a><a href="#s51" data-n="51"><b>51</b>图上画了三条短期 ATC</a><a href="#s52" data-n="52"><b>52</b>From the Short Run to the Long Run</a><a href="#s53" data-n="53"><b>53</b>Economies of scale</a><a href="#s54" data-n="54"><b>54</b>Long-Run Supply Curve</a><a href="#s55" data-n="55"><b>55</b>Long-run decision rule</a><a href="#s56" data-n="56"><b>56</b>From the Firm to the Market: Long-Run </a><a href="#s57" data-n="57"><b>57</b>From the Firm to the Market: Long-Run </a><a href="#s58" data-n="58"><b>58</b>Free entry</a><a href="#s59" data-n="59"><b>59</b>free entry</a><a href="#s60" data-n="60"><b>60</b>Entry shifts the market supply curve t</a><a href="#s61" data-n="61"><b>61</b>The effect of free entry</a><a href="#s62" data-n="62"><b>62</b>Firm Entry</a><a href="#s63" data-n="63"><b>63</b>进入之后发生了什么？两幅图对照</a><a href="#s64" data-n="64"><b>64</b>反向过程</a><a href="#s65" data-n="65"><b>65</b>Firm Exit</a><a href="#s66" data-n="66"><b>66</b>The long-run supply curve</a><a href="#s67" data-n="67"><b>67</b>S1 in figure b is no longer the long r</a><a href="#s68" data-n="68"><b>68</b>Economic Profit Versus Accounting Prof</a><a href="#s69" data-n="69"><b>69</b>Economic Profit Versus Accounting Prof</a><a href="#s70" data-n="70"><b>70</b>Assume that The Cheeseman could increa</a></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="lec-hero">
+      <div class="crumb">第 4 讲 · 生产者</div>
+      <h1>生产者：生产函数、成本与利润最大化</h1>
+      <p class="lead">从生产函数到成本函数（边际成本、平均成本、固定/可变成本），用 MR=MC 求利润最大化产量，导出厂商与行业的短期、长期供给曲线，并区分会计利润与经济利润。</p>
+      <div class="meta">共 <b>70</b> 页课件 · 已精讲 <b>70</b> 页（100%）</div>
+      <div class="topics"><h3>本讲要点</h3><ul><li>生产函数</li><li>边际报酬递减</li><li>成本曲线</li><li>MC 与 AC</li><li>MR=MC</li><li>停业与退出</li><li>短期/长期供给</li><li>经济利润</li></ul></div>
+      
+    </div>
+    <section class="slide" id="s1" data-n="1">
+  <div class="slide-head"><span class="pno">P1</span><span class="ptitle">Lecture 4 Producers</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-001.webp" alt="第1页"><figcaption>课件第 1 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这是第 4 讲的开场页，标题是 <strong>Producers（生产者）</strong>。</p>
+<p>前三讲我们一直站在消费者和<a class="term" href="glossary.html#t-market" data-t="market">市场</a>的角度看问题，从这一讲起换到卖方：一家企业究竟该生产多少、卖什么价、什么时候该<a class="term" href="glossary.html#t-shutdown" data-t="shutdown">停业</a>关门。这一讲的技术路线是一条直线，请先记住它：</p>
+<p><strong><a class="term" href="glossary.html#t-production-function" data-t="production-function">生产函数</a> → 成本曲线 → 收益曲线 → 利润最大化（MR = MC）→ 单个厂商的供给曲线 → 行业的长期均衡。</strong></p>
+<p>后面 69 页都在这条链上补细节。看不下去的时候，回到这一页对一下位置。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Lecture 4Producers</pre></details>
+</section><section class="slide" id="s2" data-n="2">
+  <div class="slide-head"><span class="pno">P2</span><span class="ptitle">Sellers in a Perfectly Competitive Market</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-002.webp" alt="第2页"><figcaption>课件第 2 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>进入正题前先限定场地：我们假设企业在一个<strong><a class="term" href="glossary.html#t-perfect-competition" data-t="perfect-competition">完全竞争市场</a></strong>（perfectly competitive market）里做决策。这个市场由三条假设刻画：</p>
+<ul><li><strong>没有哪个买方或卖方大到能影响市场价格</strong>——大家都是价格的接受者。</li><li><strong>所有卖方生产的产品完全相同</strong>（identical goods），买谁家的都一样。</li><li><strong>厂商可以<a class="term" href="glossary.html#t-free-entry" data-t="free-entry">自由进入</a>和<a class="term" href="glossary.html#t-exit" data-t="exit">退出</a></strong>（free entry and exit）。</li></ul>
+<p>三条缺一不可：第一条管定价权，第二条管产品差异，第三条管长期利润。今天后面所有「长期经济利润为零」的结论，全部压在这第三条上。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Sellers in a Perfectly Competitive Market
+---
+We begin our study of how firms make decisions by assuming that they do so in perfectly competitive markets. 
+• No buyer or seller is big enough to influence the market price.
+• Sellers in the market produce identical goods.
+• There is free entry and exit in the market.</pre></details>
+</section><section class="slide" id="s3" data-n="3">
+  <div class="slide-head"><span class="pno">P3</span><span class="ptitle">The third assumption</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-003.webp" alt="第3页"><figcaption>课件第 3 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页专门拆第三条假设：<strong>企业想进就进、想出就出</strong>。</p>
+<p>课件给了两个例子：</p>
+<ul><li><strong>淘宝上卖布</strong>：任何人任何时候都能开个店卖布，进入成本几乎为零。</li><li><strong>小餐馆</strong>：街边小饭馆开了关、关了开，没有谁需要审批。</li></ul>
+<p>为什么这条假设重要？因为它决定了<strong>市场整体的供给会随利润调整</strong>——有钱赚就有人进来，亏钱就有人走，价格因此被按住。</p>
+<p>课堂提问（备注里老师问的）：能不能举出<strong>自由进入不成立</strong>的市场？出租车牌照、烟草专卖、医生执业资格、电信运营，都是靠法律或技术门槛把进入挡住了。记住这几个，第 12 讲讲<a class="term" href="glossary.html#t-monopoly" data-t="monopoly">垄断</a>时会回来找它们。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The third assumption
+---
+Firms can enter and exit industries as they want
+This assumption has important consequences for the market as a whole. 
+One example of a market where sellers can enter and exit freely is selling on Taobao. 
+At any time, anyone can enter Taobao and sell cloth at virtually no cost of entry. 
+Sellers can almost enter or exit freely in many other familiar markets, for example, small restaurants.</pre></details>
+</section><section class="slide" id="s4" data-n="4">
+  <div class="slide-head"><span class="pno">P4</span><span class="ptitle">The seller’s problem</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-004.webp" alt="第4页"><figcaption>课件第 4 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页：<strong>The seller's problem（卖方问题）</strong>。</p>
+<p>接下来三页用老师父亲开餐馆的故事，把「卖方问题」拆成三个可以分别回答的小问题。这不是闲话，而是本讲的结构图：三个问题对应后面三大块内容（生产技术、成本、收益）。</p>
+<p>顺便说一句为什么用这么小的例子：一家小餐馆的账目，和一家上市公司年报里的科目，在经济学上是同一套东西——投入、产出、成本、收益。把小例子算清楚，大公司只是多几行。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The seller’s problem</pre></details>
+</section><section class="slide" id="s5" data-n="5">
+  <div class="slide-head"><span class="pno">P5</span><span class="ptitle">The Seller’s Problem</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-005.webp" alt="第5页"><figcaption>课件第 5 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>一句话给出卖方的总目标：<strong>最大化净收益，也就是利润</strong>（maximize net benefits, or profits）。</p>
+<p>写成公式：</p>
+<blockquote>利润 = 总收益 − 总成本，即 π = TR − TC</blockquote>
+<p>两个提醒。第一，注意「净」字：经济学里从不把「卖了很多钱」当成功，只把「收入减去全部成本之后还剩」当成功。第二，这个「全部成本」在本讲最后一页会变得很锋利——它要扣掉<a class="term" href="glossary.html#t-opportunity-cost" data-t="opportunity-cost">机会成本</a>。</p>
+<p>还有一层：TR 和 TC 都随产量 Q 变，所以「最大化利润」实际上是<strong>对 Q 求最优</strong>——Q 太小浪费产能，Q 太大成本失控。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Seller’s Problem
+---
+The overarching goal of the seller is to maximize net benefits, or profits.</pre></details>
+</section><section class="slide" id="s6" data-n="6">
+  <div class="slide-head"><span class="pno">P6</span><span class="ptitle">My father’s problem</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-006.webp" alt="第6页"><figcaption>课件第 6 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>老师讲他父亲的故事：一家小餐馆。</p>
+<ul><li>雇了一个<strong>年轻厨师</strong>，还有厨师的女朋友当<strong>帮工</strong>；</li><li>每天买面粉、肉、白菜这些原料；</li><li>厨师把这些东西做成菜；</li><li>父亲把菜卖给饿着肚子的客人。</li></ul>
+<p>这个链条里已经藏着三个关键角色：<strong>投入品</strong>（面粉、肉、菜、厨师、灶台）、<strong>产出</strong>（菜）、<strong>买方</strong>（客人）。经济学要做的，是给这条链的每一环标上价格。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>My father’s problem
+---
+My father used to run a small restaurant
+He hired a young chef, and the chef’s girlfriend as the assistant
+He buys ingredients such as wheat flour, meat, cabbages, every day 
+The chef then creates a cuisines with these things. 
+Then my father sells them to hungry buyers.</pre></details>
+</section><section class="slide" id="s7" data-n="7">
+  <div class="slide-head"><span class="pno">P7</span><span class="ptitle">My father’s problem</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-007.webp" alt="第7页"><figcaption>课件第 7 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>父亲必须回答三个问题，正好对应经济学的三块工具：</p>
+<ol><li><strong>投入怎么组合成产出？</strong>——投入是什么、产出是什么（生产技术）。</li><li><strong>成本是多少？</strong>——什么算成本、怎么算（成本理论）。</li><li><strong>能卖多少钱？</strong>——价格与销量（收益理论）。</li></ol>
+<p>注意顺序：先技术、再成本、后收益。因为成本是从技术推出来的——你雇几个人、买几台机器，决定了你要花多少钱。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>My father’s problem
+---
+First, my father must know how the inputs combine to make the outputs (what are the inputs and output): 
+Second, my father must know how much is the cost (what constitutes the cost? )
+Finally, my father must know how much he can sell</pre></details>
+</section><section class="slide" id="s8" data-n="8">
+  <div class="slide-head"><span class="pno">P8</span><span class="ptitle">The seller’s problem</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-008.webp" alt="第8页"><figcaption>课件第 8 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把上一页翻成标准说法，卖方问题有<strong>三个要素</strong>：</p>
+<ol><li><strong>Making the goods（把东西做出来）</strong>——用<strong>生产函数</strong>（production function）描述。</li><li><strong>The cost of doing business（做生意的代价）</strong>——用<strong>成本曲线</strong>（cost curve）描述。</li><li><strong>The rewards of doing business（做生意的回报）</strong>——用<strong>收益</strong>（revenue）描述。</li></ol>
+<p>本讲 P9–P19 讲第 1 块，P20–P26 讲第 2 块，P27–P33 讲第 3 块，然后把三块拼成<a class="term" href="glossary.html#t-profit-maximization" data-t="profit-maximization">利润最大化</a>。现在开始第一块。</p>
+<p>这里有个<strong>依赖顺序</strong>必须记牢：成本由技术推出，收益由市场给定，利润是前两者的差。写作业时如果先算收益再倒推成本，多半是把产量当成外生给定的——那就走错了。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The seller’s problem
+---
+Three elements of the seller’s problem are:
+1. Making the goods (production function)
+2. The cost of doing business (cost curve)
+3. The rewards of doing business (revenue)</pre></details>
+</section><section class="slide" id="s9" data-n="9">
+  <div class="slide-head"><span class="pno">P9</span><span class="ptitle">Making the Goods: How Inputs Are Turned into Outputs</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-009.webp" alt="第9页"><figcaption>课件第 9 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>先给两个定义，务必分清：</p>
+<ul><li><strong>生产</strong>（production）：把投入转化为产出的过程。</li><li><strong>生产函数</strong>（production function）：<strong>投入数量与产出数量之间的关系</strong>。</li></ul>
+<p>所以生产函数不是一台机器，而是一张「配方表」：给我 3 个工人和 1 间厂房，我最多能做多少箱？它描述的是一种<strong>技术约束</strong>，与价格、与市场都无关。这一点很容易混——生产函数里没有美元。</p>
+<p>补一句：它刻画的是<strong>技术上的最大可能产量</strong>，不是实际产量。管理混乱的企业可能做得更少，但经济学家关心的是那条边界。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Making the Goods: How Inputs Are Turned into Outputs
+---
+Every firm faces the decision of how to combine inputs to create outputs.
+Production is the process by which the transformation of inputs to outputs occurs.
+ The relationship between the quantity of inputs used and the quantity of outputs produced is called the production function.</pre></details>
+</section><section class="slide" id="s10" data-n="10">
+  <div class="slide-head"><span class="pno">P10</span><span class="ptitle">Production</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-010.webp" alt="第10页"><figcaption>课件第 10 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>课件举了一家<strong>出口加工企业</strong>（export processing company），做<strong>代工</strong>（contract manufacturing）。</p>
+<p>它采用<strong>加工贸易</strong>（processing trade）模式：上游供应商把原料和零部件送进来，它加工成成品——这里是<strong>鞋子</strong>。</p>
+<p>关键细节：<strong>这家公司不拥有原料</strong>，它只提供<strong>劳动和加工服务</strong>。为什么强调这一点？因为成本结构完全不同：原料钱不归它出，它真正花钱买的只有工资、设备、厂房。这为后面「<a class="term" href="glossary.html#t-variable-cost" data-t="variable-cost">可变成本</a> vs <a class="term" href="glossary.html#t-fixed-cost" data-t="fixed-cost">固定成本</a>」的区分埋了伏笔。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Production
+---
+Consider an export processing company that specializes in contract manufacturing. 
+The company operates on a “processing trade” model, meaning they receive raw materials and components from upstream suppliers and then process them into finished products：shoes.
+The company does not own the raw materials; they only provide the labor and processing services.</pre></details>
+</section><section class="slide" id="s11" data-n="11">
+  <div class="slide-head"><span class="pno">P11</span><span class="ptitle">Inputs</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-011.webp" alt="第11页"><figcaption>课件第 11 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>企业主要靠两种投入：</p>
+<ul><li><strong>劳动</strong>（labor）：把原料变成鞋子的工人。</li><li><strong>物质资本</strong>（physical capital）：设备、机器、厂房建筑。</li></ul>
+<p>经济学里的「资本」指<strong>生产出来的生产资料</strong>，不是钱。钱是金融资产，机器才是资本。这个用词差别在第 8 讲（资本市场）还会再考一次。</p>
+<p>现实里两者的比例是可以选的：鞋厂可以多用缝纫机少用工人（资本密集），也可以反过来（劳动密集）。选哪一套取决于两种投入的<strong>相对价格</strong>——第 7 讲的等成本线就干这件事。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Inputs
+---
+The firm relies on two main inputs: 
+labor to turn raw materials into shoes
+physical capital (equipment, machines and structures).</pre></details>
+</section><section class="slide" id="s12" data-n="12">
+  <div class="slide-head"><span class="pno">P12</span><span class="ptitle">Labor v.s. capital</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-012.webp" alt="第12页"><figcaption>课件第 12 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页讲劳动和资本最重要的差别：<strong>调整速度不一样</strong>。</p>
+<ul><li>雇人和裁人<strong>很快</strong>——今天招、明天上班；生意不好，下个月不续签就行。</li><li>改变物质资本<strong>很慢</strong>——买设备要下单、安装、调试；建厂房要盖一两年；卖掉旧设备还要找买家。</li></ul>
+<p>这个「快 vs 慢」的差别，就是下一頁<strong><a class="term" href="glossary.html#t-short-run" data-t="short-run">短期</a>与长期</strong>划分的全部依据。不是日历上的时间长短，而是「有没有哪一种投入还来不及调整」。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Labor v.s. capital
+---
+Difference between capital and labor: While hiring and firing workers can be done in a short period of time, changing physical capital takes much longer.</pre></details>
+</section><section class="slide" id="s13" data-n="13">
+  <div class="slide-head"><span class="pno">P13</span><span class="ptitle">Long run v.s. short run</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-013.webp" alt="第13页"><figcaption>课件第 13 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>正式定义：</p>
+<ul><li><strong>短期</strong>（short run）：只有<strong>部分</strong>投入可以变动的时间段——在这个例子里是劳动。</li><li><strong>长期</strong>（long run）：<strong>所有</strong>投入都可以变动的时间段。</li></ul>
+<p>配套两个术语：</p>
+<ul><li><strong>固定投入</strong>（fixed factor of production）：短期内改不了，这里指物质资本。</li><li><strong>可变投入</strong>（variable factor of production）：短期内可以改，这里指劳动。</li></ul>
+<p>考点提醒：短期/长期是<strong>按能不能调整全部投入</strong>来分的，不是按「三个月」还是「三年」。一个只能改工人的作坊，哪怕过了五年，只要厂房还锁死，它就还在「短期」。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Long run v.s. short run
+---
+Short run: a time period when only some of a firm’s inputs can be varied—in the example, labor. 
+Long run: a time period wherein a firm can change any input. 
+physical capital is a fixed factor of production—an input that cannot change in the short run—and that labor is a variable factor of production—an input that can change in the short run.</pre></details>
+</section><section class="slide" id="s14" data-n="14">
+  <div class="slide-head"><span class="pno">P14</span><span class="ptitle">这一页是生产函数的数值表</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-014.webp" alt="第14页"><figcaption>课件第 14 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页是生产函数的<strong>数值表</strong>（Details of Production），后面所有成本数字都从它推出来。假设厂房固定，只增加工人：</p>
+<table class="tbl"><thead><tr><th>日产量 Q</th><th>工人数 L</th><th><a class="term" href="glossary.html#t-marginal-product" data-t="marginal-product">边际产量</a> MP = ΔQ/ΔL</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>—</td></tr><tr><td>100</td><td>1</td><td>100</td></tr><tr><td>207</td><td>2</td><td>107</td></tr><tr><td>321</td><td>3</td><td>114</td></tr><tr><td>444</td><td>4</td><td>123</td></tr><tr><td>558</td><td>5</td><td>114</td></tr><tr><td>664</td><td>6</td><td>106</td></tr><tr><td>762</td><td>7</td><td>98</td></tr><tr><td>854</td><td>8</td><td>92</td></tr><tr><td>939</td><td>9</td><td>85</td></tr><tr><td>1,019</td><td>10</td><td>80</td></tr><tr><td>1,092</td><td>11</td><td>73</td></tr><tr><td>1,161</td><td>12</td><td>69</td></tr><tr><td>1,225</td><td>13</td><td>64</td></tr><tr><td>1,284</td><td>14</td><td>59</td></tr><tr><td>1,339</td><td>15</td><td>55</td></tr><tr><td>1,390</td><td>16</td><td>51</td></tr><tr><td>1,438</td><td>17</td><td>48</td></tr><tr><td>…</td><td>…</td><td>…</td></tr><tr><td>1,934</td><td>38</td><td>10</td></tr><tr><td>1,834</td><td>39</td><td>−100</td></tr></tbody></table>
+<p>怎么读这张表：先看第 3 列。<strong>边际产量</strong>（marginal product）是「多雇一个工人，多产出多少箱」，算法是这一行产量减上一行产量。它先升（100→123，第 4 个工人达到顶点），再降（123→48），最后变成<strong>负数</strong>（第 39 个工人让总产量从 1,934 掉到 1,834）。三个阶段，就是接下来三页的主题。</p></div>
+</section><section class="slide" id="s15" data-n="15">
+  <div class="slide-head"><span class="pno">P15</span><span class="ptitle">Production function: stylized</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-015.webp" alt="第15页"><figcaption>课件第 15 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把上表画成图，横轴是<strong>工人数</strong>（0–45），纵轴是<strong>日产量</strong>（0–2,100 箱）。</p>
+<p>这条曲线的<strong>斜率就是边际产量</strong>，所以：</p>
+<ul><li>最左边一小段向上弯（斜率变大）——前几个工人带来递增的边际产量；</li><li>中段越来越平（斜率变小）——<a class="term" href="glossary.html#t-law-of-diminishing-returns" data-t="law-of-diminishing-returns">边际产量递减</a>，产量还在涨但涨得越来越慢；</li><li>最右端在 38 个工人附近<strong>掉头向下</strong>——再加人反而减产。</li></ul>
+<p>一条曲线，三段故事。这张「先陡后平再下弯」的形状是全讲的骨架，后面成本曲线的 U 形就是它照镜子照出来的：产量曲线越平，成本曲线越陡。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Production function: stylized</pre></details>
+</section><section class="slide" id="s16" data-n="16">
+  <div class="slide-head"><span class="pno">P16</span><span class="ptitle">Specialization</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-016.webp" alt="第16页"><figcaption>课件第 16 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>第一阶段：<strong>专业化</strong>（specialization）。</p>
+<p><strong>边际产量在最初几个工人加入时是上升的</strong>：两个工人一起干，产出<strong>大于</strong>两人各自单干的<a class="term" href="glossary.html#t-aggregation" data-t="aggregation">加总</a>。</p>
+<p>课件给的解释是装奶酪箱（cheesepacking）的例子：前两个工人各自专攻自己擅长的环节——一个负责折箱、一个负责封胶——配合起来比两人各干全套更快。</p>
+<p>这背后是<strong>分工</strong>的逻辑：任务可以拆，拆开之后每人重复同一动作，熟练度上升、换工具的浪费消失。所以「1+1&gt;2」在生产的早期是常态。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Specialization
+---
+1. The marginal product increases with the addition of the first few workers. 
+Two laborers working together can produce more than the sum of their production in isolation. 
+This might happen because the first two workers specialize in a particular portion of the cheespacking task that they are good at completing.</pre></details>
+</section><section class="slide" id="s17" data-n="17">
+  <div class="slide-head"><span class="pno">P17</span><span class="ptitle">Law of Diminishing Returns</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-017.webp" alt="第17页"><figcaption>课件第 17 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>第二阶段，也是本讲最重要的规律：<strong>边际报酬递减规律</strong>（law of <a class="term" href="glossary.html#t-diminishing-marginal-benefit" data-t="diminishing-marginal-benefit">diminishing returns</a>）。</p>
+<blockquote>在投入连续增加到某一点之后，<strong>边际产量开始下降</strong>。</blockquote>
+<p>注意措辞的精确性：</p>
+<ul><li>说的是<strong>边际</strong>产量下降，不是总产量下降——总产量还在增加，只是增加得越来越少。</li><li>说的是「<strong>某一点之后</strong>」——前面那段递增是允许存在的（上一页的专业化）。</li></ul>
+<p>所以这条规律不是「人越多越糟」，而是「人越多，<strong>多出来的那个人</strong>贡献越小」。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Law of Diminishing Returns
+---
+2. The marginal product eventually decreases with successive additions of workers.
+We call this the Law of Diminishing Returns. 
+This law states that at a certain point of successive increases in inputs, marginal product begins to decrease.</pre></details>
+</section><section class="slide" id="s18" data-n="18">
+  <div class="slide-head"><span class="pno">P18</span><span class="ptitle">Law of Diminishing Returns</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-018.webp" alt="第18页"><figcaption>课件第 18 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>为什么会递减？课件给的机制是<strong>固定投入 + 闲置时间</strong>。</p>
+<p>厂房、机器数量是固定的。工人越加越多，人均能分到的机器使用时间就越少——<strong>工人没法想用机器就用</strong>，只能排队等。等待的时间就是闲置，闲置拉低了每个人的产出。</p>
+<p>这就是「固定投入」这四个字的分量：真正<a class="term" href="glossary.html#t-scarce-resources" data-t="scarce-resources">稀缺</a>的不是人，是<strong>能和人配合的机器</strong>。只要这一项卡住，边际产量迟早往下走。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Law of Diminishing Returns
+---
+This law might apply for a number of reasons. 
+For example, with a fixed amount of physical capital, successive increases in labor eventually lead to lower output per worker because there is idle time: workers cannot use the machines as often as they would like.</pre></details>
+</section><section class="slide" id="s19" data-n="19">
+  <div class="slide-head"><span class="pno">P19</span><span class="ptitle">Adding too many workers can be counterproductive</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-019.webp" alt="第19页"><figcaption>课件第 19 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>第三阶段：<strong>人太多会起反作用</strong>。</p>
+<p>课件说得很直白：加太多工人会<strong>降低总产量</strong>，原因是<strong>拥挤</strong>（congestion）——工人互相挡道、互相等，反而更慢。回到表里：第 38 个工人产出 1,934 箱，第 39 个工人一来，总产量跌到 1,834 箱，<strong>边际产量 −100</strong>。</p>
+<p>课件还开玩笑说，这时候老板该把这个人<strong>打发回家、调去干别的活，甚至让他去给老板遛狗</strong>——因为他正在减少奶酪箱的产量。</p>
+<p>这里的考点：<strong>边际产量为负时，理性厂商一定不会雇这个人</strong>，哪怕工资为零也不雇，因为他让总产出变少、成本变高。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Adding too many workers can be counterproductive
+---
+3. Adding too many workers can decrease overall production. 
+This might happen because congestion causes workers to get in the way of one another.
+If this happens, management should send this worker home, dispatch him to a different task, or even have him wash the owner’s dog, because he is lowering production of cheese boxes.</pre></details>
+</section><section class="slide" id="s20" data-n="20">
+  <div class="slide-head"><span class="pno">P20</span><span class="ptitle">The Cost of Doing Business: the Cost Curves</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-020.webp" alt="第20页"><figcaption>课件第 20 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>第一块（生产）讲完，进入第二块：<strong>成本曲线</strong>（the cost curves）。</p>
+<p>成本的定义很简单：<strong>企业为投入所支付的代价</strong>。但它要分<strong>两部分</strong>——一部分随产量变，一部分不随产量变。</p>
+<p>为什么必须分？因为两者的<strong>决策含义完全不同</strong>：可变成本是「多做就多花」的部分；固定成本是「做不做都要花」的部分。后面判断该不该停业，比的正是收入和哪一部分。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Cost of Doing Business: the Cost Curves
+---
+The cost of production：
+what the firm must pay for its inputs
+
+Two parts:</pre></details>
+</section><section class="slide" id="s21" data-n="21">
+  <div class="slide-head"><span class="pno">P21</span><span class="ptitle">Components of costs</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-021.webp" alt="第21页"><figcaption>课件第 21 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>两种成本：</p>
+<ul><li><strong>可变成本</strong>（variable cost, VC）：<strong>可变投入</strong>的成本，<strong>随产量变化</strong>。这里就是工资：每雇一个工人付 $72，雇 L 个就是 72L。</li><li><strong>固定成本</strong>（fixed cost, FC）：<strong>固定投入</strong>的成本，<strong>即使产量为零也必须付</strong>。这里是厂房 $200。</li></ul>
+<p>注意 FC 的定义里那句「produce zero output」：不生产也要付。这就是它和 VC 的分水岭，也是后面「<a class="term" href="glossary.html#t-sunk-cost" data-t="sunk-cost">沉没成本</a>」讨论的起点。</p>
+<p>用数字压实这两条：VC = 72 × L，FC = 200（Q = 0 也照付 $200），于是 TC = 72L + 200。这条式子只对<strong>短期</strong>成立——长期里厂房可以换，$200 也就不再固定了。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Components of costs
+---
+A variable cost (VC) is the cost of variable factors of production, which change along with a firm’s output.
+A fixed cost (FC) is the cost of fixed factors of production, which a firm must pay even if it produces zero output.</pre></details>
+</section><section class="slide" id="s22" data-n="22">
+  <div class="slide-head"><span class="pno">P22</span><span class="ptitle">Average cost</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-022.webp" alt="第22页"><figcaption>课件第 22 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>三种<strong>平均成本</strong>，都是「总量除以产量」：</p>
+<ul><li><strong><a class="term" href="glossary.html#t-average-total-cost" data-t="average-total-cost">平均总成本</a></strong> ATC = TC / Q</li><li><strong>平均可变成本</strong> AVC = VC / Q</li><li><strong>平均固定成本</strong> AFC = FC / Q</li></ul>
+<p>三者恒等：<strong>ATC = AVC + AFC</strong>。</p>
+<p>用表里的数字验一下（Q = 1,225）：ATC = 1,136/1,225 = $0.93，AVC = 936/1,225 = $0.76，AFC = 200/1,225 = $0.16，0.76 + 0.16 = 0.92，四舍五入对得上。</p>
+<p>AFC 这一项常被忽略，但它解释了 ATC 与 AVC 的<strong>形状差异</strong>：AFC 随产量单调下降，所以 ATC 在低产量段被它拖着快速下滑；产量足够大以后 AFC 很小，ATC 与 AVC 几乎重合，U 形右手边就完全由 AVC 决定。</p>
+<p>还要注意分母：Q 很小时 AFC 会非常大（Q = 100 时是 $2.00），所以 ATC 的起点远高于 AVC——这就是 P25 图上绿线左端高高翘起、而紫线只是轻微上翘的原因。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Average cost
+---
+Average total cost (ATC) is the total cost divided by the total output.
+Average variable cost (AVC) is the total variable cost divided by the total output. 
+Average fixed cost (AFC) is the total fixed cost divided by the total output.</pre></details>
+</section><section class="slide" id="s23" data-n="23">
+  <div class="slide-head"><span class="pno">P23</span><span class="ptitle">Marginal cost</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-023.webp" alt="第23页"><figcaption>课件第 23 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong><a class="term" href="glossary.html#t-marginal-cost" data-t="marginal-cost">边际成本</a></strong>（marginal cost, MC）：<strong>多生产一单位产出所引起的总成本变化</strong>。</p>
+<blockquote>MC = ΔTC / ΔQ</blockquote>
+<p>在只有劳动可变的世界里，它有一个很漂亮的算法：多雇一个工人花 $72，这个工人多做 MP 箱，所以</p>
+<blockquote>MC = 工资 / 边际产量 = 72 / MP</blockquote>
+<p>验算：第 13 个工人多做 64 箱，MC = 72/64 = $1.13；第 4 个工人多做 123 箱，MC = 72/123 = $0.59。</p>
+<p>这条式子说明一件重要的事：<strong>边际产量递增的地方，边际成本递减</strong>。生产函数和成本曲线是同一枚硬币的两面。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Marginal cost
+---
+Marginal cost (MC) is the change in total cost associated with producing one  additional unit of output.</pre></details>
+</section><section class="slide" id="s24" data-n="24">
+  <div class="slide-head"><span class="pno">P24</span><span class="ptitle">这一页把成本和产量并到一张表里</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-024.webp" alt="第24页"><figcaption>课件第 24 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页把成本和产量并到一张表里（Cost of Production），是本讲所有数字的来源。工资 $72/人，固定成本 $200：</p>
+<table class="tbl"><thead><tr><th>(1) Q</th><th>(2) L</th><th>(3) MP</th><th>(4) VC</th><th>(5) FC</th><th>(6) TC</th><th>(7) ATC</th><th>(8) AVC</th><th>(9) AFC</th><th>(10) MC</th></tr></thead><tbody><tr><td>0</td><td>0</td><td>—</td><td>$0</td><td>$200</td><td>$200</td><td>—</td><td>—</td><td>—</td><td>—</td></tr><tr><td>100</td><td>1</td><td>100</td><td>$72</td><td>$200</td><td>$272</td><td>$2.72</td><td>$0.72</td><td>$2.00</td><td>$0.72</td></tr><tr><td>207</td><td>2</td><td>107</td><td>$144</td><td>$200</td><td>$344</td><td>$1.66</td><td>$0.70</td><td>$0.97</td><td>$0.67</td></tr><tr><td>321</td><td>3</td><td>114</td><td>$216</td><td>$200</td><td>$416</td><td>$1.29</td><td>$0.67</td><td>$0.62</td><td>$0.63</td></tr><tr><td>444</td><td>4</td><td>123</td><td>$288</td><td>$200</td><td>$488</td><td>$1.10</td><td>$0.65</td><td>$0.45</td><td>$0.59</td></tr><tr><td>558</td><td>5</td><td>114</td><td>$360</td><td>$200</td><td>$560</td><td>$1.00</td><td>$0.65</td><td>$0.36</td><td>$0.63</td></tr><tr><td>664</td><td>6</td><td>106</td><td>$432</td><td>$200</td><td>$632</td><td>$0.95</td><td>$0.65</td><td>$0.30</td><td>$0.68</td></tr><tr><td>762</td><td>7</td><td>98</td><td>$504</td><td>$200</td><td>$704</td><td>$0.92</td><td>$0.66</td><td>$0.26</td><td>$0.73</td></tr><tr><td>854</td><td>8</td><td>92</td><td>$576</td><td>$200</td><td>$776</td><td>$0.91</td><td>$0.67</td><td>$0.23</td><td>$0.78</td></tr><tr><td>939</td><td>9</td><td>85</td><td>$648</td><td>$200</td><td>$848</td><td>$0.90</td><td>$0.69</td><td>$0.21</td><td>$0.85</td></tr><tr><td>1,019</td><td>10</td><td>80</td><td>$720</td><td>$200</td><td>$920</td><td>$0.90</td><td>$0.71</td><td>$0.20</td><td>$0.90</td></tr><tr><td>1,092</td><td>11</td><td>73</td><td>$792</td><td>$200</td><td>$992</td><td>$0.91</td><td>$0.73</td><td>$0.18</td><td>$0.99</td></tr><tr><td>1,161</td><td>12</td><td>69</td><td>$864</td><td>$200</td><td>$1,064</td><td>$0.92</td><td>$0.74</td><td>$0.17</td><td>$1.04</td></tr><tr><td>1,225</td><td>13</td><td>64</td><td>$936</td><td>$200</td><td>$1,136</td><td>$0.93</td><td>$0.76</td><td>$0.16</td><td>$1.13</td></tr><tr><td>1,284</td><td>14</td><td>59</td><td>$1,008</td><td>$200</td><td>$1,208</td><td>$0.94</td><td>$0.79</td><td>$0.16</td><td>$1.22</td></tr><tr><td>1,339</td><td>15</td><td>55</td><td>$1,080</td><td>$200</td><td>$1,280</td><td>$0.96</td><td>$0.81</td><td>$0.15</td><td>$1.31</td></tr><tr><td>1,390</td><td>16</td><td>51</td><td>$1,152</td><td>$200</td><td>$1,352</td><td>$0.97</td><td>$0.83</td><td>$0.14</td><td>$1.41</td></tr><tr><td>1,438</td><td>17</td><td>48</td><td>$1,224</td><td>$200</td><td>$1,424</td><td>$0.99</td><td>$0.85</td><td>$0.14</td><td>$1.50</td></tr></tbody></table>
+<p>四处值得停一下：</p>
+<ul><li><strong>(3)→(10) 的镜像</strong>：MP 最大（123）时 MC 最小（$0.59）；MP 一路下滑，MC 就一路爬升。</li><li><strong>MC 的形状是 U</strong>：先降到 $0.59，再升到 $1.50。</li><li><strong>ATC 最低是 $0.90</strong>（Q = 939 与 1,019 两处），<strong>AVC 最低是 $0.65</strong>（第 4–6 个工人）。</li><li><strong>AFC 单调下降</strong>：从 $2.00 掉到 $0.14，永远不回头。</li></ul>
+<p>读表顺序建议：先用 (2) 和 (1) 建立产量概念，再用 (4)(5) 合成 (6)，最后由 (6)(1) 得 (7)(8)(9)。考试常给你一半的列让你补另一半，算 (10) 时用相邻两行 TC 之差除以产量之差最快。</p></div>
+</section><section class="slide" id="s25" data-n="25">
+  <div class="slide-head"><span class="pno">P25</span><span class="ptitle">把表画成图</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-025.webp" alt="第25页"><figcaption>课件第 25 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把表画成图，横轴产量（0–2,500 箱），纵轴价格/成本（$0–2.5）。三条曲线：</p>
+<ul><li><strong>MC（红）</strong>：最陡的 U 形，最低点约 $0.59、在 Q≈500 附近，之后急速上冲。</li><li><strong>ATC（绿）</strong>：宽 U 形，最低点 $0.90、在 Q≈1,000 附近。</li><li><strong>AVC（紫）</strong>：更平的 U 形，最低点 $0.65、在 Q≈600 附近。</li></ul>
+<p>读图的三个要点：</p>
+<ol><li><strong>ATC 永远在 AVC 上面</strong>，两者的垂直距离就是 AFC，随产量增大而收窄（$2.00 → $0.14）。</li><li>三条曲线都<strong>先降后升</strong>，U 形的左手边来自固定成本被摊薄，右手边来自边际报酬递减。</li><li><strong>MC 穿过 AVC 和 ATC 的最低点</strong>——下一首要回答的就是这个「为什么」。</li></ol></div>
+</section><section class="slide" id="s26" data-n="26">
+  <div class="slide-head"><span class="pno">P26</span><span class="ptitle">An observation</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-026.webp" alt="第26页"><figcaption>课件第 26 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页只提一个观察，加一个「Why?」：</p>
+<blockquote>MC 曲线在 ATC 和 AVC 各自的<strong>最低点</strong>穿过它们。</blockquote>
+<p>用平均分的类比想最快：你的<strong>边际</strong>成绩（这次考试）如果<strong>低于</strong>平均分，平均分被拉<strong>低</strong>；如果<strong>高于</strong>平均分，平均分被拉<strong>高</strong>。所以平均分最低的那一刻，边际成绩<strong>正好等于</strong>平均分。</p>
+<p>换成成本语言：多生产一箱的成本（MC）低于当前平均成本（ATC）时，平均值被拉下来；高于时被拉上去。<strong>两者相等的那一点，就是平均值的最低点</strong>。这个论证不依赖具体数字，任何 U 形平均曲线都成立。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>An observation
+---
+MC curve intersects the ATC and AVC curves at their respective minimums.
+Why?</pre></details>
+</section><section class="slide" id="s27" data-n="27">
+  <div class="slide-head"><span class="pno">P27</span><span class="ptitle">The Rewards : Revenue Curves</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-027.webp" alt="第27页"><figcaption>课件第 27 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>第三块：<strong>收益</strong>（revenue）。</p>
+<p>在完全竞争市场里，卖方<strong>想卖多少就能卖多少，价格都是市场价</strong>——所以他们是<strong><a class="term" href="glossary.html#t-price-taker" data-t="price-taker">价格接受者</a></strong>（price-takers）。</p>
+<p>由此得到两条极简的公式：</p>
+<ul><li><strong>总收益</strong> TR = P × Q</li><li><strong>平均收益</strong> AR = TR / Q = P</li></ul>
+<p>第二行值得多看两眼：不管你卖 1 箱还是 1,000 箱，<strong>每箱的平均收益都等于市场价格</strong>。价格是给定的常数，不随你的销量下降。这正是「完全竞争」与「垄断」的分水岭。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Rewards : Revenue Curves
+---
+In perfectly competitive markets, sellers can sell all they want at the market price. 
+Thus, they are price-takers.</pre></details>
+</section><section class="slide" id="s28" data-n="28">
+  <div class="slide-head"><span class="pno">P28</span><span class="ptitle">Marginal revenue</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-028.webp" alt="第28页"><figcaption>课件第 28 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong><a class="term" href="glossary.html#t-marginal-revenue" data-t="marginal-revenue">边际收益</a></strong>（marginal revenue, MR）：<strong>多卖一单位产出所带来的总收益变化</strong>。</p>
+<blockquote>MR = ΔTR / ΔQ</blockquote>
+<p>在完全竞争市场里，<strong>MR 就等于市场价格</strong>：多卖一箱，收入就多 P，一分不多一分不少。</p>
+<p>课件还补了一句关键的图形语言：这个价格可以看成<strong>这家企业面对的<a class="term" href="glossary.html#t-demand-curve" data-t="demand-curve">需求曲线</a></strong>——一条<strong>水平线</strong>（flat blue line），高度就是 P。所以对竞争厂商来说：</p>
+<blockquote><strong>MR 曲线 = 它面对的需求曲线 = 一条水平线</strong></blockquote>
+<p>需求曲线水平，意味着它降一点价就白送钱（本来能按市价卖完），涨一点价就一件也卖不掉。所以「接受市价」不是被迫，而是最优。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Marginal revenue
+---
+Marginal revenue (MR) is the change in total revenue associated with producing one more unit of output. 
+In a perfectly competitive market, MR is equal to the market price. 
+We think of that price as representing the demand curve the Cheeseman faces, which is the flat blue line. 
+Therefore, the MR curve is equivalent to the demand curve facing sellers.</pre></details>
+</section><section class="slide" id="s29" data-n="29">
+  <div class="slide-head"><span class="pno">P29</span><span class="ptitle">这一页左右并置两张图</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-029.webp" alt="第29页"><figcaption>课件第 29 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页左右并置两张图，是全讲最常用的「市场 vs 厂商」对照。</p>
+<ul><li><strong>左图（市场）</strong>：横轴数量以百万计（0–25），纵轴价格 $0–3.5。需求（蓝）向下、供给（红）向上，交点决定<strong>市场价 P = $1.13</strong>。价格一旦定下，单个厂商只能接受。</li><li><strong>右图（厂商）</strong>：横轴是这家厂自己的产量（0–2,500 箱），纵轴价格。<strong>水平的蓝线标着 D = MR</strong>，高度 $1.13；红的是它的 MC 曲线。</li></ul>
+<p>两条线相交处就是它的产量：<strong>Q = 1,225 箱</strong>（对应表里第 13 个工人）。注意左右两图横轴单位差了几万倍——这是初学时最容易看错的地方。</p></div>
+</section><section class="slide" id="s30" data-n="30">
+  <div class="slide-head"><span class="pno">P30</span><span class="ptitle">为什么交在 1,225 而不是别处？这一页用边际推理把答案走</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-030.webp" alt="第30页"><figcaption>课件第 30 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>为什么交在 1,225 而不是别处？这一页用<strong>边际推理</strong>把答案走一遍。</p>
+<ul><li>在 <strong>A 点</strong>（Q≈950），MC ≈ $0.78 <strong>小于</strong> MR = $1.13：多做一箱赚 $0.35，所以<strong>应该扩产</strong>。</li><li>在 <strong>B 点</strong>（Q≈1,500），MC ≈ $1.60 <strong>大于</strong> MR：多做一箱倒亏 $0.47，所以<strong>应该减产</strong>。</li></ul>
+<p>两个箭头都指向中间，直到 <strong>MC = MR</strong>，产量停在 1,225。</p>
+<p>结论写成规则：</p>
+<blockquote><strong>利润最大化条件：MR = MC</strong>（竞争市场里就是 <strong>P = MC</strong>）</blockquote>
+<p>直觉一句话：只要「多做一件的收益」还大于「多做一件的成本」，就该继续做；做到两者相等，再无改进空间。</p></div>
+</section><section class="slide" id="s31" data-n="31">
+  <div class="slide-head"><span class="pno">P31</span><span class="ptitle">Putting It All Together</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-031.webp" alt="第31页"><figcaption>课件第 31 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>三块拼起来，算利润的步骤只有三步：</p>
+<ol><li>由 <strong>MR = MC</strong> 定产量 Q\*；</li><li>算 <strong>TR = P × Q\</strong><em> 与 <strong>TC = ATC × Q\</strong></em>；</li><li>相减：<strong>π = TR − TC = (P − ATC) × Q\</strong>*。</li></ol>
+<p>用数字走一遍（P = $1.13，Q\* = 1,225）：TR = 1.13 × 1,225 = $1,384，TC = $1,136，利润 ≈ <strong>$248</strong>。</p>
+<p>第 3 步的写法最好用：<strong>(P − ATC) × Q</strong>，它是「每箱赚多少 × 卖了多少箱」，对应图上就是一个矩形。</p>
+<p>为什么不用表里「利润最大」那一行直接找？因为表只列了整数个工人的离散点，MR = MC 给的是连续意义上的最优；两者在此恰好落在同一行（第 13 个工人），这组数字是教材特意配好的。</p>
+<p>注意这个 $248 是<strong><a class="term" href="glossary.html#t-economic-profit" data-t="economic-profit">经济利润</a></strong>的雏形——它还没扣掉老板自己的时间，P70 会把那一块补上。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Putting It All Together
+---
+How can we compute the level of profits?</pre></details>
+</section><section class="slide" id="s32" data-n="32">
+  <div class="slide-head"><span class="pno">P32</span><span class="ptitle">这一页就是那个矩形</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-032.webp" alt="第32页"><figcaption>课件第 32 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页就是那个矩形。</p>
+<p>坐标系是厂商视角：横轴 0–2,500 箱，纵轴价格 $0.5–2.0。水平的 <strong>MR 线在 $1.13</strong>，绿色 <strong>ATC 曲线</strong>在 Q = 1,225 处的高度是 <strong>$0.93</strong>。</p>
+<p>于是：</p>
+<ul><li>矩形<strong>宽</strong> = 1,225 箱；</li><li>矩形<strong>高</strong> = 1.13 − 0.93 = <strong>$0.20</strong>（每箱利润）；</li><li>面积 = 0.20 × 1,225 ≈ <strong>$245</strong>（浅绿阴影）。</li></ul>
+<p>读图口诀：<strong>矩形的上边是价格线，下边是 ATC</strong>。价格线在 ATC 之上是利润矩形，翻到下面就是亏损矩形——P41 的 S 点正是后者。</p>
+<p>还有个细节：矩形的高度（$0.20）远小于宽度（1,225 箱），说明利润率只有 0.20/1.13 ≈ 18%。完全竞争行业里的利润空间通常就这么薄。</p></div>
+</section><section class="slide" id="s33" data-n="33">
+  <div class="slide-head"><span class="pno">P33</span><span class="ptitle">MR = MC rule allows us to link the market price to the MC curve Then we can dete</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-033.webp" alt="第33页"><figcaption>课件第 33 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把 MR = MC 翻译成<a class="term" href="glossary.html#t-supply-curve" data-t="supply-curve">供给曲线</a>。</p>
+<p>逻辑链是这样的：市场价变 → 厂商的 MR 线上下平移 → 它与 MC 的新交点给出新产量。所以</p>
+<blockquote><strong>MC 曲线本身就在告诉我们：每一个价格下企业愿意供应多少。</strong></blockquote>
+<p>这就是<strong>厂商的供给曲线</strong>。价格从 $1.13 涨到 $1.50，交点沿 MC 向右上移，产量从 1,225 增到约 1,600；价格跌到 $0.90，产量退到 1,000 附近。</p>
+<p>一句话：<strong>供给曲线不是画出来的，是从 MC 推出来的。</strong></p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>MR = MC rule allows us to link the market price to the MC curve 
+Then we can determine in the short run how a competitive firm changes its output when the market price changes. 
+That is the firm’s supply curve
+---
+From the Seller’s Problem to the Supply Curve</pre></details>
+</section><section class="slide" id="s34" data-n="34">
+  <div class="slide-head"><span class="pno">P34</span><span class="ptitle">Deriving the Supply Curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-034.webp" alt="第34页"><figcaption>课件第 34 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页：<strong>Deriving the Supply Curve（推导供给曲线）</strong>。</p>
+<p>接下来几页要做两件事：把「MC 就是供给曲线」这个结论坐实（包括它在低价格处会断掉，见 P43），以及用一个新工具——<strong><a class="term" href="glossary.html#t-price-elasticity-of-supply" data-t="price-elasticity-of-supply">供给弹性</a></strong>——描述这条曲线有多敏感。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Deriving the Supply Curve</pre></details>
+</section><section class="slide" id="s35" data-n="35">
+  <div class="slide-head"><span class="pno">P35</span><span class="ptitle">Price elasticity of supply</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-035.webp" alt="第35页"><figcaption>课件第 35 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>供给价格弹性</strong>（price elasticity of supply）：<a class="term" href="glossary.html#t-quantity-supplied" data-t="quantity-supplied">供给量</a>对价格变化的敏感程度。</p>
+<blockquote>εS = 供给量变动百分比 / 价格变动百分比</blockquote>
+<p>和需求<a class="term" href="glossary.html#t-elasticity" data-t="elasticity">弹性</a>同一套算法，只是把 Q 换成供给量。它的绝对值越大，供给越敏感。</p>
+<p>两个提醒：一是供给弹性通常为<strong>正</strong>（价格涨、供给增），所以只看大小不看符号；二是它是<strong>百分比之比</strong>，与单位无关，因此可以跨行业比较。</p>
+<p>三个基准值先记住：εS = ∞（完全弹性，水平线）、εS = 1（<a class="term" href="glossary.html#t-unit-elastic" data-t="unit-elastic">单位弹性</a>，同比例变动）、εS = 0（完全无弹性，垂直线）。接下来三页各画一个。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Price elasticity of supply</pre></details>
+</section><section class="slide" id="s36" data-n="36">
+  <div class="slide-head"><span class="pno">P36</span><span class="ptitle">(a) 完全弹性供给</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-036.webp" alt="第36页"><figcaption>课件第 36 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>(a) 完全弹性供给</strong>（perfectly elastic supply）。</p>
+<p>图里只有一条<strong>水平</strong>的红线，高度 $5，旁边标着 <strong>εS = ∞</strong>。</p>
+<p>含义：价格只要低于 $5，一件都不卖；价格等于 $5，企业愿意卖<strong>任意数量</strong>。价格变动百分比为 0，供给量却能无限变，所以弹性无穷大。</p>
+<p>现实对应：<strong>存在大量同质产能、且进入成本极低</strong>的行业。回看 P29 右图那条水平的 D = MR，它其实就是单个竞争厂商面对的「完全弹性」需求；而这里讲的是<strong>整条供给</strong>的水平形态，两者别混。</p></div>
+</section><section class="slide" id="s37" data-n="37">
+  <div class="slide-head"><span class="pno">P37</span><span class="ptitle">(b) 单位弹性供给</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-037.webp" alt="第37页"><figcaption>课件第 37 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>(b) 单位弹性供给</strong>（unit-elastic supply）。</p>
+<p>图上是一条向上弯的供给曲线，标 <strong>εS = 1</strong>。课件用两个标注把算法演给你看：</p>
+<ol><li>价格从 $5 涨到 $6，<strong>涨 20%</strong>；</li><li>供给量从 100 涨到 120，<strong>也涨 20%</strong>。</li></ol>
+<p>20% / 20% = 1，所以是单位弹性。</p>
+<p>为什么画成曲线而不是直线？因为弹性是<strong>百分比之比</strong>，在普通坐标里只有过原点的直线才处处弹性为 1。做题时只要会算 (ΔQ/Q)/(ΔP/P)，不必纠结图形。</p>
+<p>顺带一个判读技巧：<strong>过原点的直线供给，弹性恒等于 1</strong>，几何上一眼就能认出来，不必算百分比。</p></div>
+</section><section class="slide" id="s38" data-n="38">
+  <div class="slide-head"><span class="pno">P38</span><span class="ptitle">(c) 完全无弹性供给</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-038.webp" alt="第38页"><figcaption>课件第 38 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>(c) 完全无弹性供给</strong>（perfectly inelastic supply）。</p>
+<p>图上是一条<strong>垂直</strong>的红线，钉在 Q = 100，标 <strong>εS = 0</strong>。课件标注：</p>
+<ol><li>价格从 $5 涨到 $6，<strong>涨 20%</strong>；</li><li>供给量<strong>增加 0%</strong>，还是 100。</li></ol>
+<p>价格怎么变，供给量都不动。现实对应：<strong>短期内供给量已经锁死</strong>的东西——音乐厅的座位、当季的西瓜、已经卖完的演唱会门票。</p>
+<p>三张图并排记：<strong>水平 = ∞，过原点直线 = 1，垂直 = 0</strong>。</p>
+<p>为什么会有完全无弹性的供给？因为「当期」这个约束太紧：座位数、许可证数、已经长成的庄稼，都不是价格能改变的。这正是 P39「时间越长弹性越大」的反面。</p></div>
+</section><section class="slide" id="s39" data-n="39">
+  <div class="slide-head"><span class="pno">P39</span><span class="ptitle">Factors affecting supply elasticity</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-039.webp" alt="第39页"><figcaption>课件第 39 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>哪些因素决定供给弹性的大小？课件给了三条：</p>
+<ul><li><strong>有没有多余库存</strong>（excess inventories）：仓库里有现货，价格一涨马上能出货，弹性大。</li><li><strong>有多少时间反应</strong>：<strong>时间越长，供给越有弹性</strong>。厂房可以扩建、设备可以添置，长期比短期灵活得多。</li><li><strong>工人是否容易招到</strong>：劳动力市场宽松，企业能迅速扩产，弹性大；招不到人，价格再高也扩不了。</li></ul>
+<p>这三条和第 13 讲的「短期/长期」是同一件事的两种说法。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Factors affecting supply elasticity
+---
+Whether the firm has excess inventories
+How long the firm has to respond to price changes is important—the longer the time to respond is, the more elastic the supply will be. 
+If workers are readily available, then supply will be more elastic because the firm can respond to price increases by quickly hiring workers.</pre></details>
+</section><section class="slide" id="s40" data-n="40">
+  <div class="slide-head"><span class="pno">P40</span><span class="ptitle">Shutdown</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-040.webp" alt="第40页"><figcaption>课件第 40 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>有了「供给量如何随价格变化」，就可以处理极端情形：<strong>什么时候该停业</strong>。</p>
+<blockquote><strong>停业</strong>（shutdown）是一个<strong>短期</strong>决策：在某个时间段内<strong>什么都不生产</strong>。</blockquote>
+<p>注意两个限定词：</p>
+<ul><li><strong>短期</strong>——厂房还在、合同还在，只是机器停转、工人放假。这和<strong>退出</strong>（exit，长期离开这个行业）不是一回事，退出在 P55 讲。</li><li><strong>什么都不生产</strong>——不是减产，是产量归零。</li></ul>
+<p>停业时收益为零，但<strong>固定成本照付</strong>。所以问题变成：停业亏得多，还是硬撑着亏得多？</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Shutdown
+---
+With an understanding of how quantity supplied responds to price changes, we can consider extreme market situations, such as when the firm should shut down, or suspend, operations. 
+A shutdown is a short-run decision to not produce anything during a specific time period.</pre></details>
+</section><section class="slide" id="s41" data-n="41">
+  <div class="slide-head"><span class="pno">P41</span><span class="ptitle">What about point S?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-041.webp" alt="第41页"><figcaption>课件第 41 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>价格跌到 <strong>$0.60</strong>，MR 线降到最低那条。MR = MC 的交点是 <strong>S</strong>：Q = 500 箱。</p>
+<p>按 MR = MC 的规则，这里确实是「最优产量」。但请看 S 的位置：它在 <strong>AVC 曲线最低点（$0.65）之下</strong>。</p>
+<p>这意味着什么？每卖一箱收 $0.60，而生产这一箱的可变成本就要 $0.65 以上——<strong>卖一箱亏一箱，连工资都发不出来</strong>。继续生产只会让亏损比固定成本还大。</p>
+<p>所以答案是：<strong>不该继续经营，应该停业</strong>。规则是「P &lt; min AVC 就停业」。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>What about point S?
+---
+At S, we have MR=MC
+Should the firm continue operation at this point?</pre></details>
+</section><section class="slide" id="s42" data-n="42">
+  <div class="slide-head"><span class="pno">P42</span><span class="ptitle">What about point C?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-042.webp" alt="第42页"><figcaption>课件第 42 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>价格回升到 <strong>$0.80</strong>，交点是 <strong>C</strong>：Q ≈ 950 箱。这个位置在 <strong>min AVC（$0.65）之上、min ATC（$0.90）之下</strong>。</p>
+<p>按 MR = MC，最优产量是 950 箱，但每一箱都在亏钱（P &lt; ATC）。<strong>该不该停？不该。</strong></p>
+<p>理由是这一页的关键概念——<strong>沉没成本</strong>（sunk costs）：</p>
+<blockquote>沉没成本是<strong>一旦投入就再也收不回来</strong>的成本，<strong>不应该影响当前和未来的生产决策</strong>。</blockquote>
+<p>$200 的厂房租金已经花掉了，停不停业都收不回来。所以真正要比的是：<strong>收入能不能盖住可变成本</strong>。$0.80 &gt; $0.65，每箱还能剩 $0.15 去补贴那 $200。生产，亏损小于 $200；停业，亏损正好 $200。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>What about point C?
+---
+Sunk costs are costs that, once committed, can never be recovered and should not affect current and future production decisions.</pre></details>
+</section><section class="slide" id="s43" data-n="43">
+  <div class="slide-head"><span class="pno">P43</span><span class="ptitle">The short-run supply curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-043.webp" alt="第43页"><figcaption>课件第 43 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把 P41 和 P42 合起来，得到<strong><a class="term" href="glossary.html#t-short-run-supply-curve" data-t="short-run-supply-curve">短期供给曲线</a></strong>的准确定义：</p>
+<blockquote>短期供给曲线 = <strong>MC 曲线上高于 AVC 的那一段</strong>。</blockquote>
+<p>规则写成两句：</p>
+<ul><li>若市场价让企业落在 MC 上<strong>低于 min AVC</strong> 的位置 → <strong>停业</strong>，供给量为 0；</li><li>否则 → 按 <strong>P = MC</strong> 生产。</li></ul>
+<p>注意这条曲线在 min AVC 处<strong>断开</strong>：价格低于 $0.65 时供给量直接是 0，不是沿着 MC 继续往左下走。这一点是「生产与不生产无差异」的临界价格——刚好 P = min AVC 时，开工和停业的亏损都等于 $200。这是它和「整条 MC 曲线」的唯一区别。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The short-run supply curve
+---
+The short-run supply curve: the portion of its MC curve that lies above AVC. 
+If the market price puts the firm at a point on its MC curve that lies below the minimum of the AVC curve, then the firm should shut down. 
+Otherwise, it should produce.</pre></details>
+</section><section class="slide" id="s44" data-n="44">
+  <div class="slide-head"><span class="pno">P44</span><span class="ptitle">图上把答案画出来了</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-044.webp" alt="第44页"><figcaption>课件第 44 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>图上把答案画出来了：绿色的 ATC、紫色的 AVC、红色的 MC。</p>
+<p>红色加粗的那一段，<strong>从 min AVC（$0.65）开始沿 MC 一路向右上延伸</strong>，标注为 <strong>Short-run supply</strong>。AVC 最低点以下的那一小截 MC 虽然存在，但<strong>不属于供给曲线</strong>——因为在那里企业宁可停产。</p>
+<p>读图要点：短期供给曲线的<strong>起点是 min AVC</strong>，不是原点，也不是 min ATC。这条「起点」在 P54 会被长期条件替换成 min ATC。</p>
+<p>顺带记住斜率的含义：MC 越陡，供给越不弹性——想多产一箱，成本就跳得很高。</p></div>
+</section><section class="slide" id="s45" data-n="45">
+  <div class="slide-head"><span class="pno">P45</span><span class="ptitle">Producer Surplus</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-045.webp" alt="第45页"><figcaption>课件第 45 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong><a class="term" href="glossary.html#t-producer-surplus" data-t="producer-surplus">生产者剩余</a></strong>（producer surplus），与<a class="term" href="glossary.html#t-consumer-surplus" data-t="consumer-surplus">消费者剩余</a>对称。</p>
+<p>定义：<strong>市场价格与企业边际成本之间的差额</strong>，把所有卖出的单位加总。</p>
+<p>为什么这是「剩余」？因为 MC 是「卖这一箱至少要收到多少才不亏」的心理底价。实际收到 $2.00，而这一箱的成本只有 $0.60，多出来的 $1.40 就是白赚的。</p>
+<p>图形上：</p>
+<blockquote>生产者剩余 = <strong>MC 曲线之上、市场价格线之下</strong>的面积。</blockquote>
+<p>一个常见混淆：生产者剩余<strong>不是利润</strong>。PS 只减了可变成本（MC 的加总），没减固定成本；利润 = PS − FC。所以 PS 可能为正而利润为负，P42 的 C 点就是。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Producer Surplus
+---
+Similar to the concept of consumer surplus, economists also have a means of measuring surplus for sellers. 
+This is called producer surplus. 
+Computed by taking the difference between the market price and the MC curve.
+Thus, graphically, producer surplus is the area above the MC curve and below the equilibrium price line.</pre></details>
+</section><section class="slide" id="s46" data-n="46">
+  <div class="slide-head"><span class="pno">P46</span><span class="ptitle">图上</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-046.webp" alt="第46页"><figcaption>课件第 46 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>图上：横轴 0–2,500 箱，纵轴 $0.5–2.5，红色 MC 曲线，虚线标出 <strong>P_market = $2.0</strong>。</p>
+<p>粉红色阴影就是生产者剩余——它从纵轴开始，上边界是 $2.0 的水平虚线，下边界是 MC 曲线，右边界是 MC 与价格线的交点（约 1,700 箱）。</p>
+<p>注意这块面积<strong>不是矩形而是曲边三角形</strong>：每一箱的成本都不一样，前面的箱子成本低、剩余大，越往后剩余越小，到交点处剩余归零。若 MC 是水平线，这块面积才退化成矩形。</p></div>
+</section><section class="slide" id="s47" data-n="47">
+  <div class="slide-head"><span class="pno">P47</span><span class="ptitle">价格从 $100 涨到 $120</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-047.webp" alt="第47页"><figcaption>课件第 47 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>价格从 $100 涨到 $120，生产者剩余怎么变？两幅图对照：</p>
+<ul><li><strong>(a) P = $100</strong>：阴影是 MC 线之上、$100 之下的三角形，销量到 4 单位。</li><li><strong>(b) P = $120</strong>：阴影明显变大，多出两块——<strong>原来那些单位现在每单位多赚 $20</strong>（原面积上方加的一条），以及<strong>新进入的、成本在 $100 到 $120 之间的单位</strong>也带来了剩余。</li></ul>
+<p>这正是 P59 要讲的机制在厂商层面的版本：<strong>价格上升 → 供给量增加 → 生产者剩余增加</strong>。第 5 讲算社会总福利时，这块面积会和消费者剩余一起被加总。</p></div>
+</section><section class="slide" id="s48" data-n="48">
+  <div class="slide-head"><span class="pno">P48</span><span class="ptitle">From the Short Run to the Long Run</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-048.webp" alt="第48页"><figcaption>课件第 48 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>从短期走向长期。</p>
+<p>课件提醒：企业不会只盯着今天的产量，它们发<strong>季报、年报</strong>，讨论的是<strong>长期前景</strong>。</p>
+<p>现在 The Cheeseman 可以<strong>任意组合劳动和物质资本</strong>来最大化利润——不只决定雇几个人，还决定<strong>厂房多大</strong>。</p>
+<p>从建模角度说，这一页把「厂房规模」从<strong>参数</strong>变成了<strong>选择变量</strong>。凡是一个量从给定变成可选，最优值只会更好——这就是长期成本更低的根源。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>From the Short Run to the Long Run
+---
+Firms often think about more than just each day’s production. 
+For example, many businesses issue quarterly or annual reports that discuss the firm’s long-term outlook. 
+We now move from the daily supply decision to the long run, where The Cheeseman can combine any quantity of labor and physical capital to maximize profits.</pre></details>
+</section><section class="slide" id="s49" data-n="49">
+  <div class="slide-head"><span class="pno">P49</span><span class="ptitle">From the Short Run to the Long Run</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-049.webp" alt="第49页"><figcaption>课件第 49 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>长期的定义再强调一次：</p>
+<blockquote>长期 = <strong>所有</strong>生产要素都可变的时间段。</blockquote>
+<p>课件补了一句很关键的话：长期里<strong>没有固定投入</strong>，因为机器和厂房可以<strong>改造、购买、扩建、出售</strong>（retrofitted, purchased, expanded, sold）。</p>
+<p>所以长期和短期的差别不只是「时间更久」，而是<strong>决策变量更多</strong>：短期只能调 L，长期能同时调 L 和 K。决策变量一多，成本曲线的位置就会变——这就是下一页的主题。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>From the Short Run to the Long Run
+---
+The long run is defined as a period of time in which all factors of production are variable. 
+In the long run, there are no fixed factors of production, because even machines and buildings can be retrofitted, purchased, expanded, or sold. 
+Because of this fact, there are important differences between a firm’s short- and long-run supply curves.</pre></details>
+</section><section class="slide" id="s50" data-n="50">
+  <div class="slide-head"><span class="pno">P50</span><span class="ptitle">From the Short Run to the Long Run</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-050.webp" alt="第50页"><figcaption>课件第 50 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页给出短长期成本曲线的<strong>位置关系</strong>：</p>
+<ul><li>短期：想改产量，只能靠<strong>增减工人</strong>，厂房锁死。</li><li>长期：可以同时挑<strong>工人数和厂房规模</strong>，为每个产量水平选出<strong>平均成本最低</strong>的那套组合。</li></ul>
+<p>结论：</p>
+<blockquote><strong>短期成本曲线在长期成本曲线之上。</strong></blockquote>
+<p>为什么？因为长期的选择集<strong>包含</strong>短期的选择集。短期你被厂房绑住，只能在一条 ATC 上移动；长期你可以换厂房，总能找到不更差的那一条。约束越少，成本越低。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>From the Short Run to the Long Run
+---
+Again consider The Cheeseman.
+In the short run, if the firm wants to change production, it can only do so by hiring or laying off workers.  
+In the long run, however, the firm searches for the optimal combination of workers and building size (that is, physical capital). 
+That is, in the long run, The Cheeseman is able to combine workers and physical capital to achieve the minimal ATC for each output level. 
+This difference causes the short-run cost curves to be above the long-run cost curve.</pre></details>
+</section><section class="slide" id="s51" data-n="51">
+  <div class="slide-head"><span class="pno">P51</span><span class="ptitle">图上画了三条短期 ATC</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-051.webp" alt="第51页"><figcaption>课件第 51 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>图上画了三条短期 ATC：<strong>小厂房</strong>（浅紫）、<strong>中厂房</strong>（紫）、<strong>大厂房</strong>（深紫），各自是一条 U 形，最低点分别落在约 700、1,000、1,900 箱。</p>
+<p>绿色的 <strong>Long-run ATC</strong> 是它们的<strong>包络线</strong>（envelope）：它把三条短期曲线<strong>最低的部分</strong>连起来，形成一条更宽、更平、更低的 U 形。</p>
+<p>读图三点：</p>
+<ul><li><a class="term" href="glossary.html#t-long-run-average-cost" data-t="long-run-average-cost">长期 ATC</a> <strong>永不高于</strong>任何一条短期 ATC（约束更少）；</li><li>它与每条短期 ATC <strong><a class="term" href="glossary.html#t-tangency-condition" data-t="tangency-condition">相切</a></strong>于该厂房的最优产量附近，而不是穿过最低点；</li><li>短期 U 形很窄，长期 U 形很宽——因为长期可以用「换厂房」代替「硬撑」。</li></ul></div>
+</section><section class="slide" id="s52" data-n="52">
+  <div class="slide-head"><span class="pno">P52</span><span class="ptitle">From the Short Run to the Long Run</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-052.webp" alt="第52页"><figcaption>课件第 52 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>长期 ATC 的<strong>下降段</strong>有专门的名字：<strong><a class="term" href="glossary.html#t-economies-of-scale" data-t="economies-of-scale">规模经济</a></strong>（economies of scale）。</p>
+<blockquote>产量增加时 ATC 下降，就是规模经济。</blockquote>
+<p>机制：厂房、设备、管理人员这些都是「一大块」投入，产量小时摊不薄；产量扩大后，同样的管理团队管更多生产线，单位成本就下来了。大厂买原料还更便宜、贷款利息更低。</p>
+<p>这一段是后面第 12 讲「<a class="term" href="glossary.html#t-natural-monopoly" data-t="natural-monopoly">自然垄断</a>」的伏笔：如果一个行业的长期 ATC 一路下降到底，最后只会剩下一家企业——因为大厂永远比小厂便宜。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>From the Short Run to the Long Run
+---
+In this example the long-run ATC curve has a pronounced U-shape.
+On the downward portion of the U, ATC decreases as output increases. 
+When this happens, we say that there is economies of scale.</pre></details>
+</section><section class="slide" id="s53" data-n="53">
+  <div class="slide-head"><span class="pno">P53</span><span class="ptitle">Economies of scale</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-053.webp" alt="第53页"><figcaption>课件第 53 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>补完长期 ATC 的另外两段：</p>
+<ul><li><strong>规模报酬不变</strong>（constant returns to scale）：产量变化时 <strong>ATC 不变</strong>。U 形的底部就是这一段，很平。</li><li><strong>规模不经济</strong>（diseconomies of scale）：产量增加时 <strong>ATC 上升</strong>。规模太大，管理层级变多、信息传递变慢、协调成本上升，把规模优势吃掉了。</li></ul>
+<p>三段合起来就是长期 ATC 的 U 形：<strong>先降（规模经济）→ 平（不变）→ 升（不经济）</strong>。注意这三段讲的都是<strong>长期</strong>，短期 U 形的成因（固定成本摊薄 + 边际报酬递减）完全不同，别混。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Economies of scale
+---
+Constant returns to scale exist when ATC does not change as the quantity produced changes.
+Diseconomies of scale occur when ATC rises as the quantity produced increases.</pre></details>
+</section><section class="slide" id="s54" data-n="54">
+  <div class="slide-head"><span class="pno">P54</span><span class="ptitle">Long-Run Supply Curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-054.webp" alt="第54页"><figcaption>课件第 54 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>回到具体决策。图 (b) 中，价格落在 <strong>A 点</strong>：约 $0.70，位于 MC 曲线上，但<strong>低于 min ATC（$0.90）</strong>。</p>
+<p>课件问：这个价格下该生产吗？答案是——</p>
+<blockquote><strong>除了退出这个行业，The Cheeseman 别无选择</strong>，因为它无法在<a class="term" href="glossary.html#t-market-clearing-price" data-t="market-clearing-price">均衡价格</a>下盈利地存在。</blockquote>
+<p>注意这里用的是「<strong>退出</strong>」（exit），不是「停业」（shutdown）。$0.70 &gt; $0.65 = min AVC，短期硬撑还能收回可变成本；但长期连厂房的 $200 都收不回来，厂房到期就该卖掉走人。</p>
+<p>对照 P41：$0.60 时<strong>立刻停业</strong>，$0.70 时<strong>短期开工、长期退出</strong>。同一个「低价」，两个时间尺度给出两个答案——这是本讲最容易被考的对比。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Long-Run Supply Curve
+---
+Consider point A. 
+Should The Cheeseman produce at this price? 
+There is really no choice for Cheeseman but to exit the industry, because it cannot profitably exist at the equilibrium price.</pre></details>
+</section><section class="slide" id="s55" data-n="55">
+  <div class="slide-head"><span class="pno">P55</span><span class="ptitle">Long-run decision rule</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-055.webp" alt="第55页"><figcaption>课件第 55 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>正式的<strong>长期决策规则</strong>：</p>
+<blockquote><strong>退出</strong>（exit）= 长期离开市场。</blockquote>
+<p>&gt;</p>
+<blockquote><strong>若 P &lt; ATC，就退出</strong>；等价地，<strong>若 TR &lt; TC，就退出</strong>。</blockquote>
+<p>和 P43 的短期规则对照记：</p>
+<table class="tbl"><thead><tr><th></th><th>短期</th><th>长期</th></tr></thead><tbody><tr><td>决策</td><td>停业 shutdown</td><td>退出 exit</td></tr><tr><td>门槛</td><td>P &lt; min <strong>AVC</strong></td><td>P &lt; min <strong>ATC</strong></td></tr><tr><td>逻辑</td><td>固定成本已沉没</td><td>固定成本也能躲开</td></tr></tbody></table>
+<p>差别就在「固定成本能不能躲」。短期躲不掉，所以只看可变成本；长期连厂房都能卖掉，所以要看全部成本。当 P = min ATC 时企业恰好不赚不亏，那正是长期<a class="term" href="glossary.html#t-equilibrium" data-t="equilibrium">均衡</a>的状态（P63 的 E 点）。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Long-run decision rule
+---
+Exit is a long-run decision to leave the market.
+
+The long-run decision rule:
+Exit if price is less than ATC or, likewise, if total revenue is less than total cost.</pre></details>
+</section><section class="slide" id="s56" data-n="56">
+  <div class="slide-head"><span class="pno">P56</span><span class="ptitle">From the Firm to the Market: Long-Run Competitive Equilibrium</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-056.webp" alt="第56页"><figcaption>课件第 56 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>从单个企业走向<strong>整个行业</strong>。</p>
+<p>课件说：和单个企业的短期/长期之分一样，<strong>行业层面</strong>也有短期和长期的关键区别。接下来的几页要回答一个更大的问题：当所有企业都能自由进出时，<strong>市场价格会被压到哪里</strong>？</p>
+<p>顺序是：先把单个企业的决策规则定下来（P40–P55），再把它乘以企业数目得到市场供给（P59–P64），最后看企业数目本身如何被利润调节（P57）。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>From the Firm to the Market:Long-Run Competitive Equilibrium
+---
+Much like the short- and long-run analyses for the individual firm, at the industry level there are critical distinctions between the short run and the long run.</pre></details>
+</section><section class="slide" id="s57" data-n="57">
+  <div class="slide-head"><span class="pno">P57</span><span class="ptitle">From the Firm to the Market: Long-Run Competitive Equilibrium</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-057.webp" alt="第57页"><figcaption>课件第 57 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>行业层面的<strong>主要区别</strong>只有一句：</p>
+<blockquote>短期内，行业里的<strong>企业数目是固定的</strong>；长期内，企业可以<strong>根据盈利状况进入或退出</strong>。</blockquote>
+<p>原因还是那句：长期里它们能同时调整劳动和物质资本，因此能真正搬进来或搬出去。</p>
+<p>请把「企业数目可变」这五个字看成本页的核心——它是唯一一个能让<strong>市场供给曲线整体移动</strong>的因素。单个企业改产量是沿着曲线走，企业进出是把曲线搬走。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>From the Firm to the Market:Long-Run Competitive Equilibrium
+---
+The primary difference
+Even though the number of firms in the industry is fixed in the short run, in the long run, firms can enter or exit the industry in response to changes in profitability. 
+This is again because in the long run, they have the ability to change both labor and physical capital.</pre></details>
+</section><section class="slide" id="s58" data-n="58">
+  <div class="slide-head"><span class="pno">P58</span><span class="ptitle">Free entry</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-058.webp" alt="第58页"><figcaption>课件第 58 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>自由进入</strong>（free entry）的定义：</p>
+<blockquote>当一个行业的进入<strong>不受任何特殊的法律或技术障碍</strong>限制时，我们说存在自由进入。</blockquote>
+<p>「不受限制」是关键词。要执照、要特许经营、要专利授权、要巨额初始投资（比如建芯片厂），都不算自由进入。</p>
+<p>这是完全竞争三条假设里的第三条，也是「长期利润为零」这个结论唯一的支柱。没有自由进入，超额利润就会一直留在行业里。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Free entry
+---
+There is free entry into an industry when entry is unfettered by any special legal or technical barriers.</pre></details>
+</section><section class="slide" id="s59" data-n="59">
+  <div class="slide-head"><span class="pno">P59</span><span class="ptitle">free entry</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-059.webp" alt="第59页"><figcaption>课件第 59 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>自由进入的<strong>第一步机制</strong>：它让市场供给曲线右移。</p>
+<p>推理链：</p>
+<ol><li>市场供给曲线是<strong>所有单个企业供给曲线的加总</strong>；</li><li>新企业进来，等于在<strong>每一个价格</strong>上都多了一批供给量；</li><li>所以<strong>在任意给定价格下，行业提供的数量更多</strong>；</li><li>图形上就是<strong>市场供给曲线向右移动</strong>。</li></ol>
+<p>注意「向右」这个词的精确含义：不是价格变了，是<strong>同一价格对应的数量变多</strong>。这是「供给量变动」与「供给变动」的经典区别。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>free entry
+---
+First, think about what entry of new firms does to the market supply curve. 
+Because the market supply curve is the summation of individual firms’ supply curves, adding new firms causes the industry to provide higher quantity at any given price. 
+In other words, entry shifts the market supply curve to the right.</pre></details>
+</section><section class="slide" id="s60" data-n="60">
+  <div class="slide-head"><span class="pno">P60</span><span class="ptitle">Entry shifts the market supply curve to the right</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-060.webp" alt="第60页"><figcaption>课件第 60 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页就是那句结论的图：<strong>Entry shifts the market supply curve to the right（进入使市场供给曲线右移）</strong>。</p>
+<p>图上纵轴价格、横轴数量。原来的供给曲线 S1 在左，新的 S2 在右，<strong>水平方向上整条搬过去</strong>，两者之间的水平距离就是新进入企业带来的新增供给量。</p>
+<p>移动之后，S2 与需求曲线 D 的新交点比原交点<strong>更低、更靠右</strong>——价格下降、成交量上升。价格为什么会降？下一頁给答案。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Entry shifts the market supply curve to the right</pre></details>
+</section><section class="slide" id="s61" data-n="61">
+  <div class="slide-head"><span class="pno">P61</span><span class="ptitle">The effect of free entry</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-061.webp" alt="第61页"><figcaption>课件第 61 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>为什么进入会让价格下跌？课件把推理逐步写出来：</p>
+<ul><li>完全竞争行业的价格，由<strong>市场需求与市场供给的交点</strong>决定；</li><li>供给曲线<strong>右移</strong>，沿同一条需求曲线向下滑；</li><li>所以<strong>市场均衡价格下降</strong>；</li><li>而竞争企业是<strong>价格接受者</strong>，它只能接受这个更低的价格。</li></ul>
+<p>注意这里没有「企业降价竞争」这回事——没有哪家企业主动降价。价格下跌是<strong>市场层面的加总结果</strong>，单个企业只是被动接受。这一点想清楚，就理解了「价格接受者」的真正含义。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The effect of free entry
+---
+This shift will cause the market price to fall. Why? 
+We know that the market price in a perfectly competitive industry is determined by the intersection of the market demand and market supply curves
+A shift to the right of the market supply curve lowers the market price
+Firms in the competitive market are price-takers.</pre></details>
+</section><section class="slide" id="s62" data-n="62">
+  <div class="slide-head"><span class="pno">P62</span><span class="ptitle">Firm Entry</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-062.webp" alt="第62页"><figcaption>课件第 62 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>现在把镜头对准一个<strong>准备进入的新企业</strong>：Steve's Wholesale，它与 The Cheeseman <strong>完全相同</strong>（同样的成本曲线）。</p>
+<p>当市场价还是 $1.13 时，它的利润矩形（价格线在 ATC 最低点之上那一段）<strong>面积大于零</strong>——也就是说，<strong>进来就有钱赚</strong>。</p>
+<p>于是它进来了。课件特别强调「identical」这个词：正因为两家企业成本一样，新进入者不需要任何特殊优势，<strong>只要价格高于 min ATC，进入就是划算的</strong>。</p>
+<p>这就是进入的动机：<strong>正的利润本身就是邀请函</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Firm Entry</pre></details>
+</section><section class="slide" id="s63" data-n="63">
+  <div class="slide-head"><span class="pno">P63</span><span class="ptitle">进入之后发生了什么？两幅图对照</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-063.webp" alt="第63页"><figcaption>课件第 63 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>进入之后发生了什么？两幅图对照：</p>
+<ul><li><strong>(a) 市场</strong>：供给从 S1 右移到 S2，均衡从 <strong>A</strong> 滑到 <strong>B</strong>，价格从 <strong>$1.13 跌到 $0.90</strong>。</li><li><strong>(b) 企业</strong>：MR 线从 MR1 下移到 <strong>MR2 = $0.90</strong>，与 MC 交于 <strong>E</strong> 点。</li></ul>
+<p>$0.90 是什么数？<strong>正好是 min ATC</strong>。在 E 点，价格线<strong>相切</strong>于 ATC 的最低点，利润矩形<strong>消失</strong>——不赚不亏。于是新企业失去进入动机，进入停止，这就是长期均衡。</p>
+<p>读图提醒：这张图的横轴单位是<strong>千箱</strong>，与企业成本表（以箱计）的刻度不同，教材在这里换了一家规模更大的厂来画，<strong>只看相对位置，不要跨图对数字</strong>。</p></div>
+</section><section class="slide" id="s64" data-n="64">
+  <div class="slide-head"><span class="pno">P64</span><span class="ptitle">反向过程</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-064.webp" alt="第64页"><figcaption>课件第 64 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>反向过程：<strong>退出</strong>。</p>
+<ul><li><strong>(a) 市场</strong>：需求曲线<strong>左移</strong>，价格从 A 点跌到 B 点，低于 min ATC；</li><li>亏钱的企业开始<strong>退出</strong>；</li><li>供给曲线随之<strong>左移</strong>，均衡移到 <strong>C</strong> 点，价格回升；</li><li><strong>(b) 企业</strong>：价格回到与 min ATC 相切的位置（E 点），亏损消失，退出停止。</li></ul>
+<p>把 P63 和 P64 并排记：<strong>进入把价格压到 min ATC，退出把价格抬到 min ATC</strong>，两边都是同一个吸引子。</p>
+<p>再补一个观察：(a) 里价格从 A 跌到 B 是<strong>需求</strong>造成的，(b) 里从 B 回到 C 是<strong>供给</strong>造成的。冲击来源不同，恢复机制都是「企业数目调整」，所以长期价格不变、只有成交量变。</p></div>
+</section><section class="slide" id="s65" data-n="65">
+  <div class="slide-head"><span class="pno">P65</span><span class="ptitle">Firm Exit</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-065.webp" alt="第65页"><figcaption>课件第 65 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>自由退出</strong>（free exit）的定义，与自由进入对称：</p>
+<blockquote>当一个行业的退出<strong>不受任何特殊的法律或技术障碍</strong>限制时，我们说存在自由退出。</blockquote>
+<p>现实里的障碍：长期租约、裁员补偿、设备只能贱卖、政府不让关停。这些都会让亏损企业<strong>走不掉</strong>，于是价格无法回升，行业长期卡在亏损状态。</p>
+<p>考点：自由进入决定<strong>利润会不会被抹平</strong>，自由退出决定<strong>亏损会不会被抹平</strong>。两个都要有，长期均衡才成立。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Firm Exit
+---
+There is free exit from an industry when exit is unfettered by any special legal or technical barriers.</pre></details>
+</section><section class="slide" id="s66" data-n="66">
+  <div class="slide-head"><span class="pno">P66</span><span class="ptitle">The long-run supply curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-066.webp" alt="第66页"><figcaption>课件第 66 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>长期供给曲线的形状：<strong>一条水平线</strong>。</p>
+<p>课件把「为什么」写得很干脆：</p>
+<ul><li>价格总会回到 <strong>min ATC</strong>；</li><li>而 min ATC 是一个<strong>常数</strong>（技术给定，不随行业规模变化）；</li><li>所以长期里<strong>价格恒定</strong>。</li></ul>
+<p>水平线意味着：<strong>长期供给完全弹性</strong>（εS = ∞）。不管需求把成交量推到多大，价格都钉在 $0.90——产量可以无限扩张，但一分钱也涨不上去。这就是 P36 那条水平供给曲线的现实版本。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The long-run supply curve
+---
+Is a horizontal line……
+Why? 
+Prices always return to the minimum ATC, but the minimum ATC is a constant
+Prices remains constant in the long run</pre></details>
+</section><section class="slide" id="s67" data-n="67">
+  <div class="slide-head"><span class="pno">P67</span><span class="ptitle">S1 in figure b is no longer the long run market supply curve. It is only the sup</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-067.webp" alt="第67页"><figcaption>课件第 67 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>Exhibit 6.18 用三个面板把整条逻辑串起来：</p>
+<ul><li><strong>(a)</strong> 需求从 D1 右移到 D2，沿原供给 S 把价格从 P1 推到 P2。</li><li><strong>(b)</strong> 高价引来进入，供给从 S1 右移到 S2，价格被压回 P1，成交量从 Q2 扩到 Q3。</li><li><strong>(c)</strong> 把两次移动叠起来，得到水平的 <strong>S_long-run</strong>：价格永远是 P1 = min ATC。</li></ul>
+<p>课件特别澄清一个易错点：<strong>(b) 里的 S1 已经不是长期市场供给曲线</strong>，它只是<strong>在位企业</strong>（incumbent firms）的供给；真正的长期供给要取 <strong>S2 与 D2 的交点</strong>。水平线才是长期供给曲线。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>S1 in figure b is no longer the long run market supply curve. 
+It is only the supply of the incumbent firms, i.e., firms that are already in the market
+The new market supply equals to the point in S2 where S2 intersect with D2</pre></details>
+</section><section class="slide" id="s68" data-n="68">
+  <div class="slide-head"><span class="pno">P68</span><span class="ptitle">Economic Profit Versus Accounting Profit</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-068.webp" alt="第68页"><figcaption>课件第 68 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>最后一个问题，也是学生最不服气的一个：<strong>长期利润为零，那还创什么业？</strong></p>
+<p>课件的设问很生动：如果你从<strong>企业家</strong>的角度想，进入和退出把利润压到零，是不是很绝望？既然如此，何必开公司？</p>
+<p>这个疑问来自一个混淆：把<strong>经济利润</strong>当成了<strong>会计利润</strong>。接下来两页把这两个概念分开——这是全讲的收尾，也是第 1 讲「机会成本」的回归。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Economic Profit Versus Accounting Profit
+---
+If you’re thinking from an entrepreneur’s perspective, maybe the zero-profit implication of firm entry and exit makes you despair. 
+After all, why even try to start a business if the end result will be profitless?</pre></details>
+</section><section class="slide" id="s69" data-n="69">
+  <div class="slide-head"><span class="pno">P69</span><span class="ptitle">Economic Profit Versus Accounting Profit</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-069.webp" alt="第69页"><figcaption>课件第 69 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>为什么不必绝望？因为<strong>经济利润不等于会计利润</strong>。</p>
+<blockquote>经济利润为零，只意味着：<strong>你把才能挪到别的行业，也不会赚得更多</strong>。</blockquote>
+<p>说白了，<strong>你至少拿到了自己时间的机会成本</strong>。一个厨师开奶酪厂，经济利润为零，意思是他的收入正好等于他去当厨师能拿的工资——他没有白干，只是没有超额回报。</p>
+<p>所以「零利润」不是「不赚钱」，而是「<strong>赚的正好是你在别处也能赚到的钱</strong>」。经济学意义上的「正常利润」已经包含在成本里了。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Economic Profit Versus Accounting Profit
+---
+Why you shouldn’t think this way: 
+Economic profits are not the same as accounting profits.
+As a business owner, when economic profits are zero, it simply means that you cannot earn more money if you take your talents to a different industry—you are being paid at least your opportunity cost of time.</pre></details>
+</section><section class="slide" id="s70" data-n="70">
+  <div class="slide-head"><span class="pno">P70</span><span class="ptitle">Assume that The Cheeseman could increase its profits considerably if it decided </span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec04/slide-070.webp" alt="第70页"><figcaption>课件第 70 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>最后一页给出反例，把两个概念彻底分开。</p>
+<p>假设 The Cheeseman 如果把资源转去做<strong>快餐仓储</strong>（fast-food storage），利润会<strong>大幅提高</strong>。这时：</p>
+<ul><li><strong>会计利润</strong>：奶酪装箱这门生意<strong>可能是正的</strong>——账面上收入减支出还有剩。</li><li><strong>经济利润</strong>：<strong>是负的</strong>——因为还差一块。</li></ul>
+<p>差的那块叫<strong><a class="term" href="glossary.html#t-implicit-cost" data-t="implicit-cost">隐性成本</a></strong>（implicit costs）：<strong>管理时间的机会成本</strong>和<strong>厂房的机会成本</strong>。</p>
+<blockquote>经济利润 = 收入 − <a class="term" href="glossary.html#t-explicit-cost" data-t="explicit-cost">显性成本</a> − <strong>隐性成本</strong></blockquote>
+<p>和工资一样，这笔隐性成本必须从收入里扣掉，才是经济学家眼里的利润。所以「会计上赚钱、经济上亏钱」的生意到处都是——它意味着你的资源被<strong>错配</strong>了。这也是第 1 讲那个问题的答案：成本从来不只是账单上的数字。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Assume that The Cheeseman could increase its profits considerably if it decided to shift from the cheese-packing industry to the fast-food storage business. 
+In such a case, accounting profits of cheese packing might indeed be positive, whereas economic profits are negative. 
+This is because the implicit costs of cheese packing—the opportunity cost of management time and plant—must be considered. 
+Much like the cost of labor, this implicit cost is subtracted from revenues to produce the economist’s conception of profits
+---
+Economic Profit Versus Accounting Profit</pre></details>
+</section>
+    <footer class="end">
+      <p>本讲结束。<a href="lec05.html">继续：L5 看不见的手 →</a></p>
+    </footer>
+  </main>
+</div>
+
+<aside id="ask-panel" class="ask-panel" aria-hidden="true">
+  <div class="ask-head">
+    <b>问老师</b>
+    <span class="ask-tag">DeepSeek</span>
+    <button id="ask-close" type="button" title="关闭">×</button>
+  </div>
+  <div class="ask-setup" id="ask-setup">
+    <p>第一次用要先填一个 DeepSeek API Key，它只存在你本机的浏览器里，直接发往 <code>api.deepseek.com</code>，不经过任何中间服务器。</p>
+    <label>API Key<input id="ask-key" type="password" placeholder="sk-..." autocomplete="off"></label>
+    <label>模型<select id="ask-model">
+      <option value="deepseek-chat">deepseek-chat（快，够用）</option>
+      <option value="deepseek-reasoner">deepseek-reasoner（慢，会推理）</option>
+    </select></label>
+    <button id="ask-save" type="button">保存并开始</button>
+    <p class="ask-note">没有 Key？去 <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">platform.deepseek.com</a> 建一个。</p>
+  </div>
+  <div class="ask-log" id="ask-log"></div>
+  <div class="ask-foot">
+    <label class="ask-ctx"><input type="checkbox" id="ask-ctx" checked> 带上当前页内容</label>
+    <div class="ask-input">
+      <textarea id="ask-text" rows="2" placeholder="比如：为什么 MR 会比价格低？"></textarea>
+      <button id="ask-send" type="button">发</button>
+    </div>
+  </div>
+</aside>
+<div id="lightbox" class="lightbox"><img id="lbimg" alt=""></div>
+<script src="glossary-data.js"></script>
+<script src="app.js"></script>
+</body></html>

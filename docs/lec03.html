@@ -1,0 +1,1017 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>消费者与激励：无差异曲线、预算约束与最优选择 · 微观经济学讲义</title>
+<link rel="stylesheet" href="style.css"></head>
+<body class="lec">
+<header class="topbar">
+  <div class="brand"><a href="index.html">微观经济学 · 逐页精讲</a></div>
+  <nav class="nav"><a class="navbtn" href="index.html">大纲</a><a class="navbtn" href="glossary.html#lec03">术语表 · 26</a><a class="navbtn" href="lec02.html">← L2 最优化与供求</a><a class="navbtn" href="lec04.html">L4 生产者 →</a><button class="ask-open navask" type="button" data-ask>问老师</button></nav>
+</header>
+
+<div class="layout">
+  <aside class="side">
+    <div class="side-inner">
+      <h2>L3 消费者</h2>
+      <p class="side-sub">消费者与激励：无差异曲线、预算约束与最优选择</p>
+      <input id="filter" type="search" placeholder="筛选本讲页码 / 关键词">
+      <div class="ask">
+        <button class="ask-open" type="button" data-ask>问老师 · 这一页哪里不懂？</button>
+        <p class="ask-hint">用 DeepSeek 直接回答，会带上你正在看的这一讲和这一页。</p>
+      </div>
+      <div class="toc"><a href="#s1" data-n="1"><b>1</b>Microeconomics Lecture 3: Consumers an</a><a href="#s2" data-n="2"><b>2</b>Consumer’s problem</a><a href="#s3" data-n="3"><b>3</b>Consumer’s problem</a><a href="#s4" data-n="4"><b>4</b>Preferences, utility functions, and in</a><a href="#s5" data-n="5"><b>5</b>What you like: taste, or preferences</a><a href="#s6" data-n="6"><b>6</b>Preference and Taste</a><a href="#s7" data-n="7"><b>7</b>Preference and Taste</a><a href="#s8" data-n="8"><b>8</b>The preference of Beth</a><a href="#s9" data-n="9"><b>9</b>The preference of Beth</a><a href="#s10" data-n="10"><b>10</b>We get what we call “indifference curv</a><a href="#s11" data-n="11"><b>11</b>Using Indifference Curves</a><a href="#s12" data-n="12"><b>12</b>Using indifference curves</a><a href="#s13" data-n="13"><b>13</b>上一页那张图的「补完版」</a><a href="#s14" data-n="14"><b>14</b>Properties of Indifference Curves</a><a href="#s15" data-n="15"><b>15</b>Marginal value: the slope of the I.C.</a><a href="#s16" data-n="16"><b>16</b>The shape of indifference curves</a><a href="#s17" data-n="17"><b>17</b>The Composite-Good Convention</a><a href="#s18" data-n="18"><b>18</b>The Composite-Good Convention</a><a href="#s19" data-n="19"><b>19</b>The Composite-Good Convention</a><a href="#s20" data-n="20"><b>20</b>The Composite-Good Convention</a><a href="#s21" data-n="21"><b>21</b>The budget constraint</a><a href="#s22" data-n="22"><b>22</b>How Much Money You Have to Spend</a><a href="#s23" data-n="23"><b>23</b>budget constraint</a><a href="#s24" data-n="24"><b>24</b>The budget constraint</a><a href="#s25" data-n="25"><b>25</b>Price change</a><a href="#s26" data-n="26"><b>26</b>Income change</a><a href="#s27" data-n="27"><b>27</b>EXHIBIT 3.11</a><a href="#s28" data-n="28"><b>28</b>Putting it together</a><a href="#s29" data-n="29"><b>29</b>Optimal consumption</a><a href="#s30" data-n="30"><b>30</b>Optimal consumption</a><a href="#s31" data-n="31"><b>31</b>A corner solution</a><a href="#s32" data-n="32"><b>32</b>Non-convex indifference curves</a><a href="#s33" data-n="33"><b>33</b>Applications of the consumer decision </a><a href="#s34" data-n="34"><b>34</b>Application #1 Price Indices</a><a href="#s35" data-n="35"><b>35</b>Price Indices</a><a href="#s36" data-n="36"><b>36</b>Price Indices</a><a href="#s37" data-n="37"><b>37</b>Price Indices</a><a href="#s38" data-n="38"><b>38</b>Price Indices</a><a href="#s39" data-n="39"><b>39</b>图上两条预算线</a><a href="#s40" data-n="40"><b>40</b>换一个篮子试试</a><a href="#s41" data-n="41"><b>41</b>Price Indices</a><a href="#s42" data-n="42"><b>42</b>Laspeyres v.s. Paasche price index</a><a href="#s43" data-n="43"><b>43</b>Application #2 Differences in taste?</a><a href="#s44" data-n="44"><b>44</b>Difference in taste?</a><a href="#s45" data-n="45"><b>45</b>Difference in taste</a><a href="#s46" data-n="46"><b>46</b>Now Betty chooses a new B instead, whi</a><a href="#s47" data-n="47"><b>47</b>Difference in taste</a><a href="#s48" data-n="48"><b>48</b>Difference in taste</a><a href="#s49" data-n="49"><b>49</b>Difference in taste</a><a href="#s50" data-n="50"><b>50</b>Difference in taste</a><a href="#s51" data-n="51"><b>51</b>Application 3 The Least Bad Tax (or wh</a><a href="#s52" data-n="52"><b>52</b>The Least Bad Tax</a><a href="#s53" data-n="53"><b>53</b>Numerical example</a><a href="#s54" data-n="54"><b>54</b>Budget line: leisure and money</a><a href="#s55" data-n="55"><b>55</b>How to formulate this into a consumer </a><a href="#s56" data-n="56"><b>56</b>图 A</a><a href="#s57" data-n="57"><b>57</b>Head tax</a><a href="#s58" data-n="58"><b>58</b>图 B</a><a href="#s59" data-n="59"><b>59</b>Intuition</a><a href="#s60" data-n="60"><b>60</b>Intuition: marginal analysis</a><a href="#s61" data-n="61"><b>61</b>Intuition: marginal analysis</a><a href="#s62" data-n="62"><b>62</b>Intuition (2)</a><a href="#s63" data-n="63"><b>63</b>Application 4 Deriving the demand curv</a><a href="#s64" data-n="64"><b>64</b>From consumer choice to demand curve</a><a href="#s65" data-n="65"><b>65</b>Important concepts related to consumer</a><a href="#s66" data-n="66"><b>66</b>Consumer surplus</a><a href="#s67" data-n="67"><b>67</b>一个算例</a><a href="#s68" data-n="68"><b>68</b>Demand elasticity</a><a href="#s69" data-n="69"><b>69</b>Elasticity</a><a href="#s70" data-n="70"><b>70</b>Elasticity</a><a href="#s71" data-n="71"><b>71</b>Elasticity</a><a href="#s72" data-n="72"><b>72</b>The price elasticity of demand</a><a href="#s73" data-n="73"><b>73</b>The price elasticity of demand</a><a href="#s74" data-n="74"><b>74</b>The price elasticity of demand</a><a href="#s75" data-n="75"><b>75</b>The price elasticity of demand</a><a href="#s76" data-n="76"><b>76</b>Graphic illustration</a><a href="#s77" data-n="77"><b>77</b>Deepseek and Nvidia</a><a href="#s78" data-n="78"><b>78</b>Deepseek and Nvidia</a><a href="#s79" data-n="79"><b>79</b>Jevons' Paradox?</a><a href="#s80" data-n="80"><b>80</b>Moving Up and Down the Demand Curve</a><a href="#s81" data-n="81"><b>81</b>Determinants of demand elasticities</a><a href="#s82" data-n="82"><b>82</b>Who is Who?</a><a href="#s83" data-n="83"><b>83</b>Who is Who?</a><a href="#s84" data-n="84"><b>84</b>Who is Who?</a><a href="#s85" data-n="85"><b>85</b>撞脸网红大乱斗…</a><a href="#s86" data-n="86"><b>86</b>Low price elasticity of demand: only o</a><a href="#s87" data-n="87"><b>87</b>Determinants of demand elasticities</a><a href="#s88" data-n="88"><b>88</b>Determinants of demand elasticities</a><a href="#s89" data-n="89"><b>89</b>The Cross-Price Elasticity</a><a href="#s90" data-n="90"><b>90</b>Complements v.s. Substitutes</a><a href="#s91" data-n="91"><b>91</b>Complements v.s. Substitutes</a><a href="#s92" data-n="92"><b>92</b>The Income Elasticity of Demand</a><a href="#s93" data-n="93"><b>93</b>一张实测的收入弹性表</a><a href="#s94" data-n="94"><b>94</b>Normal vs inferior goods</a></div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="lec-hero">
+      <div class="crumb">第 3 讲 · 消费者</div>
+      <h1>消费者与激励：无差异曲线、预算约束与最优选择</h1>
+      <p class="lead">消费者问题：偏好（无差异曲线、边际替代率）与预算约束相切得最优选择；由此推出需求曲线，并讨论价格指数、税收的福利代价与弹性。</p>
+      <div class="meta">共 <b>94</b> 页课件 · 已精讲 <b>94</b> 页（100%）</div>
+      <div class="topics"><h3>本讲要点</h3><ul><li>偏好与无差异曲线</li><li>边际替代率</li><li>预算约束</li><li>相切条件 MRS=Px/Py</li><li>收入与替代效应</li><li>价格指数</li><li>弹性</li></ul></div>
+      
+    </div>
+    <section class="slide" id="s1" data-n="1">
+  <div class="slide-head"><span class="pno">P1</span><span class="ptitle">Microeconomics Lecture 3: Consumers and Incentives</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-001.webp" alt="第1页"><figcaption>课件第 1 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这是第三讲的标题页：<strong>消费者与激励</strong>（Consumers and Incentives）。</p>
+<p>前两讲我们把<a class="term" href="glossary.html#t-demand-curve" data-t="demand-curve">需求曲线</a>当成「已知条件」在用：价格涨，<a class="term" href="glossary.html#t-quantity-demanded" data-t="quantity-demanded">需求量</a>跌。这一讲要往后退一步，问一句：<strong>这条曲线是从哪里来的？</strong></p>
+<p>答案是：它是成千上万个买者，在各自的钱包约束下做最优选择、再<a class="term" href="glossary.html#t-aggregation" data-t="aggregation">加总</a>起来的结果。所以本讲的路线是：先把<strong>一个</strong>消费者的选择问题彻底解清楚（偏好 → 无差异曲线 → 预算约束 → 相切条件），再用这套工具做四个应用（价格指数、口味差异、税制选择、推导需求曲线），最后落到<strong>弹性</strong>这个衡量「反应有多大」的工具上。</p>
+<p>一句话：这一讲是<strong>需求曲线的解剖课</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Microeconomics Lecture 3: Consumers and Incentives</pre></details>
+</section><section class="slide" id="s2" data-n="2">
+  <div class="slide-head"><span class="pno">P2</span><span class="ptitle">Consumer’s problem</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-002.webp" alt="第2页"><figcaption>课件第 2 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>消费者问题</strong>（consumer's problem）：为需求曲线找<strong>微观基础</strong>（micro-foundation）。</p>
+<p>为什么要费这个劲？课件给了三条理由：</p>
+<ul><li>需求曲线不能凭空假定，必须由买者行为<strong>推导</strong>出来，否则后面所有供需分析都是空中楼阁。</li><li>有了买者模型，能回答的问题一下子变多：涨价让他变差了多少？两种税他更恨哪一种？芯片厂在技术进步中是赚还是亏？</li><li>这套工具能复用：劳动供给（工作还是闲暇）、储蓄、保险，都是同一个约束优化问题换了包装。</li></ul>
+<p>注意副标题里的括号：<strong>约束优化</strong>（constrained optimization）。这是全讲的技术内核——在限制条件下求最大。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Consumer’s problem
+---
+More on consumer behavior
+What is the micro-foundation behind the demand curve? 
+Need to model buyers’ behavior
+Useful tool to analyze a large range of questions</pre></details>
+</section><section class="slide" id="s3" data-n="3">
+  <div class="slide-head"><span class="pno">P3</span><span class="ptitle">Consumer’s problem</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-003.webp" alt="第3页"><figcaption>课件第 3 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>买者问题只需要三样原料：</p>
+<ol><li><strong>你喜欢什么</strong>（what you like）——目标函数，也就是偏好。</li><li><strong>价格</strong>（prices）——约束的一部分。</li><li><strong>你有多少钱可花</strong>（income）——约束的另一部分。</li></ol>
+<p>写成数学就是 max U(x, y) s.t. Px·x + Py·y ≤ I：U 是效用，x、y 是两种商品的数量，Px、Py 是它们的价格，I 是收入。</p>
+<p>这三样缺一不可。只谈偏好不谈价格，那是心理学；只谈价格不谈偏好，那是记账。经济学的问题是：<strong>在你负担得起的那些组合里，挑你最想要的那一个</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Consumer’s problem
+---
+Essential ingredients of the buyer’s problem (constrained optimization):
+What you like (what is the objective function)
+Prices of goods and services (part of the constraint)
+3.    How much money you get to spend on things you want (also part of the constraint)</pre></details>
+</section><section class="slide" id="s4" data-n="4">
+  <div class="slide-head"><span class="pno">P4</span><span class="ptitle">Preferences, utility functions, and indifference curves</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-004.webp" alt="第4页"><figcaption>课件第 4 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页：接下来进入第一块积木——<strong>偏好、效用函数与<a class="term" href="glossary.html#t-indifference-curve" data-t="indifference-curve">无差异曲线</a></strong>（preferences, utility functions, and indifference curves）。</p>
+<p>这三样东西说的是同一件事的三种语言：偏好是「排序」，效用函数是「给排序打分」，无差异曲线是「把打同样的分的篮子连成线」。本讲主要用第三种，因为它能画在纸上。</p>
+<p>还有一个技术要点：这里用的是<strong><a class="term" href="glossary.html#t-ordinal-utility" data-t="ordinal-utility">序数效用</a></strong>（ordinal utility）——效用的绝对数值没有意义（说「这个篮子值 100 分」不传递任何信息），有意义的只是<strong>排序</strong>。所以无差异曲线比效用函数更好用：它只保留排序，把不能比较的部分全部画掉。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Preferences,utility functions, and indifference curves</pre></details>
+</section><section class="slide" id="s5" data-n="5">
+  <div class="slide-head"><span class="pno">P5</span><span class="ptitle">What you like: taste, or preferences</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-005.webp" alt="第5页"><figcaption>课件第 5 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>先看「你喜欢什么」有多主观。课件连抛三个问题：</p>
+<ul><li>你愿意住校和同学一起，还是在校外租房？</li><li>你愿意和爱你的人结婚，还是和漂亮的人、或性格好的人结婚？或者一辈子不结婚？</li><li>你更喜欢周杰伦还是蔡徐坤？</li></ul>
+<p>这三个问题没有标准答案，每个人的排序都不一样。经济学的态度是：<strong>不评判你的排序，只用你的排序</strong>。后面的所有分析，都建立在「你已经有一个稳定的偏好」这个前提上。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>What you like: taste, or preferences
+---
+Would you rather live on campus together with your classmates, or live in a rented house outside campus?
+Would you rather get married with someone you love or with someone who is beautiful or someone who has a great personality? Or stay unmarried you whole life?
+Who do you like better? Jay Chou or Cai Xukun?</pre></details>
+</section><section class="slide" id="s6" data-n="6">
+  <div class="slide-head"><span class="pno">P6</span><span class="ptitle">Preference and Taste</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-006.webp" alt="第6页"><figcaption>课件第 6 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>面对上一页那些分歧，经济学的处理方式很干脆：<strong>不解释偏好从哪来</strong>。</p>
+<blockquote>经济学<strong>不打算解释</strong>人为什么偏好这些东西而不是那些东西（we make no attempt to explain why people prefer the things they do）。</blockquote>
+<p>我们把偏好<strong>当作给定</strong>（take as given），只研究它如何支配行为。这是一种方法论上的自我克制：一旦开始争论「你为什么喜欢这个」，经济学就变成了心理学或伦理学，就没法做可检验的预测了。</p>
+<p>注意「给定」不等于「不变」。口味当然会变，但模型里先把它固定住，等技术进步、广告、习惯养成这些因素进来时再放松。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Preference and Taste
+---
+Different people give different answers. 
+In economics, we make no attempt to explain why people prefer the things they do. 
+Instead, we take those preferences as given and try to figure out how they govern behavior.</pre></details>
+</section><section class="slide" id="s7" data-n="7">
+  <div class="slide-head"><span class="pno">P7</span><span class="ptitle">Preference and Taste</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-007.webp" alt="第7页"><figcaption>课件第 7 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>「你更喜欢鸡蛋还是根汁汽水？」——课件说这是个<strong>坏问题</strong>，理由有三：</p>
+<ol><li>答案取决于<strong>数量</strong>：一个鸡蛋和一大桶根汁汽水比，和十个鸡蛋比，答案不同。</li><li>答案取决于你<strong>已经有多少</strong>：刚吃完五个鸡蛋的人和三天没吃东西的人，选择不同。</li><li>答案取决于<strong>情境</strong>：是问「永远放弃哪一个」，还是问「生日想要哪一个」？</li></ol>
+<p>所以要给偏好一个严格的定义，它必须定义在<strong>商品篮子</strong>（basket）上：一个篮子就是「若干个鸡蛋 + 若干瓶根汁汽水」的组合。比较的对象是篮子，不是商品。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Preference and Taste
+---
+Which do you prefer: eggs or root beer? 
+Actually, that’s a bad question—for several reasons. 
+First, your answer might depend on the quantities involved. 
+Second, the answer might depend on how many eggs and how much root beer you’ve already got. 
+Is this a question about which of the two you’d least want to forgo forever, or a question about which you’d like to receive for your birthday?</pre></details>
+</section><section class="slide" id="s8" data-n="8">
+  <div class="slide-head"><span class="pno">P8</span><span class="ptitle">The preference of Beth</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-008.webp" alt="第8页"><figcaption>课件第 8 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>现在有了主角：Beth。她的可选篮子横轴是鸡蛋、纵轴是根汁汽水。</p>
+<p>先比 A 和 B。A 是 3 个鸡蛋 + 5 瓶根汁汽水，B 是 4 个鸡蛋 + 7 瓶根汁汽水。B 两样都更多——只要 Beth 两样都喜欢、且<strong>总是偏好更多</strong>，答案就毫无悬念：她选 B。</p>
+<p>这条假设叫<strong><a class="term" href="glossary.html#t-nonsatiation" data-t="nonsatiation">非饱和</a></strong>（nonsatiation，也叫「more is better」）。它听起来无害，但后面推出「无差异曲线向下倾斜」「最优解一定花光收入」全靠它。图上 B 在 A 的东北方。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The preference of Beth</pre></details>
+</section><section class="slide" id="s9" data-n="9">
+  <div class="slide-head"><span class="pno">P9</span><span class="ptitle">The preference of Beth</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-009.webp" alt="第9页"><figcaption>课件第 9 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>换一对：A 和 D。这次 D 是一个鸡蛋更多、根汁汽水更少的篮子，两个方向相反，光看坐标判不出来。</p>
+<p>课件的办法很朴素：请 Beth 把「和 A 一样喜欢」的篮子一个个指出来，标在图上。多标几个点，就能看出规律。</p>
+<p>注意这个方法的性质：它不需要 Beth 说出任何数字，也不需要她知道什么叫效用。只要她的偏好是稳定的、能排序的，我们就能把她的偏好「画」出来。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The preference of Beth
+---
+What about basket A with basket D? 
+We start by asking Beth to point out a few of the baskets that she happens to like exactly as much as she likes basket A.</pre></details>
+</section><section class="slide" id="s10" data-n="10">
+  <div class="slide-head"><span class="pno">P10</span><span class="ptitle">We get what we call “indifference curve”.</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-010.webp" alt="第10页"><figcaption>课件第 10 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把这些「和 A 一样喜欢」的点连起来，就得到<strong>无差异曲线</strong>（indifference curve）。</p>
+<p>曲线上每一个篮子给 Beth 的满足程度<strong>完全相同</strong>——她对它们完全无差异，所以叫这个名字。</p>
+<p>两个要点：一条曲线代表<strong>一个</strong>满足水平；想表示不同水平，就要画<strong>一族</strong>曲线（像等高线地图）。位置越靠东北的曲线，代表的满足程度越高——这正是非饱和假设的直接推论。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>We get what we call “indifference curve”.</pre></details>
+</section><section class="slide" id="s11" data-n="11">
+  <div class="slide-head"><span class="pno">P11</span><span class="ptitle">Using Indifference Curves</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-011.webp" alt="第11页"><figcaption>课件第 11 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>现在用曲线来回答实际问题：P 和 Q 哪个好？</p>
+<p>Q 在 P 的西北方向：根汁汽水更多，鸡蛋更少。光看坐标，说不清。正确做法是画一条经过 P 的无差异曲线，再看 Q 落在它的哪一侧。</p>
+<p>这一步是本讲的第一个方法论要点：<strong>比较两个篮子，不是比较它们的坐标，而是比较它们相对于某条无差异曲线的位置</strong>。坐标只是入场券。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Using Indifference Curves
+---
+Comparing P and Q</pre></details>
+</section><section class="slide" id="s12" data-n="12">
+  <div class="slide-head"><span class="pno">P12</span><span class="ptitle">Using indifference curves</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-012.webp" alt="第12页"><figcaption>课件第 12 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>两幅对照图，横轴都是鸡蛋、纵轴都是根汁汽水。</p>
+<ul><li>左图：画一条经过 P（和 X）的无差异曲线，Q 落在这条线的<strong>外侧（上方）</strong>，所以 Q 比 P 好。</li><li>右图：把曲线画得更陡（经过 P 和 Y），Q 就落到了曲线的<strong>内侧（左侧）</strong>，此时 Q 比 P 差。</li></ul>
+<p>同一对点，结论相反。这说明：排序结果由<strong>曲线的形状</strong>（也就是偏好）决定，而不是由「谁看起来更高」决定。图不能乱画，画之前先想清楚偏好长什么样。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Using indifference curves</pre></details>
+</section><section class="slide" id="s13" data-n="13">
+  <div class="slide-head"><span class="pno">P13</span><span class="ptitle">上一页那张图的「补完版」</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-013.webp" alt="第13页"><figcaption>课件第 13 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>上一页那张图的「补完版」，也是无差异曲线最有用的一张图。</p>
+<p>经过 P 的无差异曲线把第一象限切成两半：</p>
+<ul><li><strong>蓝色区域</strong>（曲线的东北侧）：所有<strong>比 P 好</strong>的篮子。</li><li><strong>灰色区域</strong>（曲线的西南侧）：所有<strong>比 P 差</strong>的篮子。</li><li>曲线本身：所有与 P <strong>一样好</strong>的篮子。</li></ul>
+<p>图上 R 落在蓝区，S 落在灰区，两个点都不在曲线上。这张图告诉我们：一条曲线其实是一个「分区工具」，它把整个平面按满足程度切成了三层。</p></div>
+</section><section class="slide" id="s14" data-n="14">
+  <div class="slide-head"><span class="pno">P14</span><span class="ptitle">Properties of Indifference Curves</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-014.webp" alt="第14页"><figcaption>课件第 14 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>无差异曲线的四条性质，每一条都能从假设推出来：</p>
+<ol><li><strong>向下倾斜</strong>：由非饱和。多给你一个鸡蛋，必须拿走一些根汁汽水，你才肯说「一样好」。</li><li><strong>不相交</strong>：由传递性（transitivity）。若两条线相交，交点处的那个篮子既属于高水平又属于低水平，自相矛盾。</li><li><strong>充满第一象限</strong>：由完备性（completeness）。任何篮子你都能排序，所以任何点都必在某一族曲线上。</li><li><strong>凸向原点</strong>：由<a class="term" href="glossary.html#t-marginal-value" data-t="marginal-value">边际价值</a>递减。这条最不直观，下一页专门讲。</li></ol>
+<p>这四条是后面所有图形分析的「交通规则」，违反任何一条，结论就会崩。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Properties of Indifference Curves
+---
+Indifference curves slope downward. 
+Indifference curves don’t cross. 
+Indifference curves fill the first quadrant of the plane.
+Indifference curves are convex</pre></details>
+</section><section class="slide" id="s15" data-n="15">
+  <div class="slide-head"><span class="pno">P15</span><span class="ptitle">Marginal value: the slope of the I.C.</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-015.webp" alt="第15页"><figcaption>课件第 15 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>沿着一条无差异曲线移动，斜率（取绝对值）有一个名字：<strong>边际价值</strong>（marginal value），也叫<strong><a class="term" href="glossary.html#t-marginal-rate-of-substitution" data-t="marginal-rate-of-substitution">边际替代率</a></strong>（marginal rate of substitution，MRS）。</p>
+<p>MRS = MUx / MUy</p>
+<p>MUx 是多消费一单位 x 带来的额外效用（边际效用），MUy 同理。含义：<strong>为了多得到一个 x，你愿意放弃多少个 y</strong>。斜率越陡，说明 x 在你眼里越值钱。</p>
+<p>用微积分的语言说，沿无差异曲线 MUx·dx + MUy·dy = 0，所以 dy/dx = -MUx/MUy——这就是斜率的来源，不用背。</p>
+<p>两个常见误解：一是以为 MRS 是「固定的换算比例」——不对，它<strong>沿曲线逐点变化</strong>，这正是<a class="term" href="glossary.html#t-convex-preferences" data-t="convex-preferences">凸性</a>的含义；二是以为 MRS 可以跨人比较——也不行，它是每个人自己的心理价位，只对自己有效。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Marginal value: the slope of the I.C.</pre></details>
+</section><section class="slide" id="s16" data-n="16">
+  <div class="slide-head"><span class="pno">P16</span><span class="ptitle">The shape of indifference curves</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-016.webp" alt="第16页"><figcaption>课件第 16 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>课件用 EXHIBIT 3.9 对比两种形状，横轴鸡蛋、纵轴根汁汽水。</p>
+<ul><li><strong>A 图：凸向原点</strong>（convex，向原点弯曲）。这是标准形状。看图注的解释：在图的西北角，鸡蛋少、根汁汽水多，此时鸡蛋的<strong>边际价值很高</strong>，要让你放弃一个鸡蛋，得给你很多根汁汽水，所以曲线很陡；越往东南走，鸡蛋越多、越不值钱，曲线越平。</li><li><strong>B 图：凹向原点</strong>（concave）。这意味着你越有钱越想要极端组合，不符合我们对「多样化偏好」的观察。</li></ul>
+<p>所以经济学<strong>假定</strong> A 而不是 B。这就是「凸性」的经济内容：<strong>边际价值递减</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The shape of indifference curves</pre></details>
+</section><section class="slide" id="s17" data-n="17">
+  <div class="slide-head"><span class="pno">P17</span><span class="ptitle">The Composite-Good Convention</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-017.webp" alt="第17页"><figcaption>课件第 17 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>画二维图必须先解决一个技术问题：现实里有几万种商品，图上只有两根轴。<strong><a class="term" href="glossary.html#t-composite-good" data-t="composite-good">复合商品约定</a></strong>（the composite-good convention）就是干这件事的。</p>
+<p>课件的说法是：为了画无差异曲线，我们必须假设世界上只有两种商品——看起来很受限，其实不然。</p>
+<p>为什么不受限？因为「另一种商品」不必是单一商品，它可以是一个<strong>大杂烩</strong>。下面两页解释怎么把几万种商品塞进一根轴。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Composite-Good Convention
+---
+In order to draw indifference curve diagrams, we must assume that there are only two goods in the world. 
+Seems restricting, yet in fact it is not.</pre></details>
+</section><section class="slide" id="s18" data-n="18">
+  <div class="slide-head"><span class="pno">P18</span><span class="ptitle">The Composite-Good Convention</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-018.webp" alt="第18页"><figcaption>课件第 18 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>具体做法：把世界切成两类——「<strong>鸡蛋</strong>」和「<strong>不是鸡蛋的东西</strong>」，后者官方说法叫「<strong>其他所有商品</strong>」（all other goods）。</p>
+<p>于是横轴放鸡蛋，纵轴放「其他所有商品」，无差异曲线照画不误。</p>
+<p>这个技巧的威力在于：任何时候你只关心一种商品（比如鸡蛋、房租、汽油），都可以用这个方法把它单独拎出来，其余全部打包。后面讲劳动供给时，「其他所有商品」直接变成「收入」，也是同一个操作。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Composite-Good Convention
+---
+In many applications we will want to concentrate our attention on a single good—say, eggs.
+In that case we divide the world into two classes of goods, namely, “eggs” and “things that are not eggs,” otherwise known as “all other goods.” 
+This allows us to draw indifference curves between eggs (on the horizontal axis) and all other goods (on the vertical).</pre></details>
+</section><section class="slide" id="s19" data-n="19">
+  <div class="slide-head"><span class="pno">P19</span><span class="ptitle">The Composite-Good Convention</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-019.webp" alt="第19页"><figcaption>课件第 19 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>还剩一个单位问题：一单位「其他所有商品」到底是多少？一斤？一件？</p>
+<p>最省事的答案是：<strong>用美元计价</strong>。把所有非鸡蛋的东西加总，按它们的货币价值来度量，一单位就是一块钱。</p>
+<p>这么一打包，我们就说使用了<strong>复合商品约定</strong>。好处是纵轴的单位和收入、价格统一了；代价是纵轴的「数量」变成了「花了多少钱」，读图时要记得这一点。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Composite-Good Convention
+---
+There remains the problem of units. 
+What is a single unit of all other goods?
+The simplest solution to this problem is to measure all other goods in terms of their dollar value.
+When we lump together all things that are not eggs and measure it in a single unit like dollars, we say that we are using the composite-good convention.</pre></details>
+</section><section class="slide" id="s20" data-n="20">
+  <div class="slide-head"><span class="pno">P20</span><span class="ptitle">The Composite-Good Convention</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-020.webp" alt="第20页"><figcaption>课件第 20 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>有了这个约定，无差异曲线的斜率有了非常直接的解释：</p>
+<blockquote>斜率 = 一个鸡蛋的<strong>边际价值</strong>，用其他商品（也就是美元）来度量。</blockquote>
+<p>说白了，它等于<strong>你愿意接受的最低卖价</strong>（the minimum number of dollars for which you would trade an egg）：低于这个价你不卖，高于这个价你卖。</p>
+<p>这句话请记牢：<strong>无差异曲线的斜率就是你的<a class="term" href="glossary.html#t-willingness-to-accept" data-t="willingness-to-accept">保留价格</a></strong>（reservation price）。后面所有的「<a class="term" href="glossary.html#t-willingness-to-pay" data-t="willingness-to-pay">支付意愿</a>」「<a class="term" href="glossary.html#t-consumer-surplus" data-t="consumer-surplus">消费者剩余</a>」，都是从这句话长出来的。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Composite-Good Convention
+---
+In the presence of the composite-good convention, the slope of an indifference curve is the marginal value of an egg in terms of other goods, with the other goods measured in dollars. 
+Thus, it is the minimum number of dollars for which the consumer would be willing to trade an egg.</pre></details>
+</section><section class="slide" id="s21" data-n="21">
+  <div class="slide-head"><span class="pno">P21</span><span class="ptitle">The budget constraint</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-021.webp" alt="第21页"><figcaption>课件第 21 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页：第一块积木（偏好）讲完了，进入第二块——<strong><a class="term" href="glossary.html#t-budget-constraint" data-t="budget-constraint">预算约束</a></strong>（the budget constraint）。</p>
+<p>到这里我们知道了「你想要什么」，还差「你能要什么」。把这两样叠在一起，才有选择。</p>
+<p>顺便交代一下顺序为什么不能颠倒：先讲偏好、后讲约束，是因为「欲望」和「能力」是两套独立的信息。先摸清偏好的形状，后面每换一种价格或收入，我们只需要动约束那条线，偏好不用重画。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The budget constraint</pre></details>
+</section><section class="slide" id="s22" data-n="22">
+  <div class="slide-head"><span class="pno">P22</span><span class="ptitle">How Much Money You Have to Spend</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-022.webp" alt="第22页"><figcaption>课件第 22 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>预算集</strong>（budget set）：在给定收入下，消费者买得起的<strong>所有</strong>商品与服务篮子的集合。</p>
+<p>经济学家一般不直接画这个集合，而是画它的边界——<strong>预算约束线</strong>（budget constraint）：<strong>刚好花光收入</strong>的那些篮子。</p>
+<p>两者关系：预算集是线<strong>左下方</strong>那一整块三角形（含边界），预算线只是它的斜边。后面的<a class="term" href="glossary.html#t-optimization" data-t="optimization">最优化</a>，本质上就是「在这个三角形里找最好的点」。</p>
+<p>术语提醒：英文里 budget set 是<strong>集合</strong>，budget constraint 是<strong>边界</strong>，中文有时都译成「预算约束」，读到时要看上下文判断指的是哪一个。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>How Much Money You Have to Spend
+---
+The budget set is the set of all possible bundles of goods and services that a consumer can purchase with her income. 
+Economists usually describe the budget set in the context of another concept—the budget constraint.</pre></details>
+</section><section class="slide" id="s23" data-n="23">
+  <div class="slide-head"><span class="pno">P23</span><span class="ptitle">budget constraint</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-023.webp" alt="第23页"><figcaption>课件第 23 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>为了画图方便，课件加了两个简化假设：</p>
+<ol><li><strong>消费者不储蓄也不借贷</strong>。现实中很多人会存钱、会刷卡，但先把这个渠道关掉，模型才能聚焦在「买什么」上。</li><li><strong>把预算线画成平滑的直线</strong>，即使例子里的商品只能按整数买（你不能买 2.7 个鸡蛋）。这是纯技术处理，不影响任何结论，只是让切线好画。</li></ol>
+<p>第一条假设后面会放开（讲跨期选择时），第二条永远只是画图习惯。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>budget constraint
+---
+First, we’ll assume that consumers do not save or borrow. 
+Second, we plot the budget constraint as a smooth line, even though our examples will be using whole units.</pre></details>
+</section><section class="slide" id="s24" data-n="24">
+  <div class="slide-head"><span class="pno">P24</span><span class="ptitle">The budget constraint</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-024.webp" alt="第24页"><figcaption>课件第 24 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>预算约束的几何，横轴是商品 x 的数量、纵轴是另一种商品的数量。</p>
+<p>两个截距：全部钱买 y 得到 15，全部钱买 x 得到 20。中间那条直线就是 Px·x + Py·y = I。线上的 C、D 两点代表两种不同的花法：多买 x 就必须少买 y。</p>
+<p>关键在斜率：</p>
+<p>斜率 = -Px / Py</p>
+<p>它是<strong><a class="term" href="glossary.html#t-market" data-t="market">市场</a>给你的交换比率</strong>——用 y 表示的一个 x 的价格。比如斜率绝对值 0.75，就意味着市场上 1 个 x 值 0.75 个 y。（图上的点是示意，考试一律按公式算。）</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The budget constraint
+---
+Budget constraint</pre></details>
+</section><section class="slide" id="s25" data-n="25">
+  <div class="slide-head"><span class="pno">P25</span><span class="ptitle">Price change</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-025.webp" alt="第25页"><figcaption>课件第 25 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>价格变化怎么改变预算线？两种情形，都靠「截距变、斜率变」来读。</p>
+<ul><li><strong>毛衣涨价</strong>（左图）：纵轴截距从 12 掉到 6，横轴截距 6 不动，整条线绕 (6, 0) 点<strong>向内旋转</strong>，变得更陡。因为另一种商品（牛仔裤）的价格没变，所以那个截距不动。</li><li><strong>牛仔裤降价</strong>（右图）：横轴截距从 6 增到 12，纵轴截距 12 不动，绕 (0, 12) 点旋转，变得更平。</li></ul>
+<p>记住这条口诀：<strong>哪种商品的价格变，就绕着另一种商品的截距转</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Price change</pre></details>
+</section><section class="slide" id="s26" data-n="26">
+  <div class="slide-head"><span class="pno">P26</span><span class="ptitle">Income change</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-026.webp" alt="第26页"><figcaption>课件第 26 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>收入变化则完全不同：横轴截距从 6 变成 12，纵轴截距从 12 变成 24，正好都是翻倍。</p>
+<p>几何上是<strong>平行外移</strong>——斜率一点没变。原因是两种商品的<strong>相对价格</strong>没变，市场给你的交换比率还是那个数，只是你的购买力整体放大了。</p>
+<p>这条区别是后面分析「<a class="term" href="glossary.html#t-output-effect-and-price-effect" data-t="output-effect-and-price-effect">价格效应</a> = 替代效应 + 收入效应」的几何基础：价格变化同时动了斜率和购买力，收入变化只动购买力。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Income change</pre></details>
+</section><section class="slide" id="s27" data-n="27">
+  <div class="slide-head"><span class="pno">P27</span><span class="ptitle">EXHIBIT 3.11</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-027.webp" alt="第27页"><figcaption>课件第 27 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>EXHIBIT 3.11：把预算线两侧的区域标出来。</p>
+<ul><li>线上：<strong>刚好花光</strong>收入。</li><li>左下<strong>灰色区域</strong>：<strong>买得起</strong>还有余钱的组合，也就是预算集。</li><li>右上<strong>蓝色区域</strong>：<strong>买不起</strong>的组合。</li></ul>
+<p>读这张图时注意：预算集是一个<strong>闭</strong>的三角形（含边界），而不是只有一条线。最优点可能落在三角形内部（钱没花完）吗？在非饱和假设下不会——只要还能多买一点，你就一定会多买，所以最优点永远在斜边上。这条结论第 29 页会再用一次。</p></div>
+</section><section class="slide" id="s28" data-n="28">
+  <div class="slide-head"><span class="pno">P28</span><span class="ptitle">Putting it together</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-028.webp" alt="第28页"><figcaption>课件第 28 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>现在把两块积木叠起来：同一张图上，既有预算三角形，又有一族无差异曲线。</p>
+<p>问题变成一句话：<strong>在这个三角形里，我能摸到的最高那条无差异曲线是哪一条？</strong></p>
+<p>答案的形状是可以预见的：那条曲线既不能整条落在三角形外（否则买不起），又不能再往外挪一点（否则还能更好）。它必然与预算线在某一点<strong><a class="term" href="glossary.html#t-tangency-condition" data-t="tangency-condition">相切</a></strong>（tangency）。这就是最优选择的几何图像。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Putting it together</pre></details>
+</section><section class="slide" id="s29" data-n="29">
+  <div class="slide-head"><span class="pno">P29</span><span class="ptitle">Optimal consumption</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-029.webp" alt="第29页"><figcaption>课件第 29 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>最优消费</strong>（optimal consumption）的三个特征，考试常考：</p>
+<ol><li><strong>花光收入</strong>：最优点在预算线上，不在三角形内部。理由是非饱和。</li><li><strong>落在最高的可达无差异曲线上</strong>：再往外一条就买不起了。</li><li><strong>在该点相切</strong>：无差异曲线的斜率 = 预算线的斜率，即 MRS = Px / Py。</li></ol>
+<p>第三条是最有用的操作形式：<strong>边际替代率等于价格比</strong>。左边是你的心理价位，右边是市场价位，两者相等时你才停止调整。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Optimal consumption</pre></details>
+</section><section class="slide" id="s30" data-n="30">
+  <div class="slide-head"><span class="pno">P30</span><span class="ptitle">Optimal consumption</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-030.webp" alt="第30页"><figcaption>课件第 30 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>同一个结论，课件给了三种讲法，都要会：</p>
+<ul><li><strong>图形</strong>：相切。直观，但只能处理两种商品，且要画得准。</li><li><strong>拉格朗日</strong>（Lagrangian）：设 L = U(x, y) + λ(I - Px·x - Py·y)。对 x、y 求一阶条件得 MUx = λ·Px、MUy = λ·Py，两式相除就回到 MUx/MUy = Px/Py。这里的 λ 是<strong>收入的边际效用</strong>：多一块钱能带来多少效用。</li><li><strong>边际推理</strong>（marginal argument）：把钱花在 x 上，最后一块钱买到的边际效用是 MUx/Px；花在 y 上是 MUy/Py。两者不等，就把钱从低的一方挪到高的一方；相等时，无钱可挪。</li></ul>
+<p>三种讲法结论一致。答题时任选一种，但要说清用的是哪一种。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Optimal consumption
+---
+Graphical analysis
+Lagrangian method (mathematics)
+Marginal argument (economics)</pre></details>
+</section><section class="slide" id="s31" data-n="31">
+  <div class="slide-head"><span class="pno">P31</span><span class="ptitle">A corner solution</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-031.webp" alt="第31页"><figcaption>课件第 31 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong><a class="term" href="glossary.html#t-corner-solution" data-t="corner-solution">角点解</a></strong>（corner solution）：最优点不在切点，而在坐标轴上。</p>
+<p>看图：预算线从纵轴上的 P 点出发向右下延伸；三条无差异曲线分别与预算线交于 Q、R、S——<strong>没有一条相切</strong>，每条都还往外走。最优点就是 P 点本身：x = 0，钱全花在 y 上。</p>
+<p>判定条件写在图上：</p>
+<p>MUy / Py &gt; MUx / Px</p>
+<p>即使你已经把所有的钱都花在 y 上，这个不等式<strong>依然成立</strong>——意思是：连第一个 x 都不值得买。这就是角点解的标志。典型例子：一个滴酒不沾的人面对酒和饭，或者你对某种商品完全无感。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>A corner solution
+---
+Corner solution (not tangent)
+---
+even after you spend all your money on Y?</pre></details>
+</section><section class="slide" id="s32" data-n="32">
+  <div class="slide-head"><span class="pno">P32</span><span class="ptitle">Non-convex indifference curves</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-032.webp" alt="第32页"><figcaption>课件第 32 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>如果偏好<strong>不是凸的</strong>，相切这件事会彻底失效。</p>
+<p>把无差异曲线画成<strong>凹向原点</strong>（non-convex，向外鼓），它和预算线依然可以相切，但那个切点给出的是<strong>最差的</strong>可行点，而不是最好的：沿着预算线往两边移动，你都能爬到更高的曲线上。真正的最优解落在<strong>端点</strong>。</p>
+<p>所以结论要修正一句：<strong>相切只是最优的必要条件，不是充分条件</strong>；要保证「相切 = 最优」，必须额外假定偏好凸（也就是边际价值递减）。这条在考试里常以「判断对错」的形式出现。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Non-convex indifference curves</pre></details>
+</section><section class="slide" id="s33" data-n="33">
+  <div class="slide-head"><span class="pno">P33</span><span class="ptitle">Applications of the consumer decision framework</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-033.webp" alt="第33页"><figcaption>课件第 33 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页：消费者决策框架的<strong>应用</strong>（applications）。</p>
+<p>到这里，理论部分结束了——偏好、无差异曲线、预算约束、相切条件，四件套齐了。接下来课件用它做四个应用，一个比一个有现实感：</p>
+<ol><li>价格指数：涨价到底让人变差多少？</li><li>口味差异：跨国消费差异真的是「口味不同」吗？</li><li>最不坏的税：同样收 100 块，工资税和<a class="term" href="glossary.html#t-lump-sum-tax" data-t="lump-sum-tax">人头税</a>你选哪个？</li><li>推导需求曲线：把前面所有东西收口。</li></ol></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Applications of the consumer decision framework</pre></details>
+</section><section class="slide" id="s34" data-n="34">
+  <div class="slide-head"><span class="pno">P34</span><span class="ptitle">Application #1 Price Indices</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-034.webp" alt="第34页"><figcaption>课件第 34 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>应用一：<strong>价格指数</strong>（price indices）。</p>
+<p>问题很实际：去年到今年，物价涨了，你姑且知道自己「变差了」，但能不能给出<strong>一个数字</strong>？工资要按多少调整才不亏？养老金要不要指数化？</p>
+<p>这类问题的共同点是：需要一个把「很多种价格变化」压缩成「一个数」的办法。这就是价格指数要干的事。</p>
+<p>难点在哪？各种商品的价格并不是同比例变动的：猪肉涨 20%、手机跌 5%、房租涨 3%。而且人会<strong>调整篮子</strong>——什么贵就少买什么。指数必须在这两件事之间做<a class="term" href="glossary.html#t-trade-offs" data-t="trade-offs">取舍</a>，取舍方式不同，就有了后面拉氏和帕氏的分歧。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Application #1Price Indices</pre></details>
+</section><section class="slide" id="s35" data-n="35">
+  <div class="slide-head"><span class="pno">P35</span><span class="ptitle">Price Indices</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-035.webp" alt="第35页"><figcaption>课件第 35 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>各国的统计部门都在做这件事。中国由国家统计局发布 <strong>CPI</strong>（consumer price index，居民消费价格指数），每月公布。</p>
+<p>它的用途远不止「看看通胀」：最低工资、养老金、劳动合同里的调薪条款、央行定利率，都以它为参照。所以 CPI 怎么算，不是学术问题，是分钱的问题——算高了有人吃亏，算低了也有人吃亏。</p>
+<p>技术上，CPI 是一个<strong>加权平均</strong>：把居民消费分成食品烟酒、居住、交通通信等大类，每一类按住户调查得到的支出占比给权重，再加权汇总。权重每隔几年要调整一次，因为消费结构本身在变——这也是所有价格指数的软肋。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Price Indices
+---
+To measure how people are affected by price changes, government statistical department around the world often report price indices
+Chinese statistics department publishes what is known as the CPI (consumer price index)</pre></details>
+</section><section class="slide" id="s36" data-n="36">
+  <div class="slide-head"><span class="pno">P36</span><span class="ptitle">Price Indices</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-036.webp" alt="第36页"><figcaption>课件第 36 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>课件先讲<strong>粗略</strong>的算法：跟踪一个<strong>固定篮子</strong>（a fixed bundle of goods and services）的成本随时间怎么变。</p>
+<ul><li>篮子变贵 → 统计部门说「<strong>生活成本上升</strong>」→ 暗示人们变差了。</li><li>篮子变便宜 → 说「生活成本下降」→ 暗示人们变好了。</li></ul>
+<p>注意「暗示」这个词。篮子成本和生活水平之间不是等号，中间隔着一个假设：<strong>你会一直买同样的东西</strong>。下一页的例子就是来拆这个假设的。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Price Indices
+---
+Roughly, statistics department do this by tracking the cost of a given basket (a fixed bundle of goods and services) over time. 
+If the basket gets more expensive, they say that the cost of living has gone up (which  may imply that people are worse off)
+If the basket gets cheaper, they say that the cost of living has gone down (which may imply that people are better off).</pre></details>
+</section><section class="slide" id="s37" data-n="37">
+  <div class="slide-head"><span class="pno">P37</span><span class="ptitle">Price Indices</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-037.webp" alt="第37页"><figcaption>课件第 37 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>Harold 的例子</strong>，全讲最重要的数值例子之一。</p>
+<p>他只买两种商品 X 和 Y。初始价格 Px = 3、Py = 4，收入 I = 20。在这个价格下，他最优地选择买 <strong>4 个 X 和 2 个 Y</strong>——验算：3×4 + 4×2 = 12 + 8 = 20，正好花完。</p>
+<p>现在价格变了：Px 涨到 <strong>4</strong>，Py 跌到 <strong>2</strong>，收入仍是 20。</p>
+<p>问题：他的生活水平变了吗？如果变了，是变好还是变差？</p>
+<p>请留意这个例子的设计：两种价格<strong>一涨一跌</strong>，方向相反。涨价让他少买 X，跌价让他多买 Y，两个效应互相抵消一部分。最后总花费恰好还是 20 美元——这就是为什么「花同样的钱」会被误读成「过得一样好」。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Price Indices
+---
+Example: 
+Harold consumes goods X and Y. 
+Their initial prices are 3 and 4, respectively
+With an income of 20, he (optimally) chooses to buy 4 units of X and 2 of Y.
+Now the price of X rises to 4 while the price of Y falls to 2
+Suppose his income remains at 20 dollars. ?  Has his living standard change? If yes, is he better or worse off than before?</pre></details>
+</section><section class="slide" id="s38" data-n="38">
+  <div class="slide-head"><span class="pno">P38</span><span class="ptitle">Price Indices</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-038.webp" alt="第38页"><figcaption>课件第 38 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>先用「固定篮子」法算一遍。选 O = (4, 2) 作基准篮子并固定住：</p>
+<ul><li>原价格下的成本：3×4 + 4×2 = <strong>20</strong>。</li><li>新价格下的成本：4×4 + 2×2 = <strong>20</strong>。</li></ul>
+<p>成本没变，所以<strong>价格指数不变</strong>，结论是「他的生活水平没有变化」。</p>
+<p>但这个结论是<strong>错的</strong>。下一页用图说明为什么。</p>
+<p>先记住矛盾的样子：统计部门会说「物价没变、通胀为零」，而 Harold 的主观感受是「我过得更好了」。两个说法不可能都对。错的一定是那个<strong>只看钱</strong>的算法。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Price Indices
+---
+Suppose we choose the following basket as a benchmark and hold the basket fixed: 4 units of X and 2 units of Y.
+The original cost of the basket: 20
+The new cost of the same basket: still 20
+So the price index does not change
+Question: does Harold feel the same as before?</pre></details>
+</section><section class="slide" id="s39" data-n="39">
+  <div class="slide-head"><span class="pno">P39</span><span class="ptitle">图上两条预算线</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-039.webp" alt="第39页"><figcaption>课件第 39 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>图上两条预算线，横轴 X、纵轴 Y。</p>
+<ul><li><strong>原预算线</strong>（黑色）：纵轴截距 20/4 = 5，横轴截距 20/3 = 6⅔，斜率 -0.75。</li><li><strong>新预算线</strong>（蓝色）：纵轴截距 20/2 = 10，横轴截距 20/4 = 5，斜率 -2。</li></ul>
+<p>两条线<strong>都经过 O = (4, 2)</strong>，这就是「篮子 O 在新旧价格下都正好 20 块」的几何含义。</p>
+<p>关键在于：新价格下他能够到 <strong>A 点</strong>——那是在<strong>更高</strong>的无差异曲线上。所以他<strong>明显变好了</strong>，而固定篮子法说他「没变」。指数在这里漏掉了整整一块福利改进。</p></div>
+</section><section class="slide" id="s40" data-n="40">
+  <div class="slide-head"><span class="pno">P40</span><span class="ptitle">换一个篮子试试</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-040.webp" alt="第40页"><figcaption>课件第 40 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>换一个篮子试试。选 <strong>P = 新价格下的最优选择</strong>（也就是 A 那个位置所对应的篮子）。</p>
+<ul><li>它在<strong>原</strong>价格下要花超过 20——所以它落在原预算线的<strong>外面</strong>。</li><li>它在<strong>新</strong>价格下正好花 20——所以它落在新预算线上。</li></ul>
+<p>用它当基准，你会算出：生活成本<strong>下降了</strong>。这一次方向对了，但幅度又夸大了。</p>
+<p>问题出在基准篮子 P 本身：P 是新价格下的选择，在<strong>旧</strong>价格下他根本买不起。拿一个买不起的篮子当基准，等于假设他从一开始就享受着价格下降的好处——改进被提前算进去了，所以「成本下降」被夸大。</p></div>
+</section><section class="slide" id="s41" data-n="41">
+  <div class="slide-head"><span class="pno">P41</span><span class="ptitle">Price Indices</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-041.webp" alt="第41页"><figcaption>课件第 41 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>问题暴露得很清楚：</p>
+<blockquote>用固定篮子法，你得到的答案<strong>取决于你选哪个篮子</strong>。</blockquote>
+<ul><li>选 O（旧篮子）→ 说「没变」，其实他变好了 → <strong>低估</strong>了改善。</li><li>选 P（新篮子）→ 说「降了」，其实降得没那么多 → <strong>高估</strong>了改善。</li></ul>
+<p>而「选哪个篮子」并没有客观标准。这就是固定篮子法的根本缺陷，下一页给它两个名字。</p>
+<p>说穿了：固定权重的指数暗含一个荒唐假设——<strong>人不做替代</strong>。现实里猪肉贵了就吃鸡肉，房租涨了就合租或搬到远一点。指数把人当成一个照单全收的购物车，于是必然算错。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Price Indices
+---
+The problem:
+With this approach, you are using a fixed basket, but the answer you get depends on which basket you choose to track.</pre></details>
+</section><section class="slide" id="s42" data-n="42">
+  <div class="slide-head"><span class="pno">P42</span><span class="ptitle">Laspeyres v.s. Paasche price index</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-042.webp" alt="第42页"><figcaption>课件第 42 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>两种经典指数，正好对应上一页的两个选择：</p>
+<table class="tbl"><thead><tr><th>指数</th><th>跟踪的篮子</th><th>偏差方向</th></tr></thead><tbody><tr><td><strong><a class="term" href="glossary.html#t-laspeyres-index" data-t="laspeyres-index">Laspeyres</a></strong>（拉氏）</td><td><strong>基期</strong>篮子（O）</td><td>倾向<strong>高估</strong>生活成本上升</td></tr><tr><td><strong><a class="term" href="glossary.html#t-paasche-index" data-t="paasche-index">Paasche</a></strong>（帕氏）</td><td><strong>当期</strong>篮子（P）</td><td>倾向<strong>低估</strong>生活成本上升</td></tr><tr><td><strong>Fisher</strong>（费雪）</td><td>两者的几何平均</td><td>折中</td></tr></tbody></table>
+<p>读表要点：拉氏指数假定你「照旧买」，忽略了你其实会<strong>用变便宜的商品替代变贵的商品</strong>——这个替代行为本身就是福利改善，指数没算进去，所以显得生活变差了。这个系统性偏差叫<strong><a class="term" href="glossary.html#t-substitution-bias" data-t="substitution-bias">替代偏误</a></strong>（substitution bias）。</p>
+<p>课件最后一句是实话：<strong>没有完美的方法度量生活成本变化</strong>，只能选一个偏差方向你能接受的。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Laspeyres v.s. Paasche price index
+---
+The cost-of-living measurement that you get by tracking the original is called a Laspeyres price index , it tends to make things look worse than they are. 
+The cost-of-living measurement that you get by tracking the new basket (in this case P) is called a Paasche price index , it tends to make things look better than they are. 
+Unfortunately, there is no perfect way to measure changes in the cost of living. Sometimes people use Fisher index</pre></details>
+</section><section class="slide" id="s43" data-n="43">
+  <div class="slide-head"><span class="pno">P43</span><span class="ptitle">Application #2 Differences in taste?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-043.webp" alt="第43页"><figcaption>课件第 43 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>应用二：<strong>口味真的有差异吗？</strong>（differences in taste）</p>
+<p>这一节要回答一个方法论问题：当我们看到「德国人比意大利人吃更多土豆」时，该说「他们口味不同」，还是该说「他们面对的价格不同」？</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Application #2Differences in taste?</pre></details>
+</section><section class="slide" id="s44" data-n="44">
+  <div class="slide-head"><span class="pno">P44</span><span class="ptitle">Difference in taste?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-044.webp" alt="第44页"><figcaption>课件第 44 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>经济学家的默认立场：<strong>不喜欢用「口味不同」解释行为差异</strong>。</p>
+<p>原因很简单——「口味不同」是一个<strong>不可检验</strong>的解释。看到差异就说口味不同，等于什么都没说。标准做法是：先假定口味相同，看<strong>约束</strong>（价格、收入、家庭规模、气候）能不能解释差异；解释不了，才承认口味可能不同。</p>
+<p>这一页的提问「So are there wide-ranged differences in taste?」，是本节要动手检验的东西。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Difference in taste?
+---
+Economists don’t like to attribute differences in patterns of human behavior across countries, cultures, groups people to taste differences across countries, cultures, etc. 
+They normally think of the difference in behavior as a result of people facing different constraints. 
+So are there wide-ranged differences in taste?</pre></details>
+</section><section class="slide" id="s45" data-n="45">
+  <div class="slide-head"><span class="pno">P45</span><span class="ptitle">Difference in taste</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-045.webp" alt="第45页"><figcaption>课件第 45 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>两位消费者，两种商品（番茄、土豆）。</p>
+<ul><li><strong>Albert</strong>：番茄 4 元、土豆 3 元，收入 60 元。</li><li><strong>Betty</strong>：番茄 2 元、土豆 4 元，收入 48 元。</li></ul>
+<p>观察到的选择：Albert 买 <strong>(12, 4)</strong>（12 个番茄、4 个土豆），Betty 买 <strong>(4, 10)</strong>。</p>
+<p>先验算可行性：Albert 花 4×12 + 3×4 = 60，正好；Betty 花 2×4 + 4×10 = 48，正好。两人都把收入花光了，符合前面的模型。</p>
+<p>但注意两人的<strong>相对价格不同</strong>：Albert 那里番茄贵（4 对 3），Betty 那里土豆贵（4 对 2）。所以他们的选择方向相反，可能只是因为<strong>面对的价格不同</strong>，不能直接说「口味不同」。要检验口味，必须先把价格统一。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Difference in taste</pre></details>
+</section><section class="slide" id="s46" data-n="46">
+  <div class="slide-head"><span class="pno">P46</span><span class="ptitle">Now Betty chooses a new B instead, which Albert cannot afford</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-046.webp" alt="第46页"><figcaption>课件第 46 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>关键的一步，也是这个检验的巧妙之处：</p>
+<ul><li>Betty 选的 (4, 10)，在 <strong>Albert</strong> 的价格和收入下只要 4×4 + 3×10 = <strong>46</strong>，<strong>Albert 完全买得起</strong>——但他没选。</li><li>反过来，Albert 选的 (12, 4)，在 <strong>Betty</strong> 的价格和收入下只要 2×12 + 4×4 = <strong>40</strong>，<strong>Betty 也买得起</strong>——但她没选。</li></ul>
+<p>也就是说：<strong>每个人都拒绝了一个自己买得起的篮子，而去选另一个</strong>。这个「拒绝」就是信息的来源。</p>
+<p>经济学把这叫<strong><a class="term" href="glossary.html#t-revealed-preference" data-t="revealed-preference">显示性偏好</a></strong>（revealed preference）：不需要问人「你更喜欢哪个」，看他选了什么就够了。这一招的价值在于——问卷调查里人会说谎，掏钱的时候不会。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Now Betty chooses a new B instead, which Albert cannot afford</pre></details>
+</section><section class="slide" id="s47" data-n="47">
+  <div class="slide-head"><span class="pno">P47</span><span class="ptitle">Difference in taste</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-047.webp" alt="第47页"><figcaption>课件第 47 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把这两个「拒绝」翻译成图形语言：</p>
+<ul><li>Albert 选 A 不选 B ⇒ 在 A 点，他的无差异曲线<strong>高于</strong>经过 B 的那条。</li><li>Betty 选 B 不选 A ⇒ 在 B 点，她的曲线<strong>高于</strong>经过 A 的那条。</li></ul>
+<p>两个不等式方向相反，唯一可能是：<strong>两人的无差异曲线相交</strong>。而同一人的无差异曲线绝不能相交（传递性），所以相交只能意味着——<strong>他们不是同一个人，口味不同</strong>。</p>
+<p>这一页的措辞很谨慎：「我们当然无法排除口味相同的可能性」——如果曲线继续延伸，也许永不相交。所以「相交」是<strong>证据</strong>，不是<strong>证明</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Difference in taste
+---
+Do Albert and Betty have identical tastes? 
+We certainly have no way to rule out that possibility. 
+If these indifference curves are extended indefinitely in either direction, they might eventually cross—or they might not.</pre></details>
+</section><section class="slide" id="s48" data-n="48">
+  <div class="slide-head"><span class="pno">P48</span><span class="ptitle">Difference in taste</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-048.webp" alt="第48页"><figcaption>课件第 48 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把玩具例子换成现实：</p>
+<ul><li>把 Albert 换成「<strong>平均德国人</strong>」，Betty 换成「<strong>平均意大利人</strong>」。</li><li>把番茄、土豆换成这两国真实的、有统计的价格。</li><li>把「收入」换成真实的人均支出。</li></ul>
+<p>方法完全不变：用一国的价格和收入去检验另一国选的篮子买不买得起。如果买得起却被拒绝，就抓到了一个「口味不同」的证据。</p>
+<p>数据从哪来？各国的<strong>家庭消费调查</strong>（household expenditure survey）：抽几万户，记录收入和各商品大类的支出。Houthakker 用的就是这类数据，按收入分组、按家庭规模分组，看支出结构怎么随这两件事变。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Difference in taste
+---
+What about the real world? 
+We can replace Albert and Betty with “the average German” and “the average Italian”
+We can use realistic numbers for the prices of tomatoes and potatoes.</pre></details>
+</section><section class="slide" id="s49" data-n="49">
+  <div class="slide-head"><span class="pno">P49</span><span class="ptitle">Difference in taste</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-049.webp" alt="第49页"><figcaption>课件第 49 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>把这个检验做成批量版：德国 vs 希腊、希腊 vs 意大利、波兰 vs 匈牙利……商品也可以从两种扩展到多种（多维情形下图形画不出来，但代数检验照做）。</p>
+<p>判定规则只有一条：<strong>只要出现「A 买得起 B 的篮子却不选、B 买得起 A 的篮子却不选」的组合，就说明无差异曲线相交，也就说明口味不同</strong>。如果所有配对都通不过这个检验，那口味相同的假设就还活着。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Difference in taste
+---
+Then we can repeat the exercise with Germans and Greeks, or Greeks and Italians, or Poles and Hungarians, and with more than just two goods. 
+If we ever get a picture like the first one, we’ve spotted a taste difference.</pre></details>
+</section><section class="slide" id="s50" data-n="50">
+  <div class="slide-head"><span class="pno">P50</span><span class="ptitle">Difference in taste</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-050.webp" alt="第50页"><figcaption>课件第 50 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>有人真的做过这件事：哈佛教授 <strong>Hendrik Houthakker</strong>（亨德里克·豪特哈克）对欧洲各国做了这套比较。</p>
+<p>结果：<strong>没有发现任何口味差异的证据</strong>——他画的图没有一张出现「相交」的形状，全部长得像「不相交」的那一种。</p>
+<p>结论要说得精确：这<strong>不能证明</strong>各国口味相同，只能说明「<strong>数据无法拒绝口味相同</strong>」这个假设。口味可以相同，也可以不同，现有证据分不出来。这也是计量经济学里「不能拒绝原假设 ≠ 证明原假设」的早期范例。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Difference in taste
+---
+Harvard Professor Hendrik Houthakker (亨德里克·豪特哈克）carried out this exercise for European countries and found no evidence of any taste differences. 
+When Houthakker drew his graphs, none looked like the first one
+Instead, every one of his pictures look like the second one
+This leaves open the possibility that tastes could be either the same or different.</pre></details>
+</section><section class="slide" id="s51" data-n="51">
+  <div class="slide-head"><span class="pno">P51</span><span class="ptitle">Application 3 The Least Bad Tax (or which tax do you prefer?)</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-051.webp" alt="第51页"><figcaption>课件第 51 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>应用三：<strong>最不坏的税</strong>（the least bad tax）——或者换个问法：你更愿意交哪种税？</p>
+<p>这一节把消费者选择框架用到税制设计上，结论会有点反直觉：<strong>同样收你 100 块，不同的税给你的伤害不一样</strong>。这是「税收的<a class="term" href="glossary.html#t-excess-burden" data-t="excess-burden">超额负担</a>」这个概念最早、也最干净的入门。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Application 3The Least Bad Tax(or which tax do you prefer?)</pre></details>
+</section><section class="slide" id="s52" data-n="52">
+  <div class="slide-head"><span class="pno">P52</span><span class="ptitle">The Least Bad Tax</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-052.webp" alt="第52页"><figcaption>课件第 52 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>两种税，二选一：</p>
+<ul><li><strong>工资税</strong>（wage tax）：政府按你收入的<strong>百分比</strong>抽成。</li><li><strong>人头税</strong>（head tax）：政府每天收你<strong>固定金额</strong>，不管你赚多少。</li></ul>
+<p>前提条件：两种税从你身上收走的钱<strong>一样多</strong>。</p>
+<p>直觉上很多人会说「一样多就一样」，或者「人头税更狠，因为穷人也要交」。先别急，把数字代进去算。</p>
+<p>先把两个术语钉住：工资税是<strong>按比例</strong>征的，工资涨收入也涨，税也跟着涨，属于「边际税率」；人头税是<strong>一次总付</strong>（lump-sum）的，不管挣多少都交同一个数，边际税率是零。这个区别是整节的钥匙。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Least Bad Tax
+---
+Which would you rather pay: 
+a percentage wage tax : the government takes a certain percent of your earnings, or 
+a head tax : the government takes a certain number of dollars every day, regardless of how much you earn
+Suppose that the money collected from you are the same under two types of tax.</pre></details>
+</section><section class="slide" id="s53" data-n="53">
+  <div class="slide-head"><span class="pno">P53</span><span class="ptitle">Numerical example</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-053.webp" alt="第53页"><figcaption>课件第 53 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>数值例子</strong>：</p>
+<ul><li>你每小时赚 <strong>20</strong> 美元。</li><li>方案一：<strong>50% 的工资税</strong>。在这种情况下，你会（最优地）每天工作 <strong>10 小时</strong>，赚 <strong>200</strong>，缴税 <strong>100</strong>，到手 100。</li><li>方案二：<strong>每天 100 的固定人头税</strong>。</li></ul>
+<p>两种方案政府都拿到 100。你更愿意要哪个？</p>
+<p>注意「最优地」三个字：10 小时不是随便定的，是你在税后工资 10 美元/小时的条件下重新优化出来的结果。</p>
+<p>数字别混：200 是<strong>毛收入</strong>（干活挣到的），100 是<strong>净收入</strong>（交完税拿回家的），中间那 100 是税。考试里最常见的错，是把毛收入当成可支配收入去算效用。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Numerical example
+---
+Suppose you earn 20 an hour. 
+The government can impose a 50% wage tax
+In this case, you will (optimally choose to) work 10 hours a day, earn 200, and pay 100 in taxes. 
+Or the government can impose a 100 daily head tax. 
+Which do you prefer?</pre></details>
+</section><section class="slide" id="s54" data-n="54">
+  <div class="slide-head"><span class="pno">P54</span><span class="ptitle">Budget line: leisure and money</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-054.webp" alt="第54页"><figcaption>课件第 54 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>过渡页：把这个问题画成一张图——<strong>闲暇与收入的预算线</strong>（budget line: leisure and money）。</p>
+<p>这是全讲第二次用「复合商品」技巧：纵轴的钱，就是「其他所有商品」；横轴的闲暇，是你不工作的时间。工作与不工作之间的取舍，就此变成一个标准的消费者选择问题。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Budget line: leisure and money</pre></details>
+</section><section class="slide" id="s55" data-n="55">
+  <div class="slide-head"><span class="pno">P55</span><span class="ptitle">How to formulate this into a consumer choice problem?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-055.webp" alt="第55页"><figcaption>课件第 55 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>怎么把这个问题写成消费者选择？</p>
+<p>横轴<strong>闲暇</strong>（小时），纵轴<strong>工资收入</strong>（美元）。一天 24 小时，所以：</p>
+<ul><li>完全不工作：闲暇 24 小时，收入 0 → 点 <strong>(24, 0)</strong>。</li><li>工作 24 小时：闲暇 0，收入 24 × 20 = <strong>480</strong> → 点 <strong>(0, 480)</strong>。</li></ul>
+<p>连接这两点的直线就是预算线，斜率 = <strong>-20</strong>，正好是负的工资率。<strong>选工作几个小时，等于在这条线上选一个点</strong>：往左上走是多闲暇少收入，往右下走是多收入少闲暇。</p>
+<p>一个模型简化的提醒：纵轴标的是「收入」而不是「消费」，等于假设钱全部花掉、没有储蓄。这个假设在本讲够用，但讨论遗产、养老时就不够用了。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>How to formulate this into a consumer choice problem?
+---
+Begin by drawing your budget line between leisure (measured in hours) and wages (measured in dollars). 
+If you don’t work at all, you’ll have 24 hours a day leisure and zero wages, represented by the point (24, 0) 
+If you work 24 hours a day, you’ll have zero leisure and $480 in wages, represented by point (0, 480). 
+The line connecting these points is your budget line
+By choosing the number of hours you work, you can achieve any point on this line.</pre></details>
+</section><section class="slide" id="s56" data-n="56">
+  <div class="slide-head"><span class="pno">P56</span><span class="ptitle">图 A</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-056.webp" alt="第56页"><figcaption>课件第 56 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>图 A：<strong>只有工资税</strong>的情形。</p>
+<ul><li>原预算线：(24, 0) 到 (0, 480)，斜率 -20。</li><li>工资税后：税后工资 10，线绕 <strong>(24, 0)</strong> 旋转，纵轴截距从 480 掉到 <strong>240</strong>，斜率变成 <strong>-10</strong>。</li><li>原最优点 <strong>X = (14, 200)</strong>：闲暇 14 小时，工作 10 小时，赚 200。</li><li>税后最优点 <strong>P = (14, 100)</strong>：同样工作 10 小时，毛收入还是 200，但净到手 100。</li></ul>
+<p>注意 P 比 X 低——同一个工作时长，收入少了一半。P 落在更低的无差异曲线上，这是工资税的直接代价。</p>
+<p>盯住这条线是怎么动起来的：它<strong>绕 (24, 0) 点旋转</strong>，从截距 480 转到 240。旋转意味着斜率变了，也就是「多工作一小时能换多少钱」变了。价格不变时预算线是平移的，价格变时才旋转——<strong>旋转就是扭曲的图形标志</strong>。</p></div>
+</section><section class="slide" id="s57" data-n="57">
+  <div class="slide-head"><span class="pno">P57</span><span class="ptitle">Head tax</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-057.webp" alt="第57页"><figcaption>课件第 57 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>现在看人头税。政府仍然收 100。</p>
+<p>先做一件「笨」事：假设你<strong>还是</strong>工作 10 小时。那么毛收入 200，缴 100，净得 100——和工资税下<strong>完全一样</strong>，落在同一个 P 点。</p>
+<p>课件在这里加了一句很重要的提醒：这<strong>未必</strong>是你在人头税下的最优选择，因为价格变了（多工作一小时的报酬回到了 20）而你还没重新优化。正因如此，「仍然工作 10 小时」给你的福利只是一个<strong>下界</strong>——你实际能达到的，只会比这更好。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Head tax
+---
+Now consider a head tax
+The amount collected is still 100
+Suppose you still worked for 10 hours 
+(notice that this might NOT be optimal for you now, because price changed but you do not reoptimize. In other word, still working for 10 Hours is a lower bound for your welfare under the head tax)</pre></details>
+</section><section class="slide" id="s58" data-n="58">
+  <div class="slide-head"><span class="pno">P58</span><span class="ptitle">图 B</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-058.webp" alt="第58页"><figcaption>课件第 58 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>图 B：把两种税画在一起。</p>
+<ul><li><strong>人头税线</strong>：原线<strong>平行下移</strong> 100。纵轴截距 480 - 100 = <strong>380</strong>，斜率仍是 <strong>-20</strong>（因为人头税不改变任何边际价格），横轴交点移到闲暇 19 小时（20 × (24-19) = 100，刚好够交税）。</li><li>这条线<strong>也穿过 P 点</strong>（闲暇 14、净收入 100）——这就验证了上一页「同样工作 10 小时，两种税到手一样」。</li><li>但它比工资税线<strong>更陡</strong>。在 P 的左边（闲暇更少），人头税线<strong>更高</strong>。</li></ul>
+<p>于是新的最优点 <strong>Q</strong> 出现在 P 的<strong>左上方</strong>：闲暇更少、收入更高、无差异曲线<strong>更高</strong>。</p>
+<p>结论：<strong>同样交 100 块，人头税让你过得更好。</strong></p></div>
+</section><section class="slide" id="s59" data-n="59">
+  <div class="slide-head"><span class="pno">P59</span><span class="ptitle">Intuition</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-059.webp" alt="第59页"><figcaption>课件第 59 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这个结果确实让人意外：两种税收的钱一模一样，一种却比另一种好。</p>
+<p>为什么？课件把问题拆成「直觉」和「<a class="term" href="glossary.html#t-marginal-analysis" data-t="marginal-analysis">边际分析</a>」两步。这里先给一句话版本：<strong>税收到手是同样的，但税改变了你面对的边际价格，而边际价格会扭曲你的选择</strong>。工资税把你的工资从 20 压到 10，你于是少工作；人头税一分钱也不改你的工资率，你只是「变穷了一点」。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Intuition
+---
+You might be surprised to learn that one tax can be preferable to another, even when they both collect the same amount of revenue. 
+What’s the intuition behind this result?</pre></details>
+</section><section class="slide" id="s60" data-n="60">
+  <div class="slide-head"><span class="pno">P60</span><span class="ptitle">Intuition: marginal analysis</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-060.webp" alt="第60页"><figcaption>课件第 60 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>边际分析第一步：<strong>先站在工资税的世界里</strong>。</p>
+<p>此时你的税后工资是 <strong>10 美元/小时</strong>，你选了 P 点。在 P 点有一个关键性质：</p>
+<blockquote>你对闲暇的<strong>边际价值</strong>恰好等于 <strong>10 美元/小时</strong>。</blockquote>
+<p>这句话的意思是：在 P 点，多给你一小时闲暇，你愿意付的最高价格正好是 10 块；反过来，让你放弃一小时闲暇去工作，你要的补偿也正好是 10 块。你在边际上<strong>无差异</strong>，所以停下来——这就是最优。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Intuition: marginal analysis
+---
+Suppose first that you’re subject to the wage tax, so that your after-tax income is 10 per hour. 
+Then, you choose point P 
+At this point, the marginal value of your leisure is exactly equal to your 10-per-hour wage rate.</pre></details>
+</section><section class="slide" id="s61" data-n="61">
+  <div class="slide-head"><span class="pno">P61</span><span class="ptitle">Intuition: marginal analysis</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-061.webp" alt="第61页"><figcaption>课件第 61 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>第二步：<strong>突然把工资税换成人头税</strong>。</p>
+<p>现在多工作一小时的报酬从 10 变回 <strong>20</strong>。而你的闲暇仍然只值 <strong>10</strong>。</p>
+<p>于是：工作一小时，赚 20；代价是失去价值 10 的闲暇。<strong>净赚 10</strong>。你当然愿意多工作——而且你会一直调整到新的边际相等（在 Q 点，闲暇的边际价值升到 20）。</p>
+<p>关键点：这个「多出来的机会」<strong>本身就是福利</strong>。你至少还能选 P（因为人头税线下 P 依然可行），但现在你有更好的点可去。所以人头税严格优于工资税。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Intuition: marginal analysis
+---
+Now if the wage tax is suddenly abandoned and replaced by a head tax, you have the opportunity to earn 20 for an additional hour of work. 
+Because the marginal value of your leisure is only $10 per hour, you’ll welcome this opportunity and consider yourself better off.</pre></details>
+</section><section class="slide" id="s62" data-n="62">
+  <div class="slide-head"><span class="pno">P62</span><span class="ptitle">Intuition (2)</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-062.webp" alt="第62页"><figcaption>课件第 62 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>一个极端例子，把直觉钉死：</p>
+<p><strong>你更愿意交「0 元人头税」，还是「对鞋子征 5,000,000% 的销售税」？</strong></p>
+<p>两种税政府都收 <strong>0</strong>：人头税你交 0；鞋税呢，一双鞋变成 100 万一双，你干脆<strong>光脚</strong>，也交 0。</p>
+<p>但显然应该选前者——零人头税下你还买得起鞋，鞋税下你被迫放弃鞋子。<strong>税收相同（都是 0），福利天差地别。</strong></p>
+<p>这就是「<strong>最不坏的税</strong>」这个标题的含义：在所有能收同样多钱的税里，<strong>一次总付税</strong>（lump-sum tax，如人头税）最好，因为它<strong>不改变任何边际价格</strong>，只让你变穷，不扭曲你的选择。现实中的所得税、增值税都做不到这一点，所以一定有超额负担。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Intuition (2)
+---
+An extreme example to build intuition:
+Which do you prefer, a 0% head tax or a 5,000,000% sales tax on shoes? 
+In both case, government collect zero tax revenue, because you’ll surely choose to go barefoot if a pair of shoes cost 1,000,000RMB.
+Nevertheless, it’s better to pay the zero-dollar head tax and buy a pair of shoes under the zero head tax.</pre></details>
+</section><section class="slide" id="s63" data-n="63">
+  <div class="slide-head"><span class="pno">P63</span><span class="ptitle">Application 4 Deriving the demand curve from the indifference curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-063.webp" alt="第63页"><figcaption>课件第 63 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>应用四：<strong>从无差异曲线推导需求曲线</strong>（deriving the demand curve from the indifference curve）。</p>
+<p>这是全讲的收口。前面所有工具——偏好、预算线、相切——都是为了这一刻：把第二讲「凭空给出」的那条向下倾斜的曲线，<strong>推</strong>出来。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Application 4Deriving the demand curve from the indifference curve</pre></details>
+</section><section class="slide" id="s64" data-n="64">
+  <div class="slide-head"><span class="pno">P64</span><span class="ptitle">From consumer choice to demand curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-064.webp" alt="第64页"><figcaption>课件第 64 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这一页两张图，左边是消费者选择、右边是需求曲线。</p>
+<p><strong>左图</strong>：横轴鸡蛋，纵轴啤酒（啤酒价格固定，全部预算线的纵轴截距都停在 8 瓶）。收入 24 美元、啤酒 3 美元/瓶，所以纵轴截距 8。鸡蛋价格变化时，横轴截距跟着变：</p>
+<table class="tbl"><thead><tr><th>鸡蛋价格</th><th>横轴截距（24/价格）</th><th>切点</th><th>最优鸡蛋量</th></tr></thead><tbody><tr><td>6 美元</td><td>4 个</td><td>C</td><td>2 个</td></tr><tr><td>3 美元</td><td>8 个</td><td>B</td><td>3 个</td></tr><tr><td>2 美元</td><td>12 个</td><td>A</td><td>5 个</td></tr></tbody></table>
+<p>把三个切点 C → B → A 连起来，这条线叫<strong><a class="term" href="glossary.html#t-price-consumption-curve" data-t="price-consumption-curve">价格消费曲线</a></strong>（price-consumption curve，PCC）：它记录「只有一种价格在变」时，最优点移动的轨迹。</p>
+<p><strong>右图</strong>：把左图里每一组「价格, 数量」重新描点——(2, 6)、(3, 3)、(5, 2)——连起来就是<strong>需求曲线</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>From consumer choice to demand curve</pre></details>
+</section><section class="slide" id="s65" data-n="65">
+  <div class="slide-head"><span class="pno">P65</span><span class="ptitle">Important concepts related to consumer demand</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-065.webp" alt="第65页"><figcaption>课件第 65 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>这张图引出的概念链，后面会反复用：</p>
+<ul><li><strong>价格消费曲线</strong>（PCC）：价格变化时最优点的轨迹，画在「商品数量」平面上。</li><li><strong>个人需求曲线</strong>：把 PCC 上的点「翻译」到「价格—数量」平面上。</li><li><strong>支付意愿</strong>（willingness to pay）：需求曲线的高度，就是买者为那一单位愿意出的最高价。</li><li><strong>消费者剩余</strong>：支付意愿与实际支付之差。</li></ul>
+<p>一句话记：<strong>需求曲线就是这个人的边际支付意愿曲线</strong>——它不是假设出来的，是从偏好和预算里长出来的。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Important concepts related to consumer demand</pre></details>
+</section><section class="slide" id="s66" data-n="66">
+  <div class="slide-head"><span class="pno">P66</span><span class="ptitle">Consumer surplus</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-066.webp" alt="第66页"><figcaption>课件第 66 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>消费者剩余</strong>（consumer surplus）：你<strong>愿意</strong>为某单位商品付的最高价，减去你<strong>实际</strong>付出的价格；把所有单位加起来，就是<a class="term" href="glossary.html#t-social-surplus" data-t="social-surplus">总剩余</a>。</p>
+<p>几何上：需求曲线<strong>以上</strong>、市场价格线<strong>以下</strong>、直到购买量为止的那块面积。</p>
+<p>它是衡量福利的标准工具。后面分析关税、<a class="term" href="glossary.html#t-monopoly" data-t="monopoly">垄断</a>、<a class="term" href="glossary.html#t-price-ceiling-2" data-t="price-ceiling-2">价格管制</a>时，判断「好还是坏」主要就是看消费者剩余加生产者剩余怎么变。</p>
+<p>一个容易被忽略的细节：消费者剩余只算<strong>买方</strong>的好处，卖方的好处叫生产者剩余。只看 CS 会得出「涨价一定坏」的结论，看总剩余才知道社会净损失是多少。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Consumer surplus</pre></details>
+</section><section class="slide" id="s67" data-n="67">
+  <div class="slide-head"><span class="pno">P67</span><span class="ptitle">一个算例</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-067.webp" alt="第67页"><figcaption>课件第 67 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>一个算例，横轴数量（百万单位）、纵轴价格。</p>
+<p>需求曲线从纵轴 <strong>125</strong> 出发，向下倾斜。市场价格 P = 75 时，需求量 Q = 40（百万）。</p>
+<ul><li>消费者剩余 = 上面那个三角形 = ½ × 40 × (125 - 75) = <strong>1000</strong>（百万美元，即 10 亿）。</li><li>若价格从 <strong>50</strong> 涨到 <strong>75</strong>：先失去长方形 25 × 40 = <strong>1000</strong>，再失去三角形 ½ × 20 × 25 = <strong>250</strong>，合计损失 <strong>1250</strong>。</li></ul>
+<p>图上橙色那块标着「Lost Consumer Surplus」，就是这 1250。注意它由<strong>两部分</strong>组成：还在买的人多付的钱（长方形），以及被挤出去的 20 个单位原本的剩余（三角形）。</p></div>
+</section><section class="slide" id="s68" data-n="68">
+  <div class="slide-head"><span class="pno">P68</span><span class="ptitle">Demand elasticity</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-068.webp" alt="第68页"><figcaption>课件第 68 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>进入本讲最后一大块：<strong>需求<a class="term" href="glossary.html#t-elasticity" data-t="elasticity">弹性</a></strong>（demand elasticity）。</p>
+<p>上一讲学过<strong><a class="term" href="glossary.html#t-law-of-demand" data-t="law-of-demand">需求定律</a></strong>：价格上升，需求量下降。但它只告诉你<strong>方向</strong>，不告诉你<strong>幅度</strong>——涨 10% 到底少买 1% 还是少买 30%？</p>
+<p>这个问题决定了太多事情：涨价能不能增加收入、税收由谁承担、技术进步会不会让整个行业萎缩。要精确回答，需要<strong>弹性</strong>。</p>
+<p>先感受一下差别的量级：地铁票价涨 1 元，客流可能只掉 0.5%；出租车起步价涨 1 元，乘客可能少 8%。同样是「涨 1 元」，一个几乎无关痛痒，一个伤筋动骨。差的就是弹性。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Demand elasticity
+---
+We have already learned the law of demand last time. 
+Suppose we want more precise answers as to exactly how responsive quantity demanded is to a change in price. 
+Widely used by economics: elasticity.</pre></details>
+</section><section class="slide" id="s69" data-n="69">
+  <div class="slide-head"><span class="pno">P69</span><span class="ptitle">Elasticity</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-069.webp" alt="第69页"><figcaption>课件第 69 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>弹性</strong>（elasticity）的定义：一个经济变量对另一个变量变化的<strong>敏感度</strong>。</p>
+<p>更精确地说：</p>
+<blockquote>弹性 = 变量的<strong>百分比变化</strong>之比。</blockquote>
+<p>注意是百分比，不是绝对值。这个选择不是随便的——它让弹性变成<strong>无量纲</strong>的数，于是「鸡蛋涨价 10% 少买 15%」和「房子涨价 10% 少买 2%」可以直接比大小。</p>
+<p>公式写全：ε_D = (ΔQ/Q) / (ΔP/P)。注意分母永远是<strong>引起变化</strong>的那个变量——<a class="term" href="glossary.html#t-price-elasticity-of-demand" data-t="price-elasticity-of-demand">价格弹性</a>里是价格，<a class="term" href="glossary.html#t-income-elasticity" data-t="income-elasticity">收入弹性</a>里是收入。分母选错，整道题就翻了。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Elasticity
+---
+Elasticity measures the sensitivity of one economic variable to a change in another. 
+It tells us how much one variable changes when another changes. 
+More precisely, elasticity is a ratio of percentage changes in variables.</pre></details>
+</section><section class="slide" id="s70" data-n="70">
+  <div class="slide-head"><span class="pno">P70</span><span class="ptitle">Elasticity</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-070.webp" alt="第70页"><figcaption>课件第 70 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>最容易错的一点：<strong>弹性不等于斜率</strong>。</p>
+<ul><li>斜率 = ΔQ / ΔP，有单位（比如「个/元」），换一个计量单位（把「打」换成「个」）数值就变了。</li><li>弹性 = (%ΔQ) / (%ΔP)，没有单位，换计量单位不变。</li></ul>
+<p>所以弹性「比斜率深一层」：它同时包含了变动的<strong>方向</strong>和<strong>幅度相对于基准的大小</strong>。一条直线（斜率恒定）上，不同点的弹性可以完全不同——这一点第 76 页的图会再提醒一次。</p>
+<p>具体说两种「斜率一样、弹性不一样」的情形：一是两条<strong>平行</strong>需求线（斜率相同），位置越靠上（价格越高）弹性越大；二是<strong>同一条</strong>直线上，左上段的价格高、基数小，弹性大，右下段弹性小。所以「这条线陡，所以弹性小」是一句不能单独成立的话。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Elasticity
+---
+Note that elasticity is NOT the same as the slope of a line. 
+By measuring changes in percentage terms, elasticity goes a step deeper than the slope relationship. 
+Elasticity is an important concept because it takes into account not only the direction of change but also the size of the change.</pre></details>
+</section><section class="slide" id="s71" data-n="71">
+  <div class="slide-head"><span class="pno">P71</span><span class="ptitle">Elasticity</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-071.webp" alt="第71页"><figcaption>课件第 71 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>弹性有很多种，本讲聚焦与需求曲线相关的三种：</p>
+<ol><li><strong>需求的价格弹性</strong>（price elasticity of demand）：数量对<strong>自己价格</strong>的反应。</li><li><strong>需求的<a class="term" href="glossary.html#t-cross-price-elasticity" data-t="cross-price-elasticity">交叉价格弹性</a></strong>（cross-price elasticity）：数量对<strong>另一种商品价格</strong>的反应。</li><li><strong>需求的收入弹性</strong>（income elasticity）：数量对<strong>收入</strong>的反应。</li></ol>
+<p>三种共用同一个计算逻辑（百分比之比），只是分子分母换了变量。学会一个，另外两个是免费的。</p>
+<p>但符号要分清：价格弹性通常<strong>为负</strong>（涨价少买），取绝对值后比较；收入弹性<strong>为正</strong>是正常品、为负是<a class="term" href="glossary.html#t-inferior-good" data-t="inferior-good">劣等品</a>；交叉弹性<strong>为正</strong>是替代品、为负是<a class="term" href="glossary.html#t-complements" data-t="complements">互补品</a>。同一套算法，符号承载了全部经济学含义。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Elasticity
+---
+Elasticities come in many forms, but in this chapter we focus on the most important ones associated with demand curves. 
+1. The price elasticity of demand
+2. The cross-price elasticity of demand
+3. The income elasticity of demand</pre></details>
+</section><section class="slide" id="s72" data-n="72">
+  <div class="slide-head"><span class="pno">P72</span><span class="ptitle">The price elasticity of demand</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-072.webp" alt="第72页"><figcaption>课件第 72 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>价格弹性的公式：</p>
+<p>ε_D = 需求量百分比变化 / 价格百分比变化</p>
+<p>课件说这个计算有<strong>两个地方</strong>要当心，接下来两页分别讲：一个是<strong>符号</strong>，一个是<strong>和 1 比大小</strong>。</p>
+<p>补一句计算细节：百分比变化要除以<strong>基期值</strong>，%ΔQ = ΔQ/Q、%ΔP = ΔP/P，所以 ε_D = (ΔQ/Q) / (ΔP/P)。若价格变动幅度较大，实务中常用<strong>中点公式</strong>（用两点平均值为分母），避免「涨价和降价算出的弹性不一样」。</p>
+<p>数字例子：价格从 10 涨到 11，%ΔP = +10%；需求从 100 掉到 90，%ΔQ = -10%；于是 ε_D = -10%/10% = -1，<a class="term" href="glossary.html#t-unit-elastic" data-t="unit-elastic">单位弹性</a>。如果反过来从 11 降回 10，用同一套算法会得到 -1.1——这就是为什么要用中点公式。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The price elasticity of demand
+---
+Two features of this computation are important.</pre></details>
+</section><section class="slide" id="s73" data-n="73">
+  <div class="slide-head"><span class="pno">P73</span><span class="ptitle">The price elasticity of demand</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-073.webp" alt="第73页"><figcaption>课件第 73 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>第一个要点：符号。</strong></p>
+<p>由需求定律，价格上升数量下降，所以价格弹性<strong>一般为负</strong>。</p>
+<p>负号在报告时很麻烦（「弹性是 -1.5」听起来像坏消息），所以惯例是<strong>取绝对值</strong>，直接说「弹性 1.5」。</p>
+<p>读法：<strong>绝对值越大，消费者对价格越敏感</strong>。弹性 3 意味着价格涨 1%，需求掉 3%；弹性 0.2 意味着价格涨 1%，需求只掉 0.2%。</p>
+<p>为什么统一取绝对值？因为几乎所有需求曲线都向下，弹性几乎都是负数。留着负号，比大小时每次都要想「-3 和 -0.2 谁更敏感」，极易出错。约定俗成：说「弹性大」指绝对值大，说「弹性 1」指绝对值等于 1。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The price elasticity of demand
+---
+First, because of the Law of Demand, the price elasticity of demand will generally be negative. 
+The negative sign is inconvenient, so we often drop the minus sign when reporting (so we are using the absolute value)
+Note that higher price elasticities mean that consumers are more responsive to a change in price.</pre></details>
+</section><section class="slide" id="s74" data-n="74">
+  <div class="slide-head"><span class="pno">P74</span><span class="ptitle">The price elasticity of demand</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-074.webp" alt="第74页"><figcaption>课件第 74 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>第二个要点：和 1 比大小。</strong></p>
+<table class="tbl"><thead><tr><th>弹性（绝对值）</th><th>名称</th><th>含义</th></tr></thead><tbody><tr><td>&gt; 1</td><td><strong>富有弹性</strong>（elastic）</td><td>数量反应<strong>强于</strong>价格变化</td></tr><tr><td>&lt; 1</td><td><strong>缺乏弹性</strong>（inelastic）</td><td>数量反应<strong>弱于</strong>价格变化</td></tr><tr><td>= 1</td><td><strong>单位弹性</strong>（unit elastic）</td><td>数量与价格同比例变化</td></tr></tbody></table>
+<p>为什么偏偏拿 1 当分界线？因为 1 是<strong>总收入不变</strong>的那条线：弹性大于 1 时降价能增加收入，小于 1 时涨价能增加收入。这条对企业定价极其有用，后面还会用到。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The price elasticity of demand
+---
+Second, whether the price elasticity of demand greater than or less than 1
+Greater than one: call it elastic
+Less than one: call it inelastic
+Equal to one: unit elasticity</pre></details>
+</section><section class="slide" id="s75" data-n="75">
+  <div class="slide-head"><span class="pno">P75</span><span class="ptitle">The price elasticity of demand</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-075.webp" alt="第75页"><figcaption>课件第 75 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>两个极端情形：</p>
+<ul><li><strong>完全弹性</strong>（perfectly elastic）：弹性<strong>无穷大</strong>。需求曲线是<strong>水平线</strong>——价格只要涨一点点，消费者就<strong>完全停止购买</strong>。含义：这个市场里你的商品和别人<strong>完全一样</strong>，你没有任何<a class="term" href="glossary.html#t-market-power" data-t="market-power">定价权</a>（接近完全竞争）。</li><li><strong>完全无弹性</strong>（perfectly inelastic）：数量<strong>完全不受价格影响</strong>。需求曲线是<strong>垂直线</strong>。典型是救命药、成瘾品——价格翻倍，该买还得买。</li></ul>
+<p>现实中的商品都落在这两个极端之间，极端情形是「思维实验」，用来标定两端。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The price elasticity of demand
+---
+Extreme case: perfectly elastic and perfectly inelastic
+Elasticity is infinite: demand is highly responsive to price changes: the smallest increase in price causes consumers to stop consuming the good altogether. 
+Demand can also be perfectly inelastic, which means that quantity demanded is completely unaffected by price.</pre></details>
+</section><section class="slide" id="s76" data-n="76">
+  <div class="slide-head"><span class="pno">P76</span><span class="ptitle">Graphic illustration</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-076.webp" alt="第76页"><figcaption>课件第 76 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>三幅图放在一起，横轴数量、纵轴价格：</p>
+<ul><li><strong>(a) 水平线</strong>，价格恒为 3：<strong>完全弹性</strong>。</li><li><strong>(b) 向下倾斜的曲线</strong>：价格从 3 降到 2（跌 33%），数量从 2 升到 3（升 50%），弹性约 <strong>1.5</strong>，<strong>富有弹性</strong>。</li><li><strong>(c) 垂直线</strong>，数量恒为 5：<strong>完全无弹性</strong>。</li></ul>
+<p>读 (b) 时留意一件事：两个点的总收入都是 3×2 = 6 和 2×3 = 6，<strong>没变</strong>。这提示我们：<strong>沿一条需求曲线移动，弹性是逐点变化的</strong>——同一个「跌 33% 涨 50%」用不同的基期算，结果不同。所以真实计算要用中点公式。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Graphic illustration</pre></details>
+</section><section class="slide" id="s77" data-n="77">
+  <div class="slide-head"><span class="pno">P77</span><span class="ptitle">Deepseek and Nvidia</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-077.webp" alt="第77页"><figcaption>课件第 77 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>Deepseek 与 Nvidia</strong> 的例子，把弹性用到产业分析上。</p>
+<p>设定：</p>
+<ul><li>AI 公司训练大模型需要 <strong>n</strong> 块 Nvidia 芯片。</li><li>Nvidia 每块芯片卖 <strong>V</strong>（假定不变）。</li><li>LLM 市场竞争激烈、利润接近零，所以一个模型的价格 p = nV——芯片成本全部转嫁给用户。</li><li>模型的市场需求 q = q(p)。</li><li>Nvidia 的收入 R = (nV) × q(p) = nV × q(nV)。</li></ul>
+<p>注意这个式子的结构：Nvidia 的收入 = 「每个模型的芯片成本」×「卖出的模型数」。两个因子都受 n 影响，方向相反。</p>
+<p>这里藏着一个容易跳过去的假设：Nvidia 是<strong>唯一的供给者</strong>，芯片单价 V 不随 n 变。所以它要回答的不是「定什么价」，而是「销量被侵蚀多少会吃掉提价的收益」——这正是弹性问题。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Deepseek and Nvidia
+---
+AI companies need Nvidia chips to train their LLM. 
+To train one model, chip requirement is n
+Nvidia’s price per chip is V (suppose this does not change)
+Suppose LLM companies are under fierce competition: near-zero profits, price for one model is  p=nV
+The market demand for models: q=q(p)
+Nvidia’s revenue: R=(nV)*q(p)=nV*q(nV)</pre></details>
+</section><section class="slide" id="s78" data-n="78">
+  <div class="slide-head"><span class="pno">P78</span><span class="ptitle">Deepseek and Nvidia</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-078.webp" alt="第78页"><figcaption>课件第 78 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>设 m = nV，即「训练一个模型的芯片成本」。则</p>
+<p>R = m × q(m)</p>
+<p>现在 Deepseek 找到办法用更少的芯片训练（n 下降），并且<strong>开源</strong>，于是全世界的 n 都下降 → m 下降 → 模型价格 p 下降 → 模型需求 q 上升。</p>
+<p><strong>Nvidia 的收入是升是降？</strong> 取决于 LLM 市场需求的<strong>弹性</strong>：</p>
+<ul><li>弹性 &gt; 1（富有弹性）：价格降一点，需求涨很多，m×q 变大 → Nvidia <strong>赚更多</strong>。</li><li>弹性 &lt; 1（缺乏弹性）：价格降了，需求涨得少，m×q 变小 → Nvidia <strong>赚更少</strong>。</li></ul>
+<p>这就是「卖铲子的人」在技术革命中的命运，完全由下游的需求弹性决定。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Deepseek and Nvidia
+---
+Let   m=nV. 
+Nvidia’s revenue: R=(nV)*q(p)=nV*q(nV)= m*q(m)
+Now, Deepseek find a way to train LLM with a lower n 
+Open-source: n all the round the world decrease: 
+m decreases
+Whether Nvidia will experience a decrease or increase in revenue depend on the elasticity of demand on the LLM market!</pre></details>
+</section><section class="slide" id="s79" data-n="79">
+  <div class="slide-head"><span class="pno">P79</span><span class="ptitle">Jevons' Paradox?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-079.webp" alt="第79页"><figcaption>课件第 79 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>Jevons 悖论</strong>（杰文斯悖论）：</p>
+<blockquote>技术进步提高了某种资源的<strong>使用效率</strong>，这种资源的总需求反而<strong>上升</strong>，而不是下降。</blockquote>
+<p>经典例子是煤：蒸汽机效率提高，单个工厂用煤变少，但煤的总消耗量暴涨。</p>
+<p>课件说得很直白：<strong>从基础微观经济学看，这根本不是悖论</strong>。机制就是上一页：效率提高 = 单位使用成本下降 = 沿需求曲线向右下移动；只要需求<strong>富有弹性</strong>，总用量（和总支出）就会增加。所谓「悖论」，只是把「单位用量」和「总用量」搞混了。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Jevons' Paradox?
+---
+Jevons‘ Paradox:  
+As technological improvements increase the efficiency of resource, the overall demand for that resource can actually increase rather than decrease.
+From basic microeconomics the Jevon’s Paradox is no paradox at all.</pre></details>
+</section><section class="slide" id="s80" data-n="80">
+  <div class="slide-head"><span class="pno">P80</span><span class="ptitle">Moving Up and Down the Demand Curve</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-080.webp" alt="第80页"><figcaption>课件第 80 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>标题页：<strong>沿需求曲线上下移动</strong>（moving up and down the demand curve）。</p>
+<p>这一页是个提醒，区分两件常被混淆的事：</p>
+<ul><li><strong>沿曲线移动</strong>（movement along）：只有<strong>该商品自己的价格</strong>变化，引起「需求量」变化。</li><li><strong>整条曲线平移</strong>（shift）：收入、偏好、替代品价格、预期等变化，引起「需求」变化。</li></ul>
+<p>弹性的计算只用第一种。如果曲线本身移动了，你算出来的不是弹性，是别的什么东西。</p>
+<p>用图形语言说：弹性是「<strong>同一条曲线</strong>上两个点之间的相对变化」，所以它的数值依赖于你选哪两个点；曲线平移是「换一条曲线」，那属于需求的决定因素变了，不属于需求量的反应。做题时先问一句：这条线动没动？</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Moving Up and Down the Demand Curve</pre></details>
+</section><section class="slide" id="s81" data-n="81">
+  <div class="slide-head"><span class="pno">P81</span><span class="ptitle">Determinants of demand elasticities</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-081.webp" alt="第81页"><figcaption>课件第 81 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>弹性的决定因素之一：<strong>替代品的接近程度</strong>（closeness of substitutes）。</p>
+<p>课件的例子：演员杨紫被选为一部新片的女主角，开拍前突然要求大幅提高片酬，制片人会怎么办？</p>
+<p>答案是：<strong>换人</strong>。因为「能演这个角色的女演员」不只有她一个，替代品很近，所以她的「需求」<strong>富有弹性</strong>——要价太高，制片方立刻转向别人。</p>
+<p>反过来的推论：<strong>替代品越少，弹性越小</strong>。这解释了为什么独家专利药可以定天价。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Determinants of demand elasticities
+---
+1. Closeness of substitutes. 
+Say the actress Yang Zi was chosen as the leading actress in a new movie. 
+However, she suddenly asks a much higher remuneration
+How would the producer act?</pre></details>
+</section><section class="slide" id="s82" data-n="82">
+  <div class="slide-head"><span class="pno">P82</span><span class="ptitle">Who is Who?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-082.webp" alt="第82页"><figcaption>课件第 82 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>一页娱乐新闻截图：「傻傻分不清，看撞脸明星造型，你能分出她们吗？」</p>
+<p>内容是若干对外貌和名字都极为相似的明星，配上「在娱乐圈总有那么几个名字让你熟悉，却分不清她们到底是哪张脸」的解说。</p>
+<p>老师放这一页当然不是为了八卦，而是做一个<strong>视觉类比</strong>：两个人长得越像，就越容易被互相替代；商品也一样。<strong>「像不像」就是「替代性强不强」的通俗版本。</strong></p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Who is Who?
+---
+傻傻分不清,看撞脸明星造型，你能分出她们吗？
+
+在娱乐圈总有那么几个名字让你熟悉，却分不清她们到底是哪张脸。不但外貌相似就连名字也很像！下面就看看以下哪位明星让你傻傻分不清吧！</pre></details>
+</section><section class="slide" id="s83" data-n="83">
+  <div class="slide-head"><span class="pno">P83</span><span class="ptitle">Who is Who?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-083.webp" alt="第83页"><figcaption>课件第 83 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>继续「Who is Who?」的游戏：屏幕上一组对照图，让你分辨哪张脸是谁。</p>
+<p>到这里你应该已经体会到了那种「分不清」的感觉——而这正是消费者面对两个几乎相同的商品时的感觉。分不清，就意味着<strong>谁便宜买谁</strong>，也就是<strong>高弹性</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Who is Who?</pre></details>
+</section><section class="slide" id="s84" data-n="84">
+  <div class="slide-head"><span class="pno">P84</span><span class="ptitle">Who is Who?</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-084.webp" alt="第84页"><figcaption>课件第 84 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>再来一组「Who is Who?」。难度加大，两张脸更接近。</p>
+<p>教学意图和前两页一致：<strong>相似度越高，替代越容易，弹性越大</strong>。等这一组图看完，下一页给出经济学的结论句。</p>
+<p>顺便说一句为什么用明星照片：这些图没有任何经济学内容，它的作用是把一个抽象命题变成你能「感觉到」的东西。等你下次看到两个几乎一样的产品打价格战，会想起这种脸盲感。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Who is Who?</pre></details>
+</section><section class="slide" id="s85" data-n="85">
+  <div class="slide-head"><span class="pno">P85</span><span class="ptitle">撞脸网红大乱斗…</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-085.webp" alt="第85页"><figcaption>课件第 85 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>「撞脸网红大乱斗」：更多几乎一模一样的脸拼在一张图上。</p>
+<p>这一页是这组玩笑的高潮，也是转折点——下一张就给出经济学上的正命题：<strong>低弹性意味着「只此一家」</strong>。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>撞脸网红大乱斗…</pre></details>
+</section><section class="slide" id="s86" data-n="86">
+  <div class="slide-head"><span class="pno">P86</span><span class="ptitle">Low price elasticity of demand: only one of its kind</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-086.webp" alt="第86页"><figcaption>课件第 86 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>结论页：<strong>低价格弹性 = 只此一家</strong>（only one of its kind）。</p>
+<p>图上并排放着两张几乎一模一样的脸（一位演员和他的「撞脸」者），标题写着「低价格弹性：只此一家」。</p>
+<p>读法：如果你的商品<strong>没有近似替代品</strong>，顾客没有别处可去，你涨价他也得买——需求<strong>缺乏弹性</strong>。反之，如果满大街都是「撞脸」的替代品，你涨价顾客立刻走人——需求<strong>富有弹性</strong>。</p>
+<p>这一条是所有弹性决定因素里<strong>最重要</strong>的一条，考试若只让写一个，就写它。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Low price elasticity of demand: only one of its kind</pre></details>
+</section><section class="slide" id="s87" data-n="87">
+  <div class="slide-head"><span class="pno">P87</span><span class="ptitle">Determinants of demand elasticities</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-087.webp" alt="第87页"><figcaption>课件第 87 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>因素之二：<strong>该商品的预算占比</strong>（budget share）。</p>
+<p>逻辑：预算占比反映这个商品在你消费篮子里有多「重要」。</p>
+<ul><li>占比<strong>小</strong>（牙签、食盐、火柴）：涨价一倍你也不太在意，懒得调整 → 弹性<strong>小</strong>。</li><li>占比<strong>大</strong>（房子、家具、汽车）：涨价 10% 就是一大笔钱，你会认真比价、推迟购买、找替代 → 弹性<strong>大</strong>。</li></ul>
+<p>规律：<strong>随着预算占比上升，价格弹性上升</strong>。这也解释了一个现象：同样的涨幅，房价让人跳脚，盐价没人讨论。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Determinants of demand elasticities
+---
+2. Budget share spent on the good. 
+The budget share relates to how important the good
+   is in your consumption bundle. 
+If It is just not important to your overall budget, perhaps you will not be sensitive to price changes, even large ones.
+ As you spend more of your budget on a good, the price elasticity of demand should increase</pre></details>
+</section><section class="slide" id="s88" data-n="88">
+  <div class="slide-head"><span class="pno">P88</span><span class="ptitle">Determinants of demand elasticities</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-088.webp" alt="第88页"><figcaption>课件第 88 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>因素之三：<strong>可用来调整的时间</strong>（available time to adjust）。</p>
+<p>课件的例子：油价暴涨，所有人会立刻不开车吗？<strong>当然不会</strong>——车已经买了，家离公司还是那么远，<a class="term" href="glossary.html#t-short-run" data-t="short-run">短期</a>内只能咬牙加油。所以<strong>短期弹性很小</strong>。</p>
+<p>但如果高油价持续下去呢？你会换小排量车、搬家到地铁沿线、改骑电动车、甚至换工作。<strong>时间越长，可调整的余地越大，弹性越大</strong>。</p>
+<p>规律：<strong>长期弹性 &gt; 短期弹性</strong>。这也是为什么能源税的政策效果要等很多年才显现。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Determinants of demand elasticities
+---
+3. Available time to adjust. 
+When the price of oil jumps to a high level, would everyone immediately stop driving? 
+Of course not.
+What happens when the price stay high for a longer time period?</pre></details>
+</section><section class="slide" id="s89" data-n="89">
+  <div class="slide-head"><span class="pno">P89</span><span class="ptitle">The Cross-Price Elasticity</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-089.webp" alt="第89页"><figcaption>课件第 89 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>交叉价格弹性</strong>（cross-price elasticity）：</p>
+<p>ε_xy = x 的需求量百分比变化 / y 的价格百分比变化</p>
+<p>它衡量的是<strong>两种商品之间的关系</strong>：y 涨价，x 的<strong>需求量</strong>会怎么变？</p>
+<p>注意分子和分母是<strong>不同</strong>商品——这正是它和价格弹性的区别。符号（正还是负）比大小更重要，因为符号直接告诉你两种商品是什么关系。</p>
+<p>还要注意它衡量的是什么：不是「需求曲线的斜率」，而是「<strong>一条曲线被另一商品的价格推着移动了多少</strong>」。x 的曲线本身没变陡也没变缓，是整个位置挪了——所以交叉弹性的图，画的是两条线，不是一条线上两个点。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Cross-Price Elasticity</pre></details>
+</section><section class="slide" id="s90" data-n="90">
+  <div class="slide-head"><span class="pno">P90</span><span class="ptitle">Complements v.s. Substitutes</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-090.webp" alt="第90页"><figcaption>课件第 90 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>若交叉价格弹性为<strong>负</strong>：两种商品是<strong>互补品</strong>（complements）。</p>
+<p>机制：y 涨价 → y 买得少 → 和 y 一起用的 x 也买得少 → x 的需求曲线左移。</p>
+<p>课件举的例子：<strong>MacBook 与 iPhone</strong>。它们共享生态系统（iCloud、隔空投送、耳机切换），一台涨价会拖累另一台的销量。</p>
+<p>记忆法：<strong>负号 = 一起用</strong>（价格上去，同伴下去）。</p>
+<p>大小同样要读：-0.1 只是弱互补（面涨价，醋少买一点点）；-2 就是强互补（打印机涨价，墨盒销量腰斩）。同号之内，绝对值是「绑得多紧」的刻度，这个数字在企业定价里极关键——打印机便宜卖、墨盒贵着卖，就是因为两者绑得紧。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Complements v.s. Substitutes
+---
+If a cross-price elasticity is negative, then we say the two goods are complements. 
+The fall in the price of one leads to a right shift in the demand curve for another. 
+Example: Macbook and iPhone</pre></details>
+</section><section class="slide" id="s91" data-n="91">
+  <div class="slide-head"><span class="pno">P91</span><span class="ptitle">Complements v.s. Substitutes</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-091.webp" alt="第91页"><figcaption>课件第 91 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>若交叉价格弹性为<strong>正</strong>：两种商品是<strong>替代品</strong>（substitutes）。</p>
+<p>机制：y 涨价 → 人们转去买 x → x 的需求曲线右移。</p>
+<p>课件的例子：<strong>iPhone 与华为手机</strong>。同一个价位段、同一类需求，一边涨价，另一边受益。</p>
+<p>记忆法：<strong>正号 = 换着用</strong>。第 81 页讲「替代品越接近弹性越大」，交叉弹性正是「接近程度」的定量刻度：数值越大，替代越紧密。</p>
+<p>它在现实里有一个硬用途：<strong>界定相关市场</strong>。反垄断案件里，判断两家企业是不是在同一个市场，看的不是产品像不像，而是交叉弹性大不大——如果 A 涨价 5%，消费者大量转向 B，那 B 就是这个市场里的竞争者。中国市场监管总局审查平台合并时用的就是这个逻辑。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Complements v.s. Substitutes
+---
+If a cross-price elasticity is positive, then we say the two goods are substitutes. 
+Example: iPhone and Huawei Phone</pre></details>
+</section><section class="slide" id="s92" data-n="92">
+  <div class="slide-head"><span class="pno">P92</span><span class="ptitle">The Income Elasticity of Demand</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-092.webp" alt="第92页"><figcaption>课件第 92 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p><strong>收入弹性</strong>（income elasticity）：</p>
+<p>ε_I = 需求量百分比变化 / 收入百分比变化</p>
+<p>它问的问题和前面都不同：不是「价格变了会怎样」，而是「<strong>你变富了会怎样</strong>」。</p>
+<p>这个弹性决定了一个国家的消费结构会随经济增长怎么变——收入涨 10%，哪些商品的销量涨得比 10% 快，哪些反而下降。</p>
+<p>这里有个常设陷阱：三种弹性的<strong>分母各不相同</strong>。价格弹性分母是价格，收入弹性分母是收入，交叉弹性分母是<strong>另一种商品</strong>的价格。题目里给了收入变化，你却在算价格弹性，就会得出一个数学上没错、意义上全错的数。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>The Income Elasticity of Demand</pre></details>
+</section><section class="slide" id="s93" data-n="93">
+  <div class="slide-head"><span class="pno">P93</span><span class="ptitle">一张实测的收入弹性表</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-093.webp" alt="第93页"><figcaption>课件第 93 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>一张实测的收入弹性表（课件原表）：</p>
+<table class="tbl"><thead><tr><th>商品</th><th>收入弹性</th></tr></thead><tbody><tr><td>出国度假（foreign vacation）</td><td>2.10</td></tr><tr><td>国内度假（domestic vacation）</td><td>1.70</td></tr><tr><td>度假房产（vacation home）</td><td>1.20</td></tr><tr><td>医疗（healthcare）</td><td>1.18</td></tr><tr><td>肉类（meats）</td><td>1.15</td></tr><tr><td>住房（housing）</td><td>1.00</td></tr><tr><td>果蔬（fruits and vegetables）</td><td>0.61</td></tr><tr><td>汽油（gasoline）</td><td>0.48</td></tr><tr><td>谷物（cereal）</td><td>0.32</td></tr><tr><td>环境（environment）</td><td>0.25</td></tr><tr><td>电力（electricity）</td><td>0.23</td></tr><tr><td>大米（rice）</td><td>-0.44</td></tr><tr><td>公共交通（public transit）</td><td>-0.75</td></tr></tbody></table>
+<p>怎么读：<strong>大于 1 的是奢侈品</strong>（收入涨 10%，出国度假涨 21%）；<strong>0 到 1 之间的是必需品</strong>（汽油 0.48，收入涨 10% 只多买 4.8%）；<strong>恰好等于 1 的是分界线</strong>（住房 1.00，收入涨 10% 支出也涨 10%，占比不变）；<strong>小于 0 的是劣等品</strong>（大米 -0.44、公共交通 -0.75，收入上去反而少买）。</p>
+<p>表里最值得盯的是 1.00 这条线：住房恰好等于 1，说明收入涨一成、住房支出也涨一成，占比不变。比它低的是必需品，比它高的是奢侈品；而收入越低、食品占比越高的规律，就是<strong>恩格尔定律</strong>（Engel's law）——这张表是它的现代版本。大米在中国是劣等品的说法听着奇怪，但对一个已经吃饱的家庭来说，收入上去确实会少吃米饭、多吃肉。</p></div>
+</section><section class="slide" id="s94" data-n="94">
+  <div class="slide-head"><span class="pno">P94</span><span class="ptitle">Normal vs inferior goods</span></div>
+  <figure class="shot"><img loading="lazy" src="assets/lec03/slide-094.webp" alt="第94页"><figcaption>课件第 94 页 · 点击放大</figcaption></figure>
+  <div class="teach"><p>最后一页，把收入弹性变成商品分类：</p>
+<ul><li><strong>正常品</strong>（normal goods）：收入上升，买得<strong>更多</strong>，收入弹性 <strong>&gt; 0</strong>。</li><li><strong>劣等品</strong>（inferior goods）：收入上升，买得<strong>更少</strong>，收入弹性 <strong>&lt; 0</strong>。</li></ul>
+<p>两个容易错的地方：</p>
+<ol><li>「劣等」是<strong>统计意义上的</strong>，不是质量评价。大米对低收入家庭是主食，收入提高后改吃肉和外卖，大米消费下降——它就成了劣等品，但这不代表大米「不好」。</li><li>正常品内部还要再分：弹性 &gt; 1 的叫<strong>奢侈品</strong>，0 &lt; 弹性 &lt; 1 的叫<strong>必需品</strong>。所以「正常」不是一个点，而是一整段。</li></ol>
+<p>到这里，第三讲闭环：从「你喜欢什么」出发，经过预算约束和相切条件，推出了需求曲线，再用一个数字——弹性——把这条曲线的形状讲清楚。下一讲开始，我们把这套工具交给企业。</p></div>
+  <details class="raw"><summary>幻灯片原文 / 板书</summary><pre>Normal vs inferior goods
+---
+Normal goods: when income rises, consumers buy more of that good. Income elas.&gt;0
+Inferior goods: when income rises, consumers buy less of that good. Income elas.&lt;0</pre></details>
+</section>
+    <footer class="end">
+      <p>本讲结束。<a href="lec04.html">继续：L4 生产者 →</a></p>
+    </footer>
+  </main>
+</div>
+
+<aside id="ask-panel" class="ask-panel" aria-hidden="true">
+  <div class="ask-head">
+    <b>问老师</b>
+    <span class="ask-tag">DeepSeek</span>
+    <button id="ask-close" type="button" title="关闭">×</button>
+  </div>
+  <div class="ask-setup" id="ask-setup">
+    <p>第一次用要先填一个 DeepSeek API Key，它只存在你本机的浏览器里，直接发往 <code>api.deepseek.com</code>，不经过任何中间服务器。</p>
+    <label>API Key<input id="ask-key" type="password" placeholder="sk-..." autocomplete="off"></label>
+    <label>模型<select id="ask-model">
+      <option value="deepseek-chat">deepseek-chat（快，够用）</option>
+      <option value="deepseek-reasoner">deepseek-reasoner（慢，会推理）</option>
+    </select></label>
+    <button id="ask-save" type="button">保存并开始</button>
+    <p class="ask-note">没有 Key？去 <a href="https://platform.deepseek.com/api_keys" target="_blank" rel="noopener">platform.deepseek.com</a> 建一个。</p>
+  </div>
+  <div class="ask-log" id="ask-log"></div>
+  <div class="ask-foot">
+    <label class="ask-ctx"><input type="checkbox" id="ask-ctx" checked> 带上当前页内容</label>
+    <div class="ask-input">
+      <textarea id="ask-text" rows="2" placeholder="比如：为什么 MR 会比价格低？"></textarea>
+      <button id="ask-send" type="button">发</button>
+    </div>
+  </div>
+</aside>
+<div id="lightbox" class="lightbox"><img id="lbimg" alt=""></div>
+<script src="glossary-data.js"></script>
+<script src="app.js"></script>
+</body></html>

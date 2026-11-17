@@ -1,0 +1,448 @@
+{
+ "file": "Lecture 5.pptx",
+ "count": 73,
+ "size": [
+  9144000,
+  6858000
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "text": "Lecture 5\u000bCompetitive equilibrium and the invisible hand",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 2,
+   "text": "Introduction\n---\nIn the previous two chapters we provided descriptions of the decision problems facing the main actors in any market: buyers and sellers. \nWe found that when each of them follows certain rules of behavior, each will maximize his or her own well-being\nBut when we put all of these self-interested people together, without anyone who guide their behaviors, what will happen? Would there be chaos?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 3,
+   "text": "Introduction\n---\nAt first glance it does seem as if there is a mess in many markets\nbidding wars on eBay, \nstockbrokers frantically waving their arms as they try to buy or sell, \nbuyers and sellers haggling over prices at flea markets. \nAll of this chaos, it seems, is driven by market participants simply looking out for themselves.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 4,
+   "text": "Introduction\n---\nAdam Smith, the father of economics, viewed the chaos quite differently. \nHe conjectured that self-interest was a necessary ingredient for an economy to function efficiently.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 5,
+   "text": "Introduction\n---\nThis view is put forth most elegantly in his book The Wealth of Nations (1776):\nIt is not from the benevolence of the butcher, the brewer, or the baker, that we expect our dinner, but from their regard to their own interest.\n我们之所以能期待吃到晚餐，并不是因为屠夫、酿酒师或面包师的仁慈，而是因为他们对自身利益的关注。\nThis insight has become known as the power of the “invisible hand.”",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 6,
+   "text": "The “invisible hand” is a forceful idea in economics \nit suggests that when all of the assumptions of a perfectly competitive market are in place, the pursuit of individual self-interest promotes the well-being of society as a whole, almost as if the individual is led by an invisible hand to do so.\n---\nIntroduction",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 7,
+   "text": "An illustration",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 8,
+   "text": "Perfect Competition and Efficiency\n---\nLet’s assume that our market is composed of only seven buyers and seven sellers who are price-takers. \nEach wants to buy or sell a used iPhone 6 in good condition. \nBecause the iPhones are all in similar condition, we can assume that they are identical.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 9,
+   "text": "A reservation value/price\n---\nA reservation value or reservation price is the price at which a person is indifferent between making the trade and not doing so.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 10,
+   "text": "",
+   "pics": 1,
+   "notes": "Madeline, Katie, Sean, Dave, Ian, Kim, and Ty are buyers in the market\nSimilarly Tom, Mary, Jeff, Phil, Adam, Matt, and Fiona are all sellers in the market"
+  },
+  {
+   "n": 11,
+   "text": "",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 12,
+   "text": "",
+   "pics": 0,
+   "notes": "What is the equilibrium price in this case? \ndetermined by the intersection of the market demand and market supply curves. \nThis yields a price of $40—which happens to be the price at which Dave is willing to buy an iPhone and Phil is willing to sell his iPhone."
+  },
+  {
+   "n": 13,
+   "text": "",
+   "pics": 0,
+   "notes": "What is the quantity traded at this equilibrium price of $40? \nfour people are willing to pay at least $40 for an iPhone, while four sellers have reservation values less than or equal to $40. \nIn this example, we assume that if a person is indifferent to trading, as Dave and Phil are at $40, he or she trades."
+  },
+  {
+   "n": 14,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 15,
+   "text": "Social Surplus\n---\nAn important outcome: social surplus is maximized. \nRecall: social surplus is the sum of consumer surplus and producer surplus\nAs a result, social surplus represents the total value from trade in the market.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 16,
+   "text": "Social Surplus\n---\nFor social surplus to be maximized, the highest-value buyers are making a purchase and the lowest-cost sellers are selling.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 17,
+   "text": "Social Surplus\n---\nNotice that nobody interfere with the process of trade between all these buyers and sellers, yet social surplus is maximized automatically\nNobody arrange their trade. Nobody dictates who should sell or who should not\nWhat would happen if somebody interfere?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 18,
+   "text": "Suppose somebody put a quantity restriction: restricting the number of trades to two\n\nThat is, the two highest value consumers buy from the two lowest-cost sellers.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 19,
+   "text": "What would happen if, instead, we enforced trade of five iPhones? \n\nThat is, we have the five highest-value buyers purchasing from the five lowest-cost sellers.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 20,
+   "text": "Pareto Efficiency\n---\nThis example demonstrates that the competitive market equilibrium is efficient in the sense that all mutually advantageous trades take place: no more, no less. \nIn this way, there are no unexploited gains to trade. \nAccordingly, the competitive market equilibrium maximizes social surplus",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 21,
+   "text": "Pareto Efficiency\n---\nBut in many situations, we are also interested in who gets what—the allocation of surplus. \nOne natural place to start with: in the competitive market equilibrium, can we make any individual better off without hurting someone else? \nThe answer is no.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 22,
+   "text": "Pareto Efficiency\n---\nDefinition:  an outcome is Pareto efficient if no individual can be made better off without making someone else worse off. \nAs it turns out, besides maximizing social surplus, competitive market equilibrium is also Pareto efficient.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 23,
+   "text": "From the Individual to the Firm",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 24,
+   "text": "Consider a firm that owns two plants:\nEach plant produces microchips to sell in a perfectly competitive market. \nThe two plants are quite different, one being built in the late 1970s and the other in 2010. \nThe older plant therefore has less advanced production technologies and higher production costs than the newer plant",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 25,
+   "text": "",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 26,
+   "text": "Originally, the firm has allowed each plant to operate independently, with both plant managers maximizes their own plant’s profits. \nIf the price of microchips is $10, what quantity of microchips should each of the plant managers choose to maximize profits?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 27,
+   "text": "",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 28,
+   "text": "",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 29,
+   "text": "Suppose now comes a new CEO\nAt the annual shareholders’ meeting, both plant managers report important statistics to the new CEO, including production and cost figures. \nThe CEO is devastated by these figures, exclaiming: “given the differences in technologies and costs, I am astounded that the older plant is producing at all!”",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 30,
+   "text": "The new CEO thus announces that\n “it is time to move to the twenty-first century; we must immediately move all production to the new plant.”\n“The new plant will produce the entire 70,000 microchips itself because of its better technologies; in this way, we will demonstrate to the world how our firm is moving progressively forward to make our shareholders better off.”",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 31,
+   "text": "",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 32,
+   "text": "Under the CEO’s plan, the new plant produced the last microchip at a marginal cost of $30\nThis marginal cost is much greater than the $10 that it would have cost the older plant to make its first microchip, \nIn this way, if production of that one unit could have been shifted from the new plant to the older plant, overall costs would have been lowered by $20 = $30 - $10, enhancing overall profits by $20!",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 33,
+   "text": "The same logic can be used until the marginal costs are equalized across plants\nAt this point, the overall production costs across the two plants will be minimized, because they cannot profitably shift production any further.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 34,
+   "text": "",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 35,
+   "text": "If you are the CEO, you would note that these optimal production numbers are exactly the levels reached by the plants a year earlier:\nMCOLD = MCNEW = Price = $10",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 36,
+   "text": "Importantly, in so doing, the plant managers also maximize the total profits of the two plants combined. \nIn this sense, it is remarkable that market forces dictate that production across the two plants is allocated in a manner that is optimal for the social good: producing goods using the least amount of scarce resources. \nThis is exactly what the CEO aimed to do, but failed. \nYet when the competitive market is allowed to operate efficiently, we do not need a central planner (or a CEO) dictating goals for the betterment of society.",
+   "pics": 0,
+   "notes": "Plant managers are willing to do that chore on their own, without even knowing it. So we can say that in a competitive market, the second distinct function of the equilibrium price is that it efficiently allocates the production of goods in an industry. Why? Because an optimizer expands production until MC = P; thus marginal costs are equalized across firms, because all firms face the same market price."
+  },
+  {
+   "n": 37,
+   "text": "Allocation of Resources Across Industries",
+   "pics": 0,
+   "notes": "You now understand the behavior of buyers. To understand the complete picture of a mar-\nket, we also need to study sellers. The interaction of buyers and sellers in a marketplace\ndetermines the market price."
+  },
+  {
+   "n": 38,
+   "text": "We just learned that the invisible hand optimally allocates scarce resources and arranges production patterns in an industry. \nBut the economy is much more complicated than two plants in a small town. \nHow can we determine whether any specific industry is producing too much or too little?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 39,
+   "text": "Consider a different perfectly competitive market: the delivery of paper products for publishing houses\nwith identical sellers making positive economic profits in the short run.",
+   "pics": 0,
+   "notes": "Let’s turn to a new example to explore whether the invisible hand has power in allocating scarce resources across industries."
+  },
+  {
+   "n": 40,
+   "text": "At a price of $25 per ton, there are economic profits. \n\nBut with profits, what happens?",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 41,
+   "text": "",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 42,
+   "text": "Positive economic profits attracts entrants. \nOther delivery companies want to enter because they would like to earn economic profits too. \nWhen does entry stop? \nWhen marginal cost curve intersects the average total cost curve. \nIn this example, the equilibrium price is $12 per ton",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 43,
+   "text": "This is because at any price higher than $12 per ton, other delivery firms would still like to enter \nOnce the price reaches the minimum of the ATC curve, we are in equilibrium because P = MC = ATC, which means that there is zero economic profit and therefore no reason for more firms to enter.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 44,
+   "text": "What happened?\nResources flow to that industry because of the profits available. \nThis behavior causes resources to flow from less productive uses to more productive uses. \nThat is, businesses seek to improve their profits, and in so doing, they move resources into the production of goods and services that society values the highest.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 45,
+   "text": "What happens if the equilibrium price lies below the ATC curve? \nSuppose that there is a related delivery business: the trucking market, where truckers haul corn from farmers’ fields to grain mills for $10 per ton of corn. \nThis market is currently in a situation where price is less than average total cost\nThis means that truckers should exit because they are earning negative economic profits, or losses.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 46,
+   "text": "",
+   "pics": 2,
+   "notes": ""
+  },
+  {
+   "n": 47,
+   "text": "Where will these truckers go? \nOne possibility: they begin to deliver paper products for publishing houses. \nOf course, this is not necessary, as there are other jobs for truckers, but it is one distinct possibility.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 48,
+   "text": "",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 49,
+   "text": "When does exit from hauling corn stop? \nMuch as in the case of entry, truckers exit until the price rises to the minimum of the ATC curve\nAgain, once the market price reaches the minimum of the ATC, we are at the point of equilibrium because \nP = MC = ATC\n   so there is no reason for further firm exit.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 50,
+   "text": "Competitive markets provide strong incentives for profit-seeking entrepreneurs to shift their resources from unprofitable industries to profitable ones. \nThis shifting of resources continues until exactly the right amount of production occurs in each industry.",
+   "pics": 0,
+   "notes": "This simple example illustrates that the power of the invisible hand extends well beyond individuals trading in markets and managers at microchip plants."
+  },
+  {
+   "n": 51,
+   "text": "Such shifting of resources leads to a very important outcome:\nIn a perfectly competitive market equilibrium, production occurs at the point of minimum ATC\nBecause resources leave those industries in which price cannot cover their costs of production and enter those industries where price can cover their costs of production, the total value of production is maximized in equilibrium.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 52,
+   "text": "In this way, the market price is acting as an incentive for sellers to promote the greatest good for society\nmove scarce resources to their highest possible use—even though sellers are solely attempting to maximize their own profits.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 53,
+   "text": "Deadweight Loss\n---\nEconomists call the decrease in social surplus that results from a market distortion a deadweight loss.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 54,
+   "text": "Restricting the price to P1",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 55,
+   "text": "Deadweight Loss\n---\nBy keeping the price artificially low, the government \nhelps consumers \nbut hurts producers \noverall, there is lost in surplus\nWhether you are comfortable with this trade-off is a question for normative economics.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 56,
+   "text": "The Command Economy\n---\nTo understand the difficulty of what the invisible hand accomplishes, it is instructive to consider cases where countries have attempted to place strong controls on the economy, in effect trying to do the job of the invisible hand. \nOne example of the dramatic differences that can result is the case of Korea.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 57,
+   "text": "",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 58,
+   "text": "",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 59,
+   "text": "",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 60,
+   "text": "The Central Planner\n---\nWhy is it difficult for command economies to operate effectively and experience significant, sustained GDP growth? \nImagine yourself in the position of  a social planner, what do you need to do?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 61,
+   "text": "How can you make sure that the cloth producers in Wenzhou had the necessary textile, buckets and all the other relevant machines to produce the cloth? \nHow many cars should Geely produce? How many cars should BYD produce? \nHow many sellers should 马云 allow to open online shops in Taobao every day? \nShould the screens made by 京东方 be used in the production in Lenovo PCs or be used in Huawei phones?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 62,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 63,
+   "text": "Two difficulties\n---\n1. Coordination problem\n2. Incentive problem",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 64,
+   "text": "Coordination problem: Central planner does not fully understand consumer wants and needs and the production capabilities of every sector of the economy\n\nIncentive problem: it is difficult to incentivize workers if prices are not utilized.",
+   "pics": 0,
+   "notes": "Because any individual knows only a small fraction of all that is known collectively, it is impossible to replicate the work of the invisible hand."
+  },
+  {
+   "n": 65,
+   "text": "Friedrich Hayek’s\n---\n“The marvel is that in a case like that of a scarcity of one raw material, without an order being issued, without more than perhaps a handful of people knowing the cause, tens of thousands of people whose identity could not be ascertained by months of investigation are made to use the material or its products more sparingly; that is, they move in the right direction.”",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 66,
+   "text": "Equity and Efficiency",
+   "pics": 0,
+   "notes": "You now understand the behavior of buyers. To understand the complete picture of a mar-\nket, we also need to study sellers. The interaction of buyers and sellers in a marketplace\ndetermines the market price."
+  },
+  {
+   "n": 67,
+   "text": "It is important to recognize that the standard of maximizing social surplus is just one way to measure the progress of an economy. \nAnother consideration is how the pie is allocated.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 68,
+   "text": "For example, many citizens might believe that every person should have proper access to food, housing, and basic healthcare. \nPushing this notion even further, a social planner might also be concerned with equity.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 69,
+   "text": "Equity is concerned with how the pie is allocated to the various economic agents. \n\nTo some, equity means an even distribution of goods across society.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 70,
+   "text": "Should we help the homeless man on the corner, or assist an unemployed worker? \nWhat about starving children in Africa? \nThey have virtually no income, implying that they are excluded from almost every market, because their willingness to pay is not high enough to buy many goods. \nIn fact, they cannot afford even the most basic necessities at the market price.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 71,
+   "text": "Just because the competitive market equilibrium maximizes social surplus, and is efficient, does not mean that the resulting distribution is morally satisfactory.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 72,
+   "text": "Several important questions arise concerning equity and efficiency. \nThese are questions in the domain of normative economics, and they are often debated by policymakers and economists. \nIn a perfectly competitive equilibrium, we know that Pareto efficiency holds. \nThis means that it is not possible to make a starving African child better off without making someone else worse off. \nThus, it is possible that in order to increase the well-being of a starving child, it will be necessary to take a few hundred dollars from other people.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 73,
+   "text": "Of course, such redistribution of wealth is important to modern societies\nWe will find that this kind of intervention presents an important trade-off between efficiency and equity, and that as a society we continually have choices over efficiency and equity. \nThis is one major purpose of taxation, which we will learn later.",
+   "pics": 0,
+   "notes": ""
+  }
+ ]
+}

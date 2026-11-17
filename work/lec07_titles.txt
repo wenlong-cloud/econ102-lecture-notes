@@ -1,0 +1,66 @@
+1 | Externalities --- Reference: Ch.9 of ALL & Ch.14 of Landsburg
+2 | CHAPTER 9 EXTERNALITIES --- Introduction --- There are important cases in which free markets fail to
+3 | CHAPTER 9 EXTERNALITIES --- Introduction --- One type of market failure: externalities. Externality:
+4 | CHAPTER 9 EXTERNALITIES --- Introduction --- Why is market NOT efficient when there are externalitie
+5 | CHAPTER 9 EXTERNALITIES --- Pollution: A Negative Externality --- Example of negative externality: A
+6 | CHAPTER 9 EXTERNALITIES --- Examples of Negative Externalities --- Your neighbor’s barking dog late-
+7 | Positive Externalities from Education --- A more educated population benefits society: lower crime r
+8 | CHAPTER 9 EXTERNALITIES --- Other Examples of Positive Externalities --- Being vaccinated against co
+9 | CHAPTER 9 EXTERNALITIES --- The market for gasoline revisited --- Demand curve shows private value, 
+10 | Social cost --- However, there is additional cost to the society, or externalities in the gasoline t
+11 | Analysis of a Negative Externality --- Supply (private cost) --- External cost = value of the negati
+12 | CHAPTER 9 EXTERNALITIES --- Analysis of a Negative Externality --- D --- S --- Social cost --- The s
+13 | CHAPTER 9 EXTERNALITIES --- Analysis of a Negative Externality --- D --- S --- Social cost --- Marke
+14 | One fundamental theme unites the multiple solutions to externalities, is try to let economic agents 
+15 | CHAPTER 9 EXTERNALITIES --- “Internalizing the Externality” --- Suppose we impose a $1 per gallon ta
+16 | “Internalizing the Externality” --- Such taxes are called Pigou taxes, named after British economist
+17 | CHAPTER 9 EXTERNALITIES --- Positive Externalities --- In the presence of a positive externality, th
+18 | Analysis of a positive externality --- 17 --- The market for flu shots --- D --- S --- External bene
+19 | Answers --- Socially optimal Q = 25 shots To internalize the externality, use subsidy = $10/shot. --
+20 | CHAPTER 9 EXTERNALITIES --- If negative externality market produces a larger quantity than is social
+21 | Private Solutions to Externalities --- Question: In the presence of negative externalities how does 
+22 | Private solution: example --- 一个发电厂正向水道排放大量有毒物质，这对当地渔民造成了不利影响。 请想象你自己是市长，并思考如果渔民向您投诉，寻求帮助以减少发电厂的排放，你
+23 | Private solution: example --- 你的下一个想法可能是颁布法律，对发电厂制定新的监管规定。 这是大多数人的第一反应，但是我们将指出，这是一种误解 很多人认为，政府是推动改变的
+24 | 情况 1： 法律规定发电厂有权排放污染物 --- Private solution: example
+25 | Private Solution: Bargaining --- 假设发电厂可以通过购置并安装净化器来消除其排放的有毒物质。 然而，净化器的购置和维护费用昂贵：在未来十年里，所需净化器的成本将达到 5
+26 | 然而，利益相关的另一方是当地渔民。 专家告诉他们，污染已经达到了极为危险的水平，当地的渔业可能会在几年内完全崩溃。 进一步的分析表明，发电厂实际上是主要的罪魁祸首 渔民得出结论，如果他们能够说服发电厂
+27 | 在这种情况下，如果渔民和发电厂之间没有沟通，会产生什么结果呢？ 显然，发电厂不会主动花费 500 万元 去安装净化器，这样的支出对它本身没有任何直接收益。 这种市场结果并不是社会最优的，因为总福利本可
+28 | 那么问题来了： 在这种情况下，电厂一定不会安装净化器吗？ 根据你的经验或者猜测，你感觉会发生什么事儿？ --- Private Solution: Bargaining
+29 | 渔民愿意支付最多 700 万元 来清理发电厂造成的水污染，而发电厂治理污染的成本仅为 500 万元。 因此，可以通过协商达成一项协议：渔民向发电厂支付一笔介于 500 万元 和 700 万元 之间的金
+30 | Private Solution: Bargaining --- 情况2： 法律规定发电厂无权排放污染物
+31 | 现在让我们考虑相反的情况：假设在查看当地条例时，作为市长的你发现了一项禁止发电厂污染水道的法律。 你马上会告知发电厂其行为违反了规定。 如果此时发电厂选择不关闭运营，那么它将不得不安装净化器，从而消除
+32 | 一个很牛的结论是：无论法律是否允许发电厂排放污染物，从社会角度看最有效率的结果都会实现！ 发电厂最终都会安装并维护净化器，因为治理污染能够提供最高的社会价值。 --- Private Solution
+33 | 科斯定理 --- The Coase theorem: If private parties can bargain without cost over the allocation of resou
+34 | 
+35 | Example: The Fable of the Bees --- 一个有趣的现实案例是张五常所讲的《蜜蜂的 寓言》（The Fable of the Bees）。
+36 | Example: The Fable of the Bees --- 蜜蜂养殖者的收益：蜜蜂生产蜂蜜，养蜂人出售蜂蜜获利 果园种植者的收益：蜜蜂为果树授粉，提高果实产量，果园因此获得收益。 然而： 蜜
+37 | Example: The Fable of the Bees --- 然而，要是按照我们上节课学的外部性的理论的刻板看法，这种情况必然会导致两项活动的产出水平低于最优水平。 苹果种植者一旦发现种植新果
+38 | Example: The Fable of the Bees --- 张五常通过采访苹果种植者和养蜂人，考察了这个寓言的真实性。 他发现，与传统理论的预期相反，但正如科斯定理所预测的那样，两个群体之间
+39 | The Coase Theorem: More Examples --- Dick owns a dog named Spot. Negative externality: Spot’s barkin
+40 | CHAPTER 9 EXTERNALITIES --- The Coase Theorem: More Examples --- CASE 1: Dick has the legal right to
+41 | CHAPTER 9 EXTERNALITIES --- The Coase Theorem: More Examples --- CASE 2: Dick has the legal right to
+42 | CHAPTER 9 EXTERNALITIES --- The Coase Theorem: More Examples --- CASE 3: Benefit to Dick of having S
+43 | 思考题： --- Collectively, 1000 residents of Green Valley value swimming in Blue Lake at $100,000. A nea
+44 | Why Private Solutions Do Not Always Work --- Transaction costs 交易成本: the costs that parties incur in
+45 | 1. 假设律师收费 $60,000 来代表双方并起草一份可在法庭上执行的合同。这种情况下，双方将无法达成互惠的协议 2. 假设居民向工厂提出 $55,000 的补偿。工厂接受这个补偿比什么都不拿更有利
+46 | CHAPTER 9 EXTERNALITIES --- Public Policies Toward Externalities --- Two approaches Command-and-cont
+47 | CHAPTER 9 EXTERNALITIES --- Market-Based Policy #1: Corrective Taxes & Subsidies --- Corrective tax:
+48 | Market-Based Policy #1: Corrective Taxes & Subsidies --- Example: Acme and US Electric are two elect
+49 | Market-Based Policy #1: Corrective Taxes & Subsidies --- Policy options Regulation: require each pla
+50 | CHAPTER 9 EXTERNALITIES --- Efficient Outcome --- Suppose cost of reducing emissions is lower for Ac
+51 | Direct regulation --- What’s the effect of direct regulation? Under regulation, firms have no incent
+52 | Market-Based Policy #1: Corrective Taxes --- What is the effect of a corrective tax? If you pollute 
+53 | Market-Based Policy #1: Corrective Taxes --- 你可以把支付排污税或者排污费看做向政府够买排污的权利，于是税率就是够吗这种权利的价格 A tax on emi
+54 | CHAPTER 9 EXTERNALITIES --- Market-Based Policy #2: Tradable Pollution Permits --- Acme, US Electric
+55 | CHAPTER 10 EXTERNALITIES --- Market-Based Policy #2: Tradable Pollution Permits --- Tradable permits
+56 | Market-Based Policy #2: Tradable Pollution Permits --- Suppose market price of permit = $150 Acme sp
+57 | CHAPTER 10 EXTERNALITIES --- Market-Based Policy #2: Tradable Pollution Permits --- A system of trad
+58 | CHAPTER 10 EXTERNALITIES --- Tradable Pollution Permits in the Real World --- SO2 permits traded in 
+59 | Corrective Taxes vs. Tradable Pollution Permits --- Like most demand curves, firms’ demand for the a
+60 | Tradable Pollution Permits in China --- 二氧化硫（SO₂）排放权交易 二氧化硫是导致酸雨的主要污染物，为了减少酸雨的影响，中国自2000年代起试点二氧化硫排放权
+61 | Tradable Pollution Permits in China --- 碳排放权交易 为实现碳达峰和碳中和目标，中国于2011年启动了碳排放权交易试点并于2021年正式启动全国碳市场。 试点地
+62 | Tradable Pollution Permits in China --- 二氧化硫（SO₂）排放权交易 背景：二氧化硫是导致酸雨的主要污染物，为了减少酸雨的影响，中国自2000年代起试点二氧化硫
+63 | Pecuniary Externalities --- 到目前为止的讲课内容,你们当中可能有些人会有这种感觉,每个市场行为都存在外部性。 例如,如果数百万新消费者进入市场并决定购买iPhone,市场需
+64 | Pecuniary Externalities --- 更多人购买某种商品从而对他人造成负面市场影响的情况被称为货币外部性。 当市场交易通过市场价格影响其他人时, 就会产生货币外部性 货币外部性的这一
+65 | 我们前头讲的那些负的和正的外部性会导致"错误"的均衡数量 它们之所以会产生这种影响, 是因为它们造成了一种外部成本或外部收益,而这种成本或收益并未反映在市场价格中。 然而,对于货币外部性而言,任何外部
+66 | 正是因为它们的影响完全体现在价格中, 所以市场价格正确反映了市场交易对整个社会的影响。 我们甚至可以说, 货币外部性对于有效率的市场是必需的,因为随着商品变得更加稀缺或更加充足,它们的价格应该发生变化

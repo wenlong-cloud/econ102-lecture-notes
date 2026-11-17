@@ -1,0 +1,354 @@
+=== P1 (62 chars) ===
+Externalities
+---
+Reference: Ch.9 of ALL  & Ch.14 of Landsburg
+=== P2 (165 chars) ===
+CHAPTER 9    EXTERNALITIES
+---
+Introduction
+---
+There are important cases in which free markets fail to maximize social surplus.We call such cases market failures.
+=== P3 (312 chars) ===
+CHAPTER 9   EXTERNALITIES
+---
+Introduction
+---
+One type of market failure:  externalities.Externality:  the uncompensated impact of one person’s actions on the well-being of a bystander  Negative externality:  the effect on bystanders is adversePositive externality:  the effect on bystanders is beneficial
+=== P4 (273 chars) ===
+CHAPTER 9    EXTERNALITIES
+---
+Introduction
+---
+Why is market NOT efficient when there are externalities? The answer is that self-interested buyers and sellers  neglect  the external effects of their actions, so the market outcome is not efficient.  Let’s see an example.
+=== P5 (383 chars) ===
+CHAPTER 9   EXTERNALITIES
+---
+Pollution:  A Negative Externality
+---
+Example of negative externality:  Air pollution from a factory. The firm does not bear the full cost of its production, and so will produce more than the socially efficient quantity. How govt may improve the market outcome:Impose a tax on the firm equal to the external cost of the pollution it generates
+=== P6 (342 chars) ===
+CHAPTER 9    EXTERNALITIES
+---
+Examples of Negative Externalities
+---
+Your neighbor’s barking doglate-night loud video games noises from the dorm room next to yoursnoise pollution from construction projects near your housetalking on cell phone while driving makes the roads less safe for othershealth risk to others from second-hand smoke
+=== P7 (452 chars) ===
+Positive Externalities from Education
+---
+A more educated population benefits society:lower crime rates:  educated people have more opportunities, so less likely to rob and stealbetter government:  educated people make better-informed votersPeople do not consider these external benefits when deciding how much education to “purchase”Result:  market equilibrium education too lowHow govt may improve the market outcome:subsidize cost of education
+=== P8 (230 chars) ===
+CHAPTER 9    EXTERNALITIES
+---
+Other Examples of Positive Externalities
+---
+Being vaccinated against contagious diseases protects not only you, but people who visit the restaurants or cinemasR&D creates knowledge others can use
+=== P9 (294 chars) ===
+CHAPTER 9   EXTERNALITIES
+---
+The market for gasoline revisited
+---
+Demand curve shows private value, the value to buyers (the prices they are willing to pay)
+---
+Supply curve shows private cost, the costs directly incurred by sellers
+---
+The market eq’m maximizes consumer + producer surplus.
+=== P10 (348 chars) ===
+Social cost
+---
+However, there is additional cost to the society, or externalities in the gasoline transactionCauses more pollution, and does more damage to human health and the environmentCauses more congestion in the roadCauses more risks for traffic accidentsThose are the costs that buyers and sellers do not consider in their transactions.
+=== P11 (230 chars) ===
+Analysis of a Negative Externality
+---
+Supply (private cost)
+---
+External cost = value of the negative impact on bystanders = $1 per gallon(value of harm from smog, greenhouse gases)
+---
+Social cost = private + external cost
+=== P12 (291 chars) ===
+CHAPTER 9   EXTERNALITIES
+---
+Analysis of a Negative Externality
+---
+D
+---
+S
+---
+Social cost
+---
+The socially optimal quantity is 20 gallons.
+---
+At any Q < 20, value of additional gas exceeds social cost
+---
+At any Q > 20, social cost of the last gallon isgreater than its value
+---
+25
+=== P13 (173 chars) ===
+CHAPTER 9    EXTERNALITIES
+---
+Analysis of a Negative Externality
+---
+D
+---
+S
+---
+Social cost
+---
+Market eq’m   (Q = 25)is greater than social optimum   (Q = 20)
+---
+25
+=== P14 (480 chars) ===
+One fundamental theme unites the multiple solutions to externalities, is try to let economic agents internalizing the externality. When individuals or companies take into account the full costs and benefits of their actions because of some public or private incentive, economists say that they are internalizing the externality. When the external effects of their actions are internalized, the general result is that the market equilibrium moves toward higher social well-being.
+=== P15 (383 chars) ===
+CHAPTER 9   EXTERNALITIES
+---
+“Internalizing the Externality”
+---
+Suppose we impose a $1 per gallon tax on gasolinethe $1/gallon tax on sellers makes sellers’ costs equal to social costs.When market participants must pay social costs, the market equilibrium matches the social optimum.  	(Imposing the tax on buyers would achieve the same outcome; market Q would equal optimal Q.)
+=== P16 (125 chars) ===
+“Internalizing the Externality”
+---
+Such taxes are called Pigou taxes, named after British economist Arthur Pigou (1877-1959）
+=== P17 (432 chars) ===
+CHAPTER 9    EXTERNALITIES
+---
+Positive Externalities
+---
+In the presence of a positive externality, the social value of a good includesprivate value – the direct value to buyersexternal benefit – the value of the positive impact on bystandersThe socially optimal Q maximizes welfare:At any lower Q, the social value of additional units exceeds their cost.At any higher Q, the cost of the last unit exceeds its social value.
+=== P18 (222 chars) ===
+Analysis of a positive externality
+---
+17
+---
+The market for flu shots
+---
+D
+---
+S
+---
+External benefit = $10/shotDraw the social value curve.Find the socially optimal Q. What policy would internalize this externality?
+=== P19 (203 chars) ===
+Answers
+---
+Socially optimal Q    = 25 shotsTo internalize the externality, use subsidy = $10/shot.
+---
+18
+---
+The market for flu shots
+---
+D
+---
+S
+---
+Social value = private value + external benefit
+=== P20 (377 chars) ===
+CHAPTER 9    EXTERNALITIES
+---
+If negative externalitymarket produces a larger quantity than is socially desirableIf positive externalitymarket produces a smaller quantity than is socially desirableTo remedy the problem, “internalize the externality”tax goods with negative externalitiessubsidize goods with positive externalities
+---
+Effects of Externalities:  Summary
+=== P21 (238 chars) ===
+Private Solutions to Externalities
+---
+Question:  In the presence of negative externalities how does society achieve a more efficient outcome?     Several possibilities: government interventionprivate citizens working it out themselves
+=== P22 (184 chars) ===
+Private solution: example
+---
+一个发电厂正向水道排放大量有毒物质，这对当地渔民造成了不利影响。请想象你自己是市长，并思考如果渔民向您投诉，寻求帮助以减少发电厂的排放，你会怎么做？你的第一反应可能是查看城市污染管理条例，以确认是否有禁止污染水道的法律。假设您发现并无相关规定——法无禁止即可为——也就是说，该发电厂有权免费排放污染物。
+=== P23 (154 chars) ===
+Private solution: example
+---
+你的下一个想法可能是颁布法律，对发电厂制定新的监管规定。这是大多数人的第一反应，但是我们将指出，这是一种误解很多人认为，政府是推动改变的唯一来源，而实际上，私营机构、私人之间，也一直在推动改变。解决外部性问题的此类私人方案通常需要各方进行协商
+=== P24 (50 chars) ===
+情况 1：法律规定发电厂有权排放污染物
+---
+Private solution: example
+=== P25 (154 chars) ===
+Private Solution: Bargaining
+---
+假设发电厂可以通过购置并安装净化器来消除其排放的有毒物质。然而，净化器的购置和维护费用昂贵：在未来十年里，所需净化器的成本将达到 500 万元。然而，由于法律赋予（即，法律没有禁止）发电厂排放污染物的权利，它并没有义务安装这种昂贵的设备。
+=== P26 (164 chars) ===
+然而，利益相关的另一方是当地渔民。专家告诉他们，污染已经达到了极为危险的水平，当地的渔业可能会在几年内完全崩溃。进一步的分析表明，发电厂实际上是主要的罪魁祸首渔民得出结论，如果他们能够说服发电厂安装净化器在未来十年内，他们将获得大约 700 万元 的收益。
+---
+Private Solution: Bargaining
+=== P27 (159 chars) ===
+在这种情况下，如果渔民和发电厂之间没有沟通，会产生什么结果呢？显然，发电厂不会主动花费 500 万元 去安装净化器，这样的支出对它本身没有任何直接收益。这种市场结果并不是社会最优的，因为总福利本可以增加700 万元 - 500 万元 = 200万元
+---
+Private Solution: Bargaining
+=== P28 (84 chars) ===
+那么问题来了：在这种情况下，电厂一定不会安装净化器吗？根据你的经验或者猜测，你感觉会发生什么事儿？
+---
+Private Solution: Bargaining
+=== P29 (258 chars) ===
+渔民愿意支付最多 700 万元 来清理发电厂造成的水污染，而发电厂治理污染的成本仅为 500 万元。因此，可以通过协商达成一项协议：渔民向发电厂支付一笔介于 500 万元 和 700 万元 之间的金额，而发电厂安装并维护净化器。不过，不太明确的是，交易金额在 500 万元至 700 万元 范围内的具体位置，这将取决于双方的谈判能力和谈判策略无论最终交易金额是多少，社会福利都会提升，并且提升的部分对于两方都有好处（相比于没有安装净化器的情况）
+---
+Private Solution: Bargaining
+=== P30 (52 chars) ===
+Private Solution: Bargaining
+---
+情况2：法律规定发电厂无权排放污染物
+=== P31 (137 chars) ===
+现在让我们考虑相反的情况：假设在查看当地条例时，作为市长的你发现了一项禁止发电厂污染水道的法律。你马上会告知发电厂其行为违反了规定。如果此时发电厂选择不关闭运营，那么它将不得不安装净化器，从而消除水污染。
+---
+Private Solution: Bargaining
+=== P32 (112 chars) ===
+一个很牛的结论是：无论法律是否允许发电厂排放污染物，从社会角度看最有效率的结果都会实现！发电厂最终都会安装并维护净化器，因为治理污染能够提供最高的社会价值。
+---
+Private Solution: Bargaining
+=== P33 (213 chars) ===
+科斯定理
+---
+The Coase theorem: If private parties can bargain without cost over the allocation of resources, they can solve the externalities problem on their own.科斯定理：如果私人各方能够在没有交易成本的情况下就资源分配进行协商，那么他们可以自行解决外部性问题。
+=== P34 (0 chars) ===
+
+=== P35 (84 chars) ===
+Example: The Fable of the Bees
+---
+一个有趣的现实案例是张五常所讲的《蜜蜂的  寓言》（The Fable of the Bees）。
+=== P36 (201 chars) ===
+Example: The Fable of the Bees
+---
+蜜蜂养殖者的收益：蜜蜂生产蜂蜜，养蜂人出售蜂蜜获利果园种植者的收益：蜜蜂为果树授粉，提高果实产量，果园因此获得收益。然而：蜜蜂对果园的授粉作用是一种正外部性，即蜜蜂的活动不仅对养蜂人有益，还对果园种植者有益反过来，果园的果树（如苹果树、梨树等）会开花，这些花为蜜蜂提供了丰富的花蜜和花粉，这是蜜蜂酿蜜的主要原料，也是正外部性
+=== P37 (183 chars) ===
+Example: The Fable of the Bees
+---
+然而，要是按照我们上节课学的外部性的理论的刻板看法，这种情况必然会导致两项活动的产出水平低于最优水平。苹果种植者一旦发现种植新果树的边际成本超过其私人边际收益，就会停止种植，而忽视了更多果树会使他的邻居（养蜂人）受益。养蜂人也会做出类似的计算这时候我们可能会认为需要政府干预，给双方都提供补贴
+=== P38 (148 chars) ===
+Example: The Fable of the Bees
+---
+张五常通过采访苹果种植者和养蜂人，考察了这个寓言的真实性。他发现，与传统理论的预期相反，但正如科斯定理所预测的那样，两个群体之间存在一套精细的合同体系。根据这些合同，双方通过互相支付“补偿” ，促使产出增加到社会最优水平。
+=== P39 (382 chars) ===
+The Coase Theorem:  More Examples
+---
+Dick owns a dog named Spot.  Negative externality:  Spot’s barking disturbs Jane, Dick’s neighbor.  The socially efficient outcome maximizes Dick’s + Jane’s well-being.  If Dick values having Spot more than Jane values peace & quiet, the dog should stay.  Coase theorem:  The private market will reach the efficient outcome on its own…
+=== P40 (376 chars) ===
+CHAPTER 9   EXTERNALITIES
+---
+The Coase Theorem:  More Examples
+---
+CASE 1:  Dick has the legal right to keep Spot.  Benefit to Dick of having Spot = $500Cost to Jane of Spot’s barking = $800Socially efficient outcome:  Spot goes bye-bye.Private outcome:  Jane pays Dick $600 to get rid of Spot, both Jane and Dick are better off. Private outcome = efficient outcome.
+=== P41 (399 chars) ===
+CHAPTER 9    EXTERNALITIES
+---
+The Coase Theorem: More Examples
+---
+CASE 2:  Dick has the legal right to keep Spot.  Benefit to Dick of having Spot = $1000Cost to Jane of Spot’s barking = $800Socially efficient outcome:  See Spot stay.Private outcome:  Jane not willing to pay more than $800, Dick not willing to accept less than $1000, so Spot stays.  Private outcome = efficient outcome.
+=== P42 (458 chars) ===
+CHAPTER 9    EXTERNALITIES
+---
+The Coase Theorem: More Examples
+---
+CASE 3:  Benefit to Dick of having Spot = $1000Cost to Jane of Spot’s barking = $800But Jane has the legal right to peace & quiet.Socially efficient outcome:  Dick keeps Spot.Private outcome:  Dick pays Jane $900 to put up with Spot’s barking.Private outcome = efficient outcome.
+---
+The private market achieves the efficient outcome regardless of the initial distribution of rights.
+=== P43 (332 chars) ===
+思考题：
+---
+Collectively, 1000 residents of Green Valley value swimming in Blue Lake at $100,000. A nearby factory pollutes the lake water and would have to pay $50,000 for non-polluting equipment. A.	Describe a Coase-type private solution.  B.	Can you think of any reasons why this solution might not work in the real world?
+---
+42
+=== P44 (335 chars) ===
+Why Private Solutions Do Not Always Work
+---
+Transaction costs 交易成本:  the costs that parties incur in the process of agreeing to and following through on a bargainSometimes, even when a beneficial agreement is possible, each party may hold out for a better deal.Coordination problems & costs when the number of parties is very large.
+=== P45 (218 chars) ===
+1. 假设律师收费 $60,000 来代表双方并起草一份可在法庭上执行的合同。这种情况下，双方将无法达成互惠的协议2. 假设居民向工厂提出 $55,000 的补偿。工厂接受这个补偿比什么都不拿更有利，但工厂可能会提出 $95,000 的反要价。双方都坚持希望对方让步，但谁也不妥协。3. 让所有 1000 名居民就具体补偿金额达成一致将非常困难。此外，每个居民都有动力搭便车，期待其他邻居支付补偿自己不出钱。
+---
+可能的交易成本
+=== P46 (382 chars) ===
+CHAPTER 9    EXTERNALITIES
+---
+Public Policies Toward Externalities
+---
+Two approachesCommand-and-control policies  regulate behavior directly.  Examples:limits on quantity of pollution emittedrequire firms adopt a particular technology to reduce emissionsMarket-based policies  provide incentives so that private decision-makers will choose to solve the problem on their own.
+=== P47 (383 chars) ===
+CHAPTER 9    EXTERNALITIES
+---
+Market-Based Policy #1:  Corrective Taxes & Subsidies
+---
+Corrective tax:  a tax designed to induce private decision-makers to take account of the social costs that arise from a negative externalityCalled Pigouvian taxesThe ideal corrective tax = external costFor activities with positive externalities, ideal corrective subsidy = external benefit
+=== P48 (373 chars) ===
+Market-Based Policy #1:  Corrective Taxes & Subsidies
+---
+Example:   Acme and US Electric are two electricity company which run coal-burning power plants.  Each emits 40 tons of sulfur dioxide per month.  SO2 causes acid rain & other health issues.Government policy goal:  reducing SO2 emissions 25% in total (the two firms combined, so that’s 80*0.25=20 tons in total)
+=== P49 (301 chars) ===
+Market-Based Policy #1:  Corrective Taxes & Subsidies
+---
+Policy optionsRegulation:  require each plant to cut emissions by 25%Corrective tax:  Make each plant pay a tax on each ton of SO2 emissions.  Adjust tax at level that achieves goal. Issue permit to firms for emission. Allow permit trading
+=== P50 (203 chars) ===
+CHAPTER 9    EXTERNALITIES
+---
+Efficient Outcome
+---
+Suppose cost of reducing emissions islower for Acme than for US Electric. Socially efficient outcome:  Acme reduces emissions more than US Electric.
+=== P51 (146 chars) ===
+Direct regulation
+---
+What’s the effect of direct regulation?Under regulation, firms have no incentive to reduce emissions beyond the 25% target.
+=== P52 (255 chars) ===
+Market-Based Policy #1:  Corrective Taxes
+---
+What is the effect of a corrective tax?If you pollute one unit of SO2, you need to pay the taxSo, the corrective tax is simply a “price” on the right to pollute.  你可以把支付排污税或者排污费看做向政府够买排污的权利，于是税率就是够吗这种权利的价格
+=== P53 (262 chars) ===
+Market-Based Policy #1:  Corrective Taxes
+---
+你可以把支付排污税或者排污费看做向政府够买排污的权利，于是税率就是够吗这种权利的价格A tax on emissions gives firms incentive to continue reducing emissions as long as the cost of doing so is less than the tax. 已知ACME的减排成本比US electric要低那么谁更有可能去减少排放（“减排”）？
+=== P54 (474 chars) ===
+CHAPTER 9    EXTERNALITIES
+---
+Market-Based Policy #2:  Tradable Pollution Permits
+---
+Acme, US Electric each emit 40 tons SO2, total of 80 tons. Goal:  reduce emissions by 25% (to 60 tons/month)Suppose cost of reducing emissions is  $100/ton for Acme,  $200/ton for US Electric.If regulation requires each firm to reduce 10 tons, 	  cost to Acme: (10 tons) x ($100/ton) = $1,000	  cost to USE: (10 tons) x ($200/ton) = $2,000	  total cost of achieving goal = $3,000
+=== P55 (439 chars) ===
+CHAPTER 10    EXTERNALITIES
+---
+Market-Based Policy #2:  Tradable Pollution Permits
+---
+Tradable permits:issue 60 permits, each allows its bearer one ton of SO2 emissions (so total emissions = 60 tons)give 30 permits to each firm establish market for trading permitsEach firm can choose among these options:emit 30 tons of SO2, using all its permitsemit < 30 tons, sell unused permitsbuy additional permits so it can emit > 30 tons
+=== P56 (419 chars) ===
+Market-Based Policy #2:  Tradable Pollution Permits
+---
+Suppose market price of permit = $150   Acme spends $2,000 to cut emissions by 20, has 30-20=10 unused permits, sells them to US electric for $150x10=$1500net cost to Acme:  $2000 - $1500 = 500  US ElectricUsed up all the 30 permits and buys 10 permits from ACEM at $1500, emissions = 400 tonsnet cost to USE:  $1,500Total cost of achieving goal:  $2,000
+=== P57 (391 chars) ===
+CHAPTER 10    EXTERNALITIES
+---
+Market-Based Policy #2:  Tradable Pollution Permits
+---
+A system of tradable pollution permits achieves goal at lower cost than regulation.   Firms with low cost of reducing pollution sell whatever permits they can.Firms with high cost of reducing pollution buy permits.  Result:  Pollution reduction is concentrated among those firms with lowest costs.
+=== P58 (191 chars) ===
+CHAPTER 10    EXTERNALITIES
+---
+Tradable Pollution Permits in the Real World
+---
+SO2 permits traded in the U.S. since 1995.Nitrogen oxide permits traded in the northeastern U.S. since 1999.
+=== P59 (511 chars) ===
+Corrective Taxes vs. Tradable Pollution Permits
+---
+Like most demand curves, firms’ demand for the ability to pollute is a downward-sloping function of the “price” of polluting.  A corrective tax raises this price and thus reduces the quantity of pollution firms demand.A tradable permits system restricts the supply of pollution rights, has the same effect as the tax.  When policymakers do not know the position of this demand curve, the permits system achieves pollution reduction targets more precisely.
+=== P60 (249 chars) ===
+Tradable Pollution Permits in China
+---
+二氧化硫（SO₂）排放权交易二氧化硫是导致酸雨的主要污染物，为了减少酸雨的影响，中国自2000年代起试点二氧化硫排放权交易。试点地区： 山西省和山东省：作为早期试点省份，这些地区的燃煤火电厂成为交易的主要参与者。江苏省太湖流域：重点控制化工行业和电厂的二氧化硫排放。机制：企业根据政府分配的排放限额进行排放，如果企业的排放低于限额，可以将剩余的排放权出售；如果企业需要增加排放量，则需要购买其他企业的排放权。
+=== P61 (202 chars) ===
+Tradable Pollution Permits in China
+---
+碳排放权交易为实现碳达峰和碳中和目标，中国于2011年启动了碳排放权交易试点并于2021年正式启动全国碳市场。试点地区： 北京市、上海市、广东省、湖北省、深圳市、天津市、重庆市：这些地区在2013年至2014年期间率先试点碳排放权交易。全国碳市场： 于2021年正式启动，首批覆盖发电行业，涉及超过2200家企业。
+=== P62 (252 chars) ===
+Tradable Pollution Permits in China
+---
+二氧化硫（SO₂）排放权交易背景：二氧化硫是导致酸雨的主要污染物，为了减少酸雨的影响，中国自2000年代起试点二氧化硫排放权交易。试点地区： 山西省和山东省：作为早期试点省份，这些地区的燃煤火电厂成为交易的主要参与者。江苏省太湖流域：重点控制化工行业和电厂的二氧化硫排放。机制：企业根据政府分配的排放限额进行排放，如果企业的排放低于限额，可以将剩余的排放权出售；如果企业需要增加排放量，则需要购买其他企业的排放权。
+=== P63 (152 chars) ===
+Pecuniary Externalities
+---
+到目前为止的讲课内容,你们当中可能有些人会有这种感觉,每个市场行为都存在外部性。例如,如果数百万新消费者进入市场并决定购买iPhone,市场需求将向右移动,价格将会上涨。如果你原本计划购买iPhone, 那么这些消费者刚才对你造成了负面外部性!
+=== P64 (151 chars) ===
+Pecuniary Externalities
+---
+更多人购买某种商品从而对他人造成负面市场影响的情况被称为货币外部性。当市场交易通过市场价格影响其他人时, 就会产生货币外部性货币外部性的这一特点（其实就是它的定义），即仅通过价格发挥作用，是至关重要的。这意味着货币外部性不会导致市场无效率。
+=== P65 (233 chars) ===
+我们前头讲的那些负的和正的外部性会导致"错误"的均衡数量它们之所以会产生这种影响, 是因为它们造成了一种外部成本或外部收益,而这种成本或收益并未反映在市场价格中。然而,对于货币外部性而言,任何外部影响都会反映在市场价格上。因此,市场价格已经将这些外部影响考虑在内, 从而不会导致无效率的均衡数量。所以, 与其他类型的外部性不同,货币外部性不会造成市场无效率, 因为其影响已通过价格机制得到反映和纳入考虑。
+---
+Pecuniary Externalities
+=== P66 (129 chars) ===
+正是因为它们的影响完全体现在价格中, 所以市场价格正确反映了市场交易对整个社会的影响。我们甚至可以说, 货币外部性对于有效率的市场是必需的,因为随着商品变得更加稀缺或更加充足,它们的价格应该发生变化。
+---
+Pecuniary Externalities

@@ -1,0 +1,418 @@
+{
+    "file":  "Lecture 8.ppt",
+    "count":  68,
+    "size":  [
+                 720,
+                 540
+             ],
+    "slides":  [
+                   {
+                       "n":  1,
+                       "text":  "More on the Coase Theorem",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  2,
+                       "text":  "1\n---\nCoase’s surprising answer: it doesn’t matter!\rCoase Theorem: in the absence of transaction costs, if property rights are well-defined and tradable, then voluntary negotiations will lead to efficiency\rIt doesn’t matter how rights are allocated initially…\r…because if they’re allocated inefficiently, they can be sold/traded until they’re allocated efficiently\n---\nDifferent angle to view the Coase Theorem:\u000bHow should property rights be allocated?",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  3,
+                       "text":  "2\n---\nObviously, efficient for me to own it\rBut we don’t need the law to give me the car\rIf I start out owning the car: no reason for you to buy it, I end up with it \r Outcome  is efficient\rIf you start out owning the car: clear incentive for me to buy it, I end up with it \r Outcome also efficient\n---\nExample of Coase: you have a car worth $3,000 to you, $4,000 to me",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  4,
+                       "text":  "3\n---\nRegardless of who owns the car at first, we get to the efficient outcome\rEfficiency doesn’t care about distribution – how much money we each end up with – just who ends up with the car at the end.\rAnd that doesn’t depend on who starts with it.\rThe key: lack of transaction costs\n---\nExample of Coase: you have a car worth $3,000 to you, $4,000 to me",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  5,
+                       "text":  "4\n---\nProperty rights have to be well-defined…\rWe need to be clear on who has what rights, so we know the starting point for negotiations\r…and tradable…\rWe need to be allowed to sell/transfer/reallocate rights if we want\r…and there can’t be transaction costs\rIt can’t be difficult or costly for us to buy/sell the right\n---\nThe conditions for this to hold",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  6,
+                       "text":  "5\n---\nEquilibrium in competitive markets\rgiven prices, consumers maximize utility\rgiven prices, firms maximize profits\rprices are such that all markets clear\rThen equilibrium is efficient, but not when there are externalities, or “missing markets”\r\rAllowing the parties to negotiate with each other is like introducing a “missing market” in pollution/air rights\n---\nRelating Coase to invisible hand",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  7,
+                       "text":  "The role of transaction costs\n---\nAlthough it’s important to understand the logic of the Coase theorem, you should also realize that in this case, the no transactions cost assumption is probably highly unrealistic. \rAs we have been discussing last week, the logistic and coordination problems of organizing hundreds of villagers to jointly bribe a pollution factory  to install an abatement equipment is already a formidable transactions cost.\n---\nPUBLIC GOODS AND COMMON RESOURCES\n---\n6",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  8,
+                       "text":  "The role of transaction costs\n---\nIn the past few years, several cities in China have banned smoking in public places such as restaurants and bus stations\rSupporters of the bans argue that smokers impose externalities on non-smokers, so that when smoking is permitted, the outcome is suboptimal.\n---\nPUBLIC GOODS AND COMMON RESOURCES\n---\n7",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  9,
+                       "text":  "The role of transaction costs\n---\nThe Coase theorem suggests otherwise\rEven in the absence of a smoking ban, non-smokers can always bribe smokers to put out their cigarettes. \rSuch bribes will be successful when they ought to be—when the costs of second-hand smoke exceed the benefits to smokers of their firsthand smoke.\n---\nPUBLIC GOODS AND COMMON RESOURCES\n---\n8",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  10,
+                       "text":  "The role of transaction costs\n---\nBut are such bribes feasible? \rObvious NOT, as there are transaction costs: nobody wants to interrupt his dinner for an extended bargaining session involving everyone in the restaurant.\n---\nPUBLIC GOODS AND COMMON RESOURCES\n---\n9",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  11,
+                       "text":  "The role of transaction costs\n---\nBut that’s not the only form a bribe can take. \rEach restaurant has an owner who can charge higher prices to nonsmokers if he bans smokers from the bar. \rThis is equivalent to the case in which nonsmokers pay to smokers for them not to smoke\rThis leaves the owner with every incentive to fully internalize the externality—that is, he treats all external costs to nonsmokers as if they were costs to him personally.\n---\nPUBLIC GOODS AND COMMON RESOURCES\n---\n10",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  12,
+                       "text":  "The role of transaction costs\n---\nThe owner bans smoking if the benefits of the ban exceed its costs, and otherwise not. \rThat’s because every cost and every benefit hits the owner’s pocket through customers’ willingness to pay, and therefore every cost and every benefit gets weighed in the owner’s decision.\n---\nPUBLIC GOODS AND COMMON RESOURCES\n---\n11",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  13,
+                       "text":  "The role of transaction costs\n---\nIn general, when owners set prices, “bribes” easily take place in the form of higher or lower prices, so that transactions costs are typically lower, and the Coase theorem may apply. \rIf the owner chooses to allow smoking, that might be because smoking is the efficient outcome. \r A law that overrides the owners’ decision can only convert an efficient outcome to an inefficient one.\n---\nPUBLIC GOODS AND COMMON RESOURCES\n---\n12",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  14,
+                       "text":  "The role of transaction costs\n---\nThe situation would be quite different in, say, a public library or a train station, where no admissions fees are charged. \rHere transactions costs are higher because we are back to the case where nonsmokers must negotiate with smokers directly. \rIn this case, nobody would claim that the Coase theorem is applicable.\n---\nPUBLIC GOODS AND COMMON RESOURCES\n---\n13",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  15,
+                       "text":  "14\n---\nWhen are stronger property rights “worth it”?",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  16,
+                       "text":  "15\n---\n“A primary function of property rights is that of guiding incentives to achieve a greater internalization of externalities”\r\r“[ In order for an externality to persist, ] The cost of a transaction in the rights between the parties… must exceed the gains from internalization.”\r\r“Property rights develop to internalize externalities when the gains from internalization become larger than the cost of internalization.”\n---\nHarold Demsetz\u000b “Toward a Theory of Property Rights”",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  17,
+                       "text":  "16\n---\nPrivate ownership of land among Native Americans\rBefore fur trade…\rexternality was small, so gains from internalization were small\rgains \u003c costs  no private ownership of land\rAs fur trading developed…\rexternality grew, so gains from internalization grew\rgains \u003e costs  private property rights developed\n---\nHarold Demsetz\u000b“Toward a Theory of Property Rights”",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  18,
+                       "text":  "17\n---\nA close relationship between the development of private rights in land among native Americans and the development of the commercial fur trade.\rHunting has a negative externalities: because of the lack of control over hunting by others, it is in no person’s interest to invest in increasing or maintaining the stock of animals\rOverly intensive hunting takes place.\n---\nHarold Demsetz\u000b “Toward a Theory of Property Rights”",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  19,
+                       "text":  "18\n---\nBefore the fur trade became established, hunting was carried on primarily for purposes of food and the relatively few furs that were required for the hunter’s family.  \r\rThe externality was clearly present… but these external effects were of such small significance that it did not pay for anyone to take them into account.”\n---\nHarold Demsetz\u000b “Toward a Theory of Property Rights”",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  20,
+                       "text":  "19\n---\nThe advent of the fur trade had two immediate consequences.  \rFirst, the value of furs to the Indians was increased considerably.  \rSecond, and as a result, the scale of hunting activity rose sharply.  \rBoth consequences must have increased considerably the importance of the externalities associated with free hunting.  \r\rAs a result, the property right system began to change\n---\nHarold Demsetz\u000b “Toward a Theory of Property Rights”",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  21,
+                       "text":  "20\n---\nThe date is 10,000 or 11,000 B.C. and you are a member of a primitive tribe that farms its land in common.  \rFarming land in common is a pain\ryou spend almost as much time watching each other, and arguing about who is or is not doing his share of job\n---\nFriedman \u000b“we owe civilization to the dogs”",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  22,
+                       "text":  "21\n---\nIt has occurred to several of you that the problem would disappear, if you converted the common land to private property.\r  \rEach person would farm his own land: if your neighbor chose not to work very hard, it would be he and his children, not you and yours, that would go hungry.\n---\nFriedman \u000b“we owe civilization to the dogs”",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  23,
+                       "text":  "22\n---\nThere is a problem with this solution… \rPrivate property does not enforce itself.  \rSomeone has to make sure that the lazy neighbor doesn’t solve his food shortage by stealing yours\rNow  you will have to spend your nights making sure they are not working hard harvesting your fields.  \rAll things considered, you conclude that communal farming is the least bad solution.\n---\nFriedman \u000b“we owe civilization to the dogs”",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  24,
+                       "text":  "23\n---\nAgricultural land continues to be treated as a commons for another\rthousand years, until somebody makes a radical technological innovation:\rthe domestication of the dog.\r\rDogs, being territorial animals, can be taught to identify their owner’s\rproperty as their territory and respond appropriately to trespassers.  Now\ryou can convert to private property in agricultural land and sleep\rsoundly.  Think of it as the bionic burglar alarm.\r\t\t\t\t\t-Friedman, Law’s Order, p. 118\n---\nFriedman \u000b“we owe civilization to the dogs”",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  25,
+                       "text":  "Public Goods and Common Resources\n---\nPUBLIC GOODS AND COMMON RESOURCES\n---\n24",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  26,
+                       "text":  "PUBLIC GOODS AND COMMON RESOURCES\n---\n25\n---\nPublic Goods\n---\nWe consume many goods without paying:  parks, national defense, clean air \u0026 water.  \rWhen goods have no prices, the market forces that normally allocate resources are absent. \rThe private market may fail to provide the socially efficient quantity of such goods.  \rAs in the case with externalities, governments can sometimes improve market outcomes.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  27,
+                       "text":  "Useful to compare and contrast public goods and private goods in more detail. Two dimensions.\r\r1. Excludability. \rPrivate goods are excludable: people can be kept from consuming them if they have not paid for them. \rPublic goods are non-excludable: once such goods are produced, it is not possible to exclude people from using them.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  28,
+                       "text":  "2. Rivalry \rPrivate goods are rival in consumption: they cannot be consumed by more than one person at a time. \rPublic goods are non-rival in consumption: one person’s consumption does not preclude consumption by others.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  29,
+                       "text":  "PUBLIC GOODS AND COMMON RESOURCES\n---\n28\n---\nImportant Characteristics of Goods\n---\nExamples of excludability\rExcludable:  wireless internet access\rNot excludable:  FM radio signals, national defense\rExamples of rivalry.\rRival: A T-shirt, with Jackson Yee’s image printed on it\rNot rival:  An MP3 file of Jackson Yee’s latest music",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  30,
+                       "text":  "PUBLIC GOODS AND COMMON RESOURCES\n---\n29\n---\nThe Different Kinds of Goods",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  31,
+                       "text":  "Ordinary private goods: \r      both highly excludable and highly rival in consumption. \rA chocolate that you have just purchased at the store: \rOnce you purchase and eat that specific chocolate, no one else can:\ryou have perfectly excluded others from buying that chocolate \rThus, your consumption has reduced the ability of another person to consume the chocolate\rin fact, your consumption has created a one-to-one reduction in candy bars available to others.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  32,
+                       "text":  "2. Club goods: \rhighly excludable but non-rival in consumption. “Artificially scarce” \rYou turn on the television to watch your favorite cable television show. \rIn so doing, you will not affect the ability of others to watch that same show. \rTherefore, cable TV is a non-rival good, because many people can watch at the same time without disrupting the ability of others to watch. \rHowever, individuals can be excluded from watching cable TV if they do not pay for the service. \rThus, it is a good that is excludable.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  33,
+                       "text":  "Club goods are non-rival, so the marginal cost of providing one extra unit is small (perhaps even zero), but they tend to require large fixed costs, like wiring cable all around the world for cable TV. \rIf sold at marginal cost, firms would never cover the large fixed costs they bear. \rConsumers often have a positive willingness-to-pay for such goods, though.\rAs a result, club goods typically are not sold in perfectly competitive markets.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  34,
+                       "text":  "3. Common pool resource goods: (AKA. Common Resources)\r    non-excludable but rival in consumption. \rExample: \rOpen-access lake is available to all fishermen\rBut the fish they catch cannot be caught by another fisherman and are thus rival.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  35,
+                       "text":  "4. Public goods:\r    non-rival in consumption, and non-excludable. \r Consider protecting the earth from climate change.\r Governments around the world spend billions of dollars annually to curb harmful greenhouse gases. \r Even if people failed to pay their taxes to support such environmental programs, governments cannot exclude them from enjoying the benefits.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  36,
+                       "text":  "4. Public goods\r    non-rival in consumption and are non-excludable. \rThis is in sharp contrast to the cable TV case\rWhile cable television is an excludable good, enjoying earth’s comfortable climate is not. \r National defense is another example of public good",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  37,
+                       "text":  "A road is which of the four kinds of goods?\rHint:  The answer depends on whether the road is congested or not, and whether it’s a toll road or not.  Consider the different cases.\n---\nQuestionL categorizing roads\n---\n36",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  38,
+                       "text":  "Rival in consumption?  Only if congested. \rExcludable?  Only if a toll road.  \rPossibilities:\r\tUncongested non-toll road:  public good\r\tUncongested toll road:  natural monopoly\r\tCongested non-toll road:  common resource\r\tCongested toll road:  private good\n---\nAnswers\n---\n37",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  39,
+                       "text":  "PUBLIC GOODS AND COMMON RESOURCES\n---\n38\n---\nPublic goods and common resources\n---\nFor both public goods and common resources, externalities arise because something of value has no price attached to it.  \rSo, private decisions about consumption and production can lead to an inefficient outcome.\rPublic policy can potentially raise economic well-being.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  40,
+                       "text":  "PUBLIC GOODS AND COMMON RESOURCES\n---\n39\n---\nPublic Goods\n---\nPublic goods are difficult for private markets to provide because of the free-rider problem. \rFree rider:  a person who receives the benefit of a good but avoids paying for it \rIf good is not excludable, people have incentive to be free riders, because firms cannot prevent non-payers from consuming the good.  \rResult:  The good is not produced, even if buyers collectively value the good higher than the cost of providing it.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  41,
+                       "text":  "Problems with public goods provision\n---\nExample\rWhen purchasing a Nintendo Switch, it is clear to you that the thing you paid worth 2000RMB for you. \rWhat are you getting if you pay 2000RMB to the government for national defense?",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  42,
+                       "text":  "Problems:\rYou will be protected by the Defense Department regardless of whether you sent in the cash. \rAnd because your 2000RMB makes no appreciable difference between a successful and unsuccessful national defense system, you likely will not send in 2000RMB in the first place. \rWhy send 2000RMB to the government and receive little in return when you can use the same 2000RMB to buy an Nintendo switch in Taobao?",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  43,
+                       "text":  "PUBLIC GOODS AND COMMON RESOURCES\n---\n42\n---\nPublic Goods\n---\nIf the benefit of a public good exceeds the cost of providing it, the government should provide the good and pay for it with a tax on people who benefit. \rProblem:  \rMeasuring the benefit is usually difficult. \rMoreover, public provision would result in incentive problem on the cost side\rIn general, efficient provision of public goods is more difficult than that of private goods.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  44,
+                       "text":  "PUBLIC GOODS AND COMMON RESOURCES\n---\n43\n---\nSome Important Public Goods\n---\nNational defense \rKnowledge created through basic research\rFighting poverty",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  45,
+                       "text":  "Government Provision of Public Goods\n---\nStandard cost-benefit logic applies to the case of providing public goods: \rthe government should expand production until marginal benefits equal marginal costs. \rThat is, if the marginal benefits exceed the marginal costs of providing the next unit, it should be provided.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  46,
+                       "text":  "Conceptually we can calculate the optimal level of public good provision once we know the market demand curve and the marginal costs curve\rTo construct the market demand curve, we must first know the individual demand curves.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  47,
+                       "text":  "",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  48,
+                       "text":  "However, the nature of public goods’ non-rivalry and non-excludability matters a great deal \rInstead of summing horizontally, the market demand for public goods is found by vertically summing the individual demand curves. \rThis is necessary because the public good is non-rival, so you and Jim can each consume every unit of the good at the same time.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  49,
+                       "text":  "For comparison purposes, assume that you and Jim have exactly the same demand curve for space missions as you had for jeans",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  50,
+                       "text":  "",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  51,
+                       "text":  "Private Provision of Public Goods\n---\nAlthough governments importantly provide public goods, they are not the sole providers. \rMany public goods are provided through other channels, such as private donations, which are indeed an effective way to provide public goods. \rPrivate provision of public goods refers to any situation in which private citizens make contributions to the production or maintenance of a public good.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  52,
+                       "text":  "Many avenues exist for such provision, but the most important is through private donations of time and money. \rGlobally, rain forests are being saved through private cash donations to the World Wildlife Fund. \rCures for illness (such as Alzheimer and heart disease) have been financed in part by individuals donating dollars to research funds. \rLikewise, Wikipedia is maintained by the masses donating their time and knowledge.\n---\nPrivate Provision of Public Goods",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  53,
+                       "text":  "So what is the scope of private donations of money? \rSince 1971, individual contributions to charitable causes have increased from roughly $125 billion annually to approximately $375 billion per year by 2015.\rEven though the recent giving levels already represent an important fraction of our economy, experts predict that the combination of increased wealth and an aging population will lead to an even higher level of giving in the coming years.\n---\nPrivate Provision of Public Goods",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  54,
+                       "text":  "Private Provision of Public Goods",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  55,
+                       "text":  "Considering the voluntary nature of giving, you may think this form of public good provision might be preferable to governments providing public goods. \rBut we should be careful with this line of reasoning, because certain important public goods, such as national defense or local weather alerts, might be considerably underprovided if left to private sources.\n---\nPrivate Provision of Public Goods",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  56,
+                       "text":  "An example can help us understand the danger of leaving public good provision entirely in the hands of the private market. \rMany scientists believe that species are currently going extinct at a faster rate than at any time in the history \rTo deal with this problem, hundreds of conservation groups have been formed with the help of private donations.\n---\nPrivate Provision of Public Goods",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  57,
+                       "text":  "Question: Which types of species do you think their donors are most likely to help? \rThe answer, interestingly, is that charismatic species and those that most resemble humans, such as panda bears and monkeys, receive the most support. \rIf such funding comes at the expense of funding keystone species—species that play an important role in the ecosystem—it will be dangerous for the vitality of our ecosystem",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  58,
+                       "text":  "PUBLIC GOODS AND COMMON RESOURCES\n---\n57",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  59,
+                       "text":  "PUBLIC GOODS AND COMMON RESOURCES\n---\n58\n---\nCommon Resources\n---\nLike public goods, common resources are not excludable.\rCannot prevent free riders from using\rLittle incentive for firms to provide\rRole for govt:  seeing that they are provided\rAdditional problem with common resources: rival in consumption\rEach person’s use reduces others’ ability to use\rRole for govt:  ensuring they are not overused",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  60,
+                       "text":  "PUBLIC GOODS AND COMMON RESOURCES\n---\n59\n---\nThe Tragedy of the Commons\n---\nA parable that illustrates why common resources get used more than is socially desirable.  \rSetting:  a medieval town where sheep graze on common land.  \rAs the population grows, the number of sheep grows.  \rThe amount of land is fixed,  the grass begins to disappear from overgrazing.  \rThe private incentives (using the land for free) outweigh the social incentives (using it carefully).\rResult:  People can no longer raise sheep.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  61,
+                       "text":  "PUBLIC GOODS AND COMMON RESOURCES\n---\n60\n---\nThe Tragedy of the Commons\n---\nThe tragedy is due to an externality:  \u000bAllowing one’s flock to graze on the common land reduces its quality for other families.  \rPeople neglect this external cost, resulting in overuse of the land.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  62,
+                       "text":  "PUBLIC GOODS AND COMMON RESOURCES\n---\n61\n---\nPolicy Options to Prevent \u000bOverconsumption of Common Resources\n---\nDirectly regulate use of the resource\rImpose a corrective tax to internalize the externality\rexample:  hunting \u0026 fishing licenses, \u000bentrance fees for congested national parks\rAuction off permits allowing use of the resource\rexample:  spectrum auctions by the \u000bU.S. Federal Communications Commission\rIf the resource is land, convert it to a private good by dividing and selling land parcels to individuals",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  63,
+                       "text":  "PUBLIC GOODS AND COMMON RESOURCES\n---\n62\n---\nSome Important Common Resources\n---\nClean air and water\rCongested roads\rFish, whales, and other wildlife",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  64,
+                       "text":  "PUBLIC GOODS AND COMMON RESOURCES\n---\n63\n---\nCASE STUDY\n---\nSome firms use spam ads or spam text messages (or firm consumes spamming activities) to advertise their products. \rSpam is not excludable:  Firms cannot be prevented  from spamming.\rSpam is rival:  As more companies use spam, it becomes less effective. \rThus, spam is a common resource (for these firms) \rLike most common resources, spam is overused – which is why we get so much of it!",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  65,
+                       "text":  "PUBLIC GOODS AND COMMON RESOURCES\n---\n64\n---\nCONCLUSION\n---\nPublic goods tend to be under-provided, while common resources tend to be over-consumed. \rThese problems arise because property rights \u000bare not well-established:\rNobody owns the air, so no one can charge polluters.  Result:  too much pollution.\rNobody can charge people who benefit from national defense.  Result:  too little defense. \rThe govt can potentially solve these problems with appropriate policies.",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  66,
+                       "text":  "A good is excludable if someone can be prevented from using it.  A good is rival in consumption if one person’s use reduces others’ ability to use the same unit of the good.  \rMarkets work best for private goods, \u000bwhich are excludable and rival in consumption.  Markets do not work well for other types of goods.\n---\n65\n---\nCONCLUSION",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  67,
+                       "text":  "Public goods, such as national defense and fundamental knowledge, are neither excludable nor rival in consumption.  \rBecause people do not have to pay to use them, they have an incentive to free ride, and firms have no incentive to provide them.  \rTherefore, the government provides public goods, using cost-benefit analysis to determine how much to provide.\n---\n66\n---\nCONCLUSION",
+                       "pics":  0,
+                       "notes":  ""
+                   },
+                   {
+                       "n":  68,
+                       "text":  "Common resources are rival in consumption but not excludable.  Examples include common grazing land, clean air, and congested roads. \rPeople can use common resources without paying, so they tend to overuse them.  \rTherefore, governments try to limit the use of common resources.\n---\n67\n---\nCONCLUSION",
+                       "pics":  0,
+                       "notes":  ""
+                   }
+               ]
+}

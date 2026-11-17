@@ -1,0 +1,526 @@
+{
+ "file": "Lecture 2.pptx",
+ "count": 86,
+ "size": [
+  9144000,
+  6858000
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "text": "Microeconomics\u000bLecture 2\n---\nMohan Zhou\nSchool of Economics \nZhejiang University",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 2,
+   "text": "Optimization techniques\n---\nLast time, we described that economics is the study of choice.\nWe also talked about an important principle: people do optimization when the make choices.  \nWhatever choices people face, economists believe that they will try to choose optimally.\nWe use this behavioral assumption (people optimize) as a tool to predicting the behavior of people.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 3,
+   "text": "Optimization techniques\n---\nWe can think optimization in two different ways:\nThe two different techniques would, of course, yield identical answers.\n1. calculates the total value of each feasible option and then picks the option with the greatest total value. \n2. marginal analysis, which we explain later in the chapter—focuses on differences among the feasible options and finds the best option by analyzing these differences.",
+   "pics": 0,
+   "notes": "Because the two optimization techniques yield identical answers, you can decide to use whichever technique you find easier\nfor each particular problem."
+  },
+  {
+   "n": 4,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 5,
+   "text": "",
+   "pics": 0,
+   "notes": "Here we have a few assumptions:  First, we assume that the benefits of these apartments are the same—for instance, size or views.\nSo,  we are focusing only on costs in this example—the cost of commuting time and the cost of rent. \nIf the benefits are the same, then cost-benefit analysis becomes simply comparing the cost. \nIn normal cost-benefit analysis, the decision maker finds the alternative with the highest value of net benefit, which is benefit minus cost.\nWhen the benefits are the same across all the alternatives, cost-benefit analysis simplifies to finding the alternative with the lowest cost."
+  },
+  {
+   "n": 6,
+   "text": "Calculating opportunity cost\n---\nFirst step:  \nsum the cost of rent and the cost of commuting time to calculate the total cost of each apartment. \nThe total cost includes the direct cost of rent and the indirect cost of commute time. \nBut before doing that, we need to assign a common unit of measurement to both costs: dollar, for example\nThen we need to use the concept of opportunity cost",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 7,
+   "text": "Calculating opportunity cost\n---\nAssumptions:\nThe opportunity cost of commuting time is 10$/hour.\nWe will revisit this assumption later",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 8,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 9,
+   "text": "We call the best feasible choice the optimum, which you can see labeled on the total cost curve below.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 10,
+   "text": "Summary\n---\nOptimization using total value has three steps:\n1. Translate all costs and benefits into common units, like dollars or RMB. \n2. Calculate the total net benefit of each alternative.\n3. Pick the alternative with the highest net benefit.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 11,
+   "text": "Effect of  a change in opportunity cost\n---\nNow, suppose the opportunity cost of one hour’s travel is instead 15 dollars",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 12,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 13,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 14,
+   "text": "Optimization using marginal analysis\n---\nOptimization using marginal analysis \nbreaks an optimization problem down by thinking about how costs and benefits change as you hypothetically move from one alternative to another.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 15,
+   "text": "Optimization using marginal analysis\n---\nInstead of thinking about each of the apartments in isolation, let’s now compare these apartments. \nSpecifically, let’s focus on what changes as we hypothetically “move” from one apartment to the next, stepping farther away from the city center.\nWhat is the difference between each pair of apartments?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 16,
+   "text": "Marginal analysis",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 17,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 18,
+   "text": "Optimization at the Margin\n---\nThe objective of the optimizer is to make himself as well off as possible\nBy definition, optimum means you can not get any better. \nPrinciple of Optimization at the Margin: an optimal feasible alternative has the property that moving to it makes you better off and moving away from it makes you worse off.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 19,
+   "text": "An example with functional forms",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 20,
+   "text": "Example",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 21,
+   "text": "Demand, supply and competitive equilibrium",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 22,
+   "text": "The market for gas\n---\nEvery year over 1 billion drivers pull into gas stations around the world. \nThese drivers almost never find that gas stations are “sold out.” \nMost of the time, it takes less than 10 minutes to fill the tank and pull back on the road.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 23,
+   "text": "Nobody tells the companies that run the gas stations how many drivers to expect, and nobody tells the drivers where to fill their tanks.\nActually, nobody has the ability to make any nearly accurate predictions about these things\nBut somehow, there is almost always enough gas for every driver who wants to fill the tank. \nDrivers get the gas they are willing to pay for, and gasoline companies make enough money to pay their employees and send dividends to their shareholders.",
+   "pics": 0,
+   "notes": "The efficiency of this system is amazing."
+  },
+  {
+   "n": 24,
+   "text": "The market\n---\nA market is \na group of economic agents who are trading a good or service \n+\n the rules and arrangements for trading.",
+   "pics": 0,
+   "notes": "This chapter is about how the gasoline market and other markets like it work."
+  },
+  {
+   "n": 25,
+   "text": "Some markets may have specific physical locations",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 26,
+   "text": "Different forms of market\n---\nOthers may be dispersed. \nFor example, the market for gasoline is dispersed—located on every corner you find a gas station.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 27,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 28,
+   "text": "Different forms of market\n---\nSome market doesn’t even have a physical form. \nFor example, Taobao operates wherever there’s a computer and an Internet connection. \nTo an economist, dating sites/apps are markets, too.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 29,
+   "text": "We focus the discussion on markets in which all exchanges occur voluntarily at flexible prices determined by market forces \nThis is in contrast to prices fixed by the government. \nWe are going to explains how markets use prices to allocate goods and services.\nPrices act as a selection device that encourages trade between the sellers who can produce goods at low cost and the buyers who place a high value on the goods.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 30,
+   "text": "Competitive Markets\n---\nThink of a city filled with hundreds of gas stations, each of which has an independent owner. \nThe gas station on your block would lose most of its business if the owner started charging $1 more per gallon than all the other stations. \nLikewise, no one is ever going to sell you any gas if you insisted on paying $1 less per gallon than the posted price; \nGas station usually don’t cut deals.  Drivers of BMW and 奇瑞 pay the same price for a gallon of regular unleaded.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 31,
+   "text": "Market price\n---\nIf all sellers and all buyers face the same price, that price is referred to as the market price.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 32,
+   "text": "Perfectly competitive market\n---\nSellers all sell an identical good or service\nAny individual buyer or any individual seller isn’t powerful enough on his or her own to affect the market price. \nThis is to say that, buyers and sellers in a perfectly competitive market can only accept the market price and can’t bargain to get a better price. \nWe call such buyers and sellers price-takers.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 33,
+   "text": "Why study perfect competition?\n---\nVery few markets are perfectly competitive. \nBut economists try to understand such markets anyway. \nWhy would economists study a thing that rarely exists in the world? \nThe answer is that although few, if any, markets are perfectly competitive, many markets come close.",
+   "pics": 0,
+   "notes": "Many gas stations do have nearby competitors—often right across the street—that prevent them from charging more than the market\nprice. There are some gas stations that don’t have such nearby competitors—think of an isolated station on a country road—but\nsuch examples are the exception. If sellers have nearly identical goods and most market participants face lots of competition, then\nthe perfectly competitive model is a good approximation of how actual markets work. In contrast, there are some markets in which large market participants—like Microsoft in the software market—can single-handedly control market prices; we’ll come to markets like that in later chapters."
+  },
+  {
+   "n": 34,
+   "text": "Why study perfect competition?\n---\nWe are trying to answer 3 fundamental questions:\n1. How do buyers behave?\n2. How do sellers behave?\n3. How does the behavior of buyers and sellers jointly determine the market price and the quantity of goods transacted?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 35,
+   "text": "How Do Buyers Behave?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 36,
+   "text": "Price-takers\n---\nAssumption: \nbuyers are price-takers (价格接收者）\nthey treat the market price as a take-it-or-leave-it （“要买就买，不买就走”） offer and don’t try to haggle to lower the price.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 37,
+   "text": "Price and quantity\n---\nWe want to study the relationship between the price of a good and the amount of the good that buyers are willing to purchase. \nAt a given price, the amount of the good or service that buyers are willing to purchase is called the quantity demanded.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 38,
+   "text": "Demand curve\n---\nThe demand curve plots the relationship between prices and quantity demanded, holding all else equal.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 39,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 40,
+   "text": "Demand curve\n---\nThe demand curve has an important property that we will see many times. \nThe price of gasoline and the quantity demanded are negatively related, which means that they move in opposite directions. \nIn other words, when one goes up, the other goes down, and vice versa.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 41,
+   "text": "The Law of Demand\n---\nThe Law of Demand: the quantity demanded rises when the price falls (holding all else equal).\nAlmost all goods have demand curves that exhibit this fundamental negative relationship",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 42,
+   "text": "Willingness to Pay (important)\n---\nAny individual consumer’s demand curve can also be used to calculate how much he/she is willing (and able) to pay for an additional gallon of gasoline. \nOne extra gallon of gasoline is called a “marginal gallon.” \nThe height of her demand curve at any given quantity is the amount she is willing to pay for that marginal unit of the good. \nIn other words, the height of her demand curve is the value in dollars that the individual places on that last gallon of gasoline.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 43,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 44,
+   "text": "Diminishing marginal benefit\n---\nDiminishing marginal benefit:\nAs you consume more of a good, your willingness to pay for an additional unit declines.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 45,
+   "text": "Aggregated Demand Curves\n---\nOther gasoline users will also increase their consumption of gasoline as its price falls\nTo study the behavior of the worldwide energy market, we need to study the worldwide demand curve for gasoline, which is equivalent to the sum of all individual demand curves. \nEconomists call this adding-up process the aggregation of the individual demand curves.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 46,
+   "text": "Exhibit 4.2 Aggregation of Demand Schedules and Demand Curves\n---\nCopyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved",
+   "pics": 10,
+   "notes": ""
+  },
+  {
+   "n": 47,
+   "text": "Market demand curve\n---\nThe market demand curve is the sum of the individual demand curves of all potential buyers. \nIt plots the relationship between the total quantity demanded and the market price, holding all else equal.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 48,
+   "text": "But economists rarely study the market demand for gasoline. \nEconomists who study energy markets recognize that the gasoline market is very closely tied to all the other markets for products produced from crude oil. \nJet fuel, diesel fuel, and automobile gasoline are all produced from oil. \nAccordingly, when economists study the market for gasoline, they aggregate to the total market for oil.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 49,
+   "text": "Market Demand Curve for Oil\n---\nCopyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved",
+   "pics": 3,
+   "notes": ""
+  },
+  {
+   "n": 50,
+   "text": "The “all else”\n---\nWhen we introduced the demand curve, we explained that it describes the relationship between price and quantity demanded, holding all else equal.\n It’s now time to more carefully consider the “all else” that is being held fixed.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 51,
+   "text": "Factors shifting the demand curve\n---\nThe demand curve shifts when these five major factors change:\n• Tastes and preferences\n• Income and wealth\n• Availability and prices of related goods\n• Number and scale of buyers\n• Buyers’ beliefs about the future",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 52,
+   "text": "An important distinction\n---\nThe demand curve shifts only when the quantity demanded changes at a given price.\nIf a good’s own price changes and its demand curve hasn’t shifted, the own price change produces a movement along the demand curve.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 53,
+   "text": "Shifts of the Demand Curve vs. Movement Along the Demand Curve\n---\nCopyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved",
+   "pics": 9,
+   "notes": ""
+  },
+  {
+   "n": 54,
+   "text": "Seller behavior and the\u000bsupply curve",
+   "pics": 0,
+   "notes": "You now understand the behavior of buyers. To understand the complete picture of a mar-\nket, we also need to study sellers. The interaction of buyers and sellers in a marketplace\ndetermines the market price."
+  },
+  {
+   "n": 55,
+   "text": "Quantity supplied\n---\nThe concepts are similar for sellers\nAt a given price, the amount of the good or service that sellers are willing to supply is called the quantity supplied.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 56,
+   "text": "Example: ExxonMobil\n---\nThink about a company ExxonMobil  \nWhen the price of oil goes up, ExxonMobil increases its willingness to supply oil that is relatively expensive for the company to discover and extract.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 57,
+   "text": "Example: ExxonMobil\n---\nSome oil is in deep-water locations where the ocean depth is 2 miles and the oil is another 8 miles below the seafloor.\nSuch wells are drilled by specialized ships two football fields long, which are staffed by hundreds of workers and equipped with robotic, unmanned submarines. \nBecause of the enormous expense, such wells are only drilled when the price of oil is over $60 per barrel.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 58,
+   "text": "The supply curve and law of supply\n---\nThe supply curve plots the quantity supplied at different prices. \nLaw of Supply: In almost all cases, the quantity supplied rises when the price rises (holding all else equal).",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 59,
+   "text": "Willingness to accept\n---\nWillingness to accept is the lowest price that a seller is willing to get paid to sell an extra unit of a good.\nAt a particular quantity supplied, willingness to accept is the height of the supply curve. \nWillingness to accept is the same as the marginal cost of production.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 60,
+   "text": "Market supply curve\n---\nThe market supply curve is the sum of the individual supply curves of all the potential sellers. \nIt plots the relationship between the total quantity supplied and the market price, holding all else equal.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 61,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 62,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 63,
+   "text": "Factors shifting supply\n---\nThe supply curve shifts when these variables change:\n• Prices of inputs used to produce the good\n• Technology used to produce the good\n• Number and scale of sellers\n• Sellers’ beliefs about the future",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 64,
+   "text": "Supply and Demand in Equilibrium",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 65,
+   "text": "Putting it together\n---\nWe haven’t explained how to put the two sides of the market together. \nHow do buyers and sellers interact? \nWhat determines the market price at which they trade? \nWhat determines the quantity of goods bought by buyers and sold by sellers?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 66,
+   "text": "Putting it together\n---\nWe will use the market demand curve and the market supply curve to answer these questions. \nWe’ll continue to study a perfectly competitive market, which we’ll refer to as a “competitive market.”",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 67,
+   "text": "",
+   "pics": 0,
+   "notes": "the demand curve (in blue) and the supply curve (in red) for the oil\nmarket cross at a price of $50 per barrel and a quantity of 35 billion barrels. Because the\ndemand curve slopes down and the supply curve slopes up, the two curves have only one\ncrossing point. We call this crossing point as the competitive equilibrium.\nThe price at the crossing point is referred to as the competitive equilibrium price. This is some-\ntimes referred to as the market clearing price, because at this price there is a buyer for every\nunit that is supplied in the market. The quantity at the crossing point is referred to as the\ncompetitive equilibrium quantity."
+  },
+  {
+   "n": 68,
+   "text": "Equilibrium\n---\nWhy do we say this is an equilibrium, or this situation is in equilibrium?\nNote: Actually there is an important assumption here: that buyers and sellers are price takers.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 69,
+   "text": "",
+   "pics": 0,
+   "notes": "If the market stayed in this situation, sellers would pump 38 billion barrels of oil per\nyear, but buyers would purchase only 29 billion of those barrels, leaving the difference—\n9 billion barrels—unsold each year. This would push down oil prices, as enormous stock of oil started to build up around the world."
+  },
+  {
+   "n": 70,
+   "text": "",
+   "pics": 1,
+   "notes": "Because existing oil storage tanks are limited in scale and expensive to build, sellers would start undercutting each other’s prices to get rid of the rising inventory of unsold oil. \nPrices would fall. As a result, the situation normally wouldn’t last for long. \nSellers would compete with one another for customers by cutting prices. \nThis would continue until the market price fell back to the competitive equilibrium price."
+  },
+  {
+   "n": 71,
+   "text": "",
+   "pics": 0,
+   "notes": "The situation also normally won’t last long. \nBuyers who can not get the goods they want will compete with one another by offering to pay higher prices to get the limited quantity of oil. \nThis will continue until the market price rises to the competitive equilibrium price of $50 per barrel."
+  },
+  {
+   "n": 72,
+   "text": "Curve Shifting in Competitive Equilibrium",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 73,
+   "text": "Putting it to work\n---\nThe demand-supply-equilibrium framework by itself is not very interesting.\nWhat is more interesting is that we can use this framework to analyze different kinds of situations that happens in the real world.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 74,
+   "text": "Putting it to work\n---\nWe’d like to know how a shock to the world oil market will affect the equilibrium quantity and the equilibrium price of oil.\nExample: \nWhat would happen if a major oil exporter suddenly stopped production, as Libya did in 2011?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 75,
+   "text": "A Leftward Shift of the Supply Curve\n---\nCopyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved",
+   "pics": 8,
+   "notes": ""
+  },
+  {
+   "n": 76,
+   "text": "Putting it to work\n---\nExample 2:\nWhat would happen if a technological breakthrough shifted the supply curve to the right?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 77,
+   "text": "Technological Breakthroughs\n---\nFrom 2011 to 2016 the supply-curve shift actually occurred\nPartly due to a boom in fracking-based oil extraction. \nFracking enabled the United States to increase oil production by 70 percent from 2011 to 2016 \nThe fracking boom contributed to a rightward shift in the worldwide supply curve for oil, which played an important role in driving oil prices down from $100 per barrel in 2011 to $50 in 2016.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 78,
+   "text": "Exhibit 4.14 A Rightward Shift of the Supply Curve\n---\nCopyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved",
+   "pics": 8,
+   "notes": ""
+  },
+  {
+   "n": 79,
+   "text": "Shift in taste\n---\nFor example\nwhat would happen if rising environmental concerns and new energy-saving technologies led consumers to use less oil at any given price?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 80,
+   "text": "A Leftward Shift of the Demand Curve\n---\nCopyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved",
+   "pics": 9,
+   "notes": ""
+  },
+  {
+   "n": 81,
+   "text": "The Demand Curve Shifts Left and the Supply Curve Shifts Right\n---\nCopyright © 2018, 2015 Pearson Education, Inc. All Rights Reserved",
+   "pics": 22,
+   "notes": "Sometimes both curves shift at the same time. For example, the fracking revolution has shifted the supply curve for oil to the\nright at the same time that rising environmental consciousness and energy-saving technology have shifted the demand curve for oil to the left.\nWe want to know what happens in such mixed cases.  As you can imagine, there are many possible combinations\nof shifts."
+  },
+  {
+   "n": 82,
+   "text": "Price control\n---\nWhat would happen if the government tried to dictate the price?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 83,
+   "text": "Price control\n---\nOur analysis has concluded that competitive markets will end up at the competitive equilibrium—the point where the supply and the demand curves cross. \nBut this can happen only if prices are allowed to respond to market pressures.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 84,
+   "text": "Price control\n---\nHowever, some markets have prices that are set by laws, regulations, or social norms.\nEconomists are interested in the way that all markets work, even markets that are not allowed to reach a competitive equilibrium.",
+   "pics": 0,
+   "notes": "We illustrate these issues by considering markets without a flexible price."
+  },
+  {
+   "n": 85,
+   "text": "Price control\n---\nDuring the U.S. oil crisis of 1973–1974 (第一次石油危机）, the U.S. government effectively capped the price of gasoline, causing quantity demanded to exceed quantity supplied. \nThis is referred to as a price ceiling.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 86,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  }
+ ]
+}

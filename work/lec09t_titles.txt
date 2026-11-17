@@ -1,0 +1,25 @@
+1 | Government Tax & Tax Incidence
+2 | Who bears the burden of taxes “Our new Constitution is now established, and has an appearance that p
+3 | Who bears the burden of taxes Question: who pays the tax? • Seem to be a stupid question? Whoever is
+4 | Tax Incidence This answer might be too naive • We are going to see that the tax burden can be shared
+5 | An example Suppose the government of Hangzhou wants to raise money to build a few additional toilets
+6 | An example Question: • How is this going to affect price and quantity of Vinegar fish sold in Hangzh
+7 | An example
+8 | • Now, there is a gap of 2 RMB between what the consumer pays and what the supplier receives • Secon
+9 | Suppose now the sellers begin to complain as they are unhappy with paying the 2 RMB tax. • Here is t
+10 | Question: What would happen if the government follow the sellers’ suggestions and levied the tax on 
+11 | 
+12 | Why doesn’t it change? • It’s because in the first case, when restaurants are taxed, menu prices ros
+13 | A general lesson “In competitive markets, tax incidence and equilibrium prices and quantities are in
+14 | The Effects of Demand and Supply Elasticities • In general, the tax incidents will not be identical 
+15 | The Effects of Supply Elasticities
+16 | The Effects of Demand Elasticities
+17 | General lesson: The tax burden falls less heavily on the side of the market that is more elastic—tha
+18 | What is the intuition? • When buyers are more price-elastic, they have more alternatives: when the p
+19 | Another impact of elasticities on the tax burden: • As supply or demand becomes more price-elastic, 
+20 | Q2 Q1 DWL and the Size of the Tax P Q D S 2T T initial DWL new DWL Doubling the tax causes the DWL m
+21 | Q3 DWL and the Size of the Tax P Q D S Q1 3T T Tripling the tax causes the DWL to more than triple. 
+22 | 22 DWL and the Size of the Tax DWL Tax size Implication • When tax rates are low, raising them doesn
+23 | Q2 Revenue and the Size of the Tax P Q D S Q1 PB PS PB PS 2T T When the tax is small, increasing it 
+24 | Q3 Revenue and the Size of the Tax P Q D S Q2 PB PS PB PS 3T 2T When the tax is larger, increasing i
+25 | Laffer curve: the relationship between the size of the tax and tax revenue. Revenue and the Size of 

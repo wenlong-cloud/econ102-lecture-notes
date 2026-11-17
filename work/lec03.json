@@ -1,0 +1,574 @@
+{
+ "file": "Lecture 3.pptx",
+ "count": 94,
+ "size": [
+  9144000,
+  6858000
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "text": "Microeconomics \u000b\u000bLecture 3: \u000b\u000bConsumers and Incentives",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 2,
+   "text": "Consumer’s problem\n---\nMore on consumer behavior\nWhat is the micro-foundation behind the demand curve? \nNeed to model buyers’ behavior\nUseful tool to analyze a large range of questions",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 3,
+   "text": "Consumer’s problem\n---\nEssential ingredients of the buyer’s problem (constrained optimization):\nWhat you like (what is the objective function)\nPrices of goods and services (part of the constraint)\n3.    How much money you get to spend on things you want (also part of the constraint)",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 4,
+   "text": "Preferences,\u000butility functions, and indifference curves",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 5,
+   "text": "What you like: \u000btaste, or preferences\n---\nWould you rather live on campus together with your classmates, or live in a rented house outside campus?\nWould you rather get married with someone you love or with someone who is beautiful or someone who has a great personality? Or stay unmarried you whole life?\nWho do you like better? Jay Chou or Cai Xukun?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 6,
+   "text": "Preference and Taste\n---\nDifferent people give different answers. \nIn economics, we make no attempt to explain why people prefer the things they do. \nInstead, we take those preferences as given and try to figure out how they govern behavior.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 7,
+   "text": "Preference and Taste\n---\nWhich do you prefer: eggs or root beer? \nActually, that’s a bad question—for several reasons. \nFirst, your answer might depend on the quantities involved. \nSecond, the answer might depend on how many eggs and how much root beer you’ve already got. \nIs this a question about which of the two you’d least want to forgo forever, or a question about which you’d like to receive for your birthday?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 8,
+   "text": "The preference of Beth",
+   "pics": 0,
+   "notes": "which basket does she prefer: A or B? That’s easy to guess. Basket B contains both more eggs (4 instead of 3) and more root beers (7 instead of 5). If we assume that Beth likes both eggs and root beer, and always prefers more to less,\nthen this choice is simply. Of course she’ll take basket B."
+  },
+  {
+   "n": 9,
+   "text": "The preference of Beth\n---\nWhat about basket A with basket D? \nWe start by asking Beth to point out a few of the baskets that she happens to like exactly as much as she likes basket A.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 10,
+   "text": "We get what we call “indifference curve”.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 11,
+   "text": "Using Indifference Curves\n---\nComparing P and Q",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 12,
+   "text": "Using indifference curves",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 13,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 14,
+   "text": "Properties of Indifference Curves\n---\nIndifference curves slope downward. \nIndifference curves don’t cross. \nIndifference curves fill the first quadrant of the plane.\nIndifference curves are convex",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 15,
+   "text": "Marginal value: the slope of the I.C.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 16,
+   "text": "The shape of indifference curves",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 17,
+   "text": "The Composite-Good Convention\n---\nIn order to draw indifference curve diagrams, we must assume that there are only two goods in the world. \nSeems restricting, yet in fact it is not.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 18,
+   "text": "The Composite-Good Convention\n---\nIn many applications we will want to concentrate our attention on a single good—say, eggs.\nIn that case we divide the world into two classes of goods, namely, “eggs” and “things that are not eggs,” otherwise known as “all other goods.” \nThis allows us to draw indifference curves between eggs (on the horizontal axis) and all other goods (on the vertical).",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 19,
+   "text": "The Composite-Good Convention\n---\nThere remains the problem of units. \nWhat is a single unit of all other goods?\nThe simplest solution to this problem is to measure all other goods in terms of their dollar value.\nWhen we lump together all things that are not eggs and measure it in a single unit like dollars, we say that we are using the composite-good convention.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 20,
+   "text": "The Composite-Good Convention\n---\nIn the presence of the composite-good convention, the slope of an indifference curve is the marginal value of an egg in terms of other goods, with the other goods measured in dollars. \nThus, it is the minimum number of dollars for which the consumer would be willing to trade an egg.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 21,
+   "text": "The budget constraint",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 22,
+   "text": "How Much Money You Have to Spend\n---\nThe budget set is the set of all possible bundles of goods and services that a consumer can purchase with her income. \nEconomists usually describe the budget set in the context of another concept—the budget constraint.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 23,
+   "text": "budget constraint\n---\nFirst, we’ll assume that consumers do not save or borrow. \nSecond, we plot the budget constraint as a smooth line, even though our examples will be using whole units.",
+   "pics": 0,
+   "notes": "First, we’ll assume that consumers do not save or borrow. We know,\nof course, that many consumers do save and borrow, but for now we want to keep our\nmodel simple by focusing exclusively on buying decisions. This assumption allows us to\nfocus more sharply on how we can use the budget constraint to learn about important economic concepts. \nSecond, we plot the budget constraint as a smooth line, even though our examples will be using whole units. We do this as a matter of convenience, and it does not\naffect the analysis."
+  },
+  {
+   "n": 24,
+   "text": "The budget constraint\n---\nBudget constraint",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 25,
+   "text": "Price change",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 26,
+   "text": "Income change",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 27,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 28,
+   "text": "Putting it together",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 29,
+   "text": "Optimal consumption",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 30,
+   "text": "Optimal consumption\n---\nGraphical analysis\nLagrangian method (mathematics)\nMarginal argument (economics)",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 31,
+   "text": "A corner solution\n---\nCorner solution (not tangent)\n---\neven after you spend all your money on Y?",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 32,
+   "text": "Non-convex indifference curves",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 33,
+   "text": "Applications of the consumer decision framework",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 34,
+   "text": "Application #1\u000bPrice Indices",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 35,
+   "text": "Price Indices\n---\nTo measure how people are affected by price changes, government statistical department around the world often report price indices\nChinese statistics department publishes what is known as the CPI (consumer price index)",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 36,
+   "text": "Price Indices\n---\nRoughly, statistics department do this by tracking the cost of a given basket (a fixed bundle of goods and services) over time. \nIf the basket gets more expensive, they say that the cost of living has gone up (which  may imply that people are worse off)\nIf the basket gets cheaper, they say that the cost of living has gone down (which may imply that people are better off).",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 37,
+   "text": "Price Indices\n---\nExample: \nHarold consumes goods X and Y. \nTheir initial prices are 3 and 4, respectively\nWith an income of 20, he (optimally) chooses to buy 4 units of X and 2 of Y.\nNow the price of X rises to 4 while the price of Y falls to 2\nSuppose his income remains at 20 dollars. ?  Has his living standard change? If yes, is he better or worse off than before?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 38,
+   "text": "Price Indices\n---\nSuppose we choose the following basket as a benchmark and hold the basket fixed: 4 units of X and 2 units of Y.\nThe original cost of the basket: 20\nThe new cost of the same basket: still 20\nSo the price index does not change\nQuestion: does Harold feel the same as before?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 39,
+   "text": "",
+   "pics": 0,
+   "notes": "Look again. Basket O costs $20 under the original prices and still $20 under the new prices. If you track basket O,\nyou’ll say the cost of living hasn’t changed at all. That can be misleading, because, as we’ve just seen, Harold is definitely happier with the new prices than with the old ones."
+  },
+  {
+   "n": 40,
+   "text": "",
+   "pics": 0,
+   "notes": "If you tracked basket P, you’d get a different answer. Basket P is outside the Original budget line, which means it must cost more than $20 at the original prices. But it is exactly on the New budget line, so it costs just $20 at the new prices. So if you used P to measure the cost of living you’d say that the cost of living had come down."
+  },
+  {
+   "n": 41,
+   "text": "Price Indices\n---\nThe problem:\nWith this approach, you are using a fixed basket, but the answer you get depends on which basket you choose to track.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 42,
+   "text": "Laspeyres v.s. Paasche price index\n---\nThe cost-of-living measurement that you get by tracking the original is called a Laspeyres price index , it tends to make things look worse than they are. \nThe cost-of-living measurement that you get by tracking the new basket (in this case P) is called a Paasche price index , it tends to make things look better than they are. \nUnfortunately, there is no perfect way to measure changes in the cost of living. Sometimes people use Fisher index",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 43,
+   "text": "Application #2\u000bDifferences in taste?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 44,
+   "text": "Difference in taste?\n---\nEconomists don’t like to attribute differences in patterns of human behavior across countries, cultures, groups people to taste differences across countries, cultures, etc. \nThey normally think of the difference in behavior as a result of people facing different constraints. \nSo are there wide-ranged differences in taste?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 45,
+   "text": "Difference in taste",
+   "pics": 0,
+   "notes": "Albert buys tomatoes for $4 each and potatoes for $3 each. His income is $60 per day.\nBetty buys tomatoes for $2 each and potatoes for $4 each. Her income is $48 per day.\nNow we are told that Albert chooses the basket (12, 4). We check that Betty can more than afford this point, so it must be inside her budget line, on the boldfaced part of Albert’s line. \nWe plot that point, and the corresponding tangency, in the second panel, where it is labeled A. We are also told that Betty chooses the point (4, 10). We check that this is inside Albert’s budget line, on the boldfaced part of Betty’s budget line. We plot that point in the second panel, where it is labeled B.\nNow we can see that Albert’s indifference curve must cross Betty’s. Therefore, they cannot have identical tastes."
+  },
+  {
+   "n": 46,
+   "text": "Now Betty chooses a new B instead, which Albert cannot afford",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 47,
+   "text": "Difference in taste\n---\nDo Albert and Betty have identical tastes? \nWe certainly have no way to rule out that possibility. \nIf these indifference curves are extended indefinitely in either direction, they might eventually cross—or they might not.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 48,
+   "text": "Difference in taste\n---\nWhat about the real world? \nWe can replace Albert and Betty with “the average German” and “the average Italian”\nWe can use realistic numbers for the prices of tomatoes and potatoes.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 49,
+   "text": "Difference in taste\n---\nThen we can repeat the exercise with Germans and Greeks, or Greeks and Italians, or Poles and Hungarians, and with more than just two goods. \nIf we ever get a picture like the first one, we’ve spotted a taste difference.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 50,
+   "text": "Difference in taste\n---\nHarvard Professor Hendrik Houthakker (亨德里克·豪特哈克）carried out this exercise for European countries and found no evidence of any taste differences. \nWhen Houthakker drew his graphs, none looked like the first one\nInstead, every one of his pictures look like the second one\nThis leaves open the possibility that tastes could be either the same or different.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 51,
+   "text": "Application 3\u000bThe Least Bad Tax\u000b(or which tax do you prefer?)",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 52,
+   "text": "The Least Bad Tax\n---\nWhich would you rather pay: \na percentage wage tax : the government takes a certain percent of your earnings, or \na head tax : the government takes a certain number of dollars every day, regardless of how much you earn\nSuppose that the money collected from you are the same under two types of tax.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 53,
+   "text": "Numerical example\n---\nSuppose you earn 20 an hour. \nThe government can impose a 50% wage tax\nIn this case, you will (optimally choose to) work 10 hours a day, earn 200, and pay 100 in taxes. \nOr the government can impose a 100 daily head tax. \nWhich do you prefer?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 54,
+   "text": "Budget line: leisure and money",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 55,
+   "text": "How to formulate this into a consumer choice problem?\n---\nBegin by drawing your budget line between leisure (measured in hours) and wages (measured in dollars). \nIf you don’t work at all, you’ll have 24 hours a day leisure and zero wages, represented by the point (24, 0) \nIf you work 24 hours a day, you’ll have zero leisure and $480 in wages, represented by point (0, 480). \nThe line connecting these points is your budget line\nBy choosing the number of hours you work, you can achieve any point on this line.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 56,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 57,
+   "text": "Head tax\n---\nNow consider a head tax\nThe amount collected is still 100\nSuppose you still worked for 10 hours \n(notice that this might NOT be optimal for you now, because price changed but you do not reoptimize. In other word, still working for 10 Hours is a lower bound for your welfare under the head tax)",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 58,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 59,
+   "text": "Intuition\n---\nYou might be surprised to learn that one tax can be preferable to another, even when they both collect the same amount of revenue. \nWhat’s the intuition behind this result?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 60,
+   "text": "Intuition: marginal analysis\n---\nSuppose first that you’re subject to the wage tax, so that your after-tax income is 10 per hour. \nThen, you choose point P \nAt this point, the marginal value of your leisure is exactly equal to your 10-per-hour wage rate.",
+   "pics": 0,
+   "notes": "You might be surprised to learn that one tax can be preferable to another, even\nwhen they both collect the same amount of revenue. But here’s a simpler example:\nWhich do you prefer, a $0 head tax or a 5,000,000% tax on shoes? Note that both\ntaxes collect the same amount of revenue: Under the head tax, you pay nothing, and\nunder the shoe tax, you also pay nothing, because you’ll surely choose to go barefoot.\nNevertheless, it’s better to pay the zero-dollar head tax and buy a pair of shoes."
+  },
+  {
+   "n": 61,
+   "text": "Intuition: marginal analysis\n---\nNow if the wage tax is suddenly abandoned and replaced by a head tax, you have the opportunity to earn 20 for an additional hour of work. \nBecause the marginal value of your leisure is only $10 per hour, you’ll welcome this opportunity and consider yourself better off.",
+   "pics": 0,
+   "notes": "You might be surprised to learn that one tax can be preferable to another, even\nwhen they both collect the same amount of revenue. But here’s a simpler example:\nWhich do you prefer, a $0 head tax or a 5,000,000% tax on shoes? Note that both\ntaxes collect the same amount of revenue: Under the head tax, you pay nothing, and\nunder the shoe tax, you also pay nothing, because you’ll surely choose to go barefoot.\nNevertheless, it’s better to pay the zero-dollar head tax and buy a pair of shoes."
+  },
+  {
+   "n": 62,
+   "text": "Intuition (2)\n---\nAn extreme example to build intuition:\nWhich do you prefer, a 0% head tax or a 5,000,000% sales tax on shoes? \nIn both case, government collect zero tax revenue, because you’ll surely choose to go barefoot if a pair of shoes cost 1,000,000RMB.\nNevertheless, it’s better to pay the zero-dollar head tax and buy a pair of shoes under the zero head tax.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 63,
+   "text": "Application 4\u000bDeriving the demand curve from the indifference curve",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 64,
+   "text": "From consumer choice to demand curve",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 65,
+   "text": "Important concepts related to consumer demand",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 66,
+   "text": "Consumer surplus",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 67,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 68,
+   "text": "Demand elasticity\n---\nWe have already learned the law of demand last time. \nSuppose we want more precise answers as to exactly how responsive quantity demanded is to a change in price. \nWidely used by economics: elasticity.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 69,
+   "text": "Elasticity\n---\nElasticity measures the sensitivity of one economic variable to a change in another. \nIt tells us how much one variable changes when another changes. \nMore precisely, elasticity is a ratio of percentage changes in variables.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 70,
+   "text": "Elasticity\n---\nNote that elasticity is NOT the same as the slope of a line. \nBy measuring changes in percentage terms, elasticity goes a step deeper than the slope relationship. \nElasticity is an important concept because it takes into account not only the direction of change but also the size of the change.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 71,
+   "text": "Elasticity\n---\nElasticities come in many forms, but in this chapter we focus on the most important ones associated with demand curves. \n1. The price elasticity of demand\n2. The cross-price elasticity of demand\n3. The income elasticity of demand",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 72,
+   "text": "The price elasticity of demand\n---\nTwo features of this computation are important.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 73,
+   "text": "The price elasticity of demand\n---\nFirst, because of the Law of Demand, the price elasticity of demand will generally be negative. \nThe negative sign is inconvenient, so we often drop the minus sign when reporting (so we are using the absolute value)\nNote that higher price elasticities mean that consumers are more responsive to a change in price.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 74,
+   "text": "The price elasticity of demand\n---\nSecond, whether the price elasticity of demand greater than or less than 1\nGreater than one: call it elastic\nLess than one: call it inelastic\nEqual to one: unit elasticity",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 75,
+   "text": "The price elasticity of demand\n---\nExtreme case: perfectly elastic and perfectly inelastic\nElasticity is infinite: demand is highly responsive to price changes: the smallest increase in price causes consumers to stop consuming the good altogether. \nDemand can also be perfectly inelastic, which means that quantity demanded is completely unaffected by price.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 76,
+   "text": "Graphic illustration",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 77,
+   "text": "Deepseek and Nvidia\n---\nAI companies need Nvidia chips to train their LLM. \nTo train one model, chip requirement is n\nNvidia’s price per chip is V (suppose this does not change)\nSuppose LLM companies are under fierce competition: near-zero profits, price for one model is  p=nV\nThe market demand for models: q=q(p)\nNvidia’s revenue: R=(nV)*q(p)=nV*q(nV)",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 78,
+   "text": "Deepseek and Nvidia\n---\nLet   m=nV. \nNvidia’s revenue: R=(nV)*q(p)=nV*q(nV)= m*q(m)\nNow, Deepseek find a way to train LLM with a lower n \nOpen-source: n all the round the world decrease: \nm decreases\nWhether Nvidia will experience a decrease or increase in revenue depend on the elasticity of demand on the LLM market!",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 79,
+   "text": "Jevons' Paradox?\n---\nJevons‘ Paradox:  \nAs technological improvements increase the efficiency of resource, the overall demand for that resource can actually increase rather than decrease.\nFrom basic microeconomics the Jevon’s Paradox is no paradox at all.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 80,
+   "text": "Moving Up and Down the Demand Curve",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 81,
+   "text": "Determinants of demand elasticities\n---\n1. Closeness of substitutes. \nSay the actress Yang Zi was chosen as the leading actress in a new movie. \nHowever, she suddenly asks a much higher remuneration\nHow would the producer act?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 82,
+   "text": "Who is Who?\n---\n傻傻分不清,看撞脸明星造型，你能分出她们吗？\n\n在娱乐圈总有那么几个名字让你熟悉，却分不清她们到底是哪张脸。不但外貌相似就连名字也很像！下面就看看以下哪位明星让你傻傻分不清吧！",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 83,
+   "text": "Who is Who?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 84,
+   "text": "Who is Who?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 85,
+   "text": "撞脸网红大乱斗…",
+   "pics": 2,
+   "notes": ""
+  },
+  {
+   "n": 86,
+   "text": "Low price elasticity of demand: \u000bonly one of its kind",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 87,
+   "text": "Determinants of demand elasticities\n---\n2. Budget share spent on the good. \nThe budget share relates to how important the good\n   is in your consumption bundle. \nIf It is just not important to your overall budget, perhaps you will not be sensitive to price changes, even large ones.\n As you spend more of your budget on a good, the price elasticity of demand should increase",
+   "pics": 0,
+   "notes": "The budget share relates to how important the good is in your consumption bundle.  \nPeople should give more weight to “important” goods and less weight to unimportant ones. \nIf the good represents a small fraction of your overall purchases, you will not be overly concerned if the price increases.  \nIt is just not important to your overall budget and so you are not sensitive to price changes, even large ones. \nAlternatively, if the good represents a large fraction of your budget—say, a house  or furniture purchase—then you are likely to be more responsive to price changes."
+  },
+  {
+   "n": 88,
+   "text": "Determinants of demand elasticities\n---\n3. Available time to adjust. \nWhen the price of oil jumps to a high level, would everyone immediately stop driving? \nOf course not.\nWhat happens when the price stay high for a longer time period?",
+   "pics": 0,
+   "notes": "Time is an important element in that people are more\nresponsive to price changes in the long run than in the short run."
+  },
+  {
+   "n": 89,
+   "text": "The Cross-Price Elasticity",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 90,
+   "text": "Complements v.s. Substitutes\n---\nIf a cross-price elasticity is negative, then we say the two goods are complements. \nThe fall in the price of one leads to a right shift in the demand curve for another. \nExample: Macbook and iPhone",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 91,
+   "text": "Complements v.s. Substitutes\n---\nIf a cross-price elasticity is positive, then we say the two goods are substitutes. \nExample: iPhone and Huawei Phone",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 92,
+   "text": "The Income Elasticity of Demand",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 93,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 94,
+   "text": "Normal vs inferior goods\n---\nNormal goods: when income rises, consumers buy more of that good. Income elas.>0\nInferior goods: when income rises, consumers buy less of that good. Income elas.<0",
+   "pics": 0,
+   "notes": ""
+  }
+ ]
+}

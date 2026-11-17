@@ -1,0 +1,627 @@
+=== P1 (23 chars) ===
+Simultaneous-Move Games
+=== P2 (344 chars) ===
+Example
+---
+Imagine yourself in the shoes of a person who has just committed armed robbery of a bank. 
+You and your partner in crime, Josie, are caught in the get-away vehicle,
+But before apprehension you both toss your guns into a drain. 
+The police take both of you into the local police station and place you in separate interrogation rooms.
+=== P3 (468 chars) ===
+1. If neither of you confesses to having a gun during the crime, you are both looking at jail time of 2 years for the robbery.
+2. If one confesses to having a gun, the confessor goes free and the other serves substantial jail time—10 years.
+3. If both of you confess to having a gun, then jail terms will be negotiated down to 5 years.
+ What should you do?
+---
+When the detectives enter your room, they outline three options for you and they told Josie the same thing
+=== P4 (77 chars) ===
+Key elements of any game:
+---
+1. The players
+2. The strategies
+3. The payoffs
+=== P5 (24 chars) ===
+Key elements of any game
+=== P6 (270 chars) ===
+Key elements of any game
+---
+A payoff matrix represents the payoffs for each action players can take in a game. 
+More years in jail represent lower payoffs.
+Game theory can easily include things like loyalty and kindness payoffs, but here we remove those considerations.
+=== P7 (360 chars) ===
+The scenario is a classic one known as the “prisoners’ dilemma.” 
+A simultaneous-move game: players select their actions at the same time. 
+both you and Josie have to pick your action simultaneously
+without knowing the other person’s choice. 
+But it is assumed that you each do know the entire payoff matrix—that is, you each know the payoffs for both players.
+=== P8 (246 chars) ===
+We also assume that other potentially important features, such as retribution after jail time is served, do not influence the payoffs of this game. 
+We are now in a position to ask the question game theory equips us to answer: what should you do?
+=== P9 (284 chars) ===
+Best Responses and the Prisoners’ Dilemma
+---
+A first step in figuring out how to play any game is to put yourself in the shoes of the other player. 
+That is, to think about what every possible action of the other player might be 
+Then, what your best choice will be for each of them.
+=== P10 (0 chars) ===
+
+=== P11 (0 chars) ===
+
+=== P12 (219 chars) ===
+Conclusion: no matter what you think Josie will do, you should always confess. 
+This means that when you are placed in such a game, you should always choose to confess, regardless of what you think your partner will do.
+=== P13 (350 chars) ===
+Dominant Strategies and Dominant Strategy Equilibrium
+---
+Definition: When a player has the same best response to every possible strategy of the other player(s), then we say that the player has a dominant strategy. 
+In the prisoner’s dilemma, confessing is a dominant strategy, because it is your best response to any strategy choice of your partner.
+=== P14 (275 chars) ===
+Dominant Strategies and Dominant Strategy Equilibrium
+---
+After doing the same exercise for Josie, you realize that Josie has a dominant strategy of confessing, too. 
+When a dominant strategy exists for both players, the notion of equilibrium for the game is straightforward.
+=== P15 (332 chars) ===
+Dominant Strategy Equilibrium
+---
+Definition: A strategy combination for the players is a dominant strategy equilibrium if the relevant strategy for each player is a dominant strategy. 
+In the game above, there is a dominant strategy equilibrium: both players should confess because confessing is a dominant strategy for each player
+=== P16 (345 chars) ===
+The “dilemma”
+---
+Interestingly, this equilibrium leads to an outcome that is NOT best for both players. 
+Even though both you and Josie would be better off if you both held out, the dominant strategy equilibrium is for both of you to confess! 
+This situation is the heart of the paradox that we have been studying so far—the prisoners’ dilemma.
+=== P17 (255 chars) ===
+The “dilemma”
+---
+By confessing, you and Josie will each spend 5 years in prison.
+However, if you were both to hold out, you would each spend 2 years in prison. 
+Both of you prefer the outcome (Hold Out, Hold Out).
+Nevertheless, both of you choose confess
+=== P18 (27 chars) ===
+The Payoff Matrix of a Game
+=== P19 (247 chars) ===
+Games without Dominant Strategies
+---
+Example
+You and your friend Gina, both like surfers, open up a surf shop, Hang Ten. 
+Your main competition is a surf shop down the street, La Jolla.
+One key decision that you must make is whether to advertise.
+=== P20 (139 chars) ===
+A summary of the three key elements
+---
+Players: Hang Ten and the La Jolla
+Strategies: To advertise or not to advertise
+Payoffs: next slide
+=== P21 (0 chars) ===
+
+=== P22 (48 chars) ===
+What should you do? 
+What is your best response?
+=== P23 (240 chars) ===
+Best response
+---
+If La Jolla does advertise, your best response is to advertise when you expect that La Jolla Surf Shop will advertise, because $400 > $300.
+If La  Surf does not place advertisements, your best is to not advertise yourself.
+=== P24 (436 chars) ===
+Do you have a dominant strategy in this game? 
+No; this is because your optimal strategy depends on what La Jolla Surf Shop chooses. 
+Does La Jolla have a dominant strategy? 
+By similar reasoning, it also does not have a dominant strategy. 
+Thus, there is no dominant strategy for your surf shop or for La Jolla Surf Shop. 
+In this case, you remain unsure as to what to do, because your optimal choice depends on the choice of La Jolla.
+=== P25 (140 chars) ===
+A key concept in game theory: you don’t always have a simple best response (a dominant strategy) that works against all strategies of others
+=== P26 (196 chars) ===
+In such cases, where should we expect to end up in the payoff matrix—does your shop advertise? 
+Does La Jolla Surf Shop advertise? 
+Do both of you advertise? 
+What is the equilibrium of this game?
+=== P27 (16 chars) ===
+Nash Equilibrium
+=== P28 (421 chars) ===
+Equilibrium concept we used in markets: all individuals are simultaneously optimizing, given the prices that they face in the market and their income levels. 
+To put this differently, no individual can (unilaterally) change his strategy and be better off (or improve his payoff). 
+This is intuitive: if a player did have a strategy that made him better off, then he would choose that strategy instead of the one he chose.
+=== P29 (341 chars) ===
+Nash Equilibrium
+---
+John Nash:
+In equilibrium, no player in a game can change strategy and improve his or her payoff. 
+
+Definition: a combination of strategies is a Nash equilibrium if each player chooses a strategy that is a best response to the strategies of others—that is, players are choosing strategies that are mutual best responses.
+=== P30 (200 chars) ===
+Nash equilibrium
+---
+NO one can change her choice and be better off. 
+According to the definition, the dominant strategy equilibrium that we found in the prisoner’s dilemma game is a Nash equilibrium.
+=== P31 (220 chars) ===
+Nash
+---
+This notion of equilibrium depends on two critical factors
+ all players understand the game and the payoffs associated with each strategy, and
+ that all players understand that other players understand the game.
+=== P32 (334 chars) ===
+Nash
+---
+In the context of a Nash equilibrium, we expect that an individual forms correct expectations about the intentions of other players in the game. 
+Experimental evidence on game theory shows that experience with a game may be necessary before we can safely assume that people act in the way that we think they are going to act.
+=== P33 (0 chars) ===
+
+=== P34 (312 chars) ===
+Nash equilibria
+---
+1. Your shop: advertise; La Jolla Surf Shop: advertise
+2. Your shop: don’t advertise; La Jolla Surf Shop: don’t advertise
+
+Note:
+It is a common occurrence in game theory to have more than one Nash equilibrium
+In these cases, other factors may determine which of the two equilibria are played.
+=== P35 (31 chars) ===
+Applications of Nash Equilibria
+=== P36 (131 chars) ===
+Tragedies of commons with two firms
+---
+Players: Firm 1 and Firm 2
+Strategies: To pollute or not to pollute
+Payoffs: See next slide
+=== P37 (0 chars) ===
+
+=== P38 (435 chars) ===
+As in the prisoners’ dilemma game, the dominant strategy equilibrium leads to an outcome that is quite bad for both players together: to pollute—even though each player is choosing what is unilaterally best for himself or herself. 
+Nevertheless, in the dominant strategy equilibrium, both firms choose to pollute, and both they and society (which suffers from greater pollution) are worse off, creating a tragedy of the commons result.
+=== P39 (334 chars) ===
+This simple game structure contains some of the important elements of a crucial situation facing many corporations and individuals today: the pressing issue of not dirtying our planet. 
+And the Nash equilibrium of this game highlights exactly why we end up with dirty water and air, and why government intervention might be necessary.
+=== P40 (272 chars) ===
+Zero-Sum Games
+---
+Soccer:
+Suppose that you are the designated penalty kicker for your soccer team. 
+Every time you walk up to the ball, you have an important decision to make: aim for the left of the net or for the right of the net 
+What should you do in such situations?
+=== P41 (281 chars) ===
+The goalie will try to anticipate your behavior and will dive to the left or to the right. 
+If he dives to the side where you kick the ball, then he has a pretty good chance of stopping it from going into the net, and if he dives to the opposite side, you are very likely to score.
+=== P42 (98 chars) ===
+In this example, the payoff matrix represents a zero-sum game: one player’s loss is another’s gain
+=== P43 (147 chars) ===
+A summary of the three key elements in this game are as follows:
+---
+Players: You and the goalie
+Strategies: Right or left
+Payoffs: the above table
+=== P44 (314 chars) ===
+Zero-sum games are quite common in the real world.
+Whenever we sit down to play poker, our gains are another player’s losses. 
+Whenever two companies compete to sell to the same consumers, one company’s gain is the other one’s loss.
+Redistribution is also often zero-sum: one person’s gain is often another’s loss.
+=== P45 (232 chars) ===
+No Nash equilibrium exists, because no cell in the matrix has two arrows pointing in. 
+Therefore, the notion of Nash equilibrium that we have developed so far doesn’t make any predictions about the behavior in the penalty kick game.
+=== P46 (325 chars) ===
+In fact, choosing randomly has a clear advantage in this game relative to a pure strategy, which involves always choosing a single action for a situation. 
+Consider one scenario of a pure strategy for yourself: always kick right. 
+If you always kick right, in time goalies will notice and best respond by always diving right.
+=== P47 (392 chars) ===
+Reasoning this way, we can see that any kind of predictable behavior by the kicker can be taken advantage of by the goalie, and vice versa. 
+
+If you are the kicker, you should therefore be as unpredictable as possible. 
+Put differently, you should randomize by playing a mixed strategy, which involves choosing between different actions randomly (according to some preassigned probabilities).
+=== P48 (39 chars) ===
+How Do People Actually Play Such Games?
+=== P49 (298 chars) ===
+Do people really play Nash equilibria in practice? 
+What about dominant strategies—are those frequently played? 
+One might think that the answer to these questions should be a simple yes or no. 
+But these questions are difficult to answer—in both the lab and in the real world—for two main reasons.
+=== P50 (350 chars) ===
+The first reason is that we often do not know the exact payoffs of individuals playing the game. 
+In constructing the matrix games in the previous sections, we chose the payoffs and assumed that they were correct. 
+In real-world situations, the payoffs are determined by the attitudes and feelings of individuals as well as by their monetary returns.
+=== P51 (204 chars) ===
+A second reason: game theory is only a theory
+Models/theories are not literal descriptions of how the world works—they are merely useful abstractions. 
+As such, game theory abstracts from several details.
+=== P52 (454 chars) ===
+In many situations, one player may be more cunning, wiser, or more experienced than another.
+For example, of two chess players, the more experienced, more clever player is likely to win. 
+In many matrix games (with two or several players), repetition of the game usually ensures that results come closer to the Nash equilibrium. 
+With these caveats in mind, we turn to an example to illustrate how game theory’s predictions fare in real-world situations.
+=== P53 (285 chars) ===
+Game Theory in Penalty Kicks
+---
+Consider again the situation faced by penalty kickers and goalies. 
+As you have already learned, the best move for both sides is to employ a mixed strategy—randomly choose left or right for each kick. 
+But is that what actually happens in soccer games?
+=== P54 (283 chars) ===
+Three economists decided to analyze all the penalty kicks taken during a 3-year period in the French and Italian soccer leagues in order to test game theory. 
+By examining 459 penalty kicks, they were able to test whether the players actually did play mixed strategy Nash equilibria.
+=== P55 (327 chars) ===
+They classified kickers’ and goalies’ choices into one of three strategies: Left, Right, and Center. 
+This is just a bit more complicated than our Left/Right example earlier in the chapter, but the logic of the game’s mixed-strategy Nash equilibrium is the same: penalty kickers and goalies should randomize across the choices.
+=== P56 (328 chars) ===
+Amazingly, this is just what the economists found in the data. 
+The kickers and goalies both seemed to be randomizing their direction choices almost perfectly. 
+Game theory predicted the behavior of these players very well.
+A related study found a similar pattern of randomization in serve choices in professional tennis matches
+=== P57 (20 chars) ===
+Extensive-Form Games
+=== P58 (330 chars) ===
+The games that we have discussed so far all revolve around two players choosing an action simultaneously.
+Suppose that, instead, one player goes first and the other chooses an action only after seeing how the first player chose. 
+This type of situation, which specifies the order of play, is represented by an extensive-form game.
+=== P59 (0 chars) ===
+
+=== P60 (90 chars) ===
+In extensive-form games, the strategies are a little bit richer than in simultaneous games
+=== P61 (11 chars) ===
+A game tree
+=== P62 (315 chars) ===
+Backward Induction
+---
+The easiest way of approaching any extensive-form game is to use backward induction. 
+Backward induction is the procedure of solving an extensive-form game by first considering the last mover’s decision. 
+Given the last mover’s decision, we then consider the second-to- last mover, and so on.
+=== P63 (259 chars) ===
+First-Mover Advantage, commitment
+---
+The equilibrium described above is much more favorable to you than to Gina: you receive $500, whereas she receives $300. 
+This outcome occurs even though the payoffs to the different actions are the same for you and Gina.
+=== P64 (217 chars) ===
+We say that the sequential game features a first-mover advantage if the first mover earns more benefits than the second mover earns. 
+One particularly relevant form of first-mover advantage is the value of commitment.
+=== P65 (153 chars) ===
+Suppose Gina threaten you with punishment, using the following strategy: “If you surf, I will go surfing, too!”
+If you believed in her，what would happen?
+=== P66 (11 chars) ===
+A game tree
+=== P67 (93 chars) ===
+A game tree
+---
+But are you going to believe in her? 
+In other words, is her threat credible?
+=== P68 (253 chars) ===
+Is there any way that Gina can turn the tables on you by taking away the first-mover advantage? 
+In fact, there is. 
+The trick is for her to make a credible commitment. 
+A commitment is an action that one cannot turn back on later, even if it is costly.
+=== P69 (330 chars) ===
+Several modes of behavior may be understood in light of this example. 
+Suppose, for example, that you can consciously or subconsciously (truthfully, or perhaps just for show) establish a reputation as somebody who bears a grudge and who would seek revenge against misdeeds, even though this behavior is potentially costly for you.
+=== P70 (267 chars) ===
+If you can commit to punishing bullies, you likely won’t be bullied. 
+This reasoning also suggests that perhaps vengeance or a reputation for revenge-seeking behavior might be supported by game theory
+In other words, these behaviors are rational in an economic sense.
+=== P71 (17 chars) ===
+Game Applications
+=== P72 (41 chars) ===
+Best Response Curves and Nash Equilibrium
+=== P73 (153 chars) ===
+Best Response Curves
+---
+If there is a unique best response for each choice, then the best response curves can be represented as best response functions.
+=== P74 (111 chars) ===
+Mixed Strategies
+---
+Row chooses probability r of playing top and column chooses probability c of playing left.
+=== P75 (0 chars) ===
+
+=== P76 (306 chars) ===
+Mixed Strategies
+---
+The expected payoff to row:    
+     Row’s payoff = 2rc + (1 − r)(1 − c) = 2rc + 1 − r − c + rc
+     Δpayoff to row = 2c Δr − Δr + c Δr = (3c − 1)Δr.
+
+Similarly, the payoff to column:
+     Column’s payoff = cr + 2(1 − c)(1 − r)
+     Δpayoff to column = r Δc + 2r Δc − 2Δc = (3r − 2)Δc.
+=== P77 (544 chars) ===
+Mixed Strategies
+---
+Row’s payoff = (3c−1)r+1−c             Δpayoff to row = (3c − 1)Δr.
+Column’s payoff = (3r−2)c+2-2r       Δpayoff to column = (3r − 2)Δc.
+---
+We can use this information to plot the best response curves. 
+Start with row. If column choses c = 0, row will want to make r as small as possible, so r = 0 is the best response to c = 0. 
+This choice will continue to be the best response up until c = 1/3, at which point any value of r between 0 and 1 is a best response.
+ For all c > 1/3, the best response row can make is r = 1.
+=== P78 (380 chars) ===
+Mixed Strategies
+---
+It is easy to see that they cross in three places: (0, 0), (2/3, 1/3), and (1, 1), which correspond to the three Nash equilibria of this game. 
+
+Two of these strategies are pure strategies, and one is a mixed strategy.
+---
+Row’s payoff = (3c−1)r+1−c             Δpayoff to row = (3c − 1)Δr.
+Column’s payoff = (3r−2)c+2-2r       Δpayoff to column = (3r − 2)Δc.
+=== P79 (290 chars) ===
+Games of Coordination
+---
+Coordination games:  games where the payoffs to the players are highest when they can coordinate their strategies.
+There is no way to ensure that players can coordinate automatically, however
+The problem then is to develop mechanisms that enable this coordination.
+=== P80 (300 chars) ===
+Example: Battle of the Sexes
+---
+A boy and a girl want to meet at a movie for a date, but haven’t had a chance to arrange which one. 
+The boy prefers action movies, while the girl prefers art films.
+They have no way to coordinate their meeting
+Have to guess which movie the other will want to attend.
+=== P81 (75 chars) ===
+What are the Nash equilibria of this game?
+---
+Example: Battle of the Sexes
+=== P82 (144 chars) ===
+Battle of the Sexes
+---
+Three equilibria: both choose action, both choose art, or each chooses his or her preferred choice with probability 2/3.
+=== P83 (496 chars) ===
+Hard to predict which equilibrium will occur
+Generally, we would look to considerations outside the formal description of the game to resolve the problem. 
+For example, suppose that the art film was a closer destination for one of the two players. Then both players might reasonably suppose that would be the equilibrium choice.
+When players have good reasons to believe that one of the equilibria is more “natural” than the others, it is called a focal point of the game.
+---
+Battle of the Sexes
+=== P84 (407 chars) ===
+Example 2: prisoner’s dilemma
+---
+Prisoner’s Dilemma is also a coordination game
+One way out of the prisoner’s dilemma is to enlarge the game by adding new choices. 
+Example (在更高级的课程中会讲授）:  An infinitely repeated prisoner’s dilemma game could achieve the cooperative outcome via strategies like tit for tat （”以眼还眼以牙还牙”）
+Another way to “solve” the prisoner’s dilemma is to add the possibility of contracting.
+=== P85 (141 chars) ===
+Example 3: Assurance Games
+---
+U.S.-U.S.S.R. arms race of the 1950s 
+Each country could build nuclear missiles or refrain from building them.
+=== P86 (281 chars) ===
+The trouble is, neither party knows which choice the other will make. 
+Before committing to refrain, each party wants some assurance that the other will refrain.
+One way to achieve this assurance is for one of the players to move first, for example, by opening itself to inspection
+=== P87 (207 chars) ===
+Example 4: Chicken
+---
+Two teenagers start at opposite ends of the street and drive in a straight line toward each other. 
+The first to swerve loses face; if neither swerves, they both crash into each other.
+=== P88 (158 chars) ===
+Example 4: Chicken
+---
+Two pure strategy Nash equilibria
+Column prefers the first equilibrium and row the second, but each equilibrium is better than a crash.
+=== P89 (288 chars) ===
+So how can one of the players enforce his preferred equilibrium?
+One important strategy is commitment.
+Suppose that row ostentatiously fastened a steering wheel lock on his car before starting out. Column, recognizing that row now has no choice but to go straight, would choose to swerve.
+=== P90 (193 chars) ===
+《史记·项羽本纪》
+---
+项羽乃悉引兵渡河，皆沉船，破釜甑，烧庐舍，持三日粮，以示士卒必死，无一还心。于是至则围王离，与秦军遇，九战，绝其甬道，大破之，杀苏角，虏王离。涉间不降楚，自烧杀。当是时，楚兵冠诸侯。诸侯军救巨鹿下者十余壁，莫敢纵兵。及楚击秦，诸将皆从壁上观。楚战士无不一以当十，楚兵呼声动天，诸侯军无不人人惴恐。于是已破秦军，项羽召见诸侯将，入辕门，无不膝行而前，莫敢仰视。
+=== P91 (447 chars) ===
+Games of Coordination
+---
+How to Coordinate
+---
+Assurance Games
+(cooperate at an equilibrium that you both like)
+---
+Battle of the Sexes
+(cooperate at an equilibrium one of you likes)
+---
+Chicken
+(make a choice leading to your preferred outcome)
+---
+Prisoner’s Dilemma
+(play something other than the equilibrium strategy)
+---
+Sequential moves
+(one player’s moving first,
+ and committing herself to a particular choice.)
+---
+Repetition/ contracting
+=== P92 (351 chars) ===
+Games of Competition
+---
+The opposite pole from cooperation is competition. 
+Zero-sum games
+Let us illustrate a zero-sum game by looking at soccer.
+Row is kicking a penalty shot and column is defending. Row can kick to the left or kick to the right; column can favor one side and defend to the left or defend to the right in order to deflect the kick.
+=== P93 (323 chars) ===
+Penalty Kick Game
+---
+Row will score 80 percent of the time if he kicks to the left and column jumps to the right; but only 50 percent of the time if column jumps to the left. 
+If row kicks to the right, he succeeds 90 percent of the time if column jumps to the left but 20 percent of the time if column jumps to the right.
+=== P94 (357 chars) ===
+Penalty Kick Game
+---
+Obviously, if column knows which way row will kick she will have a tremendous advantage. 
+Row, recognizing this, will therefore try to keep column guessing. 
+In particular, he will kick sometimes to his strong side and sometimes to his weak side. That is, he will pursue a mixed strategy.
+Assume that row kicks left with probability p.
+=== P95 (0 chars) ===
+
+=== P96 (244 chars) ===
+Penalty Kick Game
+---
+Another strategy to solve this game:
+Key observation:
+When row chooses 0.7, column is indifferent between jumping left and jumping right, or, for that matter jumping left with any probability q. 
+Similar for the other side
+=== P97 (395 chars) ===
+Games of Coexistence
+---
+Hawk-dove game
+A single species that exhibits two kinds of behavior. 
+When two wild dogs come across a piece of food, they have to decide whether to fight or to share. 
+Fighting is called the hawkish strategy. Sharing is called a dovish strategy.
+The type that has the higher payoff reproduces more rapidly, passing its tendency to play hawk or dove on to its offspring.
+=== P98 (138 chars) ===
+Hawk-dove game
+---
+There will have to be some mixture of hawk types and dove types in equilibrium. 
+What sort of mixture should we expect?
+=== P99 (283 chars) ===
+Assume the fraction playing hawk is p. Then a hawk will meet another hawk with probability p and a dove with 1 − p.
+The expected payoff to the hawk type:
+                             H = −2p + 4(1 − p).
+The expected payoff to the dove type:
+                             D = 2(1 − p).
+=== P100 (252 chars) ===
+If H>D,  the fraction of hawk types in the population increase, and if H<D, the number of dove types increase.
+The only way the population can be in equilibrium is if the payoffs to each type are the same:
+H = −2p + 4(1 − p) = 2(1 − p) = D,
+or
+p = 1/2.
+=== P101 (39 chars) ===
+Games of Coexistence
+---
+Hawk-dove game
+=== P102 (203 chars) ===
+Hawk-Dove Game
+---
+p = 1/2 is not only an equilibrium but it is also stable under evolutionary forces. 
+Considerations of this sort lead to a concept known as an evolutionarily stable strategy or an ESS.
+=== P103 (246 chars) ===
+Games of Commitment
+---
+We now turn to sequential moves, or extensive-form game. 
+An important strategic issue that arises in such games is commitment. 
+Note that this committed choice must be both irreversible and observable by the other player.
+=== P104 (334 chars) ===
+Games of Commitment
+---
+The Frog and the Scorpion
+The frog and the scorpion. They were standing on the bank of the river, trying to figure out a way across.
+If the frog chooses to carry the scorpion, the scorpion will choose to sting him and both will die, but the scorpion will get satisfaction from fulfilling his natural instincts.
+=== P105 (152 chars) ===
+青蛙和蝎子
+---
+一只蝎子请求一只青蛙背它过河。青蛙犹豫了，因为它担心蝎子会蛰它。蝎子向青蛙保证它不会这样做，因为蛰它是没有道理的，因为那样它们都会溺死。
+    青蛙被说服了，于是同意帮助。然而，在渡河途中，蝎子果然蛰了青蛙。眼看它们都将溺亡，青蛙问蝎子为什么要这么做。蝎子回答说：“这是我的本性。”
+=== P106 (25 chars) ===
+The Frog and the Scorpion
+=== P107 (264 chars) ===
+Stinging has a higher payoff to the scorpion because “it is his nature” to sting. 
+Hence the frog should rationally choose to refuse to carry the scorpion.
+Unfortunately, the frog didn’t understand the scorpion’s payoffs.
+Alas, this mistake was fatal for the frog.
+=== P108 (414 chars) ===
+Games of Commitment
+---
+The Frog and the Scorpion
+A smart frog would figure out some way to make the scorpion commit to not stinging. 
+He could, for example, tie his tail. Or he could hire a hit frog, who would retaliate against the scorpion’s family.
+Whatever the strategy, the critical thing for the frog to do is to change the payoffs to the scorpion by making stinging more costly or refraining more rewarding.
+=== P109 (338 chars) ===
+Games of Commitment
+---
+The Kindly Kidnapper
+Suppose some kidnappers abduct a hostage and then discover that they can’t get paid. Should they release the hostage? The hostage, of course, promises not to reveal the identity of the kidnappers. But will he keep this promise?
+We assume the kidnapper would feel bad about killing the hostage.
+=== P110 (44 chars) ===
+Games of Commitment
+---
+The Kindly Kidnapper
+=== P111 (510 chars) ===
+Games of Commitment
+---
+The Kindly Kidnapper
+Now it is the hostage who has the commitment problem: how can he convince the kidnappers that he won’t renege on his promise and reveal their identity?
+The hostage needs to figure out a way to change the payoffs of the game. He might have the kidnappers photograph him in some embarrassing act and leave them with the photos.
+This sort of strategy is known as an “exchange of hostages.”. The embarrassing photo would impose costs on the hostage if it were released.
+=== P112 (149 chars) ===
+《史记·王翦列传》
+---
+王翦行，请美田宅园池甚众。始皇曰：‘将军行矣，何忧贫乎？’王翦曰：“为大王将，有功终不得封侯，故及大王之向臣，臣亦及时以请园池为子孙业耳。”
+
+部下不解，王翦解释： 
+    “夫秦王怚而不信人。今空秦国甲士而专委于我，我不多请田宅为子孙业以自坚，顾令秦王坐而疑我邪？”
+=== P113 (285 chars) ===
+Games of Commitment
+---
+Some psychologists put two pigs, one dominant, one subordinate, in a long pen. 
+At one end of the pen was a lever that would release a portion of food to a trough located at the other end of the pen. 
+Which pig would push the lever and which would eat the food?
+=== P114 (25 chars) ===
+When Strength Is Weakness
+=== P115 (0 chars) ===
+
+=== P116 (335 chars) ===
+When strength is weakness
+---
+Somewhat surprisingly the outcome of the experiment was that the dominant pig pressed the lever, while the subordinate pig waited for the food. 
+The subordinate pig then ate most of the food, while the dominant pig rushed as fast as it could to the trough end of the pen, ending up with only a few scraps.
+=== P117 (25 chars) ===
+When Strength Is Weakness
+=== P118 (124 chars) ===
+Saving and Social Security
+---
+Commitment problems aren’t limited to the animal world. They also show up in economic policy.
+=== P119 (201 chars) ===
+Games of Commitment
+---
+Saving for retirement is an important example
+Two strategies for the older generation: save or squander. 
+The younger gen: support their elders or save for their own retirement.
+=== P120 (93 chars) ===
+Games of Commitment
+---
+Savings and Social Security
+ Consider the time structure of the game:
+=== P121 (449 chars) ===
+Hold Up 敲竹杠
+---
+You hire a contractor to build a warehouse. 
+After the construction is almost done, you realize that the color is bad and ask the contractor to change the paint, which involves a trivial expense. The contractor charges you 1500.
+You recognize that it will cost you at least that much to delay completion until you can find a painter, and you really do want the new color, so, you pay the cost. (actual cost of painting is only 200……)
+=== P122 (0 chars) ===
+
+=== P123 (179 chars) ===
+Hold Up
+---
+How do firms solve the hold-up problem?
+The basic answer is contracts. 
+Another way to solve the problem is through commitment.
+Another important factor is reputation.
+=== P124 (416 chars) ===
+Bargaining game
+---
+Rubinstein bargaining model
+Alice and Bob, have $1 to divide between them. 
+They agree to spend at most three days negotiating over the division.
+The first day, Alice will make an offer.
+      The next day, Bob either accepts or comes back with a counteroffer.
+      The third day, Alice gets to make one final offer. 
+      If they cannot reach an agreement in three days, both players get zero.
+=== P125 (630 chars) ===
+Bargaining
+---
+Assume Alice and Bob differ in their degree of impatience: Alice discounts payoffs in the future at a rate of α per day, and Bob discounts payoffs at a rate of β per day.
+We also assume that if a player is indifferent between two offers, he will accept the one that is most preferred by his opponent. 
+We start our analysis at the end of the game, right before the last day.
+       At this point Alice can make a take-it-or-leave-it offer to Bob. 
+       Clearly, the optimal thing for Alice to do at this point is to offer Bob the
+       smallest possible amount that he would accept, which, by assumption, is zero
+=== P126 (636 chars) ===
+Bargaining
+---
+If the game lasts three days, Alice will get $1 and Bob would get zero (i.e., an arbitrarily small amount).
+Go back to the previous move, Bob should realize that Alice can guarantee herself $1 on the next move by simply rejecting his offer. 
+A dollar next period is worth α to Alice this period, Bob certainly prefers 1−α now to zero next period, so he should rationally offer α to Alice, which Alice will then accept. 
+So if the game ends on the second move, Alice gets α and Bob gets 1 − α.
+Move to the first day. At this point Alice similarly offers β(1 − α) to Bob. Bob finds this (just) acceptable and the game ends.
+=== P127 (227 chars) ===
+Bargaining
+---
+The final outcome is that the game ends on the first move with Alice 
+receiving 1 − β(1 − α) and Bob receiving β(1 − α).
+
+It is natural to let the horizon go to infinity and ask what happens in the infinite game.
+=== P128 (401 chars) ===
+Bargaining
+---
+The Ultimatum Game
+Economists test the Rubinstein bargaining model in the laboratory. Unfortunately, it doesn’t work out like that.
+There are many proposed explanations for this. One view is that too small an offer violates social norms of behavior.
+Another, not inconsistent view, is that receivers get some utility payoff from hurting the offerers, in retaliation for the small offer.

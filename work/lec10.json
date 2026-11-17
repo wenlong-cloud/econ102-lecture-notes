@@ -1,0 +1,778 @@
+{
+ "file": "Lecture 10 Game updated 20250506.pptx",
+ "count": 128,
+ "size": [
+  9144000,
+  6858000
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "text": "Simultaneous-Move Games",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 2,
+   "text": "Example\n---\nImagine yourself in the shoes of a person who has just committed armed robbery of a bank. \nYou and your partner in crime, Josie, are caught in the get-away vehicle,\nBut before apprehension you both toss your guns into a drain. \nThe police take both of you into the local police station and place you in separate interrogation rooms.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 3,
+   "text": "1. If neither of you confesses to having a gun during the crime, you are both looking at jail time of 2 years for the robbery.\n2. If one confesses to having a gun, the confessor goes free and the other serves substantial jail time—10 years.\n3. If both of you confess to having a gun, then jail terms will be negotiated down to 5 years.\n\u000b What should you do?\n---\nWhen the detectives enter your room, they outline three options for you and they told Josie the same thing",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 4,
+   "text": "Key elements of any game:\n---\n1. The players\n2. The strategies\n3. The payoffs",
+   "pics": 2,
+   "notes": ""
+  },
+  {
+   "n": 5,
+   "text": "Key elements of any game",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 6,
+   "text": "Key elements of any game\n---\nA payoff matrix represents the payoffs for each action players can take in a game. \nMore years in jail represent lower payoffs.\nGame theory can easily include things like loyalty and kindness payoffs, but here we remove those considerations.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 7,
+   "text": "The scenario is a classic one known as the “prisoners’ dilemma.” \nA simultaneous-move game: players select their actions at the same time. \nboth you and Josie have to pick your action simultaneously\nwithout knowing the other person’s choice. \nBut it is assumed that you each do know the entire payoff matrix—that is, you each know the payoffs for both players.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 8,
+   "text": "We also assume that other potentially important features, such as retribution after jail time is served, do not influence the payoffs of this game. \nWe are now in a position to ask the question game theory equips us to answer: what should you do?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 9,
+   "text": "Best Responses and the Prisoners’ Dilemma\n---\nA first step in figuring out how to play any game is to put yourself in the shoes of the other player. \nThat is, to think about what every possible action of the other player might be \nThen, what your best choice will be for each of them.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 10,
+   "text": "",
+   "pics": 1,
+   "notes": "To determine your best response to Josie’s holding out, you consider the column under Josie’s strategy of Hold Out and again compare your payoffs under your two possible strategies. In this case, if you confess you will walk free, and if you hold out you will spend 2 years in prison."
+  },
+  {
+   "n": 11,
+   "text": "",
+   "pics": 1,
+   "notes": "To determine your best response to a specific strategy by Josie, you first consider the column corresponding to that strategy. In this case, you take the column for Josie corresponding to Confess. You then compare your payoffs under your two strategies, Confess and Hold Out. You can see that when you confess in this case you will get 5 years, whereas if you hold out, you will get 10 years."
+  },
+  {
+   "n": 12,
+   "text": "Conclusion: no matter what you think Josie will do, you should always confess. \nThis means that when you are placed in such a game, you should always choose to confess, regardless of what you think your partner will do.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 13,
+   "text": "Dominant Strategies and Dominant Strategy Equilibrium\n---\nDefinition: When a player has the same best response to every possible strategy of the other player(s), then we say that the player has a dominant strategy. \nIn the prisoner’s dilemma, confessing is a dominant strategy, because it is your best response to any strategy choice of your partner.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 14,
+   "text": "Dominant Strategies and Dominant Strategy Equilibrium\n---\nAfter doing the same exercise for Josie, you realize that Josie has a dominant strategy of confessing, too. \nWhen a dominant strategy exists for both players, the notion of equilibrium for the game is straightforward.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 15,
+   "text": "Dominant Strategy Equilibrium\n---\nDefinition: A strategy combination for the players is a dominant strategy equilibrium if the relevant strategy for each player is a dominant strategy. \nIn the game above, there is a dominant strategy equilibrium: both players should confess because confessing is a dominant strategy for each player",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 16,
+   "text": "The “dilemma”\n---\nInterestingly, this equilibrium leads to an outcome that is NOT best for both players. \nEven though both you and Josie would be better off if you both held out, the dominant strategy equilibrium is for both of you to confess! \nThis situation is the heart of the paradox that we have been studying so far—the prisoners’ dilemma.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 17,
+   "text": "The “dilemma”\n---\nBy confessing, you and Josie will each spend 5 years in prison.\nHowever, if you were both to hold out, you would each spend 2 years in prison. \nBoth of you prefer the outcome (Hold Out, Hold Out).\nNevertheless, both of you choose confess",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 18,
+   "text": "The Payoff Matrix of a Game",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 19,
+   "text": "Games without Dominant Strategies\n---\nExample\nYou and your friend Gina, both like surfers, open up a surf shop, Hang Ten. \nYour main competition is a surf shop down the street, La Jolla.\nOne key decision that you must make is whether to advertise.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 20,
+   "text": "A summary of the three key elements\n---\nPlayers: Hang Ten and the La Jolla\nStrategies: To advertise or not to advertise\nPayoffs: next slide",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 21,
+   "text": "",
+   "pics": 1,
+   "notes": "In this payoff matrix, the payoffs of the two surf shops depend on whether each decides to advertise or not to advertise. For example, the cell at the top left corner shows that if you both advertise, you will each receive a payoff of $400, while the cell at the bottom right shows that if you both choose not to advertise, you will each receive a payoff of $800."
+  },
+  {
+   "n": 22,
+   "text": "What should you do? \nWhat is your best response?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 23,
+   "text": "Best response\n---\nIf La Jolla does advertise, your best response is to advertise when you expect that La Jolla Surf Shop will advertise, because $400 > $300.\nIf La  Surf does not place advertisements, your best is to not advertise yourself.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 24,
+   "text": "Do you have a dominant strategy in this game? \nNo; this is because your optimal strategy depends on what La Jolla Surf Shop chooses. \nDoes La Jolla have a dominant strategy? \nBy similar reasoning, it also does not have a dominant strategy. \nThus, there is no dominant strategy for your surf shop or for La Jolla Surf Shop. \nIn this case, you remain unsure as to what to do, because your optimal choice depends on the choice of La Jolla.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 25,
+   "text": "A key concept in game theory: you don’t always have a simple best response (a dominant strategy) that works against all strategies of others",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 26,
+   "text": "In such cases, where should we expect to end up in the payoff matrix—does your shop advertise? \nDoes La Jolla Surf Shop advertise? \nDo both of you advertise? \nWhat is the equilibrium of this game?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 27,
+   "text": "Nash Equilibrium",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 28,
+   "text": "Equilibrium concept we used in markets: all individuals are simultaneously optimizing, given the prices that they face in the market and their income levels. \nTo put this differently, no individual can (unilaterally) change his strategy and be better off (or improve his payoff). \nThis is intuitive: if a player did have a strategy that made him better off, then he would choose that strategy instead of the one he chose.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 29,
+   "text": "Nash Equilibrium\n---\nJohn Nash:\nIn equilibrium, no player in a game can change strategy and improve his or her payoff. \n\nDefinition: a combination of strategies is a Nash equilibrium if each player chooses a strategy that is a best response to the strategies of others—that is, players are choosing strategies that are mutual best responses.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 30,
+   "text": "Nash equilibrium\n---\nNO one can change her choice and be better off. \nAccording to the definition, the dominant strategy equilibrium that we found in the prisoner’s dilemma game is a Nash equilibrium.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 31,
+   "text": "Nash\n---\nThis notion of equilibrium depends on two critical factors\n all players understand the game and the payoffs associated with each strategy, and\n that all players understand that other players understand the game.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 32,
+   "text": "Nash\n---\nIn the context of a Nash equilibrium, we expect that an individual forms correct expectations about the intentions of other players in the game. \nExperimental evidence on game theory shows that experience with a game may be necessary before we can safely assume that people act in the way that we think they are going to act.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 33,
+   "text": "",
+   "pics": 1,
+   "notes": "In this payoff matrix, the payoffs of the two surf shops depend on whether each decides to advertise or not to advertise. For example, the cell at the top left corner shows that if you both advertise, you will each receive a payoff of $400, while the cell at the bottom right shows that if you both choose not to advertise, you will each receive a payoff of $800."
+  },
+  {
+   "n": 34,
+   "text": "Nash equilibria\n---\n1. Your shop: advertise; La Jolla Surf Shop: advertise\n2. Your shop: don’t advertise; La Jolla Surf Shop: don’t advertise\n\nNote:\nIt is a common occurrence in game theory to have more than one Nash equilibrium\nIn these cases, other factors may determine which of the two equilibria are played.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 35,
+   "text": "Applications of Nash Equilibria",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 36,
+   "text": "Tragedies of commons with two firms\n---\nPlayers: Firm 1 and Firm 2\nStrategies: To pollute or not to pollute\nPayoffs: See next slide",
+   "pics": 0,
+   "notes": "With the necessary tools in place, we can now begin to study some of the ways in which we apply game theory to understand real-world problems. \nWe’ll consider two quite different scenarios: pollution and soccer."
+  },
+  {
+   "n": 37,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 38,
+   "text": "As in the prisoners’ dilemma game, the dominant strategy equilibrium leads to an outcome that is quite bad for both players together: to pollute—even though each player is choosing what is unilaterally best for himself or herself. \nNevertheless, in the dominant strategy equilibrium, both firms choose to pollute, and both they and society (which suffers from greater pollution) are worse off, creating a tragedy of the commons result.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 39,
+   "text": "This simple game structure contains some of the important elements of a crucial situation facing many corporations and individuals today: the pressing issue of not dirtying our planet. \nAnd the Nash equilibrium of this game highlights exactly why we end up with dirty water and air, and why government intervention might be necessary.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 40,
+   "text": "Zero-Sum Games\n---\nSoccer:\nSuppose that you are the designated penalty kicker for your soccer team. \nEvery time you walk up to the ball, you have an important decision to make: aim for the left of the net or for the right of the net \nWhat should you do in such situations?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 41,
+   "text": "The goalie will try to anticipate your behavior and will dive to the left or to the right. \nIf he dives to the side where you kick the ball, then he has a pretty good chance of stopping it from going into the net, and if he dives to the opposite side, you are very likely to score.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 42,
+   "text": "In this example, the payoff matrix represents a zero-sum game: one player’s loss is another’s gain",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 43,
+   "text": "A summary of the three key elements in this game are as follows:\n---\nPlayers: You and the goalie\nStrategies: Right or left\nPayoffs: the above table",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 44,
+   "text": "Zero-sum games are quite common in the real world.\nWhenever we sit down to play poker, our gains are another player’s losses. \nWhenever two companies compete to sell to the same consumers, one company’s gain is the other one’s loss.\nRedistribution is also often zero-sum: one person’s gain is often another’s loss.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 45,
+   "text": "No Nash equilibrium exists, because no cell in the matrix has two arrows pointing in. \nTherefore, the notion of Nash equilibrium that we have developed so far doesn’t make any predictions about the behavior in the penalty kick game.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 46,
+   "text": "In fact, choosing randomly has a clear advantage in this game relative to a pure strategy, which involves always choosing a single action for a situation. \nConsider one scenario of a pure strategy for yourself: always kick right. \nIf you always kick right, in time goalies will notice and best respond by always diving right.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 47,
+   "text": "Reasoning this way, we can see that any kind of predictable behavior by the kicker can be taken advantage of by the goalie, and vice versa. \n\nIf you are the kicker, you should therefore be as unpredictable as possible. \nPut differently, you should randomize by playing a mixed strategy, which involves choosing between different actions randomly (according to some preassigned probabilities).",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 48,
+   "text": "How Do People Actually Play Such Games?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 49,
+   "text": "Do people really play Nash equilibria in practice? \nWhat about dominant strategies—are those frequently played? \nOne might think that the answer to these questions should be a simple yes or no. \nBut these questions are difficult to answer—in both the lab and in the real world—for two main reasons.",
+   "pics": 0,
+   "notes": "Now that we’ve seen some real-world applications of game theory, \nlet’s analyze how real-world actors play in similar situations and how well game theory predicts real-life behavior."
+  },
+  {
+   "n": 50,
+   "text": "The first reason is that we often do not know the exact payoffs of individuals playing the game. \nIn constructing the matrix games in the previous sections, we chose the payoffs and assumed that they were correct. \nIn real-world situations, the payoffs are determined by the attitudes and feelings of individuals as well as by their monetary returns.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 51,
+   "text": "A second reason: game theory is only a theory\nModels/theories are not literal descriptions of how the world works—they are merely useful abstractions. \nAs such, game theory abstracts from several details.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 52,
+   "text": "In many situations, one player may be more cunning, wiser, or more experienced than another.\nFor example, of two chess players, the more experienced, more clever player is likely to win. \nIn many matrix games (with two or several players), repetition of the game usually ensures that results come closer to the Nash equilibrium. \nWith these caveats in mind, we turn to an example to illustrate how game theory’s predictions fare in real-world situations.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 53,
+   "text": "Game Theory in Penalty Kicks\n---\nConsider again the situation faced by penalty kickers and goalies. \nAs you have already learned, the best move for both sides is to employ a mixed strategy—randomly choose left or right for each kick. \nBut is that what actually happens in soccer games?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 54,
+   "text": "Three economists decided to analyze all the penalty kicks taken during a 3-year period in the French and Italian soccer leagues in order to test game theory. \nBy examining 459 penalty kicks, they were able to test whether the players actually did play mixed strategy Nash equilibria.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 55,
+   "text": "They classified kickers’ and goalies’ choices into one of three strategies: Left, Right, and Center. \nThis is just a bit more complicated than our Left/Right example earlier in the chapter, but the logic of the game’s mixed-strategy Nash equilibrium is the same: penalty kickers and goalies should randomize across the choices.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 56,
+   "text": "Amazingly, this is just what the economists found in the data. \nThe kickers and goalies both seemed to be randomizing their direction choices almost perfectly. \nGame theory predicted the behavior of these players very well.\nA related study found a similar pattern of randomization in serve choices in professional tennis matches",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 57,
+   "text": "Extensive-Form Games",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 58,
+   "text": "The games that we have discussed so far all revolve around two players choosing an action simultaneously.\nSuppose that, instead, one player goes first and the other chooses an action only after seeing how the first player chose. \nThis type of situation, which specifies the order of play, is represented by an extensive-form game.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 59,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 60,
+   "text": "In extensive-form games, the strategies are a little bit richer than in simultaneous games",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 61,
+   "text": "A game tree",
+   "pics": 1,
+   "notes": "In the extensive form of the work-or-surf game, you first decide whether to work or surf. \nThen Gina, after observing your choice, decides whether to work or surf. \nThe extensive form is useful in showing the play sequencing. \nThe numbers given at the ends of the branches are the payoffs to you and Gina. For example, if both you and Gina work, you each earn $400."
+  },
+  {
+   "n": 62,
+   "text": "Backward Induction\n---\nThe easiest way of approaching any extensive-form game is to use backward induction. \nBackward induction is the procedure of solving an extensive-form game by first considering the last mover’s decision. \nGiven the last mover’s decision, we then consider the second-to- last mover, and so on.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 63,
+   "text": "First-Mover Advantage, commitment\n---\nThe equilibrium described above is much more favorable to you than to Gina: you receive $500, whereas she receives $300. \nThis outcome occurs even though the payoffs to the different actions are the same for you and Gina.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 64,
+   "text": "We say that the sequential game features a first-mover advantage if the first mover earns more benefits than the second mover earns. \nOne particularly relevant form of first-mover advantage is the value of commitment.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 65,
+   "text": "Suppose Gina threaten you with punishment, using the following strategy: “If you surf, I will go surfing, too!”\nIf you believed in her，what would happen?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 66,
+   "text": "A game tree",
+   "pics": 1,
+   "notes": "In the extensive form of the work-or-surf game, you first decide whether to work or surf. \nThen Gina, after observing your choice, decides whether to work or surf. \nThe extensive form is useful in showing the play sequencing. \nThe numbers given at the ends of the branches are the payoffs to you and Gina. For example, if both you and Gina work, you each earn $400."
+  },
+  {
+   "n": 67,
+   "text": "A game tree\n---\nBut are you going to believe in her? \nIn other words, is her threat credible?",
+   "pics": 1,
+   "notes": "In the extensive form of the work-or-surf game, you first decide whether to work or surf. \nThen Gina, after observing your choice, decides whether to work or surf. \nThe extensive form is useful in showing the play sequencing. \nThe numbers given at the ends of the branches are the payoffs to you and Gina. For example, if both you and Gina work, you each earn $400."
+  },
+  {
+   "n": 68,
+   "text": "Is there any way that Gina can turn the tables on you by taking away the first-mover advantage? \nIn fact, there is. \nThe trick is for her to make a credible commitment. \nA commitment is an action that one cannot turn back on later, even if it is costly.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 69,
+   "text": "Several modes of behavior may be understood in light of this example. \nSuppose, for example, that you can consciously or subconsciously (truthfully, or perhaps just for show) establish a reputation as somebody who bears a grudge and who would seek revenge against misdeeds, even though this behavior is potentially costly for you.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 70,
+   "text": "If you can commit to punishing bullies, you likely won’t be bullied. \nThis reasoning also suggests that perhaps vengeance or a reputation for revenge-seeking behavior might be supported by game theory\nIn other words, these behaviors are rational in an economic sense.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 71,
+   "text": "Game Applications",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 72,
+   "text": "Best Response Curves and Nash Equilibrium",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 73,
+   "text": "Best Response Curves\n---\nIf there is a unique best response for each choice, then the best response curves can be represented as best response functions.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 74,
+   "text": "Mixed Strategies\n---\nRow chooses probability r of playing top and column chooses probability c of playing left.",
+   "pics": 1,
+   "notes": "let r be the probability that row plays top, and (1 − r) the probability that he plays bottom. Similarly, let c be the probability that column plays left, and (1−c) the probability that she plays right. The pure strategies occur when r and c equal 0 or 1."
+  },
+  {
+   "n": 75,
+   "text": "",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 76,
+   "text": "Mixed Strategies\n---\nThe expected payoff to row:    \n     Row’s payoff = 2rc + (1 − r)(1 − c) = 2rc + 1 − r − c + rc\n     Δpayoff to row = 2c Δr − Δr + c Δr = (3c − 1)Δr.\n\nSimilarly, the payoff to column:\n     Column’s payoff = cr + 2(1 − c)(1 − r)\n     Δpayoff to column = r Δc + 2r Δc − 2Δc = (3r − 2)Δc.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 77,
+   "text": "Mixed Strategies\n---\nRow’s payoff = (3c−1)r+1−c             Δpayoff to row = (3c − 1)Δr.\nColumn’s payoff = (3r−2)c+2-2r       Δpayoff to column = (3r − 2)Δc.\n---\nWe can use this information to plot the best response curves. \nStart with row. If column choses c = 0, row will want to make r as small as possible, so r = 0 is the best response to c = 0. \nThis choice will continue to be the best response up until c = 1/3, at which point any value of r between 0 and 1 is a best response.\n For all c > 1/3, the best response row can make is r = 1.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 78,
+   "text": "Mixed Strategies\n---\nIt is easy to see that they cross in three places: (0, 0), (2/3, 1/3), and (1, 1), which correspond to the three Nash equilibria of this game. \n\nTwo of these strategies are pure strategies, and one is a mixed strategy.\n---\nRow’s payoff = (3c−1)r+1−c             Δpayoff to row = (3c − 1)Δr.\nColumn’s payoff = (3r−2)c+2-2r       Δpayoff to column = (3r − 2)Δc.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 79,
+   "text": "Games of Coordination\n---\nCoordination games:  games where the payoffs to the players are highest when they can coordinate their strategies.\nThere is no way to ensure that players can coordinate automatically, however\nThe problem then is to develop mechanisms that enable this coordination.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 80,
+   "text": "Example: Battle of the Sexes\n---\nA boy and a girl want to meet at a movie for a date, but haven’t had a chance to arrange which one. \nThe boy prefers action movies, while the girl prefers art films.\nThey have no way to coordinate their meeting\nHave to guess which movie the other will want to attend.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 81,
+   "text": "What are the Nash equilibria of this game?\n---\nExample: Battle of the Sexes",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 82,
+   "text": "Battle of the Sexes\n---\nThree equilibria: both choose action, both choose art, or each chooses his or her preferred choice with probability 2/3.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 83,
+   "text": "Hard to predict which equilibrium will occur\nGenerally, we would look to considerations outside the formal description of the game to resolve the problem. \nFor example, suppose that the art film was a closer destination for one of the two players. Then both players might reasonably suppose that would be the equilibrium choice.\nWhen players have good reasons to believe that one of the equilibria is more “natural” than the others, it is called a focal point of the game.\n---\nBattle of the Sexes",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 84,
+   "text": "Example 2: prisoner’s dilemma\n---\nPrisoner’s Dilemma is also a coordination game\nOne way out of the prisoner’s dilemma is to enlarge the game by adding new choices. \nExample (在更高级的课程中会讲授）:  An infinitely repeated prisoner’s dilemma game could achieve the cooperative outcome via strategies like tit for tat （”以眼还眼以牙还牙”）\nAnother way to “solve” the prisoner’s dilemma is to add the possibility of contracting.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 85,
+   "text": "Example 3: Assurance Games\n---\nU.S.-U.S.S.R. arms race of the 1950s \nEach country could build nuclear missiles or refrain from building them.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 86,
+   "text": "The trouble is, neither party knows which choice the other will make. \nBefore committing to refrain, each party wants some assurance that the other will refrain.\nOne way to achieve this assurance is for one of the players to move first, for example, by opening itself to inspection",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 87,
+   "text": "Example 4: Chicken\n---\nTwo teenagers start at opposite ends of the street and drive in a straight line toward each other. \nThe first to swerve loses face; if neither swerves, they both crash into each other.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 88,
+   "text": "Example 4: Chicken\n---\nTwo pure strategy Nash equilibria\nColumn prefers the first equilibrium and row the second, but each equilibrium is better than a crash.",
+   "pics": 0,
+   "notes": "Note the difference between this and the assurance game; there, both players were better off doing the same thing (building or refraining) than doing different things. Here, both players are worse off doing the same thing (driving straight or swerving) than if they did different things."
+  },
+  {
+   "n": 89,
+   "text": "So how can one of the players enforce his preferred equilibrium?\nOne important strategy is commitment.\nSuppose that row ostentatiously fastened a steering wheel lock on his car before starting out. Column, recognizing that row now has no choice but to go straight, would choose to swerve.",
+   "pics": 0,
+   "notes": "Note the difference between this and the assurance game; there, both players were better off doing the same thing (building or refraining) than doing different things. Here, both players are worse off doing the same thing (driving straight or swerving) than if they did different things."
+  },
+  {
+   "n": 90,
+   "text": "《史记·项羽本纪》\n---\n项羽乃悉引兵渡河，皆沉船，破釜甑，烧庐舍，持三日粮，以示士卒必死，无一还心。于是至则围王离，与秦军遇，九战，绝其甬道，大破之，杀苏角，虏王离。涉间不降楚，自烧杀。当是时，楚兵冠诸侯。诸侯军救巨鹿下者十余壁，莫敢纵兵。及楚击秦，诸将皆从壁上观。楚战士无不一以当十，楚兵呼声动天，诸侯军无不人人惴恐。于是已破秦军，项羽召见诸侯将，入辕门，无不膝行而前，莫敢仰视。",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 91,
+   "text": "Games of Coordination\n---\nHow to Coordinate\n---\nAssurance Games\n(cooperate at an equilibrium that you both like)\n---\nBattle of the Sexes\n(cooperate at an equilibrium one of you likes)\n---\nChicken\n(make a choice leading to your preferred outcome)\n---\nPrisoner’s Dilemma\n(play something other than the equilibrium strategy)\n---\nSequential moves\n(one player’s moving first,\n and committing herself to a particular choice.)\n---\nRepetition/ contracting",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 92,
+   "text": "Games of Competition\n---\nThe opposite pole from cooperation is competition. \nZero-sum games\nLet us illustrate a zero-sum game by looking at soccer.\nRow is kicking a penalty shot and column is defending. Row can kick to the left or kick to the right; column can favor one side and defend to the left or defend to the right in order to deflect the kick.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 93,
+   "text": "Penalty Kick Game\n---\nRow will score 80 percent of the time if he kicks to the left and column jumps to the right; but only 50 percent of the time if column jumps to the left. \nIf row kicks to the right, he succeeds 90 percent of the time if column jumps to the left but 20 percent of the time if column jumps to the right.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 94,
+   "text": "Penalty Kick Game\n---\nObviously, if column knows which way row will kick she will have a tremendous advantage. \nRow, recognizing this, will therefore try to keep column guessing. \nIn particular, he will kick sometimes to his strong side and sometimes to his weak side. That is, he will pursue a mixed strategy.\nAssume that row kicks left with probability p.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 95,
+   "text": "",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 96,
+   "text": "Penalty Kick Game\n---\nAnother strategy to solve this game:\nKey observation:\nWhen row chooses 0.7, column is indifferent between jumping left and jumping right, or, for that matter jumping left with any probability q. \nSimilar for the other side",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 97,
+   "text": "Games of Coexistence\n---\nHawk-dove game\nA single species that exhibits two kinds of behavior. \nWhen two wild dogs come across a piece of food, they have to decide whether to fight or to share. \nFighting is called the hawkish strategy. Sharing is called a dovish strategy.\nThe type that has the higher payoff reproduces more rapidly, passing its tendency to play hawk or dove on to its offspring.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 98,
+   "text": "Hawk-dove game\n---\nThere will have to be some mixture of hawk types and dove types in equilibrium. \nWhat sort of mixture should we expect?",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 99,
+   "text": "Assume the fraction playing hawk is p. Then a hawk will meet another hawk with probability p and a dove with 1 − p.\nThe expected payoff to the hawk type:\n                             H = −2p + 4(1 − p).\nThe expected payoff to the dove type:\n                             D = 2(1 − p).",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 100,
+   "text": "If H>D,  the fraction of hawk types in the population increase, and if H<D, the number of dove types increase.\nThe only way the population can be in equilibrium is if the payoffs to each type are the same:\nH = −2p + 4(1 − p) = 2(1 − p) = D,\nor\np = 1/2.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 101,
+   "text": "Games of Coexistence\n---\nHawk-dove game",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 102,
+   "text": "Hawk-Dove Game\n---\np = 1/2 is not only an equilibrium but it is also stable under evolutionary forces. \nConsiderations of this sort lead to a concept known as an evolutionarily stable strategy or an ESS.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 103,
+   "text": "Games of Commitment\n---\nWe now turn to sequential moves, or extensive-form game. \nAn important strategic issue that arises in such games is commitment. \nNote that this committed choice must be both irreversible and observable by the other player.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 104,
+   "text": "Games of Commitment\n---\nThe Frog and the Scorpion\nThe frog and the scorpion. They were standing on the bank of the river, trying to figure out a way across.\nIf the frog chooses to carry the scorpion, the scorpion will choose to sting him and both will die, but the scorpion will get satisfaction from fulfilling his natural instincts.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 105,
+   "text": "青蛙和蝎子\n---\n一只蝎子请求一只青蛙背它过河。青蛙犹豫了，因为它担心蝎子会蛰它。蝎子向青蛙保证它不会这样做，因为蛰它是没有道理的，因为那样它们都会溺死。\n    青蛙被说服了，于是同意帮助。然而，在渡河途中，蝎子果然蛰了青蛙。眼看它们都将溺亡，青蛙问蝎子为什么要这么做。蝎子回答说：“这是我的本性。”",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 106,
+   "text": "The Frog and the Scorpion",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 107,
+   "text": "Stinging has a higher payoff to the scorpion because “it is his nature” to sting. \nHence the frog should rationally choose to refuse to carry the scorpion.\nUnfortunately, the frog didn’t understand the scorpion’s payoffs.\nAlas, this mistake was fatal for the frog.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 108,
+   "text": "Games of Commitment\n---\nThe Frog and the Scorpion\nA smart frog would figure out some way to make the scorpion commit to not stinging. \nHe could, for example, tie his tail. Or he could hire a hit frog, who would retaliate against the scorpion’s family.\nWhatever the strategy, the critical thing for the frog to do is to change the payoffs to the scorpion by making stinging more costly or refraining more rewarding.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 109,
+   "text": "Games of Commitment\n---\nThe Kindly Kidnapper\nSuppose some kidnappers abduct a hostage and then discover that they can’t get paid. Should they release the hostage? The hostage, of course, promises not to reveal the identity of the kidnappers. But will he keep this promise?\nWe assume the kidnapper would feel bad about killing the hostage.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 110,
+   "text": "Games of Commitment\n---\nThe Kindly Kidnapper",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 111,
+   "text": "Games of Commitment\n---\nThe Kindly Kidnapper\nNow it is the hostage who has the commitment problem: how can he convince the kidnappers that he won’t renege on his promise and reveal their identity?\nThe hostage needs to figure out a way to change the payoffs of the game. He might have the kidnappers photograph him in some embarrassing act and leave them with the photos.\nThis sort of strategy is known as an “exchange of hostages.”. The embarrassing photo would impose costs on the hostage if it were released.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 112,
+   "text": "《史记·王翦列传》\n---\n王翦行，请美田宅园池甚众。始皇曰：‘将军行矣，何忧贫乎？’王翦曰：“为大王将，有功终不得封侯，故及大王之向臣，臣亦及时以请园池为子孙业耳。”\n\n部下不解，王翦解释： \n    “夫秦王怚而不信人。今空秦国甲士而专委于我，我不多请田宅为子孙业以自坚，顾令秦王坐而疑我邪？”",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 113,
+   "text": "Games of Commitment\n---\nSome psychologists put two pigs, one dominant, one subordinate, in a long pen. \nAt one end of the pen was a lever that would release a portion of food to a trough located at the other end of the pen. \nWhich pig would push the lever and which would eat the food?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 114,
+   "text": "When Strength Is Weakness",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 115,
+   "text": "",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 116,
+   "text": "When strength is weakness\n---\nSomewhat surprisingly the outcome of the experiment was that the dominant pig pressed the lever, while the subordinate pig waited for the food. \nThe subordinate pig then ate most of the food, while the dominant pig rushed as fast as it could to the trough end of the pen, ending up with only a few scraps.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 117,
+   "text": "When Strength Is Weakness",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 118,
+   "text": "Saving and Social Security\n---\nCommitment problems aren’t limited to the animal world. They also show up in economic policy.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 119,
+   "text": "Games of Commitment\n---\nSaving for retirement is an important example\nTwo strategies for the older generation: save or squander. \nThe younger gen: support their elders or save for their own retirement.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 120,
+   "text": "Games of Commitment\n---\nSavings and Social Security\n Consider the time structure of the game:",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 121,
+   "text": "Hold Up 敲竹杠\n---\nYou hire a contractor to build a warehouse. \nAfter the construction is almost done, you realize that the color is bad and ask the contractor to change the paint, which involves a trivial expense. The contractor charges you 1500.\nYou recognize that it will cost you at least that much to delay completion until you can find a painter, and you really do want the new color, so, you pay the cost. (actual cost of painting is only 200……)",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 122,
+   "text": "",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 123,
+   "text": "Hold Up\n---\nHow do firms solve the hold-up problem?\nThe basic answer is contracts. \nAnother way to solve the problem is through commitment.\nAnother important factor is reputation.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 124,
+   "text": "Bargaining game\n---\nRubinstein bargaining model\nAlice and Bob, have $1 to divide between them. \nThey agree to spend at most three days negotiating over the division.\nThe first day, Alice will make an offer.\n      The next day, Bob either accepts or comes back with a counteroffer.\n      The third day, Alice gets to make one final offer. \n      If they cannot reach an agreement in three days, both players get zero.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 125,
+   "text": "Bargaining\n---\nAssume Alice and Bob differ in their degree of impatience: Alice discounts payoffs in the future at a rate of α per day, and Bob discounts payoffs at a rate of β per day.\nWe also assume that if a player is indifferent between two offers, he will accept the one that is most preferred by his opponent. \nWe start our analysis at the end of the game, right before the last day.\n       At this point Alice can make a take-it-or-leave-it offer to Bob. \n       Clearly, the optimal thing for Alice to do at this point is to offer Bob the\n       smallest possible amount that he would accept, which, by assumption, is zero",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 126,
+   "text": "Bargaining\n---\nIf the game lasts three days, Alice will get $1 and Bob would get zero (i.e., an arbitrarily small amount).\nGo back to the previous move, Bob should realize that Alice can guarantee herself $1 on the next move by simply rejecting his offer. \nA dollar next period is worth α to Alice this period, Bob certainly prefers 1−α now to zero next period, so he should rationally offer α to Alice, which Alice will then accept. \nSo if the game ends on the second move, Alice gets α and Bob gets 1 − α.\nMove to the first day. At this point Alice similarly offers β(1 − α) to Bob. Bob finds this (just) acceptable and the game ends.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 127,
+   "text": "Bargaining\n---\nThe final outcome is that the game ends on the first move with Alice \nreceiving 1 − β(1 − α) and Bob receiving β(1 − α).\n\nIt is natural to let the horizon go to infinity and ask what happens in the infinite game.",
+   "pics": 1,
+   "notes": ""
+  },
+  {
+   "n": 128,
+   "text": "Bargaining\n---\nThe Ultimatum Game\nEconomists test the Rubinstein bargaining model in the laboratory. Unfortunately, it doesn’t work out like that.\nThere are many proposed explanations for this. One view is that too small an offer violates social norms of behavior.\nAnother, not inconsistent view, is that receivers get some utility payoff from hurting the offerers, in retaliation for the small offer.",
+   "pics": 0,
+   "notes": ""
+  }
+ ]
+}

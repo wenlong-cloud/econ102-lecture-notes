@@ -1,0 +1,24 @@
+=== P1 (764 chars) ===
+Opportunity cost: example
+---
+You have already purchased (non-refundable and unsellable) tickets to a concert on Friday night. A friend also invites you to her birthday party on Friday. While you like your friend, you politely decline because you really want to go to the concert.
+You learn that your friend is serving flank steak at her party, all-you-can eat and at no charge. Flank steak is your favorite food. Should this affect your decision to go to the concert? Explain by using the term “opportunity cost.” 
+Suppose instead that you notice that the non-refundable concert ticket (that you already purchased) cost you $10; previously you had mistakenly believed the price was $100. Should learning this information affect your decision to go to the concert?
+=== P2 (492 chars) ===
+You learn that your friend is serving flank steak at her party, all-you-can eat and at no charge. Flank steak is your favorite food. Should this affect your decision to go to the concert? Explain by using the term “opportunity cost.” 
+Answer: This should affect your decision, or at least make you reconsider. The explicit cost of the concert has not changed, nor the benefit of the concert itself. However, the opportunity cost of missing the party is now higher than you previously thought.
+=== P3 (440 chars) ===
+b. Suppose instead that you notice that the non-refundable concert ticket (that you already purchased) cost you $10; previously you had mistakenly believed the price was $100. Should learning this information affect your decision to go to the concert?
+Answer: This should not affect your decision. Whether you paid ($10 or $100) in the past is irrelevant to the costs and benefits that you can affect by going (or not going) to the concert.
+=== P4 (495 chars) ===
+Equilibrium
+---
+Suppose you are ready to check out and see two lines: Line A has 3 people, while line B has 5 people.
+Assume people just chose lines at random and have not yet had a chance to switch lines. Would you consider this situation to be in equilibrium? Why or why not?
+Assume that all 8 shoppers are optimizing (i.e., they have had a chance to switch), and that the situation is in equilibrium. What conclusions would you draw?
+Of all 8 shoppers, whose behavior is the most informative?
+=== P5 (491 chars) ===
+Answer:
+This situation is not in equilibrium. Assuming both lines move at the same speed, it would make sense for the last person in the longer line to switch to the shorter line. 
+If the 8 shoppers know what they are doing, then it must be the case that the shorter line moves more slowly.
+The behavior of the last person in each line is the most informative. The assumption that these shoppers are optimizing allows an outside observer to draw conclusions about the speed of the two lines.

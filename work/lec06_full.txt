@@ -1,0 +1,301 @@
+=== P1 (8 chars) ===
+Monopoly
+=== P2 (312 chars) ===
+Introduction
+• A monopoly is a firm that is the sole seller of a product without
+close substitutes.
+• The key difference between monopoly and perfect competition:
+• A monopoly firm has market power (市场力量), the ability to
+influence the market price of the product it sells. A competitive
+firm has no market power.
+=== P3 (330 chars) ===
+Why Monopolies Arise
+The main cause of monopolies is barriers to entry – other firms 
+cannot enter the market.
+Three sources of barriers to entry:
+1.
+A single firm owns a key resource: DeBeers owns most of the world’s 
+diamond mines
+2.
+The govt gives a single firm the exclusive right to produce the good: 
+patents, copyright laws
+=== P4 (326 chars) ===
+Why Monopolies Arise
+3.
+Natural monopoly:  a single firm can produce the entire market Q
+at lower ATC than could several firms.  
+Q
+Cost
+ATC
+1000
+$50
+Example:  1000 homes need 
+electricity：ATC is lower if 
+one firm services all 1000 
+homes than if two firms each 
+service 500 homes.
+Economies of 
+scale due to 
+huge FC
+500
+$80
+=== P5 (331 chars) ===
+Monopoly vs. Competition:  Demand Curves
+• In a competitive market, the 
+market demand curve slopes 
+downward. 
+• But the demand curve 
+for any individual firm’s 
+product is horizontal 
+at the market price. 
+• The firm can increase Q
+without lowering P,
+• MR = P for the competitive 
+firm. 
+D
+P
+Q
+A competitive firm’s 
+demand curve
+=== P6 (209 chars) ===
+Monopoly vs. Competition:  Demand Curves
+• A monopolist is the only seller, 
+so it faces the market demand 
+curve. 
+• To sell a larger Q, 
+the firm must reduce P.  
+• MR ≠ P.
+D
+P
+Q
+A monopolist’s 
+demand curve
+=== P7 (66 chars) ===
+-3
+-2
+-1
+0
+1
+2
+3
+4
+5
+0
+1
+2
+3
+4
+5
+6
+7
+Q
+P, MR
+Demand curve (P)
+MR
+$
+=== P8 (300 chars) ===
+Understanding the Monopolist MR
+• Increasing Q has two effects on revenue:
+• The output effect:
+More output is sold, which raises revenue
+• The price effect:
+The price falls, which lowers revenue
+• To sell a larger Q, the monopolist must reduce the price on all the 
+units it sells.  
+• Hence, MR < P
+=== P9 (177 chars) ===
+Profit-Maximization
+1. The profit-
+maximizing Q is 
+where MR = MC.
+2. Find P from the 
+demand curve at 
+this Q. 
+Quantity
+Costs and 
+Revenue
+MR
+D
+MC
+Profit-maximizing output
+P
+Q
+=== P10 (64 chars) ===
+The Monopolist Profit
+(P – ATC) x Q
+Quantity
+ATC
+D
+MR
+MC
+Q
+P
+ATC
+=== P11 (335 chars) ===
+A Monopoly Does Not Have a Supply 
+Curve!
+A competitive firm 
+§ takes P as given
+§ has a supply curve that shows how its Q depends on P
+A monopoly firm
+§ a “price-maker,” NOT a “price-taker”  
+§ Q does not depend on P; 
+rather, Q and P are jointly determined by MC, MR, and the demand curve. 
+So, there is no supply curve for monopoly.
+=== P12 (255 chars) ===
+Case Study:  Monopoly vs. Generic Drugs
+• Patents on new 
+drugs give a
+temporary monopoly 
+to the seller.  
+• When the 
+patent expires, 
+the market 
+becomes competitive, 
+generics appear.
+MC
+Quantity
+Price
+D
+MR
+PM
+QM
+PC =
+QC
+The market for 
+a typical drug
+=== P13 (397 chars) ===
+The Welfare Cost of Monopoly
+• In a competitive market equilibrium, P = MC and total surplus is 
+maximized.  
+• In the monopoly equilibrium,  P > MR = MC
+• The value to buyers of an additional unit (P)
+exceeds the cost of the resources needed to produce that unit (MC).  
+• The monopoly Q is too low – could increase total surplus with a 
+larger Q.  
+• Thus, monopoly results in a deadweight loss.
+=== P14 (242 chars) ===
+P = MC
+Deadweight 
+loss
+P
+MC
+The Welfare Cost of Monopoly
+QE ：competitive quantity
+•
+P = MC (here MC is 
+the industry supply 
+curve)
+•
+total surplus is 
+maximized
+QM : monopoly quantity 
+•
+P > MC
+•
+deadweight loss
+Quantity
+Price
+D
+MR
+MC
+QM QE
+=== P15 (310 chars) ===
+Public Policy Toward Monopolies
+• Increasing competition with antitrust laws
+• US:  Sherman Antitrust Act (1890), Clayton Act (1914)
+• Antitrust laws ban certain anticompetitive practices, 
+allow govt to break up monopolies. 
+• China: a “modern” Anti-Monopoly Law in 2008, after 
+more than 10 years of drafting
+=== P16 (274 chars) ===
+Public Policy Toward Monopolies
+Regulation：
+• Govt agencies set the monopolist’s price
+• For natural monopolies, MC < ATC at all Q, 
+so marginal cost pricing would result in losses.
+• If so, regulators might subsidize the monopolist or set 
+P = ATC for zero economic profit.
+=== P17 (172 chars) ===
+Public Policy Toward Monopolies
+Public ownership
+• Example:  Postal Service
+• Problem:  Public ownership is usually less efficient 
+since no profit motive to minimize costs
+=== P18 (304 chars) ===
+Price Discrimination
+• Price discrimination is the business practice of selling the 
+same good at different prices to different buyers.  
+• The characteristic used in price discrimination 
+is willingness to pay (WTP):   
+• A firm can increase profit by charging a higher price to 
+buyers with higher WTP.
+=== P19 (240 chars) ===
+Consumer 
+surplus
+Deadweight 
+loss
+Monopoly 
+profit
+First Degree Price Discrimination vs. 
+Single Price Monopoly
+• Here, the monopolist 
+charges the same price (PM) 
+to all buyers.
+• A deadweight loss results.  
+MC
+Quantity
+Price
+D
+MR
+PM
+QM
+=== P20 (267 chars) ===
+Monopoly 
+profit
+First Degree Price Discrimination vs. 
+Single Price Monopoly
+First degree price
+discrimination：
+Produces the competitive 
+quantity but charges each 
+buyer his WTP. 
+• The monopolist captures 
+all CS as profit. but there’s 
+no DWL. 
+MC
+Quantity
+D
+MR
+Q
+=== P21 (365 chars) ===
+Third Degree Price Discrimination
+• In the real world, perfect price discrimination is not 
+possible:  
+• No firm knows every buyer’s WTP
+• Arbitrage (resale)
+• So, firms divide customers into groups based on some 
+observable trait that is likely related to WTP, such as age,
+student status, gender, health status…
+• This is called third degree price discrimination
+=== P22 (375 chars) ===
+Examples
+Movie tickets
+• Discounts for seniors, students, and people who can attend during 
+weekday afternoons. 
+• They are all more likely to have lower WTP than people who pay full 
+price on Friday night.
+Discount coupons
+• People who have time to clip and organize coupons are more likely to 
+have lower income and lower WTP than others: ”Double 11” carnival
+is an example
+=== P23 (423 chars) ===
+Second degree price discrimination
+• Second degree price discrimination: price is the same for the
+same purchase for different consumers, but different for different
+purchases.
+• Example: Quantity discounts
+A buyer’s WTP often declines with additional units, so firms 
+charge less per unit for large quantities than small ones.  
+• A movie theater charges $4 for a small popcorn and $5 for a large 
+one that’s twice as big.

@@ -1,0 +1,10 @@
+# 统一用 LF，避免 Windows/Linux 换行差异把 diff 弄脏
+* text=auto eol=lf
+
+*.webp binary
+*.png binary
+*.jpg binary
+*.zip binary
+*.pdf binary
+*.pptx binary
+*.ppt binary

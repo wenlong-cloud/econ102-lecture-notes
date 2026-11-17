@@ -1,0 +1,226 @@
+{
+ "file": "Lecture 8 supplement.pptx",
+ "count": 36,
+ "size": [
+  9144000,
+  6858000
+ ],
+ "slides": [
+  {
+   "n": 1,
+   "text": "Public Goods",
+   "pics": 0,
+   "notes": "You now understand the behavior of buyers. To understand the complete picture of a mar-\nket, we also need to study sellers. The interaction of buyers and sellers in a marketplace\ndetermines the market price."
+  },
+  {
+   "n": 2,
+   "text": "Most of you have watched CCTV-1.\nCCTV-1 is free. In the old days, even you do not have a cable, you can view CCTV-1 as long as your Television has an antenna\nAs long as you have a TV, nobody can prevent you from watching CCTV-1\nYou watching CCTV-1 in your TV does not affect other people’s opportunity of watching CCTV-1",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 3,
+   "text": "These two properties\nno one can prevent others from consumption and\none person’s consumption doesn’t prevent another person’s consumption\ndistinguish public goods. They are different from the goods we’ve studied so far—private goods—which are traded in markets where buyers and sellers meet and, if they agree on price, ownership is transferred.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 4,
+   "text": "To understand the nature of a public good, it is useful to compare and contrast public goods and private goods in more detail. There are two characteristics that differentiate them:\n1. Excludability. Private goods are excludable, meaning that people can be kept from consuming them if they have not paid for them. Public goods are non-excludable, meaning that once such goods are produced, it is not possible to exclude people from using them.\n2. Rivalry in consumption. Private goods are rival in consumption, meaning that they cannot be consumed by more than one person at a time. Public goods are non-rival in consumption, meaning that one person’s consumption does not preclude consumption by others.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 5,
+   "text": "To summarize, we can say that private goods are excludable and rival in consumption and public goods are non-excludable and non-rival in consumption.\nExhibit 9.10 aids us in thinking about different types of goods in the economy based on their degree of excludability and rivalry. Let’s look at the four categories of goods in the exhibit in more detail.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 6,
+   "text": "",
+   "pics": 2,
+   "notes": ""
+  },
+  {
+   "n": 7,
+   "text": "1. Ordinary private goods, shown in the upper-left corner of Exhibit 9.10, are both highly excludable and highly rival in consumption. Think about a Snickers candy bar that you have just purchased at the book store: once you purchase and eat that specific candy bar, no one else can; you have perfectly excluded others from buying that particular Snickers bar. Thus, your consumption has reduced the ability of another person to consume the candy bar; in fact, your consumption has created a one-to-one reduction in Snickers bars available to others. A large fraction of the goods and services that we buy and sell in the market economy have these same properties, and that is why we have implicitly assumed this to be the case when modeling demand and supply in previous chapters.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 8,
+   "text": "2. In the lower-left corner of the exhibit, we find another category of goods—those that are highly excludable but non-rival in consumption. We call such excludable, nonrival goods club goods—economists also commonly refer to them as “artificially scarce” goods. For instance, perhaps after you read this chapter, you will turn on the television to watch your favorite cable television show. In so doing, you will not affect the ability of others to watch that same show. Therefore, cable TV is a non-rival good, because many people can watch at the same time without disrupting the ability of others to watch. However, individuals can be excluded from watching cable TV if they do not pay for the service. Thus, it is a good that is excludable. Club goods present a bit of a conundrum when sold as a private good. They are non-rival, so the marginal cost of providing one extra unit is small (perhaps even zero), but they tend to require large fixed costs, like wiring cable all around the world for cable TV. If sold at marginal cost, firms would never cover the large fixed costs they bear. Consumers often have a positive willingness-to-pay for such goods, though. As a result, club goods typically are not sold in perfectly competitive markets.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 9,
+   "text": "3. The upper-right corner shows a category of goods called common pool resource goods, which are non-excludable but rival in consumption. For instance, an open-access lake is available to all fishermen, but the fish they catch cannot be caught by another fisherman and are thus rival. Likewise, if you are at a picnic, what happens when the hamburgers run out? You must settle for your second choice, a hot dog. We discuss this type of good in further detail later in the chapter.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 10,
+   "text": "4. A much different class of goods appears in the lower-right corner of the exhibit—public goods. Recall that they are goods that are non-rival in consumption and are non-excludable. Consider protecting the earth from climate change. Governments around the world spend billions of dollars annually to curb harmful greenhouse gases. Even if people failed to pay their taxes to support such environmental programs, governments cannot exclude them from enjoying the benefits. That is, while cable television is an excludable good, enjoying earth’s comfortable climate is not. National defense and local warning systems are other examples of public goods that we enjoy daily.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 11,
+   "text": "Public goods present particular problems for markets to provide because consumers do not see the value proposition in buying them. When purchasing a Nintendo DS, it is clear what you get for your $100. What are you getting if you send in $100 to the U.S. government for national defense? You will be protected by the Defense Department regardless of whether you sent in the cash. And because your $100 makes no appreciable difference between a successful and unsuccessful national defense system, you likely will not send in $100 in the first place. Why send $100 to the U.S. government and receive little in return when you can send the same $100 to Amazon.com and get a Nintendo DS game system?",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 12,
+   "text": "This example represents a key problem with efficiently providing public goods: we want them, but we aren’t willing to pay for them because we can’t be excluded from consuming them once they are provided. And the same is true for everyone. Thus, public goods suffer from what economists call a free-rider problem, in which a person has no incentive to pay for a good because failure to pay doesn’t prevent consumption. Free riders either consume more than their fair share or pay less than their fair share of the good’s cost.\nSuch cases represent situations in which government intervention can potentially raise social surplus. But how much of the public good should the government provide if it wants to maximize social surplus? Are there other ways to provide it? We turn to these questions now.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 13,
+   "text": "Government Provision of Public Goods\n---\nWhat makes public goods different from private goods is precisely their non-rival and non-excludable nature. Their non-excludability represents a distinct opportunity for government to step in and provide them because it can levy taxes for their provision. Standard cost-benefit logic applies to the case of providing public goods: the government should expand production until marginal benefits equal marginal costs. That is, if the marginal benefits exceed the marginal costs of providing the next unit, it should be provided.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 14,
+   "text": "Conceptually we can calculate the optimal level of public good provision once we know the market demand curve and the marginal costs associated with providing various levels of a public good. To construct the market demand curve, we must first know the individual demand curves. Before doing so, let’s revisit how we constructed the market demand curve for private goods.\nRecall that in that case we added horizontally. That is, we summed the total quantity demanded of all consumers at a given price to compute the market demand at that price.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 15,
+   "text": "",
+   "pics": 2,
+   "notes": ""
+  },
+  {
+   "n": 16,
+   "text": "Exhibit 9.11 provides a summary example of a two-person market. Panel (a) contains your demand curve for pairs of jeans, and panel (b) contains Jim’s demand curve for pairs of jeans. For simplicity, both curves are drawn smoothly even though it would be hard for you to buy 2.5 pairs of jeans. At a price of $50, you demand 3 pairs and Jim demands 3 pairs. This leads to a total market demand of 6 pairs at $50, as depicted in panel (c) of the exhibit. After summing all quantities demanded horizontally, we are left with the market demand curve in panel (c).",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 17,
+   "text": "Construction of the market demand curve for public goods follows similar logic. However, the nature of public goods’ non-rivalry and non-excludability matters a great deal when moving from the individual to the market demand curve for public goods. Instead of summing horizontally, as is the case for private goods, the market demand for public goods is found by vertically summing the individual demand curves. This is necessary because the public good is non-rival, so you and Jim can each consume every unit of the good at the same time. Therefore, to arrive at a market demand curve, we add the individual demand curves vertically because this gives us a measure of the amount of money consumers are willing to pay for each unit of the public good.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 18,
+   "text": "Let’s put this intuition into action. Assume that we are again talking about you and Jim, but now we are considering the demand for space missions, a public good that potentially leads to new insights, which are non-excludable and non-rival, that will benefit all humankind (by unlocking the mysteries of space). For comparison purposes, assume that you and Jim have exactly the same demand curve for space missions as you had for jeans, again made smooth for simplicity. \nExhibit 9.12 shows your demand curve for space missions in panel (a), Jim’s in panel (b), and the market demand curve for the public good in panel (c). At each level of public good provision, the market demand curve tells us how much the market would be willing to pay for an additional unit of the public good.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 19,
+   "text": "As you can see, because you value the first space mission at $80, and Jim also values it at $80, the total marginal benefit for this first space mission trip is $160, as shown in panel (c). This is called the market demand for one unit because it is the total amount of money consumers are willing to pay for the first unit of the public good. Likewise, you value the third space mission at $50, and Jim values it at $50. Therefore, the marginal benefit to society of this third space mission is $100, as shown in panel (c). In other words, prices are summed at each quantity level on the individual demand curves to derive the market demand curve for public goods.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 20,
+   "text": "To compute exactly how much of the public good the government should provide, the supply (marginal cost curve) of space missions must be plotted alongside the market demand curve for space missions. We do this in Exhibit 9.13. To compute the equilibrium level of space missions, we follow our decision principles discussed earlier: we should expand the number of space missions until the marginal benefit equals the marginal cost, which occurs at Qoptimal in Exhibit 9.13. At this point, total surplus is maximized, because all the gains in the market are reaped. This is because quantity demanded equals quantity supplied, or marginal benefits equal marginal costs. In Chapter 10 we explore the different ways in which the government can raise funds to pay for public goods such as space missions.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 21,
+   "text": "",
+   "pics": 2,
+   "notes": ""
+  },
+  {
+   "n": 22,
+   "text": "Private Provision of Public Goods\n---\nOver breakfast, you might listen to National Public Radio (NPR). If so, you likely have learned about the rain forests of Borneo, Indonesia, or the Amazon, which are being purchased by private organizations in an attempt to preserve them from being clear-cut. Or perhaps you have heard about recent breakthroughs of researchers working to cure cancer. Each of these activities, and many more that provide private goods with positive externalities or provide public goods, are funded by private sources.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 23,
+   "text": "Although governments importantly provide public goods, they are not the sole providers. Many public goods are routinely provided through other channels, such as private donations, which are indeed an effective way to provide public goods. Private provision of public goods refers to any situation in which private citizens make contributions to the production or maintenance of a public good. Many avenues exist for such provision, but the most important is through private donations of time and money. For example, through private donations NPR is made available throughout the United States. Globally, rain forests are being saved through private cash donations to the World Wildlife Fund. Cures for ailments ranging from carpal tunnel syndrome to heart disease have been financed in part by individuals donating dollars to research funds. Likewise, Wikipedia is maintained by the masses donating their time and knowledge.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 24,
+   "text": "",
+   "pics": 2,
+   "notes": ""
+  },
+  {
+   "n": 25,
+   "text": "So what is the scope of private donations of money? Exhibit 9.14 shows the tremendous growth in charitable giving in the United States over a 44-year period. Since 1971, individual contributions to charitable causes have increased from roughly $125 billion annually to approximately $375 billion per year by 2015. Even though the recent giving levels already represent an important fraction of our economy, experts predict that the combination of increased wealth and an aging population will lead to an even higher level of giving in the coming years.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 26,
+   "text": "But there is more to the world than just the United States. How does giving in the United States compare to giving rates in other countries around the world? We must be careful when making such comparisons; differences could arise because some countries use taxes to fund more public goods than others. In this case, all else being equal, we should expect low-tax countries to have fewer public goods provided by the government and more public goods provided by charitable giving. Likewise, many people volunteer time to a charitable cause rather than give money. With such considerations in mind, we consider one of the most comparable data sets across countries. In 2010, the polling company Gallup asked people all over the world one simple question: “have you donated money to a charity in the past month?” Exhibit 9.15 shows that a majority of people answered “yes” in developed regions. Even in underdeveloped regions, the proportion of people giving is above 10 percent, suggesting that donations to charity are an important phenomenon all over the world.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 27,
+   "text": "You might be thinking that, considering the voluntary nature of giving, this form of public good provision might be preferable to governments providing public goods. But we should be careful with this line of reasoning, because certain important public goods, such as national defense or local weather alerts, might be considerably underprovided if left to private sources.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 28,
+   "text": "An example can help us understand the danger of leaving public good provision entirely in the hands of the private market. Many scientists believe that species are currently going extinct at a faster rate than at any time in the history of our planet, with the exception of cataclysmic encounters, such as collisions with extraterrestrial objects or massive volcanic eruptions. To deal with this problem, hundreds of conservation groups have been formed with the help of private donations. Which types of species do you think their donors are most likely to help? The answer, interestingly, is that charismatic species and those that most resemble humans, such as panda bears and monkeys, receive the most support. If such funding comes at the expense of funding keystone species—species that play an important role in the ecosystem—it will be dangerous for the vitality of our ecosystem. Of course, the government is not perfect either, and we return to this very issue in Chapter 10.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 29,
+   "text": "",
+   "pics": 2,
+   "notes": ""
+  },
+  {
+   "n": 30,
+   "text": "",
+   "pics": 2,
+   "notes": ""
+  },
+  {
+   "n": 31,
+   "text": "Common Pool Resource Goods",
+   "pics": 0,
+   "notes": "You now understand the behavior of buyers. To understand the complete picture of a mar-\nket, we also need to study sellers. The interaction of buyers and sellers in a marketplace\ndetermines the market price."
+  },
+  {
+   "n": 32,
+   "text": "Another important class of goods that are related to public goods are common pool resource goods. As summarized in Exhibit 9.10, common pool resource goods are not excludable, so anyone can consume as much of them as they can find—for example, urban parking places, coral reefs, and hamburgers at a student picnic. Unfortunately, common pool resources are rival goods, meaning that every Diet Coke that Jack drinks at the student party results in one less Diet Coke for others to drink. This leads to an important negative externality that Jack imposes on all others.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 33,
+   "text": "The externality involved with a common pool resource arises because of the combination of open access and depletion through use. When deciding how much to fish in a lake, for example, people using the lake consider only their own private marginal costs of use— even though this use depletes the resource for everyone. This is a classic negative externality: individuals use too much of the resource, because they do not consider how others are affected. This result is analogous to the free-market equilibrium quantity being higher than the optimal equilibrium quantity in our earlier examples of negative externalities. Because each person who accesses the lake creates this same externality, the total use of the lake is above what is socially optimal.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 34,
+   "text": "Other examples abound in the world around us: too much water is extracted from aquifers, too many trees are cut on public lands, too many communications devices jam airwaves, too many donuts are eaten by one individual from the office donut box, and so on. Such overuse can result in the tragedy of the commons, which occurs when a common resource is used too intensely. In some cases, the consequences of this overuse can be severe: instead of preserving a sustainable fishery, for example, overfishing can destroy entire populations and even whole species. It’s not that fishermen prefer to drive their prey to extinction; in fact, they obviously would prefer a viable population. But depletion like this can result because of the presence of a negative externality—in this case, too many users of the resource.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 35,
+   "text": "Solutions to the tragedy of the commons are similar to those discussed earlier in the chapter for some types of externalities. These interventions can be used by governments or other organized public or private regulatory bodies. For example, a Pigouvian tax can be applied to every fish that is taken out of Lake Michigan. Or, because users of common pool resources have incentives to join together to self-regulate use of the resource, it might be possible for people to organize a system that implements a maximum catch in any given year.",
+   "pics": 0,
+   "notes": ""
+  },
+  {
+   "n": 36,
+   "text": "When feasible, outright privatization of the resource—turning its control over to a single owner—can also work. Ownership eliminates the externality problem, because any depletion from use is borne by the owner, who controls access to the resource. It gives the owner incentives to regulate access in a way that maximizes the resource’s value to the owner. Because efficient use of the resource creates the biggest “pie” for the owner—that is, maximizes what users are collectively willing to pay to access it—the owner has the incentive to encourage an efficient level of use.",
+   "pics": 0,
+   "notes": ""
+  }
+ ]
+}

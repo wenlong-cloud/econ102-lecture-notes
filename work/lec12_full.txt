@@ -1,0 +1,292 @@
+=== P1 (22 chars) ===
+Information Technology
+=== P2 (343 chars) ===
+Introduction
+---
+One of the most radical changes in the economy in the last two decades has been the emergence of the information economy.
+Just as the Industrial Revolution transformed the way goods were produced, distributed, and consumed, the Information Revolution is transforming the way information is produced, distributed, and consumed.
+=== P3 (178 chars) ===
+Introduction
+---
+We will investigate a few economic models relevant to the information revolution. 
+economics of networks
+switching costs
+rights management for information goods.
+=== P4 (408 chars) ===
+Systems Competition
+---
+Information technology is generally used in systems.
+Hardware is useless without software: a DVD player is useless without DVD disks, an operating system is worthless without applications, and a web browser is useless without web servers. 
+All of these are examples of complements: goods where the value of one component is significantly enhanced by the presence of another component.
+=== P5 (351 chars) ===
+Systems Competition
+---
+In our discussion of consumer theory, we described left shoes and right shoes as complements. 
+But unlike shoes, the more software that is available for hardware, the more valuable it becomes.
+Competition among the providers of these components often have to worry just as much about their “complementors” as their competitors.
+=== P6 (401 chars) ===
+The Problem of Complements
+---
+Let us consider the case of a SOC and an Operating System (OS).
+A SOC  is an integrated circuit that is the “brain” of a mobile devise. (Snapdragon 865 v.s. Apple A14) 
+An OS is the software that allows users and applications to access the functions of the SOC. (Android v.s. IOS.) 
+The SOC and the OS are complements, just as left shoes and right shoes are complements.
+=== P7 (26 chars) ===
+The Problem of Complements
+=== P8 (26 chars) ===
+The Problem of Complements
+=== P9 (26 chars) ===
+The Problem of Complements
+=== P10 (26 chars) ===
+The Problem of Complements
+=== P11 (26 chars) ===
+The Problem of Complements
+=== P12 (26 chars) ===
+The Problem of Complements
+=== P13 (444 chars) ===
+The Problem of Complements
+---
+What the result says is that independent price setting will lead to prices that are too high from the viewpoint of joint profitability
+But there are lots of intermediate cases between totally independent and fully integrated.
+For example, one of the firms can negotiate prices for components and then sell an integrated bundle.
+Another model for dealing with the systems pricing problem is to use revenue sharing.
+=== P14 (224 chars) ===
+Examples
+---
+Example: What Apple used to do: negotiate a deal
+Buy CPUs from Intel, build them into computers, and then bundle the operating system and computers together for sale to the end customers.
+What does Apple do now?
+=== P15 (488 chars) ===
+Examples
+---
+Example: revenue sharing. 
+Boeing builds airplane bodies and GE builds airplane engines. 
+If GE and Boeing each set their prices independently, they could decide to set their prices too high. 
+What they do instead is to negotiate a deal in which GE will receive a fraction of the revenue from the sale of the assembled aircraft. 
+Then GE is happy to have Boeing negotiate to get as high a price as possible for the package, confident that it will receive its specified share.
+=== P16 (361 chars) ===
+The Problem of Complements
+---
+There are other mechanisms that work in different industries.
+E.g. DVD industry
+Consumer electronics firms didn’t want to produce players unless they were assured that there would be plenty of content available
+And content providers didn’t want to produce content unless they were sure that would be lots of DVD players out there.
+=== P17 (390 chars) ===
+The Problem of Complements
+---
+Both the consumer electronics firms and the content producers would have to worry about the pricing of complements problem. 
+If there were only a few providers of players and only a few providers of content, then they would each want to price their products “too high
+This will reduce the total profit available in the industry and making consumers worse off.
+=== P18 (304 chars) ===
+The Problem of Complements
+---
+Example:
+Sony and Philips, who held the basic patents on the DVD technology, helped solve this problem by licensing the technology widely at attractive prices.
+They also realized that there had to be a lot of competition to keep the prices down and kick start the industry.
+=== P19 (26 chars) ===
+The Problem of Complements
+=== P20 (406 chars) ===
+The Problem of Complements
+---
+The challenge facing firm 1 is then: how can I get firm 2 to cut its price?
+One way is to try to make competition for firm 2 more intense. 
+Various strategies are possible here, depending on the nature of the industry. 
+In technology-intensive industries, standardization becomes an important tool. 
+An OS producer, for example, would want to encourage standardized hardware.
+=== P21 (439 chars) ===
+Lock-In
+---
+Since IT components often work together as systems, switching any one component often involves switching others as well. 
+This means that the switching costs associated with one component in IT industries may be quite substantial.
+When switching costs are very high, users may find themselves experiencing lock-in, a situation where the cost of changing to a different system is so high that switching is virtually not possible
+=== P22 (422 chars) ===
+Lock-In
+---
+Assume that the cost of providing a customer with Internet access is c per month.
+Also assume a perfectly competitive market with many identical firms.
+In the absence of any switching costs, the price of Internet service would simply be p = c.
+Suppose that there is a cost s of switching Internet service provider (ISP) and that ISPs can offer a discount of size d for the first month to attract new customers.
+=== P23 (476 chars) ===
+Lock-In
+---
+At the start of a given month, a consumer contemplates switching to a new ISP. 
+If he does so, he only has to pay the discounted price, p − d, but he also has to endure the switching costs s. 
+After the first month, we assume that both providers continue to charge the same price p forever.
+The consumer will switch if the present value of the payments to the new provider plus the switching cost is less than the present value of the payments to the original ISP.
+=== P24 (7 chars) ===
+Lock-In
+=== P25 (7 chars) ===
+Lock-In
+=== P26 (7 chars) ===
+Lock-In
+=== P27 (7 chars) ===
+Lock-In
+=== P28 (7 chars) ===
+Lock-In
+=== P29 (427 chars) ===
+Network Externalities
+---
+Network externalities are a special kind of externalities in which one person’s utility for a good depends on the number of other people who consume this good.
+Eg: People want fax machines so they can communicate with each other. If no one else has a fax machine, it certainly isn’t worthwhile for you to buy one.
+Another more indirect effect for network externalities arises with complementary goods.
+=== P30 (504 chars) ===
+Markets with Network Externalities
+---
+Suppose that there are 1000 people in a market for some good and we index the people by v = 1,..., 1000. 
+Think of v as measuring the reservation price for the good by person v.
+The price of the good is p; 
+the number of people who think that the good is worth at least p is 1000 − p.
+This structure generates a standard, downward-sloping demand curve.
+---
+[TABLE]
+Person index (v) | 1 | 2 | 3 | … … | 999 | 1000
+Reservation price(=v) | 1 | 2 | 3 | … … | 999 | 1000
+=== P31 (344 chars) ===
+Markets with Network Externalities
+---
+Suppose that the good we are examining exhibits network externalities, like a fax machine or a telephone. 
+The value of the good to person v is vn 
+n is the number of people who consume the good—the number of people who are connected to the network.
+What does the demand function look like for this model?
+=== P32 (34 chars) ===
+Markets with Network Externalities
+=== P33 (34 chars) ===
+Markets with Network Externalities
+=== P34 (411 chars) ===
+Markets with Network Externalities
+---
+If the number of people who connect is low, then the willingness to pay of the marginal individual is low, because there aren’t many other people out there that he can communicate with.
+---
+If there are a large number of people connected, then the willingness to pay of the marginal individual is low, because everyone else who valued it more highly has already connected.
+=== P35 (34 chars) ===
+Markets with Network Externalities
+=== P36 (475 chars) ===
+Markets with Network Externalities
+---
+The middle equilibrium with a positive but small number of consumers is one where people don’t think the network will be very big, so they aren’t willing to pay that much to connect to it—and therefore the network isn’t very big.
+---
+Finally, the last equilibrium has a large number of people. Here the price is small because the marginal person who purchases the good doesn’t value it very highly, even though the market is very large.
+=== P37 (511 chars) ===
+Which of the three equilibria will we see occur?
+---
+We can add a dynamic adjustment process to help us decide which equilibrium is more likely to occur.
+Assume that when people are willing to pay more than the cost of the good, the size of the market expands and, when they are willing to pay less, the market contracts.
+Geometrically this is saying that when the demand curve is above the supply curve, the quantity goes up and, when it is beneath the supply curve, the quantity goes down.
+---
+Market Dynamics
+=== P38 (15 chars) ===
+Market Dynamics
+=== P39 (198 chars) ===
+Market Dynamics
+---
+It is now evident that the low-level equilibrium, where no one connects, and the high-level equilibrium, where many people connect, are stable
+The middle equilibrium is unstable.
+=== P40 (423 chars) ===
+Market Dynamics
+---
+We are now left with two possible stable equilibria; how can we tell which is likely to occur? 
+One idea is to think about how costs might change over time: cost of the good starts out high and then decreases over time due to technological progress.
+At a high unit cost there is only one stable equilibrium—where demand equals zero. When the cost decreases sufficiently, there are two stable equilibria.
+=== P41 (446 chars) ===
+Market Dynamics
+---
+Now add some noise to the system. 
+Think of perturbing the number of people connected to the network around the equilibrium point of n∗ = 0. 
+These perturbations could be random, or they could be part of business strategies such as initial discounts or other promotions.
+As the cost gets smaller and smaller, it becomes increasingly likely that one of these perturbations will kick the system up past the unstable equilibrium.
+=== P42 (190 chars) ===
+Market Dynamics
+---
+The cost decreases, and at some point we reach a critical mass that kicks us up past the low-level equilibrium and the system then zooms up to the high-level equilibrium.
+=== P43 (98 chars) ===
+Market Dynamics
+---
+A real-life example of this kind of adjustment is the market for fax machines.
+=== P44 (511 chars) ===
+Implications of Network Externalities
+---
+The model described above, simple though it is, still yields a number of insights. 
+For example, the critical mass issue is very important: if one user’s demand depends on how many other users there are, it is very important to try to stimulate growth early in the life cycle of a product.
+Nowadays it is quite common to see producers offering very cheap access to a piece of software or a communications service in order to “create a market” where none existed before.
+=== P45 (220 chars) ===
+Implications of Network Externalities
+---
+Another important implication of network externalities is the role played by governmental policy.
+The Internet is a prime example. 
+Some old examples: The Yellow Pages, Radio Ads
+=== P46 (522 chars) ===
+Two-sided Markets
+---
+A two-sided market is a special kind of network effect. 
+Think about the case of a new technology, like Blu-ray DVDs. I don’t really care what sort of DVD player other people have, so there is no direct network effect. 
+But there is a kind of indirect network effect: the more Blu-ray players that are sold, the more disks that will become available, and the more disks there are available, the more attractive it will be to buy a Blu-ray player.
+Examples: A new credit card; 
+   Adobe’s PDF platform
+=== P47 (17 chars) ===
+Two-sided Markets
+=== P48 (17 chars) ===
+Two-sided Markets
+=== P49 (17 chars) ===
+Two-sided Markets
+=== P50 (446 chars) ===
+Two-sided Markets
+---
+There is a low-level equilibrium where little is sold of either good and a high-level equilibrium where there are substantial sales of both goods.
+The challenge facing a supplier is how to get to the high-level equilibrium. 
+One strategy, mentioned above, is to subsidize the production of one of the goods. Selling one good below cost can make sense if it leads to a larger market and more profits for other goods you sell.
+=== P51 (515 chars) ===
+Rights Management
+---
+There is much interest these days in new business models for intellectual property (IP).
+IP transactions take a variety of forms: 
+books are sold outright and also borrowed from libraries. 
+Videos can either be sold or rented. 
+Some software is licensed for particular uses; other software is sold outright. Shareware is a form of software in which payment is voluntary.
+Choosing the terms and conditions under which a piece of intellectual property is offered is a critical business decision.
+=== P52 (17 chars) ===
+Rights Management
+=== P53 (445 chars) ===
+Rights Management
+---
+Now the seller of the good contemplates liberalizing terms and conditions:  (e.g. extending a trial period of free use from 1 week to 1 month)
+Two effects on the demand curve.
+First, it increases the value of the product to each of the potential users, shifting the demand curve up.
+But it also may easily result in less of the item being sold, since some users will find the longer trial period enough to meet their needs.
+=== P54 (17 chars) ===
+Rights Management
+=== P55 (17 chars) ===
+Rights Management
+=== P56 (463 chars) ===
+Rights Management
+---
+We can conclude that Y∗ = y∗.
+This simple analysis allows us to make several conclusions:
+The amount of the good consumed, Y∗, is independent of the terms and conditions. 
+The amount of the good produced is y∗/b, which is less than y∗.
+The profits could go up or down depending on whether a/b is greater or less than 1. Profits go up if the increase in value to the consumers who buy the product compensates for the reduced number of buyers.
+=== P57 (222 chars) ===
+Sharing Intellectual Property
+---
+Intellectual property is often shared. 
+e.g. Video stores help people to “share” videos—and charge a price for doing so.
+Let us try to construct a model of this sort of sharing phenomenon.
+=== P58 (29 chars) ===
+Sharing Intellectual Property
+=== P59 (29 chars) ===
+Sharing Intellectual Property
+=== P60 (426 chars) ===
+Sharing Intellectual Property
+---
+We need to specify how the consumers sort themselves into the “clubs” that share the videos.
+The simplest assumption is that the consumers with high values associate with each other, and the consumers with low-values associate with each other.
+That is, one club consists of consumers with the k highest values, another club consists of the consumers with the next k highest values, and so on.
+=== P61 (29 chars) ===
+Sharing Intellectual Property
+=== P62 (29 chars) ===
+Sharing Intellectual Property
+=== P63 (29 chars) ===
+Sharing Intellectual Property
+=== P64 (29 chars) ===
+Sharing Intellectual Property
+=== P65 (29 chars) ===
+Sharing Intellectual Property
