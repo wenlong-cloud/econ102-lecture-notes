@@ -1,32 +1,58 @@
 # ECON102 微观经济学 · 逐页精讲
 
-把一门微观经济学课的 14 份课件（886 张幻灯片）逐页讲了一遍，做成一个可以点着读的静态站点：左边翻页，右边是幻灯片原图和中文讲稿，正文里带下划线的术语点开就有解释，右上角还能直接问 AI。
+把一门微观经济学课的 14 份课件（886 张幻灯片）逐页讲了一遍，做成一个能直接双击打开的网页：左边翻页码，右边是幻灯片原图和中文讲稿，正文里带下划线的术语点开就有解释，右上角还能就当前这页问 AI。
 
-课程内容大致是：选择与机会成本 → 最优化与供求 → 消费者 → 生产者 → 竞争均衡与福利 → 垄断 → 外部性 → 科斯定理与公共品 → 税收与政府失灵 → 博弈论 → 信息技术经济学。
+课程主线：选择与机会成本 → 最优化与供求 → 消费者 → 生产者 → 竞争均衡与福利 → 垄断 → 外部性 → 科斯定理与公共品 → 税收与政府失灵 → 博弈论 → 信息技术经济学。
 
-- **在线看**：<https://wenlong-cloud.github.io/econ102-lecture-notes/>
-- **本地看**：双击 `docs/index.html`（不用装任何东西，也不用起服务器）
-- **仓库**：<https://github.com/wenlong-cloud/econ102-lecture-notes>
+![讲次页](preview/lecture.png)
+
+![术语表](preview/glossary.png)
+
+## 怎么拿到手
+
+### 方式一：下载压缩包（最省事，不用装任何东西）
+
+1. 打开右边的 **Releases**，点最新那个，下载 `ECON102-lecture-notes.zip`（约 34 MB）
+   直链：<https://github.com/wenlong-cloud/econ102-lecture-notes/releases/latest>
+2. 解压，得到一个 `ECON102-讲义` 文件夹
+3. 双击里面的 **`打开讲义.bat`**，浏览器就开了；打不开就手动双击 `course\index.html`
+
+不用装 Python，不用装 Node，不用起服务器，不用联网。整个文件夹可以拷到 U 盘、发给同学、放在任何一台电脑上——只要 `course` 和 `assets` 两个文件夹待在一起（页面用相对路径找图）。
+
+### 方式二：git clone（想改讲稿的人用这个）
+
+```
+git clone https://github.com/wenlong-cloud/econ102-lecture-notes.git
+```
+
+然后双击 `docs/index.html`。
+
+这个版本是扁平的（`index.html` 和 `assets/` 同一层），图片压到了 1200px WebP，一共 38 MB。它和压缩包里的内容一样，只是目录结构不同。
+
+### 为什么不能在 GitHub 上直接点开看
+
+GitHub 只会把 `.html` 当源码显示给你看，不会渲染成网页。想「在线阅读」得开 GitHub Pages，但那样等于把 886 张课程幻灯片挂成公开网站——我不想这么干，所以这个仓库只提供下载。下载下来在本地跑，功能一点不少。
 
 ## 里面有什么
 
 ```
-docs/            可以直接打开的站点（GitHub Pages 的根目录）
+docs/            可直接双击打开的站点
   index.html       课程大纲 + 逐讲入口
   lec01.html ...   14 个讲次的逐页精讲
   glossary.html    术语表，221 条，可搜索、可按讲次筛
   assets/          886 张幻灯片图（WebP，1200px 宽）
-src/             讲稿源文件（Markdown，一页一块）
+src/            讲稿源文件（Markdown，一页一块）
   lec*.md          14 份讲稿
-  gloss_*.json     术语数据（分讲次写的）
+  gloss_*.json     术语数据（按讲次分开写的）
   glossary.json    合并去重后的术语表
   syllabus.json    讲次清单（页数、主题、图片目录）
   outline.md       课程大纲
-work/            生成脚本
-  build_site.py    把 src 里的 Markdown + 术语 + 图片拼成整个站点
-  make_docs.py     生成 docs/（供 Pages 用）
-  pack.py          打一个可以发给别人的离线包（zip）
+work/           生成脚本
+  build_site.py    把 Markdown + 术语 + 图片拼成整站
+  make_docs.py     生成 docs/
+  pack.py          打离线压缩包（就是 Release 里那个 zip）
   check_notes.py   检查讲稿有没有漏页、某页写得太短
+preview/        README 里的截图
 ```
 
 ## 规模
@@ -57,26 +83,33 @@ work/            生成脚本
 2. 充一点钱（10 块够问上千次），左侧「API keys」→ 创建，复制 `sk-` 开头那串
 3. 粘进对话框，点「保存并开始」
 
-Key 只存在你浏览器的 localStorage 里，不会进这个仓库。代价是 Chromium 系浏览器里所有 `file://` 页面共用同一份 localStorage，所以别人发来的本地网页理论上也能读到它——自己电脑上无所谓，公共电脑上别填。
+Key 只存在你浏览器的 localStorage 里，不会进这个仓库，也不会跟着压缩包传出去。代价是 Chromium 系浏览器里所有 `file://` 页面共用同一份 localStorage，所以别人发来的本地网页理论上也能读到它——自己电脑上无所谓，公共电脑上别填。
 
-## 重新生成
-
-改了 `src/` 里的讲稿之后：
+## 改了讲稿怎么重建
 
 ```powershell
-python work/build_site.py            # 重建 course/（全质量版，用 1600px 原图）
-python work/make_docs.py             # 重建 docs/（Pages 版，用 1200px WebP）
+python work/build_site.py     # 重建 course/（全质量版，用 1600px 原图）
+python work/make_docs.py      # 重建 docs/（仓库里这份，1200px WebP）
+python work/pack.py           # 重新打 Release 用的 zip
 ```
 
-`build_site.py` 需要 `work/<讲次>.json`（每页的文字 dump）和 `assets/<讲次>/slide-NNN.png`（幻灯片图）。这两样都是从原始课件导出的，课件本身不在这里——原因见下。
+`build_site.py` 需要两样东西：`work/<讲次>.json`（每页文字，仓库里有）和 `assets/<讲次>/slide-NNN.png`（幻灯片原图，仓库里没有）。后者是从课程文件导出的，课程文件本身有版权也有几百 MB，所以没放进来。只改讲稿文字的话，用现成的 `docs/` 就够——它已经带着图了。
 
-要打一个能发给同学的离线压缩包：`python work/pack.py`，产物在 `dist/`（约 36 MB）。
+## 为什么 zip 放在 Release，不直接传进仓库
+
+三个原因，都挺实在：
+
+1. **git 会记住每一个版本。** 一个 34 MB 的 zip 提交进去，将来每改一次重新上传，仓库就再多 34 MB，历史永远带着这些旧包。Release 的附件不进版本历史，删了就是删了。
+2. **下载体验不一样。** Release 有一个固定直链（`/releases/latest`），点一下就下；而仓库里的 zip 得先点进文件、再点 Download，手机上尤其别扭。
+3. **别人 clone 的时候不用拖着 34 MB 二进制。** 仓库里已经有 `docs/assets` 那 886 张图（38 MB），再塞一个装同样内容的 zip 就是重复。
+
+顺带一句：GitHub 仓库本身的「Download ZIP」按钮不好用在这——它会把 `work/`、`src/`、`.git` 相关的东西全打包，解压出来是一堆源码，不是能双击运行的东西。Release 里那个包只有该有的东西。
 
 ## 版权
 
-幻灯片是课程作者（浙江大学 Mohan Zhou）和教材作者（Acemoglu–Laibson–List《Economics》、Landsburg《Price Theory》、Varian《Intermediate Microeconomics》）的东西，不是我的。这里放图片纯粹是为了「看着原图读讲稿」这个学习场景；**中文讲稿、术语解释、站点代码是我写的**。
+幻灯片是课程作者（浙江大学 Mohan Zhou）和教材作者（Acemoglu–Laibson–List《Economics》、Landsburg《Price Theory》、Varian《Intermediate Microeconomics》）的东西，不是我的。放图片纯粹是为了「看着原图读讲稿」这个学习场景；**中文讲稿、术语解释、站点代码是我写的**。
 
-如果课程作者或版权方不希望这些图被公开，说一声我就把 `docs/assets/` 撤掉，站点保留文字部分照样能读。
+所以：自己学、给同学看，随意；别拿去二次发布或商用。如果版权方希望撤掉，说一声我就把 `docs/assets/` 清空，文字部分照样能读。
 
 ## 顺带记两处课件笔误
 
