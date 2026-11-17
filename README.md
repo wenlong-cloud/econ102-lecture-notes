@@ -4,8 +4,9 @@
 
 课程内容大致是：选择与机会成本 → 最优化与供求 → 消费者 → 生产者 → 竞争均衡与福利 → 垄断 → 外部性 → 科斯定理与公共品 → 税收与政府失灵 → 博弈论 → 信息技术经济学。
 
-- **在线看**：<https://你的用户名.github.io/仓库名/>
+- **在线看**：<https://wenlong-cloud.github.io/econ102-lecture-notes/>
 - **本地看**：双击 `docs/index.html`（不用装任何东西，也不用起服务器）
+- **仓库**：<https://github.com/wenlong-cloud/econ102-lecture-notes>
 
 ## 里面有什么
 
